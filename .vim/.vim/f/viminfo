@@ -18,9 +18,9 @@ $subword
 
 # Command Line History (newest to oldest):
 :wq
+:q
 :w
 :we
-:q
 :wqa
 :'<,'>s/word/subword/g
 :e!
@@ -40,9 +40,8 @@ $subword
 # Input Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	                kp = k+1
-	                fws, swp = fw[-kp:], sw[:kp]
+""0	LINE	0
+	            - 50-synaptics.conf: /etc/X11/xorg.conf.d/50-synaptics.conf
 "1	LINE	0
 	                        kk
 "2	LINE	0
@@ -63,22 +62,27 @@ $subword
 "9	LINE	0
 	d = {}
 	
-""-	CHAR	0
+"-	CHAR	0
 	}
 
 # File marks:
-'0  60  24  ~/gsoc/sandhi-splitter/data/analysis.py
-'1  58  26  ~/gsoc/sandhi-splitter/data/analysis.py
-'2  59  30  ~/gsoc/sandhi-splitter/data/analysis.py
-'3  62  27  ~/gsoc/sandhi-splitter/data/analysis.py
-'4  14  4  ~/gsoc/sandhi-splitter/data/analysis.py
-'5  64  42  ~/gsoc/sandhi-splitter/data/analysis.py
-'6  5  52  ~/gsoc/sandhi-splitter/data/analysis.py
-'7  9  78  ~/gsoc/sandhi-splitter/data/analysis.py
-'8  8  31  ~/gsoc/sandhi-splitter/data/analysis.py
-'9  6  14  ~/gsoc/sandhi-splitter/data/analysis.py
+'0  25  24  ~/dot/config.yml
+'1  7  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+'2  1  0  ~/.xprofile
+'3  60  24  ~/gsoc/sandhi-splitter/data/analysis.py
+'4  58  26  ~/gsoc/sandhi-splitter/data/analysis.py
+'5  59  30  ~/gsoc/sandhi-splitter/data/analysis.py
+'6  62  27  ~/gsoc/sandhi-splitter/data/analysis.py
+'7  14  4  ~/gsoc/sandhi-splitter/data/analysis.py
+'8  64  42  ~/gsoc/sandhi-splitter/data/analysis.py
+'9  5  52  ~/gsoc/sandhi-splitter/data/analysis.py
 
 # Jumplist (newest first):
+-'  25  24  ~/dot/config.yml
+-'  1  0  ~/dot/config.yml
+-'  7  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+-'  1  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+-'  1  0  ~/.xprofile
 -'  60  24  ~/gsoc/sandhi-splitter/data/analysis.py
 -'  59  15  ~/gsoc/sandhi-splitter/data/analysis.py
 -'  3  0  ~/gsoc/sandhi-splitter/data/analysis.py
@@ -174,11 +178,21 @@ $subword
 -'  87  4  ~/gsoc/sandhi-splitter/annotation/annotation.py
 -'  1  0  ~/gsoc/sandhi-splitter/annotation/annotation.py
 -'  87  4  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  1  0  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  87  4  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  1  0  ~/gsoc/sandhi-splitter/annotation/annotation.py
 
 # History of marks within files (newest to oldest):
+
+> ~/dot/config.yml
+	"	25	24
+	^	25	25
+	.	25	24
+	+	23	0
+	+	25	24
+
+> /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+	"	7	0
+
+> ~/.xprofile
+	"	1	0
 
 > ~/gsoc/sandhi-splitter/data/analysis.py
 	"	60	24
