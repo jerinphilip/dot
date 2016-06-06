@@ -8,27 +8,98 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/word
+~MSle0~/images
 
 # Last Substitute Search Pattern:
-~MSle0&word
+~MSle0&;
 
 # Last Substitute String:
-$subword
+$
 
 # Command Line History (newest to oldest):
 :wq
 :q
 :w
-:we
-:wqa
-:'<,'>s/word/subword/g
-:e!
-:e
-:എ
+:tabnew sandhisplitter/model.py
+:tabnew sandhisplitter/util.py
 :qa
+:tabnew sandhisplitter/train.py
+:tabnew sandhisplitter/trie.py
+:tabnew model.py
+:tabnew model.json
+:w'
+:r 2016-06-04-work-division.markdown
+:we
+:tabnew templates/default.html
+:r 2016-04-06-hello-world.markdown
+:82
+:W
+:tabnew trie.py
+:qall
+:weq
+:11
+:'<,'>s/\"/\'/g
+:13
+:q!
+:r tests/testdata
+:tabnew train.py
+:qw
+:r ! head -n 20 ../../data/ltrc_dataset
+:r test_trie.py
+:71
+:71\
+:ws
+:43
+:42
+:5
+:41
+:r 2015-05-26-dotfiles.markdown
+:29
+:37
+:36
+:32
+:tabnew util.py
+:ew
+:tabnew Makefile
+:set paste
+:27
+:15
+:25
+:62
+:57
 
 # Search String History (newest to oldest):
+?/images
+?/blog
+? \"
+?/words
+?/head
+?/;
+?/trie.
+? \<Done\>
+? \<lambda\>
+???
+?/^$
+?/c_n
+? ;
+?/Link
+?/link
+?/word = nu
+?/rule_based
+?/activ
+?/split
+?/post
+?/thre
+?/print
+?/submi
+?/Adding
+?/P
+?/here
+?/red
+?/redire
+?/rule_base
+?/word
+?/word=
 ? word
 ?/console.log
 ?/console
@@ -40,445 +111,2470 @@ $subword
 # Input Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
-	            - 50-synaptics.conf: /etc/X11/xorg.conf.d/50-synaptics.conf
+"0	LINE	0
+	    plot(xy(:,1), xy(:, 2), 'LineWidth', 2, 'Color', 'green');
 "1	LINE	0
-	                        kk
+	
 "2	LINE	0
-	                print normal, txtd, distance(normal, txd)
+	            splits = []
 "3	LINE	0
-	                fw + 
+	
 "4	LINE	0
-	            print i, j, i-1, j-1
+	            word = 
 "5	LINE	0
-	    print table
+	            words = 0
 "6	LINE	0
-	
+	            sp = M.probable_splits(line))
 "7	LINE	0
-	data = codecs.open(sys.argv[1], "r", 'utf-8')
-	out = codecs.open(sys.argv[2], "w", 'utf-8')
+	        print(M.serialize())
 "8	LINE	0
-	
+	        print(M.probable_splits('hello'))
 "9	LINE	0
-	d = {}
 	
-"-	CHAR	0
-	}
+""-	CHAR	0
+	1
 
 # File marks:
-'0  25  24  ~/dot/config.yml
-'1  7  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
-'2  1  0  ~/.xprofile
-'3  60  24  ~/gsoc/sandhi-splitter/data/analysis.py
-'4  58  26  ~/gsoc/sandhi-splitter/data/analysis.py
-'5  59  30  ~/gsoc/sandhi-splitter/data/analysis.py
-'6  62  27  ~/gsoc/sandhi-splitter/data/analysis.py
-'7  14  4  ~/gsoc/sandhi-splitter/data/analysis.py
-'8  64  42  ~/gsoc/sandhi-splitter/data/analysis.py
-'9  5  52  ~/gsoc/sandhi-splitter/data/analysis.py
+'0  55  0  ~/dot/script.py
+'1  15  32  ~/gsoc/sandhi-splitter/sandhisplitter/model.py
+'2  2  0  ~/gsoc/sandhi-splitter/sandhisplitter/train.py
+'3  35  40  ~/gsoc/sandhi-splitter/sandhisplitter/train.py
+'4  50  8  ~/gsoc/sandhi-splitter/sandhisplitter/model.py
+'5  14  21  ~/gsoc/sandhi-splitter/sandhisplitter/model.py
+'6  34  8  ~/gsoc/sandhi-splitter/sandhisplitter/train.py
+'7  40  24  ~/gsoc/sandhi-splitter/sandhisplitter/train.py
+'8  24  31  ~/gsoc/sandhi-splitter/sandhisplitter/train.py
+'9  44  13  ~/gsoc/sandhi-splitter/sandhisplitter/model.py
 
 # Jumplist (newest first):
--'  25  24  ~/dot/config.yml
--'  1  0  ~/dot/config.yml
--'  7  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
--'  1  0  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
--'  1  0  ~/.xprofile
--'  60  24  ~/gsoc/sandhi-splitter/data/analysis.py
--'  59  15  ~/gsoc/sandhi-splitter/data/analysis.py
--'  3  0  ~/gsoc/sandhi-splitter/data/analysis.py
--'  1  0  ~/gsoc/sandhi-splitter/data/analysis.py
--'  58  26  ~/gsoc/sandhi-splitter/data/analysis.py
--'  62  27  ~/gsoc/sandhi-splitter/data/analysis.py
--'  64  15  ~/gsoc/sandhi-splitter/data/analysis.py
--'  14  4  ~/gsoc/sandhi-splitter/data/analysis.py
--'  5  52  ~/gsoc/sandhi-splitter/data/analysis.py
--'  6  21  ~/gsoc/sandhi-splitter/data/analysis.py
--'  9  78  ~/gsoc/sandhi-splitter/data/analysis.py
--'  8  31  ~/gsoc/sandhi-splitter/data/analysis.py
--'  26  4  ~/gsoc/sandhi-splitter/data/analysis.py
--'  2  0  ~/gsoc/sandhi-splitter/data/analysis.py
--'  28  4  ~/gsoc/sandhi-splitter/data/analysis.py
--'  24  0  ~/gsoc/sandhi-splitter/data/analysis.py
--'  15  21  ~/gsoc/sandhi-splitter/data/analysis.py
--'  46  0  ~/gsoc/sandhi-splitter/data/analysis.py
--'  1  0  ~/repo/cs-dl/script.py
--'  5  35  ~/repo/cs-dl/script.py
--'  10  13  ~/repo/cs-dl/script.py
--'  40  38  ~/gsoc/sandhi-splitter/data/analysis.py
--'  43  31  ~/gsoc/sandhi-splitter/data/analysis.py
--'  45  11  ~/gsoc/sandhi-splitter/data/analysis.py
--'  37  0  ~/gsoc/sandhi-splitter/data/analysis.py
--'  44  23  ~/gsoc/sandhi-splitter/data/analysis.py
--'  41  41  ~/gsoc/sandhi-splitter/data/analysis.py
--'  30  4  ~/gsoc/sandhi-splitter/data/analysis.py
--'  47  3  ~/gsoc/sandhi-splitter/data/analysis.py
--'  22  35  ~/gsoc/sandhi-splitter/data/analysis.py
--'  67  13  ~/gsoc/sandhi-splitter/data/analysis.py
--'  1  0  ~/gsoc/sandhi-splitter/data/analysis.p
--'  1  0  ~/gsoc/Malayalam_Sandhi_Splitter/Malayalam_Sandhi_Splitter/src/sandhi_rules/testNtrainData999/mal9/plainntext9
--'  1  0  ~/gsoc/Malayalam_Sandhi_Splitter/Malayalam_Sandhi_Splitter/src/sandhi_rules/testNtrainData999/mal9/data_9999
--'  1  0  ~/gsoc/Malayalam_Sandhi_Splitter/Malayalam_Sandhi_Splitter/src/in.txt
--'  1  0  ~/gsoc/sandhi-splitter/.git/COMMIT_EDITMSG
--'  3  5  ~/gsoc/sandhi-splitter/.git/rebase-merge/git-rebase-todo
--'  1  0  ~/gsoc/sandhi-splitter/.git/rebase-merge/git-rebase-todo
--'  66  0  ~/gsoc/sandhi-splitter/.gitignore
--'  1  0  ~/gsoc/sandhi-splitter/.gitignore
--'  1  0  ~/gsoc/sandhi-splitter/annotation/templates/show_data.html
--'  21  4  ~/gsoc/sandhi-splitter/annotation/static/css/editor.css
--'  1  0  ~/gsoc/sandhi-splitter/annotation/templates/editor.html
--'  5  0  ~/gsoc/sandhi-splitter/annotation/templates/layout.html
--'  3  2  ~/gsoc/sandhi-splitter/annotation/static/js/helper.js
--'  87  4  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  1  0  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  87  4  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  1  0  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  87  4  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  1  0  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  87  4  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  1  0  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  87  4  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  1  0  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  87  4  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  1  0  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  87  4  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  1  0  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  87  4  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  1  0  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  87  4  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  1  0  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  87  4  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  1  0  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  87  4  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  1  0  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  87  4  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  1  0  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  87  4  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  1  0  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  87  4  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  1  0  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  87  4  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  1  0  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  87  4  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  1  0  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  1  0  ~/gsoc/sandhi-splitter/annotation/templates/show_data.html
--'  21  4  ~/gsoc/sandhi-splitter/annotation/static/css/editor.css
--'  1  0  ~/gsoc/sandhi-splitter/annotation/templates/editor.html
--'  5  0  ~/gsoc/sandhi-splitter/annotation/templates/layout.html
--'  3  2  ~/gsoc/sandhi-splitter/annotation/static/js/helper.js
--'  87  4  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  1  0  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  87  4  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  1  0  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  87  4  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  1  0  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  87  4  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  1  0  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  87  4  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  1  0  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  87  4  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  1  0  ~/gsoc/sandhi-splitter/annotation/annotation.py
--'  87  4  ~/gsoc/sandhi-splitter/annotation/annotation.py
+-'  55  0  ~/dot/script.py
+-'  1  0  ~/dot/script.py
+-'  15  32  ~/gsoc/sandhi-splitter/sandhisplitter/model.py
+-'  1  0  ~/gsoc/sandhi-splitter/sandhisplitter/model.py
+-'  2  0  ~/gsoc/sandhi-splitter/sandhisplitter/train.py
+-'  1  0  ~/gsoc/sandhi-splitter/sandhisplitter/train.py
+-'  35  40  ~/gsoc/sandhi-splitter/sandhisplitter/train.py
+-'  50  8  ~/gsoc/sandhi-splitter/sandhisplitter/model.py
+-'  14  21  ~/gsoc/sandhi-splitter/sandhisplitter/model.py
+-'  34  8  ~/gsoc/sandhi-splitter/sandhisplitter/train.py
+-'  40  24  ~/gsoc/sandhi-splitter/sandhisplitter/train.py
+-'  24  31  ~/gsoc/sandhi-splitter/sandhisplitter/train.py
+-'  44  13  ~/gsoc/sandhi-splitter/sandhisplitter/model.py
+-'  36  0  ~/gsoc/sandhi-splitter/sandhisplitter/train.py
+-'  42  24  ~/gsoc/sandhi-splitter/sandhisplitter/train.py
+-'  20  51  ~/gsoc/sandhi-splitter/sandhisplitter/train.py
+-'  49  8  ~/gsoc/sandhi-splitter/sandhisplitter/model.py
+-'  12  0  ~/gsoc/sandhi-splitter/sandhisplitter/model.py
+-'  81  46  ~/gsoc/sandhi-splitter/sandhisplitter/trie.py
+-'  8  0  ~/gsoc/sandhi-splitter/sandhisplitter/trie.py
+-'  50  0  ~/gsoc/sandhi-splitter/sandhisplitter/train.py
+-'  48  8  ~/gsoc/sandhi-splitter/sandhisplitter/train.py
+-'  1  0  ~/gsoc/sandhi-splitter/data/ltrc_dataset
+-'  2  0  ~/gsoc/sandhi-splitter/sandhisplitter/model.py
+-'  14  81  ~/cvit/cvit-journal/posts/2016-06-02-work-division.markdown
+-'  1  0  ~/cvit/cvit-journal/posts/2016-06-02-work-division.markdown
+-'  13  23  ~/cvit/cvit-journal/posts/2016-06-04-data-storage.markdown
+-'  1  0  ~/cvit/cvit-journal/posts/2016-06-04-data-storage.markdown
+-'  15  0  ~/cvit/cvit-journal/posts/2016-06-02-work-division.markdown
+-'  9  178  ~/cvit/cvit-journal/posts/2016-06-04-data-storage.markdown
+-'  87  0  ~/cvit/cvit-journal/site.hs
+-'  1  0  ~/cvit/cvit-journal/site.hs
+-'  2  34  ~/cvit/cvit-journal/posts/2016-06-04-data-storage.markdown
+-'  7  0  ~/cvit/cvit-journal/posts/2016-06-04-data-storage.markdown
+-'  14  0  ~/cvit/cvit-journal/posts/2016-06-04-data-storage.markdown
+-'  17  0  ~/cvit/cvit-journal/posts/2016-06-04-data-storage.markdown
+-'  15  0  ~/cvit/cvit-journal/posts/2016-06-04-work-division.markdown
+-'  1  0  ~/cvit/cvit-journal/posts/2016-06-04-work-division.markdown
+-'  18  0  ~/cvit/cvit-journal/posts/2016-06-04-data-storage.markdown
+-'  32  11  ~/cvit/cvit-journal/site.hs
+-'  1  0  ~/cvit/cvit-journal/2016-06-04-data-storage.markdown
+-'  5  25  ~/cvit/cvit-journal/index.html
+-'  1  0  ~/cvit/cvit-journal/index.html
+-'  21  32  ~/cvit/cvit-journal/templates/default.html
+-'  1  0  ~/cvit/cvit-journal/templates/default.html
+-'  2  0  ~/cvit/cvit-journal/site.hs
+-'  3  0  ~/cvit/cvit-journal/index.html
+-'  29  72  ~/.bashrc
+-'  59  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  1  0  ~/cvit/site/jerinphilip-github-io.cabal
+-'  55  29  ~/gsoc/sandhi-splitter/sandhisplitter/trie.py
+-'  1  0  ~/gsoc/sandhi-splitter/sandhisplitter/trie.py
+-'  1  0  ~/gsoc/sandhi-splitter/model.json
+-'  31  21  ~/gsoc/sandhi-splitter/sandhisplitter/train.py
+-'  30  52  ~/gsoc/sandhi-splitter/sandhisplitter/train.py
+-'  29  0  ~/gsoc/sandhi-splitter/sandhisplitter/train.py
+-'  29  16  ~/gsoc/sandhi-splitter/sandhisplitter/model.py
+-'  25  8  ~/gsoc/sandhi-splitter/sandhisplitter/train.py
+-'  84  8  ~/gsoc/sandhi-splitter/sandhisplitter/trie.py
+-'  2  39  ~/cvit/imp/sudoku.m
+-'  14  43  ~/cvit/imp/sudoku.m
+-'  1  0  ~/cvit/imp/sudoku.m
+-'  73  8  ~/gsoc/sandhi-splitter/sandhisplitter/trie.py
+-'  37  8  ~/gsoc/sandhi-splitter/sandhisplitter/model.py
+-'  22  8  ~/gsoc/sandhi-splitter/sandhisplitter/model.py
+-'  43  0  ~/gsoc/sandhi-splitter/sandhisplitter/train.py
+-'  74  34  ~/gsoc/sandhi-splitter/sandhisplitter/trie.py
+-'  47  0  ~/gsoc/sandhi-splitter/sandhisplitter/model.py
+-'  41  11  ~/gsoc/sandhi-splitter/sandhisplitter/model.py
+-'  40  8  ~/gsoc/sandhi-splitter/sandhisplitter/model.py
+-'  34  0  ~/gsoc/sandhi-splitter/sandhisplitter/model.py
+-'  7  1  ~/gsoc/sandhi-splitter/Makefile
+-'  1  0  ~/gsoc/sandhi-splitter/Makefile
+-'  1  0  ~/gsoc/sandhi-splitter/setup.py
+-'  1  0  ~/gsoc/sandhi-splitter/model.py
+-'  1  0  ~/cvit/imp/detect.m
+-'  21  9  ~/cvit/imp/detect.m
+-'  8  0  ~/cvit/imp/detect.m
+-'  23  1  ~/cvit/imp/detect.m
+-'  35  17  ~/cvit/imp/detect.m
+-'  41  13  ~/cvit/imp/detect.m
+-'  4  0  ~/cvit/imp/detect.m
+-'  24  0  ~/cvit/imp/detect.m
+-'  2  0  ~/gsoc/sandhi-splitter/sandhisplitter/trie.py
+-'  4  29  ~/tmp.py
+-'  1  0  ~/tmp.py
+-'  2  55  ~/tmp.py
+-'  4  8  ~/tp.py
+-'  1  0  ~/tp.py
+-'  3  0  ~/script.py
+-'  1  0  ~/script.py
+-'  12  14  ~/script.py
+-'  6  0  ~/script.py
+-'  2  1  ~/script.py
+-'  1  0  ~/script.y
+-'  79  33  ~/gsoc/sandhi-splitter/sandhisplitter/trie.py
+-'  23  11  ~/gsoc/sandhi-splitter/sandhisplitter/trie.py
+-'  6  0  ~/gsoc/sandhi-splitter/sandhisplitter/train.py
 
 # History of marks within files (newest to oldest):
 
-> ~/dot/config.yml
-	"	25	24
-	^	25	25
-	.	25	24
+> ~/dot/script.py
+	"	55	0
+
+> ~/gsoc/sandhi-splitter/sandhisplitter/model.py
+	"	15	32
+	^	15	33
+	.	15	32
+	+	4	0
+	+	5	0
+	+	1	0
+	+	2	0
+	+	3	0
+	+	48	0
+	+	35	22
+	+	48	11
+	+	48	0
+	+	37	36
+	+	48	0
+	+	48	35
+	+	48	0
+	+	48	0
+	+	38	27
+	+	39	35
+	+	38	27
+	+	39	38
+	+	40	27
+	+	41	13
+	+	40	18
+	+	41	31
+	+	35	29
+	+	48	0
+	+	48	0
+	+	41	0
+	+	40	34
+	+	48	0
+	+	48	0
+	+	41	0
+	+	40	20
+	+	41	19
+	+	48	0
+	+	42	18
+	+	48	0
+	+	42	14
+	+	43	54
+	+	48	0
+	+	45	38
+	+	48	15
+	+	36	14
+	+	48	12
+	+	45	39
+	+	46	28
+	+	48	0
+	+	47	17
+	+	46	28
+	+	45	36
+	+	34	0
+	+	27	21
+	+	26	0
+	+	34	0
+	+	34	18
+	+	34	0
+	+	28	16
+	+	33	8
+	+	29	27
+	+	31	45
+	+	32	46
+	+	33	0
+	+	44	40
+	+	42	71
+	+	43	71
+	+	44	13
+	+	15	32
+
+> ~/gsoc/sandhi-splitter/sandhisplitter/train.py
+	"	2	0
+	^	39	46
+	.	39	42
+	+	47	36
+	+	47	37
+	+	47	36
+	+	47	0
+	+	47	0
+	+	23	11
 	+	23	0
-	+	25	24
+	+	23	22
+	+	23	25
+	+	23	26
+	+	23	26
+	+	23	28
+	+	23	17
+	+	23	40
+	+	23	21
+	+	23	24
+	+	23	16
+	+	23	31
+	+	23	31
+	+	23	36
+	+	23	20
+	+	23	35
+	+	23	32
+	+	23	30
+	+	23	43
+	+	23	46
+	+	23	0
+	+	23	30
+	+	23	0
+	+	23	15
+	+	23	53
+	+	23	36
+	+	23	38
+	+	28	0
+	+	27	14
+	+	23	0
+	+	23	24
+	+	23	14
+	+	23	0
+	+	23	36
+	+	23	43
+	+	23	64
+	+	47	0
+	+	47	0
+	+	47	0
+	+	45	48
+	+	27	4
+	+	45	0
+	+	46	16
+	+	23	25
+	+	24	0
+	+	47	0
+	+	46	47
+	+	23	47
+	+	46	32
+	+	23	47
+	+	23	39
+	+	23	0
+	+	7	0
+	+	9	0
+	+	23	0
+	+	6	37
+	+	16	0
+	+	43	40
+	+	30	27
+	+	8	10
+	+	30	43
+	+	31	40
+	+	30	0
+	+	29	0
+	+	31	39
+	+	30	27
+	+	30	52
+	+	31	21
+	+	33	59
+	+	43	0
+	+	34	28
+	+	35	41
+	+	30	0
+	+	20	51
+	+	35	40
+	+	38	17
+	+	35	14
+	+	38	25
+	+	43	0
+	+	38	0
+	+	38	0
+	+	38	0
+	+	38	22
+	+	39	35
+	+	38	0
+	+	37	19
+	+	39	43
+	+	40	25
+	+	41	25
+	+	36	22
+	+	41	37
+	+	42	34
+	+	43	0
+	+	39	42
 
-> /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
-	"	7	0
+> ~/gsoc/sandhi-splitter/sandhisplitter/util.py
+	"	1	0
+	^	11	0
+	.	11	0
+	+	10	17
+	+	10	27
+	+	10	7
+	+	10	0
+	+	6	18
+	+	7	24
+	+	9	23
+	+	8	0
+	+	3	0
+	+	8	0
+	+	6	5
+	+	4	18
+	+	5	23
+	+	3	0
+	+	12	0
+	+	2	0
+	+	12	0
+	+	11	0
 
-> ~/.xprofile
+> ~/gsoc/sandhi-splitter/sandhisplitter/trie.py
+	"	81	46
+	^	68	46
+	.	81	46
+	+	87	0
+	+	22	0
+	+	47	0
+	+	58	23
+	+	59	8
+	+	62	24
+	+	87	0
+	+	66	44
+	+	64	0
+	+	63	0
+	+	87	0
+	+	48	23
+	+	22	12
+	+	37	12
+	+	3	0
+	+	1	40
+	+	37	44
+	+	22	39
+	+	2	0
+	+	37	0
+	+	22	0
+	+	37	25
+	+	47	19
+	+	30	43
+	+	42	55
+	+	68	20
+	+	23	0
+	+	68	31
+	+	69	28
+	+	72	24
+	+	72	0
+	+	70	23
+	+	74	47
+	+	87	0
+	+	74	0
+	+	82	26
+	+	75	43
+	+	76	26
+	+	77	43
+	+	82	0
+	+	78	21
+	+	82	0
+	+	44	26
+	+	45	19
+	+	42	15
+	+	45	15
+	+	42	19
+	+	82	44
+	+	79	33
+	+	81	31
+	+	82	0
+	+	86	26
+	+	45	56
+	+	74	44
+	+	71	19
+	+	83	25
+	+	86	32
+	+	83	27
+	+	86	34
+	+	86	0
+	+	86	20
+	+	86	0
+	+	86	23
+	+	86	19
+	+	86	0
+	+	86	0
+	+	86	0
+	+	86	0
+	+	74	0
+	+	84	35
+	+	86	0
+	+	85	19
+	+	84	25
+	+	86	0
+	+	73	34
+	+	81	0
+	+	73	18
+	+	81	62
+	+	80	32
+	+	68	45
+	+	81	46
+
+> ~/gsoc/sandhi-splitter/model.json
 	"	1	0
 
-> ~/gsoc/sandhi-splitter/data/analysis.py
-	"	60	24
-	^	60	24
-	.	60	0
-	+	41	41
-	+	36	18
-	+	41	0
-	+	41	0
-	+	38	43
-	+	44	23
-	+	45	11
-	+	38	20
-	+	40	29
-	+	44	0
-	+	42	45
-	+	43	31
-	+	40	0
-	+	39	19
-	+	40	38
-	+	3	19
-	+	17	0
-	+	17	0
+> ~/gsoc/sandhi-splitter/model.py
+	"	1	0
+
+> ~/gsoc/sandhi-splitter/data/ltrc_dataset
+	"	1	0
+
+> ~/cvit/cvit-journal/posts/2016-06-02-work-division.markdown
+	"	14	81
+	^	14	82
+	.	14	81
 	+	16	0
-	+	3	16
-	+	4	24
-	+	5	13
-	+	7	25
-	+	16	0
-	+	8	21
-	+	8	12
-	+	8	12
-	+	8	12
+	+	14	81
+
+> ~/cvit/cvit-journal/posts/2016-06-04-data-storage.markdown
+	"	13	23
+	^	9	24
+	.	9	23
+	+	1	0
+	+	18	0
+	+	1	0
+	+	18	92
+	+	18	10
+	+	14	17
+	+	18	0
+	+	18	0
+	+	18	0
+	+	18	0
+	+	18	0
+	+	18	0
+	+	18	0
+	+	18	143
+	+	16	19
+	+	18	0
+	+	18	0
+	+	1	0
+	+	14	0
+	+	1	0
+	+	7	0
+	+	2	34
+	+	14	0
+	+	14	4
+	+	7	168
 	+	8	0
-	+	8	22
-	+	6	20
+	+	9	20
+	+	14	0
+	+	9	207
+	+	11	0
+	+	7	0
+	+	8	0
+	+	6	0
+	+	7	0
+	+	14	0
+	+	11	311
+	+	9	0
+	+	9	232
+	+	13	110
+	+	13	0
+	+	9	23
+
+> ~/cvit/cvit-journal/site.hs
+	"	87	0
+
+> ~/cvit/cvit-journal/posts/2016-06-04-work-division.markdown
+	"	15	0
+	^	15	53
+	.	15	52
+	+	2	19
+	+	16	0
+	+	11	45
+	+	14	68
+	+	15	52
+
+> ~/cvit/cvit-journal/templates/default.html
+	"	21	32
+	^	7	39
+	.	7	15
+	+	18	43
+	+	7	15
+
+> ~/cvit/cvit-journal/2016-06-04-data-storage.markdown
+	"	1	0
+
+> ~/cvit/cvit-journal/index.html
+	"	5	25
+	^	5	51
+	.	5	50
+	+	5	50
+
+> ~/.bashrc
+	"	29	72
+	^	29	73
+	.	29	72
+	+	29	72
+
+> ~/cvit/site/jerinphilip-github-io.cabal
+	"	1	0
+	^	1	42
+	.	1	41
+	+	1	41
+
+> ~/cvit/imp/sudoku.m
+	"	2	39
+	^	2	40
+	.	2	39
+	+	2	24
+	+	9	13
+	+	7	0
+	+	2	33
+	+	14	106
+	+	14	43
+	+	14	0
+	+	16	13
+	+	13	23
+	+	15	20
+	+	2	31
+	+	7	20
+	+	12	28
+	+	16	0
+	+	17	0
+	+	15	35
+	+	14	37
+	+	13	0
+	+	10	9
+	+	7	0
+	+	3	12
+	+	2	4
+	+	3	21
+	+	4	19
+	+	7	0
+	+	5	9
+	+	6	0
+	+	6	0
+	+	11	0
+	+	17	0
+	+	7	0
+	+	2	39
+	n	14	39
+
+> ~/gsoc/sandhi-splitter/Makefile
+	"	7	1
+	^	5	41
+	.	5	40
+	+	2	20
+	+	3	23
+	+	4	5
+	+	5	34
+	+	6	40
+	+	5	33
+	+	6	29
+	+	5	40
+
+> ~/gsoc/sandhi-splitter/setup.py
+	"	1	0
+	^	5	40
+	.	5	34
+	+	7	16
+	+	4	0
+	+	7	0
+	+	1	0
+	+	4	55
+	+	5	34
+
+> ~/cvit/imp/detect.m
+	"	1	0
+	^	25	10
+	.	25	9
+	+	2	24
+	+	3	30
+	+	2	25
+	+	4	12
+	+	6	15
 	+	7	24
-	+	8	25
+	+	8	10
+	+	10	19
+	+	11	27
+	+	14	36
+	+	16	19
+	+	17	34
+	+	18	26
+	+	19	14
+	+	53	0
+	+	23	13
+	+	53	0
+	+	4	0
+	+	26	54
+	+	28	18
+	+	29	15
+	+	33	33
+	+	31	65
+	+	32	6
+	+	50	0
+	+	35	66
+	+	36	29
+	+	37	11
+	+	38	20
+	+	49	0
+	+	49	0
+	+	39	43
+	+	40	61
+	+	41	0
+	+	42	0
+	+	41	21
+	+	42	21
+	+	41	32
+	+	42	32
+	+	41	64
+	+	42	61
+	+	44	49
+	+	45	23
+	+	48	0
+	+	46	20
+	+	47	19
+	+	46	21
+	+	47	20
+	+	51	64
+	+	35	17
+	+	4	1
 	+	8	0
-	+	8	39
-	+	8	0
-	+	8	0
-	+	8	0
-	+	8	39
-	+	8	43
-	+	8	0
-	+	12	31
-	+	9	44
-	+	13	62
-	+	15	21
-	+	6	23
-	+	7	27
-	+	29	0
-	+	29	0
-	+	28	0
-	+	29	0
-	+	25	25
-	+	28	0
+	+	4	0
+	+	25	9
+
+> ~/tmp.py
+	"	4	29
+	^	4	31
+	.	4	29
+	+	2	36
+	+	5	0
+	+	4	25
+	+	2	3
+	+	4	6
+	+	2	55
+	+	4	29
+
+> ~/tp.py
+	"	4	8
+	^	2	18
+	.	4	0
+	+	4	14
+	+	1	0
+	+	2	18
+	+	4	0
+
+> ~/script.py
+	"	3	0
+	^	12	15
+	.	12	14
+	+	2	18
+	+	3	17
 	+	2	0
+	+	3	0
+	+	6	18
+	+	6	4
+	+	1	0
+	+	6	0
+	+	5	13
+	+	6	22
+	+	8	26
+	+	13	0
+	+	7	14
+	+	9	25
+	+	10	23
+	+	11	11
+	+	12	14
+
+> ~/gsoc/sandhi-splitter/sandhisplitter/tests/test_trie.py
+	"	64	0
+	.	64	0
+	+	44	47
+	+	69	0
+	+	45	42
+	+	47	16
+	+	46	47
+	+	47	37
+	+	69	0
+	+	48	0
+	+	49	51
+	+	44	44
+	+	46	44
+	+	48	44
+	+	20	8
+	+	12	27
+	+	16	51
+	+	46	30
+	+	48	48
+	+	46	0
+	+	4	0
+	+	1	0
+	+	4	0
+	+	3	21
+	+	9	24
+	+	3	19
+	+	69	0
+	+	4	0
+	+	17	0
+	+	29	0
+	+	30	0
+	+	28	0
+	+	37	0
+	+	69	0
+	+	38	61
+	+	2	40
+	+	32	8
+	+	32	0
+	+	51	23
+	+	53	55
+	+	52	41
+	+	53	8
+	+	52	0
+	+	69	36
+	+	69	0
+	+	69	0
+	+	53	8
+	+	69	0
+	+	52	43
+	+	53	54
+	+	55	59
+	+	56	55
+	+	52	0
+	+	54	50
+	+	52	0
+	+	56	0
+	+	57	44
+	+	57	0
+	+	58	62
+	+	69	40
+	+	69	25
+	+	69	39
+	+	69	0
+	+	69	36
+	+	69	8
+	+	69	0
+	+	69	0
+	+	69	0
+	+	69	0
+	+	60	28
+	+	69	0
+	+	61	0
+	+	63	0
+	+	62	0
+	+	69	0
+	+	69	21
+	+	4	0
+	+	69	0
+	+	64	36
+	+	64	15
+	+	5	0
+	+	69	0
+	+	65	39
+	+	69	11
+	+	66	50
+	+	67	25
+	+	68	37
+	+	69	0
+	+	68	33
+	+	69	18
+	+	69	53
+	+	69	30
+	+	69	0
+	+	69	43
+	+	69	9
+	+	69	0
+	+	69	0
+	+	69	0
+	+	69	0
+	+	64	0
+	+	64	0
+	+	64	0
+
+> tests/test_trie.py
+	"	1	0
+
+> ~/gsoc/sandhi-splitter/sandhisplitter/tests/test_model.py
+	"	1	0
+	^	13	134
+	.	13	0
+	+	1	0
+	+	2	0
+	+	11	25
+	+	3	0
+	+	2	0
+	+	3	0
+	+	2	0
+	+	5	25
+	+	6	19
+	+	7	36
+	+	8	30
+	+	10	23
+	+	9	0
+	+	11	25
+	+	11	25
+	+	10	0
+	+	11	25
+	+	11	25
+	+	11	36
+	+	8	0
+	+	7	22
+	+	11	0
+	+	11	33
+	+	11	25
+	+	11	25
+	+	11	25
+	+	16	0
+	+	11	25
+	+	14	0
+	+	15	0
+	+	11	25
+	+	15	41
+	+	11	25
+	+	11	25
+	+	11	26
+	+	14	0
+	+	11	24
+	+	14	0
+	+	11	24
+	+	13	26
+	+	13	0
+	+	13	51
+	+	13	0
+	+	13	0
+	+	13	18
+	+	13	8
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	12	17
+	+	13	3
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	25	0
 	+	26	0
 	+	27	0
-	+	26	0
-	+	6	15
-	+	8	31
-	+	9	51
-	+	11	28
-	+	9	30
-	+	10	32
-	+	9	31
-	+	10	30
-	+	9	78
-	+	6	0
-	+	5	52
-	+	6	0
-	+	8	0
-	+	14	14
-	+	32	6
-	+	48	6
-	+	51	36
-	+	65	14
-	+	66	13
-	+	65	38
-	+	66	15
-	+	52	22
-	+	53	0
-	+	65	0
-	+	64	0
-	+	55	0
-	+	57	24
-	+	58	33
-	+	64	42
-	+	14	4
-	+	64	0
-	+	59	77
-	+	64	0
-	+	64	0
-	+	59	42
-	+	63	0
-	+	59	80
-	+	61	36
-	+	62	27
-	+	59	30
-	+	58	26
-	+	59	55
-	+	60	0
+	+	28	0
+	+	29	0
+	+	30	0
+	+	31	0
+	+	32	0
+	+	13	0
 
-> ~/repo/cs-dl/script.py
+> ~/gsoc/sandhi-splitter/sandhisplitter/test_model.py
 	"	1	0
-	^	5	36
-	.	5	35
-	+	10	13
-	+	9	0
-	+	15	0
-	+	4	27
-	+	5	19
-	+	2	0
-	+	11	45
-	+	13	18
-	+	3	14
-	+	8	0
-	+	4	6
-	+	5	4
-	+	4	14
+
+> ~/script.y
+	"	1	0
+
+> ~/code/step/exercise.py
+	"	13	30
+	^	13	25
+	.	13	30
+	+	1	31
+	+	1	0
+	+	3	11
+	+	4	29
+	+	7	13
+	+	8	16
+	+	9	18
+	+	10	25
+	+	11	8
+	+	12	20
+	+	32	0
+	+	13	31
+	+	16	11
+	+	17	9
+	+	18	14
+	+	19	28
+	+	20	19
+	+	21	16
+	+	23	21
+	+	31	0
+	+	22	16
+	+	24	21
+	+	30	0
+	+	25	19
+	+	26	17
+	+	29	12
+	+	32	0
+	+	31	6
+	+	1	1
+	+	31	36
+	+	13	27
+	+	12	24
+	+	31	52
+	+	9	18
+	+	7	0
 	+	5	0
-	+	4	37
-	+	5	18
+	+	6	0
+	+	9	15
+	+	12	25
+	+	15	0
+	+	31	24
+	+	27	24
+	+	29	11
+	+	26	19
+	+	28	21
+	+	22	14
+	+	28	23
+	+	27	25
+	+	29	0
+	+	1	0
+	+	2	0
+	+	1	4
+	+	9	21
+	+	13	30
+
+> ~/code/ffgc/graph.dot
+	"	4	37
+	^	3	57
+	.	4	36
+	+	1	11
+	+	5	0
+	+	2	0
+	+	5	0
+	+	2	0
+	+	5	0
+	+	2	56
+	+	3	55
+	+	4	4
+	+	3	55
+	+	4	36
+
+> ~/cvit/imgproc/oilpaint/oilpaint.m
+	"	2	23
+	^	2	24
+	.	2	23
+	+	1	9
+	+	34	0
+	+	1	10
+	+	2	23
+	+	3	22
+	+	4	13
+	+	1	1
+	+	4	27
+	+	2	16
+	+	4	8
+	+	6	7
+	+	7	25
+	+	9	8
+	+	14	32
+	+	34	0
+	+	15	36
+	+	27	0
+	+	27	0
+	+	18	40
+	+	19	29
+	+	20	29
+	+	23	0
+	+	21	35
+	+	22	39
+	+	25	32
+	+	26	39
+	+	34	0
+	+	28	0
+	+	34	0
+	+	29	2
+	+	6	0
+	+	31	20
+	+	7	23
+	+	18	42
+	+	19	0
+	+	14	16
+	+	15	20
+	+	14	28
+	+	15	33
+	+	18	44
+	+	18	49
+	+	18	0
+	+	14	8
+	+	18	0
+	+	19	0
+	+	14	29
+	+	14	0
+	+	18	0
+	+	5	13
+	+	18	0
+	+	16	57
+	+	17	23
+	+	14	31
+	+	14	8
+	+	15	12
+	+	10	37
+	+	14	0
+	+	10	55
+	+	12	21
+	+	11	0
+	+	13	0
+	+	11	0
+	+	17	12
+	+	3	20
+	+	9	15
+	+	30	15
+	+	31	0
+	+	32	14
+	+	33	0
+	+	31	7
+	+	2	23
+
+> ~/repo/maze/index.html
+	"	15	37
+
+> ~/repo/maze/maze.js
+	"	14	0
+
+> ~/code/tmp/bridge.py
+	"	2	21
+	^	2	22
+	.	2	21
+	+	1	0
+	+	2	6
+	+	1	11
+	+	2	11
+	+	3	0
+	+	2	21
+
+> sandhisplitter/train.py
+	"	1	0
+
+> ~/gsoc/sandhi-splitter/tox.ini
+	"	2	16
+	^	18	23
+	.	2	16
+	+	18	0
+	+	1	0
+	+	7	0
+	+	11	0
+	+	10	0
+	+	18	22
+	+	2	16
+
+> ~/repo/jerinphilip.github.io/posts/2015-05-30-environment-setup.markdown
+	"	3	0
+	.	7	0
+	+	1	0
+	+	7	0
+	+	1	0
+	+	2	36
+	+	4	19
+	+	7	0
+	+	7	0
+
+> ~/gsoc/sandhi-splitter/.coverage
+	"	1	0
+
+> ~/gsoc/sandhi-splitter/.testr.conf
+	"	1	0
+	^	4	23
+	.	4	0
 	+	4	0
-	+	13	3
-	+	14	11
-	+	6	18
-	+	7	27
-	+	6	14
-	+	5	35
 
-> ~/gsoc/sandhi-splitter/data/analysis.p
+> ~/gsoc/sandhi-splitter/test_trie.py
 	"	1	0
 
-> ~/gsoc/Malayalam_Sandhi_Splitter/Malayalam_Sandhi_Splitter/src/sandhi_rules/testNtrainData999/mal9/plainntext9
-	"	1	0
+> ~/gsoc/sandhi-splitter/AUTHORS
+	"	2	0
+	^	3	36
+	.	3	35
+	+	4	0
+	+	3	35
 
-> ~/gsoc/Malayalam_Sandhi_Splitter/Malayalam_Sandhi_Splitter/src/sandhi_rules/testNtrainData999/mal9/data_9999
-	"	1	0
-
-> ~/gsoc/Malayalam_Sandhi_Splitter/Malayalam_Sandhi_Splitter/src/in.txt
-	"	1	0
+> ~/gsoc/sandhi-splitter/test-requirements.txt
+	"	6	0
 
 > ~/gsoc/sandhi-splitter/.git/COMMIT_EDITMSG
-	"	1	0
-	.	1	0
-	+	1	21
-	+	1	70
-	+	1	0
-	+	4	0
-	+	1	0
+	"	2	0
+	^	2	0
+	.	1	25
+	+	3	21
+	+	3	70
+	+	3	0
+	+	3	0
+	+	3	16
+	+	3	0
+	+	3	0
+	+	3	55
+	+	3	22
+	+	3	24
+	+	3	0
+	+	3	13
+	+	3	54
+	+	3	0
+	+	3	12
+	+	3	21
+	+	3	9
+	+	3	62
+	+	3	0
+	+	3	20
+	+	3	0
+	+	3	0
+	+	3	0
+	+	3	0
+	+	3	0
+	+	3	0
+	+	3	0
+	+	3	0
+	+	3	0
+	+	3	0
+	+	3	0
+	+	3	14
+	+	3	0
+	+	1	25
 
 > ~/gsoc/sandhi-splitter/.git/rebase-merge/git-rebase-todo
-	"	3	5
-	^	3	6
-	.	3	5
+	"	4	5
+	^	4	6
+	.	4	5
 	+	1	0
 	+	2	5
 	+	3	5
+	+	2	0
+	+	1	5
+	+	2	5
+	+	3	5
+	+	4	5
+	+	1	3
+	+	2	5
+	+	3	5
+	+	4	5
+	+	5	5
+	+	6	6
+	+	7	5
+	+	8	5
+	+	9	5
+	+	1	0
+	+	2	5
+	+	3	6
+	+	4	5
+	+	5	5
+	+	3	5
+	+	4	5
+
+> ~/code/cv-java/build.xml
+	"	10	0
+
+> ~/gsoc/sandhi-splitter/.travis.yml
+	"	5	0
+	.	6	0
+	+	1	73
+	+	1	0
+	+	1	0
+	+	1	14
+	+	15	0
+	+	10	20
+	+	4	0
+	+	3	7
+	+	7	0
+	+	13	6
+	+	10	0
+	+	13	0
+	+	10	0
+	+	13	0
+	+	6	0
+
+> ~/code/cbse/scrape.py
+	"	24	35
+	^	24	36
+	.	24	35
+	+	29	0
+	+	1	14
+	+	6	0
+	+	4	24
+	+	6	0
+	+	6	0
+	+	5	23
+	+	5	25
+	+	6	1
+	+	12	11
+	+	8	51
+	+	12	13
+	+	28	0
+	+	3	1
+	+	28	14
+	+	28	0
+	+	13	19
+	+	28	0
+	+	16	12
+	+	16	0
+	+	14	25
+	+	13	0
+	+	12	15
+	+	14	26
+	+	15	21
+	+	14	27
+	+	16	0
+	+	27	0
+	+	26	0
+	+	18	7
+	+	26	10
+	+	13	0
+	+	26	16
+	+	8	14
+	+	26	0
+	+	17	0
+	+	19	31
+	+	22	0
+	+	23	16
+	+	24	38
+	+	25	24
+	+	11	0
+	+	9	9
+	+	13	0
+	+	9	9
+	+	21	54
+	+	22	18
+	+	21	55
+	+	1	0
+	+	21	50
+	+	19	40
+	+	21	23
+	+	22	0
+	+	20	0
+	+	24	35
+
+> /mnt/extra/Unsorted/Mathworks_Matlab_R2015a_Linux/README
+	"	116	0
+
+> ~/gsoc/sandhi-splitter/ChangeLog
+	"	1	0
+
+> ~/gsoc/sandhi-splitter/.git/MERGE_MSG
+	"	1	0
+
+> ~/gsoc/sandhi-splitter/requirements.txt
+	"	3	9
+	^	3	10
+	.	3	9
+	+	1	8
+	+	2	2
+	+	3	9
+
+> ~/gsoc/sandhi-splitter/setup.cfg
+	"	20	36
+	^	20	37
+	.	20	36
+	+	24	0
+	+	1	8
+	+	2	20
+	+	3	71
+	+	6	20
+	+	7	32
+	+	8	11
+	+	17	0
+	+	10	2
+	+	11	2
+	+	21	2
+	+	20	0
+	+	21	0
+	+	20	36
+
+> ~/gsoc/sandhi-splitter/sandhisplitter/out
+	"	1	0
+
+> ~/step/solver.py
+	"	17	9
+	^	31	0
+	.	31	0
+	+	9	0
+	+	11	22
+	+	12	12
+	+	20	7
+	+	12	24
+	+	13	18
+	+	20	25
+	+	33	8
+	+	17	23
+	+	20	0
+	+	19	0
+	+	20	0
+	+	18	21
+	+	18	21
+	+	18	15
+	+	18	17
+	+	18	28
+	+	18	23
+	+	18	0
+	+	18	33
+	+	3	19
+	+	9	17
+	+	9	0
+	+	4	33
+	+	5	19
+	+	6	26
+	+	7	26
+	+	8	11
+	+	20	0
+	+	26	22
+	+	20	8
+	+	26	22
+	+	21	36
+	+	24	16
+	+	22	43
+	+	22	48
+	+	23	40
+	+	24	0
+	+	22	44
+	+	23	0
+	+	24	17
+	+	26	20
+	+	25	26
+	+	26	43
+	+	18	0
+	+	15	0
+	+	16	0
+	+	26	46
+	+	27	26
+	+	28	27
+	+	29	15
+	+	30	0
+	+	31	0
+
+> ~/gsoc/sandhi-splitter/sandhisplitter/out.py
+	"	1	0
+
+> ~/gsoc/sandhi-splitter/build/lib/sandhisplitter/trie.py
+	"	55	0
+	.	56	0
+	+	56	0
+
+> ~/gsoc/sandhi-splitter/NERD_tree_1
+	"	8	8
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/gsoc/sandhi-splitter/README.md
+	"	3	141
+	^	3	190
+	.	3	141
+	+	14	1615
+	+	3	0
+	+	14	0
+	+	3	0
+	+	14	0
+	+	5	9
+	+	6	0
+	+	7	13
+	+	5	0
+	+	7	0
+	+	8	14
+	+	10	2
+	+	11	14
+	+	10	8
+	+	11	22
+	+	12	2
+	+	9	21
+	+	6	0
+	+	5	0
+	+	3	0
+	+	3	142
+	+	3	0
+	+	3	141
 
 > ~/gsoc/sandhi-splitter/.gitignore
-	"	66	0
-	^	66	0
-	.	66	0
-	+	67	0
+	"	1	0
+	.	67	0
+	+	68	0
 	+	65	9
 	+	66	0
+	+	67	8
+	+	67	0
 
-> ~/gsoc/sandhi-splitter/annotation/templates/editor.html
+> ~/gsoc/sandhi-splitter/tests/test_trie.py
+	"	2	10
+	^	2	11
+	.	2	11
+	+	6	8
+	+	15	0
+	+	12	0
+	+	13	0
+	+	11	0
+	+	10	4
+	+	11	8
+	+	12	8
+	+	13	8
+	+	14	8
+	+	9	0
+	+	8	44
+	+	6	21
+	+	3	0
+	+	2	11
+
+> ~/gsoc/sandhi-splitter/setup.
 	"	1	0
 
-> ~/gsoc/sandhi-splitter/annotation/static/js/helper.js
-	"	8	15
-	.	39	0
-	+	42	28
-	+	47	0
-	+	43	30
-	+	39	53
-	+	48	54
-	+	50	22
-	+	68	9
-	+	45	43
-	+	46	37
-	+	12	49
-	+	39	0
-	+	14	43
-	+	31	0
-	+	31	14
-	+	18	18
-	+	31	13
-	+	31	0
-	+	31	0
-	+	31	0
-	+	31	55
-	+	31	0
-	+	31	0
-	+	31	12
-	+	31	0
-	+	31	0
-	+	15	18
-	+	13	28
-	+	15	28
-	+	20	35
-	+	31	0
+> ~/gsoc/sandhi-splitter/tests/trie_test.py
+	"	6	8
+	^	6	9
+	.	6	8
+	+	2	5
+	+	5	12
+	+	6	36
+	+	7	51
+	+	38	43
+	+	24	30
+	+	5	11
+	+	6	8
+	+	15	0
+	+	16	0
 	+	22	0
-	+	20	32
-	+	22	0
-	+	21	49
-	+	31	20
-	+	7	16
-	+	9	0
-	+	7	13
-	+	9	0
+	+	21	123
+	+	16	0
 	+	8	0
-	+	9	5
-	+	31	0
-	+	30	34
-	+	39	26
-	+	32	0
-	+	30	0
-	+	24	17
 	+	18	0
-	+	17	48
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	6	8
+
+> ~/gsoc/sandhi-splitter/tests/__init__.py
+	"	1	0
+	^	1	0
+
+> ~/gsoc/sandhi-splitter/sandhisplitter.egg-info/SOURCES.txt
+	"	4	0
+
+> ~/gsoc/sandhi-splitter/sandhisplitter.egg-info/pbr.json
+	"	1	0
+
+> ~/cvit/flash/outline.m
+	"	1	0
+	^	29	18
+	.	29	17
+	+	12	29
+	+	21	70
+	+	7	0
+	+	7	26
+	+	4	0
+	+	7	0
+	+	6	0
+	+	7	0
+	+	7	0
+	+	10	16
+	+	10	0
+	+	1	23
+	+	5	27
+	+	47	7
+	+	21	44
+	+	21	29
+	+	21	15
+	+	21	30
+	+	21	12
+	+	21	0
+	+	21	12
+	+	21	12
+	+	21	21
+	+	21	0
+	+	6	35
+	+	21	0
+	+	21	30
+	+	16	44
+	+	20	0
+	+	20	44
+	+	21	0
+	+	20	0
+	+	18	45
+	+	47	0
+	+	12	25
+	+	47	0
+	+	47	0
+	+	13	0
+	+	7	0
+	+	46	0
+	+	47	0
+	+	47	11
+	+	47	27
+	+	16	71
+	+	6	26
+	+	6	5
+	+	18	29
+	+	17	20
+	+	19	0
+	+	18	53
+	+	12	27
+	+	18	53
+	+	6	0
+	+	15	23
+	+	47	0
+	+	46	0
+	+	26	4
+	+	25	5
+	+	26	8
+	+	30	0
+	+	30	27
+	+	25	0
+	+	27	26
+	+	28	24
+	+	27	33
+	+	28	31
+	+	30	17
+	+	37	13
+	+	26	12
+	+	3	9
+	+	42	0
+	+	42	0
+	+	33	27
+	+	38	7
+	+	34	6
+	+	38	10
+	+	42	0
+	+	38	19
+	+	46	0
+	+	45	13
+	+	35	23
+	+	41	18
+	+	45	14
+	+	47	25
+	+	35	9
+	+	38	16
+	+	43	30
+	+	45	13
+	+	43	26
+	+	45	15
+	+	39	14
+	+	40	9
+	+	38	19
+	+	30	0
+	+	30	9
+	+	32	0
+	+	31	5
+	+	30	4
+	+	30	0
+	+	29	17
+
+> ~/cvit/flash/getfilesready.m
+	"	5	15
+	^	5	16
+	.	5	15
+	+	1	0
+	+	1	0
+	+	2	0
+	+	6	0
+	+	2	0
+	+	5	15
+
+> ~/cvit/anoop/notes.md
+	"	20	14
+	^	20	30
+	.	20	29
+	+	2	38
+	+	5	109
+	+	5	0
+	+	5	0
+	+	7	79
+	+	7	11
+	+	7	146
+	+	7	392
+	+	22	0
+	+	7	13
+	+	9	380
+	+	8	0
+	+	9	13
+	+	10	367
+	+	13	11
+	+	15	18
+	+	19	8
+	+	18	2
+	+	21	2
+	+	19	27
+	+	16	53
+	+	17	0
+	+	20	29
+
+> ~/cvit/anoop/cri.py
+	"	5	0
+	^	10	0
+	.	5	28
+	+	3	25
+	+	4	14
+	+	6	7
+	+	5	12
+	+	6	24
+	+	7	17
+	+	8	21
+	+	11	0
+	+	1	12
+	+	2	0
+	+	11	0
+	+	9	44
+	+	10	0
+	+	1	17
+	+	9	44
+	+	5	28
+
+> ~/gsoc/sandhi-splitter/sandhi-splitter/train.py
+	"	1	2
+	.	17	0
+	+	5	0
+	+	5	0
+	+	42	0
+	+	41	0
+	+	42	0
+	+	39	0
+	+	6	10
+	+	39	0
+	+	23	18
+	+	23	3
+	+	23	33
+	+	32	25
+	+	32	17
+	+	36	16
+	+	37	25
+	+	39	16
+	+	5	2
+	+	5	2
+	+	5	49
+	+	5	0
+	+	5	5
+	+	5	0
+	+	36	0
+	+	39	0
+	+	34	10
+	+	38	10
+	+	8	10
+	+	21	0
+	+	34	9
+	+	38	9
+	+	9	22
+	+	21	0
+	+	9	41
+	+	10	22
+	+	11	13
+	+	23	0
+	+	32	0
+	+	34	17
+	+	38	17
+	+	37	26
+	+	10	28
+	+	33	38
+	+	32	0
+	+	32	18
+	+	26	0
+	+	13	17
+	+	16	31
+	+	18	36
+	+	18	30
+	+	19	37
+	+	20	30
+	+	28	41
+	+	32	0
+	+	32	17
+	+	32	18
+	+	26	16
+	+	28	22
+	+	32	0
+	+	28	0
+	+	26	0
+	+	32	0
+	+	32	0
+	+	24	18
+	+	25	7
+	+	26	0
+	+	30	64
+	+	28	0
+	+	27	0
+	+	24	18
+	+	31	0
+	+	35	0
+	+	24	0
+	+	1	2
+	+	3	2
+	+	2	0
+	+	4	0
+	+	2	0
+	+	3	0
+	+	3	0
+	+	16	0
+	+	14	47
+	+	15	29
+	+	23	23
+	+	23	0
+	+	30	0
+	+	30	0
+	+	17	0
+
+> ~/gsoc/sandhi-splitter/sandhi-splitter/trie.py
+	"	76	4
+	^	47	49
+	.	25	0
+	+	77	0
+	+	77	0
+	+	77	19
+	+	77	0
+	+	6	0
+	+	46	19
+	+	77	0
+	+	46	27
+	+	48	28
+	+	49	22
+	+	77	0
+	+	56	37
+	+	77	0
+	+	48	0
+	+	56	0
+	+	50	23
+	+	57	63
+	+	58	25
+	+	65	23
+	+	66	11
+	+	66	49
+	+	66	11
+	+	75	0
+	+	66	0
+	+	66	11
+	+	66	0
+	+	70	0
+	+	75	0
+	+	66	10
+	+	66	30
+	+	66	0
+	+	77	0
+	+	46	21
+	+	62	19
+	+	57	0
+	+	55	0
+	+	52	17
+	+	53	32
+	+	52	33
+	+	53	34
+	+	54	25
+	+	57	29
+	+	75	0
+	+	76	23
+	+	53	33
+	+	57	58
+	+	1	10
+	+	1	0
+	+	14	34
+	+	14	0
+	+	51	43
+	+	15	0
+	+	27	0
+	+	61	42
+	+	47	48
+	+	25	0
+
+> ~/cvit/image-alignment/excercise2.m
+	"	61	6
+	^	45	21
+	.	45	21
+	+	7	0
+	+	9	0
+	+	7	34
+	+	8	1
+	+	9	0
+	+	14	10
+	+	18	10
+	+	25	0
+	+	26	0
+	+	28	0
+	+	29	0
+	+	7	20
+	+	32	0
+	+	33	0
+	+	32	18
+	+	33	17
+	+	32	21
+	+	33	21
+	+	32	22
+	+	33	22
+	+	40	0
+	+	39	32
+	+	38	31
+	+	39	36
+	+	36	16
+	+	37	4
+	+	32	20
+	+	37	16
+	+	32	19
+	+	37	6
+	+	42	21
+	+	43	21
+	+	45	21
+
+> ~/cvit/image-alignment/excercise1.m
+	"	37	23
+	^	37	24
+	.	37	23
+	+	7	0
+	+	9	0
+	+	7	33
+	+	8	0
+	+	9	0
+	+	8	27
+	+	7	34
+	+	8	34
+	+	14	9
+	+	18	9
+	+	27	0
+	+	28	0
+	+	27	0
+	+	28	0
+	+	38	0
+	+	38	0
+	+	38	0
+	+	30	0
+	+	27	16
+	+	30	8
+	+	30	10
+	+	1	1
+	+	14	10
+	+	18	10
+	+	31	0
+	+	32	0
+	+	38	0
+	+	31	0
+	+	30	0
+	+	31	16
+	+	30	12
+	+	33	12
+	+	38	0
+	+	38	0
+	+	39	0
+	+	41	0
+	+	45	0
+	+	46	0
+	+	30	0
+	+	33	0
+	+	35	11
+	+	35	12
+	+	35	12
+	+	38	5
+	+	38	5
+	+	50	0
+	+	51	0
+	+	38	10
+	+	38	0
+	+	38	16
+	+	35	0
+	+	38	0
+	+	36	12
+	+	37	12
+	+	36	10
+	+	37	6
+	+	36	13
+	+	37	23
+
+> ~/gsoc/sandhi-splitter/sandhi-splitter/tr
+	"	1	0
+
+> ~/gsoc/sandhi-splitter/data/Sandhi_9999
+	"	1	0
+
+> ~/gsoc/annotation-helper/templates/layout.html
+	"	58	0
+	^	34	46
+	.	34	45
+	+	34	45
+
+> ~/cvit/knn/knn.py
+	"	16	0
+	^	35	21
+	.	35	21
+	+	2	9
+	+	45	39
+	+	45	30
+	+	45	17
+	+	45	25
+	+	3	13
+	+	7	60
+	+	8	40
+	+	9	34
+	+	10	28
+	+	11	37
+	+	36	0
+	+	11	38
+	+	13	51
+	+	14	42
+	+	15	49
+	+	16	20
+	+	17	45
+	+	8	39
+	+	45	0
+	+	38	15
+	+	39	11
+	+	40	52
+	+	43	0
+	+	40	52
+	+	43	36
+	+	43	0
+	+	41	33
+	+	42	25
+	+	41	33
+	+	42	28
+	+	4	10
+	+	44	0
+	+	17	0
+	+	19	21
+	+	20	9
+	+	21	21
+	+	22	20
+	+	21	8
+	+	22	29
+	+	23	29
+	+	25	34
+	+	26	17
+	+	27	26
+	+	36	30
+	+	36	0
+	+	29	41
+	+	28	8
+	+	29	51
+	+	36	0
+	+	30	33
+	+	29	51
+	+	31	45
+	+	32	18
+	+	34	41
+	+	35	21
+
+> ~/repo/kNNAlgorithm/kNN_Temperature.m
+	"	4	49
+	^	18	25
+	.	18	49
+	+	15	25
+	+	16	25
+	+	17	25
+	+	18	25
+	+	15	49
+	+	16	49
+	+	17	49
+	+	18	49
+
+> ~/cvit/knn/iris.data
+	"	150	0
+	.	151	0
+	+	151	0
+
+> ~/gsoc/annotation-helper/static/js/ml-rules.js
+	"	7	0
+	^	41	27
+	.	24	0
+	+	44	40
+	+	44	25
+	+	44	29
+	+	44	0
+	+	15	32
+	+	42	0
+	+	16	0
+	+	15	38
+	+	44	30
+	+	44	0
+	+	44	0
+	+	44	0
+	+	44	4
+	+	44	0
+	+	44	0
+	+	44	0
+	+	44	21
+	+	44	38
+	+	44	37
+	+	44	28
+	+	44	0
+	+	42	0
+	+	41	26
+	+	17	0
+	+	39	0
+	+	24	0
+
+> ~/gsoc/annotation-helper/annotation.py
+	"	79	0
+	^	91	5
+	.	91	4
+	+	52	61
+	+	57	76
+	+	65	43
+	+	69	77
+	+	57	96
+	+	78	47
+	+	78	6
+	+	78	9
+	+	78	103
+	+	78	57
+	+	93	0
+	+	92	48
+	+	75	0
+	+	91	14
+	+	61	17
+	+	73	17
+	+	69	15
+	+	67	17
+	+	88	0
+	+	88	0
+	+	76	30
+	+	77	61
+	+	1	0
+	+	66	4
+	+	68	4
+	+	91	4
+
+> ~/gsoc/annotation-helper/static/js/helper.js
+	"	1	0
+	^	187	67
+	.	187	62
+	+	92	24
+	+	162	38
+	+	166	5
+	+	162	7
+	+	166	40
+	+	194	0
+	+	167	42
+	+	165	0
+	+	163	40
+	+	41	25
+	+	41	0
+	+	42	0
+	+	42	0
+	+	195	0
+	+	41	0
+	+	41	0
+	+	40	0
+	+	7	28
+	+	9	0
+	+	8	21
+	+	9	5
+	+	194	0
+	+	10	23
+	+	165	0
+	+	168	20
+	+	169	8
+	+	168	8
+	+	169	23
+	+	170	23
+	+	171	25
+	+	172	25
+	+	175	31
+	+	191	0
+	+	194	0
+	+	11	21
+	+	191	0
+	+	191	0
+	+	175	13
+	+	191	9
+	+	191	0
+	+	191	0
+	+	191	0
+	+	183	16
+	+	175	37
+	+	183	63
+	+	187	21
+	+	190	27
+	+	193	22
+	+	156	0
+	+	155	39
+	+	151	25
+	+	59	32
+	+	155	24
+	+	10	21
+	+	42	0
+	+	13	0
+	+	12	0
+	+	163	0
+	+	164	31
+	+	169	18
+	+	170	18
+	+	171	19
+	+	172	19
+	+	10	30
+	+	42	33
+	+	183	52
+	+	187	58
+	+	183	0
+	+	2	16
+	+	183	0
+	+	176	66
+	+	177	16
+	+	176	15
+	+	177	44
+	+	182	22
+	+	183	0
+	+	186	22
+	+	187	0
+	+	185	26
+	+	189	27
+	+	178	33
+	+	180	30
+	+	179	29
+	+	180	29
+	+	181	30
+	+	33	0
+	+	32	0
+	+	173	55
+	+	176	50
+	+	183	57
+	+	192	0
+	+	187	62
+
+> ~/gsoc/annotation-helper/templates/editor.html
+	"	49	16
+	^	42	16
+	.	49	35
+	+	38	49
+	+	45	61
+	+	56	0
+	+	45	12
+	+	38	0
+	+	39	15
+	+	56	0
+	+	55	0
+	+	44	15
+	+	53	0
+	+	44	15
+	+	45	99
+	+	52	0
+	+	45	43
+	+	51	0
+	+	39	36
+	+	45	43
+	+	46	38
+	+	47	38
+	+	50	0
+	+	48	39
+	+	49	39
+	+	45	52
+	+	51	63
+	+	39	0
+	+	43	52
+	+	43	0
+	+	40	0
+	+	40	20
+	+	41	77
+	+	42	0
+	+	40	0
+	+	49	35
+
+> ~/repo/jerinphilip.github.io/circle.yml
+	"	34	27
+
+> ~/repo/jerinphilip.github.io/posts/2016-05-15-gsoc-with-indic-project.markdown
+	"	4	0
+	^	30	92
+	.	30	91
+	+	31	24
+	+	31	210
+	+	31	0
+	+	31	0
+	+	31	159
+	+	31	67
+	+	44	0
+	+	31	0
+	+	31	319
+	+	31	0
+	+	31	241
+	+	31	86
+	+	31	0
+	+	31	87
+	+	31	0
+	+	33	18
+	+	31	0
+	+	31	0
+	+	31	248
+	+	31	0
+	+	31	232
+	+	31	54
+	+	31	0
+	+	31	0
+	+	31	81
+	+	31	38
+	+	31	1
+	+	31	0
+	+	31	0
+	+	2	0
+	+	28	71
+	+	30	234
+	+	44	0
+	+	27	18
+	+	28	3
+	+	40	166
+	+	33	165
+	+	30	152
+	+	30	0
+	+	30	91
+	m	10	94
+
+> ~/repo/jerinphilip.github.io/posts/*-gsoc*.md
+	"	1	0
+
+> ~/cvit/imgproc/tshirt/chroma_keying.m
+	"	1	0
+	^	6	33
+	.	6	32
+	+	4	0
+	+	2	26
+	+	4	18
+	+	9	0
+	+	6	32
+	+	9	0
+	+	9	0
+	+	8	49
+	+	10	16
+	+	11	15
+	+	2	27
+	+	1	0
+	+	2	8
+	+	7	13
+	+	8	0
+	+	3	34
+	+	6	4
+	+	3	1
+	+	6	32
+	o	4	14
+
+> ~/cvit/imgproc/cutpaste/chroma_keying.m
+	"	10	28
+	^	3	18
+	.	3	17
+	+	2	23
+	+	3	21
+	+	5	33
+	+	6	31
+	+	8	18
+	+	9	28
+	+	10	36
+	+	11	14
+	+	13	0
+	+	12	44
+	+	13	0
+	+	14	19
+	+	5	33
+	+	3	17
+
+> ~/repo/jerinphilip.github.io/jerinphilip-github-io.cabal
+	"	9	32
+	.	9	32
+	+	9	32
+
+> ~/repo/jerinphilip.github.io/site.hs
+	"	5	0
+	.	5	0
+	+	43	0
+	+	24	19
+	+	23	0
+	+	25	58
+	+	86	40
+	+	87	61
+	+	43	83
+	+	44	83
+	+	78	0
+	+	4	0
+	+	78	0
+	+	26	0
+	+	27	0
+	+	5	0
+
+> ~/repo/NERD_tree_1
+	"	15	0
+	.	1	0
+	+	1	0
+	+	1	0
+
+> ~/cvit/imgproc/effects/emboss.m
+	"	4	0
+	.	4	0
+	+	1	25
+	+	2	37
+	+	7	55
+	+	9	9
+	+	8	0
+	+	7	2
+	+	7	72
+	+	7	52
+	+	7	73
+	+	8	0
+	+	7	29
+	+	9	28
+	+	11	22
+	+	5	8
+	+	7	9
+	+	7	11
+	+	5	9
+	+	8	12
+	+	7	0
+	+	7	57
+	+	7	0
+	+	7	0
+	+	5	24
+	+	6	45
+	+	5	25
+	+	6	46
+	+	5	0
+	+	8	0
+	+	7	0
+	+	7	0
+	+	8	0
+	+	7	22
+	+	7	11
+	+	7	8
+	+	5	26
+	+	6	47
+	+	7	17
+	+	5	7
+	+	9	0
+	+	11	11
+	+	7	0
+	+	8	0
+	+	1	0
+	+	5	7
+	+	8	15
+	+	8	5
+	+	5	8
+	+	5	13
+	+	5	0
+	+	1	42
+	+	5	0
+	+	4	0
+	+	8	0
+	+	9	32
+	+	4	8
+	+	1	35
+	+	9	32
+	+	10	0
+	+	4	0
+
+> ~/cvit/imgproc/effects/additive_texture.m
+	"	1	0
+	^	27	58
+	.	27	57
+	+	1	0
+	+	25	12
+	+	27	57
+
+> ~/cvit/imgproc/effects/retro.m
+	"	22	18
+	^	26	62
+	.	26	61
+	+	2	29
+	+	4	23
+	+	6	11
+	+	2	30
+	+	7	11
+	+	6	12
+	+	7	12
+	+	8	10
+	+	11	36
+	+	12	57
+	+	14	38
+	+	15	37
+	+	16	0
+	+	15	1
+	+	16	25
+	+	18	16
+	+	29	0
+	+	19	0
+	+	18	16
+	+	19	16
+	+	18	17
+	+	19	17
+	+	20	17
+	+	22	11
+	+	24	16
+	+	26	65
+	+	24	21
+	+	29	0
+	+	29	0
+	+	27	22
+	+	26	0
+	+	27	20
+	+	28	16
+	+	26	61
+
+> ~/cvit/imgproc/effects/vignette.m
+	"	32	0
+	.	33	0
+	+	1	0
+	+	33	0
+	+	2	0
+	+	21	30
+	+	28	0
+	+	33	7
+	+	21	0
+	+	22	45
+	+	21	26
+	+	23	30
+	+	26	22
+	+	23	18
 	+	26	48
 	+	28	0
-	+	27	61
-	+	25	37
-	+	26	22
-	+	27	47
-	+	29	0
-	+	56	0
-	+	59	0
-	+	39	0
-	+	39	0
-	+	39	20
-	+	39	40
+	+	28	0
+	+	25	8
+	+	26	0
+	+	27	0
+	+	26	37
+	+	30	16
+	+	26	53
+	+	32	6
+	+	33	7
+	+	33	35
+	+	23	0
+	+	26	51
 	+	33	0
-	+	34	32
-	+	39	44
-	+	39	17
-	+	39	20
-	+	39	20
-	+	39	31
-	+	39	0
-	+	39	0
-	+	39	40
-	+	39	0
-	+	39	42
-	+	39	0
-	+	39	0
-	+	36	43
-	+	34	0
-	+	34	42
-	+	34	32
-	+	34	35
-	+	37	12
-	+	37	33
-	+	35	33
-	+	35	46
-	+	34	31
-	+	34	20
-	+	36	40
-	+	35	41
-	+	36	0
-	+	34	21
-	+	35	43
-	+	36	38
-	+	37	0
-	+	35	0
-	+	57	9
-	+	58	9
-	+	25	15
-	+	25	0
-	+	39	0
+	+	33	14
+	+	33	0
 
-> ~/gsoc/sandhi-splitter/annotation/templates/layout.html
-	"	5	0
-
-> ~/gsoc/sandhi-splitter/annotation/static/css/editor.css
-	"	21	4
-
-> ~/gsoc/sandhi-splitter/annotation/templates/show_data.html
+> ~/cvit/imgproc/effects/vignette.
 	"	1	0
 
-> ~/gsoc/sandhi-splitter/annotation/annotation.py
-	"	87	4
+> ~/cvit/imgproc/contents.md
+	"	1	0
+	^	9	30
+	.	9	30
+	+	3	6
+	+	4	2
+	+	1	13
+	+	2	15
+	+	5	13
+	+	7	22
+	+	1	0
+	+	8	21
+	+	9	19
+	+	11	29
+	+	9	30
+
+> ~/cvit/imgproc/magnetic-lasso.m
+	"	1	0
+	^	1	0
+
+> ~/cvit/imgproc/edges.m
+	"	3	5
+	^	3	6
+	.	3	5
+	+	1	33
+	+	2	19
+	+	7	17
+	+	1	32
+	+	4	15
+	+	5	8
+	+	6	15
+	+	7	0
+	+	3	5

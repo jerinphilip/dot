@@ -26,7 +26,7 @@ alias gtk2gcc="gcc `pkg-config --cflags --libs gtk+-2.0`"
 alias gtkgcc="gcc `pkg-config --cflags --libs gtk+-3.0`"
 alias fucking='sudo'
 
-export PATH="$PATH:/home/jerin/.gem/ruby/2.3.0/bin"
+export PATH="$PATH:/home/jerin/.gem/ruby/2.3.0/bin:/home/jerin/.cabal/bin"
 export QT_STYLE_OVERRIDE=GTK+
 
 function proxy_on {
