@@ -15,6 +15,7 @@ set incsearch
 
 set expandtab "Convert tab to spaces, for haskell.
 set foldmethod=syntax
+set colorcolumn=72
 
 set viminfo+=n~/.vim/f/viminfo
 
