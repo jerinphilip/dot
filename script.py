@@ -23,7 +23,7 @@ def git_update():
     cmds = [
         ['git', 'add', '-A'],
         ['git', 'commit', '-m', timestamp],
-        ['git', 'push', '-u', 'origin', 'master']
+        ['git', 'push', '-u', 'github', 'master']
     ]
     for cmd in cmds:
         sp.Popen(cmd).wait()
