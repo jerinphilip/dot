@@ -72,11 +72,7 @@ URxvt*color15:                        #DDDDDD
 ! URxvt*pointerColor2:                  color
 ! URxvt*borderColor:                    color
 ! URxvt*iconFile:                       file
-! Urxvt*font:                           xft:MonacoB:size=10
-! URxvt*font:                           xft:Terminus:size=12
-URxvt*font:                           xft:MonacoB:size=12
-! URxvt*font:                           xft:Terminus:size=9
-! URxvt*font:                           xft:Anonymous Pro Minus:size=10
+URxvt*font:                           xft:Terminus:size=8
 ! URxvt*boldFont:                       fontname
 ! URxvt*italicFont:                     fontname
 ! URxvt*boldItalicFont:                 fontname

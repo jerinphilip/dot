@@ -44,7 +44,7 @@ let g:syntastic_cpp_compiler_options = '-Werror -Wuninitialized -std=c++14 -D EV
 
 
 "Temporary
-let g:syntastic_python_python_exec='/usr/bin/python2'
+"let g:syntastic_python_python_exec='/usr/bin/python2'
 set shell=bash\ --login
 
 

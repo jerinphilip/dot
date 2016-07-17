@@ -22,6 +22,7 @@ alias gtkgcc="gcc `pkg-config --cflags --libs gtk+-3.0`"
 alias fucking='sudo'
 
 alias pastebin='curl -F c=@- https://ptpb.pw'
+alias du_summary='du -h -d 1 . 2> /dev/null | sort -h'
 
 export PATH="$PATH:/home/jerin/.gem/ruby/2.3.0/bin:/home/jerin/.cabal/bin"
 export QT_STYLE_OVERRIDE=GTK+
@@ -55,3 +56,4 @@ NPM_PACKAGES="${HOME}/.npm-packages"
 PATH="$NPM_PACKAGES/bin:$PATH"
 unset MANPATH # delete if you already modified MANPATH elsewhere in your config
 export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
+

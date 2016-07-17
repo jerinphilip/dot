@@ -11,117 +11,205 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0~/\<concept\>
+~MSle0/ef
 
 # Last Substitute Search Pattern:
-~MSle0&;
+~MSle0~&=
 
 # Last Substitute String:
-$
+$-
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1466667778,,"wq"
-:w
-|2,0,1466667747,,"w"
 :q
-|2,0,1466667685,,"q"
-:50
-|2,0,1466667638,,"50"
-:help
-|2,0,1466657056,,"help"
-:helo
-|2,0,1466657051,,"helo"
-:wqa
-|2,0,1466658828,,"wqa"
-:tabnew sandhisplitter/postprocessor.py
-|2,0,1466658813,,"tabnew sandhisplitter/postprocessor.py"
-:tabnew sandhisplitter/splitter.py
-|2,0,1466658713,,"tabnew sandhisplitter/splitter.py"
-:tabnew sandhisplitter/__init__.py
-|2,0,1466658507,,"tabnew sandhisplitter/__init__.py"
+|2,0,1468649384,,"q"
+:w
+|2,0,1468649098,,"w"
+:wq
+|2,0,1468648994,,"wq"
+:wqkkk
+|2,0,1468648869,,"wqkkk"
+:set paste
+|2,0,1468648804,,"set paste"
+:s/=/-/g
+|2,0,1468641231,,"s/=/-/g"
+:w index.txt.backup
+|2,0,1468639847,,"w index.txt.backup"
+:wq b
+|2,0,1468639840,,"wq b"
+:r index.rst
+|2,0,1468567701,,"r index.rst"
+:set background=light
+|2,0,1468303067,,"set background=light"
+:colorscheme adrian
+|2,0,1468303024,,"colorscheme adrian"
+:set colorscheme termcap
+|2,0,1468303020,,"set colorscheme termcap"
+:r syntax.css.bak
+|2,0,1468302828,,"r syntax.css.bak"
+:%s/\/\/\(.*\)$/\/\*\1\*\//
+|2,0,1468302581,,"%s/\\/\\/\\(.*\\)$/\\/\\*\\1\\*\\//"
+:s/\/\/\(.*\)$/\/\*\1\*\//
+|2,0,1468302576,,"s/\\/\\/\\(.*\\)$/\\/\\*\\1\\*\\//"
+:w syntax.css.bak
+|2,0,1468302377,,"w syntax.css.bak"
+:tabnew css/default.css
+|2,0,1468301740,,"tabnew css/default.css"
 :qa
-|2,0,1466658296,,"qa"
-:tabnew postprocessor.py
-|2,0,1466658005,,"tabnew postprocessor.py"
-:tabnew model.py
-|2,0,1466657960,,"tabnew model.py"
-:tab
-|2,0,1466657954,,"tab"
-:tabnew splitter.py
-|2,0,1466657679,,"tabnew splitter.py"
-:tabnew test.py
-|2,0,1466657564,,"tabnew test.py"
-:r !head -n 2 model.py
-|2,0,1466657531,,"r !head -n 2 model.py"
-:w !sudo tee %
-|2,0,1466616437,,"w !sudo tee %"
+|2,0,1468301365,,"qa"
+:qa!
+|2,0,1468301106,,"qa!"
+:tabnew core.py
+|2,0,1468140200,,"tabnew core.py"
 :q!
-|2,0,1466615346,,"q!"
-:qk
-|2,0,1466581870,,"qk"
-:tabnew keys.lua
-|2,0,1466576593,,"tabnew keys.lua"
-:tabnw
-|2,0,1466524629,,"tabnw"
-:tabnew sandhisplitter/util.py
-|2,0,1466524573,,"tabnew sandhisplitter/util.py"
+|2,0,1468129253,,"q!"
+:tabnew cc.cpp
+|2,0,1468056301,,"tabnew cc.cpp"
+:set nopaste
+|2,0,1468056149,,"set nopaste"
+:g/^$/d
+|2,0,1467790879,,"g/^$/d"
+:%s/cv:://g
+|2,0,1467782775,,"%s/cv:://g"
+:%s/std:://g
+|2,0,1467782770,,"%s/std:://g"
+:s/cv:://g
+|2,0,1467782767,,"s/cv:://g"
+:s
+|2,0,1467782626,,"s"
+:tabnew mousedetect.cpp
+|2,0,1467689773,,"tabnew mousedetect.cpp"
+:r mousedetect.cpp
+|2,0,1467689504,,"r mousedetect.cpp"
+:tabnew utils.py
+|2,0,1467630522,,"tabnew utils.py"
+:tabnew urls.py
+|2,0,1467629898,,"tabnew urls.py"
+:ta
+|2,0,1467628070,,"ta"
+:tabnew templates/*
+|2,0,1467626072,,"tabnew templates/*"
+:w templates/interestpointlocation.html
+|2,0,1467626068,,"w templates/interestpointlocation.html"
+:w templates/interestpoint.html
+|2,0,1467626060,,"w templates/interestpoint.html"
+:tabnew templates/image.html
+|2,0,1467626049,,"tabnew templates/image.html"
+:tabnew forms.py
+|2,0,1467625752,,"tabnew forms.py"
 :we
-|2,0,1466523807,,"we"
-:%s/\s.*$//
-|2,0,1466495511,,"%s/\\s.*$//"
-:s/\s.*$//
-|2,0,1466495505,,"s/\\s.*$//"
-:tabnew menu.lua
-|2,0,1466422178,,"tabnew menu.lua"
-:tabnew prefs.lua
-|2,0,1466408938,,"tabnew prefs.lua"
-:e #1
-|2,0,1466408931,,"e #1"
-:e #0
-|2,0,1466408927,,"e #0"
-:tabne
-|2,0,1466406940,,"tabne"
-:w rc.lua.copy
-|2,0,1466406882,,"w rc.lua.copy"
-:tabnew rc.lua
-|2,0,1466406754,,"tabnew rc.lua"
+|2,0,1467625146,,"we"
+:tabnew models.py
+|2,0,1467623741,,"tabnew models.py"
+:w! ~/cvit/heritage-framework/heritage/heritage/utils.py
+|2,0,1467623866,,"w! ~/cvit/heritage-framework/heritage/heritage/utils.py"
+:tabnew ~/.mutt/account.iiit
+|2,0,1467623854,,"tabnew ~/.mutt/account.iiit"
+:w ~/cvit/heritage-framework/heritage/heritage/utils.py
+|2,0,1467623832,,"w ~/cvit/heritage-framework/heritage/heritage/utils.py"
+:tabnew ~/her
+|2,0,1467623816,,"tabnew ~/her"
+:tabnew script.py
+|2,0,1467623813,,"tabnew script.py"
+:tabnew views.py
+|2,0,1467620047,,"tabnew views.py"
+:57
+|2,0,1467619867,,"57"
+:tabnew heritage/heritage/forms.py
+|2,0,1467619189,,"tabnew heritage/heritage/forms.py"
+:tabnew heritage/heritage/models.py
+|2,0,1467619128,,"tabnew heritage/heritage/models.py"
 :w\
-|2,0,1466406494,,"w\\"
-:tabn
-|2,0,1466335825,,"tabn"
-:tabnew util.py
-|2,0,1466335687,,"tabnew util.py"
-:tabnew trie.py
-|2,0,1466335361,,"tabnew trie.py"
-:ww
-|2,0,1466327591,,"ww"
-:ew
-|2,0,1466327310,,"ew"
-:A
-|2,0,1466326930,,"A"
-:14
-|2,0,1466326589,,"14"
-:e
-|2,0,1466319108,,"e"
-:set colorcolumn=78ww
-|2,0,1466318255,,"set colorcolumn=78ww"
-:set colorcolumn=78w
-|2,0,1466318249,,"set colorcolumn=78w"
-:set colorcolumn=78
-|2,0,1466317280,,"set colorcolumn=78"
-:set colorcolumn=10
-|2,0,1466317248,,"set colorcolumn=10"
-:vsplit Training.md
-|2,0,1466331551,,"vsplit Training.md"
-:!echo sstest
-|2,0,1466328846,,"!echo sstest"
-:tabnew downloaded.txt
-|2,0,1466311741,,"tabnew downloaded.txt"
-:vsplit battery.lua
-|2,0,0,,"vsplit battery.lua"
+|2,0,1467541813,,"w\\"
 
 # Search String History (newest to oldest):
+? =
+|2,1,1468641231,,"="
+?/ef
+|2,1,1468303570,47,"ef"
+?/dv
+|2,1,1468302949,47,"dv"
+? \/\/\(.*\)$
+|2,1,1468302581,,"\\/\\/\\(.*\\)$"
+?/dsfd
+|2,1,1468302183,47,"dsfd"
+?/u
+|2,1,1468302180,47,"u"
+?/background
+|2,1,1468302038,47,"background"
+?/code
+|2,1,1468302031,47,"code"
+?/Preivew
+|2,1,1468300380,47,"Preivew"
+?/Server
+|2,1,1468300371,47,"Server"
+?/Preview
+|2,1,1468300328,47,"Preview"
+?/pre
+|2,1,1468221989,47,"pre"
+?/du
+|2,1,1468141046,47,"du"
+?/Mult
+|2,1,1467866252,47,"Mult"
+? ^$
+|2,1,1467790879,,"^$"
+? cv::
+|2,1,1467782775,,"cv::"
+? std::
+|2,1,1467782770,,"std::"
+?/STAT
+|2,1,1467626881,47,"STAT"
+?/TEMP
+|2,1,1467619854,47,"TEMP"
+?/font
+|2,1,1467522335,47,"font"
+?/Inco
+|2,1,1467269243,47,"Inco"
+?/Anon
+|2,1,1467268801,47,"Anon"
+?/Hack
+|2,1,1467268798,47,"Hack"
+?/Term
+|2,1,1467267072,47,"Term"
+? eth0
+|2,1,1467263236,,"eth0"
+?/top
+|2,1,1467262957,47,"top"
+?/own
+|2,1,1467262905,47,"own"
+?/if __
+|2,1,1466928716,47,"if __"
+?/py
+|2,1,1466924071,47,"py"
+?/git
+|2,1,1466921258,47,"git"
+?/dsfds
+|2,1,1466920550,47,"dsfds"
+? sandhisplitter\/
+|2,1,1466920464,,"sandhisplitter\\/"
+? \<S\>
+|2,1,1466916868,,"\\<S\\>"
+? \<M\>
+|2,1,1466916624,,"\\<M\\>"
+? \>\<
+|2,1,1466845126,,"\\>\\<"
+? ><
+|2,1,1466845121,,"><"
+? \<img\"
+|2,1,1466844689,,"\\<img\\\""
+?/<img
+|2,1,1466844667,47,"<img"
+?/img
+|2,1,1466844664,47,"img"
+? http:\/\/imgs.xkcd.com\/comics\/
+|2,1,1466843869,,"http:\\/\\/imgs.xkcd.com\\/comics\\/"
+? \<barrel_cropped_\>
+|2,1,1466843699,,"\\<barrel_cropped_\\>"
+?/Invert
+|2,1,1466744282,47,"Invert"
+?/sign
+|2,1,1466705739,47,"sign"
+?/sort
+|2,1,1466703084,47,"sort"
 ?/trans
 |2,1,1466666542,47,"trans"
 ?/32
@@ -134,94 +222,6 @@ $
 |2,1,1466616250,47,"LINKPW"
 ?/chargin
 |2,1,1466581626,47,"chargin"
-?/battery_val
-|2,1,1466575363,47,"battery_val"
-?/naugh
-|2,1,1466525214,47,"naugh"
-?/naught
-|2,1,1466521939,47,"naught"
-?/What
-|2,1,1466524654,47,"What"
-?/WHat
-|2,1,1466524640,47,"WHat"
-?/line
-|2,1,1466524308,47,"line"
-?/split
-|2,1,1466523731,47,"split"
-?/desk
-|2,1,1466495657,47,"desk"
-? \s.*$
-|2,1,1466495511,,"\\s.*$"
-?/menu
-|2,1,1466422171,47,"menu"
-?/chan
-|2,1,1466422102,47,"chan"
-?/wibox
-|2,1,1466409140,47,"wibox"
-?/editor
-|2,1,1466408630,47,"editor"
-?/naughty
-|2,1,1466408592,47,"naughty"
-?/modk
-|2,1,1466407836,47,"modk"
-?/client
-|2,1,1466407827,47,"client"
-?/clientkeys
-|2,1,1466407800,47,"clientkeys"
-?/modkey
-|2,1,1466407710,47,"modkey"
-?/terminal
-|2,1,1466407655,47,"terminal"
-?/awful.layout.inc
-|2,1,1466407561,47,"awful.layout.inc"
-?/layout
-|2,1,1466407550,47,"layout"
-?/layouts
-|2,1,1466407386,47,"layouts"
-?/space
-|2,1,1466407350,47,"space"
-?/" "
-|2,1,1466407297,47,"\" \""
-?/Space
-|2,1,1466407279,47,"Space"
-?/global
-|2,1,1466406896,47,"global"
-?/globa
-|2,1,1466406784,47,"globa"
-?/glob
-|2,1,1466406759,47,"glob"
-?/root.key
-|2,1,1466406330,47,"root.key"
-?/term
-|2,1,1466406291,47,"term"
-?/root.ke
-|2,1,1466406150,47,"root.ke"
-?/root.set
-|2,1,1466406147,47,"root.set"
-?/root
-|2,1,1466405923,47,"root"
-?/rules
-|2,1,1466405888,47,"rules"
-?/keys
-|2,1,1466405812,47,"keys"
-?/keys.glob
-|2,1,1466406238,47,"keys.glob"
-?/key
-|2,1,1466356477,47,"key"
-?/dsfasd
-|2,1,1466354268,47,"dsfasd"
-?/dfd
-|2,1,1466331996,47,"dfd"
-? \<for\>
-|2,1,1466326175,,"\\<for\\>"
-?/helve
-|2,1,0,47,"helve"
-?/Arial
-|2,1,0,47,"Arial"
-?/battery
-|2,1,0,47,"battery"
-?/CVIT
-|2,1,0,47,"CVIT"
 
 # Expression History (newest to oldest):
 
@@ -231,1923 +231,1585 @@ $
 
 # Registers:
 "0	LINE	0
-	unit3 :: Num a => (a, a, a) -> a
+	.. code-block:: bash
+	    $ sandhisplitter_train -h
+		usage: sandhisplitter_train [-h] -k DEPTH -s SKIP -i TRAINFILE -o MODELFILE
+	
+		Train a model
+	
+		optional arguments:
+		  -h, --help            show this help message and exit
+		  -k DEPTH, --depth DEPTH
+								depth of the trie
+		  -s SKIP, --skip SKIP  initial skip
+		  -i TRAINFILE, --trainfile TRAINFILE
+								path to training file
+		  -o MODELFILE, --outputfile MODELFILE
+								path to store model
+	
+	    $
 ""1	LINE	0
-	                print("Index error for key:", key)
+	
 "2	LINE	0
-	            except IndexError:
+	
 "3	LINE	0
-	            try:
+	
 "4	LINE	0
-	        print(key)
+	   :maxdepth: 2
 "5	LINE	0
-	
+	.. toctree::
 "6	LINE	0
-	## IBM's work
-	### Model 1
-	
-	### Model 2
 	
 "7	LINE	0
-	
+	Contents:
 "8	LINE	0
-	C
+	   Rough skeleton
 "9	LINE	0
-	
+	    $
+"a	CHAR	0
+	aa
 "-	CHAR	0
-	o
+	1
 
 # File marks:
-'0  53  70  ~/step/script.py
-'1  5  0  ~/step/script.py
-'2  58  12  ~/step/script.py
-'3  57  8  ~/step/script.py
-'4  6  24  ~/code/haskell/match.hs
-'5  8  16  ~/code/haskell/match.hs
-'6  5  0  ~/code/haskell/match.hs
-'7  4  0  ~/step/script.py
-'8  73  0  ~/step/script.py
-'9  75  8  ~/step/script.py
+'0  80  0  ~/gsoc/sandhi-splitter/docs/index.rst
+'1  10  8  ~/gsoc/sandhi-splitter/docs/index.rst
+'2  1  0  ~/gsoc/sandhi-splitter/docs/index.
+'3  92  0  ~/gsoc/sandhi-splitter/docs/index.rst
+'4  31  64  ~/gsoc/sandhi-splitter/docs/index.rst
+'5  79  0  ~/gsoc/sandhi-splitter/docs/index.rst
+'6  27  17  ~/gsoc/sandhi-splitter/docs/index.rst
+'7  75  14  ~/gsoc/sandhi-splitter/docs/index.rst
+'8  75  0  ~/gsoc/sandhi-splitter/docs/index.rst
+'9  75  0  ~/gsoc/sandhi-splitter/docs/index.rst
 
 # Jumplist (newest first):
--'  53  70  ~/step/script.py
--'  78  8  ~/step/script.py
--'  1  0  ~/step/script.py
--'  7  0  ~/step/script.py
--'  51  8  ~/step/script.py
--'  5  0  ~/step/script.py
--'  58  12  ~/step/script.py
--'  57  8  ~/step/script.py
--'  13  4  ~/step/script.py
--'  6  24  ~/code/haskell/match.hs
--'  4  0  ~/code/haskell/match.hs
--'  1  0  ~/code/haskell/match.hs
--'  8  16  ~/code/haskell/match.hs
--'  5  0  ~/code/haskell/match.hs
--'  4  0  ~/step/script.py
--'  73  0  ~/step/script.py
--'  75  8  ~/step/script.py
--'  81  8  ~/step/script.py
--'  54  0  ~/step/script.py
--'  86  17  ~/ltrc/smt.md
--'  71  7  ~/ltrc/smt.md
--'  78  0  ~/ltrc/smt.md
--'  49  52  ~/ltrc/smt.md
--'  34  16  ~/ltrc/smt.md
--'  4  22  ~/ltrc/smt.md
--'  8  24  ~/ltrc/smt.md
--'  1  0  ~/ltrc/smt.md
--'  21  29  ~/ltrc/smt.md
--'  18  1  ~/ltrc/smt.md
--'  2  0  ~/ltrc/smt.md
--'  16  41  ~/ltrc/smt.md
--'  7  0  ~/ltrc/smt.md
--'  14  0  /etc/default/tlp
--'  219  35  /etc/default/tlp
--'  109  0  /etc/default/tlp
--'  57  0  /etc/default/tlp
--'  1  0  /etc/default/tlp
--'  133  0  /etc/default/tlp
--'  256  0  /etc/default/tlp
--'  149  0  /etc/default/tlp
--'  1  0  ~/code/haskell/wysfh/ex3.hs
--'  11  1  ~/code/haskell/tt.hs
--'  1  0  ~/code/haskell/tt.hs
--'  13  10  ~/code/haskell/tt.hs
--'  11  0  ~/code/haskell/bleh.hs
--'  1  0  ~/code/haskell/bleh.hs
--'  7  26  ~/code/haskell/bleh.hs
--'  9  4  ~/code/haskell/bleh.hs
--'  2  31  ~/code/haskell/bleh.hs
--'  12  26  ~/code/haskell/bleh.hs
--'  10  0  ~/code/haskell/bleh.hs
--'  3  10  ~/code/haskell/bleh.hs
--'  13  0  ~/code/haskell/bleh.hs
--'  6  25  ~/code/haskell/tt.hs
--'  4  0  ~/code/haskell/tt.hs
--'  14  22  ~/code/haskell/tt.hs
--'  2  0  ~/code/haskell/tt.hs
--'  3  0  ~/code/haskell/tt.hs
--'  371  28  ~/.config/awesome/rc.lua
--'  1  0  ~/.config/awesome/rc.lua
--'  13  19  ~/.config/awesome/battery.lua
--'  1  0  ~/.config/awesome/battery.lua
--'  24  44  ~/.bashrc
--'  1  0  ~/.bashrc
--'  174  0  ~/.config/awesome/keys.lua
--'  175  0  ~/.config/awesome/keys.lua
--'  1  0  ~/.config/awesome/keys.lua
--'  258  0  ~/.config/awesome/rc.lua
--'  378  14  ~/.config/awesome/rc.lua
--'  83  2  ~/.config/awesome/rc.lua
--'  78  0  ~/.config/awesome/rc.lua
--'  49  1  ~/.config/awesome/rc.lua
--'  31  34  ~/.config/awesome/rc.lua
--'  18  30  ~/.config/awesome/rc.lua
--'  8  26  ~/.config/awesome/rc.lua
--'  2  0  ~/.config/awesome/rc.lua
--'  1  0  ~/.claws-mail/mimetmp/00000001.mimetmp
--'  44  0  ~/.bashrc
--'  36  23  ~/.bashrc
--'  41  4  ~/.bashrc
--'  12  0  ~/.config/awesome/rc.lua
--'  118  0  ~/.config/awesome/rc.lua
--'  134  44  ~/.config/awesome/rc.lua
--'  119  38  ~/.config/awesome/rc.lua
--'  19  0  ~/.config/awesome/rc.lua
--'  132  0  ~/.config/awesome/rc.lua
--'  125  58  ~/.config/awesome/rc.lua
--'  117  38  ~/.config/awesome/rc.lua
--'  9  25  ~/.config/awesome/rc.lua
--'  14  0  ~/.config/awesome/menu.lua
--'  1  0  ~/.config/awesome/menu.lua
--'  116  0  ~/.config/awesome/rc.lua
--'  106  4  ~/.config/awesome/rc.lua
--'  107  0  ~/.config/awesome/rc.lua
--'  120  26  ~/.config/awesome/rc.lua
+-'  80  0  ~/gsoc/sandhi-splitter/docs/index.rst
+-'  1  0  ~/gsoc/sandhi-splitter/docs/index.rst
+-'  92  0  ~/gsoc/sandhi-splitter/docs/index.rst
+-'  9  0  ~/gsoc/sandhi-splitter/docs/index.rst
+-'  39  0  ~/gsoc/sandhi-splitter/docs/index.rst
+-'  10  8  ~/gsoc/sandhi-splitter/docs/index.rst
+-'  91  0  ~/gsoc/sandhi-splitter/docs/index.rst
+-'  49  0  ~/gsoc/sandhi-splitter/docs/index.rst
+-'  36  0  ~/gsoc/sandhi-splitter/docs/index.rst
+-'  2  0  ~/gsoc/sandhi-splitter/docs/index.rst
+-'  86  6  ~/gsoc/sandhi-splitter/docs/index.rst
+-'  74  0  ~/gsoc/sandhi-splitter/docs/index.rst
+-'  1  0  ~/gsoc/sandhi-splitter/docs/index.
+-'  77  0  ~/gsoc/sandhi-splitter/docs/index.rst
+-'  28  10  ~/gsoc/sandhi-splitter/docs/index.rst
+-'  31  64  ~/gsoc/sandhi-splitter/docs/index.rst
+-'  79  0  ~/gsoc/sandhi-splitter/docs/index.rst
+-'  27  17  ~/gsoc/sandhi-splitter/docs/index.rst
+-'  75  14  ~/gsoc/sandhi-splitter/docs/index.rst
+-'  7  14  ~/gsoc/sandhi-splitter/docs/index.rst
+-'  14  30  ~/gsoc/sandhi-splitter/docs/index.rst
+-'  11  36  ~/gsoc/sandhi-splitter/docs/index.rst
+-'  12  0  ~/gsoc/sandhi-splitter/docs/index.rst
+-'  1  0  ~/gsoc/sandbox/splitter.rst
+-'  20  13  ~/gsoc/sandbox/index.rst
+-'  1  0  ~/gsoc/sandbox/index.rst
+-'  4  0  ~/gsoc/sandbox/NERD_tree_1
+-'  1  0  ~/gsoc/sandbox/NERD_tree_1
+-'  5  0  ~/gsoc/sandbox/NERD_tree_1
+-'  22  0  ~/gsoc/sandbox/index.rst
+-'  22  0  ~/gsoc/sandbox/splitter.rst
+-'  17  0  ~/gsoc/sandbox/index.rst
+-'  14  0  ~/gsoc/sandbox/splitter.rst
+-'  6  0  ~/gsoc/sandbox/splitter.rst
+-'  1  0  ~/gsoc/sandbox/Makefile
+-'  25  8  ~/gsoc/sandhi-splitter/sandhisplitter/joiner.py
+-'  1  0  ~/gsoc/sandhi-splitter/sandhisplitter/joiner.py
+-'  6  0  ~/gsoc/sandhi-splitter/sandhisplitter/joiner.py
+-'  1  0  ~/gsoc/sandhi-splitter/requirements.txt
+-'  10  22  ~/repo/jerinphilip.github.io/css/syntax.css
+-'  1  0  ~/repo/jerinphilip.github.io/css/syntax.css
+-'  2  0  ~/repo/jerinphilip.github.io/css/syntax.css
+-'  36  55  ~/repo/jerinphilip.github.io/css/syntax.css
+-'  45  32  ~/repo/jerinphilip.github.io/css/syntax.css
+-'  44  1  ~/repo/jerinphilip.github.io/css/syntax.css
+-'  1  0  ~/code/cf/304/2/A.cpp
+-'  4  0  ~/code/cf/304/2/A.cpp
+-'  39  35  ~/repo/jerinphilip.github.io/css/syntax.css
+-'  2  0  ~/repo/jerinphilip.github.io/css/default.css
+-'  61  0  ~/repo/jerinphilip.github.io/css/default.css
+-'  58  0  ~/repo/jerinphilip.github.io/css/default.css
+-'  37  0  ~/repo/jerinphilip.github.io/css/default.css
+-'  1  0  ~/repo/jerinphilip.github.io/_site/css/syntax.css
+-'  1  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/hinotify-0.3.8.1.log
+-'  1  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/packages/00-index.tar
+-'  1  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/packages/00-index.
+-'  1  0  ~/repo/jerinphilip.github.io/cabal.sandbox.config
+-'  65  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/build.log
+-'  1  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/build.log
+-'  68  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/hakyll-4.8.3.2.log
+-'  1  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/hakyll-4.8.3.2.log
+-'  1  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/jerinphilip-github-io-0.1.0.0.log
+-'  73  28  ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/hakyll-4.8.3.2.log
+-'  41  111  ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/hakyll-4.8.3.2.log
+-'  44  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/hakyll-4.8.3.2.log
+-'  69  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/hakyll-4.8.3.2.log
+-'  1  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/hakyll-4.8.3.2-LHCtZtRFUKZ49Bd9x3A0BH/Hakyll/Main.dyn_hi
+-'  49  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/hakyll-4.8.3.2-LHCtZtRFUKZ49Bd9x3A0BH.conf
+-'  42  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/hakyll-4.8.3.2-LHCtZtRFUKZ49Bd9x3A0BH.conf
+-'  1  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/hakyll-4.8.3.2-LHCtZtRFUKZ49Bd9x3A0BH.conf
+-'  8  0  ~/repo/jerinphilip.github.io/jerinphilip-github-io.cabal
+-'  1  0  ~/repo/jerinphilip.github.io/jerinphilip-github-io.cabal
+-'  2  26  ~/repo/jerinphilip.github.io/jerinphilip-github-io.cabal
+-'  9  32  ~/repo/jerinphilip.github.io/jerinphilip-github-io.cabal
+-'  10  28  ~/repo/jerinphilip.github.io/jerinphilip-github-io.cabal
+-'  24  0  ~/repo/jerinphilip.github.io/css/default.css
+-'  1  0  ~/repo/jerinphilip.github.io/css/default.css
+-'  10  103  /tmp/yaourt-tmp-jerin/aur-libra-gtk-theme/PKGBUILD
+-'  1  0  /tmp/yaourt-tmp-jerin/aur-libra-gtk-theme/PKGBUILD
+-'  1447  0  ~/.xsession-errors
+-'  1  0  ~/.xsession-errors
+-'  1512  0  ~/.xsession-errors
+-'  36  0  ~/.xsession-errors
+-'  1  0  ~/-rf *
+-'  12  0  ~/Downloads/DooMLoRD_Easy-Rooting-Toolkit_v17_perf-event-exploit/files/doomed.sh
+-'  37  18  ~/Downloads/DooMLoRD_Easy-Rooting-Toolkit_v17_perf-event-exploit/runme_linux.sh
+-'  1  0  ~/Downloads/DooMLoRD_Easy-Rooting-Toolkit_v17_perf-event-exploit/runme_linux.sh
+-'  10  0  ~/Downloads/DooMLoRD_Easy-Rooting-Toolkit_v17_perf-event-exploit/files/doomed.sh
+-'  1  0  ~/Downloads/DooMLoRD_Easy-Rooting-Toolkit_v17_perf-event-exploit/files/doomed.sh
+-'  42  0  ~/Downloads/DooMLoRD_Easy-Rooting-Toolkit_v17_perf-event-exploit/runme_linux.sh
+-'  31  0  ~/Downloads/DooMLoRD_Easy-Rooting-Toolkit_v17_perf-event-exploit/runme_linux.sh
+-'  1  0  ~/Downloads/DooMLoRD_Easy-Rooting-Toolkit_v17_perf-event-exploit/runme_
+-'  1  0  ~/dot/gnome-cli-proxy/gnome-set-proxy.sh
+-'  4  0  ~/gsoc/spellchecker/spellchecker/core.py
 
 # History of marks within files (newest to oldest):
 
-> ~/step/script.py
-	"	53	70
-	^	53	71
-	.	53	70
-	+	57	17
-	+	58	0
-	+	58	15
-	+	58	0
-	+	59	29
-	+	59	49
-	+	57	0
-	+	58	0
-	+	50	0
-	+	51	0
-	+	59	0
-	+	52	0
-	+	59	0
-	+	53	0
-	+	58	0
-	+	53	70
-
-> ~/code/haskell/match.hs
-	"	6	24
-	^	8	51
-	.	8	50
-	+	1	0
-	+	2	0
-	+	3	26
-	+	5	8
-	+	6	24
-	+	7	46
-	+	8	50
-
-> ~/.Xresources
-	"	1	0
-
-> ~/ltrc/ir.md
-	"	18	0
-	^	19	24
-	.	20	0
-	+	2	18
-	+	3	12
-	+	3	13
-	+	6	37
-	+	8	35
-	+	20	3
-	+	7	0
-	+	10	62
-	+	20	3
-	+	8	37
-	+	9	38
-	+	12	30
-	+	20	0
-	+	12	9
-	+	15	19
-	+	20	0
-	+	20	0
-	+	2	0
-	+	1	1
-	+	17	20
-	+	19	0
-	+	4	14
-	+	5	20
-	+	19	23
-	+	20	0
-
-> ~/.config/awesome/prefs.lua
-	"	12	55
-	^	12	56
-	.	12	55
-	+	12	55
-
-> ~/Dropbox/wallpaper/arch/arch.jpg
-	"	1	0
-
-> ~/ltrc/smt.md
-	"	86	17
-	^	86	18
-	.	86	17
-	+	3	4
-	+	1	17
-	+	2	0
-	+	3	5
-	+	4	0
-	+	5	18
-	+	4	23
-	+	3	22
-	+	8	32
-	+	11	9
-	+	10	20
-	+	12	17
-	+	14	18
-	+	18	34
-	+	16	13
-	+	14	1
-	+	18	0
-	+	18	35
-	+	20	24
-	+	21	29
-	+	23	39
-	+	24	42
-	+	78	0
-	+	25	51
-	+	27	27
-	+	28	39
-	+	78	12
-	+	78	10
-	+	78	10
-	+	78	0
-	+	78	0
-	+	30	18
-	+	31	17
-	+	32	20
-	+	30	34
-	+	32	33
-	+	4	22
-	+	34	54
-	+	36	0
-	+	34	17
-	+	34	0
-	+	38	23
-	+	39	72
-	+	40	64
-	+	42	15
-	+	43	0
-	+	45	38
-	+	47	55
-	+	45	0
-	+	48	60
-	+	49	56
-	+	52	42
-	+	54	55
-	+	55	26
-	+	57	22
-	+	58	20
-	+	60	20
-	+	77	0
-	+	61	0
-	+	78	0
-	+	63	17
-	+	65	29
-	+	65	53
-	+	68	16
-	+	52	35
-	+	68	67
-	+	71	4
-	+	72	4
-	+	74	5
-	+	75	2
-	+	76	5
-	+	71	6
-	+	72	6
-	+	73	6
-	+	74	6
-	+	75	6
-	+	76	6
-	+	70	34
-	+	79	69
-	+	80	20
-	+	82	11
-	+	70	43
-	+	71	8
-	+	85	16
-	+	86	17
-
-> /usr/share/vim/vim74/doc/help.txt
-	"	58	2
-
-> /usr/share/vim/vim74/doc/usr_07.txt
-	"	99	0
-
-> ~/gsoc/indicngram/indicngram/core.py
-	"	110	4
-
-> ~/gsoc/sandhi-splitter/sandhisplitter/__init__.py
-	"	25	0
-	^	29	0
-	.	29	0
-	+	7	27
-	+	7	0
-	+	7	53
-	+	7	0
-	+	7	11
-	+	7	0
-	+	7	0
-	+	9	13
-	+	4	20
-	+	5	53
-	+	1	0
-	+	1	0
-	+	10	22
-	+	16	26
-	+	16	0
-	+	13	16
-	+	14	40
-	+	13	0
-	+	15	24
-	+	16	43
-	+	7	0
-	+	3	10
-	+	8	0
-	+	16	28
-	+	19	23
-	+	18	0
-	+	30	0
-	+	16	20
-	+	17	43
-	+	30	0
-	+	20	11
-	+	30	0
-	+	21	55
-	+	22	31
-	+	30	0
-	+	6	42
-	+	11	60
-	+	12	43
-	+	11	59
-	+	12	41
-	+	13	37
-	+	31	17
-	+	32	19
-	+	24	29
-	+	25	31
-	+	26	0
-	+	30	0
-	+	27	22
-	+	28	45
-	+	29	0
-
-> ~/gsoc/indicngram/indicngram/__init__.py
-	"	1	0
-
-> ~/gsoc/sandhi-splitter/sandhisplitter/test.py
-	"	8	24
-	^	70	22
-	.	8	24
-	+	38	0
-	+	34	32
-	+	35	45
-	+	36	44
-	+	38	0
-	+	82	0
-	+	82	0
-	+	77	28
-	+	80	27
-	+	81	18
-	+	82	0
-	+	37	16
-	+	80	11
-	+	81	20
-	+	67	0
-	+	21	29
-	+	21	0
-	+	22	0
-	+	21	24
-	+	22	0
-	+	21	28
-	+	23	0
-	+	21	33
-	+	21	0
-	+	21	0
-	+	17	0
-	+	78	38
-	+	80	0
-	+	78	43
-	+	81	16
-	+	5	0
-	+	10	0
-	+	4	0
-	+	1	0
-	+	10	0
-	+	5	0
-	+	3	18
-	+	43	14
-	+	45	15
-	+	48	14
-	+	48	14
-	+	54	58
-	+	55	22
-	+	58	17
-	+	48	0
-	+	46	0
-	+	48	0
-	+	46	49
-	+	58	23
-	+	47	23
-	+	58	69
-	+	59	0
-	+	77	0
-	+	77	0
-	+	77	0
-	+	77	0
-	+	77	20
-	+	58	9
-	+	77	13
-	+	58	29
-	+	62	0
-	+	66	11
-	+	67	0
-	+	77	25
-	+	63	22
-	+	60	17
-	+	77	38
-	+	77	0
-	+	72	0
-	+	77	0
-	+	66	18
-	+	62	19
-	+	61	56
-	+	62	23
-	+	77	0
-	+	68	0
-	+	72	0
-	+	65	9
-	+	80	0
-	+	79	33
-	+	80	20
-	+	6	0
-	+	7	33
-	+	58	0
-	+	58	16
-	+	72	0
-	+	71	31
-	+	7	0
-	+	8	0
-	+	7	27
-	+	8	32
-	+	7	43
-	+	8	53
-	+	58	0
-	+	56	22
-	+	57	22
-	+	70	10
-	+	71	33
-	+	70	21
-	+	8	24
-
-> ~/gsoc/sandhi-splitter/sandhisplitter/splitter.py
-	"	1	0
-	^	10	14
-	.	10	13
-	+	7	27
-	+	8	29
-	+	12	0
-	+	10	37
-	+	11	48
-	+	8	12
-	+	11	19
-	+	1	0
-	+	10	24
-	+	11	42
-	+	10	13
-
-> ~/gsoc/sandhi-splitter/sandhisplitter/postprocessor.py
-	"	1	0
-	^	21	51
-	.	2	0
-	+	6	0
-	+	6	25
-	+	6	7
-	+	6	19
-	+	6	18
-	+	6	0
-	+	6	0
-	+	6	0
-	+	7	20
-	+	15	11
-	+	16	6
-	+	2	36
-	+	4	0
-	+	5	0
-	+	15	0
-	+	16	0
-	+	8	11
-	+	11	32
-	+	11	30
-	+	12	39
-	+	13	27
-	+	12	32
-	+	13	38
-	+	14	34
-	+	15	0
-	+	1	22
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	19	0
-	+	23	0
-	+	22	0
-	+	26	0
-	+	27	0
+> ~/gsoc/sandhi-splitter/docs/index.rst
+	"	80	0
+	^	10	13
+	.	9	0
 	+	11	0
-	+	10	0
-	+	27	0
-	+	28	3
-	+	30	31
-	+	21	51
-	+	2	0
-
-> ~/gsoc/sandhi-splitter/sandhisplitter/tests/test_postprocessor.py
-	"	1	0
-	.	20	0
-	+	17	0
-	+	17	0
-	+	18	170
-	+	16	0
-	+	18	166
-	+	17	23
-	+	20	16
-	+	18	0
-	+	1	12
-	+	1	0
-	+	18	24
-	+	16	21
-	+	16	0
-	+	13	0
-	+	16	0
-	+	18	31
-	+	5	42
-	+	6	18
-	+	20	0
-
-> ~/gsoc/sandhi-splitter/sandhisplitter/test
-	"	1	0
-
-> ~/gsoc/sandhi-splitter/sandhisplitter/model.py
-	"	57	8
-	^	9	33
-	.	1	0
-	+	26	0
-	+	26	0
-	+	26	10
-	+	32	0
-	+	56	0
-	+	57	12
-	+	57	12
-	+	32	51
-	+	26	0
-	+	32	69
-	+	32	0
-	+	32	0
-	+	32	0
-	+	26	0
-	+	26	0
-	+	23	47
-	+	26	0
-	+	24	0
-	+	25	25
-	+	30	44
-	+	31	46
-	+	32	21
-	+	32	17
-	+	7	0
-	+	32	13
-	+	23	48
-	+	32	0
-	+	57	0
-	+	58	35
-	+	3	24
-	+	58	26
-	+	57	26
-	+	58	54
-	+	57	27
-	+	58	0
-	+	57	34
-	+	41	28
-	+	42	31
-	+	43	27
-	+	40	0
-	+	44	40
-	+	46	0
-	+	44	41
-	+	45	43
-	+	4	0
-	+	21	0
-	+	58	28
-	+	21	32
-	+	4	0
-	+	21	29
-	+	21	23
-	+	7	39
-	+	21	0
-	+	21	0
-	+	8	35
-	+	10	37
-	+	11	63
-	+	12	21
-	+	21	0
-	+	7	0
-	+	16	0
-	+	15	0
-	+	12	59
-	+	14	27
-	+	7	0
-	+	5	0
-	+	21	0
-	+	11	36
-	+	9	32
-	+	54	0
-	+	57	0
-	+	1	0
-
-> /etc/default/tlp
-	"	14	0
-	^	219	36
-	.	201	41
-	+	244	0
-	+	245	0
-	+	108	35
-	+	244	0
-	+	245	0
-	+	249	1
-	+	219	36
-	+	201	41
-
-> ~/code/haskell/wysfh/ex3.hs
-	"	1	0
-
-> ~/code/haskell/tt.hs
-	"	11	1
-	^	13	9
-	.	13	8
-	+	3	0
-	+	3	22
-	+	9	8
-	+	14	0
-	+	14	0
-	+	11	31
-	+	10	22
-	+	11	60
-	+	14	0
-	+	12	17
-	+	7	14
-	+	12	29
-	+	14	26
-	+	11	28
-	+	14	33
-	+	14	41
-	+	1	15
-	+	2	0
-	+	14	22
-	+	4	4
-	+	5	15
-	+	6	18
-	+	5	7
-	+	7	11
-	+	14	0
-	+	13	29
-	+	13	46
-	+	7	11
-	+	5	24
-	+	6	25
-	+	13	8
-
-> ~/code/haskell/bleh.hs
-	"	11	0
-	^	7	27
-	.	7	26
-	+	13	24
-	+	13	0
-	+	13	0
-	+	13	0
-	+	3	19
-	+	3	21
-	+	3	25
-	+	3	27
-	+	3	29
-	+	11	8
-	+	12	21
-	+	3	0
-	+	12	7
-	+	12	7
-	+	12	7
 	+	12	0
-	+	3	0
-	+	5	0
-	+	7	0
-	+	10	0
-	+	3	5
-	+	5	4
-	+	7	4
-	+	10	39
-	+	12	26
-	+	2	31
-	+	4	4
-	+	6	4
-	+	9	4
-	+	7	26
-
-> ~/.config/awesome/rc.lua
-	"	371	28
-	^	371	37
-	.	371	28
-	+	372	0
-	+	372	2
-	+	372	1
-	+	372	0
-	+	372	44
-	+	372	0
-	+	372	2
-	+	10	33
-	+	372	0
-	+	372	0
-	+	372	52
-	+	374	55
-	+	375	0
-	+	372	60
-	+	376	0
-	+	372	63
-	+	368	0
-	+	253	0
-	+	11	26
-	+	260	20
-	+	11	9
-	+	105	0
-	+	260	14
-	+	252	0
-	+	253	0
-	+	253	0
-	+	253	2
-	+	253	0
-	+	252	0
-	+	252	47
-	+	105	0
-	+	12	29
-	+	207	0
-	+	205	82
-	+	206	82
-	+	207	82
-	+	208	82
-	+	113	96
-	+	126	60
-	+	119	20
-	+	137	30
-	+	105	2
-	+	105	18
-	+	154	40
-	+	156	40
-	+	252	0
-	+	272	38
-	+	272	0
-	+	8	0
-	+	7	0
-	+	5	0
-	+	1	0
-	+	93	50
-	+	120	25
-	+	105	0
-	+	105	0
-	+	106	8
-	+	107	38
-	+	106	0
-	+	105	0
-	+	105	0
-	+	110	0
-	+	111	0
-	+	113	0
-	+	115	0
-	+	13	27
-	+	118	2
-	+	119	0
-	+	13	0
-	+	99	43
-	+	95	44
-	+	97	50
-	+	91	43
-	+	88	44
-	+	89	29
-	+	90	30
-	+	89	45
-	+	90	2
-	+	88	44
-	+	93	52
-	+	88	43
-	+	93	54
-	+	97	50
-	+	85	44
-	+	93	49
-	+	89	2
-	+	378	33
-	+	370	40
-	+	371	43
-	+	372	29
-	+	378	14
-	+	254	0
-	+	370	24
-	+	371	36
-	+	370	24
-	+	371	28
-
-> ~/.config/awesome/battery.lua
-	"	13	19
-	^	20	14
-	.	20	13
-	+	4	0
-	+	6	16
-	+	4	4
-	+	4	26
-	+	6	76
-	+	21	0
-	+	6	10
-	+	7	39
-	+	21	19
-	+	6	5
-	+	7	5
-	+	21	5
-	+	8	19
-	+	7	41
-	+	21	23
-	+	21	7
-	+	21	0
-	+	21	18
-	+	21	0
-	+	9	25
+	+	14	41
+	+	11	36
+	+	6	29
+	+	14	30
+	+	9	8
+	+	10	7
 	+	6	0
-	+	4	40
-	+	10	2
-	+	6	0
-	+	4	0
+	+	7	14
+	+	27	8
+	+	28	6
+	+	27	25
+	+	28	25
+	+	29	4
+	+	14	16
+	+	29	0
+	+	30	72
+	+	75	22
+	+	75	2
+	+	79	0
+	+	15	11
+	+	16	11
+	+	79	0
+	+	75	75
+	+	75	43
+	+	75	2
+	+	75	1
+	+	75	0
+	+	75	0
+	+	75	18
+	+	75	0
+	+	75	14
+	+	18	59
+	+	20	19
 	+	21	0
-	+	21	30
-	+	9	32
-	+	2	38
-	+	2	0
-	+	12	37
-	+	18	0
-	+	13	13
-	+	15	5
-	+	13	9
-	+	15	30
-	+	6	33
-	+	5	0
-	+	14	21
-	+	5	30
-	+	3	38
-	+	3	0
-	+	2	21
-	+	5	41
-	+	14	66
-	+	15	32
-	+	6	49
-	+	15	50
-	+	18	22
-	+	18	0
-	+	18	22
-	+	18	47
-	+	18	41
-	+	18	29
-	+	18	0
-	+	18	8
-	+	18	29
-	+	14	67
-	+	18	0
-	+	16	43
-	+	17	32
-	+	12	12
-	+	21	0
-	+	2	0
-	+	1	0
-	+	4	7
-	+	12	6
-	+	4	5
-	+	12	5
-	+	1	17
-	+	4	13
-	+	12	13
-	+	4	22
-	+	4	25
-	+	12	24
-	+	20	13
-
-> ~/.bashrc
-	"	24	44
-	^	24	45
-	.	24	44
-	+	17	0
-	+	16	0
-	+	40	0
-	+	41	0
-	+	36	0
-	+	35	0
-	+	36	11
-	+	37	11
-	+	38	11
-	+	39	11
-	+	37	24
-	+	36	32
-	+	31	29
-	+	39	28
-	+	44	10
+	+	22	60
+	+	23	21
+	+	24	26
+	+	25	0
+	+	76	16
+	+	77	15
+	+	75	0
+	+	74	0
+	+	74	0
+	+	78	0
+	+	79	0
+	+	92	50
+	+	79	0
+	+	31	64
+	+	74	0
+	+	74	0
+	+	16	11
+	+	28	0
+	+	77	0
+	+	74	0
+	+	38	19
+	+	40	25
+	+	74	5
+	+	74	0
+	+	53	43
+	+	43	0
 	+	58	0
-	+	24	44
+	+	74	0
+	+	72	46
+	+	61	0
+	+	60	35
+	+	33	37
+	+	35	7
+	+	36	6
+	+	55	6
+	+	56	6
+	+	57	0
+	+	39	0
+	+	36	7
+	+	10	8
+	+	59	0
+	+	14	0
+	+	9	13
+	+	10	12
+	+	9	0
 
-> ~/.config/awesome/keys.lua
-	"	174	0
-	.	175	0
-	+	7	10
-	+	3	14
-	+	1	29
-	+	92	11
-	+	176	10
-	+	92	3
-	+	113	0
-	+	112	0
-	+	114	50
-	+	176	0
-	+	2	30
-	+	4	26
-	+	6	0
-	+	5	0
-	+	6	0
-	+	6	0
-	+	52	80
-	+	155	0
-	+	154	0
-	+	155	10
-	+	175	0
-	+	175	0
-
-> ~/gsoc/sandhi-splitter/AUTHORS
+> ~/gsoc/sandhi-splitter/docs/index.
 	"	1	0
 
-> ~/gsoc/sandhi-splitter/ChangeLog
+> ~/gsoc/sandhi-splitter/sandhisplitter/joiner.py
 	"	1	0
-
-> ~/gsoc/sandhi-splitter/.git/COMMIT_EDITMSG
-	"	3	19
 	^	3	20
 	.	3	19
-	+	10	24
-	+	13	9
-	+	10	48
-	+	11	71
-	+	9	31
-	+	9	22
-	+	8	0
-	+	9	67
-	+	8	0
-	+	7	61
-	+	6	0
-	+	4	34
-	+	6	0
-	+	4	10
-	+	5	32
-	+	4	0
-	+	1	30
-	+	3	19
-
-> ~/gsoc/sandhi-splitter/.git/rebase-merge/git-rebase-todo
-	"	5	5
-	^	9	6
-	.	9	5
-	+	3	5
-	+	4	5
-	+	3	0
-	+	2	5
-	+	3	0
-	+	4	5
-	+	5	5
-	+	10	0
-	+	11	5
-	+	10	5
-	+	9	5
-
-> ~/gsoc/sandhi-splitter/docs/Testing.md
-	"	9	2
-	^	14	41
-	.	14	40
-	+	2	2
-	+	24	0
-	+	5	0
-	+	6	0
-	+	6	0
-	+	5	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	7	41
-	+	8	14
-	+	7	41
-	+	17	0
-	+	17	0
-	+	17	64
-	+	17	64
-	+	17	42
-	+	18	0
-	+	18	0
-	+	9	0
-	+	12	0
-	+	18	0
-	+	8	34
-	+	11	7
-	+	14	0
-	+	15	0
-	+	13	64
-	+	14	61
-	+	17	61
-	+	19	0
-	+	8	24
-	+	14	40
-
-> /etc/asound.conf
-	"	1	0
-
-> ~/gsoc/sandhi-splitter/output/results.txt
-	"	1	0
-
-> ~/gsoc/sandhi-splitter/sandhisplitter/train.py
-	"	1	0
-	^	8	19
-	.	8	18
-	+	16	14
-	+	18	14
-	+	27	53
-	+	40	59
-	+	41	33
-	+	8	18
-
-> ~/gsoc/sandhi-splitter/sandhisplitter/trie.py
-	"	1	0
-	.	85	0
-	+	82	20
-	+	93	0
-	+	83	37
-	+	84	16
-	+	93	20
-	+	82	25
-	+	82	0
-	+	78	15
-	+	80	32
-	+	82	27
-	+	93	0
-	+	85	0
-	+	88	29
-	+	88	0
-	+	87	19
-	+	74	21
-	+	55	21
-	+	90	35
-	+	93	0
-	+	90	47
-	+	93	35
-	+	93	0
-	+	91	49
-	+	91	30
-	+	91	49
-	+	93	0
-	+	90	33
-	+	91	35
-	+	92	19
-	+	91	19
-	+	92	20
-	+	93	0
-	+	93	0
-	+	93	0
-	+	91	37
-	+	91	35
-	+	93	0
-	+	93	0
-	+	92	23
-	+	85	32
-	+	90	28
-	+	89	8
-	+	90	8
-	+	19	0
-	+	95	29
-	+	93	0
-	+	95	39
-	+	91	25
-	+	89	27
-	+	91	31
-	+	71	30
-	+	59	40
-	+	67	34
-	+	67	0
-	+	63	13
-	+	67	20
-	+	63	46
-	+	64	36
-	+	67	0
-	+	65	34
-	+	66	20
-	+	68	69
-	+	70	0
-	+	63	26
-	+	69	17
-	+	72	50
-	+	68	34
-	+	58	0
-	+	68	50
-	+	63	21
-	+	63	0
-	+	45	0
-	+	63	20
-	+	68	80
-	+	63	0
-	+	67	0
-	+	68	73
-	+	63	0
-	+	60	43
-	+	61	26
-	+	62	0
-	+	67	39
-	+	93	0
-	+	95	0
-	+	40	0
-	+	43	0
-	+	95	0
-	+	90	0
-	+	91	0
-	+	82	0
-	+	81	0
-	+	82	0
-	+	40	0
-	+	43	0
-	+	4	0
-	+	1	38
-	+	86	0
-	+	85	0
 	+	1	0
-	+	85	0
-
-> ~/gsoc/sandhi-splitter/sandhisplitter/util.py
-	"	1	0
-	^	5	0
-	.	5	0
-	+	14	0
-	+	13	0
-	+	31	0
-	+	31	0
-	+	27	20
-	+	28	29
-	+	26	31
-	+	28	30
-	+	29	54
-	+	30	15
-	+	29	24
-	+	25	0
-	+	28	34
-	+	2	0
-	+	4	0
-	+	2	48
-	+	3	22
-	+	5	0
-
-> ~/.claws-mail/mimetmp/00000001.mimetmp
-	"	1	0
-
-> ~/out
-	"	1	144
-	^	1	144
-	.	1	144
-	+	1	0
-	+	1	34
-	+	1	158
-	+	2	0
-	+	2	0
-	+	1	212
-	+	1	212
-	+	1	390
-	+	1	17
-	+	2	0
-	+	1	0
-	+	1	0
-	+	1	144
-
-> ~/.config/awesome/menu.lua
-	"	7	0
-	^	6	0
-	.	6	0
-	+	8	0
-	+	7	0
-	+	12	0
-	+	5	14
-	+	21	10
-	+	7	4
-	+	13	8
-	+	1	29
-	+	7	8
-	+	13	54
-	+	2	37
-	+	3	29
-	+	8	20
-	+	9	25
-	+	14	60
-	+	4	0
-	+	6	0
-
-> ~/.config/awesome/NERD_tree_1
-	"	7	2
-	.	1	0
-	+	1	0
-
-> ~/.config/awesome/wallpaper.lua
-	"	4	0
-
-> ~/repo/devlog/NERD_tree_1
-	"	5	0
-	.	1	0
-	+	1	0
-	+	1	0
-
-> ~/repo/devlog/posts/index/2016-06-16-what-is.markdown
-	"	7	0
-	^	3	17
-	.	3	16
-	+	4	2
-	+	3	7
-	+	4	0
-	+	10	0
-	+	8	574
-	+	7	0
-	+	2	6
-	+	3	16
-
-> ~/repo/devlog/templates/default.html
-	"	12	29
-	^	12	30
-	.	12	29
-	+	24	23
-	+	27	45
-	+	5	16
-	+	5	20
-	+	3	0
-	+	6	0
-	+	7	0
-	+	8	0
-	+	9	0
-	+	11	0
-	+	5	23
-	+	6	0
 	+	16	0
-	+	18	0
-	+	12	29
-
-> ~/gsoc/sandhi-splitter/docs/Training.md
-	"	8	0
-	.	16	0
-	+	4	58
-	+	9	26
-	+	8	2
-	+	10	2
-	+	31	0
-	+	12	97
-	+	29	0
-	+	7	0
-	+	14	90
-	+	25	2
-	+	28	0
-	+	26	58
-	+	27	3
-	+	18	0
-	+	17	25
-	+	19	69
-	+	20	23
-	+	23	10
-	+	17	0
-	+	24	0
-	+	4	0
-	+	3	0
-	+	6	27
-	+	17	0
-	+	16	0
-
-> ~/gsoc/sandhi-splitter/env/bin/activate
-	"	78	0
-	.	79	0
-	+	79	0
-
-> ~/gsoc/sandhi-splitter/sandhisplitter/tests/test_test.py
-	"	1	0
-	^	1	1
-	.	1	0
-	+	1	0
-
-> /mnt/extra/Lectures/Android/download.txt
-	"	1	0
-	^	21	28
-	.	1	0
-	+	21	25
-	+	1	0
-
-> /mnt/extra/Lectures/Android/downloaded.txt
-	"	5	0
-	.	8	0
-	+	1	0
-	+	8	0
-
-> ~/.fonts.conf
-	"	74	47
-
-> ~/Downloads/Heritage-XML-Format.txt
-	"	48	0
-
-> ~/.config/awesome/test.lua
-	"	3	0
-	^	3	3
-	.	3	0
-	+	1	33
-	+	5	0
-	+	3	30
-	+	4	26
-	+	3	0
-
-> ~/gsoc/sandhi-splitter/sandhisplitter/tests/test_trie.py
-	"	1	0
-	.	4	0
-	+	11	0
-	+	54	0
-	+	11	0
-	+	38	0
-	+	4	0
-
-> ~/gsoc/sandhi-splitter/docs/index.rst
-	"	21	0
-	.	21	0
-	+	21	0
-
-> ~/gsoc/sandhi-splitter/docs/conf.py
-	"	234	4
-
-> ~/gsoc/indicngram/docs/conf.py
-	"	1	0
-
-> ~/gsoc/sandhi-splitter/Makefile
-	"	1	0
-	^	4	42
-	.	3	40
-	+	4	0
-	+	4	3
-	+	3	40
-	+	4	0
-	+	3	40
-	+	4	39
-	+	4	0
-	+	3	40
-
-> ~/resolvconf.conf
-	"	1	0
-
-> ~/resolvcof.conf
-	"	1	0
-
-> /etc/resolv.conf
-	"	1	0
-
-> ~/repo/devlog/posts/system/2016-06-10-last.markdown
-	"	1	2
-	^	1	3
-	.	1	2
-	+	2	21
-	+	6	717
-	+	2	6
-	+	3	12
-	+	4	2
-	+	1	2
-
-> ~/repo/devlog/posts/web/2016-06-04-another.markdown
-	"	4	0
-	^	4	3
-	.	4	2
-	+	6	613
-	+	1	2
-	+	2	5
-	+	3	5
-	+	2	6
-	+	3	12
-	+	4	2
-
-> ~/repo/devlog/posts/android/2016-06-17-what-is.markdown
-	"	8	0
-	.	8	0
-	+	8	222
-	+	2	0
-	+	1	2
-	+	4	2
-	+	2	6
-	+	3	12
-	+	7	0
-	+	8	0
-
-> ~/repo/devlog/README.md
-	"	3	55
-	^	3	164
-	.	4	0
-	+	3	54
-	+	1	5
-	+	2	2
-	+	3	163
-	+	4	0
-
-> ~/repo/devlog/.gitignore
-	"	3	4
-	^	3	5
-	.	3	4
-	+	1	6
-	+	2	5
-	+	3	4
-
-> ~/repo/devlog/web.html
-	"	2	8
-	^	2	10
-	.	2	8
-	+	2	8
-
-> ~/repo/devlog/index.html
-	"	2	0
-
-> ~/repo/devlog/system.html
-	"	1	0
-
-> ~/repo/devlog/site.hs
-	"	3	0
-
-> ~/code/tmp/jc.py
-	"	5	16
-	^	5	17
-	.	5	16
-	+	2	21
-	+	5	16
-
-> ~/code/tmp/temp.py
-	"	1	0
-
-> ~/gsoc/sandhi-splitter/sandhisplitter/tests/test_model.py
-	"	13	0
-	^	33	48
-	.	33	47
-	+	11	46
-	+	17	0
-	+	18	37
-	+	20	29
-	+	21	44
-	+	24	54
-	+	25	48
-	+	26	70
-	+	29	44
-	+	28	0
-	+	27	26
-	+	32	0
-	+	30	24
-	+	13	0
-	+	14	0
-	+	12	22
-	+	5	18
-	+	12	73
-	+	16	24
-	+	21	0
-	+	17	0
-	+	13	61
-	+	14	0
-	+	13	0
-	+	14	38
-	+	13	61
-	+	23	31
-	+	19	23
-	+	33	47
-
-> ~/gsoc/sandhi-splitter/sandhisplitter/tests/resources/samples.txt
-	"	2	0
-	^	2	17
-	.	2	0
-	+	1	0
-	+	2	0
-
-> ~/repo/jerinphilip.github.io/index.html
-	"	7	28
-	^	7	29
-	.	7	28
-	+	7	118
-	+	5	16
-	+	7	0
-	+	6	0
-	+	8	0
-	+	7	53
-	+	7	0
-	+	6	0
-	+	7	0
-	+	8	0
-	+	7	28
-
-> ~/gsoc/sandhi-splitter/sandhisplitter/parser.py
-	"	1	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	59
-	+	1	46
-	+	1	50
-	+	1	6
-	+	1	6
-	+	1	6
-	+	1	6
-	+	1	6
-	+	1	13
-	+	1	13
-	+	1	13
-	+	1	13
-	+	1	13
-	+	1	73
-	+	1	25
-	+	1	0
-
-> ~/gsoc/sandhi-splitter/.git/MERGE_MSG
-	"	1	0
-
-> ~/gsoc/sandhi-splitter/setup.py
-	"	3	0
-
-> ~/gsoc/sandhi-splitter/.coverage
-	"	1	0
-
-> ~/repo/jerinphilip.github.io/contact.markdown
-	"	6	0
-
-> ~/repo/jerinphilip.github.io/about.rst
-	"	17	0
-
-> ~/repo/jerinphilip.github.io/posts/2016-06-12-sandhi-split-point.markdown
-	"	68	51
-	^	68	52
-	.	68	51
-	+	7	15
-	+	1	1
-	+	5	0
-	+	5	2
-	+	1	2
-	+	2	32
-	+	3	13
-	+	2	0
-	+	3	19
-	+	4	27
-	+	5	0
-	+	7	251
-	+	10	13
-	+	26	0
-	+	15	0
-	+	11	330
-	+	13	31
-	+	9	0
-	+	13	228
-	+	13	41
-	+	13	302
-	+	15	276
 	+	17	8
-	+	15	187
-	+	15	220
-	+	17	193
-	+	17	230
-	+	16	0
-	+	17	255
-	+	19	363
-	+	23	0
-	+	26	0
-	+	23	2
-	+	25	2
-	+	24	21
-	+	22	0
-	+	21	247
-	+	68	0
-	+	68	51
+	+	18	8
+	+	19	8
+	+	20	8
+	+	21	8
+	+	3	19
 
-> ~/gsoc/sandhi-splitter/setup.cfg
+> ~/gsoc/sandbox/splitter.rst
 	"	1	0
-
-> ~/gsoc/sandhi-splitter/tox.ini
-	"	1	0
-
-> ~/notes/letter.md
-	"	17	0
-	.	18	0
-	+	3	37
-	+	18	0
-	+	18	0
-	+	18	36
-	+	6	2
-	+	18	41
-	+	2	1
-	+	3	2
+	.	2	0
 	+	6	0
-	+	18	0
-	+	18	0
-	+	18	0
-	+	18	0
-	+	18	0
-	+	2	1
-	+	3	3
-	+	6	80
-	+	14	20
-	+	14	24
-	+	6	80
-	+	14	0
-	+	8	99
-	+	14	0
-	+	8	101
-	+	14	25
-	+	8	12
-	+	8	100
-	+	14	0
+	+	2	0
+
+> ~/gsoc/sandbox/index.rst
+	"	20	13
+	^	25	14
+	.	25	14
+	+	24	13
+	+	25	14
+
+> ~/gsoc/sandbox/NERD_tree_1
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/gsoc/sandbox/Makefile
+	"	1	0
+
+> ~/gsoc/sandhi-splitter/requirements.txt
+	"	1	0
+
+> ~/repo/jerinphilip.github.io/css/syntax.css
+	"	10	22
+	^	10	23
+	.	10	22
+	+	1	21
+	+	1	0
+	+	1	14
+	+	1	0
+	+	1	17
+	+	1	0
+	+	1	19
+	+	1	0
+	+	1	1
+	+	1	5
+	+	1	57
+	+	1	0
+	+	1	36
+	+	1	96
+	+	1	0
+	+	1	0
+	+	2	0
+	+	39	35
+	+	44	1
+	+	44	2
+	+	44	32
+	+	45	32
+	+	42	1
+	+	42	1
+	+	40	0
+	+	41	0
+	+	40	18
+	+	41	0
+	+	44	32
+	+	45	32
+	+	36	55
+	+	42	0
+	+	44	0
+	+	31	0
+	+	10	22
+
+> ~/code/cf/304/2/A.cpp
+	"	1	0
+
+> ~/repo/jerinphilip.github.io/css/default.css
+	"	2	0
+
+> ~/repo/jerinphilip.github.io/_site/css/syntax.css
+	"	1	0
+
+> ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/build.log
+	"	1	0
+
+> ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/fsnotify-0.2.1.log
+	"	1	0
+
+> ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/hakyll-4.8.3.2.log
+	"	68	0
+	n	41	28
+
+> ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/hinotify-0.3.8.1.log
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/jerinphilip-github-io-0.1.0.0.log
+	"	1	0
+
+> ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/system-filepath-0.4.13.4.log
+	"	1	0
+
+> ~/repo/jerinphilip.github.io/.cabal-sandbox/packages/00-index.tar
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/repo/jerinphilip.github.io/.cabal-sandbox/packages/00-index.
+	"	1	0
+
+> ~/repo/jerinphilip.github.io/cabal.sandbox.config
+	"	1	0
+
+> ~/repo/jerinphilip.github.io/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/hakyll-4.8.3.2-LHCtZtRFUKZ49Bd9x3A0BH/Hakyll/Main.dyn_hi
+	"	1	0
+
+> ~/repo/jerinphilip.github.io/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/hakyll-4.8.3.2-LHCtZtRFUKZ49Bd9x3A0BH.conf
+	"	49	0
+
+> ~/repo/jerinphilip.github.io/jerinphilip-github-io.cabal
+	"	8	0
+	^	9	35
+	.	9	32
+	+	9	34
+	+	10	0
+	+	9	32
+
+> /tmp/yaourt-tmp-jerin/aur-libra-gtk-theme/PKGBUILD
+	"	10	103
+	^	10	104
+	.	10	103
+	+	10	103
+	+	10	103
+
+> ~/.xsession-errors
+	"	1447	0
+
+> ~/-rf *
+	"	1	0
+
+> ~/Downloads/DooMLoRD_Easy-Rooting-Toolkit_v17_perf-event-exploit/runme_linux.sh
+	"	37	18
+
+> ~/Downloads/DooMLoRD_Easy-Rooting-Toolkit_v17_perf-event-exploit/files/doomed.sh
+	"	12	0
+
+> ~/Downloads/DooMLoRD_Easy-Rooting-Toolkit_v17_perf-event-exploit/runme_
+	"	1	0
+
+> ~/dot/gnome-cli-proxy/gnome-set-proxy.sh
+	"	1	0
+
+> ~/gsoc/spellchecker/spellchecker/pipe_sandhi.py
+	"	2	16
+	^	3	34
+	.	3	33
+	+	2	0
+	+	3	33
+
+> ~/gsoc/spellchecker/spellchecker/core.py
+	"	4	0
+
+> ~/.bashrc
+	"	25	52
+	^	25	53
+	.	25	52
+	+	59	0
+	+	24	0
+	+	25	52
+
+> ~/gsoc/spellchecker/spellchecker/__init__.py
+	"	1	0
+
+> ~/.mutt/account.iiit
+	"	7	38
+	^	7	39
+	.	7	38
+	+	1	54
+	+	5	26
+	+	6	44
+	+	7	38
+
+> ~/code/tmp/fp.py
+	"	15	0
+	.	15	0
+	+	2	16
+	+	16	0
+	+	2	7
+	+	3	21
+	+	2	3
+	+	3	5
+	+	5	13
+	+	6	16
+	+	6	14
+	+	7	19
+	+	7	19
+	+	7	23
+	+	6	0
 	+	8	0
-	+	8	167
-	+	8	267
-	+	8	167
-	+	8	365
-	+	8	272
-	+	8	365
-	+	8	386
-	+	14	84
-	+	8	378
-	+	8	155
-	+	8	458
-	+	8	365
-	+	3	55
-	+	14	0
-	+	12	111
-	+	8	112
-	+	12	187
-	+	8	256
-	+	8	115
-	+	8	282
-	+	12	0
+	+	7	0
 	+	8	0
-	+	8	114
+	+	16	0
+	+	10	0
+	+	16	0
+	+	11	0
+	+	12	38
 	+	8	0
 	+	9	0
-	+	8	0
-	+	8	115
-	+	8	283
-	+	12	170
-	+	14	102
-	+	14	0
-	+	12	221
-	+	14	0
-	+	12	221
-	+	14	0
-	+	18	0
-	+	15	0
-	+	14	60
-	+	8	413
-	+	12	238
-	+	14	31
-	+	8	415
-	+	12	278
+	+	14	18
+	+	15	6
 	+	10	0
-	+	10	238
-	+	8	414
-	+	10	296
-	+	10	0
-	+	10	286
-	+	18	0
-	+	10	192
-	+	12	0
-	+	11	0
 	+	13	0
-	+	12	135
-	+	10	265
-	+	12	135
-	+	10	0
-	+	10	191
-	+	11	0
-	+	10	97
-	+	10	265
-	+	14	135
-	+	12	0
-	+	12	209
-	+	16	36
-	+	18	0
+	+	15	24
+	+	16	0
+	+	15	25
+	+	16	0
+	+	15	0
+	+	15	0
 
-> ~/gsoc/sandhi-splitter/test-requirements.txt
+> ~/code/tmp/test.py
 	"	1	0
 
-> ~/notes/nihar.md
-	"	3	0
-	^	3	655
-	.	3	620
-	+	3	620
+> ~/cvit/cv/cc.cpp
+	"	1	0
+	^	26	28
+	.	24	0
+	+	1	29
+	+	29	0
+	+	6	0
+	+	8	0
+	+	15	0
+	+	16	0
+	+	18	0
+	+	21	0
+	+	20	0
+	+	22	1
+	+	1	17
+	+	17	1
+	+	22	2
+	+	8	27
+	+	14	0
+	+	8	14
+	+	11	0
+	+	9	16
+	+	10	0
+	+	9	43
+	+	13	25
+	+	7	13
+	+	10	22
+	+	22	1
+	+	12	62
+	+	11	5
+	+	11	0
+	+	14	0
+	+	12	61
+	+	24	1
+	+	24	0
+	+	24	0
+	+	24	0
+	+	24	0
+	+	24	0
+	+	24	0
+	+	24	0
+	+	24	0
+	+	24	33
+	+	25	27
+	+	26	27
+	+	24	0
 
-> ~/devel/pidgin-2.10.12/libpurple/plugins/helloworld.c
-	"	146	0
+> ~/cvit/cv/worddetect.cpp
+	"	14	53
+	^	14	54
+	.	14	53
+	+	28	0
+	+	9	0
+	+	1	18
+	+	2	0
+	+	5	18
+	+	7	0
+	+	9	0
+	+	7	0
+	+	29	0
+	+	41	0
+	+	36	0
+	+	36	0
+	+	33	34
+	+	34	0
+	+	33	15
+	+	36	0
+	+	35	56
+	+	38	25
+	+	37	32
+	+	39	0
+	+	40	0
+	+	39	0
+	+	35	0
+	+	33	0
+	+	38	34
+	+	37	24
+	+	19	28
+	+	12	203
+	+	12	144
+	+	38	54
+	+	12	147
+	+	12	0
+	+	14	53
 
-> ~/devel/pidgin-2.10.12/libpurple/plugins/Makefile.am
+> /tmp/yaourt-tmp-jerin/aur-ruby-net-ssh/PKGBUILD
+	"	1	4
+	.	1	1
+	+	1	1
+
+> /tmp/yaourt-tmp-jerin/aur-rhc/PKGBUILD
+	"	1	0
+	^	11	80
+	.	11	80
+	+	11	80
+
+> ~/AndroidStudioProjects/WordHelp/.git/COMMIT_EDITMSG
+	"	1	29
+	^	1	30
+	.	1	29
+	+	1	29
+
+> ~/AndroidStudioProjects/WordHelp/.gitignore
+	"	1	0
+
+> ~/AndroidStudioProjects/WordHelp/WordHelp.iml
+	"	2	36
+
+> ~/AndroidStudioProjects/MultiTouchPanZoom/app/src/main/java/io/github/jerinphilip/multitouchpanzoom/TouchImageView.java
+	"	1	0
+	.	184	0
+	+	184	0
+
+> ~/cvit/cv/blob.cpp
+	"	40	13
+	^	11	43
+	.	12	0
+	+	1	19
+	+	155	0
+	+	65	32
+	+	80	70
+	+	125	0
+	+	128	23
+	+	129	30
+	+	84	10
+	+	61	17
+	+	64	0
+	+	64	0
+	+	62	49
+	+	63	17
+	+	4	19
+	+	103	0
+	+	103	0
+	+	103	0
+	+	100	46
+	+	102	0
+	+	101	35
+	+	11	81
+	+	56	0
+	+	56	0
+	+	11	44
+	+	56	0
+	+	11	42
+	+	12	0
+
+> ~/cvit/cv/connected.cpp
+	"	41	0
+	.	45	0
+	+	2	0
+	+	45	0
+
+> /mnt/extra/android-projects/textfairy/app/src/main/res/layout/activity_cropimage.xml
 	"	32	0
 
-> ~/devel/pidgin-2.10.12/libpurple/plugins/Makefile.in
-	"	1291	0
-
-> ~/.vimrc
-	"	1	0
-	^	18	18
-	.	18	17
-	+	21	0
-	+	18	17
-
-> ~/gsoc/sandhi-splitter/.gitignore
-	"	33	12
-
-> ~/gsoc/sandhi-splitter/README.md
-	"	29	31
-	^	29	32
-	.	29	31
-	+	13	0
-	+	15	2
-	+	21	2
-	+	21	3
-	+	14	33
-	+	18	14
-	+	15	4
-	+	21	0
-	+	18	34
-	+	21	0
-	+	21	3
-	+	18	27
-	+	19	13
-	+	17	13
-	+	21	3
-	+	19	21
-	+	21	0
-	+	20	26
-	+	21	0
-	+	21	15
-	+	21	40
-	+	21	0
-	+	21	0
-	+	24	2
-	+	28	2
-	+	27	0
-	+	15	10
-	+	24	6
-	+	15	3
-	+	16	0
-	+	25	40
-	+	26	39
-	+	29	31
-
-> ~/gsoc/sandhi-splitter/log/split.log
+> /mnt/extra/android-projects/textfairy/app/src/main/res/drawable/ic_arrow_back_white.xml
 	"	1	0
 
-> ~/gsoc/sandhi-splitter/models/model.json
+> /mnt/extra/android-projects/textfairy/app/src/main/res/drawable/toolbar_background.xml
 	"	1	0
 
-> ~/gsoc/sandhi-splitter/model.json
+> /mnt/extra/android-projects/textfairy/app/src/main/res/drawable/textfairy_title.xml
 	"	1	0
 
-> ~/cvit/log/site.hs
-	"	50	0
-	^	25	45
-	.	31	0
-	+	45	18
-	+	45	51
-	+	45	0
-	+	36	20
-	+	35	0
-	+	35	3
-	+	35	18
-	+	35	0
-	+	45	0
-	+	21	0
-	+	21	0
-	+	38	0
-	+	45	0
-	+	45	0
-	+	45	16
-	+	45	0
-	+	45	0
-	+	45	0
-	+	45	0
-	+	45	0
-	+	45	17
-	+	45	0
-	+	45	16
-	+	45	16
-	+	45	16
-	+	36	16
-	+	45	51
-	+	45	51
-	+	45	51
-	+	45	51
-	+	36	18
-	+	45	0
-	+	6	0
-	+	35	3
-	+	45	28
-	+	45	28
-	+	45	28
-	+	45	0
-	+	45	56
-	+	45	52
-	+	45	0
-	+	6	0
-	+	21	17
-	+	21	0
-	+	21	18
-	+	21	0
-	+	21	40
-	+	21	40
-	+	21	70
-	+	21	43
-	+	45	23
-	+	21	27
-	+	45	0
-	+	21	0
-	+	8	41
-	+	11	66
-	+	8	28
-	+	43	52
-	+	42	0
-	+	44	23
-	+	8	0
-	+	11	46
-	+	8	26
-	+	11	45
-	+	7	19
+> /mnt/extra/android-projects/textfairy/app/src/main/res/color/primary_text_btn_start.xml
+	"	1	0
+
+> /mnt/extra/android-projects/textfairy/app/src/main/res/color/primary_text_btn_main.xml
+	"	1	0
+
+> /mnt/extra/android-projects/textfairy/app/src/main/res/color/primary_text_btn_
+	"	1	0
+
+> ~/cvit/cv/mousedetect.cpp
+	"	1	0
+	^	61	5
+	.	64	0
+	+	1	36
+	+	3	18
+	+	6	18
+	+	8	58
+	+	25	0
+	+	9	18
+	+	24	0
+	+	10	30
+	+	12	17
+	+	11	42
+	+	24	0
+	+	13	19
+	+	16	19
+	+	14	23
+	+	17	24
+	+	24	0
+	+	20	28
+	+	22	0
+	+	23	17
+	+	24	0
+	+	29	33
+	+	69	0
+	+	68	12
+	+	30	29
+	+	31	20
+	+	34	0
+	+	33	17
+	+	32	38
+	+	64	27
+	+	65	8
+	+	66	24
+	+	1	16
+	+	67	8
+	+	65	52
 	+	8	55
-	+	11	77
-	+	44	14
-	+	45	0
-	+	44	12
-	+	25	38
-	+	31	0
-	+	31	3
-	+	25	34
-	+	31	0
-	+	26	14
-	+	25	9
-	+	26	10
+	+	26	0
+	+	40	25
+	+	38	44
+	+	37	4
+	+	38	4
+	+	37	17
+	+	38	15
+	+	66	25
+	+	2	37
+	+	42	72
+	+	36	27
+	+	42	19
+	+	41	35
+	+	66	25
+	+	42	72
+	+	47	26
+	+	49	126
+	+	49	20
+	+	49	0
+	+	48	23
+	+	49	30
+	+	27	0
+	+	27	111
 	+	26	0
 	+	27	0
-	+	25	7
-	+	26	7
-	+	27	23
-	+	30	3
-	+	26	35
-	+	26	0
-	+	25	13
-	+	26	40
-	+	31	2
-	+	26	0
-	+	31	0
-	+	26	40
-	+	31	0
+	+	49	52
+	+	63	93
+	+	50	0
+	+	60	19
+	+	48	4
+	+	48	0
+	+	44	26
+	+	45	5
+	+	45	17
+	+	46	26
+	+	60	22
+	+	66	28
+	+	49	23
+	+	66	23
+	+	60	17
+	+	51	1
+	+	51	46
+	+	51	32
+	+	51	0
+	+	51	0
+	+	51	46
+	+	62	0
+	+	51	0
+	+	52	0
+	+	50	46
+	+	61	0
+	+	52	0
+	+	63	0
+	+	64	0
+
+> ~/cvit/heritage-framework/heritage/heritage/views.py
+	"	20	25
+	^	20	33
+	.	20	0
+	+	14	0
+	+	25	3
+	+	7	33
+	+	7	0
+	+	7	0
+	+	25	18
+	+	26	31
+	+	37	0
+	+	37	11
+	+	7	35
+	+	38	14
+	+	7	0
+	+	3	29
+	+	38	31
+	+	25	0
+	+	39	60
+	+	2	34
+	+	38	0
+	+	27	58
+	+	28	26
+	+	37	0
+	+	29	22
+	+	37	0
+	+	37	0
+	+	37	26
+	+	37	0
+	+	37	0
+	+	32	56
+	+	37	0
+	+	33	36
+	+	36	18
+	+	35	0
+	+	36	0
+	+	35	47
+	+	33	0
+	+	35	49
+	+	29	42
+	+	55	0
+	+	30	54
+	+	32	32
+	+	32	48
+	+	32	26
+	+	5	13
 	+	32	0
+	+	32	0
+	+	16	24
+	+	17	0
+	+	17	0
+	+	16	27
+	+	17	9
+	+	18	35
+	+	32	0
+	+	30	22
+	+	32	0
+	+	31	41
+	+	25	0
+	+	19	42
+	+	16	36
+	+	31	53
+	+	25	0
+	+	4	40
+	+	20	33
+	+	21	15
+	+	6	40
+	+	21	62
+	+	22	19
+	+	23	0
+	+	15	0
+	+	55	0
+	+	29	0
+	+	36	47
+	+	33	36
+	+	32	40
+	+	55	0
+	+	25	0
+	+	42	26
+	+	43	31
+	+	52	11
+	+	41	0
+	+	24	0
+	+	52	8
+	+	53	39
+	+	54	59
+	+	57	24
+	+	63	7
+	+	58	0
+	+	63	0
+	+	56	0
+	+	52	0
+	+	44	43
+	+	46	22
+	+	49	12
+	+	46	0
+	+	47	0
+	+	50	0
+	+	54	44
+	+	62	52
+	+	44	37
+	+	61	41
+	+	20	0
+
+> ~/cvit/heritage-framework/heritage/heritage/utils.py
+	"	29	10
+	^	29	11
+	.	29	10
+	+	1	8
+	+	1	0
+	+	3	0
+	+	6	0
+	+	4	0
+	+	27	7
+	+	32	7
+	+	33	22
+	+	32	0
+	+	28	0
 	+	33	0
 	+	34	0
-	+	35	0
-	+	31	0
-	+	25	45
-	+	31	0
+	+	30	0
+	+	1	0
+	+	31	18
+	+	28	10
+	+	29	10
 
-> ~/Downloads/dump-ml/mlwikisource-20160601-pages-articles-multistream.xml
-	"	223	0
-
-> ~/cvit/log/posts/system/2016-06-13-data-storage.markdown
-	"	7	90
-	^	7	75
-	.	7	74
-	+	2	33
-	+	10	4
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	7	117
-	+	3	6
-	+	10	0
-	+	10	0
-	+	10	9
-	+	10	0
-	+	10	0
-	+	9	22
-	+	7	74
-
-> ~/repo/jerinphilip.github.io/posts/2016-06-07-the-general-problem.markdown
-	"	12	0
-	^	7	87
-	.	7	86
-	+	7	86
-
-> ~/gsoc/sandhi-splitter/diff
+> ~/cvit/heritage-framework/heritage/heritage/templates/base.html
 	"	1	0
+	^	68	67
+	.	68	66
+	+	2	5
+	+	75	0
+	+	3	9
+	+	8	0
+	+	4	22
+	+	74	0
+	+	75	0
+	+	74	0
+	+	4	15
+	+	74	0
+	+	13	30
+	+	74	0
+	+	73	0
+	+	67	28
+	+	72	0
+	+	68	44
+	+	71	0
+	+	69	34
+	+	70	33
+	+	6	109
+	+	6	0
+	+	6	111
+	+	6	0
+	+	6	59
+	+	13	90
+	+	10	0
+	+	13	50
+	+	6	53
+	+	13	44
+	+	4	22
+	+	12	0
+	+	12	0
+	+	12	54
+	+	12	49
+	+	12	0
+	+	67	0
+	+	13	34
+	+	13	0
+	+	13	0
+	+	7	23
+	+	13	0
+	+	6	0
+	+	6	0
+	+	13	0
+	+	6	0
+	+	5	26
+	+	11	65
+	+	10	0
+	+	11	21
+	+	5	20
+	+	67	39
+	+	66	0
+	+	15	0
+	+	67	0
+	+	68	66
+
+> ~/cvit/heritage-framework/heritage/heritage/admin.py
+	"	2	31
+	^	2	32
+	.	2	31
+	+	1	36
+	+	6	0
+	+	1	35
+	+	6	0
+	+	2	12
+	+	4	60
+	+	1	0
+	+	3	0
+	+	1	0
+	+	4	47
+	+	5	39
+	+	4	0
+	+	6	0
+	+	2	31
+
+> ~/cvit/heritage-framework/heritage/heritage/urls.py
+	"	17	22
+	^	17	23
+	.	17	22
+	+	22	43
+	+	18	18
+	+	26	0
+	+	23	29
+	+	24	47
+	+	25	63
+	+	17	22
+
+> ~/cvit/heritage-framework/heritage/heritage/adjmin.py
+	"	1	0
+
+> ~/cvit/heritage-framework/heritage/heritage/templates/interestpointlocation.html
+	"	5	22
+	^	5	23
+	.	5	22
+	+	3	52
+	+	5	15
+	+	1	23
+	+	2	15
+	+	8	13
+	+	1	22
+	+	5	22
+
+> ~/cvit/heritage-framework/heritage/heritage/templates/interestpoint.html
+	"	5	13
+	^	8	14
+	.	8	13
+	+	3	44
+	+	1	24
+	+	2	15
+	+	8	13
+
+> ~/cvit/heritage-framework/heritage/heritage/templates/interestpoint
+	"	1	0
+
+> ~/cvit/heritage-framework/heritage/heritage/wsgi.py
+	"	1	0
+
+> ~/cvit/heritage-framework/heritage/heritage/templates/image.html
+	"	5	15
+	^	5	16
+	.	5	15
+	+	7	7
+	+	5	0
+	+	6	0
+	+	4	0
+	+	3	65
+	+	2	15
+	+	8	13
+	+	1	12
+	+	5	15
+
+> ~/cvit/heritage-framework/heritage/heritage/settings.py
+	"	124	52
+	^	124	55
+	.	124	52
+	+	60	17
+	+	17	0
+	+	60	51
+	+	124	39
+	+	124	54
+	+	125	0
+	+	124	52
+
+> ~/cvit/heritage-framework/heritage/heritage/models.py
+	"	23	4
+	.	24	0
+	+	8	19
+	+	14	0
+	+	24	0
+
+> ~/cvit/heritage-framework/heritage/heritage/forms.py
+	"	16	0
+	^	16	0
+	.	16	0
+	+	3	23
+	+	3	0
+	+	5	25
+	+	5	15
+	+	3	32
+	+	5	20
+	+	3	0
+	+	1	35
+	+	5	27
+	+	9	61
+	+	4	0
+	+	3	0
+	+	9	41
+	+	5	0
+	+	9	18
+	+	9	0
+	+	9	0
+	+	5	26
+	+	6	14
+	+	7	15
+	+	3	0
+	+	3	32
+	+	7	20
+	+	8	24
+	+	9	0
+	+	8	13
+	+	11	40
+	+	12	0
+	+	13	28
+	+	3	47
+	+	10	0
+	+	17	0
+	+	15	0
+	+	19	36
+	+	17	26
+	+	3	0
+	+	2	31
+	+	7	22
+	+	13	22
+	+	19	22
+	+	16	0
+
+> ~/cvit/heritage-framework/.gitignore
+	"	2	7
+	^	2	8
+	.	2	7
+	+	1	17
+	+	4	0
+	+	2	7
+
+> ~/golconda/script.py
+	"	1	0
+	^	39	38
+	.	39	22
+	+	36	21
+	+	35	46
+	+	36	20
+	+	38	32
+	+	39	19
+	+	2	14
+	+	16	21
+	+	34	32
+	+	34	38
+	+	34	18
+	+	34	22
+	+	34	18
+	+	16	0
+	+	34	40
+	+	35	46
+	+	34	28
+	+	34	28
+	+	34	9
+	+	34	30
+	+	34	57
+	+	34	0
+	+	34	25
+	+	34	0
+	+	34	0
+	+	34	35
+	+	34	0
+	+	34	41
+	+	34	23
+	+	34	0
+	+	34	29
+	+	12	14
+	+	14	30
+	+	16	0
+	+	34	24
+	+	12	20
+	+	12	0
+	+	12	0
+	+	34	32
+	+	34	32
+	+	2	0
+	+	3	28
+	+	2	0
+	+	34	0
+	+	5	0
+	+	34	0
+	+	16	17
+	+	16	17
+	+	23	0
+	+	24	0
+	+	34	0
+	+	33	0
+	+	33	0
+	+	27	23
+	+	33	0
+	+	33	0
+	+	32	22
+	+	32	49
+	+	32	0
+	+	32	17
+	+	32	21
+	+	32	14
+	+	32	0
+	+	36	5
+	+	36	25
+	+	35	62
+	+	32	19
+	+	32	0
+	+	27	34
+	+	28	16
+	+	29	16
+	+	30	18
+	+	28	15
+	+	29	15
+	+	16	0
+	+	14	0
+	+	8	20
+	+	9	0
+	+	12	32
+	+	6	10
+	+	7	11
+	+	10	0
+	+	15	0
+	+	27	0
+	+	25	0
+	+	31	36
+	+	27	0
+	+	31	9
+	+	32	13
+	+	36	0
+	+	37	7
+	+	40	12
+	+	41	0
+	+	38	0
+	+	30	5
+	+	14	0
+	+	13	20
+	+	30	4
+	+	13	33
+	+	30	4
+	+	39	22
+
+> ~/cvit/heritage-framework/heritage/heritage/__init__.py
+	"	1	0
+
+> /mnt/extra/jerin-sonyxpz3/script.py
+	"	35	45
+	^	35	46
+	.	35	45
+	+	35	45
+
+> ~/cvit/heritage-framework/heritage/views.py
+	"	1	0
+
+> ~/cvit/heritage-framework/heritage/manage.py
+	"	7	0
+
+> ~/.Xresources
+	"	75	56
+	^	75	57
+	.	75	56
+	+	76	1
+	+	75	53
+	+	76	0
+	+	75	56
+
+> ~/cvit/fd/script.py
+	"	3	9
+	^	3	10
+	.	3	9
+	+	1	26
+	+	2	8
+	+	4	0
+	+	6	41
+	+	8	11
+	+	5	6
+	+	6	19
+	+	5	7
+	+	6	22
+	+	5	28
+	+	8	0
+	+	9	15
+	+	10	5
+	+	7	16
+	+	10	4
+	+	10	17
+	+	10	9
+	+	11	26
+	+	13	18
+	+	11	18
+	+	12	14
+	+	13	0
+	+	8	0
+	+	13	40
+	+	3	9
+
+> ~/cvit/fd/code.py
+	"	39	8
+	^	41	0
+	.	41	0
+	+	1	17
+	+	2	9
+	+	7	64
+	+	14	5
+	+	8	0
+	+	14	0
+	+	8	42
+	+	16	29
+	+	16	43
+	+	17	50
+	+	19	25
+	+	21	57
+	+	22	32
+	+	23	32
+	+	24	12
+	+	17	10
+	+	24	39
+	+	25	32
+	+	26	59
+	+	27	22
+	+	26	58
+	+	27	22
+	+	32	21
+	+	33	13
+	+	34	22
+	+	1	1
+	+	7	0
+	+	5	16
+	+	6	22
+	+	8	0
+	+	7	0
+	+	8	0
+	+	15	19
+	+	16	0
+	+	27	0
+	+	29	17
+	+	17	0
+	+	15	20
+	+	31	17
+	+	30	0
+	+	32	0
+	+	31	18
+	+	4	0
+	+	7	12
+	+	7	12
+	+	8	0
+	+	17	20
+	+	24	23
+	+	35	25
+	+	36	20
+	+	37	32
+	+	38	26
+	+	40	18
+	+	11	22
+	+	12	7
+	+	11	32
+	+	12	32
+	+	13	16
+	+	37	35
+	+	28	0
+	+	29	25
+	+	29	0
+	+	18	15
+	+	20	22
+	+	29	25
+	+	38	17
+	+	39	13
+	+	40	0
+	+	38	18
+	+	39	13
+	+	32	0
+	+	9	0
+	+	34	0
+	+	34	0
+	+	41	0
+
+> ~/cvit/fd/script.pp
+	"	1	0
+
+> ~/.mutt/muttrc
+	"	50	46
+	^	53	47
+	.	53	46
+	+	2	55
+	+	2	0
+	+	2	24
+	+	2	13
+	+	2	17
+	+	2	0
+	+	2	24
+	+	2	22
+	+	30	0
+	+	21	19
+	+	22	21
+	+	12	17
+	+	2	31
+	+	2	27
+	+	2	10
+	+	12	24
+	+	13	32
+	+	5	47
+	+	5	19
+	+	2	23
+	+	2	13
+	+	2	18
+	+	2	11
+	+	2	14
+	+	2	10
+	+	2	14
+	+	2	11
+	+	2	14
+	+	2	17
+	+	3	21
+	+	4	21
+	+	5	52
+	+	5	0
+	+	2	0
+	+	12	24
+	+	13	31
+	+	12	10
+	+	13	32
+	+	2	45
+	+	5	23
+	+	14	32
+	+	2	0
+	+	5	0
+	+	27	21
+	+	16	31
+	+	33	13
+	+	34	17
+	+	17	21
+	+	19	18
+	+	38	18
+	+	54	2
+	+	46	0
+	+	48	0
+	+	49	0
+	+	50	0
+	+	51	0
+	+	52	0
+	+	53	0
+	+	54	0
+	+	52	42
+	+	53	46
+
+> ~/sent
+	"	1	0
+
+> /tmp/mutt-evil-lab-1000-1695-10332878661018253320
+	"	10	13
+	^	10	14
+	.	10	13
+	+	3	26
+	+	2	0
+	+	4	34
+	+	6	22
+	+	7	7
+	+	8	9
+	+	10	13
+
+> ~/.mutt/account.gmail
+	"	12	0
+	^	12	0
+	.	12	0
+	+	1	41
+	+	17	0
+	+	16	0
+	+	7	0
+	+	11	34
+	+	13	0
+	+	10	0
+	+	9	0
+	+	12	0
+
+> /tmp/mutt-evil-lab-1000-1527-131285740278849090
+	"	4	0
+	^	2	0
+	.	2	0
+	+	5	7
+	+	2	0
+
+> ~/.vim/ftplugin/mail.vim
+	"	2	8
+	^	2	9
+	.	2	8
+	+	1	8
+	+	2	8
+
+> ~/builds/pidgin-webkit/README
+	"	13	0
+
+> ~/builds/pidgin-webkit/Makefile
+	"	47	0
+
+> ~/builds/pidgin-webkit/webkit.c
+	"	1196	0
+
+> ~/builds/pidgin-webkit/webkit.h
+	"	24	0
+
+> ~/builds/pidgin-webkit/message_styles/Template.html
+	"	159	0
+
+> /tmp/mutt-evil-lab-1000-8321-681081278970289250
+	"	14	200
+	^	12	204
+	.	14	200
+	+	12	203
+	+	14	200
+
+> /tmp/mutt-evil-lab-1000-8321-12161610681776594156
+	"	14	258
+	^	14	259
+	.	14	258
+	+	3	87
+	+	15	0
+	+	15	0
+	+	15	64
+	+	15	64
+	+	15	0
+	+	15	169
+	+	3	86
+	+	15	53
+	+	3	248
+	+	5	291
+	+	5	2
+	+	5	0
+	+	4	0
+	+	5	288
+	+	6	2
+	+	5	140
+	+	5	211
+	+	5	280
+	+	5	291
+	+	16	7
+	+	15	0
+	+	6	107
+	+	15	0
+	+	8	107
+	+	8	72
+	+	15	0
+	+	8	167
+	+	8	75
+	+	6	107
+	+	8	22
+	+	15	0
+	+	6	246
+	+	8	209
+	+	15	0
+	+	15	0
+	+	15	0
+	+	6	246
+	+	8	0
+	+	6	247
+	+	13	0
+	+	15	0
+	+	12	67
+	+	13	0
+	+	12	215
+	+	6	107
+	+	7	6
+	+	8	0
+	+	6	108
+	+	7	144
+	+	7	0
+	+	8	0
+	+	6	0
+	+	12	117
+	+	16	5
+	+	7	3
+	+	7	248
+	+	7	138
+	+	10	71
+	+	11	0
+	+	10	156
+	+	10	71
+	+	10	147
+	+	10	141
+	+	11	0
+	+	10	102
+	+	12	116
+	+	7	138
+	+	15	271
+	+	14	0
+	+	14	211
+	+	14	80
+	+	14	0
+	+	12	272
+	+	14	0
+	+	12	222
+	+	12	129
+	+	14	258
+
+> /tmp/mutt-evil-lab-1000-6614-1997077831674463148
+	"	5	0
+
+> /tmp/mutt-evil-lab-1000-6424-4563679342028014872
+	"	5	7
+	^	5	8
+	.	5	8
+	+	2	70
+	+	7	0
+	+	2	87
+	+	2	0
+	+	3	6
+	+	6	0
+	+	5	8
+
+> /tmp/mutt-evil-lab-1000-6424-11949232091006403538
+	"	1	0
+
+> /tmp/mutt-evil-lab-1000-6311-244720464204015934
+	"	4	0
+	.	4	0
+	+	1	5
+	+	2	0
+	+	3	72
+	+	3	0
+	+	4	0
+
+> ~/.mutt/aliases
+	"	2	0
+	.	3	0
+	+	1	54
+	+	2	50
+	+	1	0
+	+	3	0
+
+> ~/.conkyrc
+	"	79	0
+	^	77	6
+	.	79	0
+	+	53	30
+	+	41	19
+	+	63	2
+	+	64	11
+	+	65	12
+	+	63	2
+	+	64	2
+	+	65	2
+	+	63	21
+	+	64	7
+	+	65	8
+	+	77	5
+	+	79	0
+
+> ~/.conky/.conkyrc
+	"	53	30
+	^	53	31
+	.	53	30
+	+	79	0
+	+	53	30
