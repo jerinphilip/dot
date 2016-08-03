@@ -35,8 +35,6 @@ inoremap <Up> <nop>
 inoremap <Down> <nop>
 
 
-
-
 "Syntastic Configurations
 let g:syntastic_cpp_checkers = ['g++']
 let g:syntastic_cpp_compiler = 'g++'

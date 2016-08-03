@@ -45,7 +45,7 @@ function proxy_off {
     unset HTTP_PROXY HTTPS_PROXY FTP_PROXY NO_PROXY
 }
 
-proxy_on
+# proxy_on
 
 export HISTCONTROL=ignoredups:avoiddups
 export HISTSIZE=65536

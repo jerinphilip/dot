@@ -11,117 +11,197 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0/ef
+~MSle0~/datatype
 
 # Last Substitute Search Pattern:
-~MSle0~&=
+~MSle0&no
 
 # Last Substitute String:
-$-
+$yes
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1468649384,,"q"
-:w
-|2,0,1468649098,,"w"
+|2,0,1470243275,,"q"
 :wq
-|2,0,1468648994,,"wq"
-:wqkkk
-|2,0,1468648869,,"wqkkk"
-:set paste
-|2,0,1468648804,,"set paste"
-:s/=/-/g
-|2,0,1468641231,,"s/=/-/g"
-:w index.txt.backup
-|2,0,1468639847,,"w index.txt.backup"
-:wq b
-|2,0,1468639840,,"wq b"
-:r index.rst
-|2,0,1468567701,,"r index.rst"
-:set background=light
-|2,0,1468303067,,"set background=light"
-:colorscheme adrian
-|2,0,1468303024,,"colorscheme adrian"
-:set colorscheme termcap
-|2,0,1468303020,,"set colorscheme termcap"
-:r syntax.css.bak
-|2,0,1468302828,,"r syntax.css.bak"
-:%s/\/\/\(.*\)$/\/\*\1\*\//
-|2,0,1468302581,,"%s/\\/\\/\\(.*\\)$/\\/\\*\\1\\*\\//"
-:s/\/\/\(.*\)$/\/\*\1\*\//
-|2,0,1468302576,,"s/\\/\\/\\(.*\\)$/\\/\\*\\1\\*\\//"
-:w syntax.css.bak
-|2,0,1468302377,,"w syntax.css.bak"
-:tabnew css/default.css
-|2,0,1468301740,,"tabnew css/default.css"
-:qa
-|2,0,1468301365,,"qa"
-:qa!
-|2,0,1468301106,,"qa!"
-:tabnew core.py
-|2,0,1468140200,,"tabnew core.py"
+|2,0,1470243273,,"wq"
+:w
+|2,0,1470242672,,"w"
 :q!
-|2,0,1468129253,,"q!"
-:tabnew cc.cpp
-|2,0,1468056301,,"tabnew cc.cpp"
+|2,0,1470241661,,"q!"
+:tabnew __init__.py
+|2,0,1470241642,,"tabnew __init__.py"
+:weq
+|2,0,1470078057,,"weq"
+:set paste
+|2,0,1470078054,,"set paste"
+:"w
+|2,0,1469870736,,"\"w"
+:36
+|2,0,1469861125,,"36"
+:'<,'>s/no/yes
+|2,0,1469860919,,"'<,'>s/no/yes"
+:qw
+|2,0,1469860877,,"qw"
+:tabnew 
+|2,0,1469860681,,"tabnew "
+:tabnew silpa/factory.py
+|2,0,1469860677,,"tabnew silpa/factory.py"
+:tabnew silpa/loadconfig.py
+|2,0,1469860650,,"tabnew silpa/loadconfig.py"
+:qq
+|2,0,1469859752,,"qq"
+:tabnew battery.lua
+|2,0,1469365797,,"tabnew battery.lua"
+:tabnew split2.py
+|2,0,1469379502,,"tabnew split2.py"
+:r ../extract_words.py
+|2,0,1469379232,,"r ../extract_words.py"
+:set nu
+|2,0,1469151569,,"set nu"
+:set nonu
+|2,0,1469151544,,"set nonu"
 :set nopaste
-|2,0,1468056149,,"set nopaste"
-:g/^$/d
-|2,0,1467790879,,"g/^$/d"
-:%s/cv:://g
-|2,0,1467782775,,"%s/cv:://g"
-:%s/std:://g
-|2,0,1467782770,,"%s/std:://g"
-:s/cv:://g
-|2,0,1467782767,,"s/cv:://g"
-:s
-|2,0,1467782626,,"s"
-:tabnew mousedetect.cpp
-|2,0,1467689773,,"tabnew mousedetect.cpp"
-:r mousedetect.cpp
-|2,0,1467689504,,"r mousedetect.cpp"
-:tabnew utils.py
-|2,0,1467630522,,"tabnew utils.py"
-:tabnew urls.py
-|2,0,1467629898,,"tabnew urls.py"
-:ta
-|2,0,1467628070,,"ta"
-:tabnew templates/*
-|2,0,1467626072,,"tabnew templates/*"
-:w templates/interestpointlocation.html
-|2,0,1467626068,,"w templates/interestpointlocation.html"
-:w templates/interestpoint.html
-|2,0,1467626060,,"w templates/interestpoint.html"
-:tabnew templates/image.html
-|2,0,1467626049,,"tabnew templates/image.html"
-:tabnew forms.py
-|2,0,1467625752,,"tabnew forms.py"
-:we
-|2,0,1467625146,,"we"
-:tabnew models.py
-|2,0,1467623741,,"tabnew models.py"
-:w! ~/cvit/heritage-framework/heritage/heritage/utils.py
-|2,0,1467623866,,"w! ~/cvit/heritage-framework/heritage/heritage/utils.py"
-:tabnew ~/.mutt/account.iiit
-|2,0,1467623854,,"tabnew ~/.mutt/account.iiit"
-:w ~/cvit/heritage-framework/heritage/heritage/utils.py
-|2,0,1467623832,,"w ~/cvit/heritage-framework/heritage/heritage/utils.py"
-:tabnew ~/her
-|2,0,1467623816,,"tabnew ~/her"
-:tabnew script.py
-|2,0,1467623813,,"tabnew script.py"
-:tabnew views.py
-|2,0,1467620047,,"tabnew views.py"
-:57
-|2,0,1467619867,,"57"
-:tabnew heritage/heritage/forms.py
-|2,0,1467619189,,"tabnew heritage/heritage/forms.py"
-:tabnew heritage/heritage/models.py
-|2,0,1467619128,,"tabnew heritage/heritage/models.py"
-:w\
-|2,0,1467541813,,"w\\"
+|2,0,1469151574,,"set nopaste"
+:tabnew trie.py
+|2,0,1469109145,,"tabnew trie.py"
+:ww
+|2,0,1469104781,,"ww"
+:r split.py
+|2,0,1469096856,,"r split.py"
+:Q:
+|2,0,1469087512,,"Q:"
+:TOhtml
+|2,0,1469087410,,"TOhtml"
+:h :TOhtml
+|2,0,1469087399,,"h :TOhtml"
+:G
+|2,0,1469086189,,"G"
+:r ~/gsoc/spellcheck/spellchecker/ssenhanced.py
+|2,0,1469085445,,"r ~/gsoc/spellcheck/spellchecker/ssenhanced.py"
+:r
+|2,0,1469085420,,"r"
+:84
+|2,0,1468986585,,"84"
+:വ്
+|2,0,1468943828,,"വ്"
+:tabnew ../joiner.py
+|2,0,1468903533,,"tabnew ../joiner.py"
+::w
+|2,0,1468901591,,":w"
+:tabnew ../__init__.py
+|2,0,1468901558,,"tabnew ../__init__.py"
+:tabnew test_model.py
+|2,0,1468901489,,"tabnew test_model.py"
+:r test_postprocessor.py
+|2,0,1468900942,,"r test_postprocessor.py"
+:r test_model.py
+|2,0,1468900469,,"r test_model.py"
+:r test_joiner.py
+|2,0,1468900454,,"r test_joiner.py"
+:tabnew ../splitter.py
+|2,0,1468899421,,"tabnew ../splitter.py"
+:184
+|2,0,1468862743,,"184"
+:r ~/gsoc/spellcheck/spellchecker/out
+|2,0,1468867832,,"r ~/gsoc/spellcheck/spellchecker/out"
+:r !head -n 5 ../../sandhi-splitter/sandhisplitter/joiner.py
+|2,0,1468867828,,"r !head -n 5 ../../sandhi-splitter/sandhisplitter/joiner.py"
+:r ~/gsoc/spellcheck/spellchecker/samples.txt
+|2,0,1468867811,,"r ~/gsoc/spellcheck/spellchecker/samples.txt"
+:set shellpipe
+|2,0,1468867263,,"set shellpipe"
+:set spell=en
+|2,0,1468867258,,"set spell=en"
+:tabnew posts/2015-05-26-dotfiles.markdown
+|2,0,1468867158,,"tabnew posts/2015-05-26-dotfiles.markdown"
+:tabnew _cache/
+|2,0,1468867151,,"tabnew _cache/"
+:r !head -n 1 sandhisplitter/postprocessor.py
+|2,0,1468866763,,"r !head -n 1 sandhisplitter/postprocessor.py"
+:r 2015-03-26-mazes.markdown
+|2,0,1468866083,,"r 2015-03-26-mazes.markdown"
 
 # Search String History (newest to oldest):
+?/datatype
+|2,1,1470242946,47,"datatype"
+?/Index
+|2,1,1470242938,47,"Index"
+?/object
+|2,1,1470239295,47,"object"
+?/api
+|2,1,1470025527,47,"api"
+?/papi
+|2,1,1470025524,47,"papi"
+?/displa
+|2,1,1469957707,47,"displa"
+?/module
+|2,1,1469957604,47,"module"
+?/_modules
+|2,1,1469957581,47,"_modules"
+?/JPG
+|2,1,1469870420,47,"JPG"
+?/BAUM
+|2,1,1469870417,47,"BAUM"
+?/APPLE
+|2,1,1469870415,47,"APPLE"
+?/hy
+|2,1,1469861148,47,"hy"
+?/sp
+|2,1,1469861070,47,"sp"
+?/tran
+|2,1,1469861050,47,"tran"
+?/payya
+|2,1,1469861026,47,"payya"
+?/shing
+|2,1,1469860986,47,"shing"
+? no
+|2,1,1469860919,,"no"
+?/soun
+|2,1,1469858977,47,"soun"
+?/133
+|2,1,1469678238,47,"133"
+?/port
+|2,1,1469678235,47,"port"
+?/Blocked
+|2,1,1469678233,47,"Blocked"
+?/addition
+|2,1,1469377555,47,"addition"
+?/add_en
+|2,1,1469090739,47,"add_en"
+? </body>
+|2,1,1469087493,,"</body>"
+? \<Module\>
+|2,1,1468986342,,"\\<Module\\>"
+?/seed
+|2,1,1468945086,47,"seed"
+?/enth
+|2,1,1468945084,47,"enth"
+?/zeros
+|2,1,1468944959,47,"zeros"
+?/zeroes
+|2,1,1468944957,47,"zeroes"
+?/128
+|2,1,1468944948,47,"128"
+?/sente
+|2,1,1468944910,47,"sente"
+?/512
+|2,1,1468944867,47,"512"
+?/gave
+|2,1,1468868056,47,"gave"
+?/_detec
+|2,1,1468862722,47,"_detec"
+?/data
+|2,1,1468852038,47,"data"
+?/daa
+|2,1,1468852037,47,"daa"
+?/te
+|2,1,1468828858,47,"te"
+?/code
+|2,1,1468756055,47,"code"
+?/load
+|2,1,1468739712,47,"load"
+?/Entri
+|2,1,1468737325,47,"Entri"
 ? =
 |2,1,1468641231,,"="
 ?/ef
@@ -136,92 +216,12 @@ $-
 |2,1,1468302180,47,"u"
 ?/background
 |2,1,1468302038,47,"background"
-?/code
-|2,1,1468302031,47,"code"
 ?/Preivew
 |2,1,1468300380,47,"Preivew"
 ?/Server
 |2,1,1468300371,47,"Server"
 ?/Preview
 |2,1,1468300328,47,"Preview"
-?/pre
-|2,1,1468221989,47,"pre"
-?/du
-|2,1,1468141046,47,"du"
-?/Mult
-|2,1,1467866252,47,"Mult"
-? ^$
-|2,1,1467790879,,"^$"
-? cv::
-|2,1,1467782775,,"cv::"
-? std::
-|2,1,1467782770,,"std::"
-?/STAT
-|2,1,1467626881,47,"STAT"
-?/TEMP
-|2,1,1467619854,47,"TEMP"
-?/font
-|2,1,1467522335,47,"font"
-?/Inco
-|2,1,1467269243,47,"Inco"
-?/Anon
-|2,1,1467268801,47,"Anon"
-?/Hack
-|2,1,1467268798,47,"Hack"
-?/Term
-|2,1,1467267072,47,"Term"
-? eth0
-|2,1,1467263236,,"eth0"
-?/top
-|2,1,1467262957,47,"top"
-?/own
-|2,1,1467262905,47,"own"
-?/if __
-|2,1,1466928716,47,"if __"
-?/py
-|2,1,1466924071,47,"py"
-?/git
-|2,1,1466921258,47,"git"
-?/dsfds
-|2,1,1466920550,47,"dsfds"
-? sandhisplitter\/
-|2,1,1466920464,,"sandhisplitter\\/"
-? \<S\>
-|2,1,1466916868,,"\\<S\\>"
-? \<M\>
-|2,1,1466916624,,"\\<M\\>"
-? \>\<
-|2,1,1466845126,,"\\>\\<"
-? ><
-|2,1,1466845121,,"><"
-? \<img\"
-|2,1,1466844689,,"\\<img\\\""
-?/<img
-|2,1,1466844667,47,"<img"
-?/img
-|2,1,1466844664,47,"img"
-? http:\/\/imgs.xkcd.com\/comics\/
-|2,1,1466843869,,"http:\\/\\/imgs.xkcd.com\\/comics\\/"
-? \<barrel_cropped_\>
-|2,1,1466843699,,"\\<barrel_cropped_\\>"
-?/Invert
-|2,1,1466744282,47,"Invert"
-?/sign
-|2,1,1466705739,47,"sign"
-?/sort
-|2,1,1466703084,47,"sort"
-?/trans
-|2,1,1466666542,47,"trans"
-?/32
-|2,1,1466666532,47,"32"
-? \<concept\>
-|2,1,1466657043,,"\\<concept\\>"
-?/post
-|2,1,1466658840,47,"post"
-?/LINKPW
-|2,1,1466616250,47,"LINKPW"
-?/chargin
-|2,1,1466581626,47,"chargin"
 
 # Expression History (newest to oldest):
 
@@ -231,1585 +231,1222 @@ $-
 
 # Registers:
 "0	LINE	0
-	.. code-block:: bash
-	    $ sandhisplitter_train -h
-		usage: sandhisplitter_train [-h] -k DEPTH -s SKIP -i TRAINFILE -o MODELFILE
-	
-		Train a model
-	
-		optional arguments:
-		  -h, --help            show this help message and exit
-		  -k DEPTH, --depth DEPTH
-								depth of the trie
-		  -s SKIP, --skip SKIP  initial skip
-		  -i TRAINFILE, --trainfile TRAINFILE
-								path to training file
-		  -o MODELFILE, --outputfile MODELFILE
-								path to store model
-	
-	    $
-""1	LINE	0
-	
+	    for entrypoint in pkg_resources.iter_entry_points('libindic.api.rest'):
+"1	LINE	0
+	    s = Sounde
 "2	LINE	0
-	
+	    refine
 "3	LINE	0
 	
+	def expose_soundex():
 "4	LINE	0
-	   :maxdepth: 2
+	    return s.
 "5	LINE	0
-	.. toctree::
+	    s = Soundex()
 "6	LINE	0
-	
+	def wrapper_soundex():
 "7	LINE	0
-	Contents:
+	    return [Soundex().compare, str, str, int]
 "8	LINE	0
-	   Rough skeleton
+	    s = Soundex()
 "9	LINE	0
-	    $
+	def expose_compare():
+	    return [Soundex().soundex, str, int] 
+	
+	def expose_compare():
+	    s = Soundex()
+	    return [Soundex().compare, str, str, int]
 "a	CHAR	0
 	aa
-"-	CHAR	0
-	1
+""-	CHAR	0
+	soundex
 
 # File marks:
-'0  80  0  ~/gsoc/sandhi-splitter/docs/index.rst
-'1  10  8  ~/gsoc/sandhi-splitter/docs/index.rst
-'2  1  0  ~/gsoc/sandhi-splitter/docs/index.
-'3  92  0  ~/gsoc/sandhi-splitter/docs/index.rst
-'4  31  64  ~/gsoc/sandhi-splitter/docs/index.rst
-'5  79  0  ~/gsoc/sandhi-splitter/docs/index.rst
-'6  27  17  ~/gsoc/sandhi-splitter/docs/index.rst
-'7  75  14  ~/gsoc/sandhi-splitter/docs/index.rst
-'8  75  0  ~/gsoc/sandhi-splitter/docs/index.rst
-'9  75  0  ~/gsoc/sandhi-splitter/docs/index.rst
+'0  174  26  ~/gsoc/silpa-modules/soundex/soundex/__init__.py
+'1  1  0  ~/gsoc/silpa-modules/soundex/soundex/__init__.py
+'2  163  19  ~/gsoc/silpa-modules/soundex/soundex/__init__.py
+'3  136  12  ~/gsoc/silpa-modules/soundex/env/lib/python3.5/site-packages/wsme/api.py
+'4  164  12  ~/gsoc/silpa-modules/soundex/soundex/__init__.py
+'5  1  0  ~/gsoc/silpa-modules/__init__.py
+'6  171  17  ~/gsoc/silpa-modules/soundex/soundex/__init__.py
+'7  13  26  ~/gsoc/silpa-modules/app.py
+'8  1  0  ~/gsoc/silpa-modules/setup.cfg
+'9  26  27  ~/gsoc/silpa-modules/soundex/setup.cfg
 
 # Jumplist (newest first):
--'  80  0  ~/gsoc/sandhi-splitter/docs/index.rst
--'  1  0  ~/gsoc/sandhi-splitter/docs/index.rst
--'  92  0  ~/gsoc/sandhi-splitter/docs/index.rst
--'  9  0  ~/gsoc/sandhi-splitter/docs/index.rst
--'  39  0  ~/gsoc/sandhi-splitter/docs/index.rst
--'  10  8  ~/gsoc/sandhi-splitter/docs/index.rst
--'  91  0  ~/gsoc/sandhi-splitter/docs/index.rst
--'  49  0  ~/gsoc/sandhi-splitter/docs/index.rst
--'  36  0  ~/gsoc/sandhi-splitter/docs/index.rst
--'  2  0  ~/gsoc/sandhi-splitter/docs/index.rst
--'  86  6  ~/gsoc/sandhi-splitter/docs/index.rst
--'  74  0  ~/gsoc/sandhi-splitter/docs/index.rst
--'  1  0  ~/gsoc/sandhi-splitter/docs/index.
--'  77  0  ~/gsoc/sandhi-splitter/docs/index.rst
--'  28  10  ~/gsoc/sandhi-splitter/docs/index.rst
--'  31  64  ~/gsoc/sandhi-splitter/docs/index.rst
--'  79  0  ~/gsoc/sandhi-splitter/docs/index.rst
--'  27  17  ~/gsoc/sandhi-splitter/docs/index.rst
--'  75  14  ~/gsoc/sandhi-splitter/docs/index.rst
--'  7  14  ~/gsoc/sandhi-splitter/docs/index.rst
--'  14  30  ~/gsoc/sandhi-splitter/docs/index.rst
--'  11  36  ~/gsoc/sandhi-splitter/docs/index.rst
--'  12  0  ~/gsoc/sandhi-splitter/docs/index.rst
--'  1  0  ~/gsoc/sandbox/splitter.rst
--'  20  13  ~/gsoc/sandbox/index.rst
--'  1  0  ~/gsoc/sandbox/index.rst
--'  4  0  ~/gsoc/sandbox/NERD_tree_1
--'  1  0  ~/gsoc/sandbox/NERD_tree_1
--'  5  0  ~/gsoc/sandbox/NERD_tree_1
--'  22  0  ~/gsoc/sandbox/index.rst
--'  22  0  ~/gsoc/sandbox/splitter.rst
--'  17  0  ~/gsoc/sandbox/index.rst
--'  14  0  ~/gsoc/sandbox/splitter.rst
--'  6  0  ~/gsoc/sandbox/splitter.rst
--'  1  0  ~/gsoc/sandbox/Makefile
--'  25  8  ~/gsoc/sandhi-splitter/sandhisplitter/joiner.py
--'  1  0  ~/gsoc/sandhi-splitter/sandhisplitter/joiner.py
--'  6  0  ~/gsoc/sandhi-splitter/sandhisplitter/joiner.py
--'  1  0  ~/gsoc/sandhi-splitter/requirements.txt
--'  10  22  ~/repo/jerinphilip.github.io/css/syntax.css
--'  1  0  ~/repo/jerinphilip.github.io/css/syntax.css
--'  2  0  ~/repo/jerinphilip.github.io/css/syntax.css
--'  36  55  ~/repo/jerinphilip.github.io/css/syntax.css
--'  45  32  ~/repo/jerinphilip.github.io/css/syntax.css
--'  44  1  ~/repo/jerinphilip.github.io/css/syntax.css
--'  1  0  ~/code/cf/304/2/A.cpp
--'  4  0  ~/code/cf/304/2/A.cpp
--'  39  35  ~/repo/jerinphilip.github.io/css/syntax.css
--'  2  0  ~/repo/jerinphilip.github.io/css/default.css
--'  61  0  ~/repo/jerinphilip.github.io/css/default.css
--'  58  0  ~/repo/jerinphilip.github.io/css/default.css
--'  37  0  ~/repo/jerinphilip.github.io/css/default.css
--'  1  0  ~/repo/jerinphilip.github.io/_site/css/syntax.css
--'  1  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/hinotify-0.3.8.1.log
--'  1  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/packages/00-index.tar
--'  1  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/packages/00-index.
--'  1  0  ~/repo/jerinphilip.github.io/cabal.sandbox.config
--'  65  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/build.log
--'  1  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/build.log
--'  68  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/hakyll-4.8.3.2.log
--'  1  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/hakyll-4.8.3.2.log
--'  1  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/jerinphilip-github-io-0.1.0.0.log
--'  73  28  ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/hakyll-4.8.3.2.log
--'  41  111  ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/hakyll-4.8.3.2.log
--'  44  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/hakyll-4.8.3.2.log
--'  69  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/hakyll-4.8.3.2.log
--'  1  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/hakyll-4.8.3.2-LHCtZtRFUKZ49Bd9x3A0BH/Hakyll/Main.dyn_hi
--'  49  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/hakyll-4.8.3.2-LHCtZtRFUKZ49Bd9x3A0BH.conf
--'  42  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/hakyll-4.8.3.2-LHCtZtRFUKZ49Bd9x3A0BH.conf
--'  1  0  ~/repo/jerinphilip.github.io/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/hakyll-4.8.3.2-LHCtZtRFUKZ49Bd9x3A0BH.conf
--'  8  0  ~/repo/jerinphilip.github.io/jerinphilip-github-io.cabal
--'  1  0  ~/repo/jerinphilip.github.io/jerinphilip-github-io.cabal
--'  2  26  ~/repo/jerinphilip.github.io/jerinphilip-github-io.cabal
--'  9  32  ~/repo/jerinphilip.github.io/jerinphilip-github-io.cabal
--'  10  28  ~/repo/jerinphilip.github.io/jerinphilip-github-io.cabal
--'  24  0  ~/repo/jerinphilip.github.io/css/default.css
--'  1  0  ~/repo/jerinphilip.github.io/css/default.css
--'  10  103  /tmp/yaourt-tmp-jerin/aur-libra-gtk-theme/PKGBUILD
--'  1  0  /tmp/yaourt-tmp-jerin/aur-libra-gtk-theme/PKGBUILD
--'  1447  0  ~/.xsession-errors
--'  1  0  ~/.xsession-errors
--'  1512  0  ~/.xsession-errors
--'  36  0  ~/.xsession-errors
--'  1  0  ~/-rf *
--'  12  0  ~/Downloads/DooMLoRD_Easy-Rooting-Toolkit_v17_perf-event-exploit/files/doomed.sh
--'  37  18  ~/Downloads/DooMLoRD_Easy-Rooting-Toolkit_v17_perf-event-exploit/runme_linux.sh
--'  1  0  ~/Downloads/DooMLoRD_Easy-Rooting-Toolkit_v17_perf-event-exploit/runme_linux.sh
--'  10  0  ~/Downloads/DooMLoRD_Easy-Rooting-Toolkit_v17_perf-event-exploit/files/doomed.sh
--'  1  0  ~/Downloads/DooMLoRD_Easy-Rooting-Toolkit_v17_perf-event-exploit/files/doomed.sh
--'  42  0  ~/Downloads/DooMLoRD_Easy-Rooting-Toolkit_v17_perf-event-exploit/runme_linux.sh
--'  31  0  ~/Downloads/DooMLoRD_Easy-Rooting-Toolkit_v17_perf-event-exploit/runme_linux.sh
--'  1  0  ~/Downloads/DooMLoRD_Easy-Rooting-Toolkit_v17_perf-event-exploit/runme_
--'  1  0  ~/dot/gnome-cli-proxy/gnome-set-proxy.sh
--'  4  0  ~/gsoc/spellchecker/spellchecker/core.py
+-'  174  26  ~/gsoc/silpa-modules/soundex/soundex/__init__.py
+-'  1  0  ~/gsoc/silpa-modules/soundex/soundex/__init__.py
+-'  101  4  ~/gsoc/silpa-modules/soundex/soundex/__init__.py
+-'  163  19  ~/gsoc/silpa-modules/soundex/soundex/__init__.py
+-'  85  0  ~/gsoc/silpa-modules/soundex/soundex/__init__.py
+-'  136  12  ~/gsoc/silpa-modules/soundex/env/lib/python3.5/site-packages/wsme/api.py
+-'  50  51  ~/gsoc/silpa-modules/soundex/env/lib/python3.5/site-packages/wsme/api.py
+-'  45  0  ~/gsoc/silpa-modules/soundex/env/lib/python3.5/site-packages/wsme/api.py
+-'  36  29  ~/gsoc/silpa-modules/soundex/env/lib/python3.5/site-packages/wsme/api.py
+-'  235  8  ~/gsoc/silpa-modules/soundex/env/lib/python3.5/site-packages/wsme/api.py
+-'  1  0  ~/gsoc/silpa-modules/soundex/env/lib/python3.5/site-packages/wsme/api.py
+-'  164  12  ~/gsoc/silpa-modules/soundex/soundex/__init__.py
+-'  1  0  ~/gsoc/silpa-modules/__init__.py
+-'  66  0  ~/gsoc/silpa-modules/soundex/soundex/__init__.py
+-'  169  16  ~/gsoc/silpa-modules/soundex/soundex/__init__.py
+-'  171  31  ~/gsoc/silpa-modules/soundex/soundex/__init__.py
+-'  13  26  ~/gsoc/silpa-modules/app.py
+-'  1  0  ~/gsoc/silpa-modules/app.py
+-'  1  0  ~/gsoc/silpa-modules/setup.cfg
+-'  26  27  ~/gsoc/silpa-modules/soundex/setup.cfg
+-'  1  0  ~/gsoc/silpa-modules/soundex/setup.cfg
+-'  173  0  ~/gsoc/silpa-modules/soundex/soundex/__init__.py
+-'  2  0  ~/gsoc/silpa-modules/soundex/soundex/__init__.py
+-'  3  17  ~/gsoc/silpa-modules/soundex/soundex/expose.py
+-'  1  0  ~/gsoc/silpa-modules/soundex/soundex/expose.py
+-'  10  4  ~/gsoc/silpa-modules/app.py
+-'  14  61  ~/gsoc/silpa-modules/app.py
+-'  15  39  ~/gsoc/silpa-modules/app.py
+-'  11  68  ~/gsoc/silpa-modules/app.py
+-'  1  0  ~/gsoc/silpa-modules/dummy/dummy/__init__.py
+-'  53  0  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  2  0  ~/gsoc/silpa-modules/app.py
+-'  18  8  ~/gsoc/silpa-modules/app.py
+-'  12  8  ~/gsoc/silpa-modules/app.py
+-'  1  0  ~/gsoc/silpa-modules/soundex/expose.py
+-'  27  41  ~/gsoc/silpa-modules/soundex/setup.cfg
+-'  31  0  ~/gsoc/silpa-modules/soundex/soundex/__init__.py
+-'  47  0  ~/gsoc/silpa-modules/soundex/soundex/__init__.py
+-'  43  14  ~/gsoc/silpa-modules/soundex/soundex/__init__.py
+-'  27  0  ~/gsoc/silpa-modules/soundex/soundex/__init__.py
+-'  133  0  ~/gsoc/silpa-modules/soundex/soundex/__init__.py
+-'  6  7  ~/cvit/src/.git/COMMIT_EDITMSG
+-'  1  0  ~/cvit/src/.git/COMMIT_EDITMSG
+-'  7  39  ~/cvit/heritage-framework/heritage/admin.py
+-'  1  0  ~/cvit/heritage-framework/heritage/admin.py
+-'  1  0  ~/cvit/heritage-framework/README.md
+-'  4  0  ~/cvit/heritage-framework/.gitignore
+-'  1  0  ~/cvit/heritage-framework/.gitignore
+-'  1  0  ~/cvit/heritage-framework/.git/MERGE_MSG
+-'  4  0  ~/m16/popl/sandbox/sqr.rkt
+-'  1  0  ~/m16/popl/sandbox/sqr.rkt
+-'  9  4  ~/list.txt
+-'  1  0  ~/list.txt
+-'  19  4  ~/gsoc/silpa-modules/app.py
+-'  34  25  /mnt/extra/images-untagged/js/canvas.js
+-'  1  0  /mnt/extra/images-untagged/js/canvas.js
+-'  41  17  ~/gsoc/Silpa-Flask/silpa/api/jsonrpc.py
+-'  137  59  ~/gsoc/Silpa-Flask/silpa/api/jsonrpc.py
+-'  2  0  ~/gsoc/Silpa-Flask/silpa/api/jsonrpc.py
+-'  1  0  ~/gsoc/Silpa-Flask/silpa/api/jsonrpc.py
+-'  25  7  ~/gsoc/silpa-modules/soundex/setup.cfg
+-'  7  0  ~/gsoc/silpa-modules/soundex/setup.py
+-'  8  9  ~/gsoc/silpa-modules/soundex/setup.py
+-'  1  0  ~/gsoc/silpa-modules/soundex/setup.py
+-'  29  2  ~/gsoc/silpa-modules/soundex/setup.cfg
+-'  5  0  ~/gsoc/silpa-modules/stest/dummy/__init__.py
+-'  1  0  ~/gsoc/silpa-modules/stest/dummy/__init__.py
+-'  1  0  ~/gsoc/silpa-modules/soundex/soiu
+-'  4  0  ~/gsoc/silpa-modules/soundex/setup.py
+-'  23  25  ~/gsoc/silpa-modules/soundex/setup.cfg
+-'  4  20  ~/gsoc/silpa-modules/soundex/soundex/expose.py
+-'  8  0  ~/gsoc/silpa-modules/soundex/setup.cfg
+-'  161  4  ~/gsoc/silpa-modules/soundex/soundex/__init__.py
+-'  3  0  ~/gsoc/silpa-modules/dummy/dummy/__init__.py
+-'  24  13  ~/gsoc/silpa-modules/soundex/setup.cfg
+-'  18  0  ~/gsoc/silpa-modules/soundex/setup.cfg
+-'  3  0  ~/gsoc/silpa-modules/soundex/setup.py
+-'  5  0  ~/gsoc/silpa-modules/dummy/dummy/__init__.py
+-'  17  0  ~/gsoc/silpa-modules/dummy/setup.cfg
+-'  1  0  ~/gsoc/silpa-modules/dummy/setup.cfg
+-'  9  0  ~/gsoc/silpa-modules/dummy/setup.cfg
+-'  2  0  ~/gsoc/silpa-modules/dummy/setup.py
+-'  1  0  ~/gsoc/silpa-modules/dummy/setup.py
+-'  1  0  ~/gsoc/silpa-modules/dummy/setup.
+-'  19  0  ~/gsoc/silpa-modules/dummy/setup.cfg
+-'  77  28  ~/gsoc/silpa-modules/soundex/soundex/__init__.py
+-'  118  0  ~/gsoc/silpa-modules/soundex/soundex/__init__.py
+-'  29  0  ~/.vimrc
+-'  63  18  ~/gsoc/silpa-modules/soundex/soundex/templates/soundex.html
+-'  93  17  ~/gsoc/silpa-modules/soundex/soundex/templates/soundex.html
+-'  1  0  ~/gsoc/silpa-modules/soundex/soundex/templates/soundex.html
+-'  1  0  ~/gsoc/silpa-modules/indicngram/libindic/ngram/templates/indicngram.html
+-'  131  0  ~/gsoc/silpa-modules/indicngram/libindic/ngram/templates/indicngram.html
+-'  1  0  ~/gsoc/silpa-modules/indicngram/libindic/ngram/__init__.py
+-'  103  0  ~/gsoc/silpa-modules/indicngram/libindic/ngram/__init__.py
+-'  19  25  ~/gsoc/Silpa-Flask/silpa/frontend/__init__.py
 
 # History of marks within files (newest to oldest):
 
-> ~/gsoc/sandhi-splitter/docs/index.rst
-	"	80	0
-	^	10	13
-	.	9	0
-	+	11	0
-	+	12	0
-	+	14	41
-	+	11	36
-	+	6	29
-	+	14	30
-	+	9	8
-	+	10	7
-	+	6	0
-	+	7	14
-	+	27	8
-	+	28	6
-	+	27	25
-	+	28	25
-	+	29	4
-	+	14	16
-	+	29	0
-	+	30	72
-	+	75	22
-	+	75	2
-	+	79	0
-	+	15	11
-	+	16	11
-	+	79	0
-	+	75	75
-	+	75	43
-	+	75	2
-	+	75	1
-	+	75	0
-	+	75	0
-	+	75	18
-	+	75	0
-	+	75	14
-	+	18	59
-	+	20	19
-	+	21	0
-	+	22	60
-	+	23	21
-	+	24	26
-	+	25	0
-	+	76	16
-	+	77	15
-	+	75	0
-	+	74	0
-	+	74	0
-	+	78	0
-	+	79	0
-	+	92	50
-	+	79	0
-	+	31	64
-	+	74	0
-	+	74	0
-	+	16	11
-	+	28	0
-	+	77	0
-	+	74	0
-	+	38	19
-	+	40	25
-	+	74	5
-	+	74	0
-	+	53	43
-	+	43	0
-	+	58	0
-	+	74	0
-	+	72	46
-	+	61	0
-	+	60	35
-	+	33	37
-	+	35	7
-	+	36	6
-	+	55	6
-	+	56	6
-	+	57	0
-	+	39	0
-	+	36	7
-	+	10	8
-	+	59	0
-	+	14	0
-	+	9	13
-	+	10	12
-	+	9	0
+> ~/gsoc/silpa-modules/soundex/soundex/__init__.py
+	"	174	26
+	^	174	27
+	.	174	26
+	+	171	0
+	+	171	12
+	+	171	10
+	+	171	26
+	+	171	0
+	+	171	13
+	+	171	30
+	+	171	19
+	+	171	0
+	+	171	0
+	+	175	0
+	+	174	0
+	+	171	17
+	+	171	21
+	+	171	16
+	+	171	12
+	+	171	0
+	+	169	0
+	+	171	47
+	+	169	0
+	+	168	0
+	+	163	31
+	+	168	0
+	+	168	0
+	+	164	41
+	+	166	35
+	+	167	20
+	+	164	27
+	+	167	43
+	+	171	26
+	+	174	26
+	+	171	33
+	+	174	33
+	+	163	18
+	+	166	18
+	+	163	19
+	+	167	35
+	+	166	26
+	+	174	42
+	+	171	26
+	+	174	26
 
-> ~/gsoc/sandhi-splitter/docs/index.
+> ~/gsoc/silpa-modules/soundex/env/lib/python3.5/site-packages/wsme/api.py
+	"	136	12
+
+> ~/gsoc/silpa-modules/__init__.py
 	"	1	0
 
-> ~/gsoc/sandhi-splitter/sandhisplitter/joiner.py
-	"	1	0
-	^	3	20
-	.	3	19
-	+	1	0
-	+	16	0
-	+	17	8
-	+	18	8
-	+	19	8
-	+	20	8
-	+	21	8
-	+	3	19
-
-> ~/gsoc/sandbox/splitter.rst
-	"	1	0
-	.	2	0
-	+	6	0
-	+	2	0
-
-> ~/gsoc/sandbox/index.rst
-	"	20	13
-	^	25	14
-	.	25	14
-	+	24	13
-	+	25	14
-
-> ~/gsoc/sandbox/NERD_tree_1
-	"	4	0
-	.	1	0
-	+	1	0
-
-> ~/gsoc/sandbox/Makefile
-	"	1	0
-
-> ~/gsoc/sandhi-splitter/requirements.txt
-	"	1	0
-
-> ~/repo/jerinphilip.github.io/css/syntax.css
-	"	10	22
-	^	10	23
-	.	10	22
-	+	1	21
-	+	1	0
-	+	1	14
-	+	1	0
-	+	1	17
-	+	1	0
-	+	1	19
-	+	1	0
-	+	1	1
-	+	1	5
-	+	1	57
-	+	1	0
-	+	1	36
-	+	1	96
-	+	1	0
-	+	1	0
-	+	2	0
-	+	39	35
-	+	44	1
-	+	44	2
-	+	44	32
-	+	45	32
-	+	42	1
-	+	42	1
-	+	40	0
-	+	41	0
-	+	40	18
-	+	41	0
-	+	44	32
-	+	45	32
-	+	36	55
-	+	42	0
-	+	44	0
-	+	31	0
-	+	10	22
-
-> ~/code/cf/304/2/A.cpp
-	"	1	0
-
-> ~/repo/jerinphilip.github.io/css/default.css
-	"	2	0
-
-> ~/repo/jerinphilip.github.io/_site/css/syntax.css
-	"	1	0
-
-> ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/build.log
-	"	1	0
-
-> ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/fsnotify-0.2.1.log
-	"	1	0
-
-> ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/hakyll-4.8.3.2.log
-	"	68	0
-	n	41	28
-
-> ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/hinotify-0.3.8.1.log
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/jerinphilip-github-io-0.1.0.0.log
-	"	1	0
-
-> ~/repo/jerinphilip.github.io/.cabal-sandbox/logs/system-filepath-0.4.13.4.log
-	"	1	0
-
-> ~/repo/jerinphilip.github.io/.cabal-sandbox/packages/00-index.tar
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/repo/jerinphilip.github.io/.cabal-sandbox/packages/00-index.
-	"	1	0
-
-> ~/repo/jerinphilip.github.io/cabal.sandbox.config
-	"	1	0
-
-> ~/repo/jerinphilip.github.io/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/hakyll-4.8.3.2-LHCtZtRFUKZ49Bd9x3A0BH/Hakyll/Main.dyn_hi
-	"	1	0
-
-> ~/repo/jerinphilip.github.io/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/hakyll-4.8.3.2-LHCtZtRFUKZ49Bd9x3A0BH.conf
-	"	49	0
-
-> ~/repo/jerinphilip.github.io/jerinphilip-github-io.cabal
-	"	8	0
-	^	9	35
-	.	9	32
-	+	9	34
-	+	10	0
-	+	9	32
-
-> /tmp/yaourt-tmp-jerin/aur-libra-gtk-theme/PKGBUILD
-	"	10	103
-	^	10	104
-	.	10	103
-	+	10	103
-	+	10	103
-
-> ~/.xsession-errors
-	"	1447	0
-
-> ~/-rf *
-	"	1	0
-
-> ~/Downloads/DooMLoRD_Easy-Rooting-Toolkit_v17_perf-event-exploit/runme_linux.sh
-	"	37	18
-
-> ~/Downloads/DooMLoRD_Easy-Rooting-Toolkit_v17_perf-event-exploit/files/doomed.sh
-	"	12	0
-
-> ~/Downloads/DooMLoRD_Easy-Rooting-Toolkit_v17_perf-event-exploit/runme_
-	"	1	0
-
-> ~/dot/gnome-cli-proxy/gnome-set-proxy.sh
-	"	1	0
-
-> ~/gsoc/spellchecker/spellchecker/pipe_sandhi.py
-	"	2	16
-	^	3	34
-	.	3	33
-	+	2	0
-	+	3	33
-
-> ~/gsoc/spellchecker/spellchecker/core.py
-	"	4	0
-
-> ~/.bashrc
-	"	25	52
-	^	25	53
-	.	25	52
-	+	59	0
-	+	24	0
-	+	25	52
-
-> ~/gsoc/spellchecker/spellchecker/__init__.py
-	"	1	0
-
-> ~/.mutt/account.iiit
-	"	7	38
-	^	7	39
-	.	7	38
-	+	1	54
-	+	5	26
-	+	6	44
-	+	7	38
-
-> ~/code/tmp/fp.py
-	"	15	0
-	.	15	0
-	+	2	16
-	+	16	0
-	+	2	7
-	+	3	21
-	+	2	3
-	+	3	5
-	+	5	13
-	+	6	16
-	+	6	14
-	+	7	19
-	+	7	19
-	+	7	23
-	+	6	0
-	+	8	0
-	+	7	0
-	+	8	0
-	+	16	0
-	+	10	0
-	+	16	0
-	+	11	0
-	+	12	38
-	+	8	0
-	+	9	0
-	+	14	18
-	+	15	6
-	+	10	0
-	+	13	0
-	+	15	24
-	+	16	0
-	+	15	25
-	+	16	0
-	+	15	0
-	+	15	0
-
-> ~/code/tmp/test.py
-	"	1	0
-
-> ~/cvit/cv/cc.cpp
-	"	1	0
-	^	26	28
-	.	24	0
-	+	1	29
-	+	29	0
-	+	6	0
-	+	8	0
-	+	15	0
-	+	16	0
+> ~/gsoc/silpa-modules/app.py
+	"	13	26
+	^	13	27
+	.	13	26
+	+	1	35
+	+	22	10
+	+	10	62
+	+	15	39
+	+	16	56
 	+	18	0
-	+	21	0
-	+	20	0
-	+	22	1
-	+	1	17
-	+	17	1
-	+	22	2
-	+	8	27
-	+	14	0
-	+	8	14
+	+	18	0
+	+	18	0
+	+	18	16
+	+	10	68
+	+	18	0
+	+	17	16
+	+	10	71
+	+	16	8
+	+	18	8
 	+	11	0
-	+	9	16
-	+	10	0
-	+	9	43
-	+	13	25
-	+	7	13
-	+	10	22
-	+	22	1
-	+	12	62
-	+	11	5
-	+	11	0
-	+	14	0
-	+	12	61
-	+	24	1
-	+	24	0
-	+	24	0
-	+	24	0
-	+	24	0
-	+	24	0
-	+	24	0
-	+	24	0
-	+	24	0
-	+	24	33
-	+	25	27
-	+	26	27
-	+	24	0
+	+	10	4
+	+	11	68
+	+	14	61
+	+	11	4
+	+	10	4
+	+	13	26
 
-> ~/cvit/cv/worddetect.cpp
-	"	14	53
-	^	14	54
-	.	14	53
-	+	28	0
-	+	9	0
-	+	1	18
-	+	2	0
-	+	5	18
-	+	7	0
-	+	9	0
-	+	7	0
+> ~/gsoc/silpa-modules/setup.cfg
+	"	1	0
+
+> ~/gsoc/silpa-modules/soundex/setup.cfg
+	"	26	27
+	^	26	35
+	.	27	27
+	+	29	13
 	+	29	0
-	+	41	0
-	+	36	0
-	+	36	0
-	+	33	34
-	+	34	0
-	+	33	15
-	+	36	0
-	+	35	56
-	+	38	25
-	+	37	32
-	+	39	0
-	+	40	0
-	+	39	0
-	+	35	0
-	+	33	0
-	+	38	34
-	+	37	24
-	+	19	28
-	+	12	203
-	+	12	144
-	+	38	54
-	+	12	147
-	+	12	0
-	+	14	53
-
-> /tmp/yaourt-tmp-jerin/aur-ruby-net-ssh/PKGBUILD
-	"	1	4
-	.	1	1
-	+	1	1
-
-> /tmp/yaourt-tmp-jerin/aur-rhc/PKGBUILD
-	"	1	0
-	^	11	80
-	.	11	80
-	+	11	80
-
-> ~/AndroidStudioProjects/WordHelp/.git/COMMIT_EDITMSG
-	"	1	29
-	^	1	30
-	.	1	29
-	+	1	29
-
-> ~/AndroidStudioProjects/WordHelp/.gitignore
-	"	1	0
-
-> ~/AndroidStudioProjects/WordHelp/WordHelp.iml
-	"	2	36
-
-> ~/AndroidStudioProjects/MultiTouchPanZoom/app/src/main/java/io/github/jerinphilip/multitouchpanzoom/TouchImageView.java
-	"	1	0
-	.	184	0
-	+	184	0
-
-> ~/cvit/cv/blob.cpp
-	"	40	13
-	^	11	43
-	.	12	0
-	+	1	19
-	+	155	0
-	+	65	32
-	+	80	70
-	+	125	0
-	+	128	23
-	+	129	30
-	+	84	10
-	+	61	17
-	+	64	0
-	+	64	0
-	+	62	49
-	+	63	17
-	+	4	19
-	+	103	0
-	+	103	0
-	+	103	0
-	+	100	46
-	+	102	0
-	+	101	35
-	+	11	81
-	+	56	0
-	+	56	0
-	+	11	44
-	+	56	0
-	+	11	42
-	+	12	0
-
-> ~/cvit/cv/connected.cpp
-	"	41	0
-	.	45	0
-	+	2	0
-	+	45	0
-
-> /mnt/extra/android-projects/textfairy/app/src/main/res/layout/activity_cropimage.xml
-	"	32	0
-
-> /mnt/extra/android-projects/textfairy/app/src/main/res/drawable/ic_arrow_back_white.xml
-	"	1	0
-
-> /mnt/extra/android-projects/textfairy/app/src/main/res/drawable/toolbar_background.xml
-	"	1	0
-
-> /mnt/extra/android-projects/textfairy/app/src/main/res/drawable/textfairy_title.xml
-	"	1	0
-
-> /mnt/extra/android-projects/textfairy/app/src/main/res/color/primary_text_btn_start.xml
-	"	1	0
-
-> /mnt/extra/android-projects/textfairy/app/src/main/res/color/primary_text_btn_main.xml
-	"	1	0
-
-> /mnt/extra/android-projects/textfairy/app/src/main/res/color/primary_text_btn_
-	"	1	0
-
-> ~/cvit/cv/mousedetect.cpp
-	"	1	0
-	^	61	5
-	.	64	0
-	+	1	36
-	+	3	18
-	+	6	18
-	+	8	58
-	+	25	0
-	+	9	18
-	+	24	0
-	+	10	30
-	+	12	17
-	+	11	42
-	+	24	0
-	+	13	19
-	+	16	19
-	+	14	23
-	+	17	24
-	+	24	0
-	+	20	28
-	+	22	0
-	+	23	17
-	+	24	0
-	+	29	33
-	+	69	0
-	+	68	12
-	+	30	29
-	+	31	20
-	+	34	0
-	+	33	17
-	+	32	38
-	+	64	27
-	+	65	8
-	+	66	24
-	+	1	16
-	+	67	8
-	+	65	52
-	+	8	55
-	+	26	0
-	+	40	25
-	+	38	44
-	+	37	4
-	+	38	4
-	+	37	17
-	+	38	15
-	+	66	25
-	+	2	37
-	+	42	72
-	+	36	27
-	+	42	19
-	+	41	35
-	+	66	25
-	+	42	72
-	+	47	26
-	+	49	126
-	+	49	20
-	+	49	0
-	+	48	23
-	+	49	30
-	+	27	0
-	+	27	111
-	+	26	0
-	+	27	0
-	+	49	52
-	+	63	93
-	+	50	0
-	+	60	19
-	+	48	4
-	+	48	0
-	+	44	26
-	+	45	5
-	+	45	17
-	+	46	26
-	+	60	22
-	+	66	28
-	+	49	23
-	+	66	23
-	+	60	17
-	+	51	1
-	+	51	46
-	+	51	32
-	+	51	0
-	+	51	0
-	+	51	46
-	+	62	0
-	+	51	0
-	+	52	0
-	+	50	46
-	+	61	0
-	+	52	0
-	+	63	0
-	+	64	0
-
-> ~/cvit/heritage-framework/heritage/heritage/views.py
-	"	20	25
-	^	20	33
-	.	20	0
-	+	14	0
-	+	25	3
-	+	7	33
-	+	7	0
-	+	7	0
-	+	25	18
-	+	26	31
-	+	37	0
-	+	37	11
-	+	7	35
-	+	38	14
-	+	7	0
-	+	3	29
-	+	38	31
-	+	25	0
-	+	39	60
-	+	2	34
-	+	38	0
-	+	27	58
-	+	28	26
-	+	37	0
-	+	29	22
-	+	37	0
-	+	37	0
-	+	37	26
-	+	37	0
-	+	37	0
-	+	32	56
-	+	37	0
-	+	33	36
-	+	36	18
-	+	35	0
-	+	36	0
-	+	35	47
-	+	33	0
-	+	35	49
-	+	29	42
-	+	55	0
-	+	30	54
-	+	32	32
-	+	32	48
-	+	32	26
-	+	5	13
-	+	32	0
-	+	32	0
-	+	16	24
-	+	17	0
-	+	17	0
-	+	16	27
-	+	17	9
-	+	18	35
-	+	32	0
-	+	30	22
-	+	32	0
-	+	31	41
-	+	25	0
-	+	19	42
-	+	16	36
-	+	31	53
-	+	25	0
-	+	4	40
-	+	20	33
-	+	21	15
-	+	6	40
-	+	21	62
-	+	22	19
-	+	23	0
-	+	15	0
-	+	55	0
-	+	29	0
-	+	36	47
-	+	33	36
-	+	32	40
-	+	55	0
-	+	25	0
-	+	42	26
-	+	43	31
-	+	52	11
-	+	41	0
-	+	24	0
-	+	52	8
-	+	53	39
-	+	54	59
-	+	57	24
-	+	63	7
-	+	58	0
-	+	63	0
-	+	56	0
-	+	52	0
-	+	44	43
-	+	46	22
-	+	49	12
-	+	46	0
-	+	47	0
-	+	50	0
-	+	54	44
-	+	62	52
-	+	44	37
-	+	61	41
-	+	20	0
-
-> ~/cvit/heritage-framework/heritage/heritage/utils.py
-	"	29	10
-	^	29	11
-	.	29	10
-	+	1	8
-	+	1	0
-	+	3	0
-	+	6	0
-	+	4	0
-	+	27	7
-	+	32	7
-	+	33	22
-	+	32	0
-	+	28	0
-	+	33	0
-	+	34	0
-	+	30	0
-	+	1	0
-	+	31	18
-	+	28	10
+	+	29	8
+	+	29	17
 	+	29	10
-
-> ~/cvit/heritage-framework/heritage/heritage/templates/base.html
-	"	1	0
-	^	68	67
-	.	68	66
-	+	2	5
-	+	75	0
-	+	3	9
-	+	8	0
-	+	4	22
-	+	74	0
-	+	75	0
-	+	74	0
-	+	4	15
-	+	74	0
-	+	13	30
-	+	74	0
-	+	73	0
-	+	67	28
-	+	72	0
-	+	68	44
-	+	71	0
-	+	69	34
-	+	70	33
-	+	6	109
-	+	6	0
-	+	6	111
-	+	6	0
-	+	6	59
-	+	13	90
-	+	10	0
-	+	13	50
-	+	6	53
-	+	13	44
-	+	4	22
-	+	12	0
-	+	12	0
-	+	12	54
-	+	12	49
-	+	12	0
-	+	67	0
-	+	13	34
-	+	13	0
-	+	13	0
-	+	7	23
-	+	13	0
-	+	6	0
-	+	6	0
-	+	13	0
-	+	6	0
-	+	5	26
-	+	11	65
-	+	10	0
-	+	11	21
-	+	5	20
-	+	67	39
-	+	66	0
-	+	15	0
-	+	67	0
-	+	68	66
-
-> ~/cvit/heritage-framework/heritage/heritage/admin.py
-	"	2	31
-	^	2	32
-	.	2	31
-	+	1	36
-	+	6	0
-	+	1	35
-	+	6	0
-	+	2	12
-	+	4	60
-	+	1	0
-	+	3	0
-	+	1	0
-	+	4	47
-	+	5	39
-	+	4	0
-	+	6	0
-	+	2	31
-
-> ~/cvit/heritage-framework/heritage/heritage/urls.py
-	"	17	22
-	^	17	23
-	.	17	22
-	+	22	43
-	+	18	18
-	+	26	0
-	+	23	29
-	+	24	47
-	+	25	63
-	+	17	22
-
-> ~/cvit/heritage-framework/heritage/heritage/adjmin.py
-	"	1	0
-
-> ~/cvit/heritage-framework/heritage/heritage/templates/interestpointlocation.html
-	"	5	22
-	^	5	23
-	.	5	22
-	+	3	52
-	+	5	15
-	+	1	23
-	+	2	15
-	+	8	13
-	+	1	22
-	+	5	22
-
-> ~/cvit/heritage-framework/heritage/heritage/templates/interestpoint.html
-	"	5	13
-	^	8	14
-	.	8	13
-	+	3	44
-	+	1	24
-	+	2	15
-	+	8	13
-
-> ~/cvit/heritage-framework/heritage/heritage/templates/interestpoint
-	"	1	0
-
-> ~/cvit/heritage-framework/heritage/heritage/wsgi.py
-	"	1	0
-
-> ~/cvit/heritage-framework/heritage/heritage/templates/image.html
-	"	5	15
-	^	5	16
-	.	5	15
-	+	7	7
-	+	5	0
-	+	6	0
-	+	4	0
-	+	3	65
-	+	2	15
-	+	8	13
-	+	1	12
-	+	5	15
-
-> ~/cvit/heritage-framework/heritage/heritage/settings.py
-	"	124	52
-	^	124	55
-	.	124	52
-	+	60	17
-	+	17	0
-	+	60	51
-	+	124	39
-	+	124	54
-	+	125	0
-	+	124	52
-
-> ~/cvit/heritage-framework/heritage/heritage/models.py
-	"	23	4
-	.	24	0
-	+	8	19
-	+	14	0
+	+	29	7
+	+	29	6
+	+	29	15
+	+	29	31
+	+	29	0
+	+	22	8
+	+	29	15
+	+	29	5
+	+	29	13
+	+	29	7
+	+	29	15
+	+	29	0
+	+	24	14
+	+	29	32
+	+	23	16
+	+	23	25
+	+	23	17
+	+	23	0
 	+	24	0
+	+	29	0
+	+	29	5
+	+	29	4
+	+	29	16
+	+	29	22
+	+	23	0
+	+	24	0
+	+	29	0
+	+	25	7
+	+	26	22
+	+	29	0
+	+	26	30
+	+	29	0
+	+	28	0
+	+	26	9
+	+	27	41
+	+	26	34
+	+	27	27
 
-> ~/cvit/heritage-framework/heritage/heritage/forms.py
-	"	16	0
-	^	16	0
-	.	16	0
-	+	3	23
-	+	3	0
-	+	5	25
-	+	5	15
-	+	3	32
-	+	5	20
-	+	3	0
-	+	1	35
-	+	5	27
-	+	9	61
+> ~/gsoc/silpa-modules/dummy/dummy/__init__.py
+	"	1	0
+	^	5	39
+	.	5	0
+	+	5	38
+	+	2	0
 	+	4	0
-	+	3	0
-	+	9	41
 	+	5	0
-	+	9	18
-	+	9	0
-	+	9	0
-	+	5	26
-	+	6	14
-	+	7	15
-	+	3	0
-	+	3	32
-	+	7	20
-	+	8	24
-	+	9	0
-	+	8	13
-	+	11	40
-	+	12	0
-	+	13	28
-	+	3	47
-	+	10	0
-	+	17	0
-	+	15	0
-	+	19	36
-	+	17	26
-	+	3	0
-	+	2	31
-	+	7	22
-	+	13	22
-	+	19	22
-	+	16	0
+
+> ~/.vimrc
+	"	53	0
+	.	38	0
+	+	38	0
+
+> ~/gsoc/silpa-modules/soundex/expose.py
+	"	1	0
+
+> ~/cvit/src/.git/COMMIT_EDITMSG
+	"	6	7
+	^	6	8
+	.	6	7
+	+	4	39
+	+	6	7
+
+> ~/cvit/heritage-framework/heritage/admin.py
+	"	7	39
+	^	7	40
+	.	7	39
+	+	6	32
+	+	7	39
+
+> ~/cvit/heritage-framework/README.md
+	"	1	0
 
 > ~/cvit/heritage-framework/.gitignore
-	"	2	7
-	^	2	8
-	.	2	7
-	+	1	17
-	+	4	0
-	+	2	7
-
-> ~/golconda/script.py
-	"	1	0
-	^	39	38
-	.	39	22
-	+	36	21
-	+	35	46
-	+	36	20
-	+	38	32
-	+	39	19
-	+	2	14
-	+	16	21
-	+	34	32
-	+	34	38
-	+	34	18
-	+	34	22
-	+	34	18
-	+	16	0
-	+	34	40
-	+	35	46
-	+	34	28
-	+	34	28
-	+	34	9
-	+	34	30
-	+	34	57
-	+	34	0
-	+	34	25
-	+	34	0
-	+	34	0
-	+	34	35
-	+	34	0
-	+	34	41
-	+	34	23
-	+	34	0
-	+	34	29
-	+	12	14
-	+	14	30
-	+	16	0
-	+	34	24
-	+	12	20
-	+	12	0
-	+	12	0
-	+	34	32
-	+	34	32
-	+	2	0
-	+	3	28
-	+	2	0
-	+	34	0
-	+	5	0
-	+	34	0
-	+	16	17
-	+	16	17
-	+	23	0
-	+	24	0
-	+	34	0
-	+	33	0
-	+	33	0
-	+	27	23
-	+	33	0
-	+	33	0
-	+	32	22
-	+	32	49
-	+	32	0
-	+	32	17
-	+	32	21
-	+	32	14
-	+	32	0
-	+	36	5
-	+	36	25
-	+	35	62
-	+	32	19
-	+	32	0
-	+	27	34
-	+	28	16
-	+	29	16
-	+	30	18
-	+	28	15
-	+	29	15
-	+	16	0
-	+	14	0
-	+	8	20
-	+	9	0
-	+	12	32
-	+	6	10
-	+	7	11
-	+	10	0
-	+	15	0
-	+	27	0
-	+	25	0
-	+	31	36
-	+	27	0
-	+	31	9
-	+	32	13
-	+	36	0
-	+	37	7
-	+	40	12
-	+	41	0
-	+	38	0
-	+	30	5
-	+	14	0
-	+	13	20
-	+	30	4
-	+	13	33
-	+	30	4
-	+	39	22
-
-> ~/cvit/heritage-framework/heritage/heritage/__init__.py
-	"	1	0
-
-> /mnt/extra/jerin-sonyxpz3/script.py
-	"	35	45
-	^	35	46
-	.	35	45
-	+	35	45
-
-> ~/cvit/heritage-framework/heritage/views.py
-	"	1	0
-
-> ~/cvit/heritage-framework/heritage/manage.py
-	"	7	0
-
-> ~/.Xresources
-	"	75	56
-	^	75	57
-	.	75	56
-	+	76	1
-	+	75	53
-	+	76	0
-	+	75	56
-
-> ~/cvit/fd/script.py
-	"	3	9
-	^	3	10
-	.	3	9
-	+	1	26
-	+	2	8
-	+	4	0
-	+	6	41
-	+	8	11
-	+	5	6
-	+	6	19
-	+	5	7
-	+	6	22
-	+	5	28
-	+	8	0
-	+	9	15
-	+	10	5
-	+	7	16
-	+	10	4
-	+	10	17
-	+	10	9
-	+	11	26
-	+	13	18
-	+	11	18
-	+	12	14
-	+	13	0
-	+	8	0
-	+	13	40
-	+	3	9
-
-> ~/cvit/fd/code.py
-	"	39	8
-	^	41	0
-	.	41	0
-	+	1	17
-	+	2	9
-	+	7	64
-	+	14	5
-	+	8	0
-	+	14	0
-	+	8	42
-	+	16	29
-	+	16	43
-	+	17	50
-	+	19	25
-	+	21	57
-	+	22	32
-	+	23	32
-	+	24	12
-	+	17	10
-	+	24	39
-	+	25	32
-	+	26	59
-	+	27	22
-	+	26	58
-	+	27	22
-	+	32	21
-	+	33	13
-	+	34	22
-	+	1	1
-	+	7	0
-	+	5	16
-	+	6	22
-	+	8	0
-	+	7	0
-	+	8	0
-	+	15	19
-	+	16	0
-	+	27	0
-	+	29	17
-	+	17	0
-	+	15	20
-	+	31	17
-	+	30	0
-	+	32	0
-	+	31	18
-	+	4	0
-	+	7	12
-	+	7	12
-	+	8	0
-	+	17	20
-	+	24	23
-	+	35	25
-	+	36	20
-	+	37	32
-	+	38	26
-	+	40	18
-	+	11	22
-	+	12	7
-	+	11	32
-	+	12	32
-	+	13	16
-	+	37	35
-	+	28	0
-	+	29	25
-	+	29	0
-	+	18	15
-	+	20	22
-	+	29	25
-	+	38	17
-	+	39	13
-	+	40	0
-	+	38	18
-	+	39	13
-	+	32	0
-	+	9	0
-	+	34	0
-	+	34	0
-	+	41	0
-
-> ~/cvit/fd/script.pp
-	"	1	0
-
-> ~/.mutt/muttrc
-	"	50	46
-	^	53	47
-	.	53	46
-	+	2	55
-	+	2	0
-	+	2	24
-	+	2	13
-	+	2	17
-	+	2	0
-	+	2	24
-	+	2	22
-	+	30	0
-	+	21	19
-	+	22	21
-	+	12	17
-	+	2	31
-	+	2	27
-	+	2	10
-	+	12	24
-	+	13	32
-	+	5	47
-	+	5	19
-	+	2	23
-	+	2	13
-	+	2	18
-	+	2	11
-	+	2	14
-	+	2	10
-	+	2	14
-	+	2	11
-	+	2	14
-	+	2	17
-	+	3	21
-	+	4	21
-	+	5	52
-	+	5	0
-	+	2	0
-	+	12	24
-	+	13	31
-	+	12	10
-	+	13	32
-	+	2	45
-	+	5	23
-	+	14	32
-	+	2	0
-	+	5	0
-	+	27	21
-	+	16	31
-	+	33	13
-	+	34	17
-	+	17	21
-	+	19	18
-	+	38	18
-	+	54	2
-	+	46	0
-	+	48	0
-	+	49	0
-	+	50	0
-	+	51	0
-	+	52	0
-	+	53	0
-	+	54	0
-	+	52	42
-	+	53	46
-
-> ~/sent
-	"	1	0
-
-> /tmp/mutt-evil-lab-1000-1695-10332878661018253320
-	"	10	13
-	^	10	14
-	.	10	13
-	+	3	26
-	+	2	0
-	+	4	34
-	+	6	22
-	+	7	7
-	+	8	9
-	+	10	13
-
-> ~/.mutt/account.gmail
-	"	12	0
-	^	12	0
-	.	12	0
-	+	1	41
-	+	17	0
-	+	16	0
-	+	7	0
-	+	11	34
-	+	13	0
-	+	10	0
-	+	9	0
-	+	12	0
-
-> /tmp/mutt-evil-lab-1000-1527-131285740278849090
 	"	4	0
-	^	2	0
-	.	2	0
-	+	5	7
-	+	2	0
 
-> ~/.vim/ftplugin/mail.vim
-	"	2	8
-	^	2	9
-	.	2	8
-	+	1	8
-	+	2	8
+> ~/cvit/heritage-framework/.git/MERGE_MSG
+	"	1	0
 
-> ~/builds/pidgin-webkit/README
-	"	13	0
+> ~/m16/popl/sandbox/sqr.rkt
+	"	4	0
+	^	4	0
+	.	3	0
+	+	2	22
+	+	3	0
 
-> ~/builds/pidgin-webkit/Makefile
-	"	47	0
-
-> ~/builds/pidgin-webkit/webkit.c
-	"	1196	0
-
-> ~/builds/pidgin-webkit/webkit.h
-	"	24	0
-
-> ~/builds/pidgin-webkit/message_styles/Template.html
-	"	159	0
-
-> /tmp/mutt-evil-lab-1000-8321-681081278970289250
-	"	14	200
-	^	12	204
-	.	14	200
-	+	12	203
-	+	14	200
-
-> /tmp/mutt-evil-lab-1000-8321-12161610681776594156
-	"	14	258
-	^	14	259
-	.	14	258
-	+	3	87
-	+	15	0
-	+	15	0
-	+	15	64
-	+	15	64
-	+	15	0
-	+	15	169
-	+	3	86
-	+	15	53
-	+	3	248
-	+	5	291
-	+	5	2
-	+	5	0
-	+	4	0
-	+	5	288
-	+	6	2
-	+	5	140
-	+	5	211
-	+	5	280
-	+	5	291
-	+	16	7
-	+	15	0
-	+	6	107
-	+	15	0
-	+	8	107
-	+	8	72
-	+	15	0
-	+	8	167
-	+	8	75
-	+	6	107
-	+	8	22
-	+	15	0
-	+	6	246
-	+	8	209
-	+	15	0
-	+	15	0
-	+	15	0
-	+	6	246
+> ~/list.txt
+	"	9	4
+	^	9	5
+	.	9	4
 	+	8	0
-	+	6	247
-	+	13	0
-	+	15	0
-	+	12	67
-	+	13	0
-	+	12	215
-	+	6	107
-	+	7	6
-	+	8	0
-	+	6	108
-	+	7	144
-	+	7	0
-	+	8	0
-	+	6	0
-	+	12	117
-	+	16	5
-	+	7	3
-	+	7	248
-	+	7	138
-	+	10	71
-	+	11	0
-	+	10	156
-	+	10	71
-	+	10	147
-	+	10	141
-	+	11	0
-	+	10	102
-	+	12	116
-	+	7	138
-	+	15	271
-	+	14	0
-	+	14	211
-	+	14	80
-	+	14	0
-	+	12	272
-	+	14	0
-	+	12	222
-	+	12	129
-	+	14	258
+	+	1	12
+	+	2	5
+	+	9	4
 
-> /tmp/mutt-evil-lab-1000-6614-1997077831674463148
+> /mnt/extra/images-untagged/js/canvas.js
+	"	34	25
+
+> ~/gsoc/Silpa-Flask/silpa/api/jsonrpc.py
+	"	41	17
+
+> ~/gsoc/silpa-modules/soundex/setup.py
+	"	7	0
+	.	8	0
+	+	8	0
+
+> ~/gsoc/silpa-modules/stest/dummy/__init__.py
 	"	5	0
 
-> /tmp/mutt-evil-lab-1000-6424-4563679342028014872
-	"	5	7
-	^	5	8
-	.	5	8
-	+	2	70
-	+	7	0
-	+	2	87
-	+	2	0
-	+	3	6
-	+	6	0
-	+	5	8
-
-> /tmp/mutt-evil-lab-1000-6424-11949232091006403538
+> ~/gsoc/silpa-modules/soundex/soiu
 	"	1	0
 
-> /tmp/mutt-evil-lab-1000-6311-244720464204015934
+> ~/gsoc/silpa-modules/dummy/setup.cfg
+	"	17	0
+	^	19	0
+	.	18	31
+	+	18	31
+
+> ~/gsoc/silpa-modules/dummy/setup.py
+	"	2	0
+
+> ~/gsoc/silpa-modules/dummy/setup.
+	"	1	0
+
+> ~/gsoc/silpa-modules/soundex/soundex/templates/soundex.html
+	"	63	18
+
+> ~/gsoc/silpa-modules/indicngram/libindic/ngram/templates/indicngram.html
+	"	1	0
+
+> ~/gsoc/silpa-modules/indicngram/libindic/ngram/__init__.py
+	"	1	0
+
+> ~/gsoc/Silpa-Flask/silpa/frontend/__init__.py
+	"	19	25
+	^	18	17
+	.	18	16
+	+	18	16
+
+> ~/gsoc/Silpa-Flask/silpa/helper.py
+	"	43	22
+
+> ~/gsoc/silpa-modules/indicngram/setup.cfg
 	"	4	0
-	.	4	0
-	+	1	5
+
+> ~/gsoc/silpa-modules/indicngram/.testr.conf
+	"	2	0
+
+> ~/gsoc/silpa-modules/list.txt
+	"	6	0
+	^	5	43
+	.	6	0
+	+	1	0
+	+	6	0
+	+	3	34
+	+	2	39
+	+	4	39
+	+	6	0
+	+	5	42
+	+	6	0
+
+> ~/gsoc/Silpa-Flask/silpa/loadconfig.py
+	"	38	40
+
+> ~/gsoc/Silpa-Flask/silpa/frontend/templates/silpa.html
+	"	35	22
+
+> ~/gsoc/Silpa-Flask/silpa/frontend/templates/index.html
+	"	15	33
+
+> ~/gsoc/Silpa-Flask/silpa/frontend/pages.py
+	"	37	12
+
+> ~/resume/main.tex
+	"	9	28
+	^	16	40
+	.	16	39
+	+	39	19
+	+	39	0
+	+	1	22
+	+	39	0
+	+	2	20
+	+	5	11
+	+	33	0
+	+	5	9
+	+	33	0
+	+	32	11
+	+	35	15
+	+	38	13
+	+	36	24
+	+	37	20
+	+	36	24
+	+	2	20
+	+	2	9
 	+	2	0
-	+	3	72
-	+	3	0
+	+	2	40
+	+	141	15
+	+	141	15
+	+	141	0
+	+	142	0
+	+	1	22
+	+	2	37
+	+	5	15
+	+	29	13
+	+	29	0
+	+	28	0
+	+	27	0
+	+	8	0
+	+	3	26
+	+	12	15
+	+	15	4
+	+	17	0
+	+	16	39
+
+> ~/Downloads/out
+	"	1	0
+
+> ~/resume/temp.tex
+	"	1	0
+	^	580	0
+	.	579	14
+	+	579	14
+
+> ~/resume/temp.text
+	"	1	0
+
+> ~/gsoc/Silpa-Flask/etc/silpa.conf
+	"	34	11
+	^	34	12
+	.	34	11
+	+	25	17
+	+	26	19
+	+	28	0
+	+	36	13
+	+	35	14
+	+	31	11
+	+	28	19
+	+	25	16
+	+	48	0
+	+	33	16
+	+	38	16
+	+	37	18
+	+	39	14
+	+	29	15
+	+	34	11
+
+> ~/gsoc/Silpa-Flask/wsgi.py
+	"	1	0
+
+> ~/gsoc/Silpa-Flask/silpa/NERD_tree_1
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/gsoc/Silpa-Flask/silpa/__init__.py
+	"	1	0
+
+> ~/gsoc/Silpa-Flask/silpa/silpa.conf
+	"	60	27
+	^	60	28
+	.	60	0
+	+	60	0
+
+> ~/gsoc/Silpa-Flask/silpa/factory.py
+	"	54	4
+
+> ~/gsoc/Silpa-Flask/silpa/settings.cfg
+	"	1	0
+	^	60	28
+	.	60	0
+	+	60	0
+
+> ~/gsoc/Silpa-Flask/silpa/settings.
+	"	1	0
+
+> ~/gsoc/Silpa-Flask/silpa/settings.py
+	"	5	0
+	^	3	12
+	.	3	11
+	+	3	11
+
+> frontend/__init__.py
+	"	1	0
+
+> ~/gsoc/Silpa-Flask/.git/COMMIT_EDITMSG
+	"	1	0
+
+> ~/gsoc/Silpa-Flask/setup.cfg
+	"	1	0
+	^	23	0
+	.	23	0
+	+	43	8
+	+	43	0
+	+	42	0
+	+	23	0
+
+> ~/gsoc/Silpa-Flask/setup.py
+	"	1	0
+
+> ~/gsoc/Silpa-Flask/silpa/frontend/assets.py
+	"	1	0
+
+> ~/gsoc/Silpa-Flask/setup.
+	"	1	0
+
+> ~/gsoc/Silpa-Flask/README
+	"	180	0
+
+> ~/gsoc/Silpa-Flask/tox.ini
+	"	1	0
+
+> ~/gsoc/Silpa-Flask/README.md
+	"	143	0
+
+> ~/gsoc/Silpa-Flask/requirements-modules.txt
+	"	4	0
+	^	4	1
+	.	4	0
 	+	4	0
 
-> ~/.mutt/aliases
-	"	2	0
-	.	3	0
-	+	1	54
-	+	2	50
+> ~/gsoc/Silpa-Flask/modules.txt
+	"	6	0
+
+> ~/.xprofile
+	"	7	0
+
+> ~/misc/dtella/dtella.py
+	"	1	0
+
+> /etc/asound.conf
+	"	48	0
+
+> /etc/resolv.conf
+	"	1	0
+
+> /etc/resolv
+	"	1	0
+
+> ~/Downloads/iiit-vpn/linux_client.conf
+	"	113	0
+
+> ~/.config/awesome/rc.lua
+	"	369	0
+	^	383	80
+	.	369	0
+	+	381	0
+	+	383	0
+	+	369	0
+
+> ~/.config/awesome/battery.lua
+	"	18	0
+	.	19	0
+	+	19	0
+	+	19	0
+	+	19	38
+	+	19	39
+	+	19	0
+	+	19	0
+
+> /mnt/extra/dump-ml/plaintext/split2.py
+	"	1	0
+	^	129	33
+	.	129	0
+	+	122	26
+	+	36	0
+	+	119	12
+	+	119	37
+	+	119	15
+	+	119	17
+	+	119	0
+	+	119	45
+	+	119	0
+	+	119	28
+	+	119	0
+	+	35	0
+	+	14	34
+	+	17	19
+	+	34	0
+	+	18	76
+	+	27	0
+	+	18	12
+	+	20	53
+	+	21	54
+	+	19	0
+	+	22	33
+	+	23	24
+	+	25	20
+	+	19	16
+	+	18	55
+	+	20	56
+	+	21	57
+	+	22	34
+	+	23	27
+	+	24	52
+	+	25	32
+	+	27	4
+	+	32	16
+	+	34	0
+	+	42	0
+	+	43	0
+	+	42	28
+	+	41	0
+	+	28	24
+	+	29	44
+	+	31	52
+	+	32	0
+	+	16	0
+	+	83	25
+	+	88	0
+	+	35	0
+	+	86	0
+	+	85	29
+	+	86	27
+	+	92	32
+	+	96	26
+	+	132	30
+	+	84	27
+	+	26	56
+	+	98	27
+	+	99	20
+	+	97	0
+	+	124	25
+	+	125	16
+	+	116	33
+	+	92	0
+	+	132	0
+	+	129	22
+	+	132	0
+	+	128	24
+	+	131	19
+	+	131	20
+	+	130	50
+	+	131	29
+	+	130	26
+	+	131	33
+	+	128	0
+	+	127	58
+	+	128	0
+	+	132	0
+	+	133	27
+	+	129	0
+
+> /mnt/extra/dump-ml/plaintext/split.py
+	"	1	0
+
+> /mnt/extra/dump-ml/plaintext/datasorted.txt
+	"	95582	0
+
+> /mnt/extra/dump-ml/plaintext/sort.py
+	"	44	16
+	^	43	29
+	.	44	0
 	+	1	0
+	+	1	0
+	+	4	0
+	+	2	0
+	+	4	0
+	+	21	0
 	+	3	0
+	+	33	0
+	+	33	0
+	+	3	0
+	+	9	0
+	+	5	0
+	+	1	0
+	+	4	0
+	+	33	0
+	+	6	0
+	+	6	0
+	+	7	0
+	+	9	0
+	+	12	0
+	+	13	0
+	+	15	0
+	+	8	0
+	+	13	0
+	+	15	0
+	+	12	0
+	+	22	0
+	+	34	25
+	+	45	0
+	+	45	0
+	+	38	12
+	+	35	27
+	+	36	10
+	+	38	34
+	+	38	35
+	+	39	23
+	+	40	27
+	+	41	36
+	+	37	9
+	+	44	25
+	+	38	13
+	+	44	29
+	+	45	14
+	+	44	0
+	+	45	0
+	+	38	0
+	+	38	0
+	+	45	41
+	+	50	30
+	+	51	25
+	+	38	33
+	+	47	43
+	+	48	0
+	+	46	0
+	+	50	36
+	+	51	12
+	+	38	50
+	+	47	51
+	+	14	23
+	+	44	0
+	+	42	40
+	+	43	28
+	+	44	0
 
-> ~/.conkyrc
-	"	79	0
-	^	77	6
-	.	79	0
-	+	53	30
-	+	41	19
-	+	63	2
-	+	64	11
+> /mnt/extra/dump-ml/plaintext/fast.py
+	"	1	0
+
+> /mnt/extra/dump-ml/plaintext/split
+	"	1	0
+
+> /mnt/extra/dump-ml/plaintext/data.txt
+	"	1	0
+
+> /mnt/extra/dump-ml/plaintext/100.log
+	"	156437	0
+
+> /mnt/extra/dump-ml/plaintext/sorted2.out
+	"	1	0
+
+> ~/.config/awesome/keys.lua
+	"	1	0
+
+> /mnt/extra/dump-ml/sourcesorted.txt
+	"	1	0
+
+> ~/gsoc/sandhi-splitter/sandhisplitter/train.py
+	"	1	0
+	^	39	31
+	.	39	30
+	+	50	9
+	+	51	30
+	+	51	38
+	+	51	28
+	+	51	27
+	+	39	30
+
+> /mnt/extra/dump-ml/extract_words.py
+	"	58	4
+
+> ~/gsoc/sandhi-splitter/sandhisplitter/util.py
+	"	63	0
+	^	63	24
+	.	25	16
+	+	61	21
+	+	23	0
+	+	23	0
+	+	23	0
+	+	20	13
+	+	23	26
+	+	18	0
+	+	18	0
+	+	23	0
+	+	20	13
+	+	22	12
+	+	23	0
+	+	24	8
+	+	25	16
+
+> ~/gsoc/sandhi-splitter/sandhisplitter/model.py
+	"	69	15
+	^	38	0
+	.	38	0
+	+	40	15
+	+	39	30
+	+	40	30
+	+	41	34
+	+	39	9
+	+	42	36
+	+	43	39
+	+	39	0
+	+	38	0
+
+> ~/gsoc/sandhi-splitter/sandhisplitter/trie.py
+	"	41	41
+
+> ~/Downloads/dump-ml/plaintext/split2.py
+	"	54	0
+	^	90	41
+	.	90	40
+	+	98	0
+	+	98	0
+	+	98	0
+	+	98	5
+	+	2	0
+	+	98	0
+	+	62	25
+	+	6	37
+	+	62	21
+	+	83	19
+	+	72	19
+	+	78	0
+	+	73	25
+	+	83	40
+	+	97	13
+	+	98	56
+	+	97	0
+	+	99	37
+	+	100	24
+	+	99	56
+	+	75	29
+	+	78	15
+	+	5	0
+	+	78	0
+	+	76	7
+	+	75	29
+	+	76	32
+	+	72	0
+	+	6	9
+	+	72	17
+	+	66	49
+	+	67	52
+	+	71	0
+	+	78	0
+	+	68	13
+	+	77	10
+	+	79	15
+	+	92	29
+	+	94	25
+	+	93	35
+	+	94	32
+	+	100	4
+	+	94	44
+	+	83	12
+	+	18	0
+	+	94	51
+	+	6	0
+	+	16	0
+	+	94	64
+	+	97	19
+	+	97	0
+	+	97	21
+	+	101	12
+	+	83	12
+	+	67	58
+	+	13	10
+	+	94	29
+	+	93	33
+	+	68	18
+	+	81	51
+	+	92	32
+	+	92	0
+	+	68	5
+	+	92	0
+	+	92	32
+	+	81	24
+	+	68	0
+	+	92	0
+	+	95	25
+	+	97	0
+	+	94	36
+	+	97	0
+	+	96	0
+	+	94	43
+	+	69	9
+	+	92	0
+	+	91	0
+	+	69	5
+	+	89	26
+	+	84	44
+	+	89	30
+	+	81	24
+	+	83	0
+	+	91	0
+	+	91	0
+	+	88	0
+	+	88	30
+	+	88	0
+	+	78	27
+	+	88	23
+	+	85	37
+	+	86	58
+	+	88	0
+	+	87	30
+	+	86	55
+	+	91	0
+	+	78	0
+	+	70	39
+	+	74	38
+	+	90	40
+
+> ~/Downloads/dump-ml/wikisorted.txt
+	"	1146405	0
+
+> ~/Downloads/dump-ml/extract_words.py
+	"	59	12
+	^	59	13
+	.	59	12
+	+	33	12
+	+	30	54
+	+	56	20
+	+	71	0
+	+	56	20
+	+	56	0
+	+	71	32
+	+	72	29
+	+	74	18
+	+	56	1
+	+	3	0
+	+	74	19
+	+	1	34
+	+	74	0
+	+	58	13
+	+	74	0
+	+	73	45
+	+	74	0
+	+	73	0
+	+	74	31
+	+	88	30
+	+	56	0
+	+	67	0
+	+	88	0
+	+	88	0
+	+	60	13
+	+	88	0
+	+	87	0
+	+	75	36
+	+	82	0
+	+	85	29
+	+	7	0
+	+	7	0
+	+	6	45
+	+	82	30
+	+	84	18
+	+	87	19
+	+	58	25
+	+	85	0
+	+	88	20
+	+	87	0
+	+	47	13
+	+	50	9
+	+	51	14
+	+	52	9
+	+	85	0
+	+	48	4
+	+	51	8
+	+	47	11
+	+	48	4
+	+	51	13
+	+	50	4
+	+	52	13
+	+	56	0
+	+	52	21
+	+	54	22
+	+	55	11
+	+	88	23
+	+	86	31
+	+	50	0
+	+	49	14
+	+	52	20
+	+	53	19
+	+	58	39
+	+	56	0
+	+	61	33
+	+	67	16
+	+	62	13
+	+	63	1
+	+	82	0
+	+	82	20
+	+	81	62
+	+	78	0
+	+	79	0
+	+	81	0
+	+	82	0
+	+	81	43
+	+	62	18
+	+	78	0
+	+	76	0
+	+	63	0
+	+	63	16
+	+	68	0
+	+	67	0
+	+	61	39
+	+	62	12
+	+	63	0
+	+	82	0
+	+	77	11
+	+	64	0
+	+	80	13
+	+	5	10
+	+	80	28
+	+	81	46
+	+	80	28
+	+	80	30
+	+	81	49
+	+	81	59
+	+	83	21
+	+	59	12
+
+> ~/Downloads/dump-ml/sourcesorted.txt
+	"	1	0
+
+> ~/OBH LAN
+	"	31	12
+	^	3	15
+	.	3	14
+	+	20	22
+	+	12	21
+	+	5	24
+	+	3	14
+
+> ~/Downloads/dump-ml/plaintext/split.py
+	"	76	0
+	^	14	19
+	.	14	18
+	+	4	40
+	+	6	39
+	+	63	0
+	+	66	47
+	+	67	17
+	+	68	22
+	+	70	0
+	+	63	4
+	+	70	0
+	+	63	19
+	+	70	29
+	+	71	41
+	+	67	0
+	+	72	19
+	+	9	9
 	+	65	12
-	+	63	2
-	+	64	2
-	+	65	2
-	+	63	21
-	+	64	7
-	+	65	8
-	+	77	5
-	+	79	0
+	+	10	10
+	+	65	17
+	+	65	31
+	+	65	0
+	+	65	37
+	+	65	31
+	+	65	17
+	+	64	17
+	+	6	0
+	+	5	58
+	+	74	0
+	+	75	0
+	+	75	0
+	+	7	0
+	+	75	0
+	+	7	0
+	+	77	0
+	+	75	0
+	+	1	0
+	+	7	0
+	+	2	0
+	+	77	37
+	+	77	51
+	+	77	20
+	+	77	19
+	+	77	30
+	+	77	22
+	+	77	0
+	+	77	0
+	+	77	25
+	+	77	38
+	+	77	27
+	+	77	25
+	+	77	30
+	+	77	0
+	+	18	0
+	+	11	0
+	+	64	12
+	+	63	0
+	+	68	0
+	+	69	0
+	+	70	0
+	+	8	18
+	+	21	0
+	+	22	15
+	+	65	0
+	+	12	0
+	+	16	0
+	+	22	31
+	+	17	0
+	+	12	0
+	+	13	0
+	+	12	0
+	+	13	0
+	+	12	0
+	+	14	18
 
-> ~/.conky/.conkyrc
-	"	53	30
-	^	53	31
-	.	53	30
-	+	79	0
-	+	53	30
+> ~/gsoc/sandhi-splitter/sandhisplitter/benchmark_model.py
+	"	29	0
+	^	53	32
+	.	53	11
+	+	53	11
+
+> /etc/lightdm/lightdm.conf
+	"	165	0
+
+> ~/Downloads/dump-ml/plaintext/new.plus
+	"	1	0
+
+> ~/Downloads/dump-ml/plaintext/spellcheck.plus
+	"	1	0
+
+> ~/Downloads/dump-ml/plaintext/diffcheck.py
+	"	8	27
+	^	8	30
+	.	8	27
+	+	7	7
+	+	1	9
+	+	7	29
+	+	1	38
+	+	8	29
+	+	1	0
+	+	1	0
+	+	1	48
+	+	10	0
+	+	1	0
+	+	6	0
+	+	3	6
+	+	4	6
+	+	10	17
+	+	11	22
+	+	6	0
+	+	12	22
+	+	14	0
+	+	12	7
+	+	13	12
+	+	14	0
+	+	15	0
+	+	9	0
+	+	15	16
+	+	18	5
+	+	20	0
+	+	2	0
+	+	20	21
+	+	21	21
+	+	23	19
+	+	24	20
+	+	25	21
+	+	26	15
+	+	27	25
+	+	28	4
+	+	27	26
+	+	28	0
+	+	27	0
+	+	28	21
+	+	31	16
+	+	32	16
+	+	34	17
+	+	35	16
+	+	33	0
+	+	30	0
+	+	32	17
+	+	35	17
+	+	28	28
+	+	29	23
+	+	28	29
+	+	29	29
+	+	32	25
+	+	35	25
+	+	1	0
+	+	8	27
+
+> ~/gsoc/sandhi-splitter/benchmark.yp
+	"	1	0
+
+> /usr/share/vim/vim74/doc/syntax.txt
+	"	428	9
+
+> ~/Downloads/dump-ml/plaintext/new.plus.html
+	"	1	0
+	.	1	0
+	+	55	90
+	+	1	0
+
+> ~/Downloads/dump-ml/plaintext/spellcheck.plus.html
+	"	1	0
+	.	1	0
+	+	55	90
+	+	1	0
+
+> ~/Downloads/dump-ml/plaintext/Diff.html
+	"	58	1
+	.	10	0
+	+	10	0
