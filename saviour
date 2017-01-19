@@ -50,7 +50,7 @@ def git_update():
     cmds = [
         ['git', 'add', '-A'],
         ['git', 'commit', '-m', timestamp],
-        ['git', 'push', '-u', 'remote', 'master']
+        ['git', 'push', '-u', 'origin', 'master']
     ]
     for cmd in cmds:
         sp.Popen(cmd).wait()
