@@ -4,6 +4,10 @@ import yaml
 import sys
 import subprocess as sp
 import datetime
+from argparse import ArgumentParser
+
+def create_parser():
+
 
 stream = open("config.yml", "r")
 options = yaml.load(stream)
@@ -15,7 +19,6 @@ def backup(command, local, actual):
 
 def restore(command, local, actual):
     cmdList = command + [local, actual]
-    #print(' '.join(cmdList))
     sp.Popen(cmdList).wait()
 
 def git_update():
@@ -23,7 +26,7 @@ def git_update():
     cmds = [
         ['git', 'add', '-A'],
         ['git', 'commit', '-m', timestamp],
-        ['git', 'push', '-u', 'github', 'master']
+        ['git', 'push', '-u', 'remote', 'master']
     ]
     for cmd in cmds:
         sp.Popen(cmd).wait()

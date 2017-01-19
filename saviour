@@ -1,0 +1,85 @@
+#!/usr/bin/python
+
+import yaml
+import sys
+import subprocess as sp
+import datetime
+from argparse import ArgumentParser
+
+def create_parser():
+    parser = ArgumentParser(description="Train a model")
+    parser.add_argument('-o', '--option', 
+            help="option to run, backup|restore",
+            type=str, required=True,
+            dest='option')
+    return parser
+
+def load_options():
+    stream = open("config.yml", "r")
+    options = yaml.load(stream)
+    existing = options["existing"]
+    return existing
+
+def copy(source, target, sudo, folder):
+    copy_tool = 'rsync'
+    cmdList = []
+    if sudo: cmdList.append('sudo')
+    if folder: 
+        source = source + '/'
+        target = target + '/'
+    cmdList.extend([copy_tool,'-rav', source, target])
+    print(' '.join(cmdList))
+    sp.Popen(cmdList).wait()
+
+def squeeze(options):
+    sudo = lambda x: x == 'protected'
+    folder = lambda x: x == 'folders'
+    args_ls = []
+
+    for level in options:
+        for filetype in options[level]:
+            for pair in options[level][filetype]:
+                [(target, source)] = pair.items()
+                args = [source, target, sudo(level), folder(filetype)]
+                args_ls.append(args)
+    return args_ls
+
+def git_update():
+    date_string = str(datetime.datetime.utcnow())
+    timestamp = '"%s"'%(date_string)
+    cmds = [
+        ['git', 'add', '-A'],
+        ['git', 'commit', '-m', timestamp],
+        ['git', 'push', '-u', 'remote', 'master']
+    ]
+    for cmd in cmds:
+        sp.Popen(cmd).wait()
+
+def backup(options):
+    args_ls = squeeze(options)
+    for args in args_ls:
+        copy(*args)
+    git_update()
+
+
+
+def restore(options):
+    args_ls = squeeze(options)
+    for args in args_ls:
+        source, target, sudo, folder = args
+        copy(target, source, sudo, folder)
+
+if __name__ == '__main__':
+    parser = create_parser()
+    args = parser.parse_args()
+    options = load_options()
+    option_f = {
+            "backup": backup,
+            "restore": restore
+    }
+    if args.option in option_f:
+        option_f[args.option](options)
+    else:
+        print("Error, Unknown option")
+
+
