@@ -12,7 +12,7 @@ existing:
             - .fonts.conf: /home/jerin/.fonts.conf
         folders:
             - .vim: /home/jerin/.vim
-            - .awesome: /home/jerin/.config/awesome
+            - awesome: /home/jerin/.config/awesome
             - .xmonad: /home/jerin/.xmonad
 
     protected:

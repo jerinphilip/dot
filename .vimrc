@@ -35,19 +35,13 @@ inoremap <Up> <nop>
 inoremap <Down> <nop>
 
 
-"Syntastic Configurations
-let g:syntastic_cpp_checkers = ['g++']
-let g:syntastic_cpp_compiler = 'g++'
-let g:syntastic_cpp_compiler_options = '-Werror -Wuninitialized -std=c++14 -D EVIL_DEBUG'
-
-
-"Temporary
-"let g:syntastic_python_python_exec='/usr/bin/python2'
-set shell=bash\ --login
-
-
-"Automation
+"Pathogen
+execute pathogen#infect()
 
 
 "My tweaks
+"
+"XML folding
+let g:xml_syntax_folding=1
+au FileType xml setlocal foldmethod=syntax
 

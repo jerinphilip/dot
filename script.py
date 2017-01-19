@@ -29,7 +29,7 @@ def git_update():
         sp.Popen(cmd).wait()
 
 if len(sys.argv) < 2:
-    print "usage %s backup|restore"%(sys.argv[0])
+    print("usage %s backup|restore"%(sys.argv[0]))
 else:
     d = {"backup": backup, "restore": restore}
     if sys.argv[1] in ["backup", "restore"]:
@@ -46,10 +46,10 @@ else:
                             if ftype == "files": command.append("-v")
                             else: command.append("-rv")
                             f(command, local, data[local])
-                print ""
+                print("")
         if sys.argv[1] == "backup":
             git_update()
         
     else:
-        print "usage %s backup|restore"%(sys.argv[0])
+        print("usage %s backup|restore"%(sys.argv[0]))
 

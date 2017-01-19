@@ -10,6 +10,7 @@ PS1='[\u@\h \W]\$ '
 
 
 export EDITOR='vim'
+export TERM='xterm-256color'
 alias gcc='gcc -Wall -Werror -Wuninitialized'
 alias g++='g++ -Wall -Werror -Wuninitialized -std=c++14 -D EVIL_DEBUG'
 alias die='shutdown -P now'
@@ -45,7 +46,7 @@ function proxy_off {
     unset HTTP_PROXY HTTPS_PROXY FTP_PROXY NO_PROXY
 }
 
-# proxy_on
+proxy_on
 
 export HISTCONTROL=ignoredups:avoiddups
 export HISTSIZE=65536
@@ -56,4 +57,6 @@ NPM_PACKAGES="${HOME}/.npm-packages"
 PATH="$NPM_PACKAGES/bin:$PATH"
 unset MANPATH # delete if you already modified MANPATH elsewhere in your config
 export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
+
+export JAVA_HOME='/usr/lib/jvm/default/'
 
