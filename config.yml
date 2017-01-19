@@ -8,9 +8,11 @@ existing:
             - .Xresources : /home/jerin/.Xresources
             - .xscreensaver: /home/jerin/.xscreensaver
             - .vimrc: /home/jerin/.vimrc
+            - .emacs : /home/jerin/.emacs
             - .fonts.conf: /home/jerin/.fonts.conf
         folders:
             - .vim: /home/jerin/.vim
+            - .emacs.d: /home/jerin/.emacs.d
             - awesome: /home/jerin/.config/awesome
 
     protected:

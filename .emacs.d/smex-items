@@ -1,0 +1,24 @@
+
+;; ----- smex-history -----
+(
+ text-mode
+ delete-char
+ term
+ shell-command
+ shell
+ org-src-mode
+ table-generate-source
+)
+
+;; ----- smex-data -----
+(
+ (exit-minibuffer . 1)
+ (customize-face . 1)
+ (table-generate-source . 1)
+ (org-src-mode . 1)
+ (shell . 1)
+ (shell-command . 1)
+ (term . 1)
+ (delete-char . 1)
+ (text-mode . 1)
+)

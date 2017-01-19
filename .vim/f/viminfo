@@ -21,11 +21,11 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1484853561,,"wq"
+|2,0,1484857249,,"wq"
 :w
-|2,0,1484853450,,"w"
+|2,0,1484857237,,"w"
 :q
-|2,0,1484853235,,"q"
+|2,0,1484857220,,"q"
 :q!
 |2,0,1484851960,,"q!"
 :tabnew config.yml
@@ -235,11 +235,12 @@ $
 
 # Registers:
 "0	LINE	0
-	    args_ls = squeeze(options)
-	    for args in args_ls:
-	        copy(*args)
-|3,0,0,1,3,0,1484852878,"    args_ls = squeeze(options)","    for args in args_ls:","        copy(*args)"
+	            - .vim: /home/jerin/.vim
+|3,0,0,1,1,0,1484857241,"            - .vim: /home/jerin/.vim"
 "1	LINE	0
+	Backup of
+|3,0,1,1,1,0,1484853647,"Backup of"
+"2	LINE	0
 	def git_update():
 	    date_string = str(datetime.datetime.utcnow())
 	    timestamp = '"%s"'%(date_string)
@@ -250,14 +251,14 @@ $
 	    ]
 	    for cmd in cmds:
 	        sp.Popen(cmd).wait()
-|3,0,1,1,10,0,1484853454,"def git_update():","    date_string = str(datetime.datetime.utcnow())","    timestamp = '\"%s\"'%(date_string)","    cmds = [","        ['git', 'add', '-A'],","        ['git', 'commit', '-m', timestamp],","        ['git', 'push', '-u', 'remote', 'master']","    ]","    for cmd in cmds:","        sp.Popen(cmd).wait()"
-"2	LINE	0
-	
-|3,0,2,1,1,0,1484853450,""
+|3,0,2,1,10,0,1484853454,"def git_update():","    date_string = str(datetime.datetime.utcnow())","    timestamp = '\"%s\"'%(date_string)","    cmds = [","        ['git', 'add', '-A'],","        ['git', 'commit', '-m', timestamp],","        ['git', 'push', '-u', 'remote', 'master']","    ]","    for cmd in cmds:","        sp.Popen(cmd).wait()"
 "3	LINE	0
-	    git_update()
-|3,0,3,1,1,0,1484853442,"    git_update()"
+	
+|3,0,3,1,1,0,1484853450,""
 "4	LINE	0
+	    git_update()
+|3,0,4,1,1,0,1484853442,"    git_update()"
+"5	LINE	0
 	def git_update():
 	    timestamp = '"'+str(datetime.datetime.utcnow())+'"'
 	    cmds = [
@@ -268,23 +269,20 @@ $
 	    for cmd in cmds:
 	        sp.Popen(cmd).wait()
 	
-|3,0,4,1,10,0,1484853252,"def git_update():","    timestamp = '\"'+str(datetime.datetime.utcnow())+'\"'","    cmds = [","        ['git', 'add', '-A'],","        ['git', 'commit', '-m', timestamp],","        ['git', 'push', '-u', 'remote', 'master']","    ]","    for cmd in cmds:","        sp.Popen(cmd).wait()",""
-"5	LINE	0
-	            - 50-synaptics.conf: /etc/X11/xorg.conf.d/50-synaptics.conf
-|3,0,5,1,1,0,1484853230,"            - 50-synaptics.conf: /etc/X11/xorg.conf.d/50-synaptics.conf"
+|3,0,5,1,10,0,1484853252,"def git_update():","    timestamp = '\"'+str(datetime.datetime.utcnow())+'\"'","    cmds = [","        ['git', 'add', '-A'],","        ['git', 'commit', '-m', timestamp],","        ['git', 'push', '-u', 'remote', 'master']","    ]","    for cmd in cmds:","        sp.Popen(cmd).wait()",""
 "6	LINE	0
-	
-|3,0,6,1,1,0,1484853184,""
+	            - 50-synaptics.conf: /etc/X11/xorg.conf.d/50-synaptics.conf
+|3,0,6,1,1,0,1484853230,"            - 50-synaptics.conf: /etc/X11/xorg.conf.d/50-synaptics.conf"
 "7	LINE	0
 	
-|3,0,7,1,1,0,1484853183,""
+|3,0,7,1,1,0,1484853184,""
 "8	LINE	0
+	
+|3,0,8,1,1,0,1484853183,""
+"9	LINE	0
 	parser = create_parser()
 	args = parser.parse_args()
-|3,0,8,1,2,0,1484853172,"parser = create_parser()","args = parser.parse_args()"
-"9	LINE	0
-	print(args)
-|3,0,9,1,1,0,1484853171,"print(args)"
+|3,0,9,1,2,0,1484853172,"parser = create_parser()","args = parser.parse_args()"
 "a@	CHAR	0
 	xxj
 |3,2,10,0,1,0,1484458573,"xxj"
@@ -304,234 +302,289 @@ $
 	O111€kb€kb€kb```shjji```
 |3,0,33,0,1,0,1483683308,"O111€kb€kb€kb```shjji```"
 ""-	CHAR	0
-	v
-|3,1,36,0,1,0,1484853560,"v"
+	vim
+|3,1,36,0,1,0,1484857243,"vim"
 
 # File marks:
-'0  30  34  ~/repo/dot/saviour
-|4,48,30,34,1484853561,"~/repo/dot/saviour"
-'1  53  25  ~/repo/dot/saviour
-|4,49,53,25,1484853489,"~/repo/dot/saviour"
-'2  53  25  ~/repo/dot/saviour
-|4,50,53,25,1484853489,"~/repo/dot/saviour"
-'3  46  0  ~/repo/dot/saviour
-|4,51,46,0,1484853457,"~/repo/dot/saviour"
-'4  46  0  ~/repo/dot/saviour
-|4,52,46,0,1484853457,"~/repo/dot/saviour"
-'5  46  0  ~/repo/dot/saviour
-|4,53,46,0,1484853457,"~/repo/dot/saviour"
-'6  46  0  ~/repo/dot/saviour
-|4,54,46,0,1484853457,"~/repo/dot/saviour"
-'7  32  4  ~/repo/dot/saviour
-|4,55,32,4,1484853340,"~/repo/dot/saviour"
-'8  32  4  ~/repo/dot/saviour
-|4,56,32,4,1484853340,"~/repo/dot/saviour"
-'9  32  4  ~/repo/dot/saviour
-|4,57,32,4,1484853340,"~/repo/dot/saviour"
+'0  15  43  ~/repo/dot/config.yml
+|4,48,15,43,1484857249,"~/repo/dot/config.yml"
+'1  2  0  ~/repo/blog/source/jerinphilip-github-io.cabal
+|4,49,2,0,1484857220,"~/repo/blog/source/jerinphilip-github-io.cabal"
+'2  3  0  ~/repo/dot/pacQn.txt
+|4,50,3,0,1484854158,"~/repo/dot/pacQn.txt"
+'3  1  0  ~/repo/dot/pacQm.txt
+|4,51,1,0,1484854150,"~/repo/dot/pacQm.txt"
+'4  25  0  ~/repo/dot/config.yml
+|4,52,25,0,1484854134,"~/repo/dot/config.yml"
+'5  23  0  ~/repo/dot/config.yml
+|4,53,23,0,1484854134,"~/repo/dot/config.yml"
+'6  1  0  ~/.config/Trolltech.conf
+|4,54,1,0,1484853937,"~/.config/Trolltech.conf"
+'7  1  0  ~/.thunderbird/profiles.ini
+|4,55,1,0,1484853928,"~/.thunderbird/profiles.ini"
+'8  25  0  ~/repo/dot/config.yml
+|4,56,25,0,1484853886,"~/repo/dot/config.yml"
+'9  23  0  ~/repo/dot/config.yml
+|4,57,23,0,1484853886,"~/repo/dot/config.yml"
 
 # Jumplist (newest first):
--'  30  34  ~/repo/dot/saviour
-|4,39,30,34,1484853561,"~/repo/dot/saviour"
--'  1  0  ~/repo/dot/saviour
-|4,39,1,0,1484853553,"~/repo/dot/saviour"
--'  53  25  ~/repo/dot/saviour
-|4,39,53,25,1484853489,"~/repo/dot/saviour"
--'  53  25  ~/repo/dot/saviour
-|4,39,53,25,1484853489,"~/repo/dot/saviour"
--'  68  0  ~/repo/dot/saviour
-|4,39,68,0,1484853483,"~/repo/dot/saviour"
--'  68  0  ~/repo/dot/saviour
-|4,39,68,0,1484853483,"~/repo/dot/saviour"
--'  1  0  ~/repo/dot/saviour
-|4,39,1,0,1484853480,"~/repo/dot/saviour"
--'  46  0  ~/repo/dot/saviour
-|4,39,46,0,1484853457,"~/repo/dot/saviour"
--'  46  0  ~/repo/dot/saviour
-|4,39,46,0,1484853457,"~/repo/dot/saviour"
--'  46  0  ~/repo/dot/saviour
-|4,39,46,0,1484853457,"~/repo/dot/saviour"
--'  64  17  ~/repo/dot/saviour
-|4,39,64,17,1484853452,"~/repo/dot/saviour"
--'  64  17  ~/repo/dot/saviour
-|4,39,64,17,1484853452,"~/repo/dot/saviour"
--'  64  17  ~/repo/dot/saviour
-|4,39,64,17,1484853452,"~/repo/dot/saviour"
--'  1  0  ~/repo/dot/saviour
-|4,39,1,0,1484853432,"~/repo/dot/saviour"
--'  32  4  ~/repo/dot/saviour
-|4,39,32,4,1484853340,"~/repo/dot/saviour"
--'  32  4  ~/repo/dot/saviour
-|4,39,32,4,1484853340,"~/repo/dot/saviour"
--'  32  4  ~/repo/dot/saviour
-|4,39,32,4,1484853340,"~/repo/dot/saviour"
--'  32  4  ~/repo/dot/saviour
-|4,39,32,4,1484853340,"~/repo/dot/saviour"
--'  1  0  ~/repo/dot/saviour
-|4,39,1,0,1484853332,"~/repo/dot/saviour"
--'  71  15  ~/repo/dot/saviour
-|4,39,71,15,1484853312,"~/repo/dot/saviour"
--'  69  15  ~/repo/dot/saviour
-|4,39,69,15,1484853312,"~/repo/dot/saviour"
--'  71  15  ~/repo/dot/saviour
-|4,39,71,15,1484853312,"~/repo/dot/saviour"
--'  69  15  ~/repo/dot/saviour
-|4,39,69,15,1484853312,"~/repo/dot/saviour"
--'  71  15  ~/repo/dot/saviour
-|4,39,71,15,1484853312,"~/repo/dot/saviour"
--'  69  15  ~/repo/dot/saviour
-|4,39,69,15,1484853312,"~/repo/dot/saviour"
--'  69  15  ~/repo/dot/saviour
-|4,39,69,15,1484853312,"~/repo/dot/saviour"
--'  1  0  ~/repo/dot/saviour
-|4,39,1,0,1484853239,"~/repo/dot/saviour"
+-'  15  43  ~/repo/dot/config.yml
+|4,39,15,43,1484857249,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
+|4,39,1,0,1484857231,"~/repo/dot/config.yml"
+-'  2  0  ~/repo/blog/source/jerinphilip-github-io.cabal
+|4,39,2,0,1484857220,"~/repo/blog/source/jerinphilip-github-io.cabal"
+-'  2  0  ~/repo/blog/source/jerinphilip-github-io.cabal
+|4,39,2,0,1484857220,"~/repo/blog/source/jerinphilip-github-io.cabal"
+-'  1  0  ~/repo/blog/source/jerinphilip-github-io.cabal
+|4,39,1,0,1484856525,"~/repo/blog/source/jerinphilip-github-io.cabal"
+-'  1  0  ~/repo/blog/source/jerinphilip-github-io.cabal
+|4,39,1,0,1484856525,"~/repo/blog/source/jerinphilip-github-io.cabal"
+-'  3  0  ~/repo/dot/pacQn.txt
+|4,39,3,0,1484854158,"~/repo/dot/pacQn.txt"
+-'  3  0  ~/repo/dot/pacQn.txt
+|4,39,3,0,1484854158,"~/repo/dot/pacQn.txt"
+-'  3  0  ~/repo/dot/pacQn.txt
+|4,39,3,0,1484854158,"~/repo/dot/pacQn.txt"
+-'  3  0  ~/repo/dot/pacQn.txt
+|4,39,3,0,1484854158,"~/repo/dot/pacQn.txt"
+-'  1  0  ~/repo/dot/pacQn.txt
+|4,39,1,0,1484854156,"~/repo/dot/pacQn.txt"
+-'  1  0  ~/repo/dot/pacQn.txt
+|4,39,1,0,1484854156,"~/repo/dot/pacQn.txt"
+-'  1  0  ~/repo/dot/pacQn.txt
+|4,39,1,0,1484854156,"~/repo/dot/pacQn.txt"
+-'  1  0  ~/repo/dot/pacQn.txt
+|4,39,1,0,1484854156,"~/repo/dot/pacQn.txt"
+-'  1  0  ~/repo/dot/pacQm.txt
+|4,39,1,0,1484854150,"~/repo/dot/pacQm.txt"
+-'  1  0  ~/repo/dot/pacQm.txt
+|4,39,1,0,1484854150,"~/repo/dot/pacQm.txt"
+-'  1  0  ~/repo/dot/pacQm.txt
+|4,39,1,0,1484854150,"~/repo/dot/pacQm.txt"
+-'  1  0  ~/repo/dot/pacQm.txt
+|4,39,1,0,1484854150,"~/repo/dot/pacQm.txt"
+-'  1  0  ~/repo/dot/pacQm.txt
+|4,39,1,0,1484854150,"~/repo/dot/pacQm.txt"
+-'  1  0  ~/repo/dot/pacQm.txt
+|4,39,1,0,1484854150,"~/repo/dot/pacQm.txt"
+-'  1  0  ~/repo/dot/pacQm.txt
+|4,39,1,0,1484854150,"~/repo/dot/pacQm.txt"
+-'  1  0  ~/repo/dot/pacQm.txt
+|4,39,1,0,1484854150,"~/repo/dot/pacQm.txt"
+-'  25  0  ~/repo/dot/config.yml
+|4,39,25,0,1484854134,"~/repo/dot/config.yml"
+-'  23  0  ~/repo/dot/config.yml
+|4,39,23,0,1484854134,"~/repo/dot/config.yml"
+-'  23  0  ~/repo/dot/config.yml
+|4,39,23,0,1484854134,"~/repo/dot/config.yml"
+-'  23  0  ~/repo/dot/config.yml
+|4,39,23,0,1484854134,"~/repo/dot/config.yml"
+-'  23  0  ~/repo/dot/config.yml
+|4,39,23,0,1484854134,"~/repo/dot/config.yml"
+-'  23  0  ~/repo/dot/config.yml
+|4,39,23,0,1484854134,"~/repo/dot/config.yml"
+-'  23  0  ~/repo/dot/config.yml
+|4,39,23,0,1484854134,"~/repo/dot/config.yml"
+-'  23  0  ~/repo/dot/config.yml
+|4,39,23,0,1484854134,"~/repo/dot/config.yml"
+-'  23  0  ~/repo/dot/config.yml
+|4,39,23,0,1484854134,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
+|4,39,1,0,1484854104,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
+|4,39,1,0,1484854104,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
+|4,39,1,0,1484854104,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
+|4,39,1,0,1484854104,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
+|4,39,1,0,1484854104,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
+|4,39,1,0,1484854104,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
+|4,39,1,0,1484854104,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853235,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+|4,39,1,0,1484854104,"~/repo/dot/config.yml"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
+-'  1  0  ~/.thunderbird/profiles.ini
+|4,39,1,0,1484853928,"~/.thunderbird/profiles.ini"
 
 # History of marks within files (newest to oldest):
+
+> ~/repo/dot/config.yml
+	*	1484857248	0
+	"	15	43
+	^	15	44
+	.	15	43
+	+	16	14
+	+	1	2
+	+	12	0
+	+	17	0
+	+	22	0
+	+	26	8
+	+	26	0
+	+	11	40
+	+	15	43
+
+> ~/repo/blog/source/jerinphilip-github-io.cabal
+	*	1484857220	0
+	"	2	0
+
+> ~/repo/dot/pacQn.txt
+	*	1484854158	0
+	"	3	0
+
+> ~/repo/dot/pacQm.txt
+	*	1484854149	0
+	"	1	0
+
+> ~/.config/Trolltech.conf
+	*	1484853934	0
+	"	1	0
+
+> ~/.thunderbird/profiles.ini
+	*	1484853928	0
+	"	1	0
+
+> ~/repo/dot/README.md
+	*	1484853830	0
+	"	19	46
+	^	19	47
+	.	19	46
+	+	21	0
+	+	1	7
+	+	2	2
+	+	4	14
+	+	6	85
+	+	9	13
+	+	11	80
+	+	13	8
+	+	15	105
+	+	20	3
+	+	18	25
+	+	19	21
+	+	18	32
+	+	19	46
 
 > ~/repo/dot/saviour
 	*	1484853561	0
@@ -638,16 +691,6 @@ $
 	+	46	0
 	+	53	36
 	+	30	34
-
-> ~/repo/dot/config.yml
-	*	1484853235	0
-	"	1	0
-	.	20	0
-	+	14	14
-	+	1	2
-	+	11	0
-	+	15	0
-	+	20	0
 
 > ~/repo/dot/scriptv2.py
 	*	1484850734	0
@@ -1629,157 +1672,3 @@ $
 > ~/s17/computer-vision/assignments/0-opencv-and-chroma-keying/src/video_image.cpp
 	*	1484510565	0
 	"	19	4
-
-> ~/.emacs
-	*	1484504264	0
-	"	1	35
-	^	109	26
-	.	1	0
-	+	85	0
-	+	86	0
-	+	88	0
-	+	1	0
-	+	85	0
-	+	86	0
-	+	88	0
-	+	85	0
-	+	86	0
-	+	107	27
-	+	105	0
-	+	106	0
-	+	107	0
-	+	109	25
-	+	1	0
-
-> ~/s17/optimization-methods/assignments/2/Q6-planes.py
-	*	1484475432	0
-	"	10	7
-	^	27	10
-	.	27	9
-	+	1	0
-	+	1	6
-	+	1	0
-	+	10	0
-	+	20	0
-	+	26	0
-	+	27	9
-
-> ~/s17/optimization-methods/assignments/2/Q6.py
-	*	1484458582	0
-	"	1	0
-	^	35	108
-	.	35	0
-	+	2	30
-	+	1	17
-	+	4	38
-	+	8	42
-	+	10	105
-	+	10	44
-	+	10	106
-	+	10	69
-	+	10	121
-	+	14	23
-	+	15	9
-	+	10	129
-	+	64	0
-	+	16	37
-	+	17	5
-	+	18	23
-	+	15	0
-	+	64	0
-	+	16	19
-	+	21	4
-	+	22	2
-	+	17	1
-	+	18	25
-	+	22	19
-	+	21	0
-	+	22	26
-	+	25	5
-	+	26	10
-	+	24	0
-	+	26	26
-	+	10	71
-	+	10	1
-	+	11	0
-	+	63	1
-	+	29	50
-	+	63	0
-	+	30	0
-	+	63	0
-	+	30	48
-	+	31	45
-	+	32	32
-	+	44	53
-	+	63	9
-	+	63	8
-	+	63	0
-	+	46	21
-	+	49	36
-	+	47	21
-	+	48	21
-	+	49	29
-	+	47	0
-	+	51	0
-	+	50	0
-	+	53	41
-	+	56	21
-	+	54	0
-	+	63	0
-	+	5	54
-	+	61	0
-	+	61	54
-	+	49	8
-	+	61	32
-	+	58	40
-	+	57	30
-	+	58	44
-	+	61	39
-	+	57	32
-	+	60	19
-	+	2	0
-	+	3	33
-	+	60	46
-	+	50	0
-	+	60	46
-	+	60	13
-	+	60	46
-	+	60	26
-	+	60	0
-	+	60	46
-	+	59	39
-	+	60	23
-	+	60	52
-	+	43	0
-	+	37	0
-	+	34	4
-	+	59	47
-	+	60	41
-	+	62	0
-	+	40	18
-	+	38	16
-	+	39	16
-	+	40	16
-	+	38	16
-	+	39	16
-	+	40	16
-	+	60	0
-	+	42	18
-	+	35	0
-
-> ~/s17/computer-vision/assignments/0-opencv-and-chroma-keying/.gitignore
-	*	1484369491	0
-	"	3	0
-	.	4	0
-	+	1	5
-	+	2	12
-	+	3	13
-	+	4	0
-
-> ~/.config/awesome/battery.lua
-	*	1484341612	0
-	"	9	0
-
-> ~/honours/nnl_ndim_toolkit/nnl_ndim-2.0/Makefile.am
-	*	1484341324	0
-	"	1	0
