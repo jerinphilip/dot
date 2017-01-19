@@ -27,7 +27,7 @@ def copy(source, target, sudo, folder):
     if folder: 
         source = source + '/'
         target = target + '/'
-    cmdList.extend([copy_tool,'-rav', source, target])
+    cmdList.extend([copy_tool,'-ra', source, target])
     print(' '.join(cmdList))
     sp.Popen(cmdList).wait()
 

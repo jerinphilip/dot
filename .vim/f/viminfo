@@ -21,7 +21,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1484853489,,"wq"
+|2,0,1484853561,,"wq"
 :w
 |2,0,1484853450,,"w"
 :q
@@ -122,6 +122,8 @@ $
 |2,0,1484632012,,"vsplit weights.xml"
 
 # Search String History (newest to oldest):
+?/rsyn
+|2,1,1484853556,47,"rsyn"
 ?/remote
 |2,1,1484853483,47,"remote"
 ?/print
@@ -220,8 +222,6 @@ $
 |2,1,1484643356,47,"["
 ?/fold
 |2,1,1484631582,47,"fold"
-?/honou
-|2,1,1484629634,47,"honou"
 
 # Expression History (newest to oldest):
 
@@ -304,34 +304,42 @@ $
 	O111€kb€kb€kb```shjji```
 |3,0,33,0,1,0,1483683308,"O111€kb€kb€kb```shjji```"
 ""-	CHAR	0
-	remote
-|3,1,36,0,1,0,1484853484,"remote"
+	v
+|3,1,36,0,1,0,1484853560,"v"
 
 # File marks:
-'0  53  25  ~/repo/dot/saviour
-|4,48,53,25,1484853489,"~/repo/dot/saviour"
-'1  46  0  ~/repo/dot/saviour
-|4,49,46,0,1484853457,"~/repo/dot/saviour"
-'2  46  0  ~/repo/dot/saviour
-|4,50,46,0,1484853457,"~/repo/dot/saviour"
-'3  32  4  ~/repo/dot/saviour
-|4,51,32,4,1484853340,"~/repo/dot/saviour"
-'4  32  4  ~/repo/dot/saviour
-|4,52,32,4,1484853340,"~/repo/dot/saviour"
-'5  32  4  ~/repo/dot/saviour
-|4,53,32,4,1484853340,"~/repo/dot/saviour"
-'6  32  4  ~/repo/dot/saviour
-|4,54,32,4,1484853340,"~/repo/dot/saviour"
-'7  71  15  ~/repo/dot/saviour
-|4,55,71,15,1484853312,"~/repo/dot/saviour"
-'8  71  15  ~/repo/dot/saviour
-|4,56,71,15,1484853312,"~/repo/dot/saviour"
-'9  69  15  ~/repo/dot/saviour
-|4,57,69,15,1484853312,"~/repo/dot/saviour"
+'0  30  34  ~/repo/dot/saviour
+|4,48,30,34,1484853561,"~/repo/dot/saviour"
+'1  53  25  ~/repo/dot/saviour
+|4,49,53,25,1484853489,"~/repo/dot/saviour"
+'2  53  25  ~/repo/dot/saviour
+|4,50,53,25,1484853489,"~/repo/dot/saviour"
+'3  46  0  ~/repo/dot/saviour
+|4,51,46,0,1484853457,"~/repo/dot/saviour"
+'4  46  0  ~/repo/dot/saviour
+|4,52,46,0,1484853457,"~/repo/dot/saviour"
+'5  46  0  ~/repo/dot/saviour
+|4,53,46,0,1484853457,"~/repo/dot/saviour"
+'6  46  0  ~/repo/dot/saviour
+|4,54,46,0,1484853457,"~/repo/dot/saviour"
+'7  32  4  ~/repo/dot/saviour
+|4,55,32,4,1484853340,"~/repo/dot/saviour"
+'8  32  4  ~/repo/dot/saviour
+|4,56,32,4,1484853340,"~/repo/dot/saviour"
+'9  32  4  ~/repo/dot/saviour
+|4,57,32,4,1484853340,"~/repo/dot/saviour"
 
 # Jumplist (newest first):
+-'  30  34  ~/repo/dot/saviour
+|4,39,30,34,1484853561,"~/repo/dot/saviour"
+-'  1  0  ~/repo/dot/saviour
+|4,39,1,0,1484853553,"~/repo/dot/saviour"
 -'  53  25  ~/repo/dot/saviour
 |4,39,53,25,1484853489,"~/repo/dot/saviour"
+-'  53  25  ~/repo/dot/saviour
+|4,39,53,25,1484853489,"~/repo/dot/saviour"
+-'  68  0  ~/repo/dot/saviour
+|4,39,68,0,1484853483,"~/repo/dot/saviour"
 -'  68  0  ~/repo/dot/saviour
 |4,39,68,0,1484853483,"~/repo/dot/saviour"
 -'  1  0  ~/repo/dot/saviour
@@ -340,6 +348,10 @@ $
 |4,39,46,0,1484853457,"~/repo/dot/saviour"
 -'  46  0  ~/repo/dot/saviour
 |4,39,46,0,1484853457,"~/repo/dot/saviour"
+-'  46  0  ~/repo/dot/saviour
+|4,39,46,0,1484853457,"~/repo/dot/saviour"
+-'  64  17  ~/repo/dot/saviour
+|4,39,64,17,1484853452,"~/repo/dot/saviour"
 -'  64  17  ~/repo/dot/saviour
 |4,39,64,17,1484853452,"~/repo/dot/saviour"
 -'  64  17  ~/repo/dot/saviour
@@ -352,8 +364,14 @@ $
 |4,39,32,4,1484853340,"~/repo/dot/saviour"
 -'  32  4  ~/repo/dot/saviour
 |4,39,32,4,1484853340,"~/repo/dot/saviour"
+-'  32  4  ~/repo/dot/saviour
+|4,39,32,4,1484853340,"~/repo/dot/saviour"
 -'  1  0  ~/repo/dot/saviour
 |4,39,1,0,1484853332,"~/repo/dot/saviour"
+-'  71  15  ~/repo/dot/saviour
+|4,39,71,15,1484853312,"~/repo/dot/saviour"
+-'  69  15  ~/repo/dot/saviour
+|4,39,69,15,1484853312,"~/repo/dot/saviour"
 -'  71  15  ~/repo/dot/saviour
 |4,39,71,15,1484853312,"~/repo/dot/saviour"
 -'  69  15  ~/repo/dot/saviour
@@ -398,147 +416,128 @@ $
 |4,39,1,0,1484853235,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
 |4,39,1,0,1484853235,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
--'  20  12  ~/repo/dot/config.yml
-|4,39,20,12,1484853231,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853228,"~/repo/dot/config.yml"
+|4,39,1,0,1484853235,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853228,"~/repo/dot/config.yml"
+|4,39,1,0,1484853235,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853228,"~/repo/dot/config.yml"
+|4,39,1,0,1484853235,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853228,"~/repo/dot/config.yml"
+|4,39,1,0,1484853235,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853228,"~/repo/dot/config.yml"
+|4,39,1,0,1484853235,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853228,"~/repo/dot/config.yml"
+|4,39,1,0,1484853235,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853228,"~/repo/dot/config.yml"
+|4,39,1,0,1484853235,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853228,"~/repo/dot/config.yml"
+|4,39,1,0,1484853235,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853228,"~/repo/dot/config.yml"
+|4,39,1,0,1484853235,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853228,"~/repo/dot/config.yml"
+|4,39,1,0,1484853235,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853228,"~/repo/dot/config.yml"
+|4,39,1,0,1484853235,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853228,"~/repo/dot/config.yml"
+|4,39,1,0,1484853235,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853228,"~/repo/dot/config.yml"
+|4,39,1,0,1484853235,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853228,"~/repo/dot/config.yml"
+|4,39,1,0,1484853235,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853228,"~/repo/dot/config.yml"
+|4,39,1,0,1484853235,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484853228,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/saviour
-|4,39,1,0,1484853194,"~/repo/dot/saviour"
--'  1  0  ~/repo/dot/saviour
-|4,39,1,0,1484853194,"~/repo/dot/saviour"
--'  1  0  ~/repo/dot/saviour
-|4,39,1,0,1484853194,"~/repo/dot/saviour"
--'  1  0  ~/repo/dot/saviour
-|4,39,1,0,1484853194,"~/repo/dot/saviour"
--'  34  0  ~/repo/dot/saviour
-|4,39,34,0,1484853190,"~/repo/dot/saviour"
--'  34  0  ~/repo/dot/saviour
-|4,39,34,0,1484853190,"~/repo/dot/saviour"
--'  34  0  ~/repo/dot/saviour
-|4,39,34,0,1484853190,"~/repo/dot/saviour"
--'  34  0  ~/repo/dot/saviour
-|4,39,34,0,1484853190,"~/repo/dot/saviour"
--'  34  0  ~/repo/dot/saviour
-|4,39,34,0,1484853190,"~/repo/dot/saviour"
--'  34  0  ~/repo/dot/saviour
-|4,39,34,0,1484853190,"~/repo/dot/saviour"
--'  34  0  ~/repo/dot/saviour
-|4,39,34,0,1484853190,"~/repo/dot/saviour"
--'  34  0  ~/repo/dot/saviour
-|4,39,34,0,1484853190,"~/repo/dot/saviour"
--'  34  0  ~/repo/dot/saviour
-|4,39,34,0,1484853190,"~/repo/dot/saviour"
--'  34  0  ~/repo/dot/saviour
-|4,39,34,0,1484853190,"~/repo/dot/saviour"
--'  34  0  ~/repo/dot/saviour
-|4,39,34,0,1484853190,"~/repo/dot/saviour"
--'  34  0  ~/repo/dot/saviour
-|4,39,34,0,1484853190,"~/repo/dot/saviour"
--'  72  4  ~/repo/dot/saviour
-|4,39,72,4,1484853181,"~/repo/dot/saviour"
--'  58  4  ~/repo/dot/saviour
-|4,39,58,4,1484853181,"~/repo/dot/saviour"
+|4,39,1,0,1484853235,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
+-'  20  12  ~/repo/dot/config.yml
+|4,39,20,12,1484853231,"~/repo/dot/config.yml"
 
 # History of marks within files (newest to oldest):
 
 > ~/repo/dot/saviour
-	*	1484853489	0
-	"	53	25
+	*	1484853561	0
+	"	30	34
 	^	53	37
-	.	53	36
-	+	72	24
+	.	30	34
 	+	72	0
 	+	72	35
 	+	72	0
@@ -638,6 +637,7 @@ $
 	+	47	0
 	+	46	0
 	+	53	36
+	+	30	34
 
 > ~/repo/dot/config.yml
 	*	1484853235	0
