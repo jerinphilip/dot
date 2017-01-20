@@ -21,11 +21,11 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1484857370,,"wq"
-:w
-|2,0,1484857237,,"w"
+|2,0,1484886957,,"wq"
 :q
-|2,0,1484857220,,"q"
+|2,0,1484884479,,"q"
+:w
+|2,0,1484881990,,"w"
 :q!
 |2,0,1484851960,,"q!"
 :tabnew config.yml
@@ -122,6 +122,8 @@ $
 |2,0,1484632012,,"vsplit weights.xml"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1484881958,,"@$"
 ?/rsyn
 |2,1,1484853556,47,"rsyn"
 ?/remote
@@ -216,8 +218,6 @@ $
 |2,1,1484646943,,"Object [name:\\(.*\\)]"
 ? Object
 |2,1,1484646883,,"Object"
-? @$
-|2,1,1484646811,,"@$"
 ?/[
 |2,1,1484643356,47,"["
 ?/fold
@@ -234,9 +234,9 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	            - .vim: /home/jerin/.vim
-|3,0,0,1,1,0,1484857241,"            - .vim: /home/jerin/.vim"
+""0	CHAR	0
+	vim
+|3,1,0,0,1,0,1484881960,"vim"
 "1	LINE	0
 	Backup of
 |3,0,1,1,1,0,1484853647,"Backup of"
@@ -301,235 +301,281 @@ $
 "x	CHAR	0
 	O111€kb€kb€kb```shjji```
 |3,0,33,0,1,0,1483683308,"O111€kb€kb€kb```shjji```"
-""-	CHAR	0
+"-	CHAR	0
 	vim
-|3,1,36,0,1,0,1484857243,"vim"
+|3,0,36,0,1,0,1484857243,"vim"
 
 # File marks:
-'0  30  62  ~/repo/dot/saviour
-|4,48,30,62,1484857370,"~/repo/dot/saviour"
-'1  15  43  ~/repo/dot/config.yml
-|4,49,15,43,1484857249,"~/repo/dot/config.yml"
-'2  2  0  ~/repo/blog/source/jerinphilip-github-io.cabal
-|4,50,2,0,1484857220,"~/repo/blog/source/jerinphilip-github-io.cabal"
-'3  3  0  ~/repo/dot/pacQn.txt
-|4,51,3,0,1484854158,"~/repo/dot/pacQn.txt"
-'4  1  0  ~/repo/dot/pacQm.txt
-|4,52,1,0,1484854150,"~/repo/dot/pacQm.txt"
-'5  25  0  ~/repo/dot/config.yml
-|4,53,25,0,1484854134,"~/repo/dot/config.yml"
-'6  23  0  ~/repo/dot/config.yml
-|4,54,23,0,1484854134,"~/repo/dot/config.yml"
-'7  1  0  ~/.config/Trolltech.conf
-|4,55,1,0,1484853937,"~/.config/Trolltech.conf"
-'8  1  0  ~/.thunderbird/profiles.ini
-|4,56,1,0,1484853928,"~/.thunderbird/profiles.ini"
-'9  25  0  ~/repo/dot/config.yml
-|4,57,25,0,1484853886,"~/repo/dot/config.yml"
+'0  4  0  ~/repo/dot/config.yml
+|4,48,4,0,1484886957,"~/repo/dot/config.yml"
+'1  455  0  ~/.emacs
+|4,49,455,0,1484884479,"~/.emacs"
+'2  1  0  ~/.config/gtk-3.0/gtk.css
+|4,50,1,0,1484881990,"~/.config/gtk-3.0/gtk.css"
+'3  1  0  ~/.config/gtk-3.0/settings.ini
+|4,51,1,0,1484881962,"~/.config/gtk-3.0/settings.ini"
+'4  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,52,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+'5  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,53,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+'6  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
+|4,54,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
+'7  30  62  ~/repo/dot/saviour
+|4,55,30,62,1484857370,"~/repo/dot/saviour"
+'8  16  43  ~/repo/dot/config.yml
+|4,56,16,43,1484857249,"~/repo/dot/config.yml"
+'9  15  43  ~/repo/dot/config.yml
+|4,57,15,43,1484857249,"~/repo/dot/config.yml"
 
 # Jumplist (newest first):
--'  30  62  ~/repo/dot/saviour
-|4,39,30,62,1484857370,"~/repo/dot/saviour"
--'  1  0  ~/repo/dot/saviour
-|4,39,1,0,1484857359,"~/repo/dot/saviour"
--'  15  43  ~/repo/dot/config.yml
-|4,39,15,43,1484857249,"~/repo/dot/config.yml"
--'  15  43  ~/repo/dot/config.yml
-|4,39,15,43,1484857249,"~/repo/dot/config.yml"
+-'  4  0  ~/repo/dot/config.yml
+|4,39,4,0,1484886957,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484857231,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484857231,"~/repo/dot/config.yml"
--'  2  0  ~/repo/blog/source/jerinphilip-github-io.cabal
-|4,39,2,0,1484857220,"~/repo/blog/source/jerinphilip-github-io.cabal"
--'  2  0  ~/repo/blog/source/jerinphilip-github-io.cabal
-|4,39,2,0,1484857220,"~/repo/blog/source/jerinphilip-github-io.cabal"
--'  2  0  ~/repo/blog/source/jerinphilip-github-io.cabal
-|4,39,2,0,1484857220,"~/repo/blog/source/jerinphilip-github-io.cabal"
--'  2  0  ~/repo/blog/source/jerinphilip-github-io.cabal
-|4,39,2,0,1484857220,"~/repo/blog/source/jerinphilip-github-io.cabal"
--'  1  0  ~/repo/blog/source/jerinphilip-github-io.cabal
-|4,39,1,0,1484856525,"~/repo/blog/source/jerinphilip-github-io.cabal"
--'  1  0  ~/repo/blog/source/jerinphilip-github-io.cabal
-|4,39,1,0,1484856525,"~/repo/blog/source/jerinphilip-github-io.cabal"
--'  1  0  ~/repo/blog/source/jerinphilip-github-io.cabal
-|4,39,1,0,1484856525,"~/repo/blog/source/jerinphilip-github-io.cabal"
--'  1  0  ~/repo/blog/source/jerinphilip-github-io.cabal
-|4,39,1,0,1484856525,"~/repo/blog/source/jerinphilip-github-io.cabal"
--'  3  0  ~/repo/dot/pacQn.txt
-|4,39,3,0,1484854158,"~/repo/dot/pacQn.txt"
--'  3  0  ~/repo/dot/pacQn.txt
-|4,39,3,0,1484854158,"~/repo/dot/pacQn.txt"
--'  3  0  ~/repo/dot/pacQn.txt
-|4,39,3,0,1484854158,"~/repo/dot/pacQn.txt"
--'  3  0  ~/repo/dot/pacQn.txt
-|4,39,3,0,1484854158,"~/repo/dot/pacQn.txt"
--'  3  0  ~/repo/dot/pacQn.txt
-|4,39,3,0,1484854158,"~/repo/dot/pacQn.txt"
--'  3  0  ~/repo/dot/pacQn.txt
-|4,39,3,0,1484854158,"~/repo/dot/pacQn.txt"
--'  3  0  ~/repo/dot/pacQn.txt
-|4,39,3,0,1484854158,"~/repo/dot/pacQn.txt"
--'  3  0  ~/repo/dot/pacQn.txt
-|4,39,3,0,1484854158,"~/repo/dot/pacQn.txt"
--'  1  0  ~/repo/dot/pacQn.txt
-|4,39,1,0,1484854156,"~/repo/dot/pacQn.txt"
--'  1  0  ~/repo/dot/pacQn.txt
-|4,39,1,0,1484854156,"~/repo/dot/pacQn.txt"
--'  1  0  ~/repo/dot/pacQn.txt
-|4,39,1,0,1484854156,"~/repo/dot/pacQn.txt"
--'  1  0  ~/repo/dot/pacQn.txt
-|4,39,1,0,1484854156,"~/repo/dot/pacQn.txt"
--'  1  0  ~/repo/dot/pacQn.txt
-|4,39,1,0,1484854156,"~/repo/dot/pacQn.txt"
--'  1  0  ~/repo/dot/pacQn.txt
-|4,39,1,0,1484854156,"~/repo/dot/pacQn.txt"
--'  1  0  ~/repo/dot/pacQn.txt
-|4,39,1,0,1484854156,"~/repo/dot/pacQn.txt"
--'  1  0  ~/repo/dot/pacQn.txt
-|4,39,1,0,1484854156,"~/repo/dot/pacQn.txt"
--'  1  0  ~/repo/dot/pacQm.txt
-|4,39,1,0,1484854150,"~/repo/dot/pacQm.txt"
--'  1  0  ~/repo/dot/pacQm.txt
-|4,39,1,0,1484854150,"~/repo/dot/pacQm.txt"
--'  1  0  ~/repo/dot/pacQm.txt
-|4,39,1,0,1484854150,"~/repo/dot/pacQm.txt"
--'  1  0  ~/repo/dot/pacQm.txt
-|4,39,1,0,1484854150,"~/repo/dot/pacQm.txt"
--'  1  0  ~/repo/dot/pacQm.txt
-|4,39,1,0,1484854150,"~/repo/dot/pacQm.txt"
--'  1  0  ~/repo/dot/pacQm.txt
-|4,39,1,0,1484854150,"~/repo/dot/pacQm.txt"
--'  1  0  ~/repo/dot/pacQm.txt
-|4,39,1,0,1484854150,"~/repo/dot/pacQm.txt"
--'  1  0  ~/repo/dot/pacQm.txt
-|4,39,1,0,1484854150,"~/repo/dot/pacQm.txt"
--'  1  0  ~/repo/dot/pacQm.txt
-|4,39,1,0,1484854150,"~/repo/dot/pacQm.txt"
--'  1  0  ~/repo/dot/pacQm.txt
-|4,39,1,0,1484854150,"~/repo/dot/pacQm.txt"
--'  1  0  ~/repo/dot/pacQm.txt
-|4,39,1,0,1484854150,"~/repo/dot/pacQm.txt"
--'  1  0  ~/repo/dot/pacQm.txt
-|4,39,1,0,1484854150,"~/repo/dot/pacQm.txt"
--'  1  0  ~/repo/dot/pacQm.txt
-|4,39,1,0,1484854150,"~/repo/dot/pacQm.txt"
--'  1  0  ~/repo/dot/pacQm.txt
-|4,39,1,0,1484854150,"~/repo/dot/pacQm.txt"
--'  1  0  ~/repo/dot/pacQm.txt
-|4,39,1,0,1484854150,"~/repo/dot/pacQm.txt"
--'  1  0  ~/repo/dot/pacQm.txt
-|4,39,1,0,1484854150,"~/repo/dot/pacQm.txt"
--'  25  0  ~/repo/dot/config.yml
-|4,39,25,0,1484854134,"~/repo/dot/config.yml"
--'  23  0  ~/repo/dot/config.yml
-|4,39,23,0,1484854134,"~/repo/dot/config.yml"
--'  23  0  ~/repo/dot/config.yml
-|4,39,23,0,1484854134,"~/repo/dot/config.yml"
--'  23  0  ~/repo/dot/config.yml
-|4,39,23,0,1484854134,"~/repo/dot/config.yml"
--'  23  0  ~/repo/dot/config.yml
-|4,39,23,0,1484854134,"~/repo/dot/config.yml"
--'  23  0  ~/repo/dot/config.yml
-|4,39,23,0,1484854134,"~/repo/dot/config.yml"
--'  23  0  ~/repo/dot/config.yml
-|4,39,23,0,1484854134,"~/repo/dot/config.yml"
--'  23  0  ~/repo/dot/config.yml
-|4,39,23,0,1484854134,"~/repo/dot/config.yml"
--'  23  0  ~/repo/dot/config.yml
-|4,39,23,0,1484854134,"~/repo/dot/config.yml"
--'  25  0  ~/repo/dot/config.yml
-|4,39,25,0,1484854134,"~/repo/dot/config.yml"
--'  23  0  ~/repo/dot/config.yml
-|4,39,23,0,1484854134,"~/repo/dot/config.yml"
--'  23  0  ~/repo/dot/config.yml
-|4,39,23,0,1484854134,"~/repo/dot/config.yml"
--'  23  0  ~/repo/dot/config.yml
-|4,39,23,0,1484854134,"~/repo/dot/config.yml"
--'  23  0  ~/repo/dot/config.yml
-|4,39,23,0,1484854134,"~/repo/dot/config.yml"
--'  23  0  ~/repo/dot/config.yml
-|4,39,23,0,1484854134,"~/repo/dot/config.yml"
--'  23  0  ~/repo/dot/config.yml
-|4,39,23,0,1484854134,"~/repo/dot/config.yml"
--'  23  0  ~/repo/dot/config.yml
-|4,39,23,0,1484854134,"~/repo/dot/config.yml"
--'  23  0  ~/repo/dot/config.yml
-|4,39,23,0,1484854134,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484854104,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484854104,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484854104,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484854104,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484854104,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484854104,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484854104,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484854104,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484854104,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484854104,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484854104,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484854104,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484854104,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484854104,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484854104,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484854104,"~/repo/dot/config.yml"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1484853937,"~/.config/Trolltech.conf"
+|4,39,1,0,1484886900,"~/repo/dot/config.yml"
+-'  455  0  ~/.emacs
+|4,39,455,0,1484884479,"~/.emacs"
+-'  455  0  ~/.emacs
+|4,39,455,0,1484884479,"~/.emacs"
+-'  1  0  ~/.emacs
+|4,39,1,0,1484884374,"~/.emacs"
+-'  1  0  ~/.emacs
+|4,39,1,0,1484884374,"~/.emacs"
+-'  1  0  ~/.config/gtk-3.0/gtk.css
+|4,39,1,0,1484881990,"~/.config/gtk-3.0/gtk.css"
+-'  1  0  ~/.config/gtk-3.0/gtk.css
+|4,39,1,0,1484881990,"~/.config/gtk-3.0/gtk.css"
+-'  1  0  ~/.config/gtk-3.0/gtk.css
+|4,39,1,0,1484881990,"~/.config/gtk-3.0/gtk.css"
+-'  1  0  ~/.config/gtk-3.0/gtk.css
+|4,39,1,0,1484881990,"~/.config/gtk-3.0/gtk.css"
+-'  3  0  ~/.config/gtk-3.0/gtk.css
+|4,39,3,0,1484881988,"~/.config/gtk-3.0/gtk.css"
+-'  3  0  ~/.config/gtk-3.0/gtk.css
+|4,39,3,0,1484881988,"~/.config/gtk-3.0/gtk.css"
+-'  3  0  ~/.config/gtk-3.0/gtk.css
+|4,39,3,0,1484881988,"~/.config/gtk-3.0/gtk.css"
+-'  3  0  ~/.config/gtk-3.0/gtk.css
+|4,39,3,0,1484881988,"~/.config/gtk-3.0/gtk.css"
+-'  1  0  ~/.config/gtk-3.0/settings.ini
+|4,39,1,0,1484881962,"~/.config/gtk-3.0/settings.ini"
+-'  1  0  ~/.config/gtk-3.0/settings.ini
+|4,39,1,0,1484881962,"~/.config/gtk-3.0/settings.ini"
+-'  1  0  ~/.config/gtk-3.0/settings.ini
+|4,39,1,0,1484881962,"~/.config/gtk-3.0/settings.ini"
+-'  1  0  ~/.config/gtk-3.0/settings.ini
+|4,39,1,0,1484881962,"~/.config/gtk-3.0/settings.ini"
+-'  1  0  ~/.config/gtk-3.0/settings.ini
+|4,39,1,0,1484881962,"~/.config/gtk-3.0/settings.ini"
+-'  1  0  ~/.config/gtk-3.0/settings.ini
+|4,39,1,0,1484881962,"~/.config/gtk-3.0/settings.ini"
+-'  1  0  ~/.config/gtk-3.0/settings.ini
+|4,39,1,0,1484881962,"~/.config/gtk-3.0/settings.ini"
+-'  1  0  ~/.config/gtk-3.0/settings.ini
+|4,39,1,0,1484881962,"~/.config/gtk-3.0/settings.ini"
+-'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  1  0  ~/repo/Indic-Keyboard/Android.mk
+|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
+-'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
+|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
+-'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
+|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
+-'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
+|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
+-'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
+|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
+-'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
+|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
+-'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
+|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
+-'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
+|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
+-'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
+|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
+-'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
+|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
+-'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
+|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
+-'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
+|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
+-'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
+|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
+-'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
+|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
+-'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
+|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
 
 # History of marks within files (newest to oldest):
+
+> ~/repo/dot/config.yml
+	*	1484886954	0
+	"	4	0
+	^	13	63
+	.	13	62
+	+	17	14
+	+	1	2
+	+	12	0
+	+	18	0
+	+	23	0
+	+	27	8
+	+	27	0
+	+	11	40
+	+	16	43
+	+	13	62
+
+> ~/.emacs
+	*	1484884478	0
+	"	455	0
+
+> ~/.config/gtk-3.0/gtk.css
+	*	1484881990	0
+	"	1	0
+	^	4	0
+	.	2	0
+	+	1	14
+	+	4	0
+	+	3	0
+	+	2	0
+
+> ~/.config/gtk-3.0/settings.ini
+	*	1484881960	0
+	"	1	0
+
+> ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+	*	1484857650	0
+	"	9	0
+
+> ~/repo/Indic-Keyboard/Android.mk
+	*	1484857627	0
+	"	1	0
+
+> ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
+	*	1484857612	0
+	"	38	0
 
 > ~/repo/dot/saviour
 	*	1484857369	0
@@ -636,21 +682,6 @@ $
 	+	46	0
 	+	53	36
 	+	30	62
-
-> ~/repo/dot/config.yml
-	*	1484857248	0
-	"	15	43
-	^	15	44
-	.	15	43
-	+	16	14
-	+	1	2
-	+	12	0
-	+	17	0
-	+	22	0
-	+	26	8
-	+	26	0
-	+	11	40
-	+	15	43
 
 > ~/repo/blog/source/jerinphilip-github-io.cabal
 	*	1484857220	0
@@ -1489,186 +1520,3 @@ $
 	+	15	23
 	+	16	67
 	+	14	40
-
-> ~/s17/computer-vision/assignments/0-opencv-and-chroma-keying/report.tex
-	*	1484513710	0
-	"	3	0
-	^	6	10
-	.	3	0
-	+	8	13
-	+	1	21
-	+	4	15
-	+	3	36
-	+	6	9
-	+	3	0
-
-> ~/s17/computer-vision/assignments/0-opencv-and-chroma-keying/CMakeLists.txt
-	*	1484513483	0
-	"	33	0
-	^	34	65
-	.	34	64
-	+	24	61
-	+	25	45
-	+	24	21
-	+	25	28
-	+	24	18
-	+	25	25
-	+	27	22
-	+	28	28
-	+	27	55
-	+	24	48
-	+	27	48
-	+	34	0
-	+	33	0
-	+	34	21
-	+	35	31
-	+	34	64
-
-> ~/s17/computer-vision/assignments/0-opencv-and-chroma-keying/src/chroma_keying.cpp
-	*	1484513339	0
-	"	12	5
-	^	12	6
-	.	12	5
-	+	91	29
-	+	92	24
-	+	62	38
-	+	63	29
-	+	64	44
-	+	72	28
-	+	72	14
-	+	72	0
-	+	81	0
-	+	75	35
-	+	77	23
-	+	86	26
-	+	90	27
-	+	29	37
-	+	32	23
-	+	38	28
-	+	39	32
-	+	80	9
-	+	86	9
-	+	91	9
-	+	92	9
-	+	15	34
-	+	15	0
-	+	14	0
-	+	8	22
-	+	8	19
-	+	8	0
-	+	8	12
-	+	8	24
-	+	8	14
-	+	8	0
-	+	14	10
-	+	14	21
-	+	14	14
-	+	14	0
-	+	10	32
-	+	8	0
-	+	14	10
-	+	14	34
-	+	8	0
-	+	14	7
-	+	14	11
-	+	15	5
-	+	14	0
-	+	14	46
-	+	14	0
-	+	14	18
-	+	14	19
-	+	14	0
-	+	14	19
-	+	14	16
-	+	14	17
-	+	14	0
-	+	14	24
-	+	14	4
-	+	14	12
-	+	14	0
-	+	11	0
-	+	14	5
-	+	11	40
-	+	14	7
-	+	14	0
-	+	14	12
-	+	14	5
-	+	11	39
-	+	14	7
-	+	14	15
-	+	14	4
-	+	14	0
-	+	11	39
-	+	86	0
-	+	87	0
-	+	14	7
-	+	15	0
-	+	11	53
-	+	14	14
-	+	14	0
-	+	33	38
-	+	34	0
-	+	17	0
-	+	10	24
-	+	11	5
-	+	13	8
-	+	14	18
-	+	13	17
-	+	14	11
-	+	13	38
-	+	14	0
-	+	8	5
-	+	9	15
-	+	7	23
-	+	10	37
-	+	9	9
-	+	10	15
-	+	89	44
-	+	13	35
-	+	12	23
-	+	13	35
-	+	50	0
-	+	12	5
-	k	94	0
-
-> ~/s17/computer-vision/assignments/0-opencv-and-chroma-keying/src/image_video.cpp
-	*	1484510746	0
-	"	1	0
-
-> ~/s17/computer-vision/assignments/0-opencv-and-chroma-keying/src/camera_capture_gui.cpp
-	*	1484510653	0
-	"	1	0
-	^	16	69
-	.	16	68
-	+	5	19
-	+	8	11
-	+	22	0
-	+	21	12
-	+	22	0
-	+	21	0
-	+	8	30
-	+	21	0
-	+	10	27
-	+	14	12
-	+	20	0
-	+	18	21
-	+	11	44
-	+	18	25
-	+	20	0
-	+	19	32
-	+	19	0
-	+	12	18
-	+	3	18
-	+	19	24
-	+	9	9
-	+	4	16
-	+	10	0
-	+	14	42
-	+	17	16
-	+	16	60
-	+	17	23
-	+	16	68
-
-> ~/s17/computer-vision/assignments/0-opencv-and-chroma-keying/src/video_image.cpp
-	*	1484510565	0
-	"	19	4

@@ -10,6 +10,7 @@ existing:
             - .vimrc: /home/jerin/.vimrc
             - .emacs : /home/jerin/.emacs
             - .fonts.conf: /home/jerin/.fonts.conf
+            - .gtk-3.0.css: /home/jerin/.config/gtk-3.0/gtk.css
         folders:
             - .vim: /home/jerin/.vim
             - .emacs.d: /home/jerin/.emacs.d
