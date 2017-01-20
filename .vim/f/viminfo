@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/remote
+~MSle0~/font
 
 # Last Substitute Search Pattern:
 ~MSle0&_
@@ -21,13 +21,17 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1484886957,,"wq"
-:q
-|2,0,1484884479,,"q"
+|2,0,1484889706,,"wq"
 :w
-|2,0,1484881990,,"w"
+|2,0,1484889650,,"w"
+:q
+|2,0,1484889595,,"q"
+:r ~/.bashrc
+|2,0,1484889319,,"r ~/.bashrc"
 :q!
-|2,0,1484851960,,"q!"
+|2,0,1484889211,,"q!"
+:split ~/.bashrc
+|2,0,1484888215,,"split ~/.bashrc"
 :tabnew config.yml
 |2,0,1484851803,,"tabnew config.yml"
 :set nopaste
@@ -116,12 +120,14 @@ $
 |2,0,1484646867,,"s/Object [nam"
 :qkk
 |2,0,1484646858,,"qkk"
-:r !ls cvit*
-|2,0,1484632362,,"r !ls cvit*"
-:vsplit weights.xml
-|2,0,1484632012,,"vsplit weights.xml"
 
 # Search String History (newest to oldest):
+?/font
+|2,1,1484889076,47,"font"
+?/terminus
+|2,1,1484889074,47,"terminus"
+?/PS1
+|2,1,1484888326,47,"PS1"
 ? @$
 |2,1,1484881958,,"@$"
 ?/rsyn
@@ -216,12 +222,6 @@ $
 |2,1,1484647008,,"Object \\[name:\\(.*\\)\\]"
 ? Object [name:\(.*\)]
 |2,1,1484646943,,"Object [name:\\(.*\\)]"
-? Object
-|2,1,1484646883,,"Object"
-?/[
-|2,1,1484643356,47,"["
-?/fold
-|2,1,1484631582,47,"fold"
 
 # Expression History (newest to oldest):
 
@@ -234,55 +234,73 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	CHAR	0
-	vim
-|3,1,0,0,1,0,1484881960,"vim"
-"1	LINE	0
-	Backup of
-|3,0,1,1,1,0,1484853647,"Backup of"
+"0	LINE	0
+	export EDITOR='vim'
+	export TERM='xterm-256color'
+|3,0,0,1,2,0,1484889199,"export EDITOR='vim'","export TERM='xterm-256color'"
+""1	LINE	0
+	
+|3,1,1,1,1,0,1484889688,""
 "2	LINE	0
-	def git_update():
-	    date_string = str(datetime.datetime.utcnow())
-	    timestamp = '"%s"'%(date_string)
-	    cmds = [
-	        ['git', 'add', '-A'],
-	        ['git', 'commit', '-m', timestamp],
-	        ['git', 'push', '-u', 'remote', 'master']
-	    ]
-	    for cmd in cmds:
-	        sp.Popen(cmd).wait()
-|3,0,2,1,10,0,1484853454,"def git_update():","    date_string = str(datetime.datetime.utcnow())","    timestamp = '\"%s\"'%(date_string)","    cmds = [","        ['git', 'add', '-A'],","        ['git', 'commit', '-m', timestamp],","        ['git', 'push', '-u', 'remote', 'master']","    ]","    for cmd in cmds:","        sp.Popen(cmd).wait()"
+	
+|3,0,2,1,1,0,1484889646,""
 "3	LINE	0
-	
-|3,0,3,1,1,0,1484853450,""
+	alias ls='ls --color=auto'
+|3,0,3,1,1,0,1484889636,"alias ls='ls --color=auto'"
 "4	LINE	0
-	    git_update()
-|3,0,4,1,1,0,1484853442,"    git_update()"
+	alias gcc='gcc -Wall -Werror -Wuninitialized'
+	alias g++='g++ -Wall -Werror -Wuninitialized -std=c++14 -D EVIL_DEBUG'
+	alias die='shutdown -P now'
+	alias yaourt="yaourt --noconfirm"
+	
+	alias glg++='g++ -I/usr/include/libdrm -lGLU -lGL -lglut -lglfw -lGLEW'
+	alias cvg++="g++ `pkg-config --cflags --libs opencv`"
+	alias gtk2gcc="gcc `pkg-config --cflags --libs gtk+-2.0`"
+	alias gtkgcc="gcc `pkg-config --cflags --libs gtk+-3.0`"
+	alias fucking='sudo'
+	
+	alias pastebin='curl -F c=@- https://ptpb.pw'
+	alias du_summary='du -h -d 1 . 2> /dev/null | sort -h'
+|3,0,4,1,13,0,1484889634,"alias gcc='gcc -Wall -Werror -Wuninitialized'","alias g++='g++ -Wall -Werror -Wuninitialized -std=c++14 -D EVIL_DEBUG'","alias die='shutdown -P now'","alias yaourt=\"yaourt --noconfirm\"","","alias glg++='g++ -I/usr/include/libdrm -lGLU -lGL -lglut -lglfw -lGLEW'","alias cvg++=\"g++ `pkg-config --cflags --libs opencv`\"","alias gtk2gcc=\"gcc `pkg-config --cflags --libs gtk+-2.0`\"",>60
+|<"alias gtkgcc=\"gcc `pkg-config --cflags --libs gtk+-3.0`\"","alias fucking='sudo'","","alias pastebin='curl -F c=@- https://ptpb.pw'","alias du_summary='du -h -d 1 . 2> /dev/null | sort -h'"
 "5	LINE	0
-	def git_update():
-	    timestamp = '"'+str(datetime.datetime.utcnow())+'"'
-	    cmds = [
-	        ['git', 'add', '-A'],
-	        ['git', 'commit', '-m', timestamp],
-	        ['git', 'push', '-u', 'remote', 'master']
-	    ]
-	    for cmd in cmds:
-	        sp.Popen(cmd).wait()
+	NPM_PACKAGES="${HOME}/.npm-packages"
+	PATH="$NPM_PACKAGES/bin:$PATH"
+	unset MANPATH # delete if you already modified MANPATH elsewhere in your config
+	export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 	
-|3,0,5,1,10,0,1484853252,"def git_update():","    timestamp = '\"'+str(datetime.datetime.utcnow())+'\"'","    cmds = [","        ['git', 'add', '-A'],","        ['git', 'commit', '-m', timestamp],","        ['git', 'push', '-u', 'remote', 'master']","    ]","    for cmd in cmds:","        sp.Popen(cmd).wait()",""
+	export JAVA_HOME='/usr/lib/jvm/default/'
+	
+|3,0,5,1,7,0,1484889626,"NPM_PACKAGES=\"${HOME}/.npm-packages\"","PATH=\"$NPM_PACKAGES/bin:$PATH\"","unset MANPATH # delete if you already modified MANPATH elsewhere in your config","export MANPATH=\"$NPM_PACKAGES/share/man:$(manpath)\"","","export JAVA_HOME='/usr/lib/jvm/default/'",""
 "6	LINE	0
-	            - 50-synaptics.conf: /etc/X11/xorg.conf.d/50-synaptics.conf
-|3,0,6,1,1,0,1484853230,"            - 50-synaptics.conf: /etc/X11/xorg.conf.d/50-synaptics.conf"
+	function proxy_on {
+	    #printf -v no_proxy '%s,' 10.1.{1..255}.{1..255}
+	    export http_proxy="http://proxy.iiit.ac.in:8080"
+	    export https_proxy=$http_proxy
+	    export ftp_proxy=$http_proxy
+	    export no_proxy="localhost,127.0.0.1,.iiit.ac.in,"
+	
+	    export HTTP_PROXY=$http_proxy
+	    export HTTPS_PROXY=$http_proxy
+	    export FTP_PROXY=$http_proxy
+	    export NO_PROXY=$no_proxy
+	}
+	
+	function proxy_off {
+	    unset http_proxy https_proxy ftp_proxy no_proxy
+	    unset HTTP_PROXY HTTPS_PROXY FTP_PROXY NO_PROXY
+	}
+|3,0,6,1,17,0,1484889612,"function proxy_on {","    #printf -v no_proxy '%s,' 10.1.{1..255}.{1..255}","    export http_proxy=\"http://proxy.iiit.ac.in:8080\"","    export https_proxy=$http_proxy","    export ftp_proxy=$http_proxy","    export no_proxy=\"localhost,127.0.0.1,.iiit.ac.in,\"","","    export HTTP_PROXY=$http_proxy","    export HTTPS_PROXY=$http_proxy","    export FTP_PROXY=$http_proxy","    export NO_PROXY=$no_proxy","}","","function proxy_off {",>53
+|<"    unset http_proxy https_proxy ftp_proxy no_proxy","    unset HTTP_PROXY HTTPS_PROXY FTP_PROXY NO_PROXY","}"
 "7	LINE	0
-	
-|3,0,7,1,1,0,1484853184,""
+	#
+|3,0,7,1,1,0,1484889566,"#"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1484853183,""
+	# source 
+|3,0,8,1,1,0,1484889559,"# source "
 "9	LINE	0
-	parser = create_parser()
-	args = parser.parse_args()
-|3,0,9,1,2,0,1484853172,"parser = create_parser()","args = parser.parse_args()"
+	
+|3,0,9,1,1,0,1484889544,""
 "a@	CHAR	0
 	xxj
 |3,2,10,0,1,0,1484458573,"xxj"
@@ -302,250 +320,331 @@ $
 	O111€kb€kb€kb```shjji```
 |3,0,33,0,1,0,1483683308,"O111€kb€kb€kb```shjji```"
 "-	CHAR	0
-	vim
-|3,0,36,0,1,0,1484857243,"vim"
+	:
+|3,0,36,0,1,0,1484889468,":"
 
 # File marks:
-'0  4  0  ~/repo/dot/config.yml
-|4,48,4,0,1484886957,"~/repo/dot/config.yml"
-'1  455  0  ~/.emacs
-|4,49,455,0,1484884479,"~/.emacs"
-'2  1  0  ~/.config/gtk-3.0/gtk.css
-|4,50,1,0,1484881990,"~/.config/gtk-3.0/gtk.css"
-'3  1  0  ~/.config/gtk-3.0/settings.ini
-|4,51,1,0,1484881962,"~/.config/gtk-3.0/settings.ini"
-'4  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,52,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
-'5  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,53,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
-'6  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
-|4,54,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
-'7  30  62  ~/repo/dot/saviour
-|4,55,30,62,1484857370,"~/repo/dot/saviour"
-'8  16  43  ~/repo/dot/config.yml
-|4,56,16,43,1484857249,"~/repo/dot/config.yml"
-'9  15  43  ~/repo/dot/config.yml
-|4,57,15,43,1484857249,"~/repo/dot/config.yml"
+'0  18  39  ~/repo/dot/config.yml
+|4,48,18,39,1484889706,"~/repo/dot/config.yml"
+'1  21  0  ~/.bashrc
+|4,49,21,0,1484889666,"~/.bashrc"
+'2  20  21  ~/.zshrc
+|4,50,20,21,1484889577,"~/.zshrc"
+'3  1  0  ~/.shell/env.sh
+|4,51,1,0,1484889545,"~/.shell/env.sh"
+'4  12  0  ~/.bashrc
+|4,52,12,0,1484889525,"~/.bashrc"
+'5  13  0  ~/.bashrc
+|4,53,13,0,1484889525,"~/.bashrc"
+'6  17  11  ~/.zshrc
+|4,54,17,11,1484889469,"~/.zshrc"
+'7  17  11  ~/.zshrc
+|4,55,17,11,1484889469,"~/.zshrc"
+'8  21  15  ~/.zshrc
+|4,56,21,15,1484889394,"~/.zshrc"
+'9  21  15  ~/.zshrc
+|4,57,21,15,1484889394,"~/.zshrc"
 
 # Jumplist (newest first):
--'  4  0  ~/repo/dot/config.yml
-|4,39,4,0,1484886957,"~/repo/dot/config.yml"
+-'  18  39  ~/repo/dot/config.yml
+|4,39,18,39,1484889706,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484886900,"~/repo/dot/config.yml"
--'  455  0  ~/.emacs
-|4,39,455,0,1484884479,"~/.emacs"
--'  455  0  ~/.emacs
-|4,39,455,0,1484884479,"~/.emacs"
--'  1  0  ~/.emacs
-|4,39,1,0,1484884374,"~/.emacs"
--'  1  0  ~/.emacs
-|4,39,1,0,1484884374,"~/.emacs"
--'  1  0  ~/.config/gtk-3.0/gtk.css
-|4,39,1,0,1484881990,"~/.config/gtk-3.0/gtk.css"
--'  1  0  ~/.config/gtk-3.0/gtk.css
-|4,39,1,0,1484881990,"~/.config/gtk-3.0/gtk.css"
--'  1  0  ~/.config/gtk-3.0/gtk.css
-|4,39,1,0,1484881990,"~/.config/gtk-3.0/gtk.css"
--'  1  0  ~/.config/gtk-3.0/gtk.css
-|4,39,1,0,1484881990,"~/.config/gtk-3.0/gtk.css"
--'  3  0  ~/.config/gtk-3.0/gtk.css
-|4,39,3,0,1484881988,"~/.config/gtk-3.0/gtk.css"
--'  3  0  ~/.config/gtk-3.0/gtk.css
-|4,39,3,0,1484881988,"~/.config/gtk-3.0/gtk.css"
--'  3  0  ~/.config/gtk-3.0/gtk.css
-|4,39,3,0,1484881988,"~/.config/gtk-3.0/gtk.css"
--'  3  0  ~/.config/gtk-3.0/gtk.css
-|4,39,3,0,1484881988,"~/.config/gtk-3.0/gtk.css"
--'  1  0  ~/.config/gtk-3.0/settings.ini
-|4,39,1,0,1484881962,"~/.config/gtk-3.0/settings.ini"
--'  1  0  ~/.config/gtk-3.0/settings.ini
-|4,39,1,0,1484881962,"~/.config/gtk-3.0/settings.ini"
--'  1  0  ~/.config/gtk-3.0/settings.ini
-|4,39,1,0,1484881962,"~/.config/gtk-3.0/settings.ini"
--'  1  0  ~/.config/gtk-3.0/settings.ini
-|4,39,1,0,1484881962,"~/.config/gtk-3.0/settings.ini"
--'  1  0  ~/.config/gtk-3.0/settings.ini
-|4,39,1,0,1484881962,"~/.config/gtk-3.0/settings.ini"
--'  1  0  ~/.config/gtk-3.0/settings.ini
-|4,39,1,0,1484881962,"~/.config/gtk-3.0/settings.ini"
--'  1  0  ~/.config/gtk-3.0/settings.ini
-|4,39,1,0,1484881962,"~/.config/gtk-3.0/settings.ini"
--'  1  0  ~/.config/gtk-3.0/settings.ini
-|4,39,1,0,1484881962,"~/.config/gtk-3.0/settings.ini"
--'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  9  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,9,0,1484857651,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  1  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-|4,39,1,0,1484857646,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  1  0  ~/repo/Indic-Keyboard/Android.mk
-|4,39,1,0,1484857627,"~/repo/Indic-Keyboard/Android.mk"
--'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
-|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
--'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
-|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
--'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
-|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
--'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
-|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
--'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
-|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
--'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
-|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
--'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
-|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
--'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
-|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
--'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
-|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
--'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
-|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
--'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
-|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
--'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
-|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
--'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
-|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
--'  38  0  ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
-|4,39,38,0,1484857612,"~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp"
+|4,39,1,0,1484889682,"~/repo/dot/config.yml"
+-'  21  0  ~/.bashrc
+|4,39,21,0,1484889666,"~/.bashrc"
+-'  21  0  ~/.bashrc
+|4,39,21,0,1484889666,"~/.bashrc"
+-'  16  0  ~/.bashrc
+|4,39,16,0,1484889598,"~/.bashrc"
+-'  16  0  ~/.bashrc
+|4,39,16,0,1484889598,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1484889584,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1484889584,"~/.bashrc"
+-'  20  21  ~/.zshrc
+|4,39,20,21,1484889577,"~/.zshrc"
+-'  20  21  ~/.zshrc
+|4,39,20,21,1484889577,"~/.zshrc"
+-'  20  21  ~/.zshrc
+|4,39,20,21,1484889577,"~/.zshrc"
+-'  20  21  ~/.zshrc
+|4,39,20,21,1484889577,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1484889556,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1484889556,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1484889556,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1484889556,"~/.zshrc"
+-'  1  0  ~/.shell/env.sh
+|4,39,1,0,1484889545,"~/.shell/env.sh"
+-'  1  0  ~/.shell/env.sh
+|4,39,1,0,1484889545,"~/.shell/env.sh"
+-'  1  0  ~/.shell/env.sh
+|4,39,1,0,1484889545,"~/.shell/env.sh"
+-'  1  0  ~/.shell/env.sh
+|4,39,1,0,1484889545,"~/.shell/env.sh"
+-'  1  0  ~/.shell/env.sh
+|4,39,1,0,1484889545,"~/.shell/env.sh"
+-'  1  0  ~/.shell/env.sh
+|4,39,1,0,1484889545,"~/.shell/env.sh"
+-'  1  0  ~/.shell/env.sh
+|4,39,1,0,1484889545,"~/.shell/env.sh"
+-'  1  0  ~/.shell/env.sh
+|4,39,1,0,1484889545,"~/.shell/env.sh"
+-'  12  0  ~/.bashrc
+|4,39,12,0,1484889525,"~/.bashrc"
+-'  13  0  ~/.bashrc
+|4,39,13,0,1484889525,"~/.bashrc"
+-'  13  0  ~/.bashrc
+|4,39,13,0,1484889525,"~/.bashrc"
+-'  13  0  ~/.bashrc
+|4,39,13,0,1484889525,"~/.bashrc"
+-'  13  0  ~/.bashrc
+|4,39,13,0,1484889525,"~/.bashrc"
+-'  12  0  ~/.bashrc
+|4,39,12,0,1484889525,"~/.bashrc"
+-'  13  0  ~/.bashrc
+|4,39,13,0,1484889525,"~/.bashrc"
+-'  13  0  ~/.bashrc
+|4,39,13,0,1484889525,"~/.bashrc"
+-'  13  0  ~/.bashrc
+|4,39,13,0,1484889525,"~/.bashrc"
+-'  13  0  ~/.bashrc
+|4,39,13,0,1484889525,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1484889522,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1484889522,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1484889522,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1484889522,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1484889522,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1484889522,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1484889522,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1484889522,"~/.bashrc"
+-'  17  11  ~/.zshrc
+|4,39,17,11,1484889469,"~/.zshrc"
+-'  17  11  ~/.zshrc
+|4,39,17,11,1484889469,"~/.zshrc"
+-'  17  11  ~/.zshrc
+|4,39,17,11,1484889469,"~/.zshrc"
+-'  17  11  ~/.zshrc
+|4,39,17,11,1484889469,"~/.zshrc"
+-'  17  11  ~/.zshrc
+|4,39,17,11,1484889469,"~/.zshrc"
+-'  17  11  ~/.zshrc
+|4,39,17,11,1484889469,"~/.zshrc"
+-'  17  11  ~/.zshrc
+|4,39,17,11,1484889469,"~/.zshrc"
+-'  17  11  ~/.zshrc
+|4,39,17,11,1484889469,"~/.zshrc"
+-'  17  11  ~/.zshrc
+|4,39,17,11,1484889469,"~/.zshrc"
+-'  17  11  ~/.zshrc
+|4,39,17,11,1484889469,"~/.zshrc"
+-'  17  11  ~/.zshrc
+|4,39,17,11,1484889469,"~/.zshrc"
+-'  17  11  ~/.zshrc
+|4,39,17,11,1484889469,"~/.zshrc"
+-'  17  11  ~/.zshrc
+|4,39,17,11,1484889469,"~/.zshrc"
+-'  17  11  ~/.zshrc
+|4,39,17,11,1484889469,"~/.zshrc"
+-'  17  11  ~/.zshrc
+|4,39,17,11,1484889469,"~/.zshrc"
+-'  17  11  ~/.zshrc
+|4,39,17,11,1484889469,"~/.zshrc"
+-'  17  11  ~/.zshrc
+|4,39,17,11,1484889469,"~/.zshrc"
+-'  17  11  ~/.zshrc
+|4,39,17,11,1484889469,"~/.zshrc"
+-'  17  11  ~/.zshrc
+|4,39,17,11,1484889469,"~/.zshrc"
+-'  17  11  ~/.zshrc
+|4,39,17,11,1484889469,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1484889464,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1484889464,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1484889464,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1484889464,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1484889464,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1484889464,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1484889464,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1484889464,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1484889464,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1484889464,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1484889464,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1484889464,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1484889464,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1484889464,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1484889464,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1484889464,"~/.zshrc"
+-'  21  15  ~/.zshrc
+|4,39,21,15,1484889394,"~/.zshrc"
+-'  19  15  ~/.zshrc
+|4,39,19,15,1484889394,"~/.zshrc"
+-'  19  15  ~/.zshrc
+|4,39,19,15,1484889394,"~/.zshrc"
+-'  19  15  ~/.zshrc
+|4,39,19,15,1484889394,"~/.zshrc"
+-'  19  15  ~/.zshrc
+|4,39,19,15,1484889394,"~/.zshrc"
+-'  19  15  ~/.zshrc
+|4,39,19,15,1484889394,"~/.zshrc"
+-'  19  15  ~/.zshrc
+|4,39,19,15,1484889394,"~/.zshrc"
+-'  19  15  ~/.zshrc
+|4,39,19,15,1484889394,"~/.zshrc"
+-'  19  15  ~/.zshrc
+|4,39,19,15,1484889394,"~/.zshrc"
+-'  21  15  ~/.zshrc
+|4,39,21,15,1484889394,"~/.zshrc"
+-'  19  15  ~/.zshrc
+|4,39,19,15,1484889394,"~/.zshrc"
+-'  19  15  ~/.zshrc
+|4,39,19,15,1484889394,"~/.zshrc"
+-'  19  15  ~/.zshrc
+|4,39,19,15,1484889394,"~/.zshrc"
+-'  19  15  ~/.zshrc
+|4,39,19,15,1484889394,"~/.zshrc"
+-'  19  15  ~/.zshrc
+|4,39,19,15,1484889394,"~/.zshrc"
+-'  19  15  ~/.zshrc
+|4,39,19,15,1484889394,"~/.zshrc"
+-'  19  15  ~/.zshrc
+|4,39,19,15,1484889394,"~/.zshrc"
+-'  19  15  ~/.zshrc
+|4,39,19,15,1484889394,"~/.zshrc"
+-'  21  15  ~/.zshrc
+|4,39,21,15,1484889394,"~/.zshrc"
+-'  19  15  ~/.zshrc
+|4,39,19,15,1484889394,"~/.zshrc"
+-'  19  15  ~/.zshrc
+|4,39,19,15,1484889394,"~/.zshrc"
+-'  19  15  ~/.zshrc
+|4,39,19,15,1484889394,"~/.zshrc"
 
 # History of marks within files (newest to oldest):
 
 > ~/repo/dot/config.yml
-	*	1484886954	0
-	"	4	0
-	^	13	63
-	.	13	62
-	+	17	14
+	*	1484889704	0
+	"	18	39
+	^	18	40
+	.	18	39
+	+	19	14
 	+	1	2
-	+	12	0
+	+	13	0
+	+	20	0
+	+	25	0
+	+	29	8
+	+	29	0
+	+	12	40
+	+	17	43
+	+	14	62
+	+	5	0
+	+	6	39
+	+	18	39
+
+> ~/.bashrc
+	*	1484889665	0
+	"	21	0
+	^	14	26
+	.	15	0
+	+	28	0
+	+	22	8
 	+	18	0
+	+	19	23
+	+	28	0
+	+	15	0
+	+	8	0
+	+	14	25
+	+	15	0
+
+> ~/.zshrc
+	*	1484889576	0
+	"	20	21
+	^	20	22
+	.	20	21
+	+	16	0
+	+	17	17
+	+	22	23
+	+	25	25
+	+	26	0
 	+	23	0
-	+	27	8
-	+	27	0
-	+	11	40
-	+	16	43
-	+	13	62
+	+	24	0
+	+	21	15
+	+	17	11
+	+	22	0
+	+	21	0
+	+	20	21
+
+> ~/.shell/env.sh
+	*	1484889544	0
+	"	1	0
+	^	2	28
+	.	1	0
+	+	2	27
+	+	1	0
+
+> ~/.shell/aliases.sh
+	*	1484889363	0
+	"	13	0
+	.	15	0
+	+	1	0
+	+	15	19
+	+	15	0
+	+	1	0
+	+	15	0
+
+> ~/.shell/proxy.sh
+	*	1484889284	0
+	"	17	0
+	.	18	0
+	+	1	0
+	+	18	0
+	+	1	0
+	+	18	0
+
+> ~/.zshenv
+	*	1484889210	0
+	"	1	0
+	^	1	5
+	.	1	0
+	+	1	0
+
+> ~/.Xresources
+	*	1484889082	0
+	"	75	46
+	^	75	47
+	.	75	46
+	+	75	46
+
+> ~/ls
+	*	1484888919	0
+	"	1	0
 
 > ~/.emacs
 	*	1484884478	0
@@ -791,10 +890,6 @@ $
 > ~/.sh
 	*	1484849728	0
 	"	1	0
-
-> ~/.zshrc
-	*	1484849679	0
-	"	10	0
 
 > ~/.zshr
 	*	1484849507	0
@@ -1444,79 +1539,3 @@ $
 > ~/honours/nnl_ndim_toolkit/nnl_ndim-2.0/LICENSE
 	*	1484629745	0
 	"	19	0
-
-> ~/honours/nnl_ndim_toolkit/documentation.txt
-	*	1484629728	0
-	"	19	0
-
-> ~/honours/nnl_ndim_toolkit/README
-	*	1484629709	0
-	"	1	0
-
-> ~/honours/nnl_ndim_toolkit/nnl_ndim-2.0/nn/engine/NnMath.h
-	*	1484629695	0
-	"	6	0
-
-> ~/honours/android-ndk-master/CONTRIBUTING.md
-	*	1484585976	0
-	"	1	0
-
-> ~/.config/awesome/rc.lua
-	*	1484583752	0
-	"	379	0
-	^	113	88
-	.	113	87
-	+	113	87
-
-> ~/s17/computer-vision/assignments/0-opencv-and-chroma-keying/report/report.tex
-	*	1484514665	0
-	"	32	63
-	^	32	64
-	.	32	63
-	+	9	19
-	+	33	0
-	+	9	15
-	+	9	0
-	+	33	0
-	+	10	66
-	+	11	68
-	+	13	48
-	+	33	0
-	+	13	84
-	+	14	31
-	+	33	0
-	+	20	19
-	+	16	3
-	+	12	0
-	+	14	0
-	+	17	69
-	+	18	19
-	+	24	0
-	+	25	19
-	+	26	67
-	+	27	72
-	+	28	56
-	+	33	0
-	+	30	52
-	+	33	0
-	+	10	0
-	+	2	20
-	+	32	63
-
-> ~/s17/computer-vision/assignments/0-opencv-and-chroma-keying/report/README
-	*	1484514030	0
-	"	16	21
-	^	14	41
-	.	14	40
-	+	6	4
-	+	4	11
-	+	4	20
-	+	5	8
-	+	9	103
-	+	11	43
-	+	17	0
-	+	14	37
-	+	13	31
-	+	15	23
-	+	16	67
-	+	14	40

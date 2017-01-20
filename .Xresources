@@ -72,7 +72,7 @@ URxvt*color15:                        #DDDDDD
 ! URxvt*pointerColor2:                  color
 ! URxvt*borderColor:                    color
 ! URxvt*iconFile:                       file
-URxvt*font:                           xft:Terminus:size=8
+URxvt*font:                           xft:xos4 Terminus:size=8
 ! URxvt*boldFont:                       fontname
 ! URxvt*italicFont:                     fontname
 ! URxvt*boldItalicFont:                 fontname

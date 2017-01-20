@@ -3,6 +3,7 @@ existing:
         files:
             - .bashrc: /home/jerin/.bashrc
             - .bash_profile: /home/jerin/.bash_profile
+            - .zshrc: /home/jerin/.zshrc
             - .xinitrc: /home/jerin/.xinitrc
             - .xprofile: /home/jerin/.xprofile
             - .Xresources : /home/jerin/.Xresources
@@ -14,6 +15,7 @@ existing:
         folders:
             - .vim: /home/jerin/.vim
             - .emacs.d: /home/jerin/.emacs.d
+            - .shell: /home/jerin/.shell
             - awesome: /home/jerin/.config/awesome
 
     protected:

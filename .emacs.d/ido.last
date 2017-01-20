@@ -2,42 +2,49 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/jerin/itws2/course-admin/src/labs/" . "advanced-emacs/")
  ("/home/jerin/itws2/201401071/solutions/" . "assignment-6/")
  ("/home/jerin/itws2/201401071/" . "solutions/")
  ("/" . "bin/")
  ("/home/jerin/itws2/course-admin/src/assignments/" . "higher-order-functions/")
- ("/home/jerin/itws2/course-admin/src/" . "assignments/")
+ ("/home/jerin/itws2/course-admin/src/" . "labs/")
  ("/home/jerin/itws2/course-admin/" . "src/")
- ("/home/jerin/itws2/" . "sandbox/")
+ ("/home/jerin/itws2/" . "201401071/")
  ("/home/jerin/" . "itws2/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/jerin/itws2/"
+ "/home/jerin/"
+ "/home/jerin/itws2/course-admin/src/labs/advanced-emacs/"
  "/home/jerin/itws2/sandbox/"
  "/home/jerin/itws2/201401071/solutions/assignment-6/"
  "/home/jerin/itws2/sandbox/src/"
- "/home/jerin/"
- "/home/jerin/itws2/"
  "/home/jerin/itws2/201401071/"
  "/home/jerin/itws2/course-admin/src/assignments/higher-order-functions/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "index.org"
+ ".emacs"
  "sample.org"
  "again.org"
  "eval-ast.rkt"
  "new.org"
  "README.md"
- "index.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/jerin/itws2/sandbox/" (22657 1849 747660 546000) "dest/" "source/" "again.org" "src/" "sample.org" "reduce.py" "../" "./")
+ ("/home/jerin/itws2/sandbox/" (22657 38837 56062 785000) "z" "y" "x" "../" "./")
 
- ("/home/jerin/" (22657 8223 234051 893000) ".shuffle" ".gtkrc-2.0" ".Skype/" ".cabal/" ".ghc/" ".histfile" ".zcompdump" ".zshrc" ".python_history" ".gissjava/" ".ncviewrc" ".xsession-errors" ".xsession-errors.old" ".bash_history" ".emacs" ".saves/" "itws2/" ".emacs.keyfreq" ".texlive/" ".xinitrc" ".vimrc" ".muttator/" ".gitconfig" ".lesshst" ".racket/" ".nv/" "environments/" "s17/" ".xprofile" ".nvidia-settings-rc" ".xscreensaver" "Downloads-Persistent/" ".org-timestamps/" "emacs/" ".dc++/" ".emacs.d/" ".javacpp/" ".IdeaIC2016.3/" ".bashrc" ".m2/" "ladder/" "honours/" ".gphoto/" "ml-scrape/" "dwhelper/" ".pki/" ".viminfo" "one-time-open/" ".jupyter/" ".ipython/" ".thumbnails/" ".gimp-2.8/" "Pictures/" ".thunderbird/" ".lldb/" ".purple/" ".Xresources" ".Xauthority" ".wget-hsts" ".vim/" ".ssh/" ".mplayer/" ".mozilla/" ".local/" ".java/" ".icons/" ".gradle/" ".gnupg/" ".fonts.conf" ".fonts/" ".esd_auth" ".dropbox/" ".dmrc" ".bash_profile" ".bash_logout" ".AndroidStudio2.2/" ".android/" ".config/" "repo/" "misc/" "builds/" "Dropbox/" "Downloads/" "Desktop/" ".cache/" "../" "./")
+ ("/home/jerin/" (22657 38648 116070 947000) ".shuffle" ".zcompdump" "dc-share/" ".gtkrc-2.0" ".Skype/" ".cabal/" ".ghc/" ".histfile" ".zshrc" ".python_history" ".gissjava/" ".ncviewrc" ".xsession-errors" ".xsession-errors.old" ".bash_history" ".emacs" ".saves/" "itws2/" ".emacs.keyfreq" ".texlive/" ".xinitrc" ".vimrc" ".muttator/" ".gitconfig" ".lesshst" ".racket/" ".nv/" "environments/" "s17/" ".xprofile" ".nvidia-settings-rc" ".xscreensaver" ".org-timestamps/" "emacs/" ".dc++/" ".emacs.d/" ".javacpp/" ".IdeaIC2016.3/" ".bashrc" ".m2/" "ladder/" "honours/" ".gphoto/" "ml-scrape/" "dwhelper/" ".pki/" ".viminfo" "one-time-open/" ".jupyter/" ".ipython/" ".thumbnails/" ".gimp-2.8/" "Pictures/" ".thunderbird/" ".lldb/" ".purple/" ".Xresources" ".Xauthority" ".wget-hsts" ".vim/" ".ssh/" ".mplayer/" ".mozilla/" ".local/" ".java/" ".icons/" ".gradle/" ".gnupg/" ".fonts.conf" ".fonts/" ".esd_auth" ".dropbox/" ".dmrc" ".bash_profile" ".bash_logout" ".AndroidStudio2.2/" ".android/" ".config/" "repo/" "misc/" "builds/" "Dropbox/" "Downloads/" "Desktop/" ".cache/" "../" "./")
+
+ ("/home/jerin/itws2/course-admin/src/labs/advanced-emacs/" (22657 36236 432841 795000) "index.org" "../" "./")
+
+ ("/home/jerin/itws2/course-admin/src/labs/" (22657 36105 626180 776000) "oops-js/" "intro-to-js/" "emacs-2/" "advanced-emacs/" "index.org" "version-control/" "racket-intro/" "emacs-orgmode/" "../" "./")
 
  ("/home/jerin/itws2/sandbox/src/" (22656 55516 674839 926000) "new.org" "../" "./")
 
