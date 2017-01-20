@@ -46,7 +46,7 @@ def squeeze(options):
 
 def git_update():
     date_string = str(datetime.datetime.utcnow())
-    timestamp = '"%s"'%(date_string)
+    timestamp = '%s'%(date_string)
     cmds = [
         ['git', 'add', '-A'],
         ['git', 'commit', '-m', timestamp],

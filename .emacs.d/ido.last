@@ -9,7 +9,7 @@
  ("/home/jerin/itws2/course-admin/src/assignments/" . "higher-order-functions/")
  ("/home/jerin/itws2/course-admin/src/" . "labs/")
  ("/home/jerin/itws2/course-admin/" . "src/")
- ("/home/jerin/itws2/" . "201401071/")
+ ("/home/jerin/itws2/" . "sandbox/")
  ("/home/jerin/" . "itws2/")
 )
 
@@ -38,9 +38,9 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/jerin/itws2/sandbox/" (22657 38837 56062 785000) "z" "y" "x" "../" "./")
+ ("/home/jerin/itws2/sandbox/" (22657 38970 762723 675000) "src/" "../" "./")
 
- ("/home/jerin/" (22657 38648 116070 947000) ".shuffle" ".zcompdump" "dc-share/" ".gtkrc-2.0" ".Skype/" ".cabal/" ".ghc/" ".histfile" ".zshrc" ".python_history" ".gissjava/" ".ncviewrc" ".xsession-errors" ".xsession-errors.old" ".bash_history" ".emacs" ".saves/" "itws2/" ".emacs.keyfreq" ".texlive/" ".xinitrc" ".vimrc" ".muttator/" ".gitconfig" ".lesshst" ".racket/" ".nv/" "environments/" "s17/" ".xprofile" ".nvidia-settings-rc" ".xscreensaver" ".org-timestamps/" "emacs/" ".dc++/" ".emacs.d/" ".javacpp/" ".IdeaIC2016.3/" ".bashrc" ".m2/" "ladder/" "honours/" ".gphoto/" "ml-scrape/" "dwhelper/" ".pki/" ".viminfo" "one-time-open/" ".jupyter/" ".ipython/" ".thumbnails/" ".gimp-2.8/" "Pictures/" ".thunderbird/" ".lldb/" ".purple/" ".Xresources" ".Xauthority" ".wget-hsts" ".vim/" ".ssh/" ".mplayer/" ".mozilla/" ".local/" ".java/" ".icons/" ".gradle/" ".gnupg/" ".fonts.conf" ".fonts/" ".esd_auth" ".dropbox/" ".dmrc" ".bash_profile" ".bash_logout" ".AndroidStudio2.2/" ".android/" ".config/" "repo/" "misc/" "builds/" "Dropbox/" "Downloads/" "Desktop/" ".cache/" "../" "./")
+ ("/home/jerin/" (22657 52910 901678 729000) ".python_history" ".xsession-errors" ".xsession-errors.old" ".histfile" ".shuffle" ".bashrc" ".zshrc" ".shell/" ".Xresources" ".zcompdump" "dc-share/" ".gtkrc-2.0" ".Skype/" ".cabal/" ".ghc/" ".gissjava/" ".ncviewrc" ".bash_history" ".emacs" ".saves/" "itws2/" ".emacs.keyfreq" ".texlive/" ".xinitrc" ".vimrc" ".muttator/" ".gitconfig" ".lesshst" ".racket/" ".nv/" "environments/" "s17/" ".xprofile" ".nvidia-settings-rc" ".xscreensaver" ".org-timestamps/" "emacs/" ".dc++/" ".emacs.d/" ".javacpp/" ".IdeaIC2016.3/" ".m2/" "ladder/" "honours/" ".gphoto/" "ml-scrape/" "dwhelper/" ".pki/" ".viminfo" "one-time-open/" ".jupyter/" ".ipython/" ".thumbnails/" ".gimp-2.8/" "Pictures/" ".thunderbird/" ".lldb/" ".purple/" ".Xauthority" ".wget-hsts" ".vim/" ".ssh/" ".mplayer/" ".mozilla/" ".local/" ".java/" ".icons/" ".gradle/" ".gnupg/" ".fonts.conf" ".fonts/" ".esd_auth" ".dropbox/" ".dmrc" ".bash_profile" ".bash_logout" ".AndroidStudio2.2/" ".android/" ".config/" "repo/" "misc/" "builds/" "Dropbox/" "Downloads/" "Desktop/" ".cache/" "../" "./")
 
  ("/home/jerin/itws2/course-admin/src/labs/advanced-emacs/" (22657 36236 432841 795000) "index.org" "../" "./")
 

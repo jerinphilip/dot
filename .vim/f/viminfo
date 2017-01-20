@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/font
+~MSle0~/posts
 
 # Last Substitute Search Pattern:
 ~MSle0&_
@@ -20,12 +20,26 @@
 $
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1484889706,,"wq"
-:w
-|2,0,1484889650,,"w"
 :q
-|2,0,1484889595,,"q"
+|2,0,1484907071,,"q"
+:w
+|2,0,1484904127,,"w"
+:colorscheme busybee
+|2,0,1484904050,,"colorscheme busybee"
+:colorscheme behelit
+|2,0,1484904040,,"colorscheme behelit"
+:colorscheme 
+|2,0,1484904033,,"colorscheme "
+:colorscheme  morning
+|2,0,1484904024,,"colorscheme  morning"
+:tabnew .config/awesome/rc.lua
+|2,0,1484892383,,"tabnew .config/awesome/rc.lua"
+:tabnew /etc/xdg/awesome/rc.lua
+|2,0,1484892282,,"tabnew /etc/xdg/awesome/rc.lua"
+:58
+|2,0,1484892212,,"58"
+:wq
+|2,0,1484889787,,"wq"
 :r ~/.bashrc
 |2,0,1484889319,,"r ~/.bashrc"
 :q!
@@ -106,30 +120,34 @@ $
 |2,0,1484659712,,"r !eval"
 :r !partx
 |2,0,1484659703,,"r !partx"
-:%s/    //g
-|2,0,1484647013,,"%s/    //g"
-:%s/Object \[name:\(.*\)\]/\1/g
-|2,0,1484647008,,"%s/Object \\[name:\\(.*\\)\\]/\\1/g"
-:%s/Object [name:\(.*\)]/\1/g
-|2,0,1484646943,,"%s/Object [name:\\(.*\\)]/\\1/g"
-:w objects.txt
-|2,0,1484646904,,"w objects.txt"
-:v/Object/d
-|2,0,1484646883,,"v/Object/d"
-:s/Object [nam
-|2,0,1484646867,,"s/Object [nam"
-:qkk
-|2,0,1484646858,,"qkk"
 
 # Search String History (newest to oldest):
+?/posts
+|2,1,1484894236,47,"posts"
+?/take 3
+|2,1,1484894220,47,"take 3"
+?/count
+|2,1,1484892532,47,"count"
+?/client.connect
+|2,1,1484892498,47,"client.connect"
+?/manage
+|2,1,1484892470,47,"manage"
+?/myprom
+|2,1,1484892395,47,"myprom"
+?/screen
+|2,1,1484892385,47,"screen"
+?/mypro
+|2,1,1484892367,47,"mypro"
+?/mouse
+|2,1,1484892287,47,"mouse"
+? @$
+|2,1,1484889795,,"@$"
 ?/font
 |2,1,1484889076,47,"font"
 ?/terminus
 |2,1,1484889074,47,"terminus"
 ?/PS1
 |2,1,1484888326,47,"PS1"
-? @$
-|2,1,1484881958,,"@$"
 ?/rsyn
 |2,1,1484853556,47,"rsyn"
 ?/remote
@@ -204,24 +222,6 @@ $
 |2,1,1484747653,47,"DataExportHan"
 ?/exportDataElement
 |2,1,1484747648,47,"exportDataElement"
-?/ExportedData
-|2,1,1484747628,47,"ExportedData"
-?/save
-|2,1,1484747596,47,"save"
-?/trainData
-|2,1,1484747540,47,"trainData"
-?/load
-|2,1,1484747475,47,"load"
-?/matrix
-|2,1,1484747439,47,"matrix"
-?/main
-|2,1,1484646513,47,"main"
-?     
-|2,1,1484647013,,"    "
-? Object \[name:\(.*\)\]
-|2,1,1484647008,,"Object \\[name:\\(.*\\)\\]"
-? Object [name:\(.*\)]
-|2,1,1484646943,,"Object [name:\\(.*\\)]"
 
 # Expression History (newest to oldest):
 
@@ -234,20 +234,30 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	export EDITOR='vim'
-	export TERM='xterm-256color'
-|3,0,0,1,2,0,1484889199,"export EDITOR='vim'","export TERM='xterm-256color'"
-""1	LINE	0
+""0	LINE	0
+	    export rsync_proxy=$http_proxy
+|3,1,0,1,1,0,1484904107,"    export rsync_proxy=$http_proxy"
+"1	LINE	0
+	    awful.key({ modkey },            "r",     function () mypromptbox[mouse.screen]:run() end),
 	
-|3,1,1,1,1,0,1484889688,""
+	    awful.key({ modkey }, "x",
+	              function ()
+	                  awful.prompt.run({ prompt = "Run Lua code: " },
+	                  mypromptbox[mouse.screen].widget,
+	                  awful.util.eval, nil,
+	                  awful.util.getdir("cache") .. "/history_eval")
+	              end),
+|3,0,1,1,9,0,1484892349,"    awful.key({ modkey },            \"r\",     function () mypromptbox[mouse.screen]:run() end),","","    awful.key({ modkey }, \"x\",","              function ()","                  awful.prompt.run({ prompt = \"Run Lua code: \" },","                  mypromptbox[mouse.screen].widget,","                  awful.util.eval, nil,","                  awful.util.getdir(\"cache\") .. \"/history_eval\")","              end),"
 "2	LINE	0
 	
-|3,0,2,1,1,0,1484889646,""
+|3,0,2,1,1,0,1484889688,""
 "3	LINE	0
-	alias ls='ls --color=auto'
-|3,0,3,1,1,0,1484889636,"alias ls='ls --color=auto'"
+	
+|3,0,3,1,1,0,1484889646,""
 "4	LINE	0
+	alias ls='ls --color=auto'
+|3,0,4,1,1,0,1484889636,"alias ls='ls --color=auto'"
+"5	LINE	0
 	alias gcc='gcc -Wall -Werror -Wuninitialized'
 	alias g++='g++ -Wall -Werror -Wuninitialized -std=c++14 -D EVIL_DEBUG'
 	alias die='shutdown -P now'
@@ -261,9 +271,9 @@ $
 	
 	alias pastebin='curl -F c=@- https://ptpb.pw'
 	alias du_summary='du -h -d 1 . 2> /dev/null | sort -h'
-|3,0,4,1,13,0,1484889634,"alias gcc='gcc -Wall -Werror -Wuninitialized'","alias g++='g++ -Wall -Werror -Wuninitialized -std=c++14 -D EVIL_DEBUG'","alias die='shutdown -P now'","alias yaourt=\"yaourt --noconfirm\"","","alias glg++='g++ -I/usr/include/libdrm -lGLU -lGL -lglut -lglfw -lGLEW'","alias cvg++=\"g++ `pkg-config --cflags --libs opencv`\"","alias gtk2gcc=\"gcc `pkg-config --cflags --libs gtk+-2.0`\"",>60
+|3,0,5,1,13,0,1484889634,"alias gcc='gcc -Wall -Werror -Wuninitialized'","alias g++='g++ -Wall -Werror -Wuninitialized -std=c++14 -D EVIL_DEBUG'","alias die='shutdown -P now'","alias yaourt=\"yaourt --noconfirm\"","","alias glg++='g++ -I/usr/include/libdrm -lGLU -lGL -lglut -lglfw -lGLEW'","alias cvg++=\"g++ `pkg-config --cflags --libs opencv`\"","alias gtk2gcc=\"gcc `pkg-config --cflags --libs gtk+-2.0`\"",>60
 |<"alias gtkgcc=\"gcc `pkg-config --cflags --libs gtk+-3.0`\"","alias fucking='sudo'","","alias pastebin='curl -F c=@- https://ptpb.pw'","alias du_summary='du -h -d 1 . 2> /dev/null | sort -h'"
-"5	LINE	0
+"6	LINE	0
 	NPM_PACKAGES="${HOME}/.npm-packages"
 	PATH="$NPM_PACKAGES/bin:$PATH"
 	unset MANPATH # delete if you already modified MANPATH elsewhere in your config
@@ -271,8 +281,8 @@ $
 	
 	export JAVA_HOME='/usr/lib/jvm/default/'
 	
-|3,0,5,1,7,0,1484889626,"NPM_PACKAGES=\"${HOME}/.npm-packages\"","PATH=\"$NPM_PACKAGES/bin:$PATH\"","unset MANPATH # delete if you already modified MANPATH elsewhere in your config","export MANPATH=\"$NPM_PACKAGES/share/man:$(manpath)\"","","export JAVA_HOME='/usr/lib/jvm/default/'",""
-"6	LINE	0
+|3,0,6,1,7,0,1484889626,"NPM_PACKAGES=\"${HOME}/.npm-packages\"","PATH=\"$NPM_PACKAGES/bin:$PATH\"","unset MANPATH # delete if you already modified MANPATH elsewhere in your config","export MANPATH=\"$NPM_PACKAGES/share/man:$(manpath)\"","","export JAVA_HOME='/usr/lib/jvm/default/'",""
+"7	LINE	0
 	function proxy_on {
 	    #printf -v no_proxy '%s,' 10.1.{1..255}.{1..255}
 	    export http_proxy="http://proxy.iiit.ac.in:8080"
@@ -290,17 +300,14 @@ $
 	    unset http_proxy https_proxy ftp_proxy no_proxy
 	    unset HTTP_PROXY HTTPS_PROXY FTP_PROXY NO_PROXY
 	}
-|3,0,6,1,17,0,1484889612,"function proxy_on {","    #printf -v no_proxy '%s,' 10.1.{1..255}.{1..255}","    export http_proxy=\"http://proxy.iiit.ac.in:8080\"","    export https_proxy=$http_proxy","    export ftp_proxy=$http_proxy","    export no_proxy=\"localhost,127.0.0.1,.iiit.ac.in,\"","","    export HTTP_PROXY=$http_proxy","    export HTTPS_PROXY=$http_proxy","    export FTP_PROXY=$http_proxy","    export NO_PROXY=$no_proxy","}","","function proxy_off {",>53
+|3,0,7,1,17,0,1484889612,"function proxy_on {","    #printf -v no_proxy '%s,' 10.1.{1..255}.{1..255}","    export http_proxy=\"http://proxy.iiit.ac.in:8080\"","    export https_proxy=$http_proxy","    export ftp_proxy=$http_proxy","    export no_proxy=\"localhost,127.0.0.1,.iiit.ac.in,\"","","    export HTTP_PROXY=$http_proxy","    export HTTPS_PROXY=$http_proxy","    export FTP_PROXY=$http_proxy","    export NO_PROXY=$no_proxy","}","","function proxy_off {",>53
 |<"    unset http_proxy https_proxy ftp_proxy no_proxy","    unset HTTP_PROXY HTTPS_PROXY FTP_PROXY NO_PROXY","}"
-"7	LINE	0
-	#
-|3,0,7,1,1,0,1484889566,"#"
 "8	LINE	0
-	# source 
-|3,0,8,1,1,0,1484889559,"# source "
+	#
+|3,0,8,1,1,0,1484889566,"#"
 "9	LINE	0
-	
-|3,0,9,1,1,0,1484889544,""
+	# source 
+|3,0,9,1,1,0,1484889559,"# source "
 "a@	CHAR	0
 	xxj
 |3,2,10,0,1,0,1484458573,"xxj"
@@ -320,368 +327,291 @@ $
 	O111€kb€kb€kb```shjji```
 |3,0,33,0,1,0,1483683308,"O111€kb€kb€kb```shjji```"
 "-	CHAR	0
-	:
-|3,0,36,0,1,0,1484889468,":"
+	"
+|3,0,36,0,1,0,1484889786,"\""
 
 # File marks:
-'0  18  39  ~/repo/dot/config.yml
-|4,48,18,39,1484889706,"~/repo/dot/config.yml"
-'1  21  0  ~/.bashrc
-|4,49,21,0,1484889666,"~/.bashrc"
-'2  20  21  ~/.zshrc
-|4,50,20,21,1484889577,"~/.zshrc"
-'3  1  0  ~/.shell/env.sh
-|4,51,1,0,1484889545,"~/.shell/env.sh"
-'4  12  0  ~/.bashrc
-|4,52,12,0,1484889525,"~/.bashrc"
-'5  13  0  ~/.bashrc
-|4,53,13,0,1484889525,"~/.bashrc"
-'6  17  11  ~/.zshrc
-|4,54,17,11,1484889469,"~/.zshrc"
-'7  17  11  ~/.zshrc
-|4,55,17,11,1484889469,"~/.zshrc"
-'8  21  15  ~/.zshrc
-|4,56,21,15,1484889394,"~/.zshrc"
-'9  21  15  ~/.zshrc
-|4,57,21,15,1484889394,"~/.zshrc"
+'0  1  0  ~/.shell/proxy.sh
+|4,48,1,0,1484907071,"~/.shell/proxy.sh"
+'1  14  0  ~/itws2/sandbox/course-forum/init.sh
+|4,49,14,0,1484903140,"~/itws2/sandbox/course-forum/init.sh"
+'2  57  0  ~/.cabal/config
+|4,50,57,0,1484894579,"~/.cabal/config"
+'3  1  0  ~/honours/journal/index.html
+|4,51,1,0,1484894330,"~/honours/journal/index.html"
+'4  36  43  ~/honours/journal/site.hs
+|4,52,36,43,1484894251,"~/honours/journal/site.hs"
+'5  290  8  /etc/xdg/awesome/rc.lua
+|4,53,290,8,1484892702,"/etc/xdg/awesome/rc.lua"
+'6  2  0  ~/.shell/env.sh
+|4,54,2,0,1484889799,"~/.shell/env.sh"
+'7  49  19  ~/repo/dot/saviour
+|4,55,49,19,1484889787,"~/repo/dot/saviour"
+'8  1  0  ~/repo/dot/config.yml
+|4,56,1,0,1484889766,"~/repo/dot/config.yml"
+'9  18  39  ~/repo/dot/config.yml
+|4,57,18,39,1484889706,"~/repo/dot/config.yml"
 
 # Jumplist (newest first):
--'  18  39  ~/repo/dot/config.yml
-|4,39,18,39,1484889706,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1484889682,"~/repo/dot/config.yml"
--'  21  0  ~/.bashrc
-|4,39,21,0,1484889666,"~/.bashrc"
--'  21  0  ~/.bashrc
-|4,39,21,0,1484889666,"~/.bashrc"
--'  16  0  ~/.bashrc
-|4,39,16,0,1484889598,"~/.bashrc"
--'  16  0  ~/.bashrc
-|4,39,16,0,1484889598,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1484889584,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1484889584,"~/.bashrc"
--'  20  21  ~/.zshrc
-|4,39,20,21,1484889577,"~/.zshrc"
--'  20  21  ~/.zshrc
-|4,39,20,21,1484889577,"~/.zshrc"
--'  20  21  ~/.zshrc
-|4,39,20,21,1484889577,"~/.zshrc"
--'  20  21  ~/.zshrc
-|4,39,20,21,1484889577,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1484889556,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1484889556,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1484889556,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1484889556,"~/.zshrc"
--'  1  0  ~/.shell/env.sh
-|4,39,1,0,1484889545,"~/.shell/env.sh"
--'  1  0  ~/.shell/env.sh
-|4,39,1,0,1484889545,"~/.shell/env.sh"
--'  1  0  ~/.shell/env.sh
-|4,39,1,0,1484889545,"~/.shell/env.sh"
--'  1  0  ~/.shell/env.sh
-|4,39,1,0,1484889545,"~/.shell/env.sh"
--'  1  0  ~/.shell/env.sh
-|4,39,1,0,1484889545,"~/.shell/env.sh"
--'  1  0  ~/.shell/env.sh
-|4,39,1,0,1484889545,"~/.shell/env.sh"
--'  1  0  ~/.shell/env.sh
-|4,39,1,0,1484889545,"~/.shell/env.sh"
--'  1  0  ~/.shell/env.sh
-|4,39,1,0,1484889545,"~/.shell/env.sh"
--'  12  0  ~/.bashrc
-|4,39,12,0,1484889525,"~/.bashrc"
--'  13  0  ~/.bashrc
-|4,39,13,0,1484889525,"~/.bashrc"
--'  13  0  ~/.bashrc
-|4,39,13,0,1484889525,"~/.bashrc"
--'  13  0  ~/.bashrc
-|4,39,13,0,1484889525,"~/.bashrc"
--'  13  0  ~/.bashrc
-|4,39,13,0,1484889525,"~/.bashrc"
--'  12  0  ~/.bashrc
-|4,39,12,0,1484889525,"~/.bashrc"
--'  13  0  ~/.bashrc
-|4,39,13,0,1484889525,"~/.bashrc"
--'  13  0  ~/.bashrc
-|4,39,13,0,1484889525,"~/.bashrc"
--'  13  0  ~/.bashrc
-|4,39,13,0,1484889525,"~/.bashrc"
--'  13  0  ~/.bashrc
-|4,39,13,0,1484889525,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1484889522,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1484889522,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1484889522,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1484889522,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1484889522,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1484889522,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1484889522,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1484889522,"~/.bashrc"
--'  17  11  ~/.zshrc
-|4,39,17,11,1484889469,"~/.zshrc"
--'  17  11  ~/.zshrc
-|4,39,17,11,1484889469,"~/.zshrc"
--'  17  11  ~/.zshrc
-|4,39,17,11,1484889469,"~/.zshrc"
--'  17  11  ~/.zshrc
-|4,39,17,11,1484889469,"~/.zshrc"
--'  17  11  ~/.zshrc
-|4,39,17,11,1484889469,"~/.zshrc"
--'  17  11  ~/.zshrc
-|4,39,17,11,1484889469,"~/.zshrc"
--'  17  11  ~/.zshrc
-|4,39,17,11,1484889469,"~/.zshrc"
--'  17  11  ~/.zshrc
-|4,39,17,11,1484889469,"~/.zshrc"
--'  17  11  ~/.zshrc
-|4,39,17,11,1484889469,"~/.zshrc"
--'  17  11  ~/.zshrc
-|4,39,17,11,1484889469,"~/.zshrc"
--'  17  11  ~/.zshrc
-|4,39,17,11,1484889469,"~/.zshrc"
--'  17  11  ~/.zshrc
-|4,39,17,11,1484889469,"~/.zshrc"
--'  17  11  ~/.zshrc
-|4,39,17,11,1484889469,"~/.zshrc"
--'  17  11  ~/.zshrc
-|4,39,17,11,1484889469,"~/.zshrc"
--'  17  11  ~/.zshrc
-|4,39,17,11,1484889469,"~/.zshrc"
--'  17  11  ~/.zshrc
-|4,39,17,11,1484889469,"~/.zshrc"
--'  17  11  ~/.zshrc
-|4,39,17,11,1484889469,"~/.zshrc"
--'  17  11  ~/.zshrc
-|4,39,17,11,1484889469,"~/.zshrc"
--'  17  11  ~/.zshrc
-|4,39,17,11,1484889469,"~/.zshrc"
--'  17  11  ~/.zshrc
-|4,39,17,11,1484889469,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1484889464,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1484889464,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1484889464,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1484889464,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1484889464,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1484889464,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1484889464,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1484889464,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1484889464,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1484889464,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1484889464,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1484889464,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1484889464,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1484889464,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1484889464,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1484889464,"~/.zshrc"
--'  21  15  ~/.zshrc
-|4,39,21,15,1484889394,"~/.zshrc"
--'  19  15  ~/.zshrc
-|4,39,19,15,1484889394,"~/.zshrc"
--'  19  15  ~/.zshrc
-|4,39,19,15,1484889394,"~/.zshrc"
--'  19  15  ~/.zshrc
-|4,39,19,15,1484889394,"~/.zshrc"
--'  19  15  ~/.zshrc
-|4,39,19,15,1484889394,"~/.zshrc"
--'  19  15  ~/.zshrc
-|4,39,19,15,1484889394,"~/.zshrc"
--'  19  15  ~/.zshrc
-|4,39,19,15,1484889394,"~/.zshrc"
--'  19  15  ~/.zshrc
-|4,39,19,15,1484889394,"~/.zshrc"
--'  19  15  ~/.zshrc
-|4,39,19,15,1484889394,"~/.zshrc"
--'  21  15  ~/.zshrc
-|4,39,21,15,1484889394,"~/.zshrc"
--'  19  15  ~/.zshrc
-|4,39,19,15,1484889394,"~/.zshrc"
--'  19  15  ~/.zshrc
-|4,39,19,15,1484889394,"~/.zshrc"
--'  19  15  ~/.zshrc
-|4,39,19,15,1484889394,"~/.zshrc"
--'  19  15  ~/.zshrc
-|4,39,19,15,1484889394,"~/.zshrc"
--'  19  15  ~/.zshrc
-|4,39,19,15,1484889394,"~/.zshrc"
--'  19  15  ~/.zshrc
-|4,39,19,15,1484889394,"~/.zshrc"
--'  19  15  ~/.zshrc
-|4,39,19,15,1484889394,"~/.zshrc"
--'  19  15  ~/.zshrc
-|4,39,19,15,1484889394,"~/.zshrc"
--'  21  15  ~/.zshrc
-|4,39,21,15,1484889394,"~/.zshrc"
--'  19  15  ~/.zshrc
-|4,39,19,15,1484889394,"~/.zshrc"
--'  19  15  ~/.zshrc
-|4,39,19,15,1484889394,"~/.zshrc"
--'  19  15  ~/.zshrc
-|4,39,19,15,1484889394,"~/.zshrc"
+-'  1  0  ~/.shell/proxy.sh
+|4,39,1,0,1484907071,"~/.shell/proxy.sh"
+-'  19  0  ~/.shell/proxy.sh
+|4,39,19,0,1484904177,"~/.shell/proxy.sh"
+-'  10  24  ~/.shell/proxy.sh
+|4,39,10,24,1484904176,"~/.shell/proxy.sh"
+-'  14  0  ~/itws2/sandbox/course-forum/init.sh
+|4,39,14,0,1484903140,"~/itws2/sandbox/course-forum/init.sh"
+-'  14  0  ~/itws2/sandbox/course-forum/init.sh
+|4,39,14,0,1484903140,"~/itws2/sandbox/course-forum/init.sh"
+-'  2  0  ~/itws2/sandbox/course-forum/init.sh
+|4,39,2,0,1484903137,"~/itws2/sandbox/course-forum/init.sh"
+-'  2  0  ~/itws2/sandbox/course-forum/init.sh
+|4,39,2,0,1484903137,"~/itws2/sandbox/course-forum/init.sh"
+-'  1  0  ~/itws2/sandbox/course-forum/init.sh
+|4,39,1,0,1484903136,"~/itws2/sandbox/course-forum/init.sh"
+-'  1  0  ~/itws2/sandbox/course-forum/init.sh
+|4,39,1,0,1484903136,"~/itws2/sandbox/course-forum/init.sh"
+-'  57  0  ~/.cabal/config
+|4,39,57,0,1484894579,"~/.cabal/config"
+-'  57  0  ~/.cabal/config
+|4,39,57,0,1484894579,"~/.cabal/config"
+-'  57  0  ~/.cabal/config
+|4,39,57,0,1484894579,"~/.cabal/config"
+-'  57  0  ~/.cabal/config
+|4,39,57,0,1484894579,"~/.cabal/config"
+-'  189  2  ~/.cabal/config
+|4,39,189,2,1484894574,"~/.cabal/config"
+-'  189  2  ~/.cabal/config
+|4,39,189,2,1484894574,"~/.cabal/config"
+-'  189  2  ~/.cabal/config
+|4,39,189,2,1484894574,"~/.cabal/config"
+-'  189  2  ~/.cabal/config
+|4,39,189,2,1484894574,"~/.cabal/config"
+-'  1  0  ~/.cabal/config
+|4,39,1,0,1484894573,"~/.cabal/config"
+-'  1  0  ~/.cabal/config
+|4,39,1,0,1484894573,"~/.cabal/config"
+-'  1  0  ~/.cabal/config
+|4,39,1,0,1484894573,"~/.cabal/config"
+-'  1  0  ~/.cabal/config
+|4,39,1,0,1484894573,"~/.cabal/config"
+-'  1  0  ~/honours/journal/index.html
+|4,39,1,0,1484894330,"~/honours/journal/index.html"
+-'  1  0  ~/honours/journal/index.html
+|4,39,1,0,1484894330,"~/honours/journal/index.html"
+-'  1  0  ~/honours/journal/index.html
+|4,39,1,0,1484894330,"~/honours/journal/index.html"
+-'  1  0  ~/honours/journal/index.html
+|4,39,1,0,1484894330,"~/honours/journal/index.html"
+-'  1  0  ~/honours/journal/index.html
+|4,39,1,0,1484894330,"~/honours/journal/index.html"
+-'  1  0  ~/honours/journal/index.html
+|4,39,1,0,1484894330,"~/honours/journal/index.html"
+-'  1  0  ~/honours/journal/index.html
+|4,39,1,0,1484894330,"~/honours/journal/index.html"
+-'  1  0  ~/honours/journal/index.html
+|4,39,1,0,1484894330,"~/honours/journal/index.html"
+-'  36  43  ~/honours/journal/site.hs
+|4,39,36,43,1484894251,"~/honours/journal/site.hs"
+-'  36  43  ~/honours/journal/site.hs
+|4,39,36,43,1484894251,"~/honours/journal/site.hs"
+-'  36  43  ~/honours/journal/site.hs
+|4,39,36,43,1484894251,"~/honours/journal/site.hs"
+-'  36  43  ~/honours/journal/site.hs
+|4,39,36,43,1484894251,"~/honours/journal/site.hs"
+-'  36  43  ~/honours/journal/site.hs
+|4,39,36,43,1484894251,"~/honours/journal/site.hs"
+-'  36  43  ~/honours/journal/site.hs
+|4,39,36,43,1484894251,"~/honours/journal/site.hs"
+-'  36  43  ~/honours/journal/site.hs
+|4,39,36,43,1484894251,"~/honours/journal/site.hs"
+-'  36  43  ~/honours/journal/site.hs
+|4,39,36,43,1484894251,"~/honours/journal/site.hs"
+-'  36  43  ~/honours/journal/site.hs
+|4,39,36,43,1484894251,"~/honours/journal/site.hs"
+-'  36  43  ~/honours/journal/site.hs
+|4,39,36,43,1484894251,"~/honours/journal/site.hs"
+-'  36  43  ~/honours/journal/site.hs
+|4,39,36,43,1484894251,"~/honours/journal/site.hs"
+-'  36  43  ~/honours/journal/site.hs
+|4,39,36,43,1484894251,"~/honours/journal/site.hs"
+-'  36  43  ~/honours/journal/site.hs
+|4,39,36,43,1484894251,"~/honours/journal/site.hs"
+-'  36  43  ~/honours/journal/site.hs
+|4,39,36,43,1484894251,"~/honours/journal/site.hs"
+-'  36  43  ~/honours/journal/site.hs
+|4,39,36,43,1484894251,"~/honours/journal/site.hs"
+-'  36  43  ~/honours/journal/site.hs
+|4,39,36,43,1484894251,"~/honours/journal/site.hs"
+-'  34  12  ~/honours/journal/site.hs
+|4,39,34,12,1484894250,"~/honours/journal/site.hs"
+-'  29  23  ~/honours/journal/site.hs
+|4,39,29,23,1484894250,"~/honours/journal/site.hs"
+-'  28  19  ~/honours/journal/site.hs
+|4,39,28,19,1484894250,"~/honours/journal/site.hs"
+-'  34  12  ~/honours/journal/site.hs
+|4,39,34,12,1484894250,"~/honours/journal/site.hs"
+-'  29  23  ~/honours/journal/site.hs
+|4,39,29,23,1484894250,"~/honours/journal/site.hs"
+-'  28  19  ~/honours/journal/site.hs
+|4,39,28,19,1484894250,"~/honours/journal/site.hs"
+-'  34  12  ~/honours/journal/site.hs
+|4,39,34,12,1484894250,"~/honours/journal/site.hs"
+-'  29  23  ~/honours/journal/site.hs
+|4,39,29,23,1484894250,"~/honours/journal/site.hs"
+-'  28  19  ~/honours/journal/site.hs
+|4,39,28,19,1484894250,"~/honours/journal/site.hs"
+-'  34  12  ~/honours/journal/site.hs
+|4,39,34,12,1484894250,"~/honours/journal/site.hs"
+-'  29  23  ~/honours/journal/site.hs
+|4,39,29,23,1484894250,"~/honours/journal/site.hs"
+-'  28  19  ~/honours/journal/site.hs
+|4,39,28,19,1484894250,"~/honours/journal/site.hs"
+-'  34  12  ~/honours/journal/site.hs
+|4,39,34,12,1484894250,"~/honours/journal/site.hs"
+-'  29  23  ~/honours/journal/site.hs
+|4,39,29,23,1484894250,"~/honours/journal/site.hs"
+-'  28  19  ~/honours/journal/site.hs
+|4,39,28,19,1484894250,"~/honours/journal/site.hs"
+-'  34  12  ~/honours/journal/site.hs
+|4,39,34,12,1484894250,"~/honours/journal/site.hs"
+-'  29  23  ~/honours/journal/site.hs
+|4,39,29,23,1484894250,"~/honours/journal/site.hs"
+-'  28  19  ~/honours/journal/site.hs
+|4,39,28,19,1484894250,"~/honours/journal/site.hs"
+-'  34  12  ~/honours/journal/site.hs
+|4,39,34,12,1484894250,"~/honours/journal/site.hs"
+-'  29  23  ~/honours/journal/site.hs
+|4,39,29,23,1484894250,"~/honours/journal/site.hs"
+-'  28  19  ~/honours/journal/site.hs
+|4,39,28,19,1484894250,"~/honours/journal/site.hs"
+-'  34  12  ~/honours/journal/site.hs
+|4,39,34,12,1484894250,"~/honours/journal/site.hs"
+-'  29  23  ~/honours/journal/site.hs
+|4,39,29,23,1484894250,"~/honours/journal/site.hs"
+-'  28  19  ~/honours/journal/site.hs
+|4,39,28,19,1484894250,"~/honours/journal/site.hs"
+-'  34  12  ~/honours/journal/site.hs
+|4,39,34,12,1484894250,"~/honours/journal/site.hs"
+-'  29  23  ~/honours/journal/site.hs
+|4,39,29,23,1484894250,"~/honours/journal/site.hs"
+-'  28  19  ~/honours/journal/site.hs
+|4,39,28,19,1484894250,"~/honours/journal/site.hs"
+-'  34  12  ~/honours/journal/site.hs
+|4,39,34,12,1484894250,"~/honours/journal/site.hs"
+-'  29  23  ~/honours/journal/site.hs
+|4,39,29,23,1484894250,"~/honours/journal/site.hs"
+-'  28  19  ~/honours/journal/site.hs
+|4,39,28,19,1484894250,"~/honours/journal/site.hs"
+-'  34  12  ~/honours/journal/site.hs
+|4,39,34,12,1484894250,"~/honours/journal/site.hs"
+-'  29  23  ~/honours/journal/site.hs
+|4,39,29,23,1484894250,"~/honours/journal/site.hs"
+-'  28  19  ~/honours/journal/site.hs
+|4,39,28,19,1484894250,"~/honours/journal/site.hs"
+-'  34  12  ~/honours/journal/site.hs
+|4,39,34,12,1484894250,"~/honours/journal/site.hs"
+-'  29  23  ~/honours/journal/site.hs
+|4,39,29,23,1484894250,"~/honours/journal/site.hs"
+-'  28  19  ~/honours/journal/site.hs
+|4,39,28,19,1484894250,"~/honours/journal/site.hs"
+-'  34  12  ~/honours/journal/site.hs
+|4,39,34,12,1484894250,"~/honours/journal/site.hs"
+-'  29  23  ~/honours/journal/site.hs
+|4,39,29,23,1484894250,"~/honours/journal/site.hs"
+-'  28  19  ~/honours/journal/site.hs
+|4,39,28,19,1484894250,"~/honours/journal/site.hs"
+-'  34  12  ~/honours/journal/site.hs
+|4,39,34,12,1484894250,"~/honours/journal/site.hs"
+-'  29  23  ~/honours/journal/site.hs
+|4,39,29,23,1484894250,"~/honours/journal/site.hs"
+-'  28  19  ~/honours/journal/site.hs
+|4,39,28,19,1484894250,"~/honours/journal/site.hs"
+-'  34  12  ~/honours/journal/site.hs
+|4,39,34,12,1484894250,"~/honours/journal/site.hs"
+-'  29  23  ~/honours/journal/site.hs
+|4,39,29,23,1484894250,"~/honours/journal/site.hs"
+-'  28  19  ~/honours/journal/site.hs
+|4,39,28,19,1484894250,"~/honours/journal/site.hs"
+-'  34  12  ~/honours/journal/site.hs
+|4,39,34,12,1484894250,"~/honours/journal/site.hs"
+-'  29  23  ~/honours/journal/site.hs
+|4,39,29,23,1484894250,"~/honours/journal/site.hs"
+-'  28  19  ~/honours/journal/site.hs
+|4,39,28,19,1484894250,"~/honours/journal/site.hs"
+-'  74  12  ~/honours/journal/site.hs
+|4,39,74,12,1484894248,"~/honours/journal/site.hs"
+-'  74  12  ~/honours/journal/site.hs
+|4,39,74,12,1484894248,"~/honours/journal/site.hs"
+-'  74  12  ~/honours/journal/site.hs
+|4,39,74,12,1484894248,"~/honours/journal/site.hs"
+-'  74  12  ~/honours/journal/site.hs
+|4,39,74,12,1484894248,"~/honours/journal/site.hs"
+-'  74  12  ~/honours/journal/site.hs
+|4,39,74,12,1484894248,"~/honours/journal/site.hs"
+-'  74  12  ~/honours/journal/site.hs
+|4,39,74,12,1484894248,"~/honours/journal/site.hs"
+-'  74  12  ~/honours/journal/site.hs
+|4,39,74,12,1484894248,"~/honours/journal/site.hs"
 
 # History of marks within files (newest to oldest):
 
-> ~/repo/dot/config.yml
-	*	1484889704	0
-	"	18	39
-	^	18	40
-	.	18	39
-	+	19	14
-	+	1	2
-	+	13	0
+> ~/.shell/proxy.sh
+	*	1484907071	0
+	"	1	0
+	^	7	34
+	.	13	24
+	+	1	0
 	+	20	0
-	+	25	0
-	+	29	8
-	+	29	0
-	+	12	40
-	+	17	43
-	+	14	62
-	+	5	0
-	+	6	39
-	+	18	39
+	+	1	0
+	+	20	0
+	+	7	33
+	+	13	24
 
-> ~/.bashrc
-	*	1484889665	0
-	"	21	0
-	^	14	26
-	.	15	0
-	+	28	0
-	+	22	8
-	+	18	0
-	+	19	23
-	+	28	0
-	+	15	0
-	+	8	0
-	+	14	25
-	+	15	0
+> ~/itws2/sandbox/course-forum/init.sh
+	*	1484903138	0
+	"	14	0
 
-> ~/.zshrc
-	*	1484889576	0
-	"	20	21
-	^	20	22
-	.	20	21
-	+	16	0
-	+	17	17
-	+	22	23
-	+	25	25
-	+	26	0
-	+	23	0
-	+	24	0
-	+	21	15
-	+	17	11
-	+	22	0
-	+	21	0
-	+	20	21
+> ~/.cabal/config
+	*	1484894578	0
+	"	57	0
+
+> ~/honours/journal/index.html
+	*	1484894330	0
+	"	1	0
+
+> ~/honours/journal/site.hs
+	*	1484894250	0
+	"	36	43
+
+> /etc/xdg/awesome/rc.lua
+	*	1484892701	0
+	"	290	8
+
+> ~/.config/awesome/rc.lua
+	*	1484892701	0
+	"	1	0
+
+> ~/.config/awesome/keys.lua
+	*	1484892700	0
+	"	57	12
+	.	58	0
+	+	58	0
+	m	63	18
 
 > ~/.shell/env.sh
-	*	1484889544	0
-	"	1	0
+	*	1484889798	0
+	"	2	0
 	^	2	28
 	.	1	0
 	+	2	27
 	+	1	0
 
-> ~/.shell/aliases.sh
-	*	1484889363	0
-	"	13	0
-	.	15	0
-	+	1	0
-	+	15	19
-	+	15	0
-	+	1	0
-	+	15	0
-
-> ~/.shell/proxy.sh
-	*	1484889284	0
-	"	17	0
-	.	18	0
-	+	1	0
-	+	18	0
-	+	1	0
-	+	18	0
-
-> ~/.zshenv
-	*	1484889210	0
-	"	1	0
-	^	1	5
-	.	1	0
-	+	1	0
-
-> ~/.Xresources
-	*	1484889082	0
-	"	75	46
-	^	75	47
-	.	75	46
-	+	75	46
-
-> ~/ls
-	*	1484888919	0
-	"	1	0
-
-> ~/.emacs
-	*	1484884478	0
-	"	455	0
-
-> ~/.config/gtk-3.0/gtk.css
-	*	1484881990	0
-	"	1	0
-	^	4	0
-	.	2	0
-	+	1	14
-	+	4	0
-	+	3	0
-	+	2	0
-
-> ~/.config/gtk-3.0/settings.ini
-	*	1484881960	0
-	"	1	0
-
-> ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
-	*	1484857650	0
-	"	9	0
-
-> ~/repo/Indic-Keyboard/Android.mk
-	*	1484857627	0
-	"	1	0
-
-> ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
-	*	1484857612	0
-	"	38	0
-
 > ~/repo/dot/saviour
-	*	1484857369	0
-	"	30	62
+	*	1484889787	0
+	"	49	19
 	^	30	63
-	.	30	62
-	+	72	0
+	.	49	19
 	+	72	35
 	+	72	0
 	+	72	37
@@ -781,6 +711,117 @@ $
 	+	46	0
 	+	53	36
 	+	30	62
+	+	49	19
+
+> ~/repo/dot/config.yml
+	*	1484889766	0
+	"	1	0
+	^	18	40
+	.	18	39
+	+	19	14
+	+	1	2
+	+	13	0
+	+	20	0
+	+	25	0
+	+	29	8
+	+	29	0
+	+	12	40
+	+	17	43
+	+	14	62
+	+	5	0
+	+	6	39
+	+	18	39
+
+> ~/.bashrc
+	*	1484889665	0
+	"	21	0
+	^	14	26
+	.	15	0
+	+	28	0
+	+	22	8
+	+	18	0
+	+	19	23
+	+	28	0
+	+	15	0
+	+	8	0
+	+	14	25
+	+	15	0
+
+> ~/.zshrc
+	*	1484889576	0
+	"	20	21
+	^	20	22
+	.	20	21
+	+	16	0
+	+	17	17
+	+	22	23
+	+	25	25
+	+	26	0
+	+	23	0
+	+	24	0
+	+	21	15
+	+	17	11
+	+	22	0
+	+	21	0
+	+	20	21
+
+> ~/.shell/aliases.sh
+	*	1484889363	0
+	"	13	0
+	.	15	0
+	+	1	0
+	+	15	19
+	+	15	0
+	+	1	0
+	+	15	0
+
+> ~/.zshenv
+	*	1484889210	0
+	"	1	0
+	^	1	5
+	.	1	0
+	+	1	0
+
+> ~/.Xresources
+	*	1484889082	0
+	"	75	46
+	^	75	47
+	.	75	46
+	+	75	46
+
+> ~/ls
+	*	1484888919	0
+	"	1	0
+
+> ~/.emacs
+	*	1484884478	0
+	"	455	0
+
+> ~/.config/gtk-3.0/gtk.css
+	*	1484881990	0
+	"	1	0
+	^	4	0
+	.	2	0
+	+	1	14
+	+	4	0
+	+	3	0
+	+	2	0
+
+> ~/.config/gtk-3.0/settings.ini
+	*	1484881960	0
+	"	1	0
+
+> ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_latin_DicTraverseSession.cpp
+	*	1484857650	0
+	"	9	0
+
+> ~/repo/Indic-Keyboard/Android.mk
+	*	1484857627	0
+	"	1	0
+
+> ~/repo/Indic-Keyboard/native/jni/com_android_inputmethod_keyboard_ProximityInfo.cpp
+	*	1484857612	0
+	"	38	0
 
 > ~/repo/blog/source/jerinphilip-github-io.cabal
 	*	1484857220	0
@@ -1511,31 +1552,3 @@ $
 > ~/honours/nnl_ndim_toolkit/nnl_ndim-2.0/nn/engine/GradientTest.
 	*	1484630140	0
 	"	1	0
-
-> ~/honours/nnl_ndim_toolkit/nnl_ndim-2.0/nn/engine/Word.cpp
-	*	1484630044	0
-	"	1	0
-
-> ~/honours/nnl_ndim_toolkit/nnl_ndim-2.0/nn/engine/ClassificationOutputLayer.cpp
-	*	1484629892	0
-	"	1	0
-
-> ~/honours/nnl_ndim_toolkit/nnl_ndim-2.0/nn/engine/BlockLayer.cpp
-	*	1484629890	0
-	"	1	0
-
-> ~/honours/nnl_ndim_toolkit/nnl_ndim-2.0/nn/engine/BiasLayer.cpp
-	*	1484629889	0
-	"	46	0
-
-> ~/honours/nnl_ndim_toolkit/nnl_ndim-2.0/nn/engine/ExportParam.cpp
-	*	1484629882	0
-	"	1	0
-
-> ~/honours/nnl_ndim_toolkit/nnl_ndim-2.0/nn/engine/ExportVect.cpp
-	*	1484629882	0
-	"	1	0
-
-> ~/honours/nnl_ndim_toolkit/nnl_ndim-2.0/LICENSE
-	*	1484629745	0
-	"	19	0
