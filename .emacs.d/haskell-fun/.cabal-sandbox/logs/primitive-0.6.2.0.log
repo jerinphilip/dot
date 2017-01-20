@@ -1,0 +1,27 @@
+cabal: Entering directory '/tmp/cabal-tmp-1853/primitive-0.6.2.0'
+Configuring primitive-0.6.2.0...
+Building primitive-0.6.2.0...
+Preprocessing library primitive-0.6.2.0...
+[ 1 of 12] Compiling Data.Primitive.Internal.Compat ( Data/Primitive/Internal/Compat.hs, dist/dist-sandbox-e3bdd93b/build/Data/Primitive/Internal/Compat.o )
+[ 2 of 12] Compiling Data.Primitive.MachDeps ( Data/Primitive/MachDeps.hs, dist/dist-sandbox-e3bdd93b/build/Data/Primitive/MachDeps.o )
+[ 3 of 12] Compiling Data.Primitive.Internal.Operations ( Data/Primitive/Internal/Operations.hs, dist/dist-sandbox-e3bdd93b/build/Data/Primitive/Internal/Operations.o )
+[ 4 of 12] Compiling Control.Monad.Primitive ( Control/Monad/Primitive.hs, dist/dist-sandbox-e3bdd93b/build/Control/Monad/Primitive.o )
+
+Control/Monad/Primitive.hs:47:1: warning: [-Wdeprecations]
+    Module ‘Control.Monad.Trans.Error’ is deprecated:
+      Use Control.Monad.Trans.Except instead
+
+Control/Monad/Primitive.hs:109:11: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘Error’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+Control/Monad/Primitive.hs:109:47: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+Control/Monad/Primitive.hs:110:19: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"

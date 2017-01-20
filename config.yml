@@ -12,6 +12,9 @@ existing:
             - .emacs : /home/jerin/.emacs
             - .fonts.conf: /home/jerin/.fonts.conf
             - .gtk-3.0.css: /home/jerin/.config/gtk-3.0/gtk.css
+            - xmonad.hs: /home/jerin/.xmonad/xmonad.hs
+            - .stalonetrayrc: /home/jerin/.stalonetrayrc
+            - .xmobarrc: /home/jerin/.xmobarrc
         folders:
             - .vim: /home/jerin/.vim
             - .emacs.d: /home/jerin/.emacs.d

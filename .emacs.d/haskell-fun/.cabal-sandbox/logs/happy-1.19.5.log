@@ -1,0 +1,51 @@
+cabal: Entering directory '/tmp/cabal-tmp-1477/happy-1.19.5'
+[1 of 1] Compiling Main             ( /tmp/cabal-tmp-1477/happy-1.19.5/dist/dist-sandbox-e3bdd93b/setup/setup.hs, /tmp/cabal-tmp-1477/happy-1.19.5/dist/dist-sandbox-e3bdd93b/setup/Main.o )
+Linking /tmp/cabal-tmp-1477/happy-1.19.5/dist/dist-sandbox-e3bdd93b/setup/setup ...
+Configuring happy-1.19.5...
+Building happy-1.19.5...
+Preprocessing executable 'happy' for happy-1.19.5...
+[ 1 of 18] Compiling GenUtils         ( src/GenUtils.lhs, dist/dist-sandbox-e3bdd93b/build/happy/happy-tmp/GenUtils.o )
+[ 2 of 18] Compiling Target           ( src/Target.lhs, dist/dist-sandbox-e3bdd93b/build/happy/happy-tmp/Target.o )
+[ 3 of 18] Compiling AbsSyn           ( src/AbsSyn.lhs, dist/dist-sandbox-e3bdd93b/build/happy/happy-tmp/AbsSyn.o )
+[ 4 of 18] Compiling ParamRules       ( src/ParamRules.hs, dist/dist-sandbox-e3bdd93b/build/happy/happy-tmp/ParamRules.o )
+
+src/ParamRules.hs:5:1: warning: [-Wdeprecations]
+    Module ‘Control.Monad.Error’ is deprecated:
+      Use Control.Monad.Except instead
+
+src/ParamRules.hs:6:1: warning: [-Wdeprecations]
+    Module ‘Control.Monad.Instances’ is deprecated:
+      This module now contains no instances and will be removed in the future
+
+src/ParamRules.hs:31:17: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Error, but defined in transformers-0.5.2.0:Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+src/ParamRules.hs:71:10: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Error, but defined in transformers-0.5.2.0:Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+src/ParamRules.hs:72:27: warning: [-Wdeprecations]
+    In the use of ‘runErrorT’
+    (imported from Control.Monad.Error, but defined in transformers-0.5.2.0:Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+[ 5 of 18] Compiling ParseMonad       ( src/ParseMonad.hs, dist/dist-sandbox-e3bdd93b/build/happy/happy-tmp/ParseMonad.o )
+[ 6 of 18] Compiling AttrGrammar      ( src/AttrGrammar.lhs, dist/dist-sandbox-e3bdd93b/build/happy/happy-tmp/AttrGrammar.o )
+[ 7 of 18] Compiling AttrGrammarParser ( dist/dist-sandbox-e3bdd93b/build/happy/happy-tmp/AttrGrammarParser.hs, dist/dist-sandbox-e3bdd93b/build/happy/happy-tmp/AttrGrammarParser.o )
+[ 8 of 18] Compiling Grammar          ( src/Grammar.lhs, dist/dist-sandbox-e3bdd93b/build/happy/happy-tmp/Grammar.o )
+[ 9 of 18] Compiling Paths_happy      ( dist/dist-sandbox-e3bdd93b/build/autogen/Paths_happy.hs, dist/dist-sandbox-e3bdd93b/build/happy/happy-tmp/Paths_happy.o )
+[10 of 18] Compiling ProduceCode      ( src/ProduceCode.lhs, dist/dist-sandbox-e3bdd93b/build/happy/happy-tmp/ProduceCode.o )
+[11 of 18] Compiling ProduceGLRCode   ( src/ProduceGLRCode.lhs, dist/dist-sandbox-e3bdd93b/build/happy/happy-tmp/ProduceGLRCode.o )
+[12 of 18] Compiling Lexer            ( src/Lexer.lhs, dist/dist-sandbox-e3bdd93b/build/happy/happy-tmp/Lexer.o )
+[13 of 18] Compiling Parser           ( dist/dist-sandbox-e3bdd93b/build/happy/happy-tmp/Parser.hs, dist/dist-sandbox-e3bdd93b/build/happy/happy-tmp/Parser.o )
+[14 of 18] Compiling NameSet          ( src/NameSet.hs, dist/dist-sandbox-e3bdd93b/build/happy/happy-tmp/NameSet.o )
+[15 of 18] Compiling First            ( src/First.lhs, dist/dist-sandbox-e3bdd93b/build/happy/happy-tmp/First.o )
+[16 of 18] Compiling LALR             ( src/LALR.lhs, dist/dist-sandbox-e3bdd93b/build/happy/happy-tmp/LALR.o )
+[17 of 18] Compiling Info             ( src/Info.lhs, dist/dist-sandbox-e3bdd93b/build/happy/happy-tmp/Info.o )
+[18 of 18] Compiling Main             ( src/Main.lhs, dist/dist-sandbox-e3bdd93b/build/happy/happy-tmp/Main.o )
+Linking dist/dist-sandbox-e3bdd93b/build/happy/happy ...
+Installing executable(s) in
+/home/jerin/.emacs.d/haskell-fun/.cabal-sandbox/bin
+cabal: Leaving directory '/tmp/cabal-tmp-1477/happy-1.19.5'

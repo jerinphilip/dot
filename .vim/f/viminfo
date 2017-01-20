@@ -11,19 +11,39 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/posts
+~MSle0/5
 
 # Last Substitute Search Pattern:
-~MSle0&_
+~MSle0~&extraKey
 
 # Last Substitute String:
-$
+$ExtraKey
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1484907071,,"q"
+:wq
+|2,0,1484934625,,"wq"
 :w
-|2,0,1484904127,,"w"
+|2,0,1484934598,,"w"
+:q
+|2,0,1484934343,,"q"
+:%s/extraKey/ExtraKey/g
+|2,0,1484933416,,"%s/extraKey/ExtraKey/g"
+:qkk
+|2,0,1484933214,,"qkk"
+:%s/PCM/Master
+|2,0,1484932044,,"%s/PCM/Master"
+:27
+|2,0,1484931905,,"27"
+:set paste
+|2,0,1484931843,,"set paste"
+:q!
+|2,0,1484930556,,"q!"
+:36
+|2,0,1484929851,,"36"
+::91
+|2,0,1484929843,,":91"
+:tabnew ~/.xmobarrc
+|2,0,1484928890,,"tabnew ~/.xmobarrc"
 :colorscheme busybee
 |2,0,1484904050,,"colorscheme busybee"
 :colorscheme behelit
@@ -38,20 +58,14 @@ $
 |2,0,1484892282,,"tabnew /etc/xdg/awesome/rc.lua"
 :58
 |2,0,1484892212,,"58"
-:wq
-|2,0,1484889787,,"wq"
 :r ~/.bashrc
 |2,0,1484889319,,"r ~/.bashrc"
-:q!
-|2,0,1484889211,,"q!"
 :split ~/.bashrc
 |2,0,1484888215,,"split ~/.bashrc"
 :tabnew config.yml
 |2,0,1484851803,,"tabnew config.yml"
 :set nopaste
 |2,0,1484849994,,"set nopaste"
-:set paste
-|2,0,1484849985,,"set paste"
 :set textwidth
 |2,0,1484762800,,"set textwidth"
 :set
@@ -106,22 +120,26 @@ $
 |2,0,1484738266,,"visual"
 :set textwidth=72
 |2,0,1484738261,,"set textwidth=72"
-:set wrap=
-|2,0,1484738126,,"set wrap="
-:tabnew eval-ast.rkt
-|2,0,1484663907,,"tabnew eval-ast.rkt"
-:tabnew ast.rkt
-|2,0,1484663667,,"tabnew ast.rkt"
-:tabnew gen-dot.rkt
-|2,0,1484660027,,"tabnew gen-dot.rkt"
-:split eval-ast.rkt
-|2,0,1484659717,,"split eval-ast.rkt"
-:r !eval
-|2,0,1484659712,,"r !eval"
-:r !partx
-|2,0,1484659703,,"r !partx"
 
 # Search String History (newest to oldest):
+? extraKey
+|2,1,1484933416,,"extraKey"
+?/5
+|2,1,1484932342,47,"5"
+? PCM
+|2,1,1484932044,,"PCM"
+??>
+|2,1,1484931969,63,">"
+? @$
+|2,1,1484930547,,"@$"
+?/hput
+|2,1,1484928278,47,"hput"
+?/dyn
+|2,1,1484928262,47,"dyn"
+?/g++
+|2,1,1484925403,47,"g++"
+?/"Vect
+|2,1,1484924898,47,"\"Vect"
 ?/posts
 |2,1,1484894236,47,"posts"
 ?/take 3
@@ -140,8 +158,6 @@ $
 |2,1,1484892367,47,"mypro"
 ?/mouse
 |2,1,1484892287,47,"mouse"
-? @$
-|2,1,1484889795,,"@$"
 ?/font
 |2,1,1484889076,47,"font"
 ?/terminus
@@ -206,22 +222,6 @@ $
 |2,1,1484750801,47,"biasLay"
 ?/BiasLay
 |2,1,1484750798,47,"BiasLay"
-?/subnet
-|2,1,1484750352,47,"subnet"
-?/TODO
-|2,1,1484750216,47,"TODO"
-?/Object
-|2,1,1484750022,47,"Object"
-?/wtCh
-|2,1,1484750005,47,"wtCh"
-?/MS
-|2,1,1484747837,47,"MS"
-?/MSP
-|2,1,1484747818,47,"MSP"
-?/DataExportHan
-|2,1,1484747653,47,"DataExportHan"
-?/exportDataElement
-|2,1,1484747648,47,"exportDataElement"
 
 # Expression History (newest to oldest):
 
@@ -234,80 +234,40 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
-	    export rsync_proxy=$http_proxy
-|3,1,0,1,1,0,1484904107,"    export rsync_proxy=$http_proxy"
+"0	LINE	0
+	            ((mod4Mask, xK_b), spawn "firefox"),
+|3,0,0,1,1,0,1484933817,"            ((mod4Mask, xK_b), spawn \"firefox\"),"
 "1	LINE	0
-	    awful.key({ modkey },            "r",     function () mypromptbox[mouse.screen]:run() end),
-	
-	    awful.key({ modkey }, "x",
-	              function ()
-	                  awful.prompt.run({ prompt = "Run Lua code: " },
-	                  mypromptbox[mouse.screen].widget,
-	                  awful.util.eval, nil,
-	                  awful.util.getdir("cache") .. "/history_eval")
-	              end),
-|3,0,1,1,9,0,1484892349,"    awful.key({ modkey },            \"r\",     function () mypromptbox[mouse.screen]:run() end),","","    awful.key({ modkey }, \"x\",","              function ()","                  awful.prompt.run({ prompt = \"Run Lua code: \" },","                  mypromptbox[mouse.screen].widget,","                  awful.util.eval, nil,","                  awful.util.getdir(\"cache\") .. \"/history_eval\")","              end),"
+	            - .
+|3,0,1,1,1,0,1484934579,"            - ."
 "2	LINE	0
-	
-|3,0,2,1,1,0,1484889688,""
+	    
+|3,0,2,1,1,0,1484934085,"    "
 "3	LINE	0
-	
-|3,0,3,1,1,0,1484889646,""
+				-- XF86AudioMute
+|3,0,3,1,1,0,1484933590,"			-- XF86AudioMute"
 "4	LINE	0
-	alias ls='ls --color=auto'
-|3,0,4,1,1,0,1484889636,"alias ls='ls --color=auto'"
+				-- XF86AudioMute
+				((0 , ExtraKey.xF86XK_AudioMute), spawn "amixer -q set Master toggle"),
+|3,0,4,1,2,0,1484933588,"			-- XF86AudioMute","			((0 , ExtraKey.xF86XK_AudioMute), spawn \"amixer -q set Master toggle\"),"
 "5	LINE	0
-	alias gcc='gcc -Wall -Werror -Wuninitialized'
-	alias g++='g++ -Wall -Werror -Wuninitialized -std=c++14 -D EVIL_DEBUG'
-	alias die='shutdown -P now'
-	alias yaourt="yaourt --noconfirm"
-	
-	alias glg++='g++ -I/usr/include/libdrm -lGLU -lGL -lglut -lglfw -lGLEW'
-	alias cvg++="g++ `pkg-config --cflags --libs opencv`"
-	alias gtk2gcc="gcc `pkg-config --cflags --libs gtk+-2.0`"
-	alias gtkgcc="gcc `pkg-config --cflags --libs gtk+-3.0`"
-	alias fucking='sudo'
-	
-	alias pastebin='curl -F c=@- https://ptpb.pw'
-	alias du_summary='du -h -d 1 . 2> /dev/null | sort -h'
-|3,0,5,1,13,0,1484889634,"alias gcc='gcc -Wall -Werror -Wuninitialized'","alias g++='g++ -Wall -Werror -Wuninitialized -std=c++14 -D EVIL_DEBUG'","alias die='shutdown -P now'","alias yaourt=\"yaourt --noconfirm\"","","alias glg++='g++ -I/usr/include/libdrm -lGLU -lGL -lglut -lglfw -lGLEW'","alias cvg++=\"g++ `pkg-config --cflags --libs opencv`\"","alias gtk2gcc=\"gcc `pkg-config --cflags --libs gtk+-2.0`\"",>60
-|<"alias gtkgcc=\"gcc `pkg-config --cflags --libs gtk+-3.0`\"","alias fucking='sudo'","","alias pastebin='curl -F c=@- https://ptpb.pw'","alias du_summary='du -h -d 1 . 2> /dev/null | sort -h'"
+				-- XF86AudioLowerVolume
+|3,0,5,1,1,0,1484933587,"			-- XF86AudioLowerVolume"
 "6	LINE	0
-	NPM_PACKAGES="${HOME}/.npm-packages"
-	PATH="$NPM_PACKAGES/bin:$PATH"
-	unset MANPATH # delete if you already modified MANPATH elsewhere in your config
-	export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
-	
-	export JAVA_HOME='/usr/lib/jvm/default/'
-	
-|3,0,6,1,7,0,1484889626,"NPM_PACKAGES=\"${HOME}/.npm-packages\"","PATH=\"$NPM_PACKAGES/bin:$PATH\"","unset MANPATH # delete if you already modified MANPATH elsewhere in your config","export MANPATH=\"$NPM_PACKAGES/share/man:$(manpath)\"","","export JAVA_HOME='/usr/lib/jvm/default/'",""
+				-- XF86AudioRaiseVolume
+|3,0,6,1,1,0,1484933585,"			-- XF86AudioRaiseVolume"
 "7	LINE	0
-	function proxy_on {
-	    #printf -v no_proxy '%s,' 10.1.{1..255}.{1..255}
-	    export http_proxy="http://proxy.iiit.ac.in:8080"
-	    export https_proxy=$http_proxy
-	    export ftp_proxy=$http_proxy
-	    export no_proxy="localhost,127.0.0.1,.iiit.ac.in,"
-	
-	    export HTTP_PROXY=$http_proxy
-	    export HTTPS_PROXY=$http_proxy
-	    export FTP_PROXY=$http_proxy
-	    export NO_PROXY=$no_proxy
-	}
-	
-	function proxy_off {
-	    unset http_proxy https_proxy ftp_proxy no_proxy
-	    unset HTTP_PROXY HTTPS_PROXY FTP_PROXY NO_PROXY
-	}
-|3,0,7,1,17,0,1484889612,"function proxy_on {","    #printf -v no_proxy '%s,' 10.1.{1..255}.{1..255}","    export http_proxy=\"http://proxy.iiit.ac.in:8080\"","    export https_proxy=$http_proxy","    export ftp_proxy=$http_proxy","    export no_proxy=\"localhost,127.0.0.1,.iiit.ac.in,\"","","    export HTTP_PROXY=$http_proxy","    export HTTPS_PROXY=$http_proxy","    export FTP_PROXY=$http_proxy","    export NO_PROXY=$no_proxy","}","","function proxy_off {",>53
-|<"    unset http_proxy https_proxy ftp_proxy no_proxy","    unset HTTP_PROXY HTTPS_PROXY FTP_PROXY NO_PROXY","}"
+				-- XF86AudioRaiseVolume
+|3,0,7,1,1,0,1484933585,"			-- XF86AudioRaiseVolume"
 "8	LINE	0
-	#
-|3,0,8,1,1,0,1484889566,"#"
-"9	LINE	0
-	# source 
-|3,0,9,1,1,0,1484889559,"# source "
+	
+|3,0,8,1,1,0,1484933179,""
+"9	CHAR	0
+	(,
+	                                     ,
+	                                    ,
+	                                    xF86XK_n)
+|3,0,9,0,4,0,1484932961,"(,","                                     ,","                                    ,","                                    xF86XK_n)"
 "a@	CHAR	0
 	xxj
 |3,2,10,0,1,0,1484458573,"xxj"
@@ -326,235 +286,442 @@ $
 "x	CHAR	0
 	O111€kb€kb€kb```shjji```
 |3,0,33,0,1,0,1483683308,"O111€kb€kb€kb```shjji```"
-"-	CHAR	0
-	"
-|3,0,36,0,1,0,1484889786,"\""
+""-	CHAR	0
+	.
+|3,1,36,0,1,0,1484934588,"."
 
 # File marks:
-'0  1  0  ~/.shell/proxy.sh
-|4,48,1,0,1484907071,"~/.shell/proxy.sh"
-'1  14  0  ~/itws2/sandbox/course-forum/init.sh
-|4,49,14,0,1484903140,"~/itws2/sandbox/course-forum/init.sh"
-'2  57  0  ~/.cabal/config
-|4,50,57,0,1484894579,"~/.cabal/config"
-'3  1  0  ~/honours/journal/index.html
-|4,51,1,0,1484894330,"~/honours/journal/index.html"
-'4  36  43  ~/honours/journal/site.hs
-|4,52,36,43,1484894251,"~/honours/journal/site.hs"
-'5  290  8  /etc/xdg/awesome/rc.lua
-|4,53,290,8,1484892702,"/etc/xdg/awesome/rc.lua"
-'6  2  0  ~/.shell/env.sh
-|4,54,2,0,1484889799,"~/.shell/env.sh"
-'7  49  19  ~/repo/dot/saviour
-|4,55,49,19,1484889787,"~/repo/dot/saviour"
-'8  1  0  ~/repo/dot/config.yml
-|4,56,1,0,1484889766,"~/repo/dot/config.yml"
-'9  18  39  ~/repo/dot/config.yml
-|4,57,18,39,1484889706,"~/repo/dot/config.yml"
+'0  17  45  ~/repo/dot/config.yml
+|4,48,17,45,1484934625,"~/repo/dot/config.yml"
+'1  12  0  ~/.stalonetrayrc
+|4,49,12,0,1484934343,"~/.stalonetrayrc"
+'2  23  60  ~/.xmonad/xmonad.hs
+|4,50,23,60,1484934298,"~/.xmonad/xmonad.hs"
+'3  1  0  ~/.xmonad/xmonad.hs
+|4,51,1,0,1484934198,"~/.xmonad/xmonad.hs"
+'4  1  0  ~/.xmonad/xmonad.hs
+|4,52,1,0,1484934028,"~/.xmonad/xmonad.hs"
+'5  20  27  ~/.xmonad/xmonad.hs
+|4,53,20,27,1484933687,"~/.xmonad/xmonad.hs"
+'6  19  27  ~/.xmonad/xmonad.hs
+|4,54,19,27,1484933687,"~/.xmonad/xmonad.hs"
+'7  19  27  ~/.xmonad/xmonad.hs
+|4,55,19,27,1484933687,"~/.xmonad/xmonad.hs"
+'8  19  27  ~/.xmonad/xmonad.hs
+|4,56,19,27,1484933687,"~/.xmonad/xmonad.hs"
+'9  19  27  ~/.xmonad/xmonad.hs
+|4,57,19,27,1484933687,"~/.xmonad/xmonad.hs"
 
 # Jumplist (newest first):
--'  1  0  ~/.shell/proxy.sh
-|4,39,1,0,1484907071,"~/.shell/proxy.sh"
--'  19  0  ~/.shell/proxy.sh
-|4,39,19,0,1484904177,"~/.shell/proxy.sh"
--'  10  24  ~/.shell/proxy.sh
-|4,39,10,24,1484904176,"~/.shell/proxy.sh"
--'  14  0  ~/itws2/sandbox/course-forum/init.sh
-|4,39,14,0,1484903140,"~/itws2/sandbox/course-forum/init.sh"
--'  14  0  ~/itws2/sandbox/course-forum/init.sh
-|4,39,14,0,1484903140,"~/itws2/sandbox/course-forum/init.sh"
--'  2  0  ~/itws2/sandbox/course-forum/init.sh
-|4,39,2,0,1484903137,"~/itws2/sandbox/course-forum/init.sh"
--'  2  0  ~/itws2/sandbox/course-forum/init.sh
-|4,39,2,0,1484903137,"~/itws2/sandbox/course-forum/init.sh"
--'  1  0  ~/itws2/sandbox/course-forum/init.sh
-|4,39,1,0,1484903136,"~/itws2/sandbox/course-forum/init.sh"
--'  1  0  ~/itws2/sandbox/course-forum/init.sh
-|4,39,1,0,1484903136,"~/itws2/sandbox/course-forum/init.sh"
--'  57  0  ~/.cabal/config
-|4,39,57,0,1484894579,"~/.cabal/config"
--'  57  0  ~/.cabal/config
-|4,39,57,0,1484894579,"~/.cabal/config"
--'  57  0  ~/.cabal/config
-|4,39,57,0,1484894579,"~/.cabal/config"
--'  57  0  ~/.cabal/config
-|4,39,57,0,1484894579,"~/.cabal/config"
--'  189  2  ~/.cabal/config
-|4,39,189,2,1484894574,"~/.cabal/config"
--'  189  2  ~/.cabal/config
-|4,39,189,2,1484894574,"~/.cabal/config"
--'  189  2  ~/.cabal/config
-|4,39,189,2,1484894574,"~/.cabal/config"
--'  189  2  ~/.cabal/config
-|4,39,189,2,1484894574,"~/.cabal/config"
--'  1  0  ~/.cabal/config
-|4,39,1,0,1484894573,"~/.cabal/config"
--'  1  0  ~/.cabal/config
-|4,39,1,0,1484894573,"~/.cabal/config"
--'  1  0  ~/.cabal/config
-|4,39,1,0,1484894573,"~/.cabal/config"
--'  1  0  ~/.cabal/config
-|4,39,1,0,1484894573,"~/.cabal/config"
--'  1  0  ~/honours/journal/index.html
-|4,39,1,0,1484894330,"~/honours/journal/index.html"
--'  1  0  ~/honours/journal/index.html
-|4,39,1,0,1484894330,"~/honours/journal/index.html"
--'  1  0  ~/honours/journal/index.html
-|4,39,1,0,1484894330,"~/honours/journal/index.html"
--'  1  0  ~/honours/journal/index.html
-|4,39,1,0,1484894330,"~/honours/journal/index.html"
--'  1  0  ~/honours/journal/index.html
-|4,39,1,0,1484894330,"~/honours/journal/index.html"
--'  1  0  ~/honours/journal/index.html
-|4,39,1,0,1484894330,"~/honours/journal/index.html"
--'  1  0  ~/honours/journal/index.html
-|4,39,1,0,1484894330,"~/honours/journal/index.html"
--'  1  0  ~/honours/journal/index.html
-|4,39,1,0,1484894330,"~/honours/journal/index.html"
--'  36  43  ~/honours/journal/site.hs
-|4,39,36,43,1484894251,"~/honours/journal/site.hs"
--'  36  43  ~/honours/journal/site.hs
-|4,39,36,43,1484894251,"~/honours/journal/site.hs"
--'  36  43  ~/honours/journal/site.hs
-|4,39,36,43,1484894251,"~/honours/journal/site.hs"
--'  36  43  ~/honours/journal/site.hs
-|4,39,36,43,1484894251,"~/honours/journal/site.hs"
--'  36  43  ~/honours/journal/site.hs
-|4,39,36,43,1484894251,"~/honours/journal/site.hs"
--'  36  43  ~/honours/journal/site.hs
-|4,39,36,43,1484894251,"~/honours/journal/site.hs"
--'  36  43  ~/honours/journal/site.hs
-|4,39,36,43,1484894251,"~/honours/journal/site.hs"
--'  36  43  ~/honours/journal/site.hs
-|4,39,36,43,1484894251,"~/honours/journal/site.hs"
--'  36  43  ~/honours/journal/site.hs
-|4,39,36,43,1484894251,"~/honours/journal/site.hs"
--'  36  43  ~/honours/journal/site.hs
-|4,39,36,43,1484894251,"~/honours/journal/site.hs"
--'  36  43  ~/honours/journal/site.hs
-|4,39,36,43,1484894251,"~/honours/journal/site.hs"
--'  36  43  ~/honours/journal/site.hs
-|4,39,36,43,1484894251,"~/honours/journal/site.hs"
--'  36  43  ~/honours/journal/site.hs
-|4,39,36,43,1484894251,"~/honours/journal/site.hs"
--'  36  43  ~/honours/journal/site.hs
-|4,39,36,43,1484894251,"~/honours/journal/site.hs"
--'  36  43  ~/honours/journal/site.hs
-|4,39,36,43,1484894251,"~/honours/journal/site.hs"
--'  36  43  ~/honours/journal/site.hs
-|4,39,36,43,1484894251,"~/honours/journal/site.hs"
--'  34  12  ~/honours/journal/site.hs
-|4,39,34,12,1484894250,"~/honours/journal/site.hs"
--'  29  23  ~/honours/journal/site.hs
-|4,39,29,23,1484894250,"~/honours/journal/site.hs"
--'  28  19  ~/honours/journal/site.hs
-|4,39,28,19,1484894250,"~/honours/journal/site.hs"
--'  34  12  ~/honours/journal/site.hs
-|4,39,34,12,1484894250,"~/honours/journal/site.hs"
--'  29  23  ~/honours/journal/site.hs
-|4,39,29,23,1484894250,"~/honours/journal/site.hs"
--'  28  19  ~/honours/journal/site.hs
-|4,39,28,19,1484894250,"~/honours/journal/site.hs"
--'  34  12  ~/honours/journal/site.hs
-|4,39,34,12,1484894250,"~/honours/journal/site.hs"
--'  29  23  ~/honours/journal/site.hs
-|4,39,29,23,1484894250,"~/honours/journal/site.hs"
--'  28  19  ~/honours/journal/site.hs
-|4,39,28,19,1484894250,"~/honours/journal/site.hs"
--'  34  12  ~/honours/journal/site.hs
-|4,39,34,12,1484894250,"~/honours/journal/site.hs"
--'  29  23  ~/honours/journal/site.hs
-|4,39,29,23,1484894250,"~/honours/journal/site.hs"
--'  28  19  ~/honours/journal/site.hs
-|4,39,28,19,1484894250,"~/honours/journal/site.hs"
--'  34  12  ~/honours/journal/site.hs
-|4,39,34,12,1484894250,"~/honours/journal/site.hs"
--'  29  23  ~/honours/journal/site.hs
-|4,39,29,23,1484894250,"~/honours/journal/site.hs"
--'  28  19  ~/honours/journal/site.hs
-|4,39,28,19,1484894250,"~/honours/journal/site.hs"
--'  34  12  ~/honours/journal/site.hs
-|4,39,34,12,1484894250,"~/honours/journal/site.hs"
--'  29  23  ~/honours/journal/site.hs
-|4,39,29,23,1484894250,"~/honours/journal/site.hs"
--'  28  19  ~/honours/journal/site.hs
-|4,39,28,19,1484894250,"~/honours/journal/site.hs"
--'  34  12  ~/honours/journal/site.hs
-|4,39,34,12,1484894250,"~/honours/journal/site.hs"
--'  29  23  ~/honours/journal/site.hs
-|4,39,29,23,1484894250,"~/honours/journal/site.hs"
--'  28  19  ~/honours/journal/site.hs
-|4,39,28,19,1484894250,"~/honours/journal/site.hs"
--'  34  12  ~/honours/journal/site.hs
-|4,39,34,12,1484894250,"~/honours/journal/site.hs"
--'  29  23  ~/honours/journal/site.hs
-|4,39,29,23,1484894250,"~/honours/journal/site.hs"
--'  28  19  ~/honours/journal/site.hs
-|4,39,28,19,1484894250,"~/honours/journal/site.hs"
--'  34  12  ~/honours/journal/site.hs
-|4,39,34,12,1484894250,"~/honours/journal/site.hs"
--'  29  23  ~/honours/journal/site.hs
-|4,39,29,23,1484894250,"~/honours/journal/site.hs"
--'  28  19  ~/honours/journal/site.hs
-|4,39,28,19,1484894250,"~/honours/journal/site.hs"
--'  34  12  ~/honours/journal/site.hs
-|4,39,34,12,1484894250,"~/honours/journal/site.hs"
--'  29  23  ~/honours/journal/site.hs
-|4,39,29,23,1484894250,"~/honours/journal/site.hs"
--'  28  19  ~/honours/journal/site.hs
-|4,39,28,19,1484894250,"~/honours/journal/site.hs"
--'  34  12  ~/honours/journal/site.hs
-|4,39,34,12,1484894250,"~/honours/journal/site.hs"
--'  29  23  ~/honours/journal/site.hs
-|4,39,29,23,1484894250,"~/honours/journal/site.hs"
--'  28  19  ~/honours/journal/site.hs
-|4,39,28,19,1484894250,"~/honours/journal/site.hs"
--'  34  12  ~/honours/journal/site.hs
-|4,39,34,12,1484894250,"~/honours/journal/site.hs"
--'  29  23  ~/honours/journal/site.hs
-|4,39,29,23,1484894250,"~/honours/journal/site.hs"
--'  28  19  ~/honours/journal/site.hs
-|4,39,28,19,1484894250,"~/honours/journal/site.hs"
--'  34  12  ~/honours/journal/site.hs
-|4,39,34,12,1484894250,"~/honours/journal/site.hs"
--'  29  23  ~/honours/journal/site.hs
-|4,39,29,23,1484894250,"~/honours/journal/site.hs"
--'  28  19  ~/honours/journal/site.hs
-|4,39,28,19,1484894250,"~/honours/journal/site.hs"
--'  34  12  ~/honours/journal/site.hs
-|4,39,34,12,1484894250,"~/honours/journal/site.hs"
--'  29  23  ~/honours/journal/site.hs
-|4,39,29,23,1484894250,"~/honours/journal/site.hs"
--'  28  19  ~/honours/journal/site.hs
-|4,39,28,19,1484894250,"~/honours/journal/site.hs"
--'  34  12  ~/honours/journal/site.hs
-|4,39,34,12,1484894250,"~/honours/journal/site.hs"
--'  29  23  ~/honours/journal/site.hs
-|4,39,29,23,1484894250,"~/honours/journal/site.hs"
--'  28  19  ~/honours/journal/site.hs
-|4,39,28,19,1484894250,"~/honours/journal/site.hs"
--'  34  12  ~/honours/journal/site.hs
-|4,39,34,12,1484894250,"~/honours/journal/site.hs"
--'  29  23  ~/honours/journal/site.hs
-|4,39,29,23,1484894250,"~/honours/journal/site.hs"
--'  28  19  ~/honours/journal/site.hs
-|4,39,28,19,1484894250,"~/honours/journal/site.hs"
--'  74  12  ~/honours/journal/site.hs
-|4,39,74,12,1484894248,"~/honours/journal/site.hs"
--'  74  12  ~/honours/journal/site.hs
-|4,39,74,12,1484894248,"~/honours/journal/site.hs"
--'  74  12  ~/honours/journal/site.hs
-|4,39,74,12,1484894248,"~/honours/journal/site.hs"
--'  74  12  ~/honours/journal/site.hs
-|4,39,74,12,1484894248,"~/honours/journal/site.hs"
--'  74  12  ~/honours/journal/site.hs
-|4,39,74,12,1484894248,"~/honours/journal/site.hs"
--'  74  12  ~/honours/journal/site.hs
-|4,39,74,12,1484894248,"~/honours/journal/site.hs"
--'  74  12  ~/honours/journal/site.hs
-|4,39,74,12,1484894248,"~/honours/journal/site.hs"
+-'  17  45  ~/repo/dot/config.yml
+|4,39,17,45,1484934625,"~/repo/dot/config.yml"
+-'  1  0  ~/repo/dot/config.yml
+|4,39,1,0,1484934573,"~/repo/dot/config.yml"
+-'  12  0  ~/.stalonetrayrc
+|4,39,12,0,1484934343,"~/.stalonetrayrc"
+-'  12  0  ~/.stalonetrayrc
+|4,39,12,0,1484934343,"~/.stalonetrayrc"
+-'  1  0  ~/.stalonetrayrc
+|4,39,1,0,1484934307,"~/.stalonetrayrc"
+-'  1  0  ~/.stalonetrayrc
+|4,39,1,0,1484934307,"~/.stalonetrayrc"
+-'  23  60  ~/.xmonad/xmonad.hs
+|4,39,23,60,1484934298,"~/.xmonad/xmonad.hs"
+-'  23  60  ~/.xmonad/xmonad.hs
+|4,39,23,60,1484934298,"~/.xmonad/xmonad.hs"
+-'  23  60  ~/.xmonad/xmonad.hs
+|4,39,23,60,1484934298,"~/.xmonad/xmonad.hs"
+-'  23  60  ~/.xmonad/xmonad.hs
+|4,39,23,60,1484934298,"~/.xmonad/xmonad.hs"
+-'  24  38  ~/.xmonad/xmonad.hs
+|4,39,24,38,1484934270,"~/.xmonad/xmonad.hs"
+-'  24  38  ~/.xmonad/xmonad.hs
+|4,39,24,38,1484934270,"~/.xmonad/xmonad.hs"
+-'  24  38  ~/.xmonad/xmonad.hs
+|4,39,24,38,1484934270,"~/.xmonad/xmonad.hs"
+-'  24  38  ~/.xmonad/xmonad.hs
+|4,39,24,38,1484934270,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1484934198,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1484934198,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1484934198,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1484934198,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1484934028,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1484934028,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1484934028,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1484934028,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1484933815,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1484933815,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1484933815,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1484933815,"~/.xmonad/xmonad.hs"
+-'  20  27  ~/.xmonad/xmonad.hs
+|4,39,20,27,1484933687,"~/.xmonad/xmonad.hs"
+-'  19  27  ~/.xmonad/xmonad.hs
+|4,39,19,27,1484933687,"~/.xmonad/xmonad.hs"
+-'  19  27  ~/.xmonad/xmonad.hs
+|4,39,19,27,1484933687,"~/.xmonad/xmonad.hs"
+-'  19  27  ~/.xmonad/xmonad.hs
+|4,39,19,27,1484933687,"~/.xmonad/xmonad.hs"
+-'  20  27  ~/.xmonad/xmonad.hs
+|4,39,20,27,1484933687,"~/.xmonad/xmonad.hs"
+-'  19  27  ~/.xmonad/xmonad.hs
+|4,39,19,27,1484933687,"~/.xmonad/xmonad.hs"
+-'  19  27  ~/.xmonad/xmonad.hs
+|4,39,19,27,1484933687,"~/.xmonad/xmonad.hs"
+-'  19  27  ~/.xmonad/xmonad.hs
+|4,39,19,27,1484933687,"~/.xmonad/xmonad.hs"
+-'  20  27  ~/.xmonad/xmonad.hs
+|4,39,20,27,1484933687,"~/.xmonad/xmonad.hs"
+-'  19  27  ~/.xmonad/xmonad.hs
+|4,39,19,27,1484933687,"~/.xmonad/xmonad.hs"
+-'  19  27  ~/.xmonad/xmonad.hs
+|4,39,19,27,1484933687,"~/.xmonad/xmonad.hs"
+-'  19  27  ~/.xmonad/xmonad.hs
+|4,39,19,27,1484933687,"~/.xmonad/xmonad.hs"
+-'  20  27  ~/.xmonad/xmonad.hs
+|4,39,20,27,1484933687,"~/.xmonad/xmonad.hs"
+-'  19  27  ~/.xmonad/xmonad.hs
+|4,39,19,27,1484933687,"~/.xmonad/xmonad.hs"
+-'  19  27  ~/.xmonad/xmonad.hs
+|4,39,19,27,1484933687,"~/.xmonad/xmonad.hs"
+-'  19  27  ~/.xmonad/xmonad.hs
+|4,39,19,27,1484933687,"~/.xmonad/xmonad.hs"
+-'  15  3  ~/.xmonad/xmonad.hs
+|4,39,15,3,1484933590,"~/.xmonad/xmonad.hs"
+-'  14  3  ~/.xmonad/xmonad.hs
+|4,39,14,3,1484933590,"~/.xmonad/xmonad.hs"
+-'  14  3  ~/.xmonad/xmonad.hs
+|4,39,14,3,1484933590,"~/.xmonad/xmonad.hs"
+-'  14  3  ~/.xmonad/xmonad.hs
+|4,39,14,3,1484933590,"~/.xmonad/xmonad.hs"
+-'  15  3  ~/.xmonad/xmonad.hs
+|4,39,15,3,1484933590,"~/.xmonad/xmonad.hs"
+-'  14  3  ~/.xmonad/xmonad.hs
+|4,39,14,3,1484933590,"~/.xmonad/xmonad.hs"
+-'  14  3  ~/.xmonad/xmonad.hs
+|4,39,14,3,1484933590,"~/.xmonad/xmonad.hs"
+-'  14  3  ~/.xmonad/xmonad.hs
+|4,39,14,3,1484933590,"~/.xmonad/xmonad.hs"
+-'  15  3  ~/.xmonad/xmonad.hs
+|4,39,15,3,1484933590,"~/.xmonad/xmonad.hs"
+-'  14  3  ~/.xmonad/xmonad.hs
+|4,39,14,3,1484933590,"~/.xmonad/xmonad.hs"
+-'  14  3  ~/.xmonad/xmonad.hs
+|4,39,14,3,1484933590,"~/.xmonad/xmonad.hs"
+-'  14  3  ~/.xmonad/xmonad.hs
+|4,39,14,3,1484933590,"~/.xmonad/xmonad.hs"
+-'  15  3  ~/.xmonad/xmonad.hs
+|4,39,15,3,1484933590,"~/.xmonad/xmonad.hs"
+-'  14  3  ~/.xmonad/xmonad.hs
+|4,39,14,3,1484933590,"~/.xmonad/xmonad.hs"
+-'  14  3  ~/.xmonad/xmonad.hs
+|4,39,14,3,1484933590,"~/.xmonad/xmonad.hs"
+-'  14  3  ~/.xmonad/xmonad.hs
+|4,39,14,3,1484933590,"~/.xmonad/xmonad.hs"
+-'  19  69  ~/.xmonad/xmonad.hs
+|4,39,19,69,1484933580,"~/.xmonad/xmonad.hs"
+-'  18  69  ~/.xmonad/xmonad.hs
+|4,39,18,69,1484933580,"~/.xmonad/xmonad.hs"
+-'  18  69  ~/.xmonad/xmonad.hs
+|4,39,18,69,1484933580,"~/.xmonad/xmonad.hs"
+-'  18  69  ~/.xmonad/xmonad.hs
+|4,39,18,69,1484933580,"~/.xmonad/xmonad.hs"
+-'  19  69  ~/.xmonad/xmonad.hs
+|4,39,19,69,1484933580,"~/.xmonad/xmonad.hs"
+-'  18  69  ~/.xmonad/xmonad.hs
+|4,39,18,69,1484933580,"~/.xmonad/xmonad.hs"
+-'  18  69  ~/.xmonad/xmonad.hs
+|4,39,18,69,1484933580,"~/.xmonad/xmonad.hs"
+-'  18  69  ~/.xmonad/xmonad.hs
+|4,39,18,69,1484933580,"~/.xmonad/xmonad.hs"
+-'  19  69  ~/.xmonad/xmonad.hs
+|4,39,19,69,1484933580,"~/.xmonad/xmonad.hs"
+-'  18  69  ~/.xmonad/xmonad.hs
+|4,39,18,69,1484933580,"~/.xmonad/xmonad.hs"
+-'  18  69  ~/.xmonad/xmonad.hs
+|4,39,18,69,1484933580,"~/.xmonad/xmonad.hs"
+-'  18  69  ~/.xmonad/xmonad.hs
+|4,39,18,69,1484933580,"~/.xmonad/xmonad.hs"
+-'  19  69  ~/.xmonad/xmonad.hs
+|4,39,19,69,1484933580,"~/.xmonad/xmonad.hs"
+-'  18  69  ~/.xmonad/xmonad.hs
+|4,39,18,69,1484933580,"~/.xmonad/xmonad.hs"
+-'  18  69  ~/.xmonad/xmonad.hs
+|4,39,18,69,1484933580,"~/.xmonad/xmonad.hs"
+-'  18  69  ~/.xmonad/xmonad.hs
+|4,39,18,69,1484933580,"~/.xmonad/xmonad.hs"
+-'  17  50  ~/.xmonad/xmonad.hs
+|4,39,17,50,1484933538,"~/.xmonad/xmonad.hs"
+-'  16  50  ~/.xmonad/xmonad.hs
+|4,39,16,50,1484933538,"~/.xmonad/xmonad.hs"
+-'  16  50  ~/.xmonad/xmonad.hs
+|4,39,16,50,1484933538,"~/.xmonad/xmonad.hs"
+-'  16  50  ~/.xmonad/xmonad.hs
+|4,39,16,50,1484933538,"~/.xmonad/xmonad.hs"
+-'  17  50  ~/.xmonad/xmonad.hs
+|4,39,17,50,1484933538,"~/.xmonad/xmonad.hs"
+-'  16  50  ~/.xmonad/xmonad.hs
+|4,39,16,50,1484933538,"~/.xmonad/xmonad.hs"
+-'  16  50  ~/.xmonad/xmonad.hs
+|4,39,16,50,1484933538,"~/.xmonad/xmonad.hs"
+-'  16  50  ~/.xmonad/xmonad.hs
+|4,39,16,50,1484933538,"~/.xmonad/xmonad.hs"
+-'  17  50  ~/.xmonad/xmonad.hs
+|4,39,17,50,1484933538,"~/.xmonad/xmonad.hs"
+-'  16  50  ~/.xmonad/xmonad.hs
+|4,39,16,50,1484933538,"~/.xmonad/xmonad.hs"
+-'  16  50  ~/.xmonad/xmonad.hs
+|4,39,16,50,1484933538,"~/.xmonad/xmonad.hs"
+-'  16  50  ~/.xmonad/xmonad.hs
+|4,39,16,50,1484933538,"~/.xmonad/xmonad.hs"
+-'  17  50  ~/.xmonad/xmonad.hs
+|4,39,17,50,1484933538,"~/.xmonad/xmonad.hs"
+-'  16  50  ~/.xmonad/xmonad.hs
+|4,39,16,50,1484933538,"~/.xmonad/xmonad.hs"
+-'  16  50  ~/.xmonad/xmonad.hs
+|4,39,16,50,1484933538,"~/.xmonad/xmonad.hs"
+-'  16  50  ~/.xmonad/xmonad.hs
+|4,39,16,50,1484933538,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1484933479,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1484933479,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1484933479,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1484933479,"~/.xmonad/xmonad.hs"
+-'  16  3  ~/.xmonad/xmonad.hs
+|4,39,16,3,1484933418,"~/.xmonad/xmonad.hs"
+-'  15  3  ~/.xmonad/xmonad.hs
+|4,39,15,3,1484933418,"~/.xmonad/xmonad.hs"
+-'  15  3  ~/.xmonad/xmonad.hs
+|4,39,15,3,1484933418,"~/.xmonad/xmonad.hs"
+-'  15  3  ~/.xmonad/xmonad.hs
+|4,39,15,3,1484933418,"~/.xmonad/xmonad.hs"
+-'  18  3  ~/.xmonad/xmonad.hs
+|4,39,18,3,1484933418,"~/.xmonad/xmonad.hs"
+-'  16  3  ~/.xmonad/xmonad.hs
+|4,39,16,3,1484933418,"~/.xmonad/xmonad.hs"
 
 # History of marks within files (newest to oldest):
+
+> ~/repo/dot/config.yml
+	*	1484934625	0
+	"	17	45
+	^	17	46
+	.	17	45
+	+	22	14
+	+	1	2
+	+	13	0
+	+	23	0
+	+	28	0
+	+	32	8
+	+	32	0
+	+	12	40
+	+	20	43
+	+	14	62
+	+	5	0
+	+	6	39
+	+	21	39
+	+	18	0
+	+	15	53
+	+	17	45
+
+> ~/.stalonetrayrc
+	*	1484934338	0
+	"	12	0
+	^	16	17
+	.	16	0
+	+	16	0
+
+> ~/.xmonad/xmonad.hs
+	*	1484934298	0
+	"	23	60
+	^	23	61
+	.	23	60
+	+	12	47
+	+	38	26
+	+	37	20
+	+	34	52
+	+	35	68
+	+	36	21
+	+	37	0
+	+	22	54
+	+	32	28
+	+	35	0
+	+	34	36
+	+	22	33
+	+	11	56
+	+	22	33
+	+	24	3
+	+	31	0
+	+	30	0
+	+	28	8
+	+	30	59
+	+	10	8
+	+	22	24
+	+	22	57
+	+	22	42
+	+	22	17
+	+	22	22
+	+	22	41
+	+	22	2
+	+	22	93
+	+	22	2
+	+	22	57
+	+	22	22
+	+	22	57
+	+	21	0
+	+	10	10
+	+	22	21
+	+	22	0
+	+	22	58
+	+	10	19
+	+	11	0
+	+	22	41
+	+	22	0
+	+	21	0
+	+	15	0
+	+	12	47
+	+	22	0
+	+	10	8
+	+	12	47
+	+	15	0
+	+	15	50
+	+	16	50
+	+	15	51
+	+	16	51
+	+	7	80
+	+	7	79
+	+	6	0
+	+	6	97
+	+	6	43
+	+	6	96
+	+	6	79
+	+	6	37
+	+	15	0
+	+	15	25
+	+	6	73
+	+	15	0
+	+	6	73
+	+	15	32
+	+	6	72
+	+	16	33
+	+	7	0
+	+	6	49
+	+	15	17
+	+	15	0
+	+	16	17
+	+	15	34
+	+	16	34
+	+	7	0
+	+	6	49
+	+	15	0
+	+	17	0
+	+	16	84
+	+	17	67
+	+	19	0
+	+	17	70
+	+	17	0
+	+	16	0
+	+	15	0
+	+	14	0
+	+	19	41
+	+	16	84
+	+	17	70
+	+	18	0
+	+	20	0
+	+	19	72
+	+	18	27
+	+	20	27
+	+	13	48
+	+	24	0
+	+	22	25
+	+	23	60
+
+> ~/.xmobarrc
+	*	1484930540	0
+	"	1	0
+	^	33	20
+	.	33	20
+	+	1	0
+	+	1	52
+	+	1	9
+	+	1	58
+	+	1	0
+	+	1	54
+	+	40	0
+	+	37	49
+	+	37	0
+	+	1	55
+	+	23	40
+	+	25	40
+	+	37	22
+	+	38	0
+	+	37	20
+	+	33	36
+	+	37	34
+	+	33	21
+	+	37	33
+	+	33	20
+
+> ~/.zshrc
+	*	1484929704	0
+	"	7	9
+	^	7	10
+	.	7	9
+	+	16	0
+	+	17	17
+	+	22	23
+	+	25	25
+	+	26	0
+	+	23	0
+	+	24	0
+	+	21	15
+	+	17	11
+	+	22	0
+	+	21	0
+	+	20	21
+	+	8	0
+	+	7	9
+
+> ~/.xmonad/xmonad.h
+	*	1484928836	0
+	"	1	0
+
+> ~/honours/nnl_ndim_toolkit/nnl_ndim-2.0/nn/engine/ClassificationOutputLayer.cpp
+	*	1484925490	0
+	"	18	0
+
+> ~/honours/nnl_ndim_toolkit/nnl_ndim-2.0/Makefile
+	*	1484925412	0
+	"	87	13
+	^	87	14
+	.	87	13
+	+	86	10
+	+	87	13
+
+> ~/honours/nnl_ndim_toolkit/nnl_ndim-2.0/nn/engine/DataExportHandler.cpp
+	*	1484925074	0
+	"	118	53
+	^	118	54
+	.	118	53
+	+	118	53
+
+> ~/honours/nnl_ndim_toolkit/nnl_ndim-2.0/nn/engine/DataExportHandler.h
+	*	1484925031	0
+	"	77	0
 
 > ~/.shell/proxy.sh
 	*	1484907071	0
@@ -713,25 +880,6 @@ $
 	+	30	62
 	+	49	19
 
-> ~/repo/dot/config.yml
-	*	1484889766	0
-	"	1	0
-	^	18	40
-	.	18	39
-	+	19	14
-	+	1	2
-	+	13	0
-	+	20	0
-	+	25	0
-	+	29	8
-	+	29	0
-	+	12	40
-	+	17	43
-	+	14	62
-	+	5	0
-	+	6	39
-	+	18	39
-
 > ~/.bashrc
 	*	1484889665	0
 	"	21	0
@@ -746,24 +894,6 @@ $
 	+	8	0
 	+	14	25
 	+	15	0
-
-> ~/.zshrc
-	*	1484889576	0
-	"	20	21
-	^	20	22
-	.	20	21
-	+	16	0
-	+	17	17
-	+	22	23
-	+	25	25
-	+	26	0
-	+	23	0
-	+	24	0
-	+	21	15
-	+	17	11
-	+	22	0
-	+	21	0
-	+	20	21
 
 > ~/.shell/aliases.sh
 	*	1484889363	0
@@ -1131,14 +1261,6 @@ $
 > ~/honours/nnl_ndim_toolkit/nnl_ndim-2.0/nn/engine/DataExporter.h
 	*	1484749293	0
 	"	26	21
-
-> ~/honours/nnl_ndim_toolkit/nnl_ndim-2.0/nn/engine/DataExportHandler.h
-	*	1484747762	0
-	"	17	0
-
-> ~/honours/nnl_ndim_toolkit/nnl_ndim-2.0/nn/engine/DataExportHandler.cpp
-	*	1484747759	0
-	"	20	24
 
 > ~/honours/nnl_ndim_toolkit/nnl_ndim-2.0/nn/engine/DataExportHandler.
 	*	1484747668	0
@@ -1528,27 +1650,3 @@ $
 > /usr/share/vim/vim80/doc/fold.txt
 	*	1484632061	0
 	"	346	0
-
-> /usr/share/vim/vim80/doc/help.txt
-	*	1484631585	0
-	"	139	0
-
-> ~/honours/nnl_ndim_toolkit/nnl_ndim-2.0/nn/engine/ActivationFunctions.h
-	*	1484631380	0
-	"	1	0
-
-> ~/honours/nnl_ndim_toolkit/nnl_ndim-2.0/nn/engine/ActivationFunctions.
-	*	1484631320	0
-	"	1	0
-
-> ~/honours/nnl_ndim_toolkit/nnl_ndim-2.0/nn/engine/InputLayer.h
-	*	1484631244	0
-	"	1	0
-
-> ~/honours/nnl_ndim_toolkit/nnl_ndim-2.0/nn/engine/GradientTest.cpp
-	*	1484630155	0
-	"	1	0
-
-> ~/honours/nnl_ndim_toolkit/nnl_ndim-2.0/nn/engine/GradientTest.
-	*	1484630140	0
-	"	1	0

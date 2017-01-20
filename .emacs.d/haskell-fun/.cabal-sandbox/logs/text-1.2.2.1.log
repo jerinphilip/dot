@@ -1,0 +1,18 @@
+cabal: Entering directory '/tmp/cabal-tmp-1851/text-1.2.2.1'
+Configuring text-1.2.2.1...
+Building text-1.2.2.1...
+Preprocessing library text-1.2.2.1...
+[ 1 of 44] Compiling Data.Text.Internal.Read ( Data/Text/Internal/Read.hs, dist/dist-sandbox-e3bdd93b/build/Data/Text/Internal/Read.o )
+[ 2 of 44] Compiling Data.Text.Internal.Encoding.Utf32 ( Data/Text/Internal/Encoding/Utf32.hs, dist/dist-sandbox-e3bdd93b/build/Data/Text/Internal/Encoding/Utf32.o )
+[ 3 of 44] Compiling Data.Text.Internal.Builder.RealFloat.Functions ( Data/Text/Internal/Builder/RealFloat/Functions.hs, dist/dist-sandbox-e3bdd93b/build/Data/Text/Internal/Builder/RealFloat/Functions.o )
+[ 4 of 44] Compiling Data.Text.Internal.Builder.Int.Digits ( Data/Text/Internal/Builder/Int/Digits.hs, dist/dist-sandbox-e3bdd93b/build/Data/Text/Internal/Builder/Int/Digits.o )
+[ 5 of 44] Compiling Data.Text.Encoding.Error ( Data/Text/Encoding/Error.hs, dist/dist-sandbox-e3bdd93b/build/Data/Text/Encoding/Error.o )
+[ 6 of 44] Compiling Data.Text.Internal.Unsafe.Shift ( Data/Text/Internal/Unsafe/Shift.hs, dist/dist-sandbox-e3bdd93b/build/Data/Text/Internal/Unsafe/Shift.o )
+[ 7 of 44] Compiling Data.Text.Internal.Encoding.Utf16 ( Data/Text/Internal/Encoding/Utf16.hs, dist/dist-sandbox-e3bdd93b/build/Data/Text/Internal/Encoding/Utf16.o )
+[ 8 of 44] Compiling Data.Text.Internal.Functions ( Data/Text/Internal/Functions.hs, dist/dist-sandbox-e3bdd93b/build/Data/Text/Internal/Functions.o )
+[ 9 of 44] Compiling Data.Text.Internal.Unsafe ( Data/Text/Internal/Unsafe.hs, dist/dist-sandbox-e3bdd93b/build/Data/Text/Internal/Unsafe.o )
+[10 of 44] Compiling Data.Text.Array  ( Data/Text/Array.hs, dist/dist-sandbox-e3bdd93b/build/Data/Text/Array.o )
+[11 of 44] Compiling Data.Text.Internal.Unsafe.Char ( Data/Text/Internal/Unsafe/Char.hs, dist/dist-sandbox-e3bdd93b/build/Data/Text/Internal/Unsafe/Char.o )
+[12 of 44] Compiling Data.Text.Internal ( Data/Text/Internal.hs, dist/dist-sandbox-e3bdd93b/build/Data/Text/Internal.o )
+[13 of 44] Compiling Data.Text.Internal.Fusion.Size ( Data/Text/Internal/Fusion/Size.hs, dist/dist-sandbox-e3bdd93b/build/Data/Text/Internal/Fusion/Size.o )
+[14 of 44] Compiling Data.Text.Internal.Fusion.Types ( Data/Text/Internal/Fusion/Types.hs, dist/dist-sandbox-e3bdd93b/build/Data/Text/Internal/Fusion/Types.o )

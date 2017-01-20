@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ package-install
+ haskell-emacs-init
  text-mode
  delete-char
  term
  shell-command
  shell
- org-src-mode
- table-generate-source
 )
 
 ;; ----- smex-data -----
@@ -21,4 +21,6 @@
  (term . 1)
  (delete-char . 1)
  (text-mode . 1)
+ (package-install . 3)
+ (haskell-emacs-init . 1)
 )
