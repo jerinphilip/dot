@@ -7,7 +7,8 @@ import qualified Graphics.X11.ExtraTypes.XF86 as ExtraKey
 import System.IO
 
 main = do
-    let keys = [ ((mod4Mask, xK_s), spawn "xscreensaver-command -lock"),
+    let keys = [
+            ((mod4Mask, xK_s), spawn "xscreensaver-command -lock"),
             ((mod4Mask, xK_Return), spawn "gnome-terminal"),
             ((mod4Mask, xK_b), spawn "firefox"),
             ((mod4Mask, xK_e), spawn "nautilus -w"),
@@ -20,7 +21,8 @@ main = do
 			((0 , ExtraKey.xF86XK_MonBrightnessDown), spawn "xbacklight -dec 10")]
 
     xmproc <- spawnPipe "xmobar /home/jerin/.xmobarrc"
-    tray <- spawn "stalonetray -c /home/jerin/.stalonetrayrc"
+    tray <- spawn "stalonetray -c /home/jerin/.stalonetrayrc" -- SystemTray
+    dunst <- spawn "dunst -config /home/jerin/.config/dunst/dunstrc" --Notifications
 
     xmonad $ defaultConfig {
         manageHook = manageDocks <+> manageHook defaultConfig,
@@ -31,7 +33,10 @@ main = do
         logHook = dynamicLogWithPP xmobarPP
                     { 
                         ppOutput = hPutStrLn xmproc,
-                        ppTitle = xmobarColor "green" "" . shorten 50
+                        ppTitle = xmobarColor "green" "" . shorten 50,
+                        -- ppHiddenNoWindows = xmobarColor "grey" "",
+                        ppVisible = wrap "(" ")",
+                        ppUrgent = xmobarColor "red" "yellow"
                     },
         modMask = mod4Mask -- Rebind modkey
     } `additionalKeys` keys 

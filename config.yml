@@ -15,6 +15,7 @@ existing:
             - xmonad.hs: /home/jerin/.xmonad/xmonad.hs
             - .stalonetrayrc: /home/jerin/.stalonetrayrc
             - .xmobarrc: /home/jerin/.xmobarrc
+            - .dunstrc: /home/jerin/.config/dunst/dunstrc
         folders:
             - .vim: /home/jerin/.vim
             - .emacs.d: /home/jerin/.emacs.d
