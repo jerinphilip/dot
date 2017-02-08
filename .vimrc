@@ -45,3 +45,7 @@ execute pathogen#infect()
 let g:xml_syntax_folding=1
 au FileType xml setlocal foldmethod=syntax
 
+"Latex stuff
+set grepprg=grep\ -nH\ $*
+let g:tex_flavor = 'latex'
+

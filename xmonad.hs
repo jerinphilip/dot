@@ -1,8 +1,13 @@
 import XMonad
 import XMonad.Hooks.DynamicLog
 import XMonad.Hooks.ManageDocks
+import XMonad.Hooks.ManageHelpers
+import XMonad.Layout.ToggleLayouts
+import XMonad.Layout.NoBorders
 import XMonad.Util.Run (spawnPipe)
 import XMonad.Util.EZConfig (additionalKeys)
+import XMonad.Actions.WorkspaceNames
+import XMonad.Layout.Minimize
 import qualified Graphics.X11.ExtraTypes.XF86 as ExtraKey
 import System.IO
 
@@ -12,6 +17,10 @@ main = do
             ((mod4Mask, xK_Return), spawn "gnome-terminal"),
             ((mod4Mask, xK_b), spawn "firefox"),
             ((mod4Mask, xK_e), spawn "nautilus -w"),
+            ((mod4Mask, xK_n), withFocused minimizeWindow),
+            ((mod4Mask, xK_f), sendMessage ToggleLayout),
+            ((mod4Mask .|. controlMask, xK_n), sendMessage RestoreNextMinimizedWin),
+
 			((0 , ExtraKey.xF86XK_AudioMute), spawn "amixer -q set Master toggle"),
 			((0 , ExtraKey.xF86XK_AudioLowerVolume), spawn "amixer -q set Master 5%- unmute"),
 			((0 , ExtraKey.xF86XK_AudioRaiseVolume), spawn "amixer -q set Master 5%+ unmute"),
@@ -25,8 +34,8 @@ main = do
     dunst <- spawn "dunst -config /home/jerin/.config/dunst/dunstrc" --Notifications
 
     xmonad $ defaultConfig {
-        manageHook = manageDocks <+> manageHook defaultConfig,
-        layoutHook = avoidStruts $ layoutHook defaultConfig,
+        manageHook = manageDocks <+> (isFullscreen --> doFullFloat)  <+> manageHook defaultConfig,
+        layoutHook = avoidStruts $ smartBorders $ toggleLayouts Full $ layoutHook defaultConfig,
         handleEventHook = mconcat
                           [ docksEventHook
                           , handleEventHook defaultConfig ],

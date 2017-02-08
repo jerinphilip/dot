@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ make-directory
  package-install
  haskell-emacs-init
  text-mode
  delete-char
  term
  shell-command
- shell
 )
 
 ;; ----- smex-data -----
@@ -23,4 +23,5 @@
  (text-mode . 1)
  (package-install . 3)
  (haskell-emacs-init . 1)
+ (make-directory . 1)
 )

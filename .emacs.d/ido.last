@@ -2,6 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/jerin/s17/state-in-colonial-india/" . "course-project/")
+ ("/home/jerin/s17/" . "state-in-colonial-india/")
  ("/home/jerin/itws2/sandbox/" . "course-forum/")
  ("/home/jerin/itws2/course-admin/src/labs/" . "advanced-emacs/")
  ("/home/jerin/itws2/201401071/solutions/" . "assignment-6/")
@@ -16,6 +18,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/jerin/s17/state-in-colonial-india/course-project/"
  "/home/jerin/itws2/sandbox/"
  "/home/jerin/itws2/course-admin/src/labs/advanced-emacs/"
  "/home/jerin/itws2/"
@@ -28,6 +31,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "summary.org"
  "main.org"
  "index.org"
  ".emacs"
@@ -40,21 +44,31 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/jerin/s17/todo/" (22677 53353 973794 284000) "../" "./")
+
+ ("/home/jerin/" (22677 46564 27133 619000) ".shuffle" ".xsession-errors" ".xsession-errors.old" "Music/" "Documents/" "Templates/" ".tox/" ".python_history" ".histfile" ".vimrc" ".lesshst" ".fehbg" ".zcompdump" "Videos/" ".npm/" ".node_repl_history" ".dmrc" ".xmobarrc" ".stalonetrayrc" ".zshrc" ".emacs" ".xmonad/" ".bashrc" ".shell/" ".Xresources" "dc-share/" ".gtkrc-2.0" ".Skype/" ".cabal/" ".ghc/" ".gissjava/" ".ncviewrc" ".bash_history" ".saves/" "itws2/" ".emacs.keyfreq" ".texlive/" ".xinitrc" ".muttator/" ".gitconfig" ".racket/" ".nv/" "environments/" "s17/" ".xprofile" ".nvidia-settings-rc" ".xscreensaver" ".org-timestamps/" ".dc++/" ".emacs.d/" ".javacpp/" ".IdeaIC2016.3/" ".m2/" "ladder/" "honours/" ".gphoto/" "ml-scrape/" "dwhelper/" ".pki/" ".viminfo" "one-time-open/" ".jupyter/" ".ipython/" ".thumbnails/" ".gimp-2.8/" "Pictures/" ".thunderbird/" ".lldb/" ".purple/" ".Xauthority" ".wget-hsts" ".vim/" ".ssh/" ".mplayer/" ".mozilla/" ".local/" ".java/" ".icons/" ".gradle/" ".gnupg/" ".fonts.conf" ".fonts/" ".esd_auth" ".dropbox/" ".bash_profile" ".bash_logout" ".AndroidStudio2.2/" ".android/" ".config/" "repo/" "misc/" "builds/" "Dropbox/" "Downloads/" "Desktop/" ".cache/" "../" "./")
+
+ ("/home/jerin/itws2/course-admin/src/assignments/higher-order-functions/" (22657 36105 626180 776000) "index.org" "tests.rkt" "main.rkt" "../" "./")
+
+ ("/home/jerin/itws2/sandbox/src/" (22657 38970 762723 675000) "z" "y" "x" "../" "./")
+
+ ("/home/jerin/itws2/course-admin/src/labs/advanced-emacs/" (22658 61434 489583 321000) "index.org" "../" "./")
+
+ ("/home/jerin/itws2/sandbox/" (22659 17159 85139 684000) "main.org" "course-forum/" "src/" "../" "./")
+
+ ("/home/jerin/s17/state-in-colonial-india/course-project/" (22658 58130 43059 399000) "Alam, Becoming India, Chapters 2  3.pdf" "Gordon, Stewart -- Forts and Social Control in the Maratha State.pdf" "Sarkar - 1921 - The Hindu Theory of the State - Copy.pdf" "../" "./")
+
+ ("/home/jerin/s17/state-in-colonial-india/" (22658 58107 419727 43000) "course-project/" "readings/" "short-readings/" "slides/" "../" "./")
+
+ ("/home/jerin/s17/" (22644 25506 273702 473000) ".gitignore" "science-2/" "linear-algebra/" "state-in-colonial-india/" "computer-vision/" "optimization-methods/" ".git/" "../" "./")
+
  ("/home/jerin/itws2/sandbox/course-forum/" (22657 54002 204964 920000) "literate-tools/" "src/" "makefile" "init.sh" "README.org" ".gitignore" ".git/" "../" "./")
-
- ("/home/jerin/itws2/sandbox/" (22659 15704 398429 671000) "#main.org#" ".#main.org" "main.org" "course-forum/" "src/" "../" "./")
-
- ("/home/jerin/" (22659 14307 168388 37000) ".histfile" ".shuffle" ".xsession-errors" ".xsession-errors.old" ".dmrc" ".xmobarrc" ".stalonetrayrc" ".zshrc" ".emacs" ".xmonad/" ".python_history" ".bashrc" ".shell/" ".Xresources" ".zcompdump" "dc-share/" ".gtkrc-2.0" ".Skype/" ".cabal/" ".ghc/" ".gissjava/" ".ncviewrc" ".bash_history" ".saves/" "itws2/" ".emacs.keyfreq" ".texlive/" ".xinitrc" ".vimrc" ".muttator/" ".gitconfig" ".lesshst" ".racket/" ".nv/" "environments/" "s17/" ".xprofile" ".nvidia-settings-rc" ".xscreensaver" ".org-timestamps/" ".dc++/" ".emacs.d/" ".javacpp/" ".IdeaIC2016.3/" ".m2/" "ladder/" "honours/" ".gphoto/" "ml-scrape/" "dwhelper/" ".pki/" ".viminfo" "one-time-open/" ".jupyter/" ".ipython/" ".thumbnails/" ".gimp-2.8/" "Pictures/" ".thunderbird/" ".lldb/" ".purple/" ".Xauthority" ".wget-hsts" ".vim/" ".ssh/" ".mplayer/" ".mozilla/" ".local/" ".java/" ".icons/" ".gradle/" ".gnupg/" ".fonts.conf" ".fonts/" ".esd_auth" ".dropbox/" ".bash_profile" ".bash_logout" ".AndroidStudio2.2/" ".android/" ".config/" "repo/" "misc/" "builds/" "Dropbox/" "Downloads/" "Desktop/" ".cache/" "../" "./")
 
  ("/home/jerin/itws2/course-forum/" (22658 60227 282968 803000) "README.org" ".gitignore" "build/" "elisp/" "literate-tools/" "src/" "makefile" "init.sh" ".git/" "../" "./")
 
  ("/home/jerin/itws2/course-forum/src/" (22658 61290 312922 883000) "#proxy-settings.org#" ".#proxy-settings.org" "proxy-settings.org" "version-control.org" "renarration.org" "lab-material.org" "index.org" "sitemap.org" "style/" "org-templates/" "references.org" "../" "./")
 
- ("/home/jerin/itws2/course-admin/src/labs/advanced-emacs/" (22657 36236 432841 795000) "index.org" "../" "./")
-
  ("/home/jerin/itws2/course-admin/src/labs/" (22657 36105 626180 776000) "oops-js/" "intro-to-js/" "emacs-2/" "advanced-emacs/" "index.org" "version-control/" "racket-intro/" "emacs-orgmode/" "../" "./")
-
- ("/home/jerin/itws2/sandbox/src/" (22656 55516 674839 926000) "new.org" "../" "./")
 
  ("/home/jerin/itws2/201401071/solutions/assignment-6/" (22656 56931 978112 118000) "store.rkt" "run.rkt" "parser.rkt" "implicit-test-cases.rkt" "eval-ast.rkt" "env-rec.rkt" "ast.rkt" "../" "./")
 
@@ -65,8 +79,6 @@
  ("/home/" (22592 5555 967007 476000) "jerin/" "../" "./")
 
  ("/home/jerin/itws2/201401071/" (22656 51219 918358 870000) "solutions/" "README.md" ".gitignore" ".git/" "../" "./")
-
- ("/home/jerin/itws2/course-admin/src/assignments/higher-order-functions/" (22649 11735 311128 232000) "tests.rkt" "main.rkt" "index.org" "../" "./")
 
  ("/home/jerin/itws2/course-admin/src/assignments/" (22649 11101 487822 278000) "more-with-lists/" "index.org" "higher-order-functions/" "list-recursion/" "../" "./")
 
