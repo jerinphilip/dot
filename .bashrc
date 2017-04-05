@@ -25,3 +25,7 @@ export HISTSIZE=65536
 export HISTFILESIZE=131076
 shopt -s histappend
 
+
+# Temporary, Stupid Optimization Methods
+export PATH="$PATH:/home/jerin/build/cplex/cplex/bin/x86-64_linux/"
+export PATH="$PATH:/home/jerin/Downloads/ampl/"

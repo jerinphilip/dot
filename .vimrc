@@ -49,3 +49,5 @@ au FileType xml setlocal foldmethod=syntax
 set grepprg=grep\ -nH\ $*
 let g:tex_flavor = 'latex'
 
+set background=light
+colorscheme lucius

@@ -16,6 +16,7 @@ existing:
             - .stalonetrayrc: /home/jerin/.stalonetrayrc
             - .xmobarrc: /home/jerin/.xmobarrc
             - .dunstrc: /home/jerin/.config/dunst/dunstrc
+            - .yaourtrc: /home/jerin/.yaourtrc
         folders:
             - .vim: /home/jerin/.vim
             - .emacs.d: /home/jerin/.emacs.d

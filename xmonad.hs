@@ -16,6 +16,7 @@ main = do
             ((mod4Mask, xK_s), spawn "xscreensaver-command -lock"),
             ((mod4Mask, xK_Return), spawn "gnome-terminal"),
             ((mod4Mask, xK_b), spawn "firefox"),
+            ((mod4Mask, xK_c), spawn "google-chrome-stable --proxy-pac-url=http://proxy.iiit.ac.in/proxy.pac"),
             ((mod4Mask, xK_e), spawn "nautilus -w"),
             ((mod4Mask, xK_n), withFocused minimizeWindow),
             ((mod4Mask, xK_f), sendMessage ToggleLayout),

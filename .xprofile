@@ -7,7 +7,7 @@ fi
 xrdb -merge ~/.Xresources				#To merge settings
 nm-applet &> /dev/null &				#NetworkManager
 xscreensaver -no-splash &				#Screensaver
-xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &	#Compositing
+# xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &	#Compositing
 ibus-daemon -d --xim					#Input Method
 numlockx								#Turn on Numlock Key
 synclient PalmDetect=1
