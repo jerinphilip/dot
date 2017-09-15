@@ -11,217 +11,217 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/TMP
+~MSle0/argv[3
 
 # Last Substitute Search Pattern:
-~MSle0&app
+~MSle0~&^
 
 # Last Substitute String:
-$
+$rm
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1491386938,,"wq"
+|2,0,1505366846,,"wq"
 :w
-|2,0,1491386917,,"w"
+|2,0,1505366840,,"w"
 :q
-|2,0,1491386866,,"q"
-:e #0
-|2,0,1491386713,,"e #0"
-:r /etc/yaourtrc
-|2,0,1491386695,,"r /etc/yaourtrc"
-:colorsche
-|2,0,1491386145,,"colorsche"
-:!detex main.tex | wc -w
-|2,0,1491374509,,"!detex main.tex | wc -w"
-:!make
-|2,0,1491374504,,"!make"
-:set tw=64
-|2,0,1491373063,,"set tw=64"
-:q!
-|2,0,1491372534,,"q!"
-:set backgroun
-|2,0,1491372532,,"set backgroun"
-:colorscheme lucius
-|2,0,1491371266,,"colorscheme lucius"
-:set background=light
-|2,0,1491371256,,"set background=light"
-:!detex main.tex 
-|2,0,1491365542,,"!detex main.tex "
-:set spell spelllang=en_gb
-|2,0,1491362606,,"set spell spelllang=en_gb"
-:coloscheme lucius
-|2,0,1491304630,,"coloscheme lucius"
-:w !sudo tee %
-|2,0,1491282990,,"w !sudo tee %"
-:set spell spell_lang=en_gb
-|2,0,1491215899,,"set spell spell_lang=en_gb"
-:qa
-|2,0,1491114985,,"qa"
-:w'
-|2,0,1491021295,,"w'"
-:set wrap
-|2,0,1491018950,,"set wrap"
-:set tw=56
-|2,0,1491018947,,"set tw=56"
-:!
-|2,0,1491013691,,"!"
-::q
-|2,0,1490948260,,":q"
-::;q
-|2,0,1490948241,,":;q"
-:;q
-|2,0,1490948240,,";q"
-:tabnew ../app/static/templates/todo.html
-|2,0,1490948202,,"tabnew ../app/static/templates/todo.html"
-:tabnew ../app/templates/index.html
-|2,0,1490948149,,"tabnew ../app/templates/index.html"
+|2,0,1505366826,,"q"
+:!./publish.sh
+|2,0,1505201301,,"!./publish.sh"
 ::w
-|2,0,1490939318,,":w"
-:;w
-|2,0,1490939123,,";w"
-:set spell=en_GB
-|2,0,1490935222,,"set spell=en_GB"
-:::wq
-|2,0,1490933730,,"::wq"
-:!detex main.tex | wc -m
-|2,0,1490880382,,"!detex main.tex | wc -m"
-:'<,'>:w !wc -m
-|2,0,1490880364,,"'<,'>:w !wc -m"
-:Lw
-|2,0,1490875653,,"Lw"
-:set tw=55
-|2,0,1490875619,,"set tw=55"
-:set tw=50
-|2,0,1490875595,,"set tw=50"
-:set tw=62
-|2,0,1490875517,,"set tw=62"
-:set wrap on
-|2,0,1490875500,,"set wrap on"
-:'<,'>w !wc -m
-|2,0,1490871644,,"'<,'>w !wc -m"
-:'<,'>w !wc -w
-|2,0,1490871636,,"'<,'>w !wc -w"
-:set foldmethod=manual
-|2,0,1490351042,,"set foldmethod=manual"
-:qkkk
-|2,0,1490421847,,"qkkk"
-:tabnew app/report/controllers.py
-|2,0,1490354426,,"tabnew app/report/controllers.py"
-:tabnew app/students/controllers.py
-|2,0,1490354380,,"tabnew app/students/controllers.py"
-:tabnew app/__init__.py
-|2,0,1490421608,,"tabnew app/__init__.py"
-:tabnew 
-|2,0,1490421318,,"tabnew "
-:qa!
-|2,0,1490421035,,"qa!"
-:tabnew ~/lab_plan.txt
-|2,0,1490355064,,"tabnew ~/lab_plan.txt"
-:tabnew routes.txt
-|2,0,1490353127,,"tabnew routes.txt"
+|2,0,1505201300,,":w"
+:qw
+|2,0,1505201091,,"qw"
+:qa
+|2,0,1504933831,,"qa"
+:q!
+|2,0,1504931645,,"q!"
+:%s/^/rm/g
+|2,0,1504931597,,"%s/^/rm/g"
+:!.
+|2,0,1504887659,,"!."
+:'<,'>s/column/order/g
+|2,0,1504887402,,"'<,'>s/column/order/g"
+:tabnew
+|2,0,1504887359,,"tabnew"
+:56
+|2,0,1504887137,,"56"
+:tabnew dtype.h
+|2,0,1504887136,,"tabnew dtype.h"
+:tabnew io.cpp
+|2,0,1504886536,,"tabnew io.cpp"
+:ta
+|2,0,1504886208,,"ta"
+:tabnew io.h
+|2,0,1504886157,,"tabnew io.h"
+:tabnew bio.cpp
+|2,0,1504886069,,"tabnew bio.cpp"
+:wr
+|2,0,1504875528,,"wr"
+:'<,'>S/DTYPE/BUFIO/g
+|2,0,1504875436,,"'<,'>S/DTYPE/BUFIO/g"
+:tabnew includes.h
+|2,0,1504875400,,"tabnew includes.h"
+:42
+|2,0,1504871079,,"42"
+:W
+|2,0,1504867441,,"W"
+:46
+|2,0,1504857282,,"46"
+:tabnew bufio.h
+|2,0,1504857066,,"tabnew bufio.h"
+:windo wincmd K
+|2,0,1504873184,,"windo wincmd K"
+:hsplit
+|2,0,1504873153,,"hsplit"
+:tabnew input.txt
+|2,0,1504872341,,"tabnew input.txt"
+:qkk
+|2,0,1504790577,,"qkk"
+:28
+|2,0,1504788056,,"28"
+:21
+|2,0,1504787938,,"21"
+:L!
+|2,0,1504787926,,"L!"
+:we
+|2,0,1504766305,,"we"
+:tabnew input.txto
+|2,0,1504765801,,"tabnew input.txto"
+:t
+|2,0,1504763165,,"t"
+:"
+|2,0,1504760787,,"\""
+:tabnew .xmobarrc
+|2,0,1504529143,,"tabnew .xmobarrc"
+:'<,'>Tabularize /|
+|2,0,1504527765,,"'<,'>Tabularize /|"
+:'<,'>Tabularize
+|2,0,1504527620,,"'<,'>Tabularize"
+:set tw=72
+|2,0,1504507928,,"set tw=72"
+:tabnew posts/2017-08-25-to-learn.md
+|2,0,1504507752,,"tabnew posts/2017-08-25-to-learn.md"
+:!
+|2,0,1504505803,,"!"
+:tabnew js/mathjax-config.js
+|2,0,1504503219,,"tabnew js/mathjax-config.js"
+:!pandoc -o output.pdf db-mid.md
+|2,0,1504462302,,"!pandoc -o output.pdf db-mid.md"
+:.!
+|2,0,1504448419,,".!"
+:!pandoc -o output.html db-mid.md
+|2,0,1504445916,,"!pandoc -o output.html db-mid.md"
+:!ls .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/site/site
+|2,0,1504421832,,"!ls .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/site/site"
+:!:q
+|2,0,1504423294,,"!:q"
+:!kk
+|2,0,1504423287,,"!kk"
+:tabnew templates/default.html
+|2,0,1504423037,,"tabnew templates/default.html"
 
 # Search String History (newest to oldest):
-? @$
-|2,1,1491386709,,"@$"
-?/TMP
-|2,1,1491386677,47,"TMP"
-?/NDim
-|2,1,1491284378,47,"NDim"
+? ^
+|2,1,1504931597,,"^"
+? column
+|2,1,1504887402,,"column"
+?/argv[3
+|2,1,1504887246,47,"argv[3"
 ?/cout
-|2,1,1491043513,47,"cout"
-? \<presentation\>
-|2,1,1491028050,,"\\<presentation\\>"
-?/He co
-|2,1,1491022173,47,"He co"
-?/list
-|2,1,1490948274,47,"list"
-?/h
-|2,1,1490948093,47,"h"
-?/Hand
-|2,1,1490948090,47,"Hand"
-?/Handl
-|2,1,1490948088,47,"Handl"
-?/hand
-|2,1,1490948080,47,"hand"
-?/handle
-|2,1,1490948078,47,"handle"
-?/dfds
-|2,1,1490938876,47,"dfds"
-?/ro
-|2,1,1490938872,47,"ro"
-?/bri
-|2,1,1490897889,47,"bri"
-?/xback
-|2,1,1490848580,47,"xback"
-?/cplex
-|2,1,1490437196,47,"cplex"
-?/base
-|2,1,1490421289,47,"base"
-?/Ro
-|2,1,1490347935,47,"Ro"
-?/similar
-|2,1,1490326372,47,"similar"
-?/count
-|2,1,1490326291,47,"count"
-?/i
-|2,1,1490326112,47,"i"
-?/A
-|2,1,1490325591,47,"A"
-? app
-|2,1,1489959958,,"app"
-? \<student_rollno\>
-|2,1,1489959891,,"\\<student_rollno\\>"
-?/kjkkk
-|2,1,1489955775,47,"kjkkk"
-?/stu
-|2,1,1489950995,47,"stu"
-?/grade
-|2,1,1489950066,47,"grade"
-? students
-|2,1,1489945801,,"students"
-? courses\.html
-|2,1,1489945009,,"courses\\.html"
-? default
-|2,1,1489943868,,"default"
-? defalut
-|2,1,1489943859,,"defalut"
-? ^#\s
-|2,1,1489940817,,"^#\\s"
-? mids
-|2,1,1489939843,,"mids"
-? labs
-|2,1,1489939834,,"labs"
-? assignments
-|2,1,1489939820,,"assignments"
-?/dsfsd
-|2,1,1489939794,47,"dsfsd"
-? \<assignments\>
-|2,1,1489939616,,"\\<assignments\\>"
-? t
-|2,1,1489510612,,"t"
-?/arc
-|2,1,1489509133,47,"arc"
-?/Bas
-|2,1,1489476310,47,"Bas"
+|2,1,1504885919,47,"cout"
+?/col
+|2,1,1504885616,47,"col"
+?/valso
+|2,1,1504885424,47,"valso"
+?/clear
+|2,1,1504885078,47,"clear"
+?/out
+|2,1,1504885049,47,"out"
+?/int
+|2,1,1504884983,47,"int"
 ?/2
-|2,1,1489476065,47,"2"
-?/rect
-|2,1,1489475886,47,"rect"
-?/dark
-|2,1,1489475225,47,"dark"
-?/must
-|2,1,1489475147,47,"must"
-?/fc
-|2,1,1489475146,47,"fc"
-?/cost
-|2,1,1489420581,47,"cost"
-? count
-|2,1,1489420286,,"count"
-?/ye
-|2,1,1489420108,47,"ye"
-?/Ambi
-|2,1,1489419034,47,"Ambi"
+|2,1,1504875282,47,"2"
+?/A
+|2,1,1504873319,47,"A"
+?/at
+|2,1,1504872562,47,"at"
+?/dsfds
+|2,1,1504872197,47,"dsfds"
+?/9*
+|2,1,1504872193,47,"9*"
+?/&b
+|2,1,1504871138,47,"&b"
+?/w5
+|2,1,1504790530,47,"w5"
+?/read
+|2,1,1504788289,47,"read"
+?/ato
+|2,1,1504788085,47,"ato"
+?/line
+|2,1,1504763676,47,"line"
+?/Full
+|2,1,1504528696,47,"Full"
+? \<confusion\>
+|2,1,1504508164,,"\\<confusion\\>"
+?/When we
+|2,1,1504507006,47,"When we"
+?/Swizz
+|2,1,1504462123,47,"Swizz"
+?/textwid
+|2,1,1504444191,47,"textwid"
+?/tw
+|2,1,1504444188,47,"tw"
+? \<error\>
+|2,1,1504443284,,"\\<error\\>"
+? @$
+|2,1,1504422781,,"@$"
+?/Liter
+|2,1,1504420237,47,"Liter"
+?/Dev
+|2,1,1504420139,47,"Dev"
+? \<Two\>
+|2,1,1504414112,,"\\<Two\\>"
+?/dfsd
+|2,1,1504412342,47,"dfsd"
+? (.*)
+|2,1,1504412291,,"(.*)"
+? \<b\>
+|2,1,1504372273,,"\\<b\\>"
+? bytes
+|2,1,1504371935,,"bytes"
+?/h1
+|2,1,1504325911,47,"h1"
+?/re
+|2,1,1504324115,47,"re"
+?/conso
+|2,1,1504323865,47,"conso"
+?/G/conso
+|2,1,1504323864,47,"G/conso"
+? \<Did\>
+|2,1,1504320957,,"\\<Did\\>"
+?/\<li\>
+|2,1,1504320895,47,"\\<li\\>"
+?/<li>
+|2,1,1504320890,47,"<li>"
+?/li
+|2,1,1504320866,47,"li"
+? publish.sh
+|2,1,1504319879,,"publish.sh"
+?/State 31
+|2,1,1504180590,47,"State 31"
+?/State 11
+|2,1,1504180582,47,"State 11"
+?/State 30
+|2,1,1504180524,47,"State 30"
+? \<id_array\>
+|2,1,1504179090,,"\\<id_array\\>"
+?/loc
+|2,1,1504178995,47,"loc"
+?/label
+|2,1,1504160581,47,"label"
+?/ab
+|2,1,1504160575,47,"ab"
 
 # Expression History (newest to oldest):
 
@@ -239,55 +239,74 @@ $
 
 # Registers:
 "0	LINE	0
-	            - .dunstrc: /home/jerin/.config/dunst/dunstrc
-|3,0,0,1,1,0,1491386821,"            - .dunstrc: /home/jerin/.config/dunst/dunstrc"
+	#include <bits/stdc++.h>
+|3,0,0,1,1,0,1504886273,"#include <bits/stdc++.h>"
 "1	LINE	0
-	            -
-|3,0,1,1,1,0,1491386860,"            -"
+	, pages 1412â€“1421,
+	Lisbon, Portugal, 17-21 September 2015.
+	c
+	Â©
+	2015 Association for Computational Linguistics.
+|3,0,1,1,5,0,1505201149,", pages 1412â€“1421,","Lisbon, Portugal, 17-21 September 2015.","c","Â©","2015 Association for Computational Linguistics."
 "2	LINE	0
-	split into
-|3,0,2,1,1,0,1491374528,"split into"
+	
+|3,0,2,1,1,0,1505201021,""
 "3	LINE	0
 	
-|3,0,3,1,1,0,1491374502,""
+|3,0,3,1,1,0,1505134474,""
 "4	LINE	0
-	
-|3,0,4,1,1,0,1491374501,""
-"5	CHAR	0
-	 Arthashastra leaves
-	nearly no stone unturned when it comes to law and punishment.
-|3,0,5,0,2,0,1491373715," Arthashastra leaves","nearly no stone unturned when it comes to law and punishment."
+	            - python3-pip
+|3,0,4,1,1,0,1505134472,"            - python3-pip"
+"5	LINE	0
+	            - python-pip
+|3,0,5,1,1,0,1505134472,"            - python-pip"
 "6	LINE	0
-	
-|3,0,6,1,1,0,1491372444,""
+	        cout << "Deleting " << i << ".imd\n";
+|3,0,6,1,1,0,1504932423,"        cout << \"Deleting \" << i << \".imd\\n\";"
 "7	LINE	0
-	
-|3,0,7,1,1,0,1491372444,""
+	    
+|3,0,7,1,1,0,1504932376,"    "
 "8	LINE	0
-	In 
-|3,0,8,1,1,0,1491371757,"In "
-"9	LINE	0
 	
-|3,0,9,1,1,0,1491371754,""
+|3,0,8,1,1,0,1504932358,""
+"9	LINE	0
+	        string s = 
+|3,0,9,1,1,0,1504887334,"        string s = "
 "a@	CHAR	0
-	i\mathbf{wa}
-|3,2,10,0,1,0,1491372560,"i\\mathbf{wa}"
+	IEMPLOYEE -> ;
+|3,2,10,0,1,0,1503073011,"IEMPLOYEE -> ;"
+"b	CHAR	0
+	iCHECK_INCLUDE_FILES()
+|3,0,11,0,1,0,1493455540,"iCHECK_INCLUDE_FILES()"
 "g	CHAR	0
-	772
-<ggkgggqGjkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjkkkjji   jI   :wjAIn 1852, Radhanath Si€kbk€kbid€kbkdar, and Indian m€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb hailing from bengal was the first to identiy€kbfy X.€kb €kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kbrego€kb€kbcognize. €kbX. €kb€kb€kb€kb X. But the official d€kbannouncement dele€kbayed severhhhhhhhhhAal r€kb€kb e€kbe€kbyears since it a€kbhad to be verified.o - Vaugh began work in 184€kb54 and along with his staff spend€kbt two years working on the calculations.:wkkkjkkjkJJkjkkkkJJJkkJkJukJkkgqG:wjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjji   jhhi   :wjjjhhhi   :wjjA €kb:wAi€kb Finally, in Marh€kbch 1856, the official announcement came out.>>ui   :woW€kbVaugkkkkrWjjjjhhhdwViVaiwkjk
-|3,0,16,0,1,0,1484739082,>771
-|<"ggkgggqGjkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjkkkjji   jI   :wjAIn 1852, Radhanath Si€kbk€kbid€kbkdar, and Indian m€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb hailing from bengal was the first to identiy€kbfy X.€kb €kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kbrego€kb€kbcognize. €kbX. €kb€kb€kb€kb X. But the official d€kbannouncement dele€kbayed severhhhhhhhhhAal r€kb€kb e€kbe€kbyears since it a€kbhad to be verified.o - Vaugh began work in 184€kb54 and along with his staff spend€kbt two years wo
-|<rking on the calculations.:wkkkjkkjkJJkjkkkkJJJkkJkJukJkkgqG:wjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjji   jhhi   :wjjjhhhi   :wjjA €kb:wAi€kb Finally, in Marh€kbch 1856, the official announcement came out.>>ui   :woW€kbVaugkkkkrWjjjjhhhdwViVaiwkjk"
+	j
+|3,0,16,0,1,0,1504445106,"j"
 "j	CHAR	0
-	362
-<kgqj:€ý€ý€kdwkkkljllllllllllllllllllllllll€kdlllllx:whhhhhhhhhhlBlrB:wj:wjjjkkjkhh€kd€kd€kd€kd€kd€kdjjj€kdj€kdj€kd€kdj€kdj€kdjjj€kdjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkk€kdjj€kujj€kujj:wkkkj:wjjkkkkkkko*€kb€kb€kb€kb€kb€kb* RoutinghhhhhhiServer Side A€kb€kbe€kb€kbes:wo#+BEGIN+E€kb€kbE€kb_EXMP€kb€kbAMPLE#€kb_€kb+END_EXAMPLEkdd
-|3,0,19,0,1,0,1489956503,"kgqj:€ý€ý€kdwkkkljllllllllllllllllllllllll€kdlllllx:whhhhhhhhhhlBlrB:wj:wjjjkkjkhh€kd€kd€kd€kd€kd€kdjjj€kdj€kdj€kd€kdj€kdj€kdjjj€kdjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkk€kdjj€kujj€kujj:wkkkj:wjjkkkkkkko*€kb€kb€kb€kb€kb€kb* RoutinghhhhhhiServer Side A€kb€kbe€kb€kbes:wo#+BEGIN+E€kb€kbE€kb_EXMP€kb€kbAMPLE#€kb_€kb+END_EXAMPLEkdd"
+	kjkkj:set tw=50jjkkjjjjjjjjjjjjjjjjjjjjjgjkgjgkjgqj:wkkkk
+|3,0,19,0,1,0,1503721444,"kjkkj:set tw=50jjkkjjjjjjjjjjjjjjjjjjjjjgjkgjgkjgqj:wkkkk"
 "k	CHAR	0
-	kkkkk4ddAi:wA;:wk:wjkj
-|3,0,20,0,1,0,0,"kkkkk4ddAi:wA;:wk:wjkj"
-"q	CHAR	0
-	ahlhhhhlll
-|3,0,26,0,1,0,1486571048,"ahlhhhhlll"
+	8876
+<okkopassjdd:wgtgtjkkjA€kb€kb€kb€kb€kb€kb€kb€kb€kb:wgtgtjkkkkkkkkkkkkkkkkkkkkkkkkkkkgtkjjkgtgttggtkoprin€kb€kbddkAi, type(r€kb€kb€kb€kb€kb€kb€kb.du):wi():wddkoprint(r.dump()):wddlllllllc$i€kbr:wgtkkkklllllllllllllllllllkjdjjopri(par.dump())::whhhhhhhhhhhhhhhhceast:wgtjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjgtjjkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjkkkkkkkkkjA.setParseAction(Projection):wgtgtkjlhhhhiion:wkoprint9€kb(t0€kb)::wgtjggtjkkgtjkgtkkjjjhhkkkjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxxxuuuI#tyypyyplhxlllllllllxxxxxllllllllllllllllllllllllllllxxxxxxxxxx:wgtggtgttgtjkjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjkAjjA.par€kb€kb€kbsetParse(Selection):wgtgtjodef Selection(t)kkkjjjA:print(t):wgTgTgtgtjkjkjoreturn ("Selection", t):wgt/g€kbtableshhhhhhhhhhhhhlllllllxxxxxlllllllllllllllllllllllllllllxxxxxxxxxx:wgtjgtjkjllljkjjkjAhhhhhhhhhgtgtgtjkjhhhhci"Ta€kb€kbFrom;wkkhhhhhhhhhhhhhlct(From:wgtjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk/Selectci)From:wjkjkkkkkkjgtjkgtjkjkkkkI#:wkjgtkjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjkkkkkkgtgtg:wgtgtgtgtgt:wgtgtggt:g:wgtjjkkjjjjkkkkx:wddAi[0]jjjhjAi[0]:wjjjjjkjxluhhd%kkkklllllld%:wgtgtgt:wgt/selectjjjjjjlllllkkkkkA€kb€kb€kb€kb€kb€kbA(jjjjjA€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb.setParseAction(Select):wgtgtGkjodef Select(:wA)€kbt):print(t)oreturn ("Select", t):wgtjkkjkkgtgtgtgtgtkhi"Select:", Ai, "\b€kb€kb€kb€kb€kb:wli, "\n":whkkki, "\nukhi"From:", lli, "\n":wjkjjjjkkkkjjjoddddkjlkot€kbddddjlkljlAi1€kb[1]:wgtjGgtjGkkkkkkkkkkkkAhhhhhhhhhhi"Final Dump:", :wgtjkkjgggtjjkgtkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkGkkkkkkkkkkgtgtjjkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjkiGroupu:wjjjiGroupAhh:wjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh:wgtgtjkkkkjjjjhli::wgtkkjlllll:wgtgtgtkjgtgtjkkgtkjkkkkkjjjkjjgtgTgtggTjgtgtjkoprint(t):wjjjjkkdd:wkkkjjos, p, f, f€kb€kb€kb = t:wkjdddllllllllllllll li len(t),:wkos, p, f, _  €kb= t:whhhhhhhhhhllllllgtgkkjjkgtgtjkkjjljllllllllxxxxxi(s, €kb f€kbp):wkkhhhhxiidsjjAhi, ids:whhhhhhhhxxx:wgtjgtjjkkkkoprin(€kbt("AsD€kbList:", as.€kbt.asList()):wggjjjjjGkkkkkkkkkkkklllllllllllllllllllllllct)lxopprint(A€kb"A€kb€kbas.a€kbas()):wgtkgtjjjjjkkkkklhhhhhhhhhhhhlllllllllllllllllllllli(Ahhhli(€kb).setParseAction(rev€kbmoveNesting):wgtgtgtjkhhhhhhhct)Paranthesis:wgtgtGodef rem(t):open, €kb€kb€kb€kb€kb€kbo€kbpa€kb€kbopen_p€kb€kb€kb€kb€kb€kbopening, e, closing = toreturn e:wgtjjkkjgtgtjkkkgtgtgtjkgtjkkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhllhxxxxxllllllllllllllllllllllllllllllhAhh:wkjjkkkkjjjkkkjjkkkjjjkkkkkkkkkkkkkkkkkjjjjjjjjgtgTjjjjjjjjjjjjkkgtgtjkkkkkkjkjkkkjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkgtjkjjjjkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjkkhhhhhhhhhi(ju:wjlkkkkkkkjjjgtkgtjkjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkjjjjjjjoprint(t)dd:wfgtjkjjkkkkkkkkkkkkk/Fromhhhhhhhhhhhhhhhhd$:wgjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkjkkkjhhhhhhhhhjkkkkkkkkjofollw€kbowFrom = jjjjjjjhhhhd%kkkkkkkpuAp:wofromPlae€kbce€kb€kb€kb€kb€kbEc€kbtc = fo€kb€kbg.f + f:wklAjjjjjjjVjdkkjof:wA +:wkkkkkkhhhhhhkji(A).setPar(From):wgtgtjkkgtgtkgtjkkkkkgtkjjjddkkkkp:wjVjkVjkko:wgtgTjgtjjkkkkkkkkkkkkkkkgtjjjjlllxxxxif:wlllcew:wjjlllllllllllllrflllxxxiw:wkkkkkkjkkof, *€kbGkjlllllll:wi[A]:wkkkkkkkkkkkkAsddjAi[1]:wgtjkjjjjjjjjjjjkkkklllllllllkkkkkkkkkkkkkkkjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjA.setParseAction(u:wgtggtjjkkjjGkkkkkkkgtkkkkGkkkkkkkkkkkkkkkGkkkkkkkkkkkkgtgtgtkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkgtjgtjjkgtjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjggtgtkgtjjkgt/wherenjkjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjkkkkkkkkAhhhhhhhhhhhhhhhhhhhhhhli(A)i.set(re):wkjkj:wkjkjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhkkkkA.setParseu:wkkkkkkkkkkkkkkkkkkkkj/Binar/binarygtgtkkkkkkkkkkkkkkkkkkkkkkkgT/Bgtgt/BinaryjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjkkkjjjjjA.setPar(b€kbBi):wgtjgtjkjjjjjjjjjjgtkjllhhhci)i€kbgtgTkjgtgtgtgt/o€kbOpReod/BinarykkkkkkkkkkkkkkkkkkkjjA.setParseActin(€kb€kbon("Bi€kb€kb€kb€kb€kb€kb€kb€kb€kbBI€kb€kbi€kbBi):wjjjjjjjjjjjjjjjjjjjjjjjkkkkkkiBi€kb€kbOpkuiOp:wjjjjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhjjjkkkhxxxxxxi(A.setParseAction(Where):wgtgt/WhereGkGodef Where(t):se€kb€kbreturn ("Where", t):wgtgtgtkkkkkkkkkkkoprint(t):wddhjddkkp:whgtkjujkjjhhhhhhhhhhhhhhhhhhhhhhhhhhhlllhhhhhhhhhhhi(A).set(Wh):whhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxxxxxxxxxxi0€kb):whxhhhhhhhhhhhhhhhxxxxxx:wjkfgtkjgtjkjjjjjjjjjgkjggOfrom pprint import ppring€kbt:wGkkkkkkkkkkkjlllllllllllllllllllllllllipprintuxhxhxxxxxxxopprint(t):wkkkkkkjllllllhdt)opprint(t):wgjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjgtkjkjgtkkkkkkkkkkkkkkkGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkgtgkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkGkkkkkkkkkkkkkkkjjjjofor t €kb€kbi in t:pprint(i):wijj€kb€kb:wjjjjjjjjjjjjjkkkkkkkkkkkjjhhhhhhhip, :wjllllllllllllllxxxxis€kbo€kbp, f, w:wkkjkkkkkgtjkGkkkkkkkkkkkkkkkkkkkkkjjjlllllllllllllllllllli, "":wgtgtjkjjkkkkkkkkkkkGkkkjjjlkjAip1]]€kb€kb€kb€kb[1]:wgtkjhxxiNone:wgtgtkkkjjgggtjjGkkkkkkgtjkGkkkkkkkkkkkkkkjkI#jI#ji:wggt/printnnI#ji#njjjjI#ji#ji#jjkI#:wjjjkllllllllllllllllllllllhhhxiflllxxxli, p:wgtgtjgtjkkkjgtgtgtjgtjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjA.setPar(agg€kb€kb€kbFunction):wgtgtGodef f€kbFunction(t):name, arg:wgtgtgtkgtkjjkkjjjjkkjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhlxxxxxxlllllllllllli(A.setp€kbParseAction((€kbre):wgtgtjkjA = t:wdkujddkoddoreturn (F€kb"Function", t):wgtkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkgktgtgtjkoprint(t):wjjkgTgtgtk/jkjjjjjjkjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxxxxxxxxxxxxxxxxxxxxxxxxxxxx:wx:wggtgttgtjkgtjGkkkkkkkkkkkkkkkkkk/aggnnjlklllllllllliAi€kbuii€kb(A)A.€kb\€kb.\setParseAction(Function):wgtgtjgtjkgtgTjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjddkAiaddp€kbParset€kbAction(upcaseTokens):wjjjjjjjjjjjjjjjjgtkgtkkjkjkjgTgTkkkkk/aggrEjjkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjgtgtkkkkkkkkkkkkkkkkkkkkkkkkkkjoprint(t):wdd:wgTjgtgtjjjkjjgtgtjkgTgTjkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkjjjjkkkkkkkkjjjjjjjjjjjkkjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjkkkkkkkkkkkkkkkkkkkkjjjjjjkkhhhhhhhhhhhhhhhhis€kbA.set(unwrap):wgtgtGodef unwrp€kbap(t)pr€kb€kb:€kb€kb:print(t)return t:wgtjkkjkjgtgtkjkkgtjkA€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb:wjj:wll:wjjjkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkgtgtdG:wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkGuujjjjkkkkkdd:wgtkjkkkkkkkkkkkkkkkkkjjA.setPar(up€kbn):wjjgtgtjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjAip0€kb€kb[0]:wuu:wgtjkkkA€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb:wGgtgtjkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjkkVjjd:wkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjkoddkoprint(t):wi, e€kblen(t):wdd:wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjkoprint(t):wdd:wGk/Po€kbrjopriddkkor = ("Pr", t):woprint(r):wjkkAip0€kb€kb[1€kb0]:wjkxxxA€kb):wjIp:wkjlllllllilen(A):whi[1]:wddkor€kbprint(t, len()€kbt)):wkjkofor xs in t:print €kb(xs):wkVjjd:wkdd:wgtkkggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkjkkjkkkkgtgtjk/Ideljlllllllllllhct":w:wkjgtgtjjjkkkkkkkkkkkkkkjjjjjjjjjjjkVjkkkjj:wkkkkkkkVjjkkVjj:s/[ar€kb€kb€kbparsetre€kb€kb€kbTree/ast/g:w:w€ku€kukkkgtgtkgtgtkgtjkkkkkkkkjjjjjjjA.setParseAction(Nest):wgtgtGodef Nest(t)re€kb€kb€kb:return tlokdkoprint(t):wgtkjkhhhhhhhct)False:wjjjjjjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhlxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxiide:wkkkkkkkkkkkkkkjjjjjjjjhhhhhhhhhxxxxxxxxxxxxxxxllllllllllxxi + lllllhlllhhhvjlllllllllllllllllllllllllllllllllllld:whhhhhhhhhhhhhhhi(A);w:wkkAi + ide:whhhhhhhhhhhhhhhhhhhhuuuuuuuuuuuuuuuuuuuuuuuu:wAu:wjkI#jI#o€kb€kb€kb€kb€kb€kbcolumn = identifier + '€kb'.' =€kb+ id:whhhhhhhhhhhhhhhhhhhhhhhhhhhhidee€kb€kb€kb:wjjjjjkkkkkkjlllllllllllllliOptional(A):wkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj/*nnnjjjjjjjjgtjjjjjjjgttgtjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjIllllllllgtjjkk:tabnew ../						€kBGkjodef jion€kb€kb€kboin(:wgg:w
+|3,0,20,0,1,0,1502823455,>8911
+|<"okkopassjdd:wgtgtjkkjA€kb€kb€kb€kb€kb€kb€kb€kb€kb:wgtgtjkkkkkkkkkkkkkkkkkkkkkkkkkkkgtkjjkgtgttggtkoprin€kb€kbddkAi, type(r€kb€kb€kb€kb€kb€kb€kb.du):wi():wddkoprint(r.dump()):wddlllllllc$i€kbr:wgtkkkklllllllllllllllllllkjdjjopri(par.dump())::whhhhhhhhhhhhhhhhceast:wgtjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjgtjjkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjkkkkkkkkkjA.setParseAction(Projection):wgtgtkjlhhhhiion:wkoprint9€kb(t0€kb)::wgtjggtjkkgtjkgtkkjjjhhkkkjhhhhh
+|<hhhhhhhhhhhhhhhhhhhhhhhhhhhhxxxuuuI#tyypyyplhxlllllllllxxxxxllllllllllllllllllllllllllllxxxxxxxxxx:wgtggtgttgtjkjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjkAjjA.par€kb€kb€kbsetParse(Selection):wgtgtjodef Selection(t)kkkjjjA:print(t):wgTgTgtgtjkjkjoreturn (\"Selection\", t):wgt/g€kbtableshhhhhhhhhhhhhlllllllxxxxxlllllllllllllllllllllllllllllxxxxxxxxxx:wg
+|<tjgtjkjllljkjjkjAhhhhhhhhhgtgtgtjkjhhhhci\"Ta€kb€kbFrom;wkkhhhhhhhhhhhhhlct(From:wgtjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk/Selectci)From:wjkjkkkkkkjgtjkgtjkjkkkkI#:wkjgtkjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjkkkkkkgtgtg:wgtgtgtgtgt:wgtgtggt:g:wgtjjkkjjjjkkkkx:wddAi[0]jjjhjAi[0]:wjjjjjkjxluhhd%kkkklllllld%:wgtgtgt:wgt/selectjjjjjjlllllkkkkkA€kb€kb€kb€kb€kb€kbA(jjjjjA€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb.setParseAction(Selec
+|<t):wgtgtGkjodef Select(:wA)€kbt):print(t)oreturn (\"Select\", t):wgtjkkjkkgtgtgtgtgtkhi\"Select:\", Ai, \"\\b€kb€kb€kb€kb€kb:wli, \"\\n\":whkkki, \"\\nukhi\"From:\", lli, \"\\n\":wjkjjjjkkkkjjjoddddkjlkot€kbddddjlkljlAi1€kb[1]:wgtjGgtjGkkkkkkkkkkkkAhhhhhhhhhhi\"Final Dump:\", :wgtjkkjgggtjjkgtkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkGkkkkkkkkkkgtgtjjkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjkiGroupu:wjjjiGroupAhh:wjhhhhhhh
+|<hhhhhhhhhhhhhhhhhhhhhhhhhhh:wgtgtjkkkkjjjjhli::wgtkkjlllll:wgtgtgtkjgtgtjkkgtkjkkkkkjjjkjjgtgTgtggTjgtgtjkoprint(t):wjjjjkkdd:wkkkjjos, p, f, f€kb€kb€kb = t:wkjdddllllllllllllll li len(t),:wkos, p, f, _  €kb= t:whhhhhhhhhhllllllgtgkkjjkgtgtjkkjjljllllllllxxxxxi(s, €kb f€kbp):wkkhhhhxiidsjjAhi, ids:whhhhhhhhxxx:wgtjgtjjkkkkoprin(€kbt(\"AsD€kbList:\", as.€kbt.asList()):wggjjjjjGkkkkkkkkkkkklllllllllllllllllllllllct)lxopprint(A€kb\"A€kb€kbas.a€kbas(
+|<)):wgtkgtjjjjjkkkkklhhhhhhhhhhhhlllllllllllllllllllllli(Ahhhli(€kb).setParseAction(rev€kbmoveNesting):wgtgtgtjkhhhhhhhct)Paranthesis:wgtgtGodef rem(t):open, €kb€kb€kb€kb€kb€kbo€kbpa€kb€kbopen_p€kb€kb€kb€kb€kb€kbopening, e, closing = toreturn e:wgtjjkkjgtgtjkkkgtgtgtjkgtjkkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhllhxxxxxllllllllllllllllllllllllllllllhAhh:wkjjkkkkjjjkkkjjkkkjjjkkkkkkkkkkkkkkkkkjjjjjjjjgtgTjjjjjjjjjjjjkkgtgtjkkkkkkjkjkkkjjjjj
+|<jjjjjjjjjjjjjjjkkkkkkkkkkkkkgtjkjjjjkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjkkhhhhhhhhhi(ju:wjlkkkkkkkjjjgtkgtjkjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkjjjjjjjoprint(t)dd:wfgtjkjjkkkkkkkkkkkkk/Fromhhhhhhhhhhhhhhhhd$:wgjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkjkkkjhhhhhhhhhjkkkkkkkkjofollw€kbowFrom = jjjjjjjhhhhd%kkkkkkkpuAp:wofromPlae€kbce€kb€kb€kb€kb€kbEc€kbtc = fo€kb€kbg.f + f:wklAjjjjjjjVjdkkjof:wA +:wkkkkkkhhhhhhkji(A).set
+|<Par(From):wgtgtjkkgtgtkgtjkkkkkgtkjjjddkkkkp:wjVjkVjkko:wgtgTjgtjjkkkkkkkkkkkkkkkgtjjjjlllxxxxif:wlllcew:wjjlllllllllllllrflllxxxiw:wkkkkkkjkkof, *€kbGkjlllllll:wi[A]:wkkkkkkkkkkkkAsddjAi[1]:wgtjkjjjjjjjjjjjkkkklllllllllkkkkkkkkkkkkkkkjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjA.setParseAction(u:wgtggtjjkkjjGkkkkkkkgtkkkkGkkkkkkkkkkkkkkkGkkkkkkkkkkkkgtgtgtkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkgtjgtjjkgtjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+|<jjjjjjjjjjjjjjjjjjjjjjggtgtkgtjjkgt/wherenjkjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjkkkkkkkkAhhhhhhhhhhhhhhhhhhhhhhli(A)i.set(re):wkjkj:wkjkjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhkkkkA.setParseu:wkkkkkkkkkkkkkkkkkkkkj/Binar/binarygtgtkkkkkkkkkkkkkkkkkkkkkkkgT/Bgtgt/BinaryjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjkkkjjjjjA.setPar(b€kbBi):wgtjgtjkjjjjjjjjjjgtkjllhhhci)i€kbgtgTkjgtgtgtgt/o€kbOpReod/Binarykkkkkkkkkkkk
+|<kkkkkkkjjA.setParseActin(€kb€kbon(\"Bi€kb€kb€kb€kb€kb€kb€kb€kb€kbBI€kb€kbi€kbBi):wjjjjjjjjjjjjjjjjjjjjjjjkkkkkkiBi€kb€kbOpkuiOp:wjjjjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhjjjkkkhxxxxxxi(A.setParseAction(Where):wgtgt/WhereGkGodef Where(t):se€kb€kbreturn (\"Where\", t):wgtgtgtkkkkkkkkkkkoprint(t):wddhjddkkp:whgtkjujkjjhhhhhhhhhhhhhhhhhhhhhhhhhhhlllhhhhhhhhhhhi(A).set(Wh):whhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxxxxxxxxxxi0€kb):whxhhhhhhhhhhhhhhhxx
+|<xxxx:wjkfgtkjgtjkjjjjjjjjjgkjggOfrom pprint import ppring€kbt:wGkkkkkkkkkkkjlllllllllllllllllllllllllipprintuxhxhxxxxxxxopprint(t):wkkkkkkjllllllhdt)opprint(t):wgjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjgtkjkjgtkkkkkkkkkkkkkkkGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkgtgkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkGkkkkkkkkkkkkkkkjjjjofor t €kb€kbi in t:pprint(i):wijj€kb€kb:wjjjjjjjjjjjjjkkkkkkkkkkkjjhhh
+|<hhhhip, :wjllllllllllllllxxxxis€kbo€kbp, f, w:wkkjkkkkkgtjkGkkkkkkkkkkkkkkkkkkkkkjjjlllllllllllllllllllli, \"\":wgtgtjkjjkkkkkkkkkkkGkkkjjjlkjAip1]]€kb€kb€kb€kb[1]:wgtkjhxxiNone:wgtgtkkkjjgggtjjGkkkkkkgtjkGkkkkkkkkkkkkkkjkI#jI#ji:wggt/printnnI#ji#njjjjI#ji#ji#jjkI#:wjjjkllllllllllllllllllllllhhhxiflllxxxli, p:wgtgtjgtjkkkjgtgtgtjgtjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjA.setPar(agg€kb€kb€kbFunction):wgtgtGodef f€kbF
+|<unction(t):name, arg:wgtgtgtkgtkjjkkjjjjkkjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhlxxxxxxlllllllllllli(A.setp€kbParseAction((€kbre):wgtgtjkjA = t:wdkujddkoddoreturn (F€kb\"Function\", t):wgtkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkgktgtgtjkoprint(t):wjjkgTgtgtk/jkjjjjjjkjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxxxxxxxxxxxxxxxxxxxxxxxxxxxx:wx:wggtgttgtjkgtjGkkkkkkkkkkkkkkkkkk/aggnnjlkll
+|<lllllllliAi€kbuii€kb(A)A.€kb\\€kb.\\setParseAction(Function):wgtgtjgtjkgtgTjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjddkAiaddp€kbParset€kbAction(upcaseTokens):wjjjjjjjjjjjjjjjjgtkgtkkjkjkjgTgTkkkkk/aggrEjjkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjgtgtkkkkkkkkkkkkkkkkkkkkkkkkkkjoprint(t):wdd:wgTjgtgtjjjkjjgtgtjkgTgTjkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkjjjjkkkkkkkkjjjjjjjjjjjkkjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjkkkkkkkkkkkkkkkkkkkkjjjjjjkkhhhhhhhhhhhhh
+|<hhhis€kbA.set(unwrap):wgtgtGodef unwrp€kbap(t)pr€kb€kb:€kb€kb:print(t)return t:wgtjkkjkjgtgtkjkkgtjkA€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb:wjj:wll:wjjjkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkgtgtdG:wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkGuujjjjkkkkkdd:wgtkjkkkkkkkkkkkkkkkkkjjA.setPar(up€kbn):wjjgtgtjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjAip0€kb€kb[0]:wuu:wgtjk
+|<kkA€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb:wGgtgtjkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjkkVjjd:wkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjkoddkoprint(t):wi, e€kblen(t):wdd:wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjkoprint(t):wdd:wGk/Po€kbrjopriddkkor = (\"Pr\", t):woprint(r):wjkkAip0€kb€kb[1€kb0]:wjkxxxA€kb):wjIp:wkjlllllllilen(A):whi[1]:wddkor€kbprint(t, len()€kbt)):wkjkofor xs in t:print €kb(xs):wkVjj
+|<d:wkdd:wgtkkggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkjkkjkkkkgtgtjk/Ideljlllllllllllhct\":w:wkjgtgtjjjkkkkkkkkkkkkkkjjjjjjjjjjjkVjkkkjj:wkkkkkkkVjjkkVjj:s/[ar€kb€kb€kbparsetre€kb€kb€kbTree/ast/g:w:w€ku€kukkkgtgtkgtgtkgtjkkkkkkkkjjjjjjjA.setParseAction(Nest):wgtgtGodef Nest(t)re€kb€kb€kb:return tlokdkoprint(t):wgtkjkhhhhhhhct)False:wjjjjjjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhlxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxiide:wkkkkkkkkkkkkkkj
+|<jjjjjjjhhhhhhhhhxxxxxxxxxxxxxxxllllllllllxxi + lllllhlllhhhvjlllllllllllllllllllllllllllllllllllld:whhhhhhhhhhhhhhhi(A);w:wkkAi + ide:whhhhhhhhhhhhhhhhhhhhuuuuuuuuuuuuuuuuuuuuuuuu:wAu:wjkI#jI#o€kb€kb€kb€kb€kb€kbcolumn = identifier + '€kb'.' =€kb+ id:whhhhhhhhhhhhhhhhhhhhhhhhhhhhidee€kb€kb€kb:wjjjjjkkkkkkjlllllllllllllliOptional(A):wkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj/*nnnjjjjjjjjgtjjjjjjjgttgtjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+|<kkkkkjjjjjjjjjjjIllllllllgtjjkk:tabnew ../						€kBGkjodef jion€kb€kb€kboin(:wgg:w"
 "w	CHAR	0
 	O
 |3,0,32,0,1,0,0,"O"
@@ -298,2123 +317,2522 @@ $
 	i(thunk lhlt a)
 |3,0,35,0,1,0,1485956367,"i(thunk lhlt a)"
 ""-	CHAR	0
-	o
-|3,1,36,0,1,0,1491386916,"o"
+	#
+|3,1,36,0,1,0,1505366833,"#"
 
 # File marks:
-'0  19  44  ~/repo/dot/config.yml
-|4,48,19,44,1491386938,"~/repo/dot/config.yml"
-'1  31  8  ~/repo/dot/config.yml
-|4,49,31,8,1491386866,"~/repo/dot/config.yml"
-'2  31  8  ~/repo/dot/config.yml
-|4,50,31,8,1491386866,"~/repo/dot/config.yml"
-'3  8  0  ~/.yaourtrc
-|4,51,8,0,1491386754,"~/.yaourtrc"
-'4  16  0  /etc/yaourtrc
-|4,52,16,0,1491386688,"/etc/yaourtrc"
-'5  16  0  /etc/yaourtrc
-|4,53,16,0,1491386688,"/etc/yaourtrc"
-'6  1  0  ~/.bashrc
-|4,54,1,0,1491386158,"~/.bashrc"
-'7  53  0  ~/.vimrc
-|4,55,53,0,1491386156,"~/.vimrc"
-'8  31  0  ~/.bashrc
-|4,56,31,0,1491386150,"~/.bashrc"
-'9  31  0  ~/.bashrc
-|4,57,31,0,1491386150,"~/.bashrc"
+'0  8  20  ~/repo/sysadm/slurm/conf.d/slurm.conf
+|4,48,8,20,1505366846,"~/repo/sysadm/slurm/conf.d/slurm.conf"
+'1  1  0  ~/repo/sysadm/playbooks/atom_slave_setup.yml
+|4,49,1,0,1505366826,"~/repo/sysadm/playbooks/atom_slave_setup.yml"
+'2  1  0  ~/repo/sysadm/playbooks/atom_setup.yml
+|4,50,1,0,1505366679,"~/repo/sysadm/playbooks/atom_setup.yml"
+'3  50  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,51,50,1,1505366671,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+'4  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,52,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+'5  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,53,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+'6  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,54,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+'7  1  0  post/2017-08-26-mt-space.markdown
+|4,55,1,0,1505200990,"post/2017-08-26-mt-space.markdown"
+'8  1  14  ~/repo/log/xvfb-install.yml
+|4,56,1,14,1505134662,"~/repo/log/xvfb-install.yml"
+'9  1  0  ~/repo/log/xvfb-install.
+|4,57,1,0,1505134657,"~/repo/log/xvfb-install."
 
 # Jumplist (newest first):
--'  19  44  ~/repo/dot/config.yml
-|4,39,19,44,1491386938,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1491386899,"~/repo/dot/config.yml"
--'  31  8  ~/repo/dot/config.yml
-|4,39,31,8,1491386866,"~/repo/dot/config.yml"
--'  31  8  ~/repo/dot/config.yml
-|4,39,31,8,1491386866,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1491386818,"~/repo/dot/config.yml"
--'  8  0  ~/.yaourtrc
-|4,39,8,0,1491386754,"~/.yaourtrc"
--'  8  0  ~/.yaourtrc
-|4,39,8,0,1491386754,"~/.yaourtrc"
--'  8  0  ~/.yaourtrc
-|4,39,8,0,1491386754,"~/.yaourtrc"
--'  8  0  ~/.yaourtrc
-|4,39,8,0,1491386754,"~/.yaourtrc"
--'  68  10  ~/.yaourtrc
-|4,39,68,10,1491386741,"~/.yaourtrc"
--'  68  10  ~/.yaourtrc
-|4,39,68,10,1491386741,"~/.yaourtrc"
--'  68  10  ~/.yaourtrc
-|4,39,68,10,1491386741,"~/.yaourtrc"
--'  68  10  ~/.yaourtrc
-|4,39,68,10,1491386741,"~/.yaourtrc"
--'  8  0  ~/builds
-|4,39,8,0,1491386713,"~/builds"
--'  8  0  ~/builds
-|4,39,8,0,1491386713,"~/builds"
--'  8  0  ~/builds
-|4,39,8,0,1491386713,"~/builds"
--'  8  0  ~/builds
-|4,39,8,0,1491386713,"~/builds"
--'  17  24  ~/.yaourtrc
-|4,39,17,24,1491386709,"~/.yaourtrc"
--'  17  24  ~/.yaourtrc
-|4,39,17,24,1491386709,"~/.yaourtrc"
--'  17  24  ~/.yaourtrc
-|4,39,17,24,1491386709,"~/.yaourtrc"
--'  17  24  ~/.yaourtrc
-|4,39,17,24,1491386709,"~/.yaourtrc"
--'  1  0  ~/.yaourtrc
-|4,39,1,0,1491386693,"~/.yaourtrc"
--'  1  0  ~/.yaourtrc
-|4,39,1,0,1491386693,"~/.yaourtrc"
--'  1  0  ~/.yaourtrc
-|4,39,1,0,1491386693,"~/.yaourtrc"
--'  1  0  ~/.yaourtrc
-|4,39,1,0,1491386693,"~/.yaourtrc"
--'  16  0  /etc/yaourtrc
-|4,39,16,0,1491386688,"/etc/yaourtrc"
--'  16  0  /etc/yaourtrc
-|4,39,16,0,1491386688,"/etc/yaourtrc"
--'  16  0  /etc/yaourtrc
-|4,39,16,0,1491386688,"/etc/yaourtrc"
--'  16  0  /etc/yaourtrc
-|4,39,16,0,1491386688,"/etc/yaourtrc"
--'  16  0  /etc/yaourtrc
-|4,39,16,0,1491386688,"/etc/yaourtrc"
--'  16  0  /etc/yaourtrc
-|4,39,16,0,1491386688,"/etc/yaourtrc"
--'  16  0  /etc/yaourtrc
-|4,39,16,0,1491386688,"/etc/yaourtrc"
--'  16  0  /etc/yaourtrc
-|4,39,16,0,1491386688,"/etc/yaourtrc"
--'  1  0  /etc/yaourtrc
-|4,39,1,0,1491386677,"/etc/yaourtrc"
--'  1  0  /etc/yaourtrc
-|4,39,1,0,1491386677,"/etc/yaourtrc"
--'  1  0  /etc/yaourtrc
-|4,39,1,0,1491386677,"/etc/yaourtrc"
--'  1  0  /etc/yaourtrc
-|4,39,1,0,1491386677,"/etc/yaourtrc"
--'  1  0  /etc/yaourtrc
-|4,39,1,0,1491386677,"/etc/yaourtrc"
--'  1  0  /etc/yaourtrc
-|4,39,1,0,1491386677,"/etc/yaourtrc"
--'  1  0  /etc/yaourtrc
-|4,39,1,0,1491386677,"/etc/yaourtrc"
--'  1  0  /etc/yaourtrc
-|4,39,1,0,1491386677,"/etc/yaourtrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1491386158,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1491386158,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1491386158,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1491386158,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1491386158,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1491386158,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1491386158,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1491386158,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1491386158,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1491386158,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1491386158,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1491386158,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1491386158,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1491386158,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1491386158,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1491386158,"~/.bashrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1491386156,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1491386154,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1491386154,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1491386154,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1491386154,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1491386154,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1491386154,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1491386154,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1491386154,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1491386154,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1491386154,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1491386154,"~/.vimrc"
+-'  8  20  ~/repo/sysadm/slurm/conf.d/slurm.conf
+|4,39,8,20,1505366846,"~/repo/sysadm/slurm/conf.d/slurm.conf"
+-'  1  0  ~/repo/sysadm/slurm/conf.d/slurm.conf
+|4,39,1,0,1505366832,"~/repo/sysadm/slurm/conf.d/slurm.conf"
+-'  1  0  ~/repo/sysadm/playbooks/atom_slave_setup.yml
+|4,39,1,0,1505366826,"~/repo/sysadm/playbooks/atom_slave_setup.yml"
+-'  1  0  ~/repo/sysadm/playbooks/atom_slave_setup.yml
+|4,39,1,0,1505366826,"~/repo/sysadm/playbooks/atom_slave_setup.yml"
+-'  1  0  ~/repo/sysadm/playbooks/atom_setup.yml
+|4,39,1,0,1505366679,"~/repo/sysadm/playbooks/atom_setup.yml"
+-'  1  0  ~/repo/sysadm/playbooks/atom_setup.yml
+|4,39,1,0,1505366679,"~/repo/sysadm/playbooks/atom_setup.yml"
+-'  1  0  ~/repo/sysadm/playbooks/atom_setup.yml
+|4,39,1,0,1505366679,"~/repo/sysadm/playbooks/atom_setup.yml"
+-'  1  0  ~/repo/sysadm/playbooks/atom_setup.yml
+|4,39,1,0,1505366679,"~/repo/sysadm/playbooks/atom_setup.yml"
+-'  50  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,50,1,1505366671,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  50  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,50,1,1505366671,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  50  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,50,1,1505366671,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  50  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,50,1,1505366671,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  50  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,50,1,1505366671,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  50  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,50,1,1505366671,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  50  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,50,1,1505366671,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  50  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,50,1,1505366671,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,1,0,1505366666,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,1,0,1505366666,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,1,0,1505366666,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,1,0,1505366666,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,1,0,1505366666,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,1,0,1505366666,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,1,0,1505366666,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,1,0,1505366666,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,1,0,1505366662,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,1,0,1505366662,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,1,0,1505366662,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,1,0,1505366662,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,1,0,1505366662,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,1,0,1505366662,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,1,0,1505366662,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
+|4,39,1,0,1505366662,"~/repo/sysadm/playbooks/cosmos_setup.yml"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
 
 # History of marks within files (newest to oldest):
 
-> ~/repo/dot/config.yml
-	*	1491386938	0
-	"	19	44
-	^	19	45
-	.	19	44
-	+	19	44
-	+	31	0
-	+	19	44
+> ~/repo/sysadm/slurm/conf.d/slurm.conf
+	*	1505366844	0
+	"	8	20
+	^	8	21
+	.	8	20
+	+	7	0
+	+	8	0
+	+	7	21
+	+	8	20
 
-> ~/.yaourtrc
-	*	1491386752	0
-	"	8	0
-	^	47	11
-	.	47	10
-	+	2	0
-	+	17	25
-	+	47	10
-
-> /etc/yaourtrc
-	*	1491386688	0
-	"	16	0
-	^	16	20
-	.	16	0
-	+	16	0
-
-> ~/.bashrc
-	*	1491386157	0
+> ~/repo/sysadm/playbooks/atom_slave_setup.yml
+	*	1505366826	0
 	"	1	0
-	^	30	66
-	.	30	65
-	+	30	65
-	+	31	46
-	+	30	65
 
-> ~/.vimrc
-	*	1491386155	0
-	"	53	0
-	^	53	1
-	.	53	0
-	+	53	17
-	+	52	0
-	+	53	0
-	+	52	0
-	+	53	0
+> ~/repo/sysadm/playbooks/atom_setup.yml
+	*	1505366679	0
+	"	1	0
 
-> ~/s17/state-in-colonial-india/term-papers/mid-2/src/main.tex
-	*	1491386145	0
-	"	21	18
-	^	21	26
-	.	21	0
-	+	101	0
-	+	107	0
-	+	59	33
-	+	58	20
-	+	59	32
-	+	59	37
-	+	53	64
-	+	54	64
-	+	55	60
-	+	73	44
-	+	59	32
-	+	59	24
-	+	73	61
-	+	74	60
-	+	77	64
-	+	78	58
-	+	79	63
-	+	80	64
-	+	82	61
-	+	83	59
-	+	85	62
-	+	86	10
-	+	85	58
-	+	86	63
-	+	89	63
-	+	90	60
-	+	92	5
-	+	89	30
-	+	92	34
-	+	107	0
-	+	93	61
-	+	94	59
-	+	96	64
-	+	97	22
-	+	21	5
-	+	107	0
-	+	97	23
-	+	99	36
-	+	101	16
-	+	100	0
-	+	107	0
-	+	113	0
-	+	102	55
-	+	105	15
-	+	104	57
-	+	106	90
-	+	106	27
-	+	106	41
-	+	21	19
-	+	17	42
-	+	18	40
-	+	20	63
-	+	21	57
-	+	21	19
-	+	105	7
-	+	106	8
-	+	107	0
-	+	106	18
-	+	105	54
-	+	21	19
-	+	113	0
-	+	18	0
-	+	21	0
+> ~/repo/sysadm/playbooks/cosmos_setup.yml
+	*	1505366670	0
+	"	50	1
 
-> ~/s17/state-in-colonial-india/term-papers/mid-1/src/main.tex
-	*	1491372522	0
-	"	188	0
-	^	18	0
-	.	122	0
-	+	18	0
-	+	113	0
-	+	122	0
-
-> ~/om.txt
-	*	1491370466	0
-	"	1	24
-	^	1	25
-	.	1	24
-	+	1	24
-
-> ~/honours/nnl/nnl_ndim-2.0/nn/engine/NDimLstmLayer.h
-	*	1491285897	0
-	"	2	0
-
-> /etc/hosts
-	*	1491282995	0
-	"	34	0
-	^	9	7
-	.	35	0
-	+	11	47
-	+	33	22
-	+	9	0
-	+	11	0
+> ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
+	*	1505201336	0
+	"	25	0
+	^	17	60
+	.	17	59
+	+	41	0
+	+	42	0
+	+	41	41
+	+	41	0
+	+	41	35
+	+	41	36
+	+	41	0
+	+	41	69
+	+	41	18
+	+	41	38
+	+	41	4
+	+	41	0
+	+	41	29
+	+	41	0
+	+	28	71
+	+	29	66
+	+	26	15
+	+	30	15
+	+	31	15
+	+	35	7
+	+	41	7
+	+	40	0
+	+	35	16
+	+	31	21
+	+	35	17
+	+	30	7
+	+	35	7
+	+	31	22
 	+	35	0
+	+	32	66
+	+	35	71
+	+	40	0
+	+	35	25
+	+	39	5
+	+	35	0
+	+	36	0
+	+	34	59
+	+	33	40
+	+	33	71
+	+	35	0
+	+	37	33
+	+	41	0
+	+	40	0
+	+	38	16
+	+	37	45
+	+	139	2
+	+	138	0
+	+	139	57
+	+	140	74
+	+	83	0
+	+	81	179
+	+	81	91
+	+	84	0
+	+	103	41
+	+	113	0
+	+	129	0
+	+	128	0
+	+	113	0
+	+	131	0
+	+	85	51
+	+	84	62
+	+	85	53
+	+	81	147
+	+	82	1
+	+	134	0
+	+	11	22
+	+	23	0
+	+	15	12
+	+	13	15
+	+	19	46
+	+	18	101
+	+	18	102
+	+	18	134
+	+	18	61
+	+	23	0
+	+	20	91
+	+	20	127
+	+	20	9
+	+	20	7
+	+	18	134
+	+	18	137
+	+	20	63
+	+	20	73
+	+	23	0
+	+	20	72
+	+	22	3
+	+	20	0
+	+	21	33
+	+	20	118
+	+	18	114
+	+	20	0
+	+	18	67
+	+	18	72
+	+	20	119
+	+	22	0
+	+	19	0
+	+	18	78
+	+	21	0
+	+	17	59
 
-> ~/s17/state-in-colonial-india/term-papers/mid-2/src/sources.bib
-	*	1491218062	0
-	"	4	13
-	^	1	19
-	.	1	18
-	+	1	24
-	+	7	25
-	+	11	0
-	+	10	0
-	+	5	0
-	+	7	19
-	+	1	18
+> post/2017-08-26-mt-space.markdown
+	*	1505200990	0
+	"	1	0
 
-> ~/s17/state-in-colonial-india/term-papers/mid-2/notes/notes.md
-	*	1491217823	0
-	"	55	17
-	^	55	19
-	.	55	18
-	+	5	38
-	+	4	0
-	+	2	8
-	+	7	12
-	+	9	52
-	+	12	0
-	+	9	1
-	+	10	52
-	+	12	0
+> ~/repo/log/xvfb-install.yml
+	*	1505134662	0
+	"	1	14
+	^	1	15
+	.	1	14
+	+	7	48
 	+	10	0
 	+	9	0
+	+	10	13
+	+	1	14
+
+> ~/repo/log/xvfb-install.
+	*	1505134657	0
+	"	1	0
+
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/out
+	*	1504933830	0
+	"	1	0
+
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/cleanup.cpp
+	*	1504933799	0
+	"	7	18
+	^	7	19
+	.	7	18
+	+	4	33
+	+	14	0
+	+	5	25
+	+	7	23
 	+	12	0
-	+	15	39
-	+	25	463
-	+	15	39
-	+	25	462
-	+	15	1
-	+	25	463
-	+	25	462
-	+	16	0
-	+	25	462
-	+	17	14
-	+	18	5
-	+	19	29
-	+	20	5
-	+	18	46
-	+	19	13
-	+	20	26
-	+	22	47
-	+	21	63
-	+	22	63
-	+	25	461
-	+	25	21
-	+	25	20
-	+	25	40
-	+	25	21
-	+	25	0
-	+	25	20
-	+	25	0
-	+	25	47
-	+	25	19
-	+	25	0
-	+	25	36
-	+	25	51
-	+	25	57
-	+	25	61
-	+	25	68
-	+	25	93
-	+	25	103
-	+	25	116
-	+	25	121
-	+	25	183
-	+	25	189
-	+	25	195
-	+	25	218
-	+	25	265
-	+	25	285
-	+	25	289
-	+	25	335
-	+	25	403
-	+	25	462
-	+	25	0
-	+	23	5
-	+	25	1
-	+	26	60
-	+	27	27
-	+	32	0
-	+	20	6
-	+	32	56
-	+	39	0
-	+	33	0
-	+	34	24
-	+	37	42
-	+	39	0
-	+	40	29
-	+	41	37
-	+	44	11
-	+	45	25
-	+	49	44
-	+	51	35
-	+	41	31
-	+	55	18
-
-> ~/s17/state-in-colonial-india/term-papers/mid-2/notes/notes.txt
-	*	1491154029	0
-	"	4	19
-	^	4	20
-	.	4	19
-	+	2	0
-	+	4	19
-
-> ~/s17/state-in-colonial-india/term-papers/book-review/src/main.tex
-	*	1491114985	0
-	"	285	4
-	^	300	28
-	.	300	28
-	+	84	46
-	+	84	35
-	+	84	83
-	+	84	91
-	+	84	90
-	+	84	87
-	+	84	63
-	+	84	35
-	+	84	90
-	+	84	79
-	+	84	91
-	+	84	45
-	+	84	85
-	+	84	82
-	+	84	90
-	+	84	55
-	+	84	87
-	+	84	77
-	+	84	91
-	+	84	90
-	+	84	85
-	+	84	76
-	+	84	39
-	+	84	48
-	+	84	43
-	+	84	47
-	+	84	76
-	+	84	69
-	+	84	78
-	+	84	56
-	+	80	21
-	+	84	41
-	+	84	78
-	+	84	39
-	+	84	55
-	+	84	82
-	+	84	47
-	+	84	66
-	+	302	0
-	+	84	79
-	+	84	50
-	+	84	88
-	+	84	47
-	+	302	0
-	+	302	51
-	+	302	0
-	+	84	86
-	+	84	48
-	+	84	78
-	+	84	87
-	+	84	89
-	+	84	46
-	+	302	0
-	+	301	0
-	+	5	31
-	+	301	0
-	+	5	40
-	+	84	48
-	+	84	35
-	+	84	88
-	+	84	90
-	+	301	0
-	+	84	0
-	+	277	12
-	+	277	29
-	+	275	0
-	+	276	51
-	+	290	46
-	+	291	46
-	+	292	30
-	+	294	38
-	+	296	34
-	+	297	33
-	+	300	26
-	+	300	20
-	+	299	37
-	+	301	0
-	+	300	28
-	+	302	0
-	+	288	4
-	+	277	12
-	+	251	7
-	+	291	12
-	+	299	55
-	+	280	53
-	+	283	55
-	+	284	43
-	+	283	12
-	+	284	55
-	+	287	19
-	+	9	9
-	+	300	28
-
-> ~/itws2/sandbox/mvc-web-lab/app/report/models.py
-	*	1491044345	0
-	"	16	25
-	^	22	33
-	.	4	0
-	+	4	17
-	+	4	14
-	+	4	17
-	+	4	0
-	+	39	0
-	+	22	33
-	+	4	0
-
-> ~/itws2/sandbox/friday-lab/app.py
-	*	1491043513	0
-	"	42	0
-	^	2	59
-	.	2	58
-	+	12	0
-	+	1	39
-	+	27	73
-	+	12	0
-	+	19	0
-	+	11	19
-	+	2	22
-	+	7	0
-	+	17	54
-	+	18	35
-	+	24	23
-	+	29	48
-	+	29	0
-	+	29	49
-	+	29	19
-	+	29	14
-	+	29	0
-	+	29	25
-	+	29	26
-	+	29	0
-	+	29	19
-	+	29	20
-	+	29	48
-	+	29	30
-	+	29	0
-	+	29	25
-	+	29	0
-	+	29	53
-	+	29	5
-	+	29	47
-	+	29	0
-	+	29	51
-	+	29	5
-	+	29	22
-	+	29	18
-	+	29	0
-	+	29	21
-	+	29	48
-	+	29	0
-	+	13	7
-	+	29	11
-	+	29	9
-	+	29	16
-	+	29	7
-	+	29	0
-	+	30	14
-	+	34	12
-	+	66	0
-	+	38	33
-	+	39	59
-	+	65	44
-	+	2	39
-	+	39	11
-	+	7	0
-	+	6	52
-	+	4	0
-	+	9	66
+	+	8	44
+	+	11	37
+	+	13	12
+	+	11	15
+	+	8	0
+	+	10	33
+	+	11	9
 	+	10	41
-	+	9	67
-	+	3	0
-	+	32	17
-	+	34	0
-	+	33	0
-	+	5	28
-	+	41	57
-	+	42	33
-	+	43	25
-	+	2	48
-	+	44	70
-	+	47	0
-	+	45	49
-	+	49	11
-	+	45	39
-	+	51	29
-	+	52	20
-	+	54	10
-	+	53	6
-	+	51	53
-	+	53	30
-	+	54	0
-	+	55	8
-	+	62	0
-	+	56	26
+	+	11	30
+	+	7	32
+	+	9	21
+	+	10	0
+	+	9	17
+	+	6	7
+	+	7	18
+
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/script.sh
+	*	1504933735	0
+	"	20428698	0
+
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/files.list
+	*	1504931644	0
+	"	4993362	0
+	.	1	0
+	+	1	0
+
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/file.list
+	*	1504931550	0
+	"	1	0
+
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/files.list
+	*	1504931546	0
+	"	1	0
+
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/x
+	*	1504929996	0
+	"	1	0
+
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/Makefile
+	*	1504887659	0
+	"	6	40
+	^	6	41
+	.	6	40
+	+	3	11
+	+	6	25
+	+	11	13
+	+	3	19
+	+	9	10
+	+	10	0
+	+	3	22
+	+	9	45
+	+	6	36
+	+	5	9
+	+	2	26
+	+	3	8
+	+	6	40
+	+	9	49
+	+	6	43
+	+	9	52
+	+	6	40
+
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/dtype.h
+	*	1504887527	0
+	"	16	0
+	^	56	29
+	.	56	28
+	+	31	0
+	+	27	0
+	+	29	56
+	+	31	0
+	+	29	0
+	+	26	0
+	+	29	56
+	+	31	0
+	+	34	22
+	+	33	33
+	+	15	35
+	+	29	24
+	+	28	55
+	+	29	37
+	+	28	0
+	+	16	36
+	+	28	55
+	+	26	32
+	+	28	0
+	+	30	0
+	+	26	0
+	+	63	0
+	+	42	0
+	+	63	0
+	+	43	0
+	+	43	13
+	+	43	31
+	+	43	0
+	+	63	47
+	+	43	0
+	+	63	0
+	+	43	0
+	+	50	0
+	+	1	0
+	+	63	0
+	+	42	30
+	+	42	0
+	+	42	1
+	+	42	10
+	+	42	0
+	+	63	49
+	+	42	5
+	+	42	12
+	+	42	27
+	+	42	4
+	+	42	29
+	+	42	0
+	+	63	0
+	+	42	0
 	+	56	0
-	+	57	21
-	+	58	66
-	+	59	26
-	+	60	26
-	+	61	51
-	+	2	58
-	m	27	23
-
-> ~/.xprofile
-	*	1491032979	0
-	"	10	1
-	^	10	2
-	.	10	1
-	+	10	1
-
-> ~/.xinitrc
-	*	1491032969	0
-	"	3	0
-
-> ~/itws2/sandbox/todo-flask-application/app/static/js/todo-manager.js
-	*	1490961589	0
-	"	32	35
-
-> ~/itws2/sandbox/todo-flask-application/app/static/js/routes.js
-	*	1490948259	0
-	"	5	0
-
-> ~/itws2/sandbox/todo-flask-application/app/static/templates/login.html
-	*	1490948240	0
-	"	1	0
-
-> ~/itws2/sandbox/todo-flask-application/app/static/templates/todo.html
-	*	1490948239	0
-	"	2	0
-
-> ~/itws2/sandbox/todo-flask-application/app/static/templates/todos-list.html
-	*	1490948239	0
-	"	1	4
-
-> ~/itws2/sandbox/todo-flask-application/app/static/templates/register.html
-	*	1490948237	0
-	"	1	0
-
-> ~/itws2/sandbox/todo-flask-application/app/static/js/app.js
-	*	1490948194	0
-	"	1	0
-
-> ~/itws2/sandbox/todo-flask-application/app/static/js/auth-manager.js
-	*	1490948194	0
-	"	1	0
-
-> ~/itws2/sandbox/todo-flask-application/app/templates/index.html
-	*	1490948193	0
-	"	15	0
-
-> ~/itws2/sandbox/todo-flask-application/app/static/js/view-manager.js
-	*	1490948191	0
-	"	27	28
-	.	2	0
+	+	42	0
+	+	63	41
+	+	92	13
+	+	94	0
+	+	93	16
+	+	84	15
+	+	86	0
+	+	85	24
+	+	69	27
+	+	69	0
+	+	66	19
+	+	68	0
+	+	67	23
+	+	66	6
+	+	72	21
+	+	74	26
+	+	74	0
+	+	75	0
+	+	77	21
+	+	76	28
+	+	77	30
+	+	76	33
+	+	72	15
+	+	67	49
+	+	67	51
+	+	77	29
+	+	78	31
+	+	79	21
+	+	78	0
+	+	67	9
+	+	78	0
+	+	67	8
+	+	67	9
+	+	67	0
+	+	88	12
+	+	90	0
+	+	89	18
+	+	88	8
+	+	1	14
+	+	1	0
 	+	2	0
+	+	55	31
+	+	57	23
+	+	55	36
+	+	57	33
+	+	60	0
+	+	58	36
+	+	59	42
+	+	61	23
+	+	56	28
 
-> ~/itws2/sandbox/todo-flask-application/app/static/js/todo.js
-	*	1490948158	0
-	"	13	12
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/main.cpp
+	*	1504887402	0
+	"	58	8
+	^	32	28
+	.	57	0
+	+	28	33
+	+	58	22
+	+	57	26
+	+	58	29
+	+	61	8
+	+	60	0
+	+	62	20
+	+	59	45
+	+	60	0
+	+	58	17
+	+	60	51
+	+	13	29
+	+	15	0
+	+	24	30
+	+	27	0
+	+	28	0
+	+	22	21
+	+	26	23
+	+	26	0
+	+	23	14
+	+	25	29
+	+	26	40
+	+	32	27
+	+	57	0
 
-> ~/itws2/sandbox/todo-flask-application/app/static/js/helpers.js
-	*	1490948157	0
-	"	1	19
-
-> ~/itws2/sandbox/todo-flask-application/app/__init__.py
-	*	1490934849	0
-	"	10	20
-
-> ~/itws2/sandbox/todo-flask-application/app/todo/models.py
-	*	1490934775	0
-	"	29	8
-
-> ~/itws2/sandbox/todo-flask-application/app/todo/controllers.py
-	*	1490934774	0
-	"	2	2
-
-> ~/s17/state-in-colonial-india/term-papers/book-review/src/sources.bib
-	*	1490868764	0
-	"	5	10
-	^	7	0
-	.	4	10
-	+	1	24
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/bio.cpp
+	*	1504886733	0
+	"	2	14
+	^	2	15
+	.	2	14
+	+	71	15
+	+	70	22
+	+	61	35
+	+	72	28
+	+	73	11
+	+	74	17
+	+	6	20
+	+	6	46
+	+	6	33
+	+	6	0
+	+	6	13
+	+	6	0
+	+	6	12
+	+	6	16
+	+	6	0
+	+	6	37
+	+	6	0
+	+	50	32
+	+	69	16
+	+	69	0
+	+	19	17
+	+	6	0
+	+	16	12
+	+	19	17
+	+	21	17
+	+	47	0
+	+	83	20
+	+	85	0
+	+	84	16
+	+	84	28
+	+	84	16
+	+	68	15
+	+	6	14
+	+	6	0
 	+	6	1
-	+	1	13
-	+	4	10
-
-> ~/.xmonad/xmonad.hs
-	*	1490848593	0
-	"	29	50
-	^	19	74
-	.	19	73
-	+	19	73
-
-> ~/.shell/proxy.sh
-	*	1490499030	0
-	"	7	0
-	^	10	32
-	.	10	37
-	+	3	32
-	+	5	0
+	+	6	0
+	+	6	15
+	+	6	0
+	+	6	17
+	+	6	0
+	+	6	21
+	+	6	13
+	+	6	29
 	+	6	0
 	+	6	32
 	+	6	0
-	+	4	0
+	+	6	11
+	+	6	40
+	+	6	12
+	+	6	18
+	+	6	20
+	+	6	31
+	+	6	17
+	+	6	42
+	+	6	44
+	+	6	23
 	+	6	0
-	+	9	38
-	+	10	37
-
-> ~/lab_plan.txt
-	*	1490465150	0
-	"	22	1
-	^	15	12
-	.	15	11
-	+	13	14
-	+	14	38
-	+	15	11
-
-> ~/.xmonad/xmonad.h
-	*	1490438743	0
-	"	1	0
-
-> ~/Downloads/AMPL_Install_Instructions
-	*	1490437213	0
-	"	11	51
-
-> ~/itws2/sandbox/friday-restructured/routes.txt
-	*	1490429827	0
-	"	2	0
-	.	1	0
-	+	1	0
-
-> ~/itws2/sandbox/friday-restructured/app/__init__.py
-	*	1490429798	0
-	"	14	0
-	^	14	0
-	.	14	0
-	+	12	0
-	+	4	24
-	+	4	0
-	+	17	0
-	+	4	0
-	+	13	0
-	+	12	0
-	+	15	0
-	+	16	0
-	+	14	0
-
-> ~/itws2/sandbox/friday-restructured/run.py
-	*	1490429755	0
-	"	1	0
-	^	2	0
-	.	3	0
-	+	3	0
-	+	1	17
-	+	1	18
-	+	2	0
-	+	1	0
-	+	3	0
-
-> ~/itws2/sandbox/friday-restructured/app/controllers.py
-	*	1490429728	0
-	"	1	0
-	.	1	0
-	+	1	0
-	+	2	0
-	+	1	0
-
-> ~/itws2/sandbox/friday-restructured/app/models.py
-	*	1490429726	0
-	"	1	0
-	^	2	8
-
-> ~/itws2/sandbox/friday-restructured/seed.py
-	*	1490429712	0
-	"	69	0
-
-> ~/Downloads/ampl/README
-	*	1490423170	0
-	"	1	0
-
-> ~/itws2/sandbox/mvc-web-lab/config.py
-	*	1490421847	0
-	"	27	0
-	^	27	21
-	.	11	0
-	+	27	20
-	+	11	0
-
-> ~/itws2/sandbox/mvc-web-lab/app/report/controllers.py
-	*	1490421838	0
-	"	10	2
-	^	18	48
-	.	18	20
-	+	10	61
-	+	15	62
-	+	11	52
-	+	16	58
-	+	11	41
-	+	16	0
-	+	17	0
-	+	15	22
-	+	16	74
-	+	17	0
-	+	18	35
-	+	5	0
-	+	19	22
-	+	20	73
-	+	21	0
-	+	20	67
-	+	19	14
-	+	18	20
-
-> ~/itws2/sandbox/mvc-web-lab/app/__init__.py
-	*	1490421836	0
-	"	1	0
-	^	30	33
-	.	30	32
-	+	36	14
-	+	23	64
-	+	28	36
-	+	23	0
-	+	26	0
-	+	23	48
-	+	24	45
-	+	23	48
-	+	24	46
-	+	28	34
-	+	29	34
-	+	25	44
-	+	30	32
-
-> ~/itws2/sandbox/mvc-web-lab/app/students/controllers.py
-	*	1490421836	0
-	"	6	2
-	^	11	42
-	.	11	41
-	+	4	0
-	+	8	21
-	+	13	48
-	+	14	23
-	+	13	27
-	+	15	65
-	+	16	60
-	+	4	16
-	+	6	67
-	+	8	12
-	+	13	12
-	+	16	41
-	+	11	41
-
-> ~/itws2/sandbox/mvc-web-lab/README.md
-	*	1490421820	0
-	"	42	0
-	.	72	0
-	+	1	19
-	+	1	11
-	+	1	12
-	+	1	17
-	+	1	4
-	+	1	65
-	+	1	26
-	+	1	57
-	+	1	0
-	+	1	52
-	+	1	51
-	+	1	15
-	+	1	16
-	+	1	50
-	+	1	54
-	+	1	5
-	+	1	39
-	+	1	17
-	+	1	0
-	+	3	0
-	+	5	60
-	+	6	2
-	+	10	60
-	+	11	47
-	+	68	19
-	+	73	0
-	+	70	76
-	+	72	0
-	+	23	3
-	+	25	30
-	+	27	82
-	+	25	0
-	+	25	30
-	+	26	0
-	+	27	0
-	+	29	59
-	+	30	31
-	+	31	24
-	+	34	74
-	+	33	0
-	+	34	75
-	+	33	0
-	+	35	21
-	+	34	77
-	+	62	1
-	+	63	34
-	+	64	74
-	+	66	0
-	+	70	72
-	+	66	0
-	+	74	0
-	+	25	1
-	+	74	0
-	+	25	0
-	+	72	0
-	+	74	5
-	+	76	42
-	+	79	51
-	+	77	77
-	+	45	9
-	+	40	1
-	+	40	0
-	+	45	46
-	+	45	0
-	+	72	0
-
-> ~/itws2/sandbox/mvc-web-lab/seed.py
-	*	1490421752	0
-	"	20	23
-	^	20	24
-	.	20	23
-	+	10	13
-	+	10	0
-	+	10	13
-	+	10	0
-	+	10	49
-	+	10	14
-	+	10	0
-	+	10	4
-	+	10	55
-	+	10	35
-	+	10	27
-	+	10	4
-	+	10	14
-	+	10	23
-	+	10	11
-	+	10	8
-	+	10	0
-	+	10	10
-	+	10	6
-	+	10	24
-	+	10	6
-	+	10	30
-	+	10	0
-	+	10	22
-	+	4	27
-	+	10	60
-	+	10	35
-	+	10	70
-	+	10	0
-	+	10	25
-	+	10	0
-	+	10	12
-	+	10	19
-	+	10	0
-	+	10	30
-	+	10	0
-	+	10	25
-	+	10	22
-	+	10	28
-	+	10	0
-	+	10	32
-	+	10	0
-	+	10	22
-	+	10	56
-	+	10	28
-	+	10	65
-	+	10	33
-	+	10	57
-	+	10	30
-	+	10	26
-	+	10	17
-	+	10	23
-	+	10	54
-	+	4	36
-	+	10	64
-	+	10	46
-	+	10	0
-	+	10	38
-	+	10	37
-	+	10	0
-	+	10	39
-	+	10	0
-	+	5	37
-	+	10	0
+	+	6	18
+	+	6	10
+	+	6	19
 	+	6	35
-	+	7	38
-	+	10	0
-	+	9	0
-	+	5	23
-	+	6	22
-	+	7	21
-	+	47	14
-	+	47	0
-	+	46	49
-	+	45	4
-	+	47	20
-	+	47	0
-	+	47	8
-	+	47	21
-	+	47	4
-	+	47	0
-	+	47	4
-	+	47	0
-	+	47	51
-	+	46	38
-	+	47	0
-	+	47	17
-	+	46	18
-	+	46	38
-	+	47	0
-	+	48	0
-	+	46	0
-	+	47	0
-	+	8	22
-	+	48	0
-	+	12	23
-	+	20	23
-
-> ~/itws2/sandbox/mvc-web-lab/.gitignore
-	*	1490421702	0
-	"	3	2
-	^	3	3
-	.	3	2
-	+	1	14
-	+	2	3
-	+	1	12
-	+	3	2
-
-> ~/itws2/sandbox/mvc-web-lab/run.py
-	*	1490421252	0
-	"	2	0
-	^	2	46
-	.	1	0
-	+	2	45
-	+	1	0
-
-> ~/itws2/sandbox/friday-lab/seed.py
-	*	1490421031	0
-	"	71	0
-	^	72	0
-	.	71	0
-	+	40	31
-	+	33	0
-	+	36	0
-	+	44	0
-	+	71	0
-
-> ~/itws2/sandbox/friday-lab/routes.txt
-	*	1490355152	0
-	"	18	0
-	^	17	39
-	.	17	38
-	+	1	0
-	+	2	0
-	+	6	48
-	+	12	0
-	+	7	0
-	+	8	0
-	+	12	13
-	+	14	11
-	+	16	32
-	+	17	32
-	+	16	35
-	+	17	38
-
-> ~/itws2/sandbox/mvc-web-lab/app/students/models.py
-	*	1490354085	0
-	"	2	0
-	^	8	77
-	.	8	76
-	+	17	0
-	+	18	0
-	+	1	0
-	+	8	76
-
-> ~/itws2/sandbox/friday-restructured/app.py
-	*	1490353715	0
-	"	4	0
-	.	4	0
-	+	13	0
-	+	4	19
-	+	13	0
+	+	6	0
+	+	6	21
+	+	6	0
+	+	6	20
+	+	6	21
+	+	68	0
+	+	67	13
+	+	66	27
+	+	67	19
+	+	79	27
+	+	6	0
+	+	6	17
+	+	6	0
+	+	6	19
+	+	81	0
+	+	82	21
+	+	19	17
+	+	15	5
+	+	79	0
+	+	38	26
+	+	40	0
+	+	39	52
+	+	6	0
 	+	4	0
+	+	4	20
+	+	1	0
+	+	4	0
+	+	4	17
+	+	3	0
+	+	2	14
 
-> ~/itws2/sandbox/friday-restructured/models.py
-	*	1490353699	0
-	"	2	16
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/io.h
+	*	1504886717	0
+	"	2	17
 	^	2	18
 	.	2	17
+	+	5	0
+	+	4	17
+	+	4	14
 	+	4	0
-	+	5	0
+	+	1	11
+	+	3	20
 	+	1	0
-	+	2	17
-
-> ~/itws2/sandbox/friday-restructured/controllers.py
-	*	1490353698	0
-	"	2	18
-	^	2	19
-	.	2	18
+	+	3	19
 	+	3	0
-	+	2	18
-
-> ~/itws2/sandbox/mvc-web-lab/seed/Students.txt
-	*	1490352914	0
-	"	1	2
-	^	1	20
-	.	1	20
-	+	1	15
 	+	1	0
-	+	1	19
+	+	3	0
 	+	2	17
-	+	1	15
-	+	2	20
-	+	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	1	8
-	+	2	9
-	+	1	20
 
-> ~/itws2/sandbox/mvc-web-lab/seed/Courses.txt
-	*	1490352904	0
-	"	1	0
-	^	2	34
-	.	2	33
-	+	1	22
-	+	2	32
-	+	1	25
-	+	2	32
-	+	1	24
-	+	2	33
-
-> ~/la
-	*	1490351030	0
-	"	1	0
-
-> ~/itws2/sandbox/friday-lab/templates/create_student.html
-	*	1490350964	0
-	"	10	46
-	^	10	47
-	.	10	46
-	+	1	0
-	+	3	5
-	+	14	0
-	+	15	0
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/bufio.h
+	*	1504886703	0
+	"	2	17
+	^	2	18
+	.	2	17
 	+	5	0
-	+	6	0
-	+	7	54
-	+	13	0
-	+	8	72
-	+	10	0
-	+	8	16
-	+	8	79
-	+	8	22
-	+	8	73
-	+	10	0
-	+	9	24
-	+	11	17
-	+	10	0
-	+	12	47
-	+	10	46
-
-> ~/itws2/sandbox/friday-lab/app2.py
-	*	1490350419	0
-	"	40	31
-	^	40	52
-	.	40	31
-	+	2	0
-	+	70	0
-	+	34	0
-	+	35	0
-	+	36	14
-	+	40	31
-
-> ~/itws2/sandbox/friday-lab/crud_example.py
-	*	1490350344	0
-	"	2	0
-	.	2	0
-	+	2	0
-
-> ~/itws2/sandbox/friday-lab/templates/students_all.html
-	*	1490349585	0
-	"	1	0
-	^	8	29
-	.	8	29
-	+	11	0
-	+	10	0
-	+	6	9
-	+	9	19
-	+	7	28
-	+	8	29
-
-> /tmp/test2.db
-	*	1490346456	0
-	"	6	0
-
-> ~/Downloads/coding-srishti/6.cpp
-	*	1490326568	0
-	"	31	0
-	.	31	0
-	+	32	0
-	+	31	0
-
-> ~/Downloads/coding-srishti/ls
-	*	1490326544	0
-	"	1	0
-
-> ~/Downloads/coding-srishti/5.cpp
-	*	1490326524	0
-	"	22	6
-
-> ~/Downloads/coding-srishti/4.cpp
-	*	1490326409	0
-	"	64	8
-	^	73	34
-	.	64	0
-	+	69	1
-	+	26	0
-	+	73	33
-	+	64	0
-
-> ~/Downloads/coding-srishti/1.py
-	*	1490326266	0
-	"	1	0
-
-> ~/Downloads/coding-srishti/3.c
-	*	1490326256	0
-	"	62	0
-	^	28	19
-	.	28	18
-	+	27	18
-	+	32	0
-	+	53	0
-	+	29	17
-	+	28	18
-
-> ~/Downloads/coding-srishti/3.csv
-	*	1490326035	0
-	"	1	0
-
-> ~/Downloads/coding-srishti/Grade.csv
-	*	1490326028	0
-	"	1	0
-
-> ~/repo/diagrams/src/pentaflake.hs
-	*	1490088724	0
-	"	18	40
-	^	18	41
-	.	18	40
-	+	2	0
-	+	10	77
-	+	13	33
-	+	15	0
-	+	14	75
-	+	16	81
-	+	17	34
-	+	18	58
-	+	21	65
-	+	23	21
-	+	24	37
-	+	14	63
-	+	23	21
-	+	10	72
-	+	10	79
+	+	5	17
+	+	1	0
+	+	5	0
+	+	5	14
+	+	5	5
+	+	5	14
+	+	42	0
+	+	43	49
+	+	19	13
+	+	21	33
+	+	39	26
+	+	30	40
+	+	30	0
+	+	24	64
+	+	31	37
+	+	32	61
+	+	24	13
+	+	43	13
+	+	30	21
+	+	31	21
+	+	24	12
+	+	43	12
 	+	24	0
-	+	10	79
-	+	12	19
-	+	11	11
-	+	12	37
-	+	18	40
-
-> ~/itws2/sandbox/mvc-web-lab/app/courses/models.py
-	*	1490069071	0
-	"	10	0
-	^	9	76
-	.	9	75
-	+	1	0
-	+	4	0
+	+	43	67
+	+	37	48
+	+	39	0
+	+	37	0
+	+	44	21
+	+	30	20
+	+	31	20
+	+	44	0
+	+	29	21
+	+	30	21
+	+	31	21
+	+	29	20
+	+	43	13
+	+	5	0
+	+	5	20
 	+	5	0
 	+	1	0
+	+	4	0
+	+	3	19
+	+	1	14
+	+	1	0
 	+	3	0
-	+	9	75
+	+	2	17
+	m	36	29
 
-> ~/itws2/course-admin/src/labs/python/index.org
-	*	1489958022	0
-	"	83	0
-	^	83	1
-	.	83	0
-	+	83	0
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/includes.h
+	*	1504886670	0
+	"	1	0
+	^	17	2
+	.	17	1
+	+	4	0
+	+	4	17
+	+	5	5
+	+	6	0
+	+	7	12
+	+	8	14
+	+	9	14
+	+	4	17
+	+	9	9
+	+	16	5
+	+	22	5
+	+	12	1
+	+	17	1
 
-> ~/itws2/course-admin/src/labs/sqlalchemy/index.org
-	*	1489958020	0
-	"	342	0
-	^	341	54
-	.	341	53
-	+	300	29
-	+	300	0
-	+	300	23
-	+	291	0
-	+	284	21
-	+	284	30
-	+	284	23
-	+	284	40
-	+	284	36
-	+	287	0
-	+	284	23
-	+	284	6
-	+	284	26
-	+	284	0
-	+	285	13
-	+	284	33
-	+	285	16
-	+	284	0
-	+	285	20
-	+	283	11
-	+	284	0
-	+	283	12
-	+	284	23
-	+	284	26
-	+	285	0
-	+	284	24
-	+	287	0
-	+	285	21
-	+	284	31
-	+	288	14
-	+	291	18
-	+	284	29
-	+	285	27
-	+	287	0
-	+	286	31
-	+	289	27
-	+	291	28
-	+	290	33
-	+	289	26
-	+	300	0
-	+	284	24
-	+	285	38
-	+	284	37
-	+	285	40
-	+	284	29
-	+	283	21
-	+	288	20
-	+	289	40
-	+	290	40
-	+	286	39
-	+	291	36
-	+	297	35
-	+	298	32
-	+	300	0
-	+	308	58
-	+	318	0
-	+	307	69
-	+	319	15
-	+	321	57
-	+	264	0
-	+	322	67
-	+	342	0
-	+	321	59
-	+	326	14
-	+	330	15
-	+	338	0
-	+	332	22
-	+	335	17
-	+	336	46
-	+	337	40
-	+	338	0
-	+	342	1
-	+	342	0
-	+	291	21
-	+	286	0
-	+	294	0
-	+	291	0
-	+	295	0
-	+	292	0
-	+	293	11
-	+	299	34
-	+	342	0
-	+	299	40
-	+	338	0
-	+	310	27
-	+	314	12
-	+	313	23
-	+	316	72
-	+	317	11
-	+	305	37
-	+	324	48
-	+	342	0
-	+	328	27
-	+	318	0
-	+	342	2
-	+	342	0
-	+	341	28
-	+	340	65
-	+	341	53
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/parser.cpp
+	*	1504886650	0
+	"	2	0
+	.	4	0
+	+	5	0
+	+	4	0
 
-> ~/itws2/sandbox/mvc-web-lab/structure.txt
-	*	1489955687	0
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/io.cpp
+	*	1504886648	0
+	"	1	0
+
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/parser.h
+	*	1504886575	0
+	"	1	0
+	.	4	0
+	+	1	0
+	+	4	0
+
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/output.txt
+	*	1504885587	0
+	"	1	0
+
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/gensort-1.5/input2.txt
+	*	1504876695	0
+	"	10000	0
+
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/1.imd
+	*	1504874980	0
+	"	1	0
+	^	1	98
+	.	1	96
+	+	1	96
+
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/input.txt
+	*	1504873545	0
+	"	1	0
+	^	2	98
+	.	1	98
+	+	1	98
+
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/10.imd
+	*	1504790688	0
+	"	2	7
+
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/11.imd
+	*	1504790682	0
+	"	1	0
+
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/3.imd
+	*	1504790524	0
+	"	4	99
+
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/2.imd
+	*	1504790522	0
+	"	4	99
+
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/1.intermediate
+	*	1504789673	0
+	"	1	0
+
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/meta.txt
+	*	1504788224	0
+	"	1	0
+	^	3	3
+	.	3	2
+	+	1	2
+	+	2	2
+	+	1	2
+	+	2	5
+	+	2	0
+	+	3	2
+
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/sandbox/io.cpp
+	*	1504764032	0
+	"	39	18
+	^	39	21
+	.	39	18
+	+	19	0
+	+	36	0
+	+	23	28
+	+	19	0
+	+	19	15
+	+	36	0
+	+	25	28
+	+	21	17
+	+	27	18
+	+	19	49
+	+	27	0
+	+	36	0
+	+	19	0
+	+	7	23
+	+	7	0
+	+	8	0
+	+	7	34
+	+	19	0
+	+	9	12
+	+	19	0
+	+	13	27
+	+	16	0
+	+	13	0
+	+	12	31
+	+	7	0
+	+	12	28
+	+	16	0
+	+	13	18
+	+	16	0
+	+	15	47
+	+	16	15
+	+	19	12
+	+	16	0
+	+	15	0
+	+	30	24
+	+	35	0
+	+	30	56
+	+	36	0
+	+	30	56
+	+	35	22
+	+	19	0
+	+	30	20
+	+	25	0
+	+	27	0
+	+	25	33
+	+	35	8
+	+	27	0
+	+	25	37
+	+	25	52
+	+	25	0
+	+	27	0
+	+	35	0
+	+	15	0
+	+	30	0
+	+	35	0
+	+	30	19
+	+	19	21
+	+	25	0
+	+	26	32
+	+	32	34
+	+	36	0
+	+	20	32
+	+	35	0
+	+	36	18
+	+	28	27
+	+	33	12
+	+	30	0
+	+	36	0
+	+	35	34
+	+	30	54
+	+	3	0
+	+	1	23
+	+	38	0
+	+	5	0
+	+	2	17
+	+	13	0
+	+	10	0
+	+	11	0
+	+	16	0
+	+	18	11
+	+	35	0
+	+	34	27
+	+	20	5
+	+	2	17
+	+	40	13
+	+	29	50
+	+	37	12
+	+	41	12
+	+	29	41
+	+	31	36
+	+	29	56
+	+	31	42
+	+	25	37
+	+	15	25
+	+	24	26
+	+	25	40
+	+	37	0
+	+	31	17
+	+	29	17
+	+	39	18
+
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/sandbox/input.txt
+	*	1504763996	0
+	"	1	0
+
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/sandbox/dtype.h
+	*	1504763993	0
+	"	1	0
+	^	19	20
+	.	19	19
+	+	36	0
+	+	7	13
+	+	35	0
+	+	35	1
+	+	5	28
+	+	6	0
+	+	8	19
+	+	35	0
+	+	15	25
+	+	17	0
+	+	16	22
+	+	26	58
+	+	34	0
+	+	27	28
+	+	32	0
+	+	28	36
+	+	30	0
+	+	29	35
+	+	31	23
+	+	33	18
+	+	4	0
+	+	15	0
+	+	5	25
+	+	8	13
+	+	15	18
+	+	27	20
+	+	28	31
+	+	10	10
+	+	15	0
+	+	16	26
+	+	15	24
+	+	16	24
+	+	9	0
+	+	27	17
+	+	28	21
+	+	8	16
+	+	12	16
+	+	14	0
+	+	13	31
+	+	16	14
+	+	27	17
+	+	28	21
+	+	27	20
+	+	27	12
+	+	27	15
+	+	27	0
+	+	27	26
+	+	27	0
+	+	27	28
+	+	29	34
+	+	31	21
+	+	29	33
+	+	31	20
+	+	29	35
+	+	19	27
+	+	24	0
+	+	23	91
+	+	23	57
+	+	20	47
+	+	22	0
+	+	23	55
+	+	24	0
+	+	23	49
+	+	22	0
+	+	21	38
+	+	22	13
+	+	12	0
+	+	11	0
+	+	20	30
+	+	23	27
+	+	19	19
+
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/sandbox/meta.txt
+	*	1504763482	0
+	"	1	0
+	^	3	2
+	.	3	1
+	+	3	1
+	+	1	1
+	+	2	1
+	+	3	1
+
+> ~/.xmonad/xmonad.hs
+	*	1504529468	0
+	"	54	4
+	^	54	67
+	.	54	66
+	+	11	26
+	+	60	0
+	+	60	88
+	+	54	0
+	+	57	0
+	+	55	47
+	+	54	20
+	+	55	0
+	+	54	27
+	+	55	0
+	+	60	98
+	+	56	48
+	+	54	66
+
+> ~/.xmobarrc
+	*	1504529144	0
+	"	1	0
+
+> ~/cvit/honours-super/journal/posts/2017-09-05-error-distributions.markdown
+	*	1504528642	0
+	"	14	29
+	^	13	46
+	.	13	45
+	+	33	23
+	+	12	30
+	+	13	30
+	+	15	22
+	+	17	24
+	+	16	24
+	+	17	0
+	+	18	0
+	+	12	47
+	+	13	42
+	+	15	0
+	+	15	40
+	+	16	0
+	+	14	41
+	+	16	0
+	+	15	40
+	+	16	39
+	+	17	39
+	+	17	0
+	+	13	45
+
+> ~/.vim/filetype.vim
+	*	1504527562	0
+	"	1	0
+
+> ~/cvit/honours-super/journal/posts/2017-09-01-awesome.markdown
+	*	1504517009	0
+	"	13	1
+	.	16	0
+	+	1	0
+	+	4	12
+	+	2	15
+	+	7	138
+	+	7	38
+	+	10	19
+	+	12	101
+	+	2	7
+	+	13	49
+	+	16	24
+	+	20	0
+	+	16	24
+	+	17	0
+	+	16	0
+
+> ~/cvit/honours-super/journal/posts/2017-08-25-to-learn.md
+	*	1504517008	0
+	"	102	0
+	.	103	0
+	+	22	40
+	+	57	38
+	+	49	0
+	+	51	52
+	+	56	0
+	+	51	14
+	+	56	0
+	+	57	0
+	+	50	17
+	+	51	58
+	+	52	58
+	+	57	0
+	+	49	0
+	+	28	0
+	+	29	19
+	+	47	1
+	+	38	16
+	+	37	16
+	+	36	15
+	+	35	8
+	+	36	8
+	+	35	22
+	+	36	22
+	+	35	16
+	+	36	16
+	+	35	9
+	+	36	9
+	+	37	9
+	+	38	9
+	+	35	10
+	+	36	10
+	+	37	2
+	+	38	10
+	+	34	0
+	+	47	0
+	+	46	0
+	+	47	16
+	+	26	0
+	+	27	0
+	+	49	0
+	+	48	63
+	+	56	15
+	+	54	15
+	+	56	0
+	+	55	25
+	+	12	28
+	+	11	22
+	+	29	11
+	+	33	8
+	+	47	0
+	+	40	59
+	+	47	32
+	+	46	0
+	+	47	33
+	+	47	0
+	+	42	2
+	+	47	0
+	+	88	85
+	+	41	0
+	+	42	66
+	+	44	70
+	+	45	43
+	+	45	4
+	+	44	0
+	+	45	35
+	+	45	34
+	+	46	0
+	+	44	71
+	+	45	9
+	+	26	14
+	+	27	9
+	+	93	0
+	+	92	8
+	+	93	0
+	+	101	51
+	+	100	50
+	+	94	1
+	+	95	13
+	+	95	70
+	+	96	69
+	+	97	72
+	+	98	65
+	+	99	72
+	+	100	66
+	+	96	34
+	+	92	3
+	+	101	54
+	+	58	22
+	+	63	64
+	+	66	41
+	+	67	41
+	+	69	9
+	+	68	40
+	+	69	40
+	+	73	0
+	+	70	0
+	+	72	115
+	+	72	13
+	+	103	0
+	k	45	73
+
+> ~/cvit/honours-super/journal/2017-08-25-to-learn.md
+	*	1504503686	0
+	"	1	0
+
+> ~/cvit/honours-super/journal/js/mathjax-config.js
+	*	1504503681	0
 	"	1	0
 	.	1	0
-	+	30	0
+	+	1	0
+	+	10	0
+	+	1	22
 	+	1	0
 
-> ~/itws2/sandbox/mvc-web-lab/app/courses/controllers.py
-	*	1489954775	0
-	"	21	13
-	^	21	14
-	.	21	13
-	+	1	0
-	+	4	38
-	+	4	0
-	+	10	19
-	+	21	16
-	+	20	32
-	+	21	19
-	+	22	9
-	+	23	56
-	+	11	0
-	+	20	22
-	+	25	0
-	+	13	4
-	+	13	0
-	+	12	0
-	+	13	44
-	+	14	9
-	+	24	0
-	+	14	18
-	+	13	26
-	+	13	0
-	+	15	13
-	+	17	73
-	+	18	64
-	+	17	20
-	+	13	11
-	+	15	28
-	+	17	51
-	+	17	10
-	+	17	53
-	+	17	13
-	+	17	61
-	+	17	28
+> ~/cvit/honours-super/journal/templates/default.html
+	*	1504503680	0
+	"	17	8
+	.	17	0
+	+	14	34
+	+	15	0
+	+	18	8
+	+	18	0
+	+	18	44
+	+	18	0
+	+	18	39
+	+	18	11
+	+	18	10
+	+	40	0
+	+	18	0
+	+	18	52
+	+	18	30
+	+	18	31
+	+	18	80
+	+	18	15
+	+	18	48
+	+	18	50
+	+	18	36
+	+	18	15
+	+	18	20
+	+	18	21
+	+	18	22
+	+	18	15
+	+	18	0
+	+	16	71
+	+	18	0
+	+	18	81
+	+	18	0
+	+	40	0
+	+	16	81
+	+	40	106
+	+	40	0
+	+	17	0
+
+> ../templates/default.html
+	*	1504502899	0
+	"	1	0
+
+> ~/cvit/honours-super/journal/templates/index-template.html
+	*	1504502726	0
+	"	1	0
+	^	15	36
+	.	15	35
+	+	14	21
+	+	15	35
+
+> ~/sandbox/scratchpad/db-mid.md
+	*	1504463738	0
+	"	260	0
+	^	249	43
+	.	249	41
+	+	102	0
+	+	84	138
+	+	91	10
+	+	84	118
+	+	84	51
+	+	84	125
+	+	84	11
+	+	84	125
+	+	84	13
+	+	84	181
+	+	89	170
+	+	84	182
+	+	84	246
+	+	84	14
+	+	84	246
+	+	88	56
+	+	84	245
+	+	88	56
+	+	89	139
+	+	89	138
+	+	89	139
+	+	90	0
+	+	89	170
+	+	84	0
+	+	90	0
+	+	89	107
+	+	86	54
+	+	87	57
+	+	87	43
+	+	88	34
+	+	89	35
+	+	89	36
+	+	89	107
+	+	89	108
+	+	90	0
+	+	89	57
+	+	90	0
+	+	93	177
+	+	93	52
+	+	101	0
+	+	93	175
+	+	94	210
+	+	94	118
+	+	101	0
+	+	94	209
+	+	92	0
+	+	169	76
+	+	164	39
+	+	220	1
+	+	218	66
+	+	220	0
+	+	219	0
+	+	221	0
+	+	220	0
+	+	221	0
+	+	216	0
+	+	215	0
+	+	216	0
+	+	221	3
+	+	220	3
+	+	221	52
+	+	161	0
+	+	160	0
+	+	158	32
+	+	159	40
+	+	158	1
+	+	159	58
+	+	169	76
+	+	179	0
+	+	171	0
+	+	176	16
+	+	179	0
+	+	178	0
+	+	253	29
+	+	252	9
+	+	255	8
+	+	258	9
+	+	260	14
+	+	242	0
+	+	237	29
+	+	236	54
+	+	234	71
+	+	235	69
+	+	236	72
+	+	224	0
+	+	96	17
+	+	100	30
+	+	100	16
+	+	99	67
+	+	100	37
+	+	239	58
+	+	245	57
+	+	239	39
+	+	245	38
+	+	240	71
+	+	241	55
+	+	249	41
+
+> ~/.vimrc
+	*	1504444198	0
+	"	51	0
+	^	18	18
+	.	18	17
 	+	18	17
-	+	17	60
-	+	15	5
-	+	16	14
-	+	24	0
-	+	16	28
-	+	17	57
-	+	18	0
-	+	21	13
 
-> ~/itws2/sandbox/mvc-web-lab/app/templates/report/students_for_courses.html
-	*	1489950942	0
-	"	10	11
-
-> ~/itws2/sandbox/mvc-web-lab/app/templates/report/index.html
-	*	1489950092	0
-	"	11	26
-	^	16	33
-	.	16	32
-	+	8	30
-	+	15	30
-	+	9	10
-	+	15	37
-	+	15	40
+> ~/cvit/honours-super/journal/js/anchor.call.js
+	*	1504423584	0
+	"	7	25
+	^	7	26
+	.	7	25
+	+	11	0
 	+	2	0
-	+	1	0
-	+	15	30
-	+	15	0
-	+	15	36
-	+	16	0
-	+	17	11
-	+	7	14
-	+	19	15
-	+	15	39
-	+	15	0
-	+	13	0
-	+	10	0
-	+	11	36
-	+	15	25
-	+	16	32
-
-> ~/itws2/sandbox/mvc-web-lab/app/stats/controllers.py
-	*	1489946926	0
-	"	1	0
-	^	11	61
-	.	11	0
-	+	4	0
-	+	8	26
-	+	6	0
-	+	4	0
-	+	8	0
-	+	13	0
-	+	12	0
-	+	8	27
-	+	13	31
-	+	14	18
-	+	8	0
-	+	4	39
-	+	10	9
-	+	16	0
-	+	9	15
-	+	16	0
-	+	9	21
-	+	10	54
-	+	11	16
-	+	11	0
-
-> ~/itws2/sandbox/mvc-web-lab/app/stats/models.py
-	*	1489945641	0
-	"	30	0
-	^	3	0
-	.	33	0
-	+	4	0
-	+	49	0
-	+	20	0
-	+	4	0
-	+	1	0
-	+	3	0
-	+	33	0
-
-> ~/itws2/sandbox/mvc-web-lab/app/templates/courses/index.html
-	*	1489944886	0
-	"	10	32
-	^	10	33
-	.	10	32
-	+	12	26
-	+	13	31
-	+	14	38
-	+	10	32
-
-> ~/itws2/sandbox/mvc-web-lab/tmp.py
-	*	1489944326	0
-	"	75	10
-	^	75	11
-	.	75	10
-	+	7	0
-	+	8	0
-	+	9	62
-	+	7	7
-	+	8	0
-	+	9	12
-	+	3	8
-	+	76	51
-	+	76	0
-	+	73	0
-	+	76	0
-	+	74	47
-	+	75	10
-
-> ~/itws2/sandbox/tmp.py
-	*	1489944206	0
-	"	6	51
-	^	6	64
-	.	6	51
-	+	8	0
-	+	7	5
-	+	38	4
-	+	47	60
-	+	47	61
-	+	47	30
-	+	47	61
-	+	47	43
-	+	47	29
-	+	47	44
-	+	47	30
-	+	47	0
-	+	40	0
-	+	11	24
-	+	22	0
-	+	24	22
-	+	40	28
-	+	66	0
-	+	38	1
-	+	40	0
-	+	11	0
-	+	24	0
-	+	68	14
-	+	70	0
-	+	38	2
-	+	38	0
-	+	44	4
-	+	45	4
-	+	40	0
-	+	10	28
-	+	23	26
-	+	39	21
-	+	23	20
-	+	10	21
-	+	44	4
-	+	45	4
-	+	46	47
-	+	39	31
-	+	23	20
-	+	10	21
-	+	11	9
-	+	15	18
-	+	19	61
-	+	6	51
-
-> ~/itws2/sandbox/mvc-web-lab/app/default/controllers.py
-	*	1489943796	0
-	"	6	37
-	.	12	0
-	+	1	0
-	+	3	17
-	+	2	53
-	+	1	0
-	+	6	57
-	+	1	0
-	+	6	64
-	+	7	0
-	+	8	0
 	+	9	0
-	+	8	48
-	+	9	23
-	+	10	17
-	+	5	0
-	+	4	30
-	+	10	0
-	+	4	37
-	+	10	33
-	+	11	5
-	+	10	0
-	+	11	20
-	+	5	0
-	+	11	10
-	+	12	0
-
-> ~/itws2/sandbox/mvc-web-lab/app/default/models.py
-	*	1489943435	0
-	"	1	0
-	.	63	0
-	+	4	6
-	+	1	39
-	+	4	23
-	+	3	7
-	+	2	17
+	+	8	2
+	+	3	2
+	+	7	0
+	+	2	0
+	+	2	37
+	+	2	5
+	+	3	41
+	+	2	4
+	+	3	5
+	+	2	5
+	+	3	4
+	+	2	5
+	+	2	111
+	+	3	90
 	+	3	0
-	+	4	51
-	+	4	18
-	+	4	14
-	+	4	4
-	+	4	34
-	+	4	23
+	+	6	0
+	+	2	0
 	+	4	0
-	+	4	69
-	+	4	22
-	+	4	52
-	+	4	35
-	+	4	42
-	+	4	28
-	+	4	37
-	+	4	75
-	+	4	0
-	+	4	4
-	+	4	13
-	+	4	0
-	+	4	31
-	+	4	0
-	+	4	37
-	+	4	50
-	+	4	36
-	+	4	29
-	+	4	0
-	+	4	32
-	+	4	36
-	+	4	4
-	+	4	44
-	+	4	22
-	+	4	4
-	+	4	49
-	+	4	0
-	+	4	70
-	+	4	0
-	+	4	74
-	+	4	56
-	+	4	0
-	+	4	60
-	+	4	61
-	+	4	0
-	+	4	32
-	+	4	0
-	+	4	70
-	+	4	34
-	+	4	66
-	+	4	0
-	+	4	12
-	+	4	22
-	+	4	25
-	+	4	0
-	+	4	4
-	+	4	0
-	+	4	50
-	+	4	0
-	+	4	51
-	+	4	0
-	+	63	0
+	+	5	0
+	+	7	25
 
-> ~/itws2/sandbox/mvc-web-lab/app.db
-	*	1489943077	0
-	"	1	0
-
-> ~/itws2/sandbox/mvc-web-lab/app/default/templates/students.html
-	*	1489942784	0
-	"	7	29
-	^	7	30
-	.	7	29
-	+	17	0
-	+	6	16
-	+	17	0
-	+	9	16
-	+	6	10
-	+	9	10
-	+	10	36
-	+	15	19
-	+	11	8
-	+	8	0
-	+	14	0
-	+	12	22
-	+	13	22
-	+	12	20
-	+	13	37
-	+	14	0
-	+	11	0
-	+	7	29
-
-> ~/s17/optimization-methods/sandbox/bala_lt.py
-	*	1489649829	0
-	"	103	10
-
-> ~/s17/optimization-methods/sandbox/bala.
-	*	1489635347	0
-	"	1	0
-
-> ~/repo/diagrams/src/pythagoras.hs
-	*	1489516652	0
-	"	63	0
-	^	53	45
-	.	61	37
-	+	21	84
-	+	27	8
-	+	36	0
-	+	21	0
-	+	35	0
-	+	21	43
-	+	22	8
-	+	21	2
-	+	23	22
-	+	24	22
-	+	26	0
-	+	37	50
-	+	25	20
-	+	26	14
-	+	24	14
-	+	26	0
-	+	24	0
-	+	21	0
-	+	23	8
-	+	24	8
-	+	21	28
-	+	27	0
-	+	32	0
-	+	29	25
-	+	15	8
-	+	10	5
-	+	11	5
-	+	10	4
-	+	11	4
-	+	15	8
-	+	46	14
-	+	19	20
-	+	18	9
-	+	19	26
-	+	46	38
-	+	63	0
-	+	46	17
-	+	46	52
-	+	46	5
-	+	41	0
-	+	46	0
-	+	42	92
-	+	45	0
-	+	63	17
-	+	46	52
-	+	42	26
-	+	63	21
-	+	63	18
-	+	63	20
-	+	64	0
-	+	63	22
-	+	64	0
-	+	63	0
-	+	42	56
-	+	43	9
-	+	44	13
-	+	63	16
-	+	47	18
-	+	42	55
-	+	63	18
-	+	47	15
-	+	47	20
-	+	46	0
-	+	47	0
-	+	49	0
-	+	48	0
-	+	63	26
-	+	49	23
-	+	52	19
-	+	49	61
-	+	47	38
-	+	47	0
-	+	49	0
-	+	63	38
-	+	47	25
-	+	49	55
-	+	63	29
-	+	42	41
-	+	47	41
-	+	51	24
-	+	37	21
-	+	51	17
-	+	37	18
-	+	51	14
-	+	47	19
-	+	62	0
-	+	63	0
-	+	61	37
-	+	63	25
-	+	61	48
-	+	55	28
-	+	59	0
-	+	56	56
-	+	58	42
-	+	61	53
-	+	55	23
-	+	61	65
-	+	52	46
-	+	53	44
-	+	61	37
-
-> ~/repo/diagrams/src/pythagoras
-	*	1489515641	0
-	"	1	0
-
-> ~/repo/diagrams/src/pi.hs
-	*	1489476762	0
-	"	18	25
-	^	18	26
-	.	18	25
-	+	26	24
-	+	27	20
-	+	43	2
-	+	44	0
-	+	43	0
-	+	41	20
-	+	17	36
-	+	17	7
-	+	17	36
-	+	18	41
-	+	17	7
-	+	18	43
-	+	17	7
-	+	41	30
-	+	17	7
-	+	17	5
-	+	41	29
-	+	26	19
-	+	27	19
-	+	30	15
-	+	17	20
-	+	41	21
-	+	17	5
-	+	21	13
-	+	17	0
+> ~/script.py
+	*	1504372288	0
+	"	1	8
+	^	1	9
+	.	1	8
+	+	1	5
+	+	3	12
+	+	6	21
+	+	7	21
+	+	8	3
+	+	3	0
+	+	6	1
+	+	7	1
+	+	8	11
+	+	10	22
+	+	6	6
+	+	7	7
+	+	8	7
+	+	6	7
+	+	7	8
+	+	8	8
+	+	5	7
+	+	1	0
+	+	5	7
+	+	1	8
 	+	10	0
+	+	3	0
+	+	4	4
+	+	1	8
+
+> ~/cvit/honours-super/journal/posts/2017-08-25-hacks.markdown
+	*	1504358712	0
+	"	22	15
+	^	25	50
+	.	24	0
+	+	16	70
+	+	27	0
+	+	16	70
+	+	20	1
+	+	19	0
+	+	20	0
+	+	26	0
+	+	22	20
+	+	23	70
+	+	25	49
+	+	16	61
 	+	17	0
+	+	24	0
+
+> ~/cvit/honours-super/journal/css/skeleton.css
+	*	1504333486	0
+	"	134	15
+	^	136	21
+	.	136	15
+	+	302	21
+	+	136	15
+
+> ~/college/m17/compilers/project/src/parser.y
+	*	1504279946	0
+	"	77	0
+	^	53	21
+	.	50	21
+	+	71	18
+	+	74	32
+	+	75	18
+	+	78	18
+	+	80	18
+	+	83	0
+	+	93	18
+	+	97	18
+	+	93	49
+	+	94	0
+	+	96	0
+	+	100	18
+	+	103	18
+	+	106	41
+	+	107	0
+	+	111	0
+	+	114	58
+	+	115	0
+	+	113	0
+	+	109	0
+	+	105	0
+	+	102	0
+	+	99	0
+	+	118	18
+	+	120	18
+	+	122	18
+	+	124	19
+	+	127	18
+	+	117	0
+	+	126	0
+	+	43	36
+	+	47	40
+	+	47	0
+	+	43	35
+	+	77	0
+	+	73	0
+	+	89	27
+	+	90	18
+	+	81	19
+	+	79	19
+	+	76	19
+	+	72	19
+	+	70	19
+	+	67	19
+	+	55	19
+	+	52	19
+	+	48	19
+	+	46	19
+	+	44	19
+	+	42	19
+	+	96	0
+	+	95	19
+	+	98	19
+	+	101	19
+	+	104	19
+	+	108	19
+	+	112	19
+	+	116	19
+	+	119	19
+	+	121	19
+	+	123	19
+	+	125	19
+	+	128	19
+	+	53	2
+	+	55	0
+	+	66	24
+	+	67	26
+	+	70	26
+	+	70	0
+	+	67	0
+	+	53	2
+	+	55	0
+	+	50	2
+	+	52	26
+	+	70	0
+	+	55	0
+	+	56	0
+	+	69	23
+	+	52	0
+	+	55	0
+	+	48	25
+	+	44	19
+	+	54	22
+	+	48	0
+	+	44	0
+	+	52	21
+	+	54	22
+	+	52	0
+	+	51	0
+	+	53	64
+	+	50	51
+	+	53	47
+	+	53	21
+	+	54	0
+	+	53	21
+	+	50	21
+	+	51	0
+	+	50	21
+
+> ~/college/m17/compilers/project/test-units/correct/empty-statement.b
+	*	1504181194	0
+	"	6	0
+	^	6	0
+	.	6	0
+	+	1	11
+	+	2	4
+	+	3	0
+	+	5	11
+	+	7	4
+	+	7	0
+	+	7	4
+	+	7	0
+	+	6	0
+
+> ~/college/m17/compilers/project/src/parser.output
+	*	1504180651	0
+	"	528	10
+
+> ~/college/m17/compilers/project/src/Makefile
+	*	1504180611	0
+	"	7	29
+	^	6	27
+	.	6	26
+	+	6	9
+	+	4	8
+	+	6	8
+	+	4	12
+	+	6	12
+	+	4	27
+	+	6	26
+
+> ~/college/m17/compilers/project/test-units/error/empty-label.b
+	*	1504179983	0
+	"	1	0
+	^	8	7
+	.	8	6
+	+	1	11
+	+	4	4
+	+	4	0
+	+	6	11
+	+	9	4
+	+	9	0
+	+	2	9
+	+	4	0
+	+	3	20
+	+	9	0
+	+	7	6
+	+	8	6
+
+> ~/college/m17/compilers/project/test-units/error/declaration.b
+	*	1504179798	0
+	"	7	0
+	^	8	4
+	.	5	0
+	+	1	11
+	+	5	0
+	+	4	13
+	+	3	9
+	+	6	11
+	+	7	4
+	+	8	0
+	+	5	0
+
+> ~/college/m17/compilers/project/test-units/custom/reversal.b
+	*	1504179192	0
+	"	2	0
+	^	3	14
+	.	3	13
+	+	1	11
+	+	5	4
+	+	5	0
+	+	7	11
+	+	20	0
+	+	5	0
+	+	2	8
+	+	3	9
+	+	20	0
+	+	8	10
+	+	9	15
+	+	11	8
+	+	11	0
+	+	10	17
+	+	15	12
+	+	13	13
+	+	15	15
+	+	19	8
+	+	19	0
+	+	4	9
+	+	19	0
+	+	16	15
+	+	17	23
+	+	18	20
+	+	15	14
+	+	3	13
+
+> ~/college/m17/compilers/project/test-units/fizzbuzz.b
+	*	1504178789	0
+	"	7	10
+	^	9	16
+	.	9	15
+	+	1	11
+	+	4	0
+	+	6	11
+	+	11	4
+	+	11	0
+	+	4	0
+	+	2	9
+	+	7	10
+	+	3	9
+	+	11	0
+	+	12	0
+	+	8	15
+	+	10	8
+	+	10	0
+	+	9	15
+
+> ~/college/m17/compilers/project/test-units/fact.b
+	*	1504178683	0
+	"	14	32
+	^	14	33
+	.	14	32
+	+	1	11
+	+	5	0
+	+	3	9
+	+	7	11
+	+	15	4
+	+	16	0
+	+	8	10
+	+	10	15
+	+	12	8
+	+	12	0
+	+	4	9
+	+	9	0
+	+	10	0
+	+	12	0
+	+	11	29
+	+	14	32
+
+> ~/college/m17/compilers/project/src/scanner.l
+	*	1504160606	0
+	"	49	24
+	^	49	24
+	.	49	23
+	+	30	7
+	+	31	54
+	+	44	41
+	+	6	19
+	+	19	0
+	+	21	0
+	+	19	0
+	+	22	0
+	+	23	17
+	+	27	0
+	+	44	18
+	+	50	18
+	+	51	76
+	+	51	0
+	+	53	0
+	+	51	24
+	+	52	24
+	+	51	0
+	+	23	0
+	+	24	0
+	+	23	24
+	+	24	24
+	+	23	0
+	+	2	3
+	+	6	35
+	+	7	33
+	+	6	33
+	+	7	35
+	+	6	39
+	+	8	38
+	+	6	9
+	+	7	9
+	+	6	0
+	+	32	1
+	+	33	1
+	+	32	29
+	+	33	29
+	+	7	0
+	+	34	34
+	+	36	34
+	+	9	29
+	+	8	33
+	+	9	36
+	+	10	38
+	+	12	37
+	+	44	24
+	+	44	40
+	+	44	0
+	+	44	1
+	+	44	36
+	+	44	0
+	+	44	37
+	+	44	2
+	+	44	24
+	+	44	36
+	+	44	1
+	+	44	0
+	+	37	32
+	+	38	32
+	+	39	0
+	+	40	0
+	+	39	2
+	+	40	2
+	+	39	34
+	+	40	34
+	+	39	24
+	+	40	24
+	+	42	32
+	+	29	1
+	+	15	37
+	+	14	24
+	+	15	0
+	+	18	0
+	+	16	37
+	+	18	0
+	+	45	34
+	+	39	32
+	+	40	32
+	+	42	32
+	+	42	33
+	+	43	32
+	+	42	34
+	+	43	34
+	+	41	1
+	+	32	29
+	+	44	5
+	+	35	34
+	+	17	32
+	+	16	37
+	+	17	44
+	+	44	33
+	+	44	0
+	+	46	24
+	+	48	27
+	+	49	23
+	+	48	0
+	+	47	90
+	+	46	23
+	+	49	23
+
+> ~/sandbox/special.py
+	*	1504160183	0
+	"	16	19
+	^	16	20
+	.	16	19
+	+	4	3
+	+	8	0
+	+	4	10
+	+	8	0
+	+	5	29
+	+	8	0
+	+	6	13
+	+	4	0
+	+	6	26
+	+	7	17
+	+	4	11
+	+	4	0
+	+	4	75
+	+	4	22
+	+	4	7
+	+	1	27
+	+	4	0
+	+	4	11
+	+	4	26
+	+	4	9
+	+	4	0
+	+	4	10
+	+	4	0
+	+	4	27
+	+	4	17
+	+	4	0
+	+	2	25
+	+	4	0
+	+	6	26
+	+	11	0
+	+	11	3
+	+	9	10
+	+	20	4
+	+	10	4
+	+	12	45
+	+	19	0
+	+	12	10
+	+	13	12
+	+	14	7
+	+	12	49
+	+	19	15
+	+	16	19
+	+	19	0
+	+	17	18
+	+	18	15
+	+	16	22
+	+	12	20
+	+	16	19
+
+> ~/college/m17/compilers/project/specification.txt
+	*	1504096991	0
+	"	53	1
+
+> ~/college/m17/compilers/project/test-units/sumN-goto-dup.b
+	*	1504096251	0
+	"	7	6
+	^	7	7
+	.	7	6
+	+	20	25
+	+	18	19
+	+	17	10
+	+	16	23
+	+	15	6
+	+	14	8
+	+	11	19
+	+	10	10
+	+	9	15
+	+	7	6
+
+> ~/college/m17/compilers/project/test-units/sumN.b
+	*	1504096220	0
+	"	17	0
+	^	8	15
+	.	8	0
+	+	8	0
+
+> ~/college/m17/compilers/project/test-units/sumN-dup.b
+	*	1504096219	0
+	"	14	1
+	^	16	0
+	.	16	0
+	+	8	13
+	+	12	8
+	+	19	21
+	+	19	25
+	+	19	0
+	+	12	0
+	+	19	0
+	+	17	25
+	+	16	0
+
+> ~/college/m17/compilers/project/test-units/simple.b
+	*	1504094781	0
+	"	1	0
+	^	11	14
+	.	11	13
+	+	1	10
+	+	16	10
+	+	16	0
+	+	1	10
+	+	6	0
+	+	2	9
+	+	16	8
+	+	16	0
+	+	6	0
+	+	16	0
+	+	6	0
+	+	8	10
+	+	14	4
+	+	14	0
+	+	9	9
+	+	14	0
+	+	13	0
+	+	6	0
+	+	3	9
+	+	4	14
+	+	5	11
+	+	9	4
+	+	10	18
+	+	12	8
+	+	12	0
+	+	11	13
+
+> ~/college/m17/compilers/project/test-units/sumN-goto.b
+	*	1504092303	0
+	"	1	0
+	a	3	0
+
+> ~/college/m17/compilers/project/test-units/else.b
+	*	1504090904	0
+	"	10	0
+	^	15	14
+	.	17	0
+	+	1	0
+	+	19	10
+	+	19	8
+	+	19	0
+	+	17	0
+	+	9	0
+	+	17	0
+	+	10	22
+	+	12	8
+	+	12	0
+	+	11	13
+	+	14	19
+	+	16	8
+	+	16	0
+	+	15	13
+	+	17	0
+
+> ~/college/m17/compilers/project/test-units/for.b
+	*	1504090903	0
+	"	11	0
+	.	1	0
+	+	1	0
+
+> ~/college/m17/compilers/project/test-units/if-else.b
+	*	1504090892	0
+	"	1	0
+	^	20	14
+	.	20	13
+	+	1	0
+	+	11	5
+	+	15	15
+	+	17	8
+	+	17	0
+	+	16	13
+	+	22	0
+	+	11	0
+	+	9	0
+	+	11	0
+	+	19	10
+	+	21	8
+	+	21	0
+	+	22	0
+	+	21	0
+	+	20	13
+
+> ~/cvit/honours-super/journal/posts/2017-09-05-Distributions.markdown
+	*	1504074712	0
+	"	2	25
+	^	2	26
+	.	2	25
+	+	1	0
+	+	46	0
+	+	4	25
+	+	5	0
+	+	33	14
+	+	37	12
+	+	41	34
+	+	32	0
+	+	13	2
+	+	11	0
+	+	13	37
+	+	32	0
+	+	12	0
+	+	14	30
+	+	15	39
+	+	32	0
+	+	18	3
+	+	17	71
+	+	21	6
+	+	32	0
+	+	21	63
+	+	25	1
+	+	24	0
+	+	26	18
+	+	25	30
+	+	26	56
+	+	32	0
+	+	42	0
+	+	43	57
+	+	28	18
+	+	31	1
+	+	29	0
+	+	31	315
+	+	31	152
+	+	31	141
+	+	32	0
+	+	31	171
+	+	30	132
+	+	30	133
+	+	31	0
+	+	32	0
+	+	39	39
+	+	34	0
+	+	2	25
+
+> ~/sandbox/grid/toy.py
+	*	1504066814	0
+	"	3	0
+	.	3	0
+	+	1	0
+	+	3	0
+	+	4	0
+	+	3	0
+
+> ~/cvit/honours-super/journal/posts/2017-08-26-cost-graphs.markdown
+	*	1504066130	0
+	"	50	108
+	^	50	109
+	.	50	108
+	+	2	31
+	+	12	0
+	+	32	0
+	+	42	0
+	+	56	0
+	+	34	0
+	+	37	0
+	+	36	0
+	+	34	30
+	+	35	44
+	+	34	2
+	+	35	0
+	+	34	0
+	+	35	0
+	+	56	0
+	+	56	31
+	+	35	0
+	+	34	49
+	+	58	40
+	+	59	54
+	+	11	0
+	+	7	70
+	+	11	0
+	+	9	15
+	+	9	10
+	+	8	68
+	+	11	0
+	+	9	2
+	+	7	0
+	+	17	68
+	+	15	72
+	+	59	54
+	+	59	68
+	+	12	1
+	+	32	1
+	+	42	1
+	+	56	1
+	+	55	0
+	+	51	37
+	+	56	0
+	+	51	61
+	+	51	0
+	+	51	13
+	+	56	0
+	+	56	9
+	+	10	0
+	+	11	0
+	+	11	13
+	+	56	0
+	+	11	0
+	+	20	0
+	+	19	0
+	+	56	0
+	+	57	0
+	+	29	0
+	+	25	39
+	+	28	0
+	+	26	2
+	+	25	72
+	+	29	21
+	+	51	17
+	+	51	0
+	+	27	53
+	+	26	53
+	+	24	0
+	+	23	68
+	+	60	0
+	+	61	2
+	+	61	64
+	+	61	0
+	+	61	2
+	+	65	51
+	+	69	0
+	+	65	6
+	+	69	1
+	+	64	51
+	+	64	65
+	+	66	60
+	+	69	0
+	+	67	70
+	+	37	48
+	+	38	15
+	+	68	8
+	+	67	2
+	+	51	15
+	+	54	170
+	+	55	0
+	+	46	54
+	+	45	79
+	+	51	0
+	+	51	89
+	+	52	2
+	+	54	0
+	+	54	123
+	+	54	0
+	+	48	0
+	+	50	89
+	+	53	33
+	+	52	91
+	+	50	108
+
+> ~/cvit/honours-super/journal/.gitignore
+	*	1503928441	0
+	"	8	3
+	^	8	4
+	.	8	3
+	+	5	10
+	+	6	5
+	+	7	0
+	+	8	3
+
+> ~/cvit/honours-super/journal/contact.markdown
+	*	1503899600	0
+	"	10	0
+	^	11	37
+	.	11	36
+	+	11	0
+	+	8	18
+	+	9	65
+	+	10	53
+	+	11	36
+
+> ~/cvit/honours-super/journal/posts/2017-01-25-porting-ocr.markdown
+	*	1503898434	0
+	"	1	0
+
+> ~/cvit/honours-super/journal/posts/2017-05-22-post-processing-module.markdown
+	*	1503897887	0
+	"	3	0
+
+> ~/sandbox/area51/analysis.py
+	*	1503834924	0
+	"	74	4
+	^	70	5
+	.	70	4
+	+	39	11
+	+	38	16
+	+	39	15
+	+	41	25
+	+	38	35
+	+	42	0
+	+	41	15
+	+	42	0
+	+	27	0
+	+	41	14
+	+	42	48
+	+	75	31
+	+	42	46
+	+	42	28
+	+	38	16
+	+	42	30
+	+	15	0
+	+	24	18
+	+	33	0
+	+	31	9
+	+	45	31
+	+	75	0
+	+	46	38
+	+	25	7
+	+	75	0
+	+	47	0
+	+	3	24
+	+	49	12
+	+	75	0
+	+	69	47
+	+	23	0
+	+	22	13
+	+	22	0
+	+	18	33
+	+	19	51
+	+	20	51
+	+	21	15
+	+	7	0
+	+	4	27
+	+	7	0
+	+	5	20
+	+	67	33
+	+	69	39
+	+	68	28
+	+	69	33
+	+	75	0
+	+	8	0
+	+	6	30
+	+	70	0
+	+	75	0
+	+	51	24
+	+	64	0
+	+	53	21
+	+	54	27
+	+	52	10
+	+	64	0
+	+	66	30
+	+	67	28
+	+	62	34
+	+	64	34
+	+	56	24
+	+	70	0
+	+	71	33
+	+	74	25
+	+	56	7
+	+	57	38
+	+	59	0
+	+	57	46
+	+	58	12
+	+	74	41
+	+	71	0
+	+	73	14
+	+	72	17
+	+	41	0
+	+	32	14
+	+	41	0
+	+	40	38
+	+	40	0
+	+	40	22
+	+	43	26
+	+	75	0
+	+	69	4
+	+	40	0
+	+	49	0
+	+	69	4
+	+	70	4
+	+	72	4
+	+	73	4
+	+	74	4
+	+	73	4
+	+	74	39
+	+	70	38
+	+	74	5
+	+	73	4
+	+	63	0
+	+	64	0
+	+	71	31
+	+	74	4
+	+	69	4
+	+	70	4
+
+> ~/sandbox/area51/log.txt
+	*	1503833814	0
+	"	7121	0
+	.	1	0
+	+	1	0
+
+> ~/sandbox/area51/out
+	*	1503833588	0
+	"	153	0
+
+> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/gensort-1.5/input.txt
+	*	1503753509	0
+	"	8	0
+
+> ~/temp.md
+	*	1503745542	0
+	"	1	0
+	^	30	23
+	.	30	22
+	+	15	15
+	+	17	0
+	+	17	5
+	+	16	8
+	+	17	9
+	+	31	2
+	+	17	43
+	+	31	0
+	+	17	42
+	+	31	0
+	+	17	0
+	+	18	3
+	+	31	0
+	+	18	0
+	+	16	0
 	+	18	0
 	+	17	0
-	+	14	7
+	+	16	0
+	+	31	0
+	+	18	46
+	+	16	0
+	+	21	44
+	+	21	14
+	+	22	13
+	+	21	48
+	+	23	49
+	+	31	3
+	+	41	38
+	+	5	10
+	+	8	14
+	+	7	48
+	+	8	2
+	+	7	49
 	+	14	0
-	+	17	0
-	+	13	3
+	+	15	0
+	+	41	2
+	+	41	0
+	+	28	0
+	+	26	8
+	+	27	0
+	+	30	48
+	+	31	0
+	+	37	9
+	+	39	34
+	+	28	0
+	+	13	27
+	+	11	16
+	+	12	12
+	+	14	0
+	+	10	21
+	+	11	5
 	+	12	5
 	+	13	5
-	+	22	0
-	+	20	10
-	+	19	0
-	+	20	44
-	+	11	5
-	+	41	29
-	+	16	23
-	+	21	7
-	+	44	0
-	+	16	0
-	+	27	17
-	+	30	17
-	+	16	20
-	+	26	19
-	+	30	37
-	+	26	27
-	+	28	17
-	+	26	35
-	+	28	17
-	+	30	29
-	+	10	25
-	+	10	0
-	+	30	30
-	+	10	0
-	+	9	41
-	+	30	34
-	+	26	34
-	+	41	31
-	+	41	44
-	+	40	0
-	+	32	62
-	+	41	35
-	+	32	68
-	+	34	19
-	+	35	15
-	+	34	17
-	+	32	65
-	+	34	18
-	+	36	12
-	+	32	64
-	+	40	38
-	+	40	19
-	+	41	22
-	+	40	15
-	+	40	0
-	+	41	29
-	+	42	34
-	+	43	22
-	+	40	30
-	+	41	0
-	+	41	31
 	+	38	48
-	+	41	31
-	+	38	51
-	+	41	40
-	+	38	28
-	+	39	46
-	+	41	53
-	+	39	52
-	+	38	39
-	+	39	37
-	+	38	70
-	+	39	56
-	+	17	23
-	+	18	25
+	+	30	22
 
-> ~/repo/diagrams/src/torus.hs
-	*	1489422574	0
-	"	28	0
-	^	28	27
-	.	28	25
+> ~/cvit/honours-super/journal/posts/2017-08-26-hacks.markdown
+	*	1503736148	0
+	"	13	1
+	.	16	0
 	+	1	0
-	+	14	59
-	+	15	52
-	+	18	23
-	+	19	0
-	+	22	47
-	+	18	11
-	+	18	0
-	+	28	0
-	+	19	0
-	+	25	29
-	+	24	17
-	+	29	0
-	+	28	18
-	+	27	26
-	+	28	8
-	+	28	25
+	+	2	11
+	+	4	6
+	+	7	0
+	+	9	6
+	+	8	72
+	+	11	0
+	+	11	24
+	+	13	54
+	+	14	61
+	+	15	55
+	+	16	0
 
-> ~/repo/diagrams/src/arrow_exercise.hs
-	*	1489421274	0
-	"	30	45
-	^	30	46
-	.	30	45
-	+	2	0
-	+	11	5
-	+	12	4
-	+	41	0
-	+	11	5
-	+	12	5
-	+	15	43
-	+	16	36
-	+	37	26
-	+	40	17
-	+	36	14
-	+	37	26
-	+	12	9
-	+	34	0
-	+	19	70
-	+	34	0
+> ~/cvit/honours-super/journal/publish.sh
+	*	1503726524	0
+	"	4	14
+	^	4	15
+	.	4	14
+	+	2	69
+	+	4	14
+
+> ~/cvit/honours-super/journal/site.hs
+	*	1503726497	0
+	"	35	4
+	.	35	0
+	+	35	25
+	+	35	31
+	+	35	20
+	+	35	11
+	+	35	0
+
+> ~/cvit/honours-super/journal/site.h
+	*	1503726271	0
+	"	1	0
+
+> ~/cvit/honours-super/journal/.htaccess
+	*	1503726268	0
+	"	1	0
+	^	1	34
+	.	1	33
+	+	5	17
+	+	1	33
+
+> ~/cvit/honours-super/journal/index.html
+	*	1503726030	0
+	"	34	0
+
+> ~/temp.txt
+	*	1503721578	0
+	"	4	0
+	^	4	1
+	.	4	0
+	+	4	0
+
+> /tmp/bash-fc.ve2174
+	*	1503721490	0
+	"	1	0
+	^	2	11
+	.	2	10
+	+	19	50
+	+	20	8
 	+	19	0
-	+	34	0
-	+	22	32
-	+	23	32
-	+	34	31
-	+	26	30
-	+	28	48
-	+	30	60
-	+	34	0
-	+	25	19
-	+	30	61
-	+	32	49
-	+	34	0
-	+	37	44
-	+	19	32
-	+	22	22
-	+	23	22
-	+	37	35
-	+	19	60
-	+	29	67
-	+	19	18
-	+	21	9
-	+	22	46
-	+	23	46
-	+	22	41
-	+	21	8
-	+	29	57
-	+	21	8
-	+	29	57
-	+	12	10
-	+	37	66
-	+	30	45
+	+	20	0
+	+	19	0
+	+	16	0
+	+	15	0
+	+	1	10
+	+	1	28
+	+	1	35
+	+	2	0
+	+	2	8
+	+	2	15
+	+	1	0
+	+	5	49
+	+	6	13
+	+	7	39
+	+	15	0
+	+	9	74
+	+	24	28
+	+	9	25
+	+	24	19
+	+	26	0
+	+	27	0
+	+	20	49
+	+	19	58
+	+	20	61
+	+	4	16
+	+	10	25
+	+	12	19
+	+	11	19
+	+	13	35
+	+	14	16
+	+	20	0
+	+	19	10
+	+	20	0
+	+	22	0
+	+	19	47
+	+	20	52
+	+	24	46
+	+	18	9
+	+	18	2
+	+	18	0
+	+	17	0
+	+	18	0
+	+	1	41
+	+	2	10
+
+> ~/cvit/honours-super/journal/2017-08-26-mt-space.markdown
+	*	1503711754	0
+	"	7	0
+	^	7	0
+	.	8	0
+	+	1	0
+	+	9	0
+	+	2	25
+	+	4	7
+	+	8	0
+
+> ~/college/m17/compilers/project/src/parser.l
+	*	1503638163	0
+	"	1	0
+
+> ~/college/m17/compilers/project/src/parser.
+	*	1503637685	0
+	"	1	0
+
+> ~/college/m17/compilers/project/test-units/dummy.b
+	*	1503634428	0
+	"	1	0

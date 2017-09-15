@@ -1,11 +1,11 @@
 # XScreenSaver Preferences File
-# Written by xscreensaver-demo 5.36 for jerin on Mon Jan  2 22:36:23 2017.
+# Written by xscreensaver-demo 5.36 for jerin on Sat May 20 18:23:15 2017.
 # https://www.jwz.org/xscreensaver/
 
-timeout:	0:10:00
+timeout:	0:30:00
 cycle:		0:10:00
 lock:		True
-lockTimeout:	0:02:00
+lockTimeout:	0:30:00
 passwdTimeout:	0:00:30
 visualID:	default
 installColormap:    True
@@ -34,8 +34,8 @@ grabVideoFrames:    False
 chooseRandomImages: False
 imageDirectory:	
 
-mode:		random
-selected:	-1
+mode:		one
+selected:	86
 
 textMode:	file
 textLiteral:	XScreenSaver
@@ -47,8 +47,8 @@ programs:								      \
 				maze -root				    \n\
 				electricsheep --root 1			    \n\
   GL: 				superquadrics -root			    \n\
-				attraction -root			    \n\
-				blitspin -root				    \n\
+-				attraction -root			    \n\
+-				blitspin -root				    \n\
 				greynetic -root				    \n\
 				helix -root				    \n\
 				hopalong -root				    \n\
@@ -63,7 +63,7 @@ programs:								      \
 				halo -root				    \n\
 				slidescreen -root			    \n\
 				pedal -root				    \n\
-				bouboule -root				    \n\
+-				bouboule -root				    \n\
 -				braid -root				    \n\
 				coral -root				    \n\
 				deco -root				    \n\
@@ -94,7 +94,7 @@ programs:								      \
 				triangle -root				    \n\
 				xjack -root				    \n\
 				xlyap -root				    \n\
-  GL: 				atlantis -root				    \n\
+- GL: 				atlantis -root				    \n\
 				bsod -root				    \n\
   GL: 				bubble3d -root				    \n\
   GL: 				cage -root				    \n\
@@ -113,7 +113,7 @@ programs:								      \
   GL: 				stairs -root				    \n\
 				truchet -root				    \n\
 -				vidwhacker -root			    \n\
-				blaster -root				    \n\
+-				blaster -root				    \n\
 				bumps -root				    \n\
 				ccurve -root				    \n\
 				compass -root				    \n\
@@ -153,8 +153,8 @@ programs:								      \
 				vermiculate -root			    \n\
 				whirlwindwarp -root			    \n\
 				zoom -root				    \n\
-				anemone -root				    \n\
-				apollonian -root			    \n\
+-				anemone -root				    \n\
+-				apollonian -root			    \n\
   GL: 				boxed -root				    \n\
   GL: 				cubenetic -root				    \n\
   GL: 				endgame -root				    \n\
@@ -173,12 +173,12 @@ programs:								      \
 -				thornbird -root				    \n\
 				twang -root				    \n\
 - GL: 				antspotlight -root			    \n\
-				apple2 -root				    \n\
-  GL: 				atunnel -root				    \n\
-				barcode -root				    \n\
-  GL: 				blinkbox -root				    \n\
-  GL: 				blocktube -root				    \n\
-  GL: 				bouncingcow -root			    \n\
+-				apple2 -root				    \n\
+- GL: 				atunnel -root				    \n\
+-				barcode -root				    \n\
+- GL: 				blinkbox -root				    \n\
+- GL: 				blocktube -root				    \n\
+- GL: 				bouncingcow -root			    \n\
 				cloudlife -root				    \n\
   GL: 				cubestorm -root				    \n\
 				eruption -root				    \n\
@@ -199,8 +199,8 @@ programs:								      \
 				popsquares -root			    \n\
   GL: 				surfaces -root				    \n\
 				xanalogtv -root				    \n\
-				abstractile -root			    \n\
-				anemotaxis -root			    \n\
+-				abstractile -root			    \n\
+-				anemotaxis -root			    \n\
 - GL: 				antinspect -root			    \n\
 				fireworkx -root				    \n\
 				fuzzyflakes -root			    \n\
@@ -215,7 +215,7 @@ programs:								      \
 				substrate -root				    \n\
 				wormhole -root				    \n\
 - GL: 				antmaze -root				    \n\
-  GL: 				boing -root				    \n\
+- GL: 				boing -root				    \n\
 				boxfit -root				    \n\
   GL: 				carousel -root				    \n\
 				celtic -root				    \n\
@@ -250,7 +250,7 @@ programs:								      \
   GL: 				kaleidocycle -root			    \n\
   GL: 				quasicrystal -root			    \n\
   GL: 				unknownpleasures -root			    \n\
-				binaryring -root			    \n\
+-				binaryring -root			    \n\
   GL: 				cityflow -root				    \n\
   GL: 				geodesicgears -root			    \n\
   GL: 				projectiveplane -root			    \n\

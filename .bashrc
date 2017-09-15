@@ -17,6 +17,8 @@ export QT_STYLE_OVERRIDE=GTK+
 
 
 source ~/.shell/proxy.sh
+source ~/.shell/env.sh
+source ~/.shell/dual_screen.sh
 proxy_on
 
 # HISTORY
@@ -29,3 +31,5 @@ shopt -s histappend
 # Temporary, Stupid Optimization Methods
 export PATH="$PATH:/home/jerin/build/cplex/cplex/bin/x86-64_linux/"
 export PATH="$PATH:/home/jerin/Downloads/ampl/"
+
+export JAVA_HOME="/usr/lib/jvm/default/include"

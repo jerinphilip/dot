@@ -1,7 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/jerin/itws2/sandbox/mvc-web-lab/app/students'
-let g:netrw_dirhist_2='/home/jerin/Downloads/ampl'
-let g:netrw_dirhist_3='/home/jerin/build/cplex/cplex/bin'
-let g:netrw_dirhist_4='/home/jerin/build/cplex/cplex/bin/x86-64_linux'
-let g:netrw_dirhist_5='/home/jerin/builds'
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/jerin/honours/csvs'
+let g:netrw_dirhist_2='/home/jerin/honours-super/ocr-retrain/src/aux'
+let g:netrw_dirhist_3='/home/jerin/honours-super/journal/templates'
+let g:netrw_dirhist_4='/home/jerin/honours-super/jlayoutV1/codes'
+let g:netrw_dirhist_5='/home/jerin/college/m17/database-systems/hw/1/dtype'
+let g:netrw_dirhist_6='/home/jerin/cvit/honours-super/journal/templates'

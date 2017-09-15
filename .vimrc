@@ -15,10 +15,11 @@ set incsearch
 
 set expandtab "Convert tab to spaces, for haskell.
 set foldmethod=syntax
-set colorcolumn=72
+set colorcolumn=73
 
 set viminfo+=n~/.vim/f/viminfo
 
+set smartindent
 filetype plugin indent on
 
 syntax on
@@ -49,5 +50,5 @@ au FileType xml setlocal foldmethod=syntax
 set grepprg=grep\ -nH\ $*
 let g:tex_flavor = 'latex'
 
-set background=light
-colorscheme lucius
+"set background=light
+"colorscheme lucius
