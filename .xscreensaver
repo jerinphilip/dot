@@ -1,11 +1,11 @@
 # XScreenSaver Preferences File
-# Written by xscreensaver-demo 5.36 for jerin on Sat May 20 18:23:15 2017.
+# Written by xscreensaver-demo 5.37 for jerin on Sun Sep 17 10:39:28 2017.
 # https://www.jwz.org/xscreensaver/
 
-timeout:	0:30:00
+timeout:	0:05:00
 cycle:		0:10:00
 lock:		True
-lockTimeout:	0:30:00
+lockTimeout:	0:05:00
 passwdTimeout:	0:00:30
 visualID:	default
 installColormap:    True
@@ -268,6 +268,7 @@ programs:								      \
   GL: 				raverhoop -root				    \n\
   GL: 				splodesic -root				    \n\
   GL: 				unicrud -root				    \n\
+  GL: 				vigilance -root				    \n\
 
 
 pointerPollTime:    0:00:05

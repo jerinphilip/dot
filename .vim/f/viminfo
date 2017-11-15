@@ -11,217 +11,217 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0/argv[3
+~Msle0/\<qlearn\>
 
 # Last Substitute Search Pattern:
 ~MSle0~&^
 
 # Last Substitute String:
-$rm
+$|
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1505366846,,"wq"
+|2,0,1510680932,,"wq"
 :w
-|2,0,1505366840,,"w"
+|2,0,1510680929,,"w"
 :q
-|2,0,1505366826,,"q"
-:!./publish.sh
-|2,0,1505201301,,"!./publish.sh"
-::w
-|2,0,1505201300,,":w"
-:qw
-|2,0,1505201091,,"qw"
+|2,0,1510680490,,"q"
 :qa
-|2,0,1504933831,,"qa"
+|2,0,1510680472,,"qa"
+:!ls exps/
+|2,0,1510680436,,"!ls exps/"
 :q!
-|2,0,1504931645,,"q!"
-:%s/^/rm/g
-|2,0,1504931597,,"%s/^/rm/g"
-:!.
-|2,0,1504887659,,"!."
-:'<,'>s/column/order/g
-|2,0,1504887402,,"'<,'>s/column/order/g"
-:tabnew
-|2,0,1504887359,,"tabnew"
-:56
-|2,0,1504887137,,"56"
-:tabnew dtype.h
-|2,0,1504887136,,"tabnew dtype.h"
-:tabnew io.cpp
-|2,0,1504886536,,"tabnew io.cpp"
-:ta
-|2,0,1504886208,,"ta"
-:tabnew io.h
-|2,0,1504886157,,"tabnew io.h"
-:tabnew bio.cpp
-|2,0,1504886069,,"tabnew bio.cpp"
-:wr
-|2,0,1504875528,,"wr"
-:'<,'>S/DTYPE/BUFIO/g
-|2,0,1504875436,,"'<,'>S/DTYPE/BUFIO/g"
-:tabnew includes.h
-|2,0,1504875400,,"tabnew includes.h"
-:42
-|2,0,1504871079,,"42"
-:W
-|2,0,1504867441,,"W"
-:46
-|2,0,1504857282,,"46"
-:tabnew bufio.h
-|2,0,1504857066,,"tabnew bufio.h"
-:windo wincmd K
-|2,0,1504873184,,"windo wincmd K"
-:hsplit
-|2,0,1504873153,,"hsplit"
-:tabnew input.txt
-|2,0,1504872341,,"tabnew input.txt"
-:qkk
-|2,0,1504790577,,"qkk"
-:28
-|2,0,1504788056,,"28"
-:21
-|2,0,1504787938,,"21"
-:L!
-|2,0,1504787926,,"L!"
-:we
-|2,0,1504766305,,"we"
-:tabnew input.txto
-|2,0,1504765801,,"tabnew input.txto"
-:t
-|2,0,1504763165,,"t"
-:"
-|2,0,1504760787,,"\""
-:tabnew .xmobarrc
-|2,0,1504529143,,"tabnew .xmobarrc"
+|2,0,1510679776,,"q!"
 :'<,'>Tabularize /|
-|2,0,1504527765,,"'<,'>Tabularize /|"
-:'<,'>Tabularize
-|2,0,1504527620,,"'<,'>Tabularize"
-:set tw=72
-|2,0,1504507928,,"set tw=72"
-:tabnew posts/2017-08-25-to-learn.md
-|2,0,1504507752,,"tabnew posts/2017-08-25-to-learn.md"
-:!
-|2,0,1504505803,,"!"
-:tabnew js/mathjax-config.js
-|2,0,1504503219,,"tabnew js/mathjax-config.js"
-:!pandoc -o output.pdf db-mid.md
-|2,0,1504462302,,"!pandoc -o output.pdf db-mid.md"
-:.!
-|2,0,1504448419,,".!"
-:!pandoc -o output.html db-mid.md
-|2,0,1504445916,,"!pandoc -o output.html db-mid.md"
-:!ls .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/site/site
-|2,0,1504421832,,"!ls .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/site/site"
-:!:q
-|2,0,1504423294,,"!:q"
-:!kk
-|2,0,1504423287,,"!kk"
-:tabnew templates/default.html
-|2,0,1504423037,,"tabnew templates/default.html"
+|2,0,1510679770,,"'<,'>Tabularize /|"
+:tabnew out
+|2,0,1510679664,,"tabnew out"
+:'<,'>
+|2,0,1510679403,,"'<,'>"
+:,G Tabularize /|
+|2,0,1510679357,,",G Tabularize /|"
+:Tabularize /|
+|2,0,1510679350,,"Tabularize /|"
+:'<,'>s/^/|/g
+|2,0,1510679339,,"'<,'>s/^/|/g"
+:'<,'>s/$/|/g
+|2,0,1510679333,,"'<,'>s/$/|/g"
+:'<,'>s/\t/|/g
+|2,0,1510679329,,"'<,'>s/\\t/|/g"
+:'<,'>Tabularize \|
+|2,0,1510679087,,"'<,'>Tabularize \\|"
+:'<,'>%s/\t/|/g
+|2,0,1510678816,,"'<,'>%s/\\t/|/g"
+:%s/\t
+|2,0,1510678805,,"%s/\\t"
+:s/
+|2,0,1510678801,,"s/"
+:'<,'>%s/\t/|
+|2,0,1510678648,,"'<,'>%s/\\t/|"
+:'<,'>s/policy/value/
+|2,0,1510678330,,"'<,'>s/policy/value/"
+:s/policy/value/g
+|2,0,1510678299,,"s/policy/value/g"
+:s/choose/policy/g
+|2,0,1510677199,,"s/choose/policy/g"
+:%s/choose/policy/g
+|2,0,1510677192,,"%s/choose/policy/g"
+:s/policy/policy/g
+|2,0,1510677184,,"s/policy/policy/g"
+:s/policy/policy
+|2,0,1510677178,,"s/policy/policy"
+:set ft=cpp
+|2,0,1510674818,,"set ft=cpp"
+:qw
+|2,0,1510668429,,"qw"
+:tabnew utils.py
+|2,0,1510668317,,"tabnew utils.py"
+:tabnew sarsa.py
+|2,0,1510667406,,"tabnew sarsa.py"
+:%skjqkkjjk
+|2,0,1510667989,,"%skjqkkjjk"
+:Tabularize /,
+|2,0,1510667980,,"Tabularize /,"
+:%s
+|2,0,1510667972,,"%s"
+:%s/exp
+|2,0,1510667675,,"%s/exp"
+:vsplit gridworld.py
+|2,0,1510660473,,"vsplit gridworld.py"
+:Wq
+|2,0,1510654816,,"Wq"
+:'<,'>s/args\.//g
+|2,0,1510653641,,"'<,'>s/args\\.//g"
+:wqa
+|2,0,1510652525,,"wqa"
+:tabnew qlearn.py
+|2,0,1510644610,,"tabnew qlearn.py"
+:Q
+|2,0,1510641884,,"Q"
+:'<,'>s/sarsa/algo/g
+|2,0,1510641487,,"'<,'>s/sarsa/algo/g"
+:tabnew agent.py
+|2,0,1510641345,,"tabnew agent.py"
+:tabnew 
+|2,0,1510641321,,"tabnew "
+:r sarsa.py
+|2,0,1510640990,,"r sarsa.py"
+:r 
+|2,0,1510640982,,"r "
+:s/choose/reward/g
+|2,0,1510636816,,"s/choose/reward/g"
+:s/update/choose/
+|2,0,1510636811,,"s/update/choose/"
+:def
+|2,0,1510636604,,"def"
+:tabnew gridworld.py
+|2,0,1510636470,,"tabnew gridworld.py"
+:%s/end/goal/g
+|2,0,1510635982,,"%s/end/goal/g"
+:'<,'>s/_agent/_params/g
+|2,0,1510628204,,"'<,'>s/_agent/_params/g"
 
 # Search String History (newest to oldest):
 ? ^
-|2,1,1504931597,,"^"
-? column
-|2,1,1504887402,,"column"
-?/argv[3
-|2,1,1504887246,47,"argv[3"
-?/cout
-|2,1,1504885919,47,"cout"
-?/col
-|2,1,1504885616,47,"col"
-?/valso
-|2,1,1504885424,47,"valso"
-?/clear
-|2,1,1504885078,47,"clear"
-?/out
-|2,1,1504885049,47,"out"
-?/int
-|2,1,1504884983,47,"int"
-?/2
-|2,1,1504875282,47,"2"
-?/A
-|2,1,1504873319,47,"A"
-?/at
-|2,1,1504872562,47,"at"
+|2,1,1510679339,,"^"
+? $
+|2,1,1510679333,,"$"
+? \t
+|2,1,1510679329,,"\\t"
+? \<qlearn\>
+|2,1,1510678871,,"\\<qlearn\\>"
+?/dsfsd
+|2,1,1510678862,47,"dsfsd"
+? /|/g
+|2,1,1510678702,,"/|/g"
 ?/dsfds
-|2,1,1504872197,47,"dsfds"
-?/9*
-|2,1,1504872193,47,"9*"
-?/&b
-|2,1,1504871138,47,"&b"
-?/w5
-|2,1,1504790530,47,"w5"
-?/read
-|2,1,1504788289,47,"read"
-?/ato
-|2,1,1504788085,47,"ato"
-?/line
-|2,1,1504763676,47,"line"
-?/Full
-|2,1,1504528696,47,"Full"
-? \<confusion\>
-|2,1,1504508164,,"\\<confusion\\>"
-?/When we
-|2,1,1504507006,47,"When we"
-?/Swizz
-|2,1,1504462123,47,"Swizz"
-?/textwid
-|2,1,1504444191,47,"textwid"
-?/tw
-|2,1,1504444188,47,"tw"
-? \<error\>
-|2,1,1504443284,,"\\<error\\>"
+|2,1,1510678636,47,"dsfds"
+?/dsfs
+|2,1,1510678334,47,"dsfs"
+? policy
+|2,1,1510678330,,"policy"
+?/esar
+|2,1,1510677245,47,"esar"
+? choose
+|2,1,1510677199,,"choose"
+?/pro
+|2,1,1510673654,47,"pro"
+?/exp
+|2,1,1510667670,47,"exp"
+?/print
+|2,1,1510659582,47,"print"
+? args\.
+|2,1,1510653641,,"args\\."
+?/choose
+|2,1,1510652732,47,"choose"
+?/1-
+|2,1,1510641536,47,"1-"
+? sarsa
+|2,1,1510641487,,"sarsa"
+?/N
+|2,1,1510641369,47,"N"
+?/master
+|2,1,1510640355,47,"master"
+?/tki
+|2,1,1510640335,47,"tki"
+?/Canvas
+|2,1,1510640329,47,"Canvas"
+?/GUI
+|2,1,1510640153,47,"GUI"
+?/self.agent
+|2,1,1510640132,47,"self.agent"
+?/self
+|2,1,1510640129,47,"self"
+?/RandomW
+|2,1,1510640120,47,"RandomW"
+?/gridworld
+|2,1,1510640032,47,"gridworld"
+?/self/font
+|2,1,1510639931,47,"self/font"
+?/self.fond
+|2,1,1510639928,47,"self.fond"
+?/\<agents\>
+|2,1,1510639903,47,"\\<agents\\>"
+?/agents
+|2,1,1510639893,47,"agents"
+?/gui
+|2,1,1510639882,47,"gui"
+?/po
+|2,1,1510637642,47,"po"
+?/move
+|2,1,1510637166,47,"move"
+? update
+|2,1,1510636811,,"update"
+?/default
+|2,1,1510636606,47,"default"
+? end
+|2,1,1510635982,,"end"
+?/returns
+|2,1,1510635972,47,"returns"
 ? @$
-|2,1,1504422781,,"@$"
-?/Liter
-|2,1,1504420237,47,"Liter"
-?/Dev
-|2,1,1504420139,47,"Dev"
-? \<Two\>
-|2,1,1504414112,,"\\<Two\\>"
-?/dfsd
-|2,1,1504412342,47,"dfsd"
-? (.*)
-|2,1,1504412291,,"(.*)"
-? \<b\>
-|2,1,1504372273,,"\\<b\\>"
-? bytes
-|2,1,1504371935,,"bytes"
-?/h1
-|2,1,1504325911,47,"h1"
-?/re
-|2,1,1504324115,47,"re"
-?/conso
-|2,1,1504323865,47,"conso"
-?/G/conso
-|2,1,1504323864,47,"G/conso"
-? \<Did\>
-|2,1,1504320957,,"\\<Did\\>"
-?/\<li\>
-|2,1,1504320895,47,"\\<li\\>"
-?/<li>
-|2,1,1504320890,47,"<li>"
-?/li
-|2,1,1504320866,47,"li"
-? publish.sh
-|2,1,1504319879,,"publish.sh"
-?/State 31
-|2,1,1504180590,47,"State 31"
-?/State 11
-|2,1,1504180582,47,"State 11"
-?/State 30
-|2,1,1504180524,47,"State 30"
-? \<id_array\>
-|2,1,1504179090,,"\\<id_array\\>"
-?/loc
-|2,1,1504178995,47,"loc"
-?/label
-|2,1,1504160581,47,"label"
-?/ab
-|2,1,1504160575,47,"ab"
+|2,1,1510628417,,"@$"
+? _agent
+|2,1,1510628204,,"_agent"
+? defaults
+|2,1,1510628014,,"defaults"
+?/legal
+|2,1,1510627442,47,"legal"
+?/sdfd
+|2,1,1510593999,47,"sdfd"
+? \s
+|2,1,1510593956,,"\\s"
+? ':
+|2,1,1510593939,,"':"
+? Perf.*non-trivial\/
+|2,1,1510593920,,"Perf.*non-trivial\\/"
+?/sdfsd
+|2,1,1510593889,47,"sdfsd"
+? \s*
+|2,1,1510593882,,"\\s*"
+? instructions.*
+|2,1,1510593869,,"instructions.*"
+? perf
+|2,1,1510593468,,"perf"
 
 # Expression History (newest to oldest):
 
@@ -239,74 +239,85 @@ $rm
 
 # Registers:
 "0	LINE	0
-	#include <bits/stdc++.h>
-|3,0,0,1,1,0,1504886273,"#include <bits/stdc++.h>"
-"1	LINE	0
-	, pages 1412â€“1421,
-	Lisbon, Portugal, 17-21 September 2015.
-	c
-	Â©
-	2015 Association for Computational Linguistics.
-|3,0,1,1,5,0,1505201149,", pages 1412â€“1421,","Lisbon, Portugal, 17-21 September 2015.","c","Â©","2015 Association for Computational Linguistics."
-"2	LINE	0
+	!(image)[exps/mean_rewards.png]
+|3,0,0,1,1,0,1510680375,"!(image)[exps/mean_rewards.png]"
+""1	LINE	0
 	
-|3,0,2,1,1,0,1505201021,""
+|3,1,1,1,1,0,1510680732,""
+"2	LINE	0
+	# Impact of epsio
+|3,0,2,1,1,0,1510680726,"# Impact of epsio"
 "3	LINE	0
 	
-|3,0,3,1,1,0,1505134474,""
+|3,0,3,1,1,0,1510680455,""
 "4	LINE	0
-	            - python3-pip
-|3,0,4,1,1,0,1505134472,"            - python3-pip"
+	The following graph
+|3,0,4,1,1,0,1510680454,"The following graph"
 "5	LINE	0
-	            - python-pip
-|3,0,5,1,1,0,1505134472,"            - python-pip"
-"6	LINE	0
-	        cout << "Deleting " << i << ".imd\n";
-|3,0,6,1,1,0,1504932423,"        cout << \"Deleting \" << i << \".imd\\n\";"
-"7	LINE	0
-	    
-|3,0,7,1,1,0,1504932376,"    "
-"8	LINE	0
 	
-|3,0,8,1,1,0,1504932358,""
+|3,0,5,1,1,0,1510680053,""
+"6	LINE	0
+	</div>
+|3,0,6,1,1,0,1510680053,"</div>"
+"7	LINE	0
+	<div width="50%">
+|3,0,7,1,1,0,1510680051,"<div width=\"50%\">"
+"8	LINE	0
+	```
+	>vvv
+	>>>v
+	^>vv
+	^>>v
+|3,0,8,1,5,0,1510680024,"```",">vvv",">>>v","^>vv","^>>v"
 "9	LINE	0
-	        string s = 
-|3,0,9,1,1,0,1504887334,"        string s = "
+	>vvv
+	>>>v
+	^>vv
+	^>>v
+|3,0,9,1,4,0,1510680021,">vvv",">>>v","^>vv","^>>v"
 "a@	CHAR	0
-	IEMPLOYEE -> ;
-|3,2,10,0,1,0,1503073011,"IEMPLOYEE -> ;"
+	Vjjj:s/\t/|/g:€ku€kl€kl€kl€kl€kb€kb^":€ku:€ku€kl€kl€kl€kl€kb$
+|3,2,10,0,1,0,1510678701,"Vjjj:s/\\t/|/g:€ku€kl€kl€kl€kl€kb€kb^\":€ku:€ku€kl€kl€kl€kl€kb$"
 "b	CHAR	0
 	iCHECK_INCLUDE_FILES()
 |3,0,11,0,1,0,1493455540,"iCHECK_INCLUDE_FILES()"
+"c	BLOCK	3
+	| 1 
+	| 2 
+	| 3 
+	| 4 
+|3,0,12,2,4,3,1510679271,"| 1 ","| 2 ","| 3 ","| 4 "
+"e	LINE	0
+	    class expr: public node{
+	    
+	    };
+|3,0,14,1,3,0,1507184912,"    class expr: public node{","    ","    };"
 "g	CHAR	0
 	j
 |3,0,16,0,1,0,1504445106,"j"
 "j	CHAR	0
-	kjkkj:set tw=50jjkkjjjjjjjjjjjjjjjjjjjjjgjkgjgkjgqj:wkkkk
-|3,0,19,0,1,0,1503721444,"kjkkj:set tw=50jjkkjjjjjjjjjjjjjjjjjjjjjgjkgjgkjgqj:wkkkk"
+	2469
+<Gkkkkkkkkj€kdjjlllllllllllcefor:w:wkj€ku€ku€ku€ku€ku€kuh€kuhhkkkkkkkkkkkkjjj:wjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkhhrEjlu:wGkkkkkkkkkkkkkkkkkllllllllllxjjjjxjjjjlxuhxlli_kkkkllli_jjjjjjjjjhklllllllllhxllli_:wkkkkkkkkhhhi_llllllxjjjjhhhhxhhi_jjjjlhi_llllx:w:wkkkkkkkkhhhhxllllli_jjjjhhhhhxlli_jjjjhhxllli_:w:wj:wgtgTjoclass print: pb€kbub st:€kb {AA€kb}i:wA;:woclss€kb€kbass printlngtkkkkgT:wkjA €kbL €kb€kb: public statement {}i:wA;:w:wkk:wkkkkkkkkostatement init;conditddkoexpren€kbssion condition;:wjddkoepre€kb€kb€kbxpression update;:wgtgTocode* kkkjhce*jce*:wkkllllli*:wjjjA €kbcode;€kb€kb€kb€kb€kbblock;:w:wofor_(statement *ini€kb€kb, expr *e€kbcond, exr€kbpr *s€kbu€kbstep): (hhhi,hhhhhhhhhhhhhhhhhhhhhhilllllllllllllilllllllllllliexpr *blok€kb€kb€kbA€kbco€kb€kbinit(i), cond(cond)hhhhhhhhhhhhhhhhhhhhhllllllliuAkkkkkkhkhcejhhhcesta€kbepjjjjlljllllxxxkxxx:wkjjjlAhhhhhhhhhhhllhct(lllhci)*€kbcA, s(€kbtep(s), b(€kb€kbblock(b){}:w:wkkkkkkkkkkkkkkkk:wkjjjjjkkjkoeddoexpr *cond;code *block;oif_(s€kbkjAcond€kb€kb€kb€kbc€kbexprA *c, code *b){}€kb€kb:cond(c), block(b) €kb{}:wkdd:wkkjj:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkjjjJJJllllllllllliAhhhhhhhhhhhhhhhhhhhhhhhhhh:wkkkkkkkkkkkkjlllllllllllllhhhhhi :wkxxJ:whh:wkkkkkkkoexpr *cond;kdd:wocode *blcok€kb€kb€kbock;dddd:wkjjjjjjyykkkkkkp:wkkkkkoclass cond{}hxhi:at€kbs€kb€kb€kbp€kb:public node:whhhcestatementhhhhhhhhhhhhhhhi :whiitional:wjjljkkkddddkuuuuuuhli: bu€kb€kbpublichhhhhhhhhhhcecn€kbl€kbblockAAhi statemt€kbnet:whhhlxlin:wjkA€kb€kb{}ikjjjjVjdkkkkkpjjddjjllllllllllllllllllllllhct{cblockjjjjh€kd€kd€kd€kdhhh€kdhhhhjVjdklllllllllllllllhcecblock:w:w:wk;w:wkkkkxxiwhile:w:wjjjjjjjjj:w:w:wkkkkkkkk:w:wkkk:w:wkkkkkj:whh:w:wjjjjj:wjjjjjjdd:wkk:wgtjjggGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkgTjjjjjjjkk:wjkkjjgtkkkkkkkkkkkkkkkkkkkkkkkkk:wggTkk:w:wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkj:wk:wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjj:wkkkkkkkkk:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj:wkj:w
+|3,0,19,0,1,0,1507184794,>2468
+|<"Gkkkkkkkkj€kdjjlllllllllllcefor:w:wkj€ku€ku€ku€ku€ku€kuh€kuhhkkkkkkkkkkkkjjj:wjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkhhrEjlu:wGkkkkkkkkkkkkkkkkkllllllllllxjjjjxjjjjlxuhxlli_kkkkllli_jjjjjjjjjhklllllllllhxllli_:wkkkkkkkkhhhi_llllllxjjjjhhhhxhhi_jjjjlhi_llllx:w:wkkkkkkkkhhhhxllllli_jjjjhhhhhxlli_jjjjhhxllli_:w:wj:wgtgTjoclass print: pb€kbub
+|< st:€kb {AA€kb}i:wA;:woclss€kb€kbass printlngtkkkkgT:wkjA €kbL €kb€kb: public statement {}i:wA;:w:wkk:wkkkkkkkkostatement init;conditddkoexpren€kbssion condition;:wjddkoepre€kb€kb€kbxpression update;:wgtgTocode* kkkjhce*jce*:wkkllllli*:wjjjA €kbcode;€kb€kb€kb€kb€kbblock;:w:wofor_(statement *ini€kb€kb, expr *e€kbcond, exr€kbpr *s€kbu€kbstep): (hhhi,hhhhhhhhhhhhhhhhhhhhhhilllllllllllllilllllllllllliexpr *blok€kb€kb€kbA€kbco€kb€kb
+|<init(i), cond(cond)hhhhhhhhhhhhhhhhhhhhhllllllliuAkkkkkkhkhcejhhhcesta€kbepjjjjlljllllxxxkxxx:wkjjjlAhhhhhhhhhhhllhct(lllhci)*€kbcA, s(€kbtep(s), b(€kb€kbblock(b){}:w:wkkkkkkkkkkkkkkkk:wkjjjjjkkjkoeddoexpr *cond;code *block;oif_(s€kbkjAcond€kb€kb€kb€kbc€kbexprA *c, code *b){}€kb€kb:cond(c), block(b) €kb{}:wkdd:wkkjj:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkjjjJJJllllllllllliAhhhhhhhhhhhhhhhhhhhhhhhhhh:wkkkkkkkkkkkkjlllllllllllllhhhhhi :w
+|<kxxJ:whh:wkkkkkkkoexpr *cond;kdd:wocode *blcok€kb€kb€kbock;dddd:wkjjjjjjyykkkkkkp:wkkkkkoclass cond{}hxhi:at€kbs€kb€kb€kbp€kb:public node:whhhcestatementhhhhhhhhhhhhhhhi :whiitional:wjjljkkkddddkuuuuuuhli: bu€kb€kbpublichhhhhhhhhhhcecn€kbl€kbblockAAhi statemt€kbnet:whhhlxlin:wjkA€kb€kb{}ikjjjjVjdkkkkkpjjddjjllllllllllllllllllllllhct{cblockjjjjh€kd€kd€kd€kdhhh€kdhhhhjVjdklllllllllllllllhcecblock:w:w:wk;w:wkkkkxxiwhile:w:wjjjjjjjj
+|<j:w:w:wkkkkkkkk:w:wkkk:w:wkkkkkj:whh:w:wjjjjj:wjjjjjjdd:wkk:wgtjjggGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkgTjjjjjjjkk:wjkkjjgtkkkkkkkkkkkkkkkkkkkkkkkkk:wggTkk:w:wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkj:wk:wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjj:wkkkkkkkkk:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+|<jjjjj:wkj:w"
 "k	CHAR	0
-	8876
-<okkopassjdd:wgtgtjkkjA€kb€kb€kb€kb€kb€kb€kb€kb€kb:wgtgtjkkkkkkkkkkkkkkkkkkkkkkkkkkkgtkjjkgtgttggtkoprin€kb€kbddkAi, type(r€kb€kb€kb€kb€kb€kb€kb.du):wi():wddkoprint(r.dump()):wddlllllllc$i€kbr:wgtkkkklllllllllllllllllllkjdjjopri(par.dump())::whhhhhhhhhhhhhhhhceast:wgtjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjgtjjkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjkkkkkkkkkjA.setParseAction(Projection):wgtgtkjlhhhhiion:wkoprint9€kb(t0€kb)::wgtjggtjkkgtjkgtkkjjjhhkkkjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxxxuuuI#tyypyyplhxlllllllllxxxxxllllllllllllllllllllllllllllxxxxxxxxxx:wgtggtgttgtjkjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjkAjjA.par€kb€kb€kbsetParse(Selection):wgtgtjodef Selection(t)kkkjjjA:print(t):wgTgTgtgtjkjkjoreturn ("Selection", t):wgt/g€kbtableshhhhhhhhhhhhhlllllllxxxxxlllllllllllllllllllllllllllllxxxxxxxxxx:wgtjgtjkjllljkjjkjAhhhhhhhhhgtgtgtjkjhhhhci"Ta€kb€kbFrom;wkkhhhhhhhhhhhhhlct(From:wgtjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk/Selectci)From:wjkjkkkkkkjgtjkgtjkjkkkkI#:wkjgtkjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjkkkkkkgtgtg:wgtgtgtgtgt:wgtgtggt:g:wgtjjkkjjjjkkkkx:wddAi[0]jjjhjAi[0]:wjjjjjkjxluhhd%kkkklllllld%:wgtgtgt:wgt/selectjjjjjjlllllkkkkkA€kb€kb€kb€kb€kb€kbA(jjjjjA€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb.setParseAction(Select):wgtgtGkjodef Select(:wA)€kbt):print(t)oreturn ("Select", t):wgtjkkjkkgtgtgtgtgtkhi"Select:", Ai, "\b€kb€kb€kb€kb€kb:wli, "\n":whkkki, "\nukhi"From:", lli, "\n":wjkjjjjkkkkjjjoddddkjlkot€kbddddjlkljlAi1€kb[1]:wgtjGgtjGkkkkkkkkkkkkAhhhhhhhhhhi"Final Dump:", :wgtjkkjgggtjjkgtkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkGkkkkkkkkkkgtgtjjkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjkiGroupu:wjjjiGroupAhh:wjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh:wgtgtjkkkkjjjjhli::wgtkkjlllll:wgtgtgtkjgtgtjkkgtkjkkkkkjjjkjjgtgTgtggTjgtgtjkoprint(t):wjjjjkkdd:wkkkjjos, p, f, f€kb€kb€kb = t:wkjdddllllllllllllll li len(t),:wkos, p, f, _  €kb= t:whhhhhhhhhhllllllgtgkkjjkgtgtjkkjjljllllllllxxxxxi(s, €kb f€kbp):wkkhhhhxiidsjjAhi, ids:whhhhhhhhxxx:wgtjgtjjkkkkoprin(€kbt("AsD€kbList:", as.€kbt.asList()):wggjjjjjGkkkkkkkkkkkklllllllllllllllllllllllct)lxopprint(A€kb"A€kb€kbas.a€kbas()):wgtkgtjjjjjkkkkklhhhhhhhhhhhhlllllllllllllllllllllli(Ahhhli(€kb).setParseAction(rev€kbmoveNesting):wgtgtgtjkhhhhhhhct)Paranthesis:wgtgtGodef rem(t):open, €kb€kb€kb€kb€kb€kbo€kbpa€kb€kbopen_p€kb€kb€kb€kb€kb€kbopening, e, closing = toreturn e:wgtjjkkjgtgtjkkkgtgtgtjkgtjkkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhllhxxxxxllllllllllllllllllllllllllllllhAhh:wkjjkkkkjjjkkkjjkkkjjjkkkkkkkkkkkkkkkkkjjjjjjjjgtgTjjjjjjjjjjjjkkgtgtjkkkkkkjkjkkkjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkgtjkjjjjkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjkkhhhhhhhhhi(ju:wjlkkkkkkkjjjgtkgtjkjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkjjjjjjjoprint(t)dd:wfgtjkjjkkkkkkkkkkkkk/Fromhhhhhhhhhhhhhhhhd$:wgjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkjkkkjhhhhhhhhhjkkkkkkkkjofollw€kbowFrom = jjjjjjjhhhhd%kkkkkkkpuAp:wofromPlae€kbce€kb€kb€kb€kb€kbEc€kbtc = fo€kb€kbg.f + f:wklAjjjjjjjVjdkkjof:wA +:wkkkkkkhhhhhhkji(A).setPar(From):wgtgtjkkgtgtkgtjkkkkkgtkjjjddkkkkp:wjVjkVjkko:wgtgTjgtjjkkkkkkkkkkkkkkkgtjjjjlllxxxxif:wlllcew:wjjlllllllllllllrflllxxxiw:wkkkkkkjkkof, *€kbGkjlllllll:wi[A]:wkkkkkkkkkkkkAsddjAi[1]:wgtjkjjjjjjjjjjjkkkklllllllllkkkkkkkkkkkkkkkjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjA.setParseAction(u:wgtggtjjkkjjGkkkkkkkgtkkkkGkkkkkkkkkkkkkkkGkkkkkkkkkkkkgtgtgtkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkgtjgtjjkgtjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjggtgtkgtjjkgt/wherenjkjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjkkkkkkkkAhhhhhhhhhhhhhhhhhhhhhhli(A)i.set(re):wkjkj:wkjkjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhkkkkA.setParseu:wkkkkkkkkkkkkkkkkkkkkj/Binar/binarygtgtkkkkkkkkkkkkkkkkkkkkkkkgT/Bgtgt/BinaryjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjkkkjjjjjA.setPar(b€kbBi):wgtjgtjkjjjjjjjjjjgtkjllhhhci)i€kbgtgTkjgtgtgtgt/o€kbOpReod/BinarykkkkkkkkkkkkkkkkkkkjjA.setParseActin(€kb€kbon("Bi€kb€kb€kb€kb€kb€kb€kb€kb€kbBI€kb€kbi€kbBi):wjjjjjjjjjjjjjjjjjjjjjjjkkkkkkiBi€kb€kbOpkuiOp:wjjjjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhjjjkkkhxxxxxxi(A.setParseAction(Where):wgtgt/WhereGkGodef Where(t):se€kb€kbreturn ("Where", t):wgtgtgtkkkkkkkkkkkoprint(t):wddhjddkkp:whgtkjujkjjhhhhhhhhhhhhhhhhhhhhhhhhhhhlllhhhhhhhhhhhi(A).set(Wh):whhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxxxxxxxxxxi0€kb):whxhhhhhhhhhhhhhhhxxxxxx:wjkfgtkjgtjkjjjjjjjjjgkjggOfrom pprint import ppring€kbt:wGkkkkkkkkkkkjlllllllllllllllllllllllllipprintuxhxhxxxxxxxopprint(t):wkkkkkkjllllllhdt)opprint(t):wgjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjgtkjkjgtkkkkkkkkkkkkkkkGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkgtgkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkGkkkkkkkkkkkkkkkjjjjofor t €kb€kbi in t:pprint(i):wijj€kb€kb:wjjjjjjjjjjjjjkkkkkkkkkkkjjhhhhhhhip, :wjllllllllllllllxxxxis€kbo€kbp, f, w:wkkjkkkkkgtjkGkkkkkkkkkkkkkkkkkkkkkjjjlllllllllllllllllllli, "":wgtgtjkjjkkkkkkkkkkkGkkkjjjlkjAip1]]€kb€kb€kb€kb[1]:wgtkjhxxiNone:wgtgtkkkjjgggtjjGkkkkkkgtjkGkkkkkkkkkkkkkkjkI#jI#ji:wggt/printnnI#ji#njjjjI#ji#ji#jjkI#:wjjjkllllllllllllllllllllllhhhxiflllxxxli, p:wgtgtjgtjkkkjgtgtgtjgtjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjA.setPar(agg€kb€kb€kbFunction):wgtgtGodef f€kbFunction(t):name, arg:wgtgtgtkgtkjjkkjjjjkkjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhlxxxxxxlllllllllllli(A.setp€kbParseAction((€kbre):wgtgtjkjA = t:wdkujddkoddoreturn (F€kb"Function", t):wgtkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkgktgtgtjkoprint(t):wjjkgTgtgtk/jkjjjjjjkjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxxxxxxxxxxxxxxxxxxxxxxxxxxxx:wx:wggtgttgtjkgtjGkkkkkkkkkkkkkkkkkk/aggnnjlklllllllllliAi€kbuii€kb(A)A.€kb\€kb.\setParseAction(Function):wgtgtjgtjkgtgTjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjddkAiaddp€kbParset€kbAction(upcaseTokens):wjjjjjjjjjjjjjjjjgtkgtkkjkjkjgTgTkkkkk/aggrEjjkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjgtgtkkkkkkkkkkkkkkkkkkkkkkkkkkjoprint(t):wdd:wgTjgtgtjjjkjjgtgtjkgTgTjkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkjjjjkkkkkkkkjjjjjjjjjjjkkjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjkkkkkkkkkkkkkkkkkkkkjjjjjjkkhhhhhhhhhhhhhhhhis€kbA.set(unwrap):wgtgtGodef unwrp€kbap(t)pr€kb€kb:€kb€kb:print(t)return t:wgtjkkjkjgtgtkjkkgtjkA€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb:wjj:wll:wjjjkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkgtgtdG:wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkGuujjjjkkkkkdd:wgtkjkkkkkkkkkkkkkkkkkjjA.setPar(up€kbn):wjjgtgtjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjAip0€kb€kb[0]:wuu:wgtjkkkA€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb:wGgtgtjkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjkkVjjd:wkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjkoddkoprint(t):wi, e€kblen(t):wdd:wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjkoprint(t):wdd:wGk/Po€kbrjopriddkkor = ("Pr", t):woprint(r):wjkkAip0€kb€kb[1€kb0]:wjkxxxA€kb):wjIp:wkjlllllllilen(A):whi[1]:wddkor€kbprint(t, len()€kbt)):wkjkofor xs in t:print €kb(xs):wkVjjd:wkdd:wgtkkggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkjkkjkkkkgtgtjk/Ideljlllllllllllhct":w:wkjgtgtjjjkkkkkkkkkkkkkkjjjjjjjjjjjkVjkkkjj:wkkkkkkkVjjkkVjj:s/[ar€kb€kb€kbparsetre€kb€kb€kbTree/ast/g:w:w€ku€kukkkgtgtkgtgtkgtjkkkkkkkkjjjjjjjA.setParseAction(Nest):wgtgtGodef Nest(t)re€kb€kb€kb:return tlokdkoprint(t):wgtkjkhhhhhhhct)False:wjjjjjjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhlxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxiide:wkkkkkkkkkkkkkkjjjjjjjjhhhhhhhhhxxxxxxxxxxxxxxxllllllllllxxi + lllllhlllhhhvjlllllllllllllllllllllllllllllllllllld:whhhhhhhhhhhhhhhi(A);w:wkkAi + ide:whhhhhhhhhhhhhhhhhhhhuuuuuuuuuuuuuuuuuuuuuuuu:wAu:wjkI#jI#o€kb€kb€kb€kb€kb€kbcolumn = identifier + '€kb'.' =€kb+ id:whhhhhhhhhhhhhhhhhhhhhhhhhhhhidee€kb€kb€kb:wjjjjjkkkkkkjlllllllllllllliOptional(A):wkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj/*nnnjjjjjjjjgtjjjjjjjgttgtjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjIllllllllgtjjkk:tabnew ../						€kBGkjodef jion€kb€kb€kboin(:wgg:w
-|3,0,20,0,1,0,1502823455,>8911
-|<"okkopassjdd:wgtgtjkkjA€kb€kb€kb€kb€kb€kb€kb€kb€kb:wgtgtjkkkkkkkkkkkkkkkkkkkkkkkkkkkgtkjjkgtgttggtkoprin€kb€kbddkAi, type(r€kb€kb€kb€kb€kb€kb€kb.du):wi():wddkoprint(r.dump()):wddlllllllc$i€kbr:wgtkkkklllllllllllllllllllkjdjjopri(par.dump())::whhhhhhhhhhhhhhhhceast:wgtjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjgtjjkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjkkkkkkkkkjA.setParseAction(Projection):wgtgtkjlhhhhiion:wkoprint9€kb(t0€kb)::wgtjggtjkkgtjkgtkkjjjhhkkkjhhhhh
-|<hhhhhhhhhhhhhhhhhhhhhhhhhhhhxxxuuuI#tyypyyplhxlllllllllxxxxxllllllllllllllllllllllllllllxxxxxxxxxx:wgtggtgttgtjkjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjkAjjA.par€kb€kb€kbsetParse(Selection):wgtgtjodef Selection(t)kkkjjjA:print(t):wgTgTgtgtjkjkjoreturn (\"Selection\", t):wgt/g€kbtableshhhhhhhhhhhhhlllllllxxxxxlllllllllllllllllllllllllllllxxxxxxxxxx:wg
-|<tjgtjkjllljkjjkjAhhhhhhhhhgtgtgtjkjhhhhci\"Ta€kb€kbFrom;wkkhhhhhhhhhhhhhlct(From:wgtjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk/Selectci)From:wjkjkkkkkkjgtjkgtjkjkkkkI#:wkjgtkjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjkkkkkkgtgtg:wgtgtgtgtgt:wgtgtggt:g:wgtjjkkjjjjkkkkx:wddAi[0]jjjhjAi[0]:wjjjjjkjxluhhd%kkkklllllld%:wgtgtgt:wgt/selectjjjjjjlllllkkkkkA€kb€kb€kb€kb€kb€kbA(jjjjjA€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb.setParseAction(Selec
-|<t):wgtgtGkjodef Select(:wA)€kbt):print(t)oreturn (\"Select\", t):wgtjkkjkkgtgtgtgtgtkhi\"Select:\", Ai, \"\\b€kb€kb€kb€kb€kb:wli, \"\\n\":whkkki, \"\\nukhi\"From:\", lli, \"\\n\":wjkjjjjkkkkjjjoddddkjlkot€kbddddjlkljlAi1€kb[1]:wgtjGgtjGkkkkkkkkkkkkAhhhhhhhhhhi\"Final Dump:\", :wgtjkkjgggtjjkgtkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkGkkkkkkkkkkgtgtjjkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjkiGroupu:wjjjiGroupAhh:wjhhhhhhh
-|<hhhhhhhhhhhhhhhhhhhhhhhhhhh:wgtgtjkkkkjjjjhli::wgtkkjlllll:wgtgtgtkjgtgtjkkgtkjkkkkkjjjkjjgtgTgtggTjgtgtjkoprint(t):wjjjjkkdd:wkkkjjos, p, f, f€kb€kb€kb = t:wkjdddllllllllllllll li len(t),:wkos, p, f, _  €kb= t:whhhhhhhhhhllllllgtgkkjjkgtgtjkkjjljllllllllxxxxxi(s, €kb f€kbp):wkkhhhhxiidsjjAhi, ids:whhhhhhhhxxx:wgtjgtjjkkkkoprin(€kbt(\"AsD€kbList:\", as.€kbt.asList()):wggjjjjjGkkkkkkkkkkkklllllllllllllllllllllllct)lxopprint(A€kb\"A€kb€kbas.a€kbas(
-|<)):wgtkgtjjjjjkkkkklhhhhhhhhhhhhlllllllllllllllllllllli(Ahhhli(€kb).setParseAction(rev€kbmoveNesting):wgtgtgtjkhhhhhhhct)Paranthesis:wgtgtGodef rem(t):open, €kb€kb€kb€kb€kb€kbo€kbpa€kb€kbopen_p€kb€kb€kb€kb€kb€kbopening, e, closing = toreturn e:wgtjjkkjgtgtjkkkgtgtgtjkgtjkkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhllhxxxxxllllllllllllllllllllllllllllllhAhh:wkjjkkkkjjjkkkjjkkkjjjkkkkkkkkkkkkkkkkkjjjjjjjjgtgTjjjjjjjjjjjjkkgtgtjkkkkkkjkjkkkjjjjj
-|<jjjjjjjjjjjjjjjkkkkkkkkkkkkkgtjkjjjjkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjkkhhhhhhhhhi(ju:wjlkkkkkkkjjjgtkgtjkjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkjjjjjjjoprint(t)dd:wfgtjkjjkkkkkkkkkkkkk/Fromhhhhhhhhhhhhhhhhd$:wgjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkjkkkjhhhhhhhhhjkkkkkkkkjofollw€kbowFrom = jjjjjjjhhhhd%kkkkkkkpuAp:wofromPlae€kbce€kb€kb€kb€kb€kbEc€kbtc = fo€kb€kbg.f + f:wklAjjjjjjjVjdkkjof:wA +:wkkkkkkhhhhhhkji(A).set
-|<Par(From):wgtgtjkkgtgtkgtjkkkkkgtkjjjddkkkkp:wjVjkVjkko:wgtgTjgtjjkkkkkkkkkkkkkkkgtjjjjlllxxxxif:wlllcew:wjjlllllllllllllrflllxxxiw:wkkkkkkjkkof, *€kbGkjlllllll:wi[A]:wkkkkkkkkkkkkAsddjAi[1]:wgtjkjjjjjjjjjjjkkkklllllllllkkkkkkkkkkkkkkkjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjA.setParseAction(u:wgtggtjjkkjjGkkkkkkkgtkkkkGkkkkkkkkkkkkkkkGkkkkkkkkkkkkgtgtgtkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkgtjgtjjkgtjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
-|<jjjjjjjjjjjjjjjjjjjjjjggtgtkgtjjkgt/wherenjkjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjkkkkkkkkAhhhhhhhhhhhhhhhhhhhhhhli(A)i.set(re):wkjkj:wkjkjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhkkkkA.setParseu:wkkkkkkkkkkkkkkkkkkkkj/Binar/binarygtgtkkkkkkkkkkkkkkkkkkkkkkkgT/Bgtgt/BinaryjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjkkkjjjjjA.setPar(b€kbBi):wgtjgtjkjjjjjjjjjjgtkjllhhhci)i€kbgtgTkjgtgtgtgt/o€kbOpReod/Binarykkkkkkkkkkkk
-|<kkkkkkkjjA.setParseActin(€kb€kbon(\"Bi€kb€kb€kb€kb€kb€kb€kb€kb€kbBI€kb€kbi€kbBi):wjjjjjjjjjjjjjjjjjjjjjjjkkkkkkiBi€kb€kbOpkuiOp:wjjjjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhjjjkkkhxxxxxxi(A.setParseAction(Where):wgtgt/WhereGkGodef Where(t):se€kb€kbreturn (\"Where\", t):wgtgtgtkkkkkkkkkkkoprint(t):wddhjddkkp:whgtkjujkjjhhhhhhhhhhhhhhhhhhhhhhhhhhhlllhhhhhhhhhhhi(A).set(Wh):whhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxxxxxxxxxxi0€kb):whxhhhhhhhhhhhhhhhxx
-|<xxxx:wjkfgtkjgtjkjjjjjjjjjgkjggOfrom pprint import ppring€kbt:wGkkkkkkkkkkkjlllllllllllllllllllllllllipprintuxhxhxxxxxxxopprint(t):wkkkkkkjllllllhdt)opprint(t):wgjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjgtkjkjgtkkkkkkkkkkkkkkkGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkgtgkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkGkkkkkkkkkkkkkkkjjjjofor t €kb€kbi in t:pprint(i):wijj€kb€kb:wjjjjjjjjjjjjjkkkkkkkkkkkjjhhh
-|<hhhhip, :wjllllllllllllllxxxxis€kbo€kbp, f, w:wkkjkkkkkgtjkGkkkkkkkkkkkkkkkkkkkkkjjjlllllllllllllllllllli, \"\":wgtgtjkjjkkkkkkkkkkkGkkkjjjlkjAip1]]€kb€kb€kb€kb[1]:wgtkjhxxiNone:wgtgtkkkjjgggtjjGkkkkkkgtjkGkkkkkkkkkkkkkkjkI#jI#ji:wggt/printnnI#ji#njjjjI#ji#ji#jjkI#:wjjjkllllllllllllllllllllllhhhxiflllxxxli, p:wgtgtjgtjkkkjgtgtgtjgtjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjA.setPar(agg€kb€kb€kbFunction):wgtgtGodef f€kbF
-|<unction(t):name, arg:wgtgtgtkgtkjjkkjjjjkkjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhlxxxxxxlllllllllllli(A.setp€kbParseAction((€kbre):wgtgtjkjA = t:wdkujddkoddoreturn (F€kb\"Function\", t):wgtkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkgktgtgtjkoprint(t):wjjkgTgtgtk/jkjjjjjjkjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxxxxxxxxxxxxxxxxxxxxxxxxxxxx:wx:wggtgttgtjkgtjGkkkkkkkkkkkkkkkkkk/aggnnjlkll
-|<lllllllliAi€kbuii€kb(A)A.€kb\\€kb.\\setParseAction(Function):wgtgtjgtjkgtgTjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjddkAiaddp€kbParset€kbAction(upcaseTokens):wjjjjjjjjjjjjjjjjgtkgtkkjkjkjgTgTkkkkk/aggrEjjkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjgtgtkkkkkkkkkkkkkkkkkkkkkkkkkkjoprint(t):wdd:wgTjgtgtjjjkjjgtgtjkgTgTjkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkjjjjkkkkkkkkjjjjjjjjjjjkkjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjkkkkkkkkkkkkkkkkkkkkjjjjjjkkhhhhhhhhhhhhh
-|<hhhis€kbA.set(unwrap):wgtgtGodef unwrp€kbap(t)pr€kb€kb:€kb€kb:print(t)return t:wgtjkkjkjgtgtkjkkgtjkA€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb:wjj:wll:wjjjkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkgtgtdG:wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkGuujjjjkkkkkdd:wgtkjkkkkkkkkkkkkkkkkkjjA.setPar(up€kbn):wjjgtgtjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjAip0€kb€kb[0]:wuu:wgtjk
-|<kkA€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb:wGgtgtjkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjkkVjjd:wkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjkoddkoprint(t):wi, e€kblen(t):wdd:wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjkoprint(t):wdd:wGk/Po€kbrjopriddkkor = (\"Pr\", t):woprint(r):wjkkAip0€kb€kb[1€kb0]:wjkxxxA€kb):wjIp:wkjlllllllilen(A):whi[1]:wddkor€kbprint(t, len()€kbt)):wkjkofor xs in t:print €kb(xs):wkVjj
-|<d:wkdd:wgtkkggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkjkkjkkkkgtgtjk/Ideljlllllllllllhct\":w:wkjgtgtjjjkkkkkkkkkkkkkkjjjjjjjjjjjkVjkkkjj:wkkkkkkkVjjkkVjj:s/[ar€kb€kb€kbparsetre€kb€kb€kbTree/ast/g:w:w€ku€kukkkgtgtkgtgtkgtjkkkkkkkkjjjjjjjA.setParseAction(Nest):wgtgtGodef Nest(t)re€kb€kb€kb:return tlokdkoprint(t):wgtkjkhhhhhhhct)False:wjjjjjjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhlxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxiide:wkkkkkkkkkkkkkkj
-|<jjjjjjjhhhhhhhhhxxxxxxxxxxxxxxxllllllllllxxi + lllllhlllhhhvjlllllllllllllllllllllllllllllllllllld:whhhhhhhhhhhhhhhi(A);w:wkkAi + ide:whhhhhhhhhhhhhhhhhhhhuuuuuuuuuuuuuuuuuuuuuuuu:wAu:wjkI#jI#o€kb€kb€kb€kb€kb€kbcolumn = identifier + '€kb'.' =€kb+ id:whhhhhhhhhhhhhhhhhhhhhhhhhhhhidee€kb€kb€kb:wjjjjjkkkkkkjlllllllllllllliOptional(A):wkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj/*nnnjjjjjjjjgtjjjjjjjgttgtjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
-|<kkkkkjjjjjjjjjjjIllllllllgtjjkk:tabnew ../						€kBGkjodef jion€kb€kb€kboin(:wgg:w"
+	kkkkIddkuddkon = 4;:wuuu:wgTkgtgt
+|3,0,20,0,1,0,1508495744,"kkkkIddkuddkon = 4;:wuuu:wgTkgtgt"
+"r	LINE	0
+	|   | 1                  | 2                 | 3                  | 4                  |
+	|   | ----               | ---               | ---                | --                 |
+|3,0,27,1,2,0,1510679265,"|   | 1                  | 2                 | 3                  | 4                  |","|   | ----               | ---               | ---                | --                 |"
+"t	LINE	0
+	                <section data-markdown style="text-align:left">
+	                    <script type="text/template">
+	                    </script>
+	                </section>
+|3,0,29,1,4,0,1510120977,"                <section data-markdown style=\"text-align:left\">","                    <script type=\"text/template\">","                    </script>","                </section>"
 "w	CHAR	0
 	O
 |3,0,32,0,1,0,0,"O"
@@ -316,2523 +327,2781 @@ $rm
 "z	CHAR	0
 	i(thunk lhlt a)
 |3,0,35,0,1,0,1485956367,"i(thunk lhlt a)"
-""-	CHAR	0
-	#
-|3,1,36,0,1,0,1505366833,"#"
+"-	CHAR	0
+	image
+|3,0,36,0,1,0,1510680485,"image"
 
 # File marks:
-'0  8  20  ~/repo/sysadm/slurm/conf.d/slurm.conf
-|4,48,8,20,1505366846,"~/repo/sysadm/slurm/conf.d/slurm.conf"
-'1  1  0  ~/repo/sysadm/playbooks/atom_slave_setup.yml
-|4,49,1,0,1505366826,"~/repo/sysadm/playbooks/atom_slave_setup.yml"
-'2  1  0  ~/repo/sysadm/playbooks/atom_setup.yml
-|4,50,1,0,1505366679,"~/repo/sysadm/playbooks/atom_setup.yml"
-'3  50  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,51,50,1,1505366671,"~/repo/sysadm/playbooks/cosmos_setup.yml"
-'4  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,52,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
-'5  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,53,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
-'6  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,54,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
-'7  1  0  post/2017-08-26-mt-space.markdown
-|4,55,1,0,1505200990,"post/2017-08-26-mt-space.markdown"
-'8  1  14  ~/repo/log/xvfb-install.yml
-|4,56,1,14,1505134662,"~/repo/log/xvfb-install.yml"
-'9  1  0  ~/repo/log/xvfb-install.
-|4,57,1,0,1505134657,"~/repo/log/xvfb-install."
+'0  31  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,48,31,0,1510680932,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+'1  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,49,1,0,1510680715,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+'2  1  0  ~/college/m17/topics-ml/hw/3-gridworld/README.md
+|4,50,1,0,1510680706,"~/college/m17/topics-ml/hw/3-gridworld/README.md"
+'3  1  0  ~/college/m17/topics-ml/hw/3-gridworld/postproc.py
+|4,51,1,0,1510680704,"~/college/m17/topics-ml/hw/3-gridworld/postproc.py"
+'4  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,52,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+'5  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,53,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+'6  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,54,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+'7  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,55,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+'8  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,56,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+'9  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,57,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
 
 # Jumplist (newest first):
--'  8  20  ~/repo/sysadm/slurm/conf.d/slurm.conf
-|4,39,8,20,1505366846,"~/repo/sysadm/slurm/conf.d/slurm.conf"
--'  1  0  ~/repo/sysadm/slurm/conf.d/slurm.conf
-|4,39,1,0,1505366832,"~/repo/sysadm/slurm/conf.d/slurm.conf"
--'  1  0  ~/repo/sysadm/playbooks/atom_slave_setup.yml
-|4,39,1,0,1505366826,"~/repo/sysadm/playbooks/atom_slave_setup.yml"
--'  1  0  ~/repo/sysadm/playbooks/atom_slave_setup.yml
-|4,39,1,0,1505366826,"~/repo/sysadm/playbooks/atom_slave_setup.yml"
--'  1  0  ~/repo/sysadm/playbooks/atom_setup.yml
-|4,39,1,0,1505366679,"~/repo/sysadm/playbooks/atom_setup.yml"
--'  1  0  ~/repo/sysadm/playbooks/atom_setup.yml
-|4,39,1,0,1505366679,"~/repo/sysadm/playbooks/atom_setup.yml"
--'  1  0  ~/repo/sysadm/playbooks/atom_setup.yml
-|4,39,1,0,1505366679,"~/repo/sysadm/playbooks/atom_setup.yml"
--'  1  0  ~/repo/sysadm/playbooks/atom_setup.yml
-|4,39,1,0,1505366679,"~/repo/sysadm/playbooks/atom_setup.yml"
--'  50  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,50,1,1505366671,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  50  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,50,1,1505366671,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  50  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,50,1,1505366671,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  50  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,50,1,1505366671,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  50  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,50,1,1505366671,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  50  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,50,1,1505366671,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  50  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,50,1,1505366671,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  50  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,50,1,1505366671,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,1,0,1505366666,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,1,0,1505366666,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,1,0,1505366666,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,1,0,1505366666,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,1,0,1505366666,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,1,0,1505366666,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,1,0,1505366666,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,1,0,1505366666,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  53  1  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,53,1,1505366664,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,1,0,1505366662,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,1,0,1505366662,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,1,0,1505366662,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,1,0,1505366662,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,1,0,1505366662,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,1,0,1505366662,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,1,0,1505366662,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  1  0  ~/repo/sysadm/playbooks/cosmos_setup.yml
-|4,39,1,0,1505366662,"~/repo/sysadm/playbooks/cosmos_setup.yml"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  25  0  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,25,0,1505217255,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
--'  20  53  ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-|4,39,20,53,1505201196,"~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown"
+-'  31  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,31,0,1510680932,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  134  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,134,0,1510680727,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  11  2  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,11,2,1510680720,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,1,0,1510680715,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/README.md
+|4,39,1,0,1510680706,"~/college/m17/topics-ml/hw/3-gridworld/README.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/README.md
+|4,39,1,0,1510680706,"~/college/m17/topics-ml/hw/3-gridworld/README.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/postproc.py
+|4,39,1,0,1510680704,"~/college/m17/topics-ml/hw/3-gridworld/postproc.py"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/postproc.py
+|4,39,1,0,1510680704,"~/college/m17/topics-ml/hw/3-gridworld/postproc.py"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/postproc.py
+|4,39,1,0,1510680704,"~/college/m17/topics-ml/hw/3-gridworld/postproc.py"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/postproc.py
+|4,39,1,0,1510680704,"~/college/m17/topics-ml/hw/3-gridworld/postproc.py"
+-'  13  9  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,13,9,1510680488,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,1,0,1510680480,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,1,0,1510680433,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,1,0,1510680433,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,1,0,1510680433,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,1,0,1510680433,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,1,0,1510680404,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,1,0,1510680404,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,1,0,1510680404,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,1,0,1510680404,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  16  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,16,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  14  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,14,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  16  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,16,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  14  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,14,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  16  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,16,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  14  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,14,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  14  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,14,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  16  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,16,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  14  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,14,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  14  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,14,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  16  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,16,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  14  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,14,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  14  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,14,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  16  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,16,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  14  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,14,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  14  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,14,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  133  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,133,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  131  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,131,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  125  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,125,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  123  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,123,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  125  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,125,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  123  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,123,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  123  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,123,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  125  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,125,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  123  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,123,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  123  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,123,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  125  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,125,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  123  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,123,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  123  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,123,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  125  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,125,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  123  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,123,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  123  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,123,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  29  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,29,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  23  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,23,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  21  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,21,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  23  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,23,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  21  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,21,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  21  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,21,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  23  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,23,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  21  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,21,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  21  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,21,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  23  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,23,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  21  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,21,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  21  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,21,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  23  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,23,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  21  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,21,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  21  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,21,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  132  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,132,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  130  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,130,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  124  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,124,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  122  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,122,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  124  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,124,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  122  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,122,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  122  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,122,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,1,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  124  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,124,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  122  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,122,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  122  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,122,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,1,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  124  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,124,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  122  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,122,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  122  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,122,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
 
 # History of marks within files (newest to oldest):
 
-> ~/repo/sysadm/slurm/conf.d/slurm.conf
-	*	1505366844	0
-	"	8	20
-	^	8	21
-	.	8	20
-	+	7	0
-	+	8	0
-	+	7	21
-	+	8	20
-
-> ~/repo/sysadm/playbooks/atom_slave_setup.yml
-	*	1505366826	0
-	"	1	0
-
-> ~/repo/sysadm/playbooks/atom_setup.yml
-	*	1505366679	0
-	"	1	0
-
-> ~/repo/sysadm/playbooks/cosmos_setup.yml
-	*	1505366670	0
-	"	50	1
-
-> ~/cvit/honours-super/journal/posts/2017-08-26-mt-space.markdown
-	*	1505201336	0
-	"	25	0
-	^	17	60
-	.	17	59
-	+	41	0
-	+	42	0
-	+	41	41
-	+	41	0
-	+	41	35
-	+	41	36
-	+	41	0
-	+	41	69
-	+	41	18
-	+	41	38
-	+	41	4
-	+	41	0
-	+	41	29
-	+	41	0
-	+	28	71
-	+	29	66
-	+	26	15
-	+	30	15
-	+	31	15
-	+	35	7
-	+	41	7
-	+	40	0
-	+	35	16
-	+	31	21
-	+	35	17
-	+	30	7
-	+	35	7
-	+	31	22
-	+	35	0
-	+	32	66
-	+	35	71
-	+	40	0
-	+	35	25
-	+	39	5
-	+	35	0
-	+	36	0
-	+	34	59
-	+	33	40
-	+	33	71
-	+	35	0
-	+	37	33
-	+	41	0
-	+	40	0
-	+	38	16
-	+	37	45
-	+	139	2
-	+	138	0
-	+	139	57
-	+	140	74
-	+	83	0
-	+	81	179
-	+	81	91
-	+	84	0
-	+	103	41
-	+	113	0
-	+	129	0
-	+	128	0
-	+	113	0
-	+	131	0
-	+	85	51
-	+	84	62
-	+	85	53
-	+	81	147
-	+	82	1
-	+	134	0
-	+	11	22
-	+	23	0
-	+	15	12
-	+	13	15
-	+	19	46
-	+	18	101
-	+	18	102
-	+	18	134
-	+	18	61
-	+	23	0
-	+	20	91
-	+	20	127
-	+	20	9
-	+	20	7
-	+	18	134
-	+	18	137
-	+	20	63
-	+	20	73
-	+	23	0
-	+	20	72
-	+	22	3
-	+	20	0
-	+	21	33
-	+	20	118
-	+	18	114
-	+	20	0
-	+	18	67
-	+	18	72
-	+	20	119
-	+	22	0
-	+	19	0
-	+	18	78
-	+	21	0
-	+	17	59
-
-> post/2017-08-26-mt-space.markdown
-	*	1505200990	0
-	"	1	0
-
-> ~/repo/log/xvfb-install.yml
-	*	1505134662	0
-	"	1	14
-	^	1	15
-	.	1	14
-	+	7	48
-	+	10	0
-	+	9	0
-	+	10	13
-	+	1	14
-
-> ~/repo/log/xvfb-install.
-	*	1505134657	0
-	"	1	0
-
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/out
-	*	1504933830	0
-	"	1	0
-
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/cleanup.cpp
-	*	1504933799	0
-	"	7	18
-	^	7	19
-	.	7	18
-	+	4	33
-	+	14	0
-	+	5	25
-	+	7	23
-	+	12	0
-	+	8	44
-	+	11	37
-	+	13	12
-	+	11	15
-	+	8	0
-	+	10	33
-	+	11	9
-	+	10	41
-	+	11	30
-	+	7	32
-	+	9	21
-	+	10	0
-	+	9	17
-	+	6	7
-	+	7	18
-
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/script.sh
-	*	1504933735	0
-	"	20428698	0
-
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/files.list
-	*	1504931644	0
-	"	4993362	0
-	.	1	0
-	+	1	0
-
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/file.list
-	*	1504931550	0
-	"	1	0
-
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/files.list
-	*	1504931546	0
-	"	1	0
-
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/x
-	*	1504929996	0
-	"	1	0
-
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/Makefile
-	*	1504887659	0
-	"	6	40
-	^	6	41
-	.	6	40
-	+	3	11
-	+	6	25
-	+	11	13
-	+	3	19
-	+	9	10
-	+	10	0
-	+	3	22
-	+	9	45
-	+	6	36
-	+	5	9
-	+	2	26
-	+	3	8
-	+	6	40
-	+	9	49
-	+	6	43
-	+	9	52
-	+	6	40
-
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/dtype.h
-	*	1504887527	0
-	"	16	0
-	^	56	29
-	.	56	28
-	+	31	0
-	+	27	0
-	+	29	56
-	+	31	0
-	+	29	0
-	+	26	0
-	+	29	56
-	+	31	0
-	+	34	22
-	+	33	33
-	+	15	35
-	+	29	24
-	+	28	55
-	+	29	37
-	+	28	0
-	+	16	36
-	+	28	55
-	+	26	32
-	+	28	0
-	+	30	0
-	+	26	0
-	+	63	0
-	+	42	0
-	+	63	0
-	+	43	0
-	+	43	13
-	+	43	31
-	+	43	0
-	+	63	47
-	+	43	0
-	+	63	0
-	+	43	0
-	+	50	0
-	+	1	0
-	+	63	0
-	+	42	30
-	+	42	0
-	+	42	1
-	+	42	10
-	+	42	0
-	+	63	49
-	+	42	5
-	+	42	12
-	+	42	27
-	+	42	4
-	+	42	29
-	+	42	0
-	+	63	0
-	+	42	0
-	+	56	0
-	+	42	0
-	+	63	41
-	+	92	13
-	+	94	0
-	+	93	16
-	+	84	15
-	+	86	0
-	+	85	24
-	+	69	27
-	+	69	0
-	+	66	19
-	+	68	0
-	+	67	23
-	+	66	6
-	+	72	21
-	+	74	26
-	+	74	0
-	+	75	0
-	+	77	21
-	+	76	28
-	+	77	30
-	+	76	33
-	+	72	15
-	+	67	49
-	+	67	51
-	+	77	29
-	+	78	31
-	+	79	21
-	+	78	0
-	+	67	9
-	+	78	0
-	+	67	8
-	+	67	9
-	+	67	0
-	+	88	12
-	+	90	0
-	+	89	18
-	+	88	8
-	+	1	14
-	+	1	0
-	+	2	0
-	+	55	31
-	+	57	23
-	+	55	36
-	+	57	33
-	+	60	0
-	+	58	36
-	+	59	42
-	+	61	23
-	+	56	28
-
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/main.cpp
-	*	1504887402	0
-	"	58	8
-	^	32	28
-	.	57	0
-	+	28	33
-	+	58	22
-	+	57	26
-	+	58	29
-	+	61	8
-	+	60	0
-	+	62	20
-	+	59	45
-	+	60	0
-	+	58	17
-	+	60	51
-	+	13	29
-	+	15	0
-	+	24	30
-	+	27	0
-	+	28	0
-	+	22	21
-	+	26	23
-	+	26	0
-	+	23	14
-	+	25	29
-	+	26	40
-	+	32	27
-	+	57	0
-
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/bio.cpp
-	*	1504886733	0
-	"	2	14
-	^	2	15
-	.	2	14
-	+	71	15
-	+	70	22
-	+	61	35
-	+	72	28
-	+	73	11
-	+	74	17
-	+	6	20
-	+	6	46
-	+	6	33
-	+	6	0
-	+	6	13
-	+	6	0
-	+	6	12
-	+	6	16
-	+	6	0
-	+	6	37
-	+	6	0
-	+	50	32
+> ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+	*	1510680932	0
+	"	31	0
+	^	26	38
+	.	25	74
+	+	35	2
+	+	51	3
+	+	70	3
 	+	69	16
 	+	69	0
-	+	19	17
-	+	6	0
-	+	16	12
-	+	19	17
-	+	21	17
-	+	47	0
-	+	83	20
+	+	71	0
 	+	85	0
-	+	84	16
-	+	84	28
-	+	84	16
-	+	68	15
-	+	6	14
-	+	6	0
-	+	6	1
-	+	6	0
-	+	6	15
-	+	6	0
-	+	6	17
-	+	6	0
-	+	6	21
-	+	6	13
-	+	6	29
-	+	6	0
-	+	6	32
-	+	6	0
-	+	6	11
-	+	6	40
-	+	6	12
-	+	6	18
-	+	6	20
-	+	6	31
-	+	6	17
-	+	6	42
-	+	6	44
-	+	6	23
-	+	6	0
-	+	6	18
-	+	6	10
-	+	6	19
-	+	6	35
-	+	6	0
-	+	6	21
-	+	6	0
-	+	6	20
-	+	6	21
-	+	68	0
-	+	67	13
-	+	66	27
-	+	67	19
-	+	79	27
-	+	6	0
-	+	6	17
-	+	6	0
-	+	6	19
-	+	81	0
-	+	82	21
-	+	19	17
-	+	15	5
-	+	79	0
-	+	38	26
-	+	40	0
-	+	39	52
-	+	6	0
-	+	4	0
-	+	4	20
-	+	1	0
-	+	4	0
-	+	4	17
-	+	3	0
-	+	2	14
-
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/io.h
-	*	1504886717	0
-	"	2	17
-	^	2	18
-	.	2	17
-	+	5	0
-	+	4	17
-	+	4	14
-	+	4	0
-	+	1	11
-	+	3	20
-	+	1	0
-	+	3	19
-	+	3	0
-	+	1	0
-	+	3	0
-	+	2	17
-
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/bufio.h
-	*	1504886703	0
-	"	2	17
-	^	2	18
-	.	2	17
-	+	5	0
-	+	5	17
-	+	1	0
-	+	5	0
-	+	5	14
-	+	5	5
-	+	5	14
-	+	42	0
-	+	43	49
-	+	19	13
-	+	21	33
-	+	39	26
-	+	30	40
-	+	30	0
-	+	24	64
-	+	31	37
-	+	32	61
-	+	24	13
-	+	43	13
-	+	30	21
-	+	31	21
-	+	24	12
-	+	43	12
-	+	24	0
-	+	43	67
-	+	37	48
-	+	39	0
-	+	37	0
-	+	44	21
-	+	30	20
-	+	31	20
+	+	86	2
+	+	102	7
+	+	103	1
+	+	119	0
+	+	118	0
+	+	120	0
+	+	126	0
+	+	127	0
 	+	44	0
-	+	29	21
-	+	30	21
-	+	31	21
-	+	29	20
-	+	43	13
-	+	5	0
-	+	5	20
-	+	5	0
-	+	1	0
-	+	4	0
-	+	3	19
-	+	1	14
-	+	1	0
-	+	3	0
-	+	2	17
-	m	36	29
-
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/includes.h
-	*	1504886670	0
-	"	1	0
-	^	17	2
-	.	17	1
-	+	4	0
-	+	4	17
-	+	5	5
+	+	44	1
+	+	44	2
+	+	44	1
+	+	44	3
+	+	44	0
+	+	69	0
+	+	44	2
+	+	69	0
+	+	85	0
+	+	101	0
+	+	118	0
+	+	134	0
+	+	118	0
+	+	101	0
+	+	85	0
+	+	69	0
+	+	44	0
+	+	62	0
+	+	69	0
+	+	79	0
+	+	85	0
+	+	95	0
+	+	101	0
+	+	112	0
+	+	118	0
+	+	128	0
+	+	134	0
+	+	133	0
+	+	117	0
+	+	100	0
+	+	84	0
+	+	67	0
+	+	49	0
+	+	45	38
+	+	62	0
+	+	63	0
+	+	80	0
+	+	96	0
+	+	113	0
+	+	129	0
+	+	53	0
+	+	53	16
+	+	62	5
+	+	60	0
+	+	62	0
+	+	69	0
+	+	68	0
+	+	36	0
+	+	44	0
+	+	35	0
+	+	53	0
+	+	62	0
+	+	32	0
+	+	32	10
+	+	42	0
+	+	37	3
+	+	37	0
+	+	61	0
+	+	62	0
+	+	69	0
+	+	30	57
+	+	126	0
+	+	30	2
+	+	31	66
+	+	11	25
+	+	18	0
+	+	11	25
+	+	13	29
+	+	17	0
+	+	15	1
+	+	14	0
+	+	15	15
+	+	17	18
+	+	16	0
+	+	13	30
+	+	17	23
+	+	13	0
+	+	9	74
+	+	13	0
+	+	135	0
 	+	6	0
-	+	7	12
-	+	8	14
-	+	9	14
-	+	4	17
-	+	9	9
-	+	16	5
-	+	22	5
-	+	12	1
-	+	17	1
+	+	20	34
+	+	22	79
+	+	25	74
 
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/parser.cpp
-	*	1504886650	0
-	"	2	0
-	.	4	0
+> ~/college/m17/topics-ml/hw/3-gridworld/README.md
+	*	1510680705	0
+	"	1	0
+	^	11	49
+	.	11	48
+	+	1	8
+	+	6	9
 	+	5	0
-	+	4	0
+	+	8	2
+	+	7	31
+	+	8	0
+	+	10	35
+	+	11	48
 
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/io.cpp
-	*	1504886648	0
+> ~/college/m17/topics-ml/hw/3-gridworld/postproc.py
+	*	1510680703	0
+	"	1	0
+	^	66	19
+	.	66	18
+	+	31	0
+	+	30	7
+	+	27	0
+	+	25	0
+	+	26	0
+	+	24	4
+	+	25	36
+	+	24	11
+	+	29	0
+	+	28	7
+	+	29	0
+	+	29	35
+	+	30	63
+	+	27	19
+	+	17	29
+	+	21	0
+	+	20	0
+	+	18	0
+	+	19	12
+	+	30	29
+	+	35	0
+	+	34	0
+	+	37	21
+	+	49	18
+	+	62	0
+	+	5	12
+	+	62	0
+	+	62	20
+	+	62	12
+	+	50	4
+	+	62	0
+	+	50	51
+	+	62	0
+	+	54	12
+	+	62	16
+	+	62	0
+	+	53	33
+	+	54	0
+	+	62	0
+	+	54	30
+	+	53	25
+	+	62	0
+	+	55	25
+	+	62	0
+	+	58	25
+	+	59	24
+	+	42	11
+	+	47	8
+	+	47	0
+	+	44	10
+	+	43	8
+	+	44	17
+	+	46	15
+	+	60	30
+	+	42	6
+	+	60	39
+	+	61	18
+	+	54	9
+	+	61	0
+	+	60	0
+	+	45	13
+	+	46	14
+	+	43	13
+	+	44	14
+	+	45	13
+	+	46	14
+	+	43	13
+	+	44	14
+	+	45	13
+	+	46	14
+	+	56	23
+	+	57	27
+	+	45	13
+	+	46	14
+	+	44	14
+	+	43	13
+	+	19	12
+	+	63	0
+	+	51	50
+	+	52	0
+	+	63	14
+	+	64	8
+	+	72	26
+	+	70	0
+	+	72	34
+	+	72	0
+	+	68	18
+	+	71	30
+	+	72	57
+	+	67	0
+	+	69	0
+	+	67	0
+	+	68	0
+	+	72	71
+	+	67	0
+	+	66	0
+	+	67	0
+	+	66	69
+	+	72	22
+	+	66	18
+
+> ~/college/m17/topics-ml/hw/3-gridworld/Report.
+	*	1510680098	0
 	"	1	0
 
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/parser.h
-	*	1504886575	0
-	"	1	0
-	.	4	0
+> ~/college/m17/topics-ml/hw/3-gridworld/out
+	*	1510679774	0
+	"	51	0
+	.	52	0
+	+	18	0
+	+	46	0
+	+	52	0
+
+> ~/college/m17/topics-ml/hw/3-gridworld/main.py
+	*	1510678348	0
+	"	70	14
+	^	70	4
+	.	71	14
+	+	56	38
+	+	56	0
+	+	33	0
+	+	59	0
+	+	58	23
+	+	57	56
+	+	58	40
+	+	49	0
+	+	49	24
+	+	32	0
+	+	49	36
+	+	49	0
+	+	38	0
+	+	25	0
+	+	34	0
+	+	36	0
+	+	35	0
+	+	43	28
+	+	42	0
+	+	49	18
+	+	37	0
+	+	52	30
+	+	57	82
+	+	53	17
+	+	54	26
+	+	56	0
+	+	52	0
+	+	48	38
+	+	51	24
+	+	59	14
+	+	51	37
+	+	19	0
+	+	23	14
+	+	41	0
+	+	43	0
+	+	41	0
+	+	41	31
+	+	42	0
+	+	40	0
+	+	41	31
+	+	41	35
+	+	42	43
+	+	40	28
+	+	41	0
+	+	39	0
+	+	52	0
+	+	55	0
+	+	52	0
+	+	50	0
+	+	48	12
+	+	51	12
+	+	52	8
+	+	55	8
+	+	59	0
+	+	19	0
+	+	23	0
+	+	57	22
+	+	58	18
+	+	58	49
+	+	58	36
+	+	58	0
+	+	19	0
+	+	58	0
+	+	19	0
+	+	58	0
+	+	19	0
+	+	20	0
+	+	19	0
+	+	21	13
+	+	7	9
+	+	21	38
+	+	22	18
+	+	45	32
+	+	41	0
+	+	45	0
+	+	41	0
+	+	44	39
+	+	45	0
+	+	46	0
+	+	41	35
+	+	61	0
+	+	60	0
+	+	58	0
+	+	57	13
+	+	58	13
+	+	66	13
+	+	64	31
+	+	10	10
+	+	67	44
+	+	65	46
+	+	66	19
+	+	67	33
+	+	10	0
+	+	9	12
+	+	67	38
+	+	66	24
+	+	46	43
+	+	69	29
+	+	70	4
+	+	71	14
+
+> ~/college/m17/topics-ml/hw/3-gridworld/expected_sarsa.py
+	*	1510678307	0
+	"	74	11
+	^	38	23
+	.	74	0
+	+	7	11
+	+	41	21
+	+	63	0
+	+	41	0
+	+	19	0
+	+	41	64
+	+	59	45
+	+	59	57
+	+	69	0
+	+	12	18
+	+	69	34
+	+	11	21
+	+	45	0
+	+	44	0
+	+	41	55
+	+	5	19
+	+	6	0
+	+	3	36
+	+	5	0
+	+	41	51
+	+	61	0
+	+	60	25
+	+	42	15
+	+	43	29
+	+	42	19
+	+	60	0
+	+	60	19
+	+	59	0
+	+	60	0
+	+	60	19
+	+	14	17
+	+	41	0
+	+	59	26
+	+	59	0
+	+	41	0
+	+	47	20
+	+	47	14
+	+	47	20
+	+	47	23
+	+	47	0
+	+	58	0
+	+	53	44
+	+	58	0
+	+	58	20
+	+	58	0
+	+	54	32
+	+	55	52
+	+	58	0
+	+	56	31
+	+	48	0
+	+	58	0
+	+	60	0
+	+	12	19
+	+	58	22
+	+	59	19
+	+	59	0
+	+	59	33
+	+	58	33
+	+	59	0
+	+	22	0
+	+	73	0
+	+	62	0
+	+	73	0
+	+	4	28
+	+	57	0
+	+	53	38
+	+	53	0
+	+	53	50
+	+	53	0
+	+	49	0
+	+	51	0
+	+	32	15
+	+	40	0
+	+	33	0
+	+	40	0
+	+	34	0
+	+	40	0
+	+	37	0
+	+	38	13
+	+	35	17
+	+	38	18
+	+	35	8
+	+	38	0
+	+	36	20
+	+	38	31
+	+	40	15
+	+	39	0
+	+	74	0
+
+> ~/college/m17/topics-ml/hw/3-gridworld/sarsa.py
+	*	1510678305	0
+	"	56	5
+	^	56	6
+	.	56	0
+	+	57	34
+	+	57	21
+	+	57	29
+	+	61	31
+	+	57	29
+	+	61	65
+	+	57	51
+	+	61	0
+	+	57	8
+	+	57	4
+	+	57	12
+	+	57	44
+	+	57	60
+	+	61	8
+	+	61	25
+	+	63	0
+	+	61	0
+	+	57	16
+	+	61	0
+	+	57	51
+	+	60	24
+	+	60	14
+	+	60	0
+	+	57	57
+	+	60	0
+	+	57	0
+	+	60	0
+	+	57	42
+	+	57	36
+	+	57	56
+	+	61	0
+	+	57	25
+	+	60	0
+	+	57	24
+	+	60	0
+	+	57	14
+	+	57	16
+	+	57	0
+	+	57	21
+	+	57	0
+	+	57	23
+	+	57	0
 	+	1	0
-	+	4	0
+	+	57	21
+	+	57	14
+	+	57	0
+	+	10	13
+	+	36	0
+	+	11	13
+	+	62	7
+	+	47	0
+	+	36	25
+	+	37	0
+	+	44	65
+	+	48	57
+	+	57	36
+	+	58	0
+	+	59	0
+	+	59	16
+	+	48	39
+	+	47	32
+	+	48	45
+	+	57	0
+	+	59	0
+	+	45	15
+	+	49	43
+	+	45	0
+	+	57	0
+	+	36	28
+	+	6	0
+	+	3	12
+	+	36	34
+	+	36	32
+	+	42	0
+	+	40	9
+	+	15	0
+	+	43	18
+	+	54	0
+	+	5	26
+	+	54	0
+	+	51	20
+	+	52	56
+	+	53	24
+	+	54	0
+	+	51	32
+	+	52	60
+	+	12	19
+	+	53	34
+	+	11	21
+	+	2	0
+	+	18	0
+	+	17	0
+	+	55	0
+	+	4	28
+	+	45	0
+	+	16	0
+	+	28	0
+	+	27	0
+	+	55	0
+	+	56	0
 
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/output.txt
-	*	1504885587	0
+> ~/college/m17/topics-ml/hw/3-gridworld/qlearn.py
+	*	1510678303	0
+	"	62	4
+	^	27	0
+	.	62	0
+	+	1	0
+	+	41	8
+	+	47	60
+	+	42	23
+	+	13	23
+	+	42	15
+	+	40	0
+	+	43	18
+	+	6	9
+	+	47	62
+	+	11	0
+	+	53	0
+	+	3	26
+	+	10	18
+	+	56	34
+	+	52	9
+	+	38	15
+	+	39	29
+	+	38	16
+	+	46	16
+	+	46	0
+	+	51	0
+	+	16	0
+	+	37	0
+	+	46	36
+	+	51	0
+	+	16	0
+	+	50	0
+	+	45	0
+	+	44	0
+	+	47	0
+	+	46	37
+	+	47	0
+	+	37	0
+	+	20	0
+	+	4	28
+	+	20	24
+	+	19	26
+	+	20	31
+	+	22	23
+	+	24	29
+	+	23	36
+	+	24	40
+	+	36	0
+	+	22	0
+	+	21	18
+	+	25	20
+	+	26	16
+	+	61	0
+	+	1	0
+	+	28	0
+	+	27	0
+	+	62	0
+
+> ~/college/m17/topics-ml/hw/3-gridworld/exp
+	*	1510677221	0
 	"	1	0
 
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/gensort-1.5/input2.txt
-	*	1504876695	0
+> ~/college/m17/compilers/project/benchmark.
+	*	1510676024	0
+	"	1	0
+
+> ~/college/m17/compilers/project/test-units/simple/sumN.b
+	*	1510675019	0
+	"	1	0
+	^	13	14
+	.	13	13
+	+	7	13
+	+	13	13
+	+	7	14
+	+	13	14
+	+	17	24
+	+	7	13
+	+	13	13
+
+> ~/college/m17/compilers/project/test-units/simple/sumN-goto.b
+	*	1510675011	0
+	"	22	0
+	^	20	8
+	.	20	7
+	+	20	7
+
+> ~/college/m17/compilers/project/test-units/non-trivial/matmul_5.b
+	*	1510674979	0
+	"	8	11
+	^	8	12
+	.	8	11
+	+	8	11
+
+> ~/college/m17/compilers/project/test-units/non-trivial/matmul_250.b
+	*	1510674862	0
+	"	1	0
+	^	8	11
+	.	8	10
+	+	2	0
+	+	8	10
+
+> ~/college/m17/compilers/project/test-units/non-trivial/matmul_125.b
+	*	1510674857	0
+	"	5	0
+
+> ~/college/m17/compilers/project/test-units/non-trivial/fibonnacci.b
+	*	1510674815	0
+	"	1	0
+	^	14	15
+	.	14	14
+	+	1	11
+	+	2	4
+	+	4	0
+	+	6	11
+	+	17	4
+	+	18	0
+	+	2	0
+	+	3	9
+	+	7	13
+	+	10	20
+	+	15	8
+	+	16	0
+	+	15	0
+	+	11	11
+	+	7	4
+	+	3	11
+	+	9	8
+	+	8	0
+	+	9	9
+	+	13	17
+	+	14	14
+
+> ~/college/m17/compilers/project/test-units/non-trivial/99-bottles.b
+	*	1510674814	0
+	"	2	0
+
+> ~/college/m17/compilers/project/test-units/non-trivial/bubblesort.b
+	*	1510674814	0
+	"	1	0
+	^	4	10
+	.	4	9
+	+	9	0
+	+	4	8
+	+	8	14
+	+	9	0
+	+	4	9
+
+> ~/college/m17/compilers/project/test-units/non-trivial/reversal.b
+	*	1510674810	0
+	"	1	0
+	^	8	12
+	.	8	11
+	+	9	0
+	+	8	11
+
+> ~/college/m17/topics-ml/hw/3-gridworld/qlearn-0.05.policy
+	*	1510672858	0
+	"	1	0
+
+> ~/college/m17/topics-ml/hw/3-gridworld/qlearn
+	*	1510672838	0
+	"	1	0
+
+> ~/college/m17/topics-ml/hw/3-gridworld/utils.py
+	*	1510668426	0
+	"	20	0
+	.	21	0
+	+	4	24
+	+	6	28
+	+	7	22
+	+	11	0
+	+	7	0
+	+	11	4
+	+	8	6
+	+	3	24
+	+	9	35
+	+	11	0
+	+	10	14
+	+	8	22
+	+	3	0
+	+	1	12
+	+	8	0
+	+	2	19
+	+	18	22
+	+	17	0
+	+	16	0
+	+	18	0
+	+	16	14
+	+	19	13
+	+	14	13
+	+	19	0
+	+	21	16
+	+	21	6
+	+	3	25
+	+	21	19
+	+	21	0
+
+> ~/college/m17/topics-ml/hw/3-gridworld/exps/qlearn-0.2.csv
+	*	1510668235	0
+	"	138	52
+	^	1	56
+	.	1	55
+	+	10001	0
+	+	1	55
+
+> ~/college/m17/topics-ml/hw/3-gridworld/gridworld.py
+	*	1510662962	0
+	"	10	0
+	.	47	0
+	+	29	32
+	+	30	29
+	+	31	27
+	+	32	0
+	+	18	24
+	+	19	0
+	+	18	18
+	+	17	0
+	+	31	27
+	+	42	15
+	+	47	15
+	+	42	0
+	+	39	32
+	+	40	36
+	+	47	0
+	+	43	25
+	+	44	0
+	+	43	29
+	+	44	29
+	+	45	20
+	+	46	20
+	+	40	17
+	+	42	0
+	+	41	37
+	+	50	0
+	+	47	20
+	+	48	20
+	+	47	0
+
+> ~/college/m17/topics-ml/hw/3-gridworld/agent.py
+	*	1510660467	0
+	"	1	0
+	^	29	25
+	.	29	24
+	+	36	33
+	+	26	0
+	+	25	0
+	+	26	18
+	+	32	35
+	+	36	17
+	+	24	0
+	+	32	42
+	+	8	25
+	+	12	0
+	+	16	34
+	+	17	0
+	+	32	51
+	+	36	0
+	+	14	21
+	+	15	37
+	+	16	0
+	+	14	19
+	+	13	26
+	+	32	45
+	+	32	0
+	+	30	23
+	+	29	24
+
+> ~/college/m17/topics-ml/hw/3-gridworld/qlearn-0.2.csv
+	*	1510656122	0
 	"	10000	0
 
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/1.imd
-	*	1504874980	0
-	"	1	0
-	^	1	98
-	.	1	96
-	+	1	96
+> ~/college/m17/topics-ml/hw/3-gridworld/qlearn-0.05.csv
+	*	1510656067	0
+	"	9995	0
 
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/input.txt
-	*	1504873545	0
-	"	1	0
-	^	2	98
-	.	1	98
-	+	1	98
-
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/10.imd
-	*	1504790688	0
-	"	2	7
-
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/11.imd
-	*	1504790682	0
+> ~/college/m17/topics-ml/hw/3-gridworld/es
+	*	1510655116	0
 	"	1	0
 
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/3.imd
-	*	1504790524	0
-	"	4	99
-
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/2.imd
-	*	1504790522	0
-	"	4	99
-
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/1.intermediate
-	*	1504789673	0
+> ~/college/m17/topics-ml/hw/3-gridworld/al
+	*	1510644552	0
 	"	1	0
 
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/Code/meta.txt
-	*	1504788224	0
+> ~/college/m17/topics-ml/hw/3-gridworld/gui.py
+	*	1510640950	0
 	"	1	0
-	^	3	3
-	.	3	2
-	+	1	2
-	+	2	2
-	+	1	2
-	+	2	5
-	+	2	0
-	+	3	2
-
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/sandbox/io.cpp
-	*	1504764032	0
-	"	39	18
-	^	39	21
-	.	39	18
-	+	19	0
-	+	36	0
-	+	23	28
-	+	19	0
-	+	19	15
-	+	36	0
-	+	25	28
-	+	21	17
-	+	27	18
-	+	19	49
-	+	27	0
-	+	36	0
-	+	19	0
-	+	7	23
-	+	7	0
-	+	8	0
-	+	7	34
-	+	19	0
-	+	9	12
-	+	19	0
-	+	13	27
-	+	16	0
-	+	13	0
-	+	12	31
-	+	7	0
-	+	12	28
-	+	16	0
-	+	13	18
-	+	16	0
-	+	15	47
-	+	16	15
-	+	19	12
-	+	16	0
-	+	15	0
-	+	30	24
-	+	35	0
-	+	30	56
-	+	36	0
-	+	30	56
-	+	35	22
-	+	19	0
-	+	30	20
-	+	25	0
-	+	27	0
-	+	25	33
-	+	35	8
-	+	27	0
-	+	25	37
-	+	25	52
-	+	25	0
-	+	27	0
-	+	35	0
-	+	15	0
-	+	30	0
-	+	35	0
-	+	30	19
-	+	19	21
-	+	25	0
-	+	26	32
-	+	32	34
-	+	36	0
-	+	20	32
-	+	35	0
-	+	36	18
-	+	28	27
-	+	33	12
-	+	30	0
-	+	36	0
-	+	35	34
-	+	30	54
-	+	3	0
-	+	1	23
-	+	38	0
-	+	5	0
-	+	2	17
-	+	13	0
-	+	10	0
-	+	11	0
-	+	16	0
-	+	18	11
-	+	35	0
-	+	34	27
-	+	20	5
-	+	2	17
-	+	40	13
-	+	29	50
-	+	37	12
-	+	41	12
-	+	29	41
-	+	31	36
-	+	29	56
-	+	31	42
-	+	25	37
-	+	15	25
-	+	24	26
-	+	25	40
-	+	37	0
-	+	31	17
-	+	29	17
-	+	39	18
-
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/sandbox/input.txt
-	*	1504763996	0
-	"	1	0
-
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/sandbox/dtype.h
-	*	1504763993	0
-	"	1	0
-	^	19	20
-	.	19	19
-	+	36	0
-	+	7	13
-	+	35	0
-	+	35	1
-	+	5	28
-	+	6	0
-	+	8	19
-	+	35	0
-	+	15	25
-	+	17	0
-	+	16	22
-	+	26	58
-	+	34	0
-	+	27	28
-	+	32	0
-	+	28	36
-	+	30	0
-	+	29	35
-	+	31	23
-	+	33	18
+	.	213	0
 	+	4	0
-	+	15	0
-	+	5	25
-	+	8	13
-	+	15	18
-	+	27	20
-	+	28	31
-	+	10	10
-	+	15	0
-	+	16	26
-	+	15	24
-	+	16	24
-	+	9	0
-	+	27	17
-	+	28	21
-	+	8	16
-	+	12	16
-	+	14	0
-	+	13	31
-	+	16	14
-	+	27	17
-	+	28	21
-	+	27	20
-	+	27	12
-	+	27	15
-	+	27	0
-	+	27	26
-	+	27	0
-	+	27	28
-	+	29	34
-	+	31	21
-	+	29	33
-	+	31	20
-	+	29	35
-	+	19	27
-	+	24	0
-	+	23	91
-	+	23	57
-	+	20	47
-	+	22	0
-	+	23	55
-	+	24	0
-	+	23	49
-	+	22	0
-	+	21	38
-	+	22	13
-	+	12	0
-	+	11	0
-	+	20	30
-	+	23	27
-	+	19	19
-
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/sandbox/meta.txt
-	*	1504763482	0
-	"	1	0
-	^	3	2
-	.	3	1
-	+	3	1
-	+	1	1
-	+	2	1
-	+	3	1
-
-> ~/.xmonad/xmonad.hs
-	*	1504529468	0
-	"	54	4
-	^	54	67
-	.	54	66
-	+	11	26
-	+	60	0
-	+	60	88
-	+	54	0
-	+	57	0
-	+	55	47
-	+	54	20
-	+	55	0
-	+	54	27
-	+	55	0
-	+	60	98
-	+	56	48
-	+	54	66
-
-> ~/.xmobarrc
-	*	1504529144	0
-	"	1	0
-
-> ~/cvit/honours-super/journal/posts/2017-09-05-error-distributions.markdown
-	*	1504528642	0
-	"	14	29
-	^	13	46
-	.	13	45
-	+	33	23
-	+	12	30
-	+	13	30
-	+	15	22
-	+	17	24
-	+	16	24
-	+	17	0
-	+	18	0
-	+	12	47
-	+	13	42
-	+	15	0
-	+	15	40
-	+	16	0
-	+	14	41
-	+	16	0
-	+	15	40
-	+	16	39
-	+	17	39
-	+	17	0
-	+	13	45
-
-> ~/.vim/filetype.vim
-	*	1504527562	0
-	"	1	0
-
-> ~/cvit/honours-super/journal/posts/2017-09-01-awesome.markdown
-	*	1504517009	0
-	"	13	1
-	.	16	0
-	+	1	0
-	+	4	12
-	+	2	15
-	+	7	138
-	+	7	38
-	+	10	19
-	+	12	101
-	+	2	7
-	+	13	49
-	+	16	24
-	+	20	0
-	+	16	24
-	+	17	0
-	+	16	0
-
-> ~/cvit/honours-super/journal/posts/2017-08-25-to-learn.md
-	*	1504517008	0
-	"	102	0
-	.	103	0
-	+	22	40
-	+	57	38
-	+	49	0
-	+	51	52
-	+	56	0
-	+	51	14
-	+	56	0
-	+	57	0
-	+	50	17
-	+	51	58
-	+	52	58
-	+	57	0
-	+	49	0
-	+	28	0
-	+	29	19
-	+	47	1
-	+	38	16
-	+	37	16
-	+	36	15
-	+	35	8
-	+	36	8
-	+	35	22
-	+	36	22
-	+	35	16
-	+	36	16
-	+	35	9
-	+	36	9
-	+	37	9
-	+	38	9
-	+	35	10
-	+	36	10
-	+	37	2
-	+	38	10
-	+	34	0
-	+	47	0
-	+	46	0
-	+	47	16
-	+	26	0
-	+	27	0
-	+	49	0
-	+	48	63
-	+	56	15
-	+	54	15
-	+	56	0
-	+	55	25
-	+	12	28
-	+	11	22
-	+	29	11
-	+	33	8
-	+	47	0
-	+	40	59
-	+	47	32
-	+	46	0
-	+	47	33
-	+	47	0
-	+	42	2
-	+	47	0
-	+	88	85
-	+	41	0
-	+	42	66
-	+	44	70
-	+	45	43
-	+	45	4
-	+	44	0
-	+	45	35
-	+	45	34
-	+	46	0
-	+	44	71
-	+	45	9
-	+	26	14
-	+	27	9
-	+	93	0
-	+	92	8
-	+	93	0
-	+	101	51
-	+	100	50
-	+	94	1
-	+	95	13
-	+	95	70
-	+	96	69
-	+	97	72
-	+	98	65
-	+	99	72
-	+	100	66
-	+	96	34
-	+	92	3
-	+	101	54
-	+	58	22
-	+	63	64
-	+	66	41
-	+	67	41
-	+	69	9
-	+	68	40
-	+	69	40
-	+	73	0
-	+	70	0
-	+	72	115
-	+	72	13
-	+	103	0
-	k	45	73
-
-> ~/cvit/honours-super/journal/2017-08-25-to-learn.md
-	*	1504503686	0
-	"	1	0
-
-> ~/cvit/honours-super/journal/js/mathjax-config.js
-	*	1504503681	0
-	"	1	0
-	.	1	0
-	+	1	0
-	+	10	0
-	+	1	22
-	+	1	0
-
-> ~/cvit/honours-super/journal/templates/default.html
-	*	1504503680	0
-	"	17	8
-	.	17	0
-	+	14	34
-	+	15	0
-	+	18	8
-	+	18	0
-	+	18	44
-	+	18	0
-	+	18	39
-	+	18	11
-	+	18	10
-	+	40	0
-	+	18	0
-	+	18	52
-	+	18	30
-	+	18	31
-	+	18	80
-	+	18	15
-	+	18	48
-	+	18	50
-	+	18	36
-	+	18	15
-	+	18	20
-	+	18	21
-	+	18	22
-	+	18	15
-	+	18	0
-	+	16	71
-	+	18	0
-	+	18	81
-	+	18	0
-	+	40	0
-	+	16	81
-	+	40	106
-	+	40	0
-	+	17	0
-
-> ../templates/default.html
-	*	1504502899	0
-	"	1	0
-
-> ~/cvit/honours-super/journal/templates/index-template.html
-	*	1504502726	0
-	"	1	0
-	^	15	36
-	.	15	35
-	+	14	21
-	+	15	35
-
-> ~/sandbox/scratchpad/db-mid.md
-	*	1504463738	0
-	"	260	0
-	^	249	43
-	.	249	41
-	+	102	0
-	+	84	138
-	+	91	10
-	+	84	118
-	+	84	51
-	+	84	125
-	+	84	11
-	+	84	125
-	+	84	13
-	+	84	181
-	+	89	170
-	+	84	182
-	+	84	246
-	+	84	14
-	+	84	246
-	+	88	56
-	+	84	245
-	+	88	56
-	+	89	139
-	+	89	138
-	+	89	139
-	+	90	0
-	+	89	170
-	+	84	0
-	+	90	0
-	+	89	107
-	+	86	54
-	+	87	57
-	+	87	43
-	+	88	34
-	+	89	35
-	+	89	36
-	+	89	107
-	+	89	108
-	+	90	0
-	+	89	57
-	+	90	0
-	+	93	177
-	+	93	52
-	+	101	0
-	+	93	175
-	+	94	210
-	+	94	118
-	+	101	0
-	+	94	209
-	+	92	0
-	+	169	76
-	+	164	39
-	+	220	1
-	+	218	66
-	+	220	0
-	+	219	0
-	+	221	0
-	+	220	0
-	+	221	0
-	+	216	0
-	+	215	0
-	+	216	0
-	+	221	3
-	+	220	3
-	+	221	52
-	+	161	0
-	+	160	0
-	+	158	32
-	+	159	40
-	+	158	1
-	+	159	58
-	+	169	76
-	+	179	0
-	+	171	0
-	+	176	16
-	+	179	0
-	+	178	0
-	+	253	29
-	+	252	9
-	+	255	8
-	+	258	9
-	+	260	14
-	+	242	0
-	+	237	29
-	+	236	54
-	+	234	71
-	+	235	69
-	+	236	72
-	+	224	0
-	+	96	17
-	+	100	30
-	+	100	16
-	+	99	67
-	+	100	37
-	+	239	58
-	+	245	57
-	+	239	39
-	+	245	38
-	+	240	71
-	+	241	55
-	+	249	41
-
-> ~/.vimrc
-	*	1504444198	0
-	"	51	0
-	^	18	18
-	.	18	17
-	+	18	17
-
-> ~/cvit/honours-super/journal/js/anchor.call.js
-	*	1504423584	0
-	"	7	25
-	^	7	26
-	.	7	25
-	+	11	0
-	+	2	0
-	+	9	0
-	+	8	2
-	+	3	2
-	+	7	0
-	+	2	0
-	+	2	37
-	+	2	5
-	+	3	41
-	+	2	4
-	+	3	5
-	+	2	5
-	+	3	4
-	+	2	5
-	+	2	111
-	+	3	90
-	+	3	0
-	+	6	0
-	+	2	0
-	+	4	0
-	+	5	0
-	+	7	25
-
-> ~/script.py
-	*	1504372288	0
-	"	1	8
-	^	1	9
-	.	1	8
-	+	1	5
-	+	3	12
+	+	21	0
+	+	317	8
+	+	318	0
+	+	18	64
 	+	6	21
-	+	7	21
-	+	8	3
-	+	3	0
-	+	6	1
-	+	7	1
-	+	8	11
-	+	10	22
-	+	6	6
-	+	7	7
-	+	8	7
-	+	6	7
-	+	7	8
-	+	8	8
-	+	5	7
-	+	1	0
-	+	5	7
-	+	1	8
-	+	10	0
-	+	3	0
-	+	4	4
-	+	1	8
-
-> ~/cvit/honours-super/journal/posts/2017-08-25-hacks.markdown
-	*	1504358712	0
-	"	22	15
-	^	25	50
-	.	24	0
-	+	16	70
-	+	27	0
-	+	16	70
-	+	20	1
-	+	19	0
-	+	20	0
-	+	26	0
-	+	22	20
-	+	23	70
-	+	25	49
-	+	16	61
-	+	17	0
-	+	24	0
-
-> ~/cvit/honours-super/journal/css/skeleton.css
-	*	1504333486	0
-	"	134	15
-	^	136	21
-	.	136	15
-	+	302	21
-	+	136	15
-
-> ~/college/m17/compilers/project/src/parser.y
-	*	1504279946	0
-	"	77	0
-	^	53	21
-	.	50	21
-	+	71	18
-	+	74	32
-	+	75	18
-	+	78	18
-	+	80	18
-	+	83	0
-	+	93	18
-	+	97	18
-	+	93	49
-	+	94	0
-	+	96	0
-	+	100	18
-	+	103	18
-	+	106	41
-	+	107	0
-	+	111	0
-	+	114	58
-	+	115	0
-	+	113	0
-	+	109	0
-	+	105	0
-	+	102	0
-	+	99	0
-	+	118	18
-	+	120	18
-	+	122	18
-	+	124	19
-	+	127	18
-	+	117	0
-	+	126	0
-	+	43	36
-	+	47	40
-	+	47	0
-	+	43	35
-	+	77	0
-	+	73	0
-	+	89	27
-	+	90	18
-	+	81	19
-	+	79	19
-	+	76	19
-	+	72	19
-	+	70	19
-	+	67	19
-	+	55	19
-	+	52	19
-	+	48	19
-	+	46	19
-	+	44	19
-	+	42	19
-	+	96	0
-	+	95	19
-	+	98	19
-	+	101	19
-	+	104	19
-	+	108	19
-	+	112	19
-	+	116	19
-	+	119	19
-	+	121	19
-	+	123	19
-	+	125	19
-	+	128	19
-	+	53	2
-	+	55	0
-	+	66	24
-	+	67	26
-	+	70	26
-	+	70	0
-	+	67	0
-	+	53	2
-	+	55	0
-	+	50	2
-	+	52	26
-	+	70	0
-	+	55	0
-	+	56	0
-	+	69	23
-	+	52	0
-	+	55	0
-	+	48	25
-	+	44	19
-	+	54	22
-	+	48	0
-	+	44	0
-	+	52	21
-	+	54	22
-	+	52	0
-	+	51	0
-	+	53	64
-	+	50	51
-	+	53	47
-	+	53	21
-	+	54	0
-	+	53	21
-	+	50	21
-	+	51	0
-	+	50	21
-
-> ~/college/m17/compilers/project/test-units/correct/empty-statement.b
-	*	1504181194	0
-	"	6	0
-	^	6	0
-	.	6	0
-	+	1	11
-	+	2	4
-	+	3	0
-	+	5	11
-	+	7	4
+	+	264	8
+	+	214	0
+	+	158	0
 	+	7	0
-	+	7	4
-	+	7	0
-	+	6	0
+	+	213	0
 
-> ~/college/m17/compilers/project/src/parser.output
-	*	1504180651	0
-	"	528	10
+> ~/college/m17/topics-ml/hw/3-gridworld/driver.py
+	*	1510636311	0
+	"	4	0
+	^	4	24
+	.	4	5
+	+	2	23
+	+	3	31
+	+	4	23
+	+	2	5
+	+	3	5
+	+	4	5
 
-> ~/college/m17/compilers/project/src/Makefile
-	*	1504180611	0
-	"	7	29
-	^	6	27
-	.	6	26
-	+	6	9
-	+	4	8
-	+	6	8
-	+	4	12
-	+	6	12
-	+	4	27
-	+	6	26
-
-> ~/college/m17/compilers/project/test-units/error/empty-label.b
-	*	1504179983	0
+> ~/college/m17/topics-ml/hw/3-gridworld/base/agent.py
+	*	1510628433	0
 	"	1	0
-	^	8	7
-	.	8	6
-	+	1	11
-	+	4	4
-	+	4	0
-	+	6	11
-	+	9	4
-	+	9	0
-	+	2	9
-	+	4	0
-	+	3	20
-	+	9	0
-	+	7	6
-	+	8	6
-
-> ~/college/m17/compilers/project/test-units/error/declaration.b
-	*	1504179798	0
-	"	7	0
-	^	8	4
-	.	5	0
-	+	1	11
-	+	5	0
-	+	4	13
-	+	3	9
-	+	6	11
-	+	7	4
+	^	22	30
+	.	21	0
+	+	3	11
+	+	16	20
+	+	16	0
+	+	3	17
+	+	16	0
+	+	24	0
+	+	5	16
+	+	8	12
 	+	8	0
+	+	7	11
+	+	6	16
+	+	7	17
+	+	6	16
+	+	7	16
+	+	10	26
+	+	16	0
+	+	17	20
+	+	18	36
+	+	19	37
+	+	20	63
+	+	21	0
+	+	1	17
+	+	21	50
+	+	24	0
+	+	22	20
 	+	5	0
+	+	24	0
+	+	24	34
+	+	26	18
+	+	28	25
+	+	15	0
+	+	24	22
+	+	9	0
+	+	8	18
+	+	7	17
+	+	24	29
+	+	24	19
+	+	24	28
+	+	8	0
+	+	24	0
+	+	8	0
+	+	5	9
+	+	10	0
+	+	24	0
+	+	13	23
+	+	15	0
+	+	24	0
+	+	25	39
+	+	11	21
+	+	14	24
+	+	15	0
+	+	29	0
+	+	31	30
+	+	5	10
+	+	10	10
+	+	20	0
+	+	4	4
+	+	21	22
+	+	21	45
+	+	30	24
+	+	31	0
+	+	21	12
+	+	22	29
+	+	21	0
 
-> ~/college/m17/compilers/project/test-units/custom/reversal.b
-	*	1504179192	0
-	"	2	0
-	^	3	14
-	.	3	13
+> ~/college/m17/topics-ml/hw/3-gridworld/base/gridworld.py
+	*	1510628431	0
+	"	1	0
+	.	34	0
+	+	29	0
+	+	29	17
+	+	29	0
+	+	29	14
+	+	29	0
+	+	1	15
+	+	27	0
+	+	2	21
+	+	3	44
+	+	28	0
+	+	15	20
+	+	14	19
+	+	15	19
+	+	16	22
+	+	21	26
+	+	21	0
+	+	20	31
+	+	21	28
+	+	22	27
+	+	23	19
+	+	5	21
+	+	6	19
+	+	7	43
+	+	13	0
+	+	8	41
+	+	29	25
+	+	34	0
+	+	25	29
+	+	27	0
+	+	30	22
+	+	31	29
+	+	9	3
+	+	5	18
+	+	21	0
+	+	5	13
+	+	5	0
+	+	9	0
+	+	10	27
+	+	11	19
+	+	12	43
+	+	18	23
+	+	10	26
+	+	11	20
+	+	12	41
+	+	2	21
+	+	25	17
+	+	26	14
+	+	21	21
+	+	34	0
+	+	31	0
+	+	34	0
+	+	31	7
+	+	32	11
+	+	31	0
+	+	32	34
+	+	33	34
+	+	33	15
+	+	34	15
+	+	33	0
+	+	34	0
+
+> ~/college/m17/topics-ml/hw/3-gridworld/base/__init__.py
+	*	1510628431	0
+	"	1	0
+	^	2	24
+	.	2	23
+	+	1	31
+	+	2	23
+
+> ~/cvit/das-2018/draft/main.tex
+	*	1510625351	0
+	"	19	0
+
+> ~/.shell/aliases.sh
+	*	1510624849	0
+	"	16	65
+	^	16	66
+	.	16	65
+	+	16	65
+
+> ~/college/m17/compilers/project/compiler-design.md
+	*	1510593999	0
+	"	148	0
+	^	152	2
+	.	161	0
+	+	151	50
+	+	155	3
+	+	151	60
+	+	155	0
+	+	144	11
+	+	151	0
+	+	144	0
+	+	151	0
+	+	144	0
+	+	151	0
+	+	150	30
+	+	144	11
+	+	144	19
+	+	144	20
+	+	144	28
+	+	144	29
+	+	144	10
+	+	144	11
+	+	144	19
+	+	144	20
+	+	144	28
+	+	144	29
+	+	145	10
+	+	151	0
+	+	150	0
+	+	148	0
+	+	144	0
+	+	150	0
+	+	138	263
+	+	99	76
+	+	100	57
+	+	100	0
+	+	101	138
+	+	97	6
+	+	101	140
+	+	101	0
+	+	103	40
+	+	105	108
+	+	106	80
+	+	107	34
+	+	105	0
+	+	104	40
+	+	107	38
+	+	108	30
+	+	103	18
+	+	109	97
+	+	109	107
+	+	151	0
+	+	155	0
+	+	162	0
+	+	155	0
+	+	155	27
+	+	155	39
+	+	156	37
+	+	157	35
+	+	158	38
+	+	159	44
+	+	160	35
+	+	161	44
+	+	155	15
+	+	155	0
+	+	155	38
+	+	156	0
+	+	156	36
+	+	157	0
+	+	157	34
+	+	158	0
+	+	158	37
+	+	158	50
+	+	159	43
+	+	160	0
+	+	160	34
+	+	161	0
+	+	161	43
+	+	162	0
+	+	155	14
+	+	155	0
+	+	155	12
+	+	156	12
+	+	157	10
+	+	158	12
+	+	158	49
+	+	158	0
+	+	160	10
+	+	161	12
+	+	162	0
+	+	155	0
+	+	153	0
+	+	140	13
+	+	152	14
+	+	153	0
+	+	140	1
+	+	152	1
+	+	153	0
+	+	154	0
+	+	161	0
+
+> ~/college/m17/compilers/project/benchmark.sh
+	*	1510593469	0
+	"	25	4
+	^	11	15
+	.	8	0
+	+	31	13
+	+	7	14
+	+	8	14
+	+	12	9
+	+	11	14
+	+	8	0
+
+> ~/college/m17/compilers/project/benchmark.out
+	*	1510593460	0
+	"	1	0
+
+> ~/college/m17/compilers/project/compiler-design.
+	*	1510592045	0
+	"	1	0
+
+> ~/college/m17/compilers/project/src/benchmark.out
+	*	1510591237	0
+	"	1	0
+	^	2	16
+	.	7	0
+	+	7	29
+	+	3	19
+	+	3	20
+	+	3	28
+	+	3	29
+	+	4	0
+	+	4	20
+	+	4	28
+	+	4	29
+	+	5	8
+	+	5	17
+	+	5	18
+	+	5	26
+	+	5	27
+	+	6	0
+	+	5	9
+	+	6	0
+	+	4	11
+	+	5	0
+	+	3	11
+	+	4	0
+	+	6	22
+	+	6	30
+	+	6	31
+	+	6	39
+	+	6	40
+	+	6	48
+	+	6	0
+	+	7	11
+	+	7	19
+	+	7	20
+	+	7	28
+	+	7	29
+	+	8	0
+	+	3	0
+	+	4	0
+	+	3	0
+	+	1	39
+	+	2	15
+	+	7	0
+
+> ~/college/m17/compilers/project/test-units/non-trivial/matmul_huge.b
+	*	1510590136	0
+	"	8	10
+	^	8	11
+	.	8	10
+	+	1	0
+	+	2	34
+	+	8	16
+	+	2	37
+	+	8	9
+	+	2	0
+	+	8	10
+
+> ~/college/m17/compilers/project/test-units/non-trivial/matrix_multiplication.b
+	*	1510589962	0
+	"	1	0
+	^	68	22
+	.	68	21
 	+	1	11
 	+	5	4
 	+	5	0
 	+	7	11
-	+	20	0
+	+	79	4
+	+	80	0
+	+	2	13
 	+	5	0
-	+	2	8
-	+	3	9
-	+	20	0
-	+	8	10
-	+	9	15
-	+	11	8
-	+	11	0
-	+	10	17
-	+	15	12
-	+	13	13
-	+	15	15
-	+	19	8
-	+	19	0
-	+	4	9
-	+	19	0
-	+	16	15
-	+	17	23
-	+	18	20
-	+	15	14
-	+	3	13
-
-> ~/college/m17/compilers/project/test-units/fizzbuzz.b
-	*	1504178789	0
-	"	7	10
-	^	9	16
-	.	9	15
-	+	1	11
-	+	4	0
-	+	6	11
-	+	11	4
-	+	11	0
-	+	4	0
-	+	2	9
-	+	7	10
-	+	3	9
-	+	11	0
-	+	12	0
-	+	8	15
-	+	10	8
-	+	10	0
-	+	9	15
-
-> ~/college/m17/compilers/project/test-units/fact.b
-	*	1504178683	0
-	"	14	32
-	^	14	33
-	.	14	32
-	+	1	11
-	+	5	0
-	+	3	9
-	+	7	11
-	+	15	4
-	+	16	0
-	+	8	10
-	+	10	15
-	+	12	8
-	+	12	0
-	+	4	9
-	+	9	0
-	+	10	0
-	+	12	0
-	+	11	29
-	+	14	32
-
-> ~/college/m17/compilers/project/src/scanner.l
-	*	1504160606	0
-	"	49	24
-	^	49	24
-	.	49	23
-	+	30	7
-	+	31	54
-	+	44	41
-	+	6	19
-	+	19	0
-	+	21	0
-	+	19	0
-	+	22	0
-	+	23	17
-	+	27	0
-	+	44	18
-	+	50	18
-	+	51	76
-	+	51	0
-	+	53	0
-	+	51	24
-	+	52	24
-	+	51	0
-	+	23	0
-	+	24	0
-	+	23	24
-	+	24	24
-	+	23	0
-	+	2	3
-	+	6	35
-	+	7	33
-	+	6	33
-	+	7	35
-	+	6	39
-	+	8	38
-	+	6	9
-	+	7	9
-	+	6	0
-	+	32	1
-	+	33	1
-	+	32	29
-	+	33	29
-	+	7	0
-	+	34	34
-	+	36	34
-	+	9	29
-	+	8	33
-	+	9	36
-	+	10	38
-	+	12	37
-	+	44	24
-	+	44	40
-	+	44	0
-	+	44	1
-	+	44	36
-	+	44	0
-	+	44	37
-	+	44	2
-	+	44	24
-	+	44	36
-	+	44	1
-	+	44	0
-	+	37	32
-	+	38	32
-	+	39	0
-	+	40	0
-	+	39	2
-	+	40	2
-	+	39	34
-	+	40	34
-	+	39	24
-	+	40	24
-	+	42	32
-	+	29	1
-	+	15	37
-	+	14	24
-	+	15	0
-	+	18	0
-	+	16	37
-	+	18	0
-	+	45	34
-	+	39	32
-	+	40	32
-	+	42	32
-	+	42	33
-	+	43	32
-	+	42	34
-	+	43	34
-	+	41	1
-	+	32	29
-	+	44	5
-	+	35	34
-	+	17	32
-	+	16	37
-	+	17	44
-	+	44	33
-	+	44	0
-	+	46	24
-	+	48	27
-	+	49	23
-	+	48	0
-	+	47	90
-	+	46	23
-	+	49	23
-
-> ~/sandbox/special.py
-	*	1504160183	0
-	"	16	19
-	^	16	20
-	.	16	19
-	+	4	3
-	+	8	0
-	+	4	10
-	+	8	0
-	+	5	29
-	+	8	0
-	+	6	13
-	+	4	0
-	+	6	26
-	+	7	17
-	+	4	11
-	+	4	0
-	+	4	75
-	+	4	22
-	+	4	7
-	+	1	27
-	+	4	0
-	+	4	11
-	+	4	26
-	+	4	9
-	+	4	0
-	+	4	10
-	+	4	0
-	+	4	27
-	+	4	17
-	+	4	0
-	+	2	25
-	+	4	0
-	+	6	26
-	+	11	0
-	+	11	3
-	+	9	10
-	+	20	4
-	+	10	4
-	+	12	45
-	+	19	0
-	+	12	10
-	+	13	12
-	+	14	7
-	+	12	49
-	+	19	15
-	+	16	19
-	+	19	0
-	+	17	18
-	+	18	15
-	+	16	22
-	+	12	20
-	+	16	19
-
-> ~/college/m17/compilers/project/specification.txt
-	*	1504096991	0
-	"	53	1
-
-> ~/college/m17/compilers/project/test-units/sumN-goto-dup.b
-	*	1504096251	0
-	"	7	6
-	^	7	7
-	.	7	6
-	+	20	25
-	+	18	19
-	+	17	10
-	+	16	23
-	+	15	6
-	+	14	8
-	+	11	19
-	+	10	10
-	+	9	15
-	+	7	6
-
-> ~/college/m17/compilers/project/test-units/sumN.b
-	*	1504096220	0
-	"	17	0
-	^	8	15
-	.	8	0
-	+	8	0
-
-> ~/college/m17/compilers/project/test-units/sumN-dup.b
-	*	1504096219	0
-	"	14	1
-	^	16	0
-	.	16	0
-	+	8	13
-	+	12	8
-	+	19	21
-	+	19	25
-	+	19	0
-	+	12	0
-	+	19	0
-	+	17	25
-	+	16	0
-
-> ~/college/m17/compilers/project/test-units/simple.b
-	*	1504094781	0
-	"	1	0
-	^	11	14
-	.	11	13
-	+	1	10
-	+	16	10
-	+	16	0
-	+	1	10
-	+	6	0
-	+	2	9
-	+	16	8
-	+	16	0
-	+	6	0
-	+	16	0
-	+	6	0
-	+	8	10
-	+	14	4
-	+	14	0
-	+	9	9
-	+	14	0
-	+	13	0
-	+	6	0
-	+	3	9
-	+	4	14
-	+	5	11
-	+	9	4
-	+	10	18
-	+	12	8
-	+	12	0
-	+	11	13
-
-> ~/college/m17/compilers/project/test-units/sumN-goto.b
-	*	1504092303	0
-	"	1	0
-	a	3	0
-
-> ~/college/m17/compilers/project/test-units/else.b
-	*	1504090904	0
-	"	10	0
-	^	15	14
-	.	17	0
-	+	1	0
-	+	19	10
-	+	19	8
-	+	19	0
-	+	17	0
-	+	9	0
-	+	17	0
-	+	10	22
-	+	12	8
-	+	12	0
-	+	11	13
-	+	14	19
-	+	16	8
-	+	16	0
-	+	15	13
-	+	17	0
-
-> ~/college/m17/compilers/project/test-units/for.b
-	*	1504090903	0
-	"	11	0
-	.	1	0
-	+	1	0
-
-> ~/college/m17/compilers/project/test-units/if-else.b
-	*	1504090892	0
-	"	1	0
-	^	20	14
-	.	20	13
-	+	1	0
-	+	11	5
-	+	15	15
-	+	17	8
-	+	17	0
-	+	16	13
-	+	22	0
-	+	11	0
-	+	9	0
-	+	11	0
-	+	19	10
-	+	21	8
-	+	21	0
-	+	22	0
-	+	21	0
-	+	20	13
-
-> ~/cvit/honours-super/journal/posts/2017-09-05-Distributions.markdown
-	*	1504074712	0
-	"	2	25
-	^	2	26
-	.	2	25
-	+	1	0
-	+	46	0
-	+	4	25
-	+	5	0
-	+	33	14
-	+	37	12
-	+	41	34
-	+	32	0
-	+	13	2
-	+	11	0
-	+	13	37
-	+	32	0
-	+	12	0
-	+	14	30
-	+	15	39
-	+	32	0
-	+	18	3
-	+	17	71
-	+	21	6
-	+	32	0
-	+	21	63
-	+	25	1
-	+	24	0
-	+	26	18
-	+	25	30
-	+	26	56
-	+	32	0
-	+	42	0
-	+	43	57
-	+	28	18
-	+	31	1
-	+	29	0
-	+	31	315
-	+	31	152
-	+	31	141
-	+	32	0
-	+	31	171
-	+	30	132
-	+	30	133
-	+	31	0
-	+	32	0
-	+	39	39
-	+	34	0
-	+	2	25
-
-> ~/sandbox/grid/toy.py
-	*	1504066814	0
-	"	3	0
-	.	3	0
-	+	1	0
+	+	2	23
+	+	3	15
 	+	3	0
-	+	4	0
+	+	2	37
+	+	35	13
+	+	8	10
+	+	35	16
+	+	44	8
+	+	44	0
 	+	3	0
-
-> ~/cvit/honours-super/journal/posts/2017-08-26-cost-graphs.markdown
-	*	1504066130	0
-	"	50	108
-	^	50	109
-	.	50	108
-	+	2	31
-	+	12	0
-	+	32	0
+	+	2	25
+	+	3	17
+	+	44	0
+	+	36	20
+	+	43	12
+	+	43	0
+	+	37	24
+	+	42	16
 	+	42	0
-	+	56	0
-	+	34	0
-	+	37	0
-	+	36	0
-	+	34	30
-	+	35	44
-	+	34	2
-	+	35	0
-	+	34	0
-	+	35	0
-	+	56	0
-	+	56	31
-	+	35	0
-	+	34	49
-	+	58	40
-	+	59	54
-	+	11	0
-	+	7	70
-	+	11	0
-	+	9	15
-	+	9	10
-	+	8	68
-	+	11	0
-	+	9	2
-	+	7	0
-	+	17	68
-	+	15	72
-	+	59	54
-	+	59	68
-	+	12	1
-	+	32	1
-	+	42	1
-	+	56	1
-	+	55	0
-	+	51	37
-	+	56	0
-	+	51	61
-	+	51	0
-	+	51	13
-	+	56	0
-	+	56	9
-	+	10	0
-	+	11	0
-	+	11	13
-	+	56	0
-	+	11	0
-	+	20	0
-	+	19	0
-	+	56	0
-	+	57	0
-	+	29	0
-	+	25	39
-	+	28	0
-	+	26	2
-	+	25	72
-	+	29	21
-	+	51	17
-	+	51	0
-	+	27	53
-	+	26	53
-	+	24	0
-	+	23	68
-	+	60	0
-	+	61	2
-	+	61	64
-	+	61	0
-	+	61	2
-	+	65	51
-	+	69	0
-	+	65	6
-	+	69	1
-	+	64	51
-	+	64	65
-	+	66	60
-	+	69	0
-	+	67	70
-	+	37	48
-	+	38	15
-	+	68	8
-	+	67	2
-	+	51	15
-	+	54	170
-	+	55	0
-	+	46	54
-	+	45	79
-	+	51	0
-	+	51	89
-	+	52	2
-	+	54	0
-	+	54	123
-	+	54	0
-	+	48	0
-	+	50	89
-	+	53	33
-	+	52	91
-	+	50	108
-
-> ~/cvit/honours-super/journal/.gitignore
-	*	1503928441	0
-	"	8	3
-	^	8	4
-	.	8	3
-	+	5	10
-	+	6	5
-	+	7	0
-	+	8	3
-
-> ~/cvit/honours-super/journal/contact.markdown
-	*	1503899600	0
-	"	10	0
-	^	11	37
-	.	11	36
-	+	11	0
-	+	8	18
-	+	9	65
-	+	10	53
-	+	11	36
-
-> ~/cvit/honours-super/journal/posts/2017-01-25-porting-ocr.markdown
-	*	1503898434	0
-	"	1	0
-
-> ~/cvit/honours-super/journal/posts/2017-05-22-post-processing-module.markdown
-	*	1503897887	0
-	"	3	0
-
-> ~/sandbox/area51/analysis.py
-	*	1503834924	0
-	"	74	4
-	^	70	5
-	.	70	4
-	+	39	11
-	+	38	16
-	+	39	15
-	+	41	25
-	+	38	35
+	+	42	17
+	+	42	16
+	+	4	15
+	+	40	26
+	+	41	39
+	+	38	26
+	+	39	26
+	+	40	20
 	+	42	0
-	+	41	15
-	+	42	0
-	+	27	0
-	+	41	14
-	+	42	48
-	+	75	31
-	+	42	46
-	+	42	28
-	+	38	16
-	+	42	30
-	+	15	0
-	+	24	18
-	+	33	0
-	+	31	9
-	+	45	31
-	+	75	0
-	+	46	38
-	+	25	7
-	+	75	0
+	+	47	16
+	+	47	8
 	+	47	0
-	+	3	24
-	+	49	12
-	+	75	0
-	+	69	47
-	+	23	0
-	+	22	13
-	+	22	0
-	+	18	33
-	+	19	51
-	+	20	51
-	+	21	15
-	+	7	0
-	+	4	27
-	+	7	0
-	+	5	20
-	+	67	33
-	+	69	39
-	+	68	28
-	+	69	33
-	+	75	0
-	+	8	0
-	+	6	30
-	+	70	0
-	+	75	0
-	+	51	24
-	+	64	0
-	+	53	21
-	+	54	27
-	+	52	10
-	+	64	0
-	+	66	30
-	+	67	28
-	+	62	34
-	+	64	34
-	+	56	24
-	+	70	0
-	+	71	33
-	+	74	25
-	+	56	7
-	+	57	38
+	+	47	20
+	+	47	12
+	+	47	0
+	+	47	27
+	+	47	16
+	+	47	0
+	+	47	18
+	+	47	26
+	+	47	24
+	+	47	18
+	+	47	16
+	+	47	0
+	+	47	24
+	+	47	0
+	+	9	0
+	+	34	0
+	+	48	0
+	+	52	0
+	+	51	23
+	+	26	16
+	+	50	0
+	+	51	31
+	+	79	0
+	+	54	0
+	+	52	0
+	+	50	0
+	+	53	18
 	+	59	0
-	+	57	46
-	+	58	12
-	+	74	41
-	+	71	0
-	+	73	14
-	+	72	17
-	+	41	0
-	+	32	14
-	+	41	0
-	+	40	38
-	+	40	0
-	+	40	22
-	+	43	26
-	+	75	0
-	+	69	4
-	+	40	0
-	+	49	0
-	+	69	4
-	+	70	4
-	+	72	4
-	+	73	4
-	+	74	4
-	+	73	4
-	+	74	39
-	+	70	38
-	+	74	5
-	+	73	4
-	+	63	0
-	+	64	0
-	+	71	31
-	+	74	4
-	+	69	4
-	+	70	4
+	+	58	0
+	+	62	18
+	+	70	0
+	+	69	0
+	+	73	18
+	+	40	27
+	+	8	8
+	+	46	16
+	+	56	17
+	+	57	16
+	+	67	0
+	+	66	0
+	+	68	17
+	+	78	0
+	+	77	0
+	+	68	21
 
-> ~/sandbox/area51/log.txt
-	*	1503833814	0
-	"	7121	0
+> ~/Downloads/four_nested_loops.b
+	*	1510589878	0
+	"	1	0
+
+> ~/college/m17/compilers/project/src/benchmark.sh
+	*	1510589659	0
+	"	8	18
+	^	5	22
+	.	8	18
+	+	11	26
+	+	11	48
+	+	12	43
+	+	13	27
+	+	11	51
+	+	12	46
+	+	13	30
+	+	14	25
+	+	12	0
+	+	14	8
+	+	8	8
+	+	27	0
+	+	14	45
+	+	8	42
+	+	31	28
+	+	7	15
+	+	8	15
+	+	7	15
+	+	8	15
+	+	11	15
+	+	12	10
+	+	31	40
+	+	34	5
+	+	38	0
+	+	31	6
+	+	32	23
+	+	33	0
+	+	36	3
+	+	34	13
+	+	32	21
+	+	31	50
+	+	35	16
+	+	1	10
+	+	27	0
+	+	17	39
+	+	6	25
+	+	6	0
+	+	17	54
+	+	17	0
+	+	17	8
+	+	19	34
+	+	19	26
+	+	19	0
+	+	19	8
+	+	19	44
+	+	19	0
+	+	19	34
+	+	38	0
+	+	17	0
+	+	19	54
+	+	26	0
+	+	19	0
+	+	19	34
+	+	19	11
+	+	19	27
+	+	11	30
+	+	17	0
+	+	19	12
+	+	38	0
+	+	17	17
+	+	19	0
+	+	18	13
+	+	17	0
+	+	17	8
+	+	18	45
+	+	19	31
+	+	19	24
+	+	17	0
+	+	18	0
+	+	17	21
+	+	16	0
+	+	6	0
+	+	29	0
+	+	18	13
+	+	17	8
+	+	18	69
+	+	18	0
+	+	20	42
+	+	16	5
+	+	20	8
+	+	22	10
+	+	20	0
+	+	19	8
+	+	21	8
+	+	19	0
+	+	23	4
+	+	25	4
+	+	23	4
+	+	25	4
+	+	24	8
+	+	25	40
+	+	7	17
+	+	6	0
+	+	30	0
+	+	6	0
+	+	11	20
+	+	8	30
+	+	11	0
+	+	4	0
+	+	8	18
+
+> ~/college/m17/compilers/project/src/benchmark.
+	*	1510589471	0
+	"	1	0
+
+> ~/college/m17/compilers/project/src/ll-src/99-bottles.s
+	*	1510588953	0
+	"	1	1
+
+> /tmp/bubblesort-df9e22.o
+	*	1510588182	0
+	"	1	0
+
+> ~/college/m17/compilers/project/src/ll-src/benchmark.sh
+	*	1510587814	0
+	"	1	0
+
+> ~/college/m17/compilers/project/src/ll-src/bubblesort.ll
+	*	1510587556	0
+	"	154	0
+
+> ~/college/m17/compilers/project/src/ll-src/bubblesort.o
+	*	1510587551	0
+	"	1	0
+
+> ~/Downloads/four-loops.b
+	*	1510587438	0
+	"	3	0
+
+> ~/college/m17/compilers/project/src/ll-out/99-bottles.b.out
+	*	1510586134	0
+	"	1	0
+
+> ~/college/m17/compilers/project/src/out
+	*	1510585787	0
+	"	1	0
 	.	1	0
 	+	1	0
 
-> ~/sandbox/area51/out
-	*	1503833588	0
-	"	153	0
-
-> ~/college/m17/database-systems/hw/2-two-phase-merge-sort/gensort-1.5/input.txt
-	*	1503753509	0
-	"	8	0
-
-> ~/temp.md
-	*	1503745542	0
+> ~/college/m17/compilers/project/sample-clean.b
+	*	1510581732	0
 	"	1	0
-	^	30	23
-	.	30	22
-	+	15	15
-	+	17	0
-	+	17	5
-	+	16	8
-	+	17	9
-	+	31	2
-	+	17	43
-	+	31	0
-	+	17	42
-	+	31	0
-	+	17	0
-	+	18	3
-	+	31	0
-	+	18	0
+	^	25	16
+	.	25	15
 	+	16	0
-	+	18	0
-	+	17	0
-	+	16	0
-	+	31	0
-	+	18	46
-	+	16	0
-	+	21	44
-	+	21	14
-	+	22	13
-	+	21	48
-	+	23	49
-	+	31	3
-	+	41	38
-	+	5	10
-	+	8	14
-	+	7	48
-	+	8	2
-	+	7	49
-	+	14	0
-	+	15	0
-	+	41	2
-	+	41	0
-	+	28	0
-	+	26	8
-	+	27	0
-	+	30	48
-	+	31	0
-	+	37	9
-	+	39	34
-	+	28	0
-	+	13	27
-	+	11	16
-	+	12	12
-	+	14	0
-	+	10	21
-	+	11	5
-	+	12	5
-	+	13	5
-	+	38	48
-	+	30	22
-
-> ~/cvit/honours-super/journal/posts/2017-08-26-hacks.markdown
-	*	1503736148	0
-	"	13	1
-	.	16	0
+	+	46	0
+	+	46	10
+	+	46	19
+	+	16	10
+	+	46	0
 	+	1	0
-	+	2	11
-	+	4	6
-	+	7	0
-	+	9	6
-	+	8	72
-	+	11	0
-	+	11	24
-	+	13	54
-	+	14	61
-	+	15	55
 	+	16	0
-
-> ~/cvit/honours-super/journal/publish.sh
-	*	1503726524	0
-	"	4	14
-	^	4	15
-	.	4	14
-	+	2	69
-	+	4	14
-
-> ~/cvit/honours-super/journal/site.hs
-	*	1503726497	0
-	"	35	4
-	.	35	0
-	+	35	25
-	+	35	31
-	+	35	20
-	+	35	11
+	+	4	9
+	+	18	14
+	+	20	14
+	+	29	14
+	+	44	0
+	+	36	0
 	+	35	0
-
-> ~/cvit/honours-super/journal/site.h
-	*	1503726271	0
-	"	1	0
-
-> ~/cvit/honours-super/journal/.htaccess
-	*	1503726268	0
-	"	1	0
-	^	1	34
-	.	1	33
-	+	5	17
-	+	1	33
-
-> ~/cvit/honours-super/journal/index.html
-	*	1503726030	0
-	"	34	0
-
-> ~/temp.txt
-	*	1503721578	0
-	"	4	0
-	^	4	1
-	.	4	0
-	+	4	0
-
-> /tmp/bash-fc.ve2174
-	*	1503721490	0
-	"	1	0
-	^	2	11
-	.	2	10
-	+	19	50
-	+	20	8
+	+	39	0
+	+	38	22
+	+	39	0
 	+	19	0
-	+	20	0
-	+	19	0
-	+	16	0
-	+	15	0
-	+	1	10
-	+	1	28
-	+	1	35
-	+	2	0
-	+	2	8
-	+	2	15
-	+	1	0
-	+	5	49
-	+	6	13
-	+	7	39
-	+	15	0
-	+	9	74
-	+	24	28
-	+	9	25
-	+	24	19
-	+	26	0
-	+	27	0
-	+	20	49
-	+	19	58
-	+	20	61
-	+	4	16
-	+	10	25
-	+	12	19
-	+	11	19
-	+	13	35
-	+	14	16
-	+	20	0
-	+	19	10
-	+	20	0
+	+	29	0
 	+	22	0
-	+	19	47
-	+	20	52
-	+	24	46
-	+	18	9
-	+	18	2
-	+	18	0
-	+	17	0
-	+	18	0
-	+	1	41
-	+	2	10
+	+	25	19
+	+	27	0
+	+	25	15
+	+	20	0
+	+	23	29
+	+	25	15
 
-> ~/cvit/honours-super/journal/2017-08-26-mt-space.markdown
-	*	1503711754	0
-	"	7	0
-	^	7	0
-	.	8	0
-	+	1	0
-	+	9	0
-	+	2	25
-	+	4	7
-	+	8	0
+> ~/college/m17/compilers/project/.gitignore
+	*	1510581522	0
+	"	9	4
+	^	9	5
+	.	9	4
+	+	7	4
+	+	8	4
+	+	9	4
 
-> ~/college/m17/compilers/project/src/parser.l
-	*	1503638163	0
+> ~/college/m17/compilers/project/src/Makefile
+	*	1510581349	0
 	"	1	0
+	^	18	10
+	.	1	0
+	+	3	81
+	+	2	90
+	+	3	97
+	+	8	4
+	+	8	66
+	+	9	78
+	+	3	41
+	+	5	2
+	+	6	103
+	+	5	5
+	+	6	20
+	+	13	0
+	+	15	12
+	+	22	0
+	+	23	16
+	+	27	11
+	+	13	15
+	+	15	15
+	+	14	28
+	+	16	28
+	+	12	0
+	+	19	0
+	+	20	45
+	+	18	9
+	+	27	0
+	+	3	0
+	+	1	0
+
+> ~/college/m17/compilers/project/src/interpreter.cpp
+	*	1510581336	0
+	"	1	0
+	^	31	0
+	.	75	0
+	+	32	0
+	+	30	7
+	+	45	0
+	+	63	0
+	+	75	0
+
+> ~/college/m17/compilers/project/src/iparser.y
+	*	1510581101	0
+	"	225	16
+
+> ~/college/m17/compilers/project/src/iparser.py
+	*	1510580828	0
+	"	1	0
+	^	221	6
+	.	221	5
+	+	208	56
+	+	214	56
+	+	221	5
+
+> ~/college/m17/compilers/project/src/parser.y
+	*	1510580705	0
+	"	223	19
+	^	214	59
+	.	214	55
+	+	222	3
+	+	220	5
+	+	221	22
+	+	220	0
+	+	208	56
+	+	214	56
+	+	220	5
+	+	214	55
 
 > ~/college/m17/compilers/project/src/parser.
-	*	1503637685	0
+	*	1510580673	0
 	"	1	0
 
-> ~/college/m17/compilers/project/test-units/dummy.b
-	*	1503634428	0
+> ~/college/m17/compilers/project/src/compiler.cpp
+	*	1510580190	0
+	"	191	13
+	^	188	14
+	.	188	13
+	+	472	0
+	+	472	33
+	+	472	0
+	+	472	12
+	+	472	21
+	+	472	0
+	+	472	10
+	+	472	0
+	+	472	18
+	+	472	17
+	+	472	0
+	+	472	21
+	+	472	0
+	+	472	31
+	+	472	0
+	+	472	21
+	+	472	33
+	+	472	0
+	+	472	20
+	+	472	26
+	+	472	0
+	+	472	35
+	+	472	23
+	+	472	0
+	+	464	0
+	+	245	0
+	+	243	0
+	+	464	0
+	+	463	5
+	+	477	5
+	+	242	0
+	+	227	0
+	+	242	0
+	+	226	6
+	+	245	0
+	+	242	0
+	+	245	4
+	+	245	0
+	+	226	5
+	+	226	4
+	+	226	3
+	+	226	17
+	+	226	0
+	+	242	0
+	+	226	19
+	+	226	0
+	+	226	20
+	+	242	0
+	+	245	0
+	+	245	5
+	+	226	0
+	+	242	0
+	+	251	0
+	+	242	0
+	+	245	0
+	+	239	0
+	+	240	20
+	+	245	0
+	+	240	6
+	+	225	19
+	+	226	0
+	+	237	15
+	+	238	0
+	+	237	0
+	+	239	0
+	+	242	0
+	+	226	0
+	+	224	0
+	+	226	0
+	+	224	0
+	+	226	0
+	+	237	0
+	+	242	0
+	+	245	0
+	+	242	0
+	+	226	0
+	+	237	0
+	+	241	0
+	+	244	0
+	+	224	0
+	+	226	0
+	+	215	0
+	+	224	26
+	+	224	7
+	+	224	0
+	+	221	0
+	+	224	0
+	+	223	0
+	+	224	0
+	+	239	0
+	+	235	0
+	+	237	0
+	+	230	47
+	+	188	13
+	a	247	4
+	k	171	5
+
+> ~/college/m17/compilers/project/test-units/arithmetic.b
+	*	1510579070	0
 	"	1	0
+	^	9	14
+	.	9	13
+	+	1	0
+	+	8	17
+	+	9	13
+
+> ~/college/m17/compilers/project/test-units/assign.b
+	*	1510579031	0
+	"	1	0
+	^	3	10
+	.	3	9
+	+	1	0
+	+	8	9
+	+	9	11
+	+	3	9
+
+> ~/college/m17/compilers/project/test-units/dummy.b
+	*	1510579025	0
+	"	1	0
+
+> ~/college/m17/compilers/project/test-units/for.b
+	*	1510578933	0
+	"	16	0
+	^	14	21
+	.	9	18
+	+	14	14
+	+	4	15
+	+	15	22
+	+	9	18
+	+	15	31
+	+	9	20
+	+	15	0
+	+	17	0
+	+	15	0
+	+	13	18
+	+	15	0
+	+	16	0
+	+	15	16
+	+	14	20
+	+	15	0
+	+	17	0
+	+	9	18
+
+> ~/college/m17/compilers/project/test-units/bubblesort.b
+	*	1510578922	0
+	"	26	8
+	^	24	0
+	.	26	0
+	+	1	11
+	+	4	4
+	+	4	1
+	+	6	11
+	+	28	4
+	+	28	0
+	+	4	0
+	+	2	14
+	+	3	9
+	+	7	18
+	+	10	8
+	+	10	0
+	+	8	22
+	+	28	0
+	+	4	9
+	+	28	0
+	+	9	20
+	+	28	0
+	+	7	9
+	+	10	0
+	+	7	8
+	+	8	21
+	+	9	18
+	+	12	20
+	+	23	8
+	+	23	0
+	+	13	24
+	+	22	12
+	+	22	0
+	+	15	23
+	+	22	0
+	+	23	0
+	+	15	24
+	+	15	46
+	+	15	28
+	+	22	0
+	+	15	40
+	+	7	16
+	+	12	16
+	+	13	20
+	+	15	31
+	+	20	16
+	+	20	0
+	+	4	0
+	+	3	14
+	+	15	19
+	+	20	0
+	+	18	24
+	+	17	18
+	+	18	18
+	+	17	26
+	+	19	21
+	+	15	0
+	+	22	0
+	+	14	17
+	+	19	23
+	+	21	22
+	+	15	26
+	+	25	0
+	+	24	0
+	+	26	0
+
+> ~/college/m17/compilers/project/test-units/sumN-goto.b
+	*	1510578427	0
+	"	15	0
+
+> ~/college/m17/compilers/project/test-units/sumN-dup.b
+	*	1510578394	0
+	"	17	14
+	^	13	15
+	.	13	14
+	+	7	13
+	+	13	13
+	+	7	14
+	+	13	14
+
+> ~/college/m17/compilers/project/test-units/simple-for.b
+	*	1510578281	0
+	"	1	0
+	^	7	20
+	.	7	19
+	+	1	11
+	+	4	4
+	+	4	0
+	+	3	9
+	+	6	11
+	+	10	4
+	+	10	0
+	+	7	16
+	+	9	8
+	+	9	0
+	+	7	15
+	+	9	0
+	+	9	16
+	+	9	0
+	+	8	17
+	+	7	19
+
+> ~/college/m17/compilers/project/src/for.ll
+	*	1510578105	0
+	"	1	0
+	^	19	12
+	.	19	11
+	+	17	16
+	+	18	62
+	+	17	16
+	+	18	0
+	+	18	9
+	+	18	58
+	+	18	0
+	+	17	16
+	+	18	0
+	+	17	16
+	+	19	11
+
+> ~/college/m17/compilers/project/src/ast.h
+	*	1510578081	0
+	"	23	4
+	.	33	0
+	+	296	0
+	+	62	44
+	+	71	36
+	+	83	0
+	+	82	0
+	+	89	0
+	+	99	0
+	+	110	0
+	+	124	0
+	+	135	0
+	+	149	0
+	+	157	0
+	+	167	0
+	+	175	0
+	+	189	0
+	+	197	0
+	+	206	0
+	+	216	0
+	+	228	0
+	+	237	0
+	+	244	0
+	+	253	0
+	+	274	0
+	+	283	0
+	+	295	0
+	+	303	0
+	+	313	0
+	+	322	0
+	+	34	0
+	+	33	0
+
+> ~/college/m17/compilers/project/src/file.ll
+	*	1510576263	0
+	"	47	0
+	^	38	22
+	.	38	21
+	+	39	11
+	+	59	0
+	+	62	0
+	+	61	23
+	+	39	0
+	+	38	21
+
+> ~/college/m17/database-systems/hw/4-joins/join.hpp
+	*	1510574711	0
+	"	47	0
+	^	111	14
+	.	111	13
+	+	104	16
+	+	96	0
+	+	99	32
+	+	105	22
+	+	108	0
+	+	91	43
+	+	114	0
+	+	113	23
+	+	107	34
+	+	108	0
+	+	42	33
+	+	41	0
+	+	42	52
+	+	62	0
+	+	42	0
+	+	62	0
+	+	44	34
+	+	46	0
+	+	45	43
+	+	47	34
+	+	49	0
+	+	44	16
+	+	47	16
+	+	48	0
+	+	51	70
+	+	24	15
+	+	26	0
+	+	25	36
+	+	52	49
+	+	55	0
+	+	52	47
+	+	55	0
+	+	62	0
+	+	57	18
+	+	61	0
+	+	60	0
+	+	58	32
+	+	55	0
+	+	53	40
+	+	37	50
+	+	38	0
+	+	55	0
+	+	54	53
+	+	55	0
+	+	66	65
+	+	80	0
+	+	55	0
+	+	66	62
+	+	80	0
+	+	77	18
+	+	76	0
+	+	67	25
+	+	75	0
+	+	76	0
+	+	75	0
+	+	68	29
+	+	73	0
+	+	69	18
+	+	68	22
+	+	70	51
+	+	71	26
+	+	70	31
+	+	71	53
+	+	74	0
+	+	72	37
+	+	55	35
+	+	29	5
+	+	30	0
+	+	3	16
+	+	24	9
+	+	72	33
+	+	1	0
+	+	24	0
+	+	58	0
+	+	38	0
+	+	15	0
+	+	12	25
+	+	54	46
+	+	66	37
+	+	67	23
+	+	66	54
+	+	67	22
+	+	68	29
+	+	70	0
+	+	67	17
+	+	68	21
+	+	76	10
+	+	77	12
+	+	60	0
+	+	55	0
+	+	78	13
+	+	79	13
+	+	78	0
+	+	60	0
+	+	59	67
+	+	87	0
+	+	111	65
+	+	106	31
+	+	59	17
+	+	111	13
+
+> ~/college/m17/database-systems/hw/4-joins/sort.hpp
+	*	1510569854	0
+	"	121	0
+	.	76	0
+	+	101	0
+	+	99	0
+	+	111	46
+	+	114	0
+	+	99	0
+	+	100	0
+	+	110	17
+	+	114	0
+	+	113	21
+	+	112	50
+	+	113	29
+	+	108	14
+	+	8	0
+	+	7	14
+	+	89	20
+	+	7	0
+	+	98	53
+	+	98	13
+	+	97	36
+	+	98	75
+	+	97	20
+	+	98	83
+	+	104	42
+	+	99	22
+	+	104	0
+	+	103	0
+	+	91	61
+	+	92	0
+	+	92	24
+	+	91	27
+	+	92	0
+	+	45	32
+	+	40	28
+	+	65	12
+	+	37	29
+	+	45	47
+	+	48	0
+	+	46	51
+	+	49	17
+	+	64	0
+	+	50	32
+	+	47	25
+	+	45	50
+	+	47	28
+	+	50	68
+	+	51	33
+	+	54	0
+	+	52	33
+	+	55	26
+	+	65	0
+	+	56	0
+	+	59	26
+	+	62	31
+	+	47	27
+	+	65	0
+	+	45	52
+	+	4	0
+	+	47	20
+	+	50	0
+	+	55	27
+	+	64	0
+	+	63	50
+	+	45	51
+	+	118	0
+	+	103	0
+	+	108	46
+	+	92	39
+	+	108	0
+	+	57	26
+	+	51	63
+	+	26	0
+	+	51	27
+	+	52	32
+	+	41	27
+	+	53	36
+	+	76	48
+	+	41	0
+	+	45	0
+	+	51	0
+	+	60	16
+	+	61	28
+	+	42	29
+	+	44	30
+	+	76	0
+	+	76	26
+	+	76	44
+	+	43	25
+	+	48	30
+	+	76	48
+	+	48	0
+	+	43	0
+	+	76	0
+	+	51	24
+	+	67	26
+	+	68	0
+	+	74	0
+	+	76	0
+	+	51	0
+	+	69	0
+	+	76	0
+
+> ~/college/m17/database-systems/hw/4-joins/buffer.hpp
+	*	1510569788	0
+	"	172	0
+	.	162	0
+	+	93	0
+	+	158	65
+	+	159	0
+	+	160	0
+	+	134	35
+	+	134	0
+	+	69	41
+	+	72	14
+	+	69	40
+	+	72	0
+	+	69	40
+	+	72	43
+	+	69	66
+	+	72	0
+	+	168	19
+	+	78	0
+	+	77	59
+	+	88	18
+	+	69	41
+	+	72	0
+	+	69	40
+	+	72	0
+	+	70	31
+	+	72	0
+	+	70	34
+	+	72	0
+	+	70	34
+	+	93	0
+	+	78	13
+	+	78	0
+	+	92	25
+	+	93	0
+	+	77	0
+	+	13	49
+	+	13	0
+	+	30	0
+	+	29	0
+	+	30	0
+	+	35	46
+	+	35	0
+	+	35	28
+	+	35	34
+	+	35	20
+	+	31	19
+	+	35	0
+	+	31	24
+	+	33	8
+	+	35	0
+	+	34	20
+	+	31	17
+	+	34	0
+	+	31	17
+	+	34	19
+	+	33	0
+	+	32	0
+	+	37	21
+	+	43	0
+	+	39	25
+	+	41	0
+	+	38	21
+	+	41	0
+	+	40	29
+	+	42	19
+	+	43	0
+	+	42	0
+	+	37	11
+	+	172	0
+	+	172	40
+	+	172	0
+	+	172	11
+	+	172	20
+	+	172	0
+	+	172	20
+	+	172	0
+	+	172	41
+	+	172	17
+	+	172	21
+	+	172	34
+	+	172	0
+	+	172	51
+	+	172	0
+	+	13	0
+	+	171	40
+	+	171	0
+	+	45	0
+	+	44	0
+	+	45	18
+	+	50	16
+	+	54	12
+	+	56	8
+	+	66	21
+	+	75	22
+	+	126	17
+	+	66	17
+	+	71	20
+	+	131	19
+	+	66	17
+	+	135	22
+	+	154	0
+	+	162	0
+
+> ~/college/m17/database-systems/hw/4-joins/Makefile
+	*	1510569499	0
+	"	19	53
+	^	19	54
+	.	19	53
+	+	1	5
+	+	2	17
+	+	8	26
+	+	12	0
+	+	8	45
+	+	9	46
+	+	10	38
+	+	11	38
+	+	13	28
+	+	16	0
+	+	14	42
+	+	15	29
+	+	4	12
+	+	23	22
+	+	24	12
+	+	25	14
+	+	4	16
+	+	10	0
+	+	15	0
+	+	6	23
+	+	17	33
+	+	21	0
+	+	20	0
+	+	18	0
+	+	20	0
+	+	18	47
+	+	20	0
+	+	19	53
+
+> ~/.xmonad/xmonad.hs
+	*	1510568171	0
+	"	60	1
+
+> ~/.xmonad/xmonad.h
+	*	1510568142	0
+	"	1	0
+
+> ~/.xmobarrc
+	*	1510568129	0
+	"	1	0
+	^	1	25
+	.	1	24
+	+	1	24
+
+> /usr/share/xsessions/awesome.desktop
+	*	1510567949	0
+	"	1	0
+
+> /usr/share/xsessions/xmonad.desktop
+	*	1510567949	0
+	"	3	10
+	^	5	11
+	.	5	10
+	+	1	0
+	+	2	10
+	+	3	20
+	+	4	13
+	+	5	10
+
+> ~/list
+	*	1510561900	0
+	"	1	0
+	^	121	40
+	.	1	0
+	+	1	5141
+	+	1	5158
+	+	1	5172
+	+	1	5188
+	+	1	5211
+	+	1	5230
+	+	1	5245
+	+	1	5263
+	+	1	5287
+	+	1	5309
+	+	1	5331
+	+	1	5358
+	+	1	5379
+	+	1	5399
+	+	1	5417
+	+	1	5436
+	+	1	5451
+	+	1	5468
+	+	1	5481
+	+	1	5496
+	+	1	5518
+	+	1	5540
+	+	1	5561
+	+	1	5581
+	+	1	5599
+	+	1	5624
+	+	1	5643
+	+	1	5664
+	+	1	5681
+	+	1	5699
+	+	1	5719
+	+	1	5737
+	+	1	5762
+	+	1	5788
+	+	1	5808
+	+	1	5820
+	+	1	5840
+	+	1	5859
+	+	1	5890
+	+	1	5905
+	+	1	5921
+	+	1	5942
+	+	1	5961
+	+	1	5987
+	+	1	6017
+	+	1	6037
+	+	1	6053
+	+	1	6067
+	+	1	6086
+	+	1	6103
+	+	1	6116
+	+	1	6137
+	+	1	6164
+	+	1	6186
+	+	1	6215
+	+	1	6239
+	+	1	6260
+	+	1	6274
+	+	1	6291
+	+	1	6306
+	+	1	6333
+	+	1	6349
+	+	1	6362
+	+	1	6378
+	+	1	6398
+	+	1	6415
+	+	1	6438
+	+	1	6457
+	+	1	6469
+	+	1	6488
+	+	1	6514
+	+	1	6542
+	+	1	6555
+	+	1	6569
+	+	1	6588
+	+	1	6609
+	+	1	6625
+	+	1	6643
+	+	1	6669
+	+	1	6694
+	+	1	6717
+	+	1	6736
+	+	1	6756
+	+	1	6771
+	+	1	6789
+	+	1	6812
+	+	1	6832
+	+	1	6857
+	+	1	6875
+	+	536	0
+	+	5	0
+	+	535	0
+	+	1	0
+	+	125	0
+	+	41	0
+	+	121	4
+	+	122	4
+	+	121	40
+	+	122	39
+	+	1	0
+
+> ~/college/m17/compilers/project/README.md
+	*	1510557660	0
+	"	52	0
+
+> ~/college/m17/compilers/project/sample.b
+	*	1510557657	0
+	"	65	0
+	^	60	34
+	.	66	0
+	+	1	0
+	+	8	18
+	+	2	24
+	+	3	34
+	+	14	29
+	+	19	10
+	+	25	20
+	+	34	13
+	+	52	43
+	+	57	19
+	+	60	33
+	+	66	0
+
+> ~/.cabal/config
+	*	1510555941	0
+	"	50	2
+	^	50	3
+	.	50	2
+	+	35	0
+	+	37	11
+	+	35	21
+	+	38	23
+	+	50	21
+	+	78	16
+	+	50	0
+	+	78	2
+	+	50	2
+
+> ~/college/m17/compilers/project/Report.md
+	*	1510555023	0
+	"	8	0
+	^	8	0
+	.	8	0
+	+	2	2
+	+	1	5
+	+	5	10
+	+	8	0
+
+> ~/.config/openbox/autostart
+	*	1510552094	0
+	"	1	19
+	^	1	20
+	.	1	19
+	+	1	19
+
+> /opt/haskell/global-project/stack.yaml
+	*	1510551099	0
+	"	2	0
+
+> /opt/haskell/global-project/README.txt
+	*	1510551046	0
+	"	1	0
+
+> /opt/haskell/global-project/con
+	*	1510551040	0
+	"	1	0
+
+> /etc/environment
+	*	1510550613	0
+	"	5	0
+
+> ~/.stack/config.yaml
+	*	1510550368	0
+	"	4	0
+
+> /usr/include/llvm/IR/Instructions.h
+	*	1510496185	0
+	"	952	31
+
+> ~/college/m17/compilers/project/src/visitor.h
+	*	1510495982	0
+	"	180	0
+	.	209	0
+	+	18	0
+	+	133	44
+	+	104	16
+	+	131	0
+	+	131	31
+	+	131	15
+	+	133	0
+	+	140	0
+	+	146	18
+	+	173	43
+	+	167	41
+	+	133	23
+	+	133	0
+	+	131	0
+	+	133	0
+	+	131	17
+	+	131	0
+	+	131	16
+	+	131	31
+	+	214	34
+	+	214	0
+	+	214	33
+	+	214	0
+	+	131	0
+	+	105	20
+	+	108	16
+	+	107	24
+	+	214	0
+	+	123	43
+	+	125	0
+	+	123	42
+	+	125	0
+	+	124	44
+	+	124	28
+	+	124	24
+	+	124	50
+	+	124	6
+	+	127	26
+	+	129	0
+	+	130	0
+	+	129	0
+	+	128	28
+	+	128	51
+	+	122	0
+	+	113	0
+	+	115	0
+	+	114	23
+	+	116	4
+	+	115	0
+	+	116	0
+	+	122	25
+	+	122	0
+	+	122	25
+	+	131	0
+	+	110	0
+	+	122	0
+	+	122	39
+	+	122	19
+	+	122	31
+	+	122	46
+	+	115	16
+	+	122	28
+	+	122	12
+	+	122	16
+	+	122	62
+	+	115	38
+	+	116	0
+	+	124	34
+	+	124	49
+	+	125	0
+	+	129	0
+	+	122	19
+	+	122	0
+	+	118	26
+	+	120	0
+	+	119	28
+	+	120	0
+	+	119	29
+	+	120	0
+	+	196	30
+	+	207	0
+	+	206	0
+	+	197	0
+	+	206	0
+	+	205	22
+	+	196	32
+	+	204	40
+	+	202	28
+	+	150	29
+	+	209	26
+	+	209	0
+	+	209	27
+	+	209	0
+
+> ~/college/m17/compilers/project/test-units/simple-read.b
+	*	1510489728	0
+	"	1	0
+	^	7	20
+	.	7	19
+	+	1	11
+	+	3	4
+	+	3	0
+	+	2	9
+	+	5	11
+	+	8	4
+	+	8	0
+	+	7	13
+	+	8	0
+	+	7	19
+
+> ~/college/m17/compilers/project/test-units/99-bottles.b
+	*	1510485342	0
+	"	1	0
+	^	13	14
+	.	13	13
+	+	13	13
+
+> ~/sandbox/llvm_compiler/src/llvmv.hpp
+	*	1510475848	0
+	"	238	93

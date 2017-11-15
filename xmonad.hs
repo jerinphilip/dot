@@ -44,23 +44,34 @@ main = do
             ((mod4Mask, xK_z), toggleWS), 
             ((mod4Mask .|. controlMask, xK_Right),        -- a crazy keybinding!
                do t <- findWorkspace getSortByXineramaRule Next NonEmptyWS 2
-                  windows . view $ t)
+                  windows . view $ t), 
+            ((mod4Mask .|. shiftMask, xK_r      ), renameWorkspace def)
             ]
 
     xmproc <- spawnPipe "xmobar /home/jerin/.xmobarrc"
     tray <- spawn "stalonetray -c /home/jerin/.stalonetrayrc" -- SystemTray
     dunst <- spawn "dunst -config /home/jerin/.config/dunst/dunstrc" --Notifications
 
-    let tabConfig = defaultTheme {   inactiveBorderColor = "#FF0000"
-                          , activeTextColor = "#00FF00"
-                          , fontName = "Terminus"}
+    let tabConfig = defaultTheme {
+        activeBorderColor = "#7C7C7C",
+        activeTextColor = "#CEFFAC",
+        activeColor = "#000000",
+        inactiveBorderColor = "#7C7C7C",
+        inactiveTextColor = "#EEEEEE",
+        inactiveColor = "#000000"
+    }
+
 
     xmonad $ defaultConfig {
         manageHook = manageDocks <+> (isFullscreen --> doFullFloat)  <+> manageHook defaultConfig,
-        layoutHook = avoidStruts $ smartBorders $ toggleLayouts Full $ (tabbed shrinkText tabConfig ||| layoutHook defaultConfig),
+        layoutHook = avoidStruts $ 
+                        smartBorders $ 
+                            toggleLayouts Full $ 
+                                (tabbed shrinkText tabConfig ||| layoutHook defaultConfig),
         handleEventHook = mconcat
                           [ docksEventHook
                           , handleEventHook defaultConfig ],
+        -- logHook = workspaceNamesPP xmobarPP >>= dynamicLogString >>= xmonadPropLog,
         logHook = dynamicLogWithPP xmobarPP
                     { 
                         ppOutput = hPutStrLn xmproc,

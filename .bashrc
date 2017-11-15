@@ -5,11 +5,10 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-PS1='[\u@\h \W]\$ '
+#PS1='[\u@\h \W]\$ '
+PS1="[\u@\h \W]\$ "
 
 
-export EDITOR='vim'
-export TERM='xterm-256color'
 
 source ~/.shell/aliases.sh
 export PATH="$PATH:/home/jerin/.gem/ruby/2.3.0/bin:/home/jerin/.cabal/bin"

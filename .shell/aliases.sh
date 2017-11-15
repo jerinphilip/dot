@@ -12,3 +12,5 @@ alias fucking='sudo'
 
 alias pastebin='curl -F c=@- https://ptpb.pw'
 alias du_summary='du -h -d 1 . 2> /dev/null | sort -h'
+
+alias hpacman='sudo cabal install --global --enable-documentation'

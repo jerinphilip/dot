@@ -1,4 +1,4 @@
-Xft.dpi:100
+Xft.dpi:96
 Xft.antialias: true
 Xft.hinting: true
 Xft.lcdfilter: lcddefault
@@ -7,7 +7,7 @@ URxvt*termName:                       screen-256color
 URxvt*geometry:						  80x24
 ! URxvt*chdir:                          string
 ! URxvt*reverseVideo:                   boolean
-! URxvt*loginShell:                     boolean
+URxvt*loginShell:                     true
 ! URxvt*multiClickTime:                 number
 ! URxvt*jumpScroll:                     boolean
 ! URxvt*skipScroll:                     boolean

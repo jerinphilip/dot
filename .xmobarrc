@@ -1,4 +1,4 @@
-Config { font = "xft:xos4 Terminus:size=9:antialias=true"
+Config { font = "xft:Hack:style=Regular:size=9:antialias=true"
        , additionalFonts = []
        , borderColor = "black"
        , border = TopB
