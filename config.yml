@@ -22,6 +22,7 @@ existing:
             - .emacs.d: /home/jerin/.emacs.d
             - .shell: /home/jerin/.shell
             - awesome: /home/jerin/.config/awesome
+            - openbox: /home/jerin/.config/openbox
 
     protected:
         files:

@@ -21,9 +21,9 @@ $|
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1510680932,,"wq"
+|2,0,1510715234,,"wq"
 :w
-|2,0,1510680929,,"w"
+|2,0,1510715202,,"w"
 :q
 |2,0,1510680490,,"q"
 :qa
@@ -332,40 +332,66 @@ $|
 |3,0,36,0,1,0,1510680485,"image"
 
 # File marks:
-'0  31  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,48,31,0,1510680932,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
-'1  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,49,1,0,1510680715,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
-'2  1  0  ~/college/m17/topics-ml/hw/3-gridworld/README.md
-|4,50,1,0,1510680706,"~/college/m17/topics-ml/hw/3-gridworld/README.md"
-'3  1  0  ~/college/m17/topics-ml/hw/3-gridworld/postproc.py
-|4,51,1,0,1510680704,"~/college/m17/topics-ml/hw/3-gridworld/postproc.py"
-'4  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,52,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+'0  27  13  ~/repo/dot/config.yml
+|4,48,27,13,1510715234,"~/repo/dot/config.yml"
+'1  31  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,49,31,0,1510680932,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+'2  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,50,1,0,1510680715,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+'3  1  0  ~/college/m17/topics-ml/hw/3-gridworld/README.md
+|4,51,1,0,1510680706,"~/college/m17/topics-ml/hw/3-gridworld/README.md"
+'4  1  0  ~/college/m17/topics-ml/hw/3-gridworld/postproc.py
+|4,52,1,0,1510680704,"~/college/m17/topics-ml/hw/3-gridworld/postproc.py"
 '5  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
 |4,53,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
 '6  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
 |4,54,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
-'7  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,55,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
-'8  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,56,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
-'9  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,57,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+'7  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,55,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+'8  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,56,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+'9  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,57,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
 
 # Jumplist (newest first):
+-'  27  13  ~/repo/dot/config.yml
+|4,39,27,13,1510715234,"~/repo/dot/config.yml"
+-'  32  30  ~/repo/dot/config.yml
+|4,39,32,30,1510715201,"~/repo/dot/config.yml"
+-'  1  0  ~/repo/dot/config.yml
+|4,39,1,0,1510715156,"~/repo/dot/config.yml"
+-'  31  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,31,0,1510680932,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
 -'  31  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
 |4,39,31,0,1510680932,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
 -'  134  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
 |4,39,134,0,1510680727,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  134  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,134,0,1510680727,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
 -'  11  2  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
 |4,39,11,2,1510680720,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  11  2  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,11,2,1510680720,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,1,0,1510680715,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
 -'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
 |4,39,1,0,1510680715,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
 -'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/README.md
 |4,39,1,0,1510680706,"~/college/m17/topics-ml/hw/3-gridworld/README.md"
 -'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/README.md
 |4,39,1,0,1510680706,"~/college/m17/topics-ml/hw/3-gridworld/README.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/README.md
+|4,39,1,0,1510680706,"~/college/m17/topics-ml/hw/3-gridworld/README.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/README.md
+|4,39,1,0,1510680706,"~/college/m17/topics-ml/hw/3-gridworld/README.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/postproc.py
+|4,39,1,0,1510680704,"~/college/m17/topics-ml/hw/3-gridworld/postproc.py"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/postproc.py
+|4,39,1,0,1510680704,"~/college/m17/topics-ml/hw/3-gridworld/postproc.py"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/postproc.py
+|4,39,1,0,1510680704,"~/college/m17/topics-ml/hw/3-gridworld/postproc.py"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/postproc.py
+|4,39,1,0,1510680704,"~/college/m17/topics-ml/hw/3-gridworld/postproc.py"
 -'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/postproc.py
 |4,39,1,0,1510680704,"~/college/m17/topics-ml/hw/3-gridworld/postproc.py"
 -'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/postproc.py
@@ -376,6 +402,10 @@ $|
 |4,39,1,0,1510680704,"~/college/m17/topics-ml/hw/3-gridworld/postproc.py"
 -'  13  9  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
 |4,39,13,9,1510680488,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  13  9  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,13,9,1510680488,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,1,0,1510680480,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
 -'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
 |4,39,1,0,1510680480,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
 -'  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
@@ -390,6 +420,26 @@ $|
 |4,39,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
 -'  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
 |4,39,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,1,0,1510680433,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,1,0,1510680433,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,1,0,1510680433,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,1,0,1510680433,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
 -'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
 |4,39,1,0,1510680433,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
 -'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
@@ -422,6 +472,38 @@ $|
 |4,39,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
 -'  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
 |4,39,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,1,0,1510680404,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,1,0,1510680404,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,1,0,1510680404,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,1,0,1510680404,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
 -'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
 |4,39,1,0,1510680404,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
 -'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
@@ -462,100 +544,25 @@ $|
 |4,39,14,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
 -'  14  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
 |4,39,14,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  133  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,133,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  131  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,131,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  125  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,125,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  123  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,123,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  125  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,125,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  123  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,123,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  123  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,123,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  125  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,125,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  123  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,123,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  123  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,123,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  125  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,125,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  123  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,123,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  123  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,123,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  125  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,125,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  123  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,123,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  123  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,123,0,1510680345,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  29  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,29,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  23  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,23,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  21  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,21,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  23  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,23,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  21  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,21,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  21  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,21,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  23  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,23,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  21  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,21,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  21  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,21,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  23  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,23,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  21  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,21,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  21  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,21,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  23  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,23,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  21  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,21,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  21  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,21,0,1510680344,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  132  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,132,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  130  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,130,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  124  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,124,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  122  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,122,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  124  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,124,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  122  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,122,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  122  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,122,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,1,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  124  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,124,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  122  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,122,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  122  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,122,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,1,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  124  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,124,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  122  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,122,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  122  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,122,0,1510680255,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  16  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,16,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  14  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,14,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  16  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,16,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  14  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,14,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+-'  16  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
+|4,39,16,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
 
 # History of marks within files (newest to oldest):
+
+> ~/repo/dot/config.yml
+	*	1510715233	0
+	"	27	13
+	.	32	0
+	+	25	49
+	+	32	0
 
 > ~/college/m17/topics-ml/hw/3-gridworld/Report.md
 	*	1510680932	0
@@ -3101,7 +3108,3 @@ $|
 	^	13	14
 	.	13	13
 	+	13	13
-
-> ~/sandbox/llvm_compiler/src/llvmv.hpp
-	*	1510475848	0
-	"	238	93
