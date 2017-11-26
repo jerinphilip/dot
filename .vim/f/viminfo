@@ -11,217 +11,217 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0/\<qlearn\>
+~MSle0~/xmonad
 
 # Last Substitute Search Pattern:
-~MSle0~&^
+~MSle0&".*
 
 # Last Substitute String:
-$|
+$
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1510715234,,"wq"
+|2,0,1511671602,,"wq"
 :w
-|2,0,1510715202,,"w"
+|2,0,1511669109,,"w"
 :q
-|2,0,1510680490,,"q"
+|2,0,1511669016,,"q"
+:qk
+|2,0,1511666929,,"qk"
+:52
+|2,0,1511666679,,"52"
+:!
+|2,0,1511665746,,"!"
+:tabnew ~/.xmobarrc
+|2,0,1511665256,,"tabnew ~/.xmobarrc"
+:%s/".*//g
+|2,0,1511665030,,"%s/\".*//g"
+:%s/".*/g
+|2,0,1511665023,,"%s/\".*/g"
+:tabnew ~/.xmonad/autostart
+|2,0,1511664995,,"tabnew ~/.xmonad/autostart"
 :qa
-|2,0,1510680472,,"qa"
-:!ls exps/
-|2,0,1510680436,,"!ls exps/"
+|2,0,1511601614,,"qa"
 :q!
-|2,0,1510679776,,"q!"
-:'<,'>Tabularize /|
-|2,0,1510679770,,"'<,'>Tabularize /|"
-:tabnew out
-|2,0,1510679664,,"tabnew out"
-:'<,'>
-|2,0,1510679403,,"'<,'>"
-:,G Tabularize /|
-|2,0,1510679357,,",G Tabularize /|"
-:Tabularize /|
-|2,0,1510679350,,"Tabularize /|"
-:'<,'>s/^/|/g
-|2,0,1510679339,,"'<,'>s/^/|/g"
-:'<,'>s/$/|/g
-|2,0,1510679333,,"'<,'>s/$/|/g"
-:'<,'>s/\t/|/g
-|2,0,1510679329,,"'<,'>s/\\t/|/g"
-:'<,'>Tabularize \|
-|2,0,1510679087,,"'<,'>Tabularize \\|"
-:'<,'>%s/\t/|/g
-|2,0,1510678816,,"'<,'>%s/\\t/|/g"
-:%s/\t
-|2,0,1510678805,,"%s/\\t"
-:s/
-|2,0,1510678801,,"s/"
-:'<,'>%s/\t/|
-|2,0,1510678648,,"'<,'>%s/\\t/|"
-:'<,'>s/policy/value/
-|2,0,1510678330,,"'<,'>s/policy/value/"
-:s/policy/value/g
-|2,0,1510678299,,"s/policy/value/g"
-:s/choose/policy/g
-|2,0,1510677199,,"s/choose/policy/g"
-:%s/choose/policy/g
-|2,0,1510677192,,"%s/choose/policy/g"
-:s/policy/policy/g
-|2,0,1510677184,,"s/policy/policy/g"
-:s/policy/policy
-|2,0,1510677178,,"s/policy/policy"
-:set ft=cpp
-|2,0,1510674818,,"set ft=cpp"
-:qw
-|2,0,1510668429,,"qw"
-:tabnew utils.py
-|2,0,1510668317,,"tabnew utils.py"
-:tabnew sarsa.py
-|2,0,1510667406,,"tabnew sarsa.py"
-:%skjqkkjjk
-|2,0,1510667989,,"%skjqkkjjk"
-:Tabularize /,
-|2,0,1510667980,,"Tabularize /,"
-:%s
-|2,0,1510667972,,"%s"
-:%s/exp
-|2,0,1510667675,,"%s/exp"
-:vsplit gridworld.py
-|2,0,1510660473,,"vsplit gridworld.py"
-:Wq
-|2,0,1510654816,,"Wq"
-:'<,'>s/args\.//g
-|2,0,1510653641,,"'<,'>s/args\\.//g"
+|2,0,1511600017,,"q!"
+:!make
+|2,0,1511583572,,"!make"
+:make
+|2,0,1511583557,,"make"
+:!make deploy
+|2,0,1511427058,,"!make deploy"
+:qa!
+|2,0,1511420003,,"qa!"
+:e
+|2,0,1511419973,,"e"
+:34
+|2,0,1511416118,,"34"
+::wq
+|2,0,1511413203,,":wq"
+:%s/(.*)//g
+|2,0,1511413201,,"%s/(.*)//g"
+:%s/^\s*//g
+|2,0,1511413184,,"%s/^\\s*//g"
+:%s/^\s+//g
+|2,0,1511413181,,"%s/^\\s+//g"
+:%s/:.*//g
+|2,0,1511413175,,"%s/:.*//g"
+:%s/:*//g
+|2,0,1511413171,,"%s/:*//g"
+:tabnew journal/topics-in-ml/notes/basics.md
+|2,0,1511100217,,"tabnew journal/topics-in-ml/notes/basics.md"
+:tabn
+|2,0,1511100213,,"tabn"
+:tabnew journal/topics-in-ml/notes/dynamic-programming.md
+|2,0,1511100191,,"tabnew journal/topics-in-ml/notes/dynamic-programming.md"
+:'<,'>s/$/\\\\ /
+|2,0,1511098955,,"'<,'>s/$/\\\\\\\\ /"
+:'<,'>%s/$/\\\\ /
+|2,0,1511098950,,"'<,'>%s/$/\\\\\\\\ /"
+:'<,'>%s/$/\\\\/
+|2,0,1511098944,,"'<,'>%s/$/\\\\\\\\/"
+:'<,'>%s/$/\/\//
+|2,0,1511098925,,"'<,'>%s/$/\\/\\//"
+:'<,'>%s/$/\/\//g
+|2,0,1511098509,,"'<,'>%s/$/\\/\\//g"
+:tabnew journal/topics-in-ml/notes/solutions.md
+|2,0,1511093232,,"tabnew journal/topics-in-ml/notes/solutions.md"
+:!make depoy
+|2,0,1511093104,,"!make depoy"
+:.!
+|2,0,1511073591,,".!"
+:tabnew journal/topics-in-ml/notes/monte-carlo.md
+|2,0,1511067808,,"tabnew journal/topics-in-ml/notes/monte-carlo.md"
+:%s/S_t
+|2,0,1511066416,,"%s/S_t"
+:wo
+|2,0,1511066272,,"wo"
+:tabnew journal/topics-in-ml/notes/td-learning.md
+|2,0,1511062914,,"tabnew journal/topics-in-ml/notes/td-learning.md"
 :wqa
-|2,0,1510652525,,"wqa"
-:tabnew qlearn.py
-|2,0,1510644610,,"tabnew qlearn.py"
-:Q
-|2,0,1510641884,,"Q"
-:'<,'>s/sarsa/algo/g
-|2,0,1510641487,,"'<,'>s/sarsa/algo/g"
-:tabnew agent.py
-|2,0,1510641345,,"tabnew agent.py"
-:tabnew 
-|2,0,1510641321,,"tabnew "
-:r sarsa.py
-|2,0,1510640990,,"r sarsa.py"
-:r 
-|2,0,1510640982,,"r "
-:s/choose/reward/g
-|2,0,1510636816,,"s/choose/reward/g"
-:s/update/choose/
-|2,0,1510636811,,"s/update/choose/"
-:def
-|2,0,1510636604,,"def"
-:tabnew gridworld.py
-|2,0,1510636470,,"tabnew gridworld.py"
-:%s/end/goal/g
-|2,0,1510635982,,"%s/end/goal/g"
-:'<,'>s/_agent/_params/g
-|2,0,1510628204,,"'<,'>s/_agent/_params/g"
+|2,0,1511163088,,"wqa"
+:!python 3.9.py
+|2,0,1511098464,,"!python 3.9.py"
+:!python states.py
+|2,0,1511095672,,"!python states.py"
+:!make serve
+|2,0,1511059666,,"!make serve"
+:ww
+|2,0,1510988633,,"ww"
+:s
+|2,0,1510976678,,"s"
+:W
+|2,0,1510851959,,"W"
+:!make 
+|2,0,1510836479,,"!make "
+:s/IN/OUT/
+|2,0,1510835166,,"s/IN/OUT/"
+:s/OUT/
+|2,0,1510835160,,"s/OUT/"
+:%s/KILL/\\text{KILL}/g
+|2,0,1510834344,,"%s/KILL/\\\\text{KILL}/g"
 
 # Search String History (newest to oldest):
-? ^
-|2,1,1510679339,,"^"
-? $
-|2,1,1510679333,,"$"
-? \t
-|2,1,1510679329,,"\\t"
-? \<qlearn\>
-|2,1,1510678871,,"\\<qlearn\\>"
-?/dsfsd
-|2,1,1510678862,47,"dsfsd"
-? /|/g
-|2,1,1510678702,,"/|/g"
-?/dsfds
-|2,1,1510678636,47,"dsfds"
-?/dsfs
-|2,1,1510678334,47,"dsfs"
-? policy
-|2,1,1510678330,,"policy"
-?/esar
-|2,1,1510677245,47,"esar"
-? choose
-|2,1,1510677199,,"choose"
-?/pro
-|2,1,1510673654,47,"pro"
-?/exp
-|2,1,1510667670,47,"exp"
-?/print
-|2,1,1510659582,47,"print"
-? args\.
-|2,1,1510653641,,"args\\."
-?/choose
-|2,1,1510652732,47,"choose"
-?/1-
-|2,1,1510641536,47,"1-"
-? sarsa
-|2,1,1510641487,,"sarsa"
-?/N
-|2,1,1510641369,47,"N"
-?/master
-|2,1,1510640355,47,"master"
-?/tki
-|2,1,1510640335,47,"tki"
-?/Canvas
-|2,1,1510640329,47,"Canvas"
-?/GUI
-|2,1,1510640153,47,"GUI"
-?/self.agent
-|2,1,1510640132,47,"self.agent"
-?/self
-|2,1,1510640129,47,"self"
-?/RandomW
-|2,1,1510640120,47,"RandomW"
-?/gridworld
-|2,1,1510640032,47,"gridworld"
-?/self/font
-|2,1,1510639931,47,"self/font"
-?/self.fond
-|2,1,1510639928,47,"self.fond"
-?/\<agents\>
-|2,1,1510639903,47,"\\<agents\\>"
-?/agents
-|2,1,1510639893,47,"agents"
-?/gui
-|2,1,1510639882,47,"gui"
-?/po
-|2,1,1510637642,47,"po"
-?/move
-|2,1,1510637166,47,"move"
-? update
-|2,1,1510636811,,"update"
-?/default
-|2,1,1510636606,47,"default"
-? end
-|2,1,1510635982,,"end"
-?/returns
-|2,1,1510635972,47,"returns"
+?/xmonad
+|2,1,1511671585,47,"xmonad"
 ? @$
-|2,1,1510628417,,"@$"
-? _agent
-|2,1,1510628204,,"_agent"
-? defaults
-|2,1,1510628014,,"defaults"
-?/legal
-|2,1,1510627442,47,"legal"
-?/sdfd
-|2,1,1510593999,47,"sdfd"
-? \s
-|2,1,1510593956,,"\\s"
-? ':
-|2,1,1510593939,,"':"
-? Perf.*non-trivial\/
-|2,1,1510593920,,"Perf.*non-trivial\\/"
-?/sdfsd
-|2,1,1510593889,47,"sdfsd"
-? \s*
-|2,1,1510593882,,"\\s*"
-? instructions.*
-|2,1,1510593869,,"instructions.*"
-? perf
-|2,1,1510593468,,"perf"
+|2,1,1511669013,,"@$"
+?/font
+|2,1,1511668031,47,"font"
+?/tabbed
+|2,1,1511667922,47,"tabbed"
+?/xwork
+|2,1,1511666806,47,"xwork"
+?/X
+|2,1,1511666785,47,"X"
+?/des
+|2,1,1511665911,47,"des"
+?/st
+|2,1,1511665909,47,"st"
+?/logHoo
+|2,1,1511665767,47,"logHoo"
+?/spawn
+|2,1,1511665067,47,"spawn"
+? ".*
+|2,1,1511665030,,"\".*"
+?/Hook
+|2,1,1511664850,47,"Hook"
+?/startup
+|2,1,1511664848,47,"startup"
+?/mu
+|2,1,1511602165,47,"mu"
+?/Manife
+|2,1,1511601574,47,"Manife"
+?/Experiment
+|2,1,1511583528,47,"Experiment"
+?/Exp
+|2,1,1511582782,47,"Exp"
+?/Thoug
+|2,1,1511582672,47,"Thoug"
+?/image based
+|2,1,1511582657,47,"image based"
+?/As mentioned
+|2,1,1511581636,47,"As mentioned"
+?/assignme
+|2,1,1511433624,47,"assignme"
+?/consiste
+|2,1,1511427503,47,"consiste"
+?/consider
+|2,1,1511427476,47,"consider"
+?/An
+|2,1,1511427416,47,"An"
+?/An errr
+|2,1,1511427414,47,"An errr"
+?/amsmath
+|2,1,1511427155,47,"amsmath"
+?/amssym
+|2,1,1511427153,47,"amssym"
+?/What mot
+|2,1,1511425318,47,"What mot"
+?/Intro
+|2,1,1511425222,47,"Intro"
+?/Gk
+|2,1,1511437079,47,"Gk"
+?/Dynamic
+|2,1,1511436939,47,"Dynamic"
+?/dyn
+|2,1,1511436903,47,"dyn"
+?/xmob
+|2,1,1511436859,47,"xmob"
+?/LogStrin
+|2,1,1511436776,47,"LogStrin"
+?/rename
+|2,1,1511436767,47,"rename"
+?/rname
+|2,1,1511436766,47,"rname"
+?/:34
+|2,1,1511416117,47,":34"
+?/al
+|2,1,1511416114,47,"al"
+?/port
+|2,1,1511416079,47,"port"
+?/em
+|2,1,1511415669,47,"em"
+?/email
+|2,1,1511415446,47,"email"
+?/AssignedQu
+|2,1,1511415260,47,"AssignedQu"
+?/assigned_question
+|2,1,1511415231,47,"assigned_question"
+?/Assig
+|2,1,1511415223,47,"Assig"
+?/old-de
+|2,1,1511415178,47,"old-de"
+?/DATA
+|2,1,1511415136,47,"DATA"
+?/as
+|2,1,1511414376,47,"as"
+? (.*)
+|2,1,1511413201,,"(.*)"
+? ^\s*
+|2,1,1511413184,,"^\\s*"
+? ^\s+
+|2,1,1511413181,,"^\\s+"
 
 # Expression History (newest to oldest):
 
@@ -239,45 +239,46 @@ $|
 
 # Registers:
 "0	LINE	0
-	!(image)[exps/mean_rewards.png]
-|3,0,0,1,1,0,1510680375,"!(image)[exps/mean_rewards.png]"
+	        fontname = "
+|3,0,0,1,1,0,1511669013,"        fontname = \""
 ""1	LINE	0
-	
-|3,1,1,1,1,0,1510680732,""
+	            - xmonad.hs: /home/jerin/.xmonad/xmonad.hs
+|3,1,1,1,1,0,1511671592,"            - xmonad.hs: /home/jerin/.xmonad/xmonad.hs"
 "2	LINE	0
-	# Impact of epsio
-|3,0,2,1,1,0,1510680726,"# Impact of epsio"
+	            - xmonad.hs: /home/jerin/.xmonad/xmonad.hs
+|3,0,2,1,1,0,1511671588,"            - xmonad.hs: /home/jerin/.xmonad/xmonad.hs"
 "3	LINE	0
-	
-|3,0,3,1,1,0,1510680455,""
+	killall stalonetray
+|3,0,3,1,1,0,1511669111,"killall stalonetray"
 "4	LINE	0
-	The following graph
-|3,0,4,1,1,0,1510680454,"The following graph"
+	killall dunst
+|3,0,4,1,1,0,1511669107,"killall dunst"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1510680053,""
+	killall stalonetray
+|3,0,5,1,1,0,1511669106,"killall stalonetray"
 "6	LINE	0
-	</div>
-|3,0,6,1,1,0,1510680053,"</div>"
+	        fontname = "
+|3,0,6,1,1,0,1511667994,"        fontname = \""
 "7	LINE	0
-	<div width="50%">
-|3,0,7,1,1,0,1510680051,"<div width=\"50%\">"
-"8	LINE	0
-	```
-	>vvv
-	>>>v
-	^>vv
-	^>>v
-|3,0,8,1,5,0,1510680024,"```",">vvv",">>>v","^>vv","^>>v"
-"9	LINE	0
-	>vvv
-	>>>v
-	^>vv
-	^>>v
-|3,0,9,1,4,0,1510680021,">vvv",">>>v","^>vv","^>>v"
+	
+|3,0,7,1,1,0,1511667966,""
+"8	BLOCK	2
+	-- 
+	-- 
+	-- 
+	-- 
+	-- 
+	-- 
+	-- 
+|3,0,8,2,7,2,1511665742,"-- ","-- ","-- ","-- ","-- ","-- ","-- "
+"9	BLOCK	0
+	"
+	"
+	"
+|3,0,9,2,3,0,1511665019,"\"","\"","\""
 "a@	CHAR	0
 	Vjjj:s/\t/|/g:€ku€kl€kl€kl€kl€kb€kb^":€ku:€ku€kl€kl€kl€kl€kb$
-|3,2,10,0,1,0,1510678701,"Vjjj:s/\\t/|/g:€ku€kl€kl€kl€kl€kb€kb^\":€ku:€ku€kl€kl€kl€kl€kb$"
+|3,2,10,0,1,0,1511583525,"Vjjj:s/\\t/|/g:€ku€kl€kl€kl€kl€kb€kb^\":€ku:€ku€kl€kl€kl€kl€kb$"
 "b	CHAR	0
 	iCHECK_INCLUDE_FILES()
 |3,0,11,0,1,0,1493455540,"iCHECK_INCLUDE_FILES()"
@@ -292,19 +293,9 @@ $|
 	    
 	    };
 |3,0,14,1,3,0,1507184912,"    class expr: public node{","    ","    };"
-"g	CHAR	0
-	j
-|3,0,16,0,1,0,1504445106,"j"
 "j	CHAR	0
-	2469
-<Gkkkkkkkkj€kdjjlllllllllllcefor:w:wkj€ku€ku€ku€ku€ku€kuh€kuhhkkkkkkkkkkkkjjj:wjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkhhrEjlu:wGkkkkkkkkkkkkkkkkkllllllllllxjjjjxjjjjlxuhxlli_kkkkllli_jjjjjjjjjhklllllllllhxllli_:wkkkkkkkkhhhi_llllllxjjjjhhhhxhhi_jjjjlhi_llllx:w:wkkkkkkkkhhhhxllllli_jjjjhhhhhxlli_jjjjhhxllli_:w:wj:wgtgTjoclass print: pb€kbub st:€kb {AA€kb}i:wA;:woclss€kb€kbass printlngtkkkkgT:wkjA €kbL €kb€kb: public statement {}i:wA;:w:wkk:wkkkkkkkkostatement init;conditddkoexpren€kbssion condition;:wjddkoepre€kb€kb€kbxpression update;:wgtgTocode* kkkjhce*jce*:wkkllllli*:wjjjA €kbcode;€kb€kb€kb€kb€kbblock;:w:wofor_(statement *ini€kb€kb, expr *e€kbcond, exr€kbpr *s€kbu€kbstep): (hhhi,hhhhhhhhhhhhhhhhhhhhhhilllllllllllllilllllllllllliexpr *blok€kb€kb€kbA€kbco€kb€kbinit(i), cond(cond)hhhhhhhhhhhhhhhhhhhhhllllllliuAkkkkkkhkhcejhhhcesta€kbepjjjjlljllllxxxkxxx:wkjjjlAhhhhhhhhhhhllhct(lllhci)*€kbcA, s(€kbtep(s), b(€kb€kbblock(b){}:w:wkkkkkkkkkkkkkkkk:wkjjjjjkkjkoeddoexpr *cond;code *block;oif_(s€kbkjAcond€kb€kb€kb€kbc€kbexprA *c, code *b){}€kb€kb:cond(c), block(b) €kb{}:wkdd:wkkjj:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkjjjJJJllllllllllliAhhhhhhhhhhhhhhhhhhhhhhhhhh:wkkkkkkkkkkkkjlllllllllllllhhhhhi :wkxxJ:whh:wkkkkkkkoexpr *cond;kdd:wocode *blcok€kb€kb€kbock;dddd:wkjjjjjjyykkkkkkp:wkkkkkoclass cond{}hxhi:at€kbs€kb€kb€kbp€kb:public node:whhhcestatementhhhhhhhhhhhhhhhi :whiitional:wjjljkkkddddkuuuuuuhli: bu€kb€kbpublichhhhhhhhhhhcecn€kbl€kbblockAAhi statemt€kbnet:whhhlxlin:wjkA€kb€kb{}ikjjjjVjdkkkkkpjjddjjllllllllllllllllllllllhct{cblockjjjjh€kd€kd€kd€kdhhh€kdhhhhjVjdklllllllllllllllhcecblock:w:w:wk;w:wkkkkxxiwhile:w:wjjjjjjjjj:w:w:wkkkkkkkk:w:wkkk:w:wkkkkkj:whh:w:wjjjjj:wjjjjjjdd:wkk:wgtjjggGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkgTjjjjjjjkk:wjkkjjgtkkkkkkkkkkkkkkkkkkkkkkkkk:wggTkk:w:wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkj:wk:wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjj:wkkkkkkkkk:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj:wkj:w
-|3,0,19,0,1,0,1507184794,>2468
-|<"Gkkkkkkkkj€kdjjlllllllllllcefor:w:wkj€ku€ku€ku€ku€ku€kuh€kuhhkkkkkkkkkkkkjjj:wjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkhhrEjlu:wGkkkkkkkkkkkkkkkkkllllllllllxjjjjxjjjjlxuhxlli_kkkkllli_jjjjjjjjjhklllllllllhxllli_:wkkkkkkkkhhhi_llllllxjjjjhhhhxhhi_jjjjlhi_llllx:w:wkkkkkkkkhhhhxllllli_jjjjhhhhhxlli_jjjjhhxllli_:w:wj:wgtgTjoclass print: pb€kbub
-|< st:€kb {AA€kb}i:wA;:woclss€kb€kbass printlngtkkkkgT:wkjA €kbL €kb€kb: public statement {}i:wA;:w:wkk:wkkkkkkkkostatement init;conditddkoexpren€kbssion condition;:wjddkoepre€kb€kb€kbxpression update;:wgtgTocode* kkkjhce*jce*:wkkllllli*:wjjjA €kbcode;€kb€kb€kb€kb€kbblock;:w:wofor_(statement *ini€kb€kb, expr *e€kbcond, exr€kbpr *s€kbu€kbstep): (hhhi,hhhhhhhhhhhhhhhhhhhhhhilllllllllllllilllllllllllliexpr *blok€kb€kb€kbA€kbco€kb€kb
-|<init(i), cond(cond)hhhhhhhhhhhhhhhhhhhhhllllllliuAkkkkkkhkhcejhhhcesta€kbepjjjjlljllllxxxkxxx:wkjjjlAhhhhhhhhhhhllhct(lllhci)*€kbcA, s(€kbtep(s), b(€kb€kbblock(b){}:w:wkkkkkkkkkkkkkkkk:wkjjjjjkkjkoeddoexpr *cond;code *block;oif_(s€kbkjAcond€kb€kb€kb€kbc€kbexprA *c, code *b){}€kb€kb:cond(c), block(b) €kb{}:wkdd:wkkjj:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkjjjJJJllllllllllliAhhhhhhhhhhhhhhhhhhhhhhhhhh:wkkkkkkkkkkkkjlllllllllllllhhhhhi :w
-|<kxxJ:whh:wkkkkkkkoexpr *cond;kdd:wocode *blcok€kb€kb€kbock;dddd:wkjjjjjjyykkkkkkp:wkkkkkoclass cond{}hxhi:at€kbs€kb€kb€kbp€kb:public node:whhhcestatementhhhhhhhhhhhhhhhi :whiitional:wjjljkkkddddkuuuuuuhli: bu€kb€kbpublichhhhhhhhhhhcecn€kbl€kbblockAAhi statemt€kbnet:whhhlxlin:wjkA€kb€kb{}ikjjjjVjdkkkkkpjjddjjllllllllllllllllllllllhct{cblockjjjjh€kd€kd€kd€kdhhh€kdhhhhjVjdklllllllllllllllhcecblock:w:w:wk;w:wkkkkxxiwhile:w:wjjjjjjjj
-|<j:w:w:wkkkkkkkk:w:wkkk:w:wkkkkkj:whh:w:wjjjjj:wjjjjjjdd:wkk:wgtjjggGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkgTjjjjjjjkk:wjkkjjgtkkkkkkkkkkkkkkkkkkkkkkkkk:wggTkk:w:wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkj:wk:wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjj:wkkkkkkkkk:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
-|<jjjjj:wkj:w"
+	/wordnnnnjk
+|3,0,19,0,1,0,1510722755,"/wordnnnnjk"
 "k	CHAR	0
 	kkkkIddkuddkon = 4;:wuuu:wgTkgtgt
 |3,0,20,0,1,0,1508495744,"kkkkIddkuddkon = 4;:wuuu:wgTkgtgt"
@@ -328,241 +319,1699 @@ $|
 	i(thunk lhlt a)
 |3,0,35,0,1,0,1485956367,"i(thunk lhlt a)"
 "-	CHAR	0
-	image
-|3,0,36,0,1,0,1510680485,"image"
+	layoutHook defaultConfig
+|3,0,36,0,1,0,1511667940,"layoutHook defaultConfig"
 
 # File marks:
-'0  27  13  ~/repo/dot/config.yml
-|4,48,27,13,1510715234,"~/repo/dot/config.yml"
-'1  31  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,49,31,0,1510680932,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
-'2  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,50,1,0,1510680715,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
-'3  1  0  ~/college/m17/topics-ml/hw/3-gridworld/README.md
-|4,51,1,0,1510680706,"~/college/m17/topics-ml/hw/3-gridworld/README.md"
-'4  1  0  ~/college/m17/topics-ml/hw/3-gridworld/postproc.py
-|4,52,1,0,1510680704,"~/college/m17/topics-ml/hw/3-gridworld/postproc.py"
-'5  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,53,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
-'6  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,54,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
-'7  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,55,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
-'8  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,56,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
-'9  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,57,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+'0  24  41  ~/repo/dot/config.yml
+|4,48,24,41,1511671602,"~/repo/dot/config.yml"
+'1  2  0  ~/.xmonad/autostart
+|4,49,2,0,1511669112,"~/.xmonad/autostart"
+'2  7  12  ~/.xmonad/autostart
+|4,50,7,12,1511669063,"~/.xmonad/autostart"
+'3  6  12  ~/.xmonad/autostart
+|4,51,6,12,1511669063,"~/.xmonad/autostart"
+'4  7  13  ~/.xmonad/autostart
+|4,52,7,13,1511669044,"~/.xmonad/autostart"
+'5  6  13  ~/.xmonad/autostart
+|4,53,6,13,1511669044,"~/.xmonad/autostart"
+'6  8  0  ~/.config/autostart
+|4,54,8,0,1511669016,"~/.config/autostart"
+'7  64  12  ~/.xmonad/xmonad.hs
+|4,55,64,12,1511668033,"~/.xmonad/xmonad.hs"
+'8  64  59  ~/.xmonad/xmonad.hs
+|4,56,64,59,1511668021,"~/.xmonad/xmonad.hs"
+'9  1  0  ~/.xmonad/autostart
+|4,57,1,0,1511666939,"~/.xmonad/autostart"
 
 # Jumplist (newest first):
--'  27  13  ~/repo/dot/config.yml
-|4,39,27,13,1510715234,"~/repo/dot/config.yml"
--'  32  30  ~/repo/dot/config.yml
-|4,39,32,30,1510715201,"~/repo/dot/config.yml"
+-'  24  41  ~/repo/dot/config.yml
+|4,39,24,41,1511671602,"~/repo/dot/config.yml"
+-'  23  12  ~/repo/dot/config.yml
+|4,39,23,12,1511671591,"~/repo/dot/config.yml"
+-'  13  0  ~/repo/dot/config.yml
+|4,39,13,0,1511671585,"~/repo/dot/config.yml"
 -'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1510715156,"~/repo/dot/config.yml"
--'  31  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,31,0,1510680932,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  31  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,31,0,1510680932,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  134  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,134,0,1510680727,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  134  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,134,0,1510680727,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  11  2  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,11,2,1510680720,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  11  2  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,11,2,1510680720,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,1,0,1510680715,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,1,0,1510680715,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/README.md
-|4,39,1,0,1510680706,"~/college/m17/topics-ml/hw/3-gridworld/README.md"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/README.md
-|4,39,1,0,1510680706,"~/college/m17/topics-ml/hw/3-gridworld/README.md"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/README.md
-|4,39,1,0,1510680706,"~/college/m17/topics-ml/hw/3-gridworld/README.md"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/README.md
-|4,39,1,0,1510680706,"~/college/m17/topics-ml/hw/3-gridworld/README.md"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/postproc.py
-|4,39,1,0,1510680704,"~/college/m17/topics-ml/hw/3-gridworld/postproc.py"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/postproc.py
-|4,39,1,0,1510680704,"~/college/m17/topics-ml/hw/3-gridworld/postproc.py"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/postproc.py
-|4,39,1,0,1510680704,"~/college/m17/topics-ml/hw/3-gridworld/postproc.py"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/postproc.py
-|4,39,1,0,1510680704,"~/college/m17/topics-ml/hw/3-gridworld/postproc.py"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/postproc.py
-|4,39,1,0,1510680704,"~/college/m17/topics-ml/hw/3-gridworld/postproc.py"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/postproc.py
-|4,39,1,0,1510680704,"~/college/m17/topics-ml/hw/3-gridworld/postproc.py"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/postproc.py
-|4,39,1,0,1510680704,"~/college/m17/topics-ml/hw/3-gridworld/postproc.py"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/postproc.py
-|4,39,1,0,1510680704,"~/college/m17/topics-ml/hw/3-gridworld/postproc.py"
--'  13  9  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,13,9,1510680488,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  13  9  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,13,9,1510680488,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,1,0,1510680480,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,1,0,1510680480,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  9  74  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,9,74,1510680472,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,1,0,1510680433,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,1,0,1510680433,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,1,0,1510680433,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,1,0,1510680433,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,1,0,1510680433,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,1,0,1510680433,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,1,0,1510680433,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,1,0,1510680433,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  17  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,17,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  15  23  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,15,23,1510680417,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,1,0,1510680404,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,1,0,1510680404,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,1,0,1510680404,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,1,0,1510680404,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,1,0,1510680404,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,1,0,1510680404,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,1,0,1510680404,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  1  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,1,0,1510680404,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  16  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,16,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  14  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,14,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  16  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,16,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  14  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,14,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  16  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,16,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  14  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,14,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  14  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,14,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  16  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,16,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  14  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,14,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  14  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,14,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  16  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,16,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  14  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,14,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  14  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,14,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  16  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,16,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  14  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,14,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  14  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,14,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  16  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,16,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  14  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,14,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  16  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,16,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  14  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,14,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
--'  16  0  ~/college/m17/topics-ml/hw/3-gridworld/Report.md
-|4,39,16,0,1510680395,"~/college/m17/topics-ml/hw/3-gridworld/Report.md"
+|4,39,1,0,1511671579,"~/repo/dot/config.yml"
+-'  2  0  ~/.xmonad/autostart
+|4,39,2,0,1511669112,"~/.xmonad/autostart"
+-'  2  0  ~/.xmonad/autostart
+|4,39,2,0,1511669112,"~/.xmonad/autostart"
+-'  1  0  ~/.xmonad/autostart
+|4,39,1,0,1511669104,"~/.xmonad/autostart"
+-'  1  0  ~/.xmonad/autostart
+|4,39,1,0,1511669104,"~/.xmonad/autostart"
+-'  7  12  ~/.xmonad/autostart
+|4,39,7,12,1511669063,"~/.xmonad/autostart"
+-'  6  12  ~/.xmonad/autostart
+|4,39,6,12,1511669063,"~/.xmonad/autostart"
+-'  7  12  ~/.xmonad/autostart
+|4,39,7,12,1511669063,"~/.xmonad/autostart"
+-'  6  12  ~/.xmonad/autostart
+|4,39,6,12,1511669063,"~/.xmonad/autostart"
+-'  1  0  ~/.xmonad/autostart
+|4,39,1,0,1511669059,"~/.xmonad/autostart"
+-'  1  0  ~/.xmonad/autostart
+|4,39,1,0,1511669059,"~/.xmonad/autostart"
+-'  6  13  ~/.xmonad/autostart
+|4,39,6,13,1511669044,"~/.xmonad/autostart"
+-'  6  13  ~/.xmonad/autostart
+|4,39,6,13,1511669044,"~/.xmonad/autostart"
+-'  1  0  ~/.xmonad/autostart
+|4,39,1,0,1511669021,"~/.xmonad/autostart"
+-'  1  0  ~/.xmonad/autostart
+|4,39,1,0,1511669021,"~/.xmonad/autostart"
+-'  8  0  ~/.config/autostart
+|4,39,8,0,1511669016,"~/.config/autostart"
+-'  8  0  ~/.config/autostart
+|4,39,8,0,1511669016,"~/.config/autostart"
+-'  8  0  ~/.config/autostart
+|4,39,8,0,1511669016,"~/.config/autostart"
+-'  8  0  ~/.config/autostart
+|4,39,8,0,1511669016,"~/.config/autostart"
+-'  8  0  ~/.config/autostart
+|4,39,8,0,1511669016,"~/.config/autostart"
+-'  8  0  ~/.config/autostart
+|4,39,8,0,1511669016,"~/.config/autostart"
+-'  8  0  ~/.config/autostart
+|4,39,8,0,1511669016,"~/.config/autostart"
+-'  8  0  ~/.config/autostart
+|4,39,8,0,1511669016,"~/.config/autostart"
+-'  8  0  ~/.config/autostart
+|4,39,8,0,1511669016,"~/.config/autostart"
+-'  8  0  ~/.config/autostart
+|4,39,8,0,1511669016,"~/.config/autostart"
+-'  8  0  ~/.config/autostart
+|4,39,8,0,1511669016,"~/.config/autostart"
+-'  8  0  ~/.config/autostart
+|4,39,8,0,1511669016,"~/.config/autostart"
+-'  8  0  ~/.config/autostart
+|4,39,8,0,1511669016,"~/.config/autostart"
+-'  8  0  ~/.config/autostart
+|4,39,8,0,1511669016,"~/.config/autostart"
+-'  8  0  ~/.config/autostart
+|4,39,8,0,1511669016,"~/.config/autostart"
+-'  8  0  ~/.config/autostart
+|4,39,8,0,1511669016,"~/.config/autostart"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  64  12  ~/.xmonad/xmonad.hs
+|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  1  0  ~/.xmonad/xmonad.hs
+|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
+-'  64  59  ~/.xmonad/xmonad.hs
+|4,39,64,59,1511668021,"~/.xmonad/xmonad.hs"
+-'  64  59  ~/.xmonad/xmonad.hs
+|4,39,64,59,1511668021,"~/.xmonad/xmonad.hs"
 
 # History of marks within files (newest to oldest):
 
 > ~/repo/dot/config.yml
-	*	1510715233	0
-	"	27	13
-	.	32	0
+	*	1511671601	0
+	"	24	41
+	^	24	42
+	.	24	41
 	+	25	49
 	+	32	0
+	+	15	0
+	+	24	41
+
+> ~/.xmonad/autostart
+	*	1511669112	0
+	"	2	0
+	.	2	0
+	+	5	4
+	+	7	4
+	+	5	0
+	+	6	0
+	+	5	29
+	+	6	42
+	+	7	48
+	+	5	0
+	+	1	10
+	+	5	0
+	+	3	13
+	+	6	18
+	+	7	12
+	+	3	14
+	+	6	19
+	+	7	13
+	+	3	14
+	+	6	19
+	+	7	13
+	+	6	0
+	+	4	0
+	+	7	0
+	+	4	0
+	+	2	0
+	o	6	0
+
+> ~/.xmonad/xmonad.hs
+	*	1511668033	0
+	"	64	12
+	^	64	60
+	.	64	12
+	+	81	8
+	+	83	0
+	+	82	8
+	+	81	10
+	+	82	10
+	+	83	0
+	+	90	43
+	+	91	0
+	+	90	34
+	+	96	45
+	+	90	10
+	+	91	0
+	+	81	10
+	+	8	27
+	+	71	48
+	+	70	11
+	+	71	0
+	+	72	28
+	+	71	20
+	+	81	0
+	+	90	8
+	+	91	10
+	+	83	0
+	+	18	2
+	+	70	36
+	+	96	64
+	+	77	0
+	+	78	0
+	+	77	0
+	+	65	15
+	+	65	0
+	+	64	12
+
+> ~/.xmobarrc
+	*	1511666837	0
+	"	54	21
+	^	54	48
+	.	54	21
+	+	1	33
+	+	3	0
+	+	3	85
+	+	3	0
+	+	3	24
+	+	7	17
+	+	3	0
+	+	3	94
+	+	3	0
+	+	2	81
+	+	2	6
+	+	3	0
+	+	2	33
+	+	7	18
+	+	2	25
+	+	17	32
+	+	5	24
+	+	17	31
+	+	51	0
+	+	34	37
+	+	54	47
+	+	33	36
+	+	34	40
+	+	54	21
+
+> ~/college/m17/topics-ml/project/rarl/src/rllab-adv/requirements.txt
+	*	1511602553	0
+	"	36	17
+	^	36	18
+	.	36	17
+	+	31	0
+	+	24	0
+	+	36	17
+
+> ~/college/m17/topics-ml/project/rarl/mjkey-evil-lab.txt
+	*	1511602105	0
+	"	14	63
+	^	14	64
+	.	14	63
+	+	14	63
+
+> ~/college/m17/topics-ml/project/rarl/src/rllab-adv/re
+	*	1511601780	0
+	"	1	0
+
+> ~/college/m17/topics-ml/project/rarl/src/rllab-adv/setup.py
+	*	1511601633	0
+	"	7	0
+
+> ~/college/m17/topics-ml/project/rarl/src/rllab-adv/MANIFEST.in
+	*	1511601609	0
+	"	1	0
+
+> ~/college/m17/topics-ml/project/rarl/src/rllab-adv/Man
+	*	1511601606	0
+	"	1	0
+
+> ~/college/m17/topics-ml/project/rarl/src/gym-adv/setup.py
+	*	1511601574	0
+	"	31	0
+
+> ~/college/m17/topics-ml/project/rarl/src/Makefile
+	*	1511600016	0
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	0
+
+> ~/cvit/das-2018/draft/main.tex
+	*	1511583606	0
+	"	708	0
+	^	671	0
+	.	672	0
+	+	639	1
+	+	638	0
+	+	639	1
+	+	640	72
+	+	641	42
+	+	640	72
+	+	641	0
+	+	642	65
+	+	641	62
+	+	645	65
+	+	646	0
+	+	843	0
+	+	528	63
+	+	736	0
+	+	728	11
+	+	728	0
+	+	736	0
+	+	728	19
+	+	728	13
+	+	736	13
+	+	736	16
+	+	728	0
+	+	736	0
+	+	776	29
+	+	776	41
+	+	776	29
+	+	729	0
+	+	728	0
+	+	659	72
+	+	467	0
+	+	490	11
+	+	490	12
+	+	500	68
+	+	505	67
+	+	485	69
+	+	584	66
+	+	571	8
+	+	571	64
+	+	584	0
+	+	190	0
+	+	179	0
+	+	73	0
+	+	202	0
+	+	378	0
+	+	378	99
+	+	378	136
+	+	378	145
+	+	379	32
+	+	380	0
+	+	490	64
+	+	498	0
+	+	497	0
+	+	493	0
+	+	497	0
+	+	494	8
+	+	494	33
+	+	494	19
+	+	493	66
+	+	496	39
+	+	527	67
+	+	482	24
+	+	637	21
+	+	638	14
+	+	490	12
+	+	767	42
+	+	749	188
+	+	750	0
+	+	769	0
+	+	768	0
+	+	766	66
+	+	779	70
+	+	782	44
+	+	782	0
+	+	784	0
+	+	782	68
+	+	797	0
+	+	799	68
+	+	802	67
+	+	488	65
+	+	490	29
+	+	488	0
+	+	488	22
+	+	489	64
+	+	546	60
+	+	571	0
+	+	551	0
+	+	550	0
+	+	630	0
+	+	634	23
+	+	720	19
+	+	723	0
+	+	720	0
+	+	722	0
+	+	719	0
+	+	723	0
+	+	721	0
+	+	724	0
+	+	661	0
+	+	671	0
+	+	672	0
+
+> ~/repo/journal-dev/templates/project.html
+	*	1511499966	0
+	"	9	2
+	^	9	3
+	.	9	2
+	+	11	23
+	+	38	0
+	+	24	0
+	+	12	0
+	+	2	0
+	+	5	0
+	+	6	20
+	+	5	0
+	+	1	3
+	+	9	2
+
+> ~/repo/journal-dev/journal/machine-translation/updates/2017-11-24-roadmap.md
+	*	1511499867	0
+	"	23	0
+	^	19	66
+	.	19	0
+	+	3	2
+	+	2	13
+	+	5	3
+	+	9	0
+	+	9	50
+	+	10	1
+	+	9	0
+	+	8	0
+	+	10	69
+	+	11	6
+	+	29	2
+	+	30	15
+	+	30	0
+	+	29	0
+	+	29	28
+	+	29	0
+	+	15	0
+	+	13	0
+	+	15	15
+	+	29	0
+	+	18	35
+	+	19	15
+	+	18	35
+	+	29	0
+	+	20	45
+	+	26	14
+	+	27	0
+	+	26	14
+	+	7	20
+	+	17	1
+	+	18	0
+	+	22	9
+	+	21	0
+	+	22	44
+	+	24	7
+	+	25	1
+	+	24	1
+	+	19	0
+
+> ~/.xmonad/xmonad.
+	*	1511436744	0
+	"	1	0
+
+> ~/repo/shiksha-das/README.md
+	*	1511420000	0
+	"	32	0
+	.	33	0
+	+	32	29
+	+	34	0
+	+	33	0
+
+> ~/repo/shiksha-das/project/settings.py
+	*	1511416126	0
+	"	35	19
+	^	35	20
+	.	35	19
+	+	144	16
+	+	144	8
+	+	144	0
+	+	147	4
+	+	144	0
+	+	145	0
+	+	148	8
+	+	147	5
+	+	58	4
+	+	34	0
+	+	35	19
+
+> ~/repo/shiksha-das/requirements.txt
+	*	1511415746	0
+	"	14	12
+	^	17	13
+	.	17	12
+	+	15	65
+	+	1	0
+	+	16	0
+	+	5	0
+	+	16	16
+	+	17	12
+
+> ~/repo/shiksha-das/cas_user/models.py
+	*	1511415598	0
+	"	174	20
+
+> ~/repo/shiksha-das/assignments/models.py
+	*	1511415267	0
+	"	340	6
+
+> ~/repo/shiksha-das/email_notifications/models.py
+	*	1511415245	0
+	"	2	0
+
+> ~/repo/shiksha-das/manage.py
+	*	1511415080	0
+	"	5	4
+	.	7	0
+	+	8	0
+	+	7	0
+
+> ~/repo/shiksha-das/assignments/migrations/__init__.py
+	*	1511414900	0
+	"	1	0
+
+> ~/repo/shiksha-das/project/credentials.py
+	*	1511414488	0
+	"	2	25
+
+> ~/repo/shiksha-das/project/__init__.py
+	*	1511414125	0
+	"	34	0
+
+> ~/repo/shiksha-das/cas_user/__init__.py
+	*	1511414100	0
+	"	1	0
+
+> ~/repo/shiksha-das/autoeval/__init__.py
+	*	1511414090	0
+	"	8	0
+
+> ~/repo/shiksha-das/assignments/__init__.py
+	*	1511414079	0
+	"	1	0
+
+> ~/repo/shiksha-das/api/__init__.py
+	*	1511414062	0
+	"	1	0
+
+> ~/repo/shiksha-das/Mak
+	*	1511414027	0
+	"	1	0
+
+> ~/repo/shiksha-das/project/celery.py
+	*	1511413122	0
+	"	4	0
+
+> ~/repo/log/zsh-install.yml
+	*	1511346959	0
+	"	1	0
+	^	9	17
+	.	9	16
+	+	9	0
+	+	8	0
+	+	9	16
+
+> ~/college/m17/notes/journal/topics-in-ml/notes/solutions.md
+	*	1511236710	0
+	"	87	0
+	^	94	9
+	.	94	8
+	+	139	41
+	+	152	0
+	+	104	0
+	+	103	0
+	+	104	79
+	+	104	0
+	+	119	64
+	+	119	59
+	+	105	14
+	+	119	60
+	+	104	0
+	+	109	0
+	+	109	84
+	+	110	13
+	+	111	27
+	+	119	0
+	+	112	17
+	+	119	0
+	+	121	57
+	+	113	0
+	+	113	49
+	+	114	39
+	+	115	28
+	+	119	0
+	+	114	58
+	+	112	20
+	+	113	0
+	+	116	26
+	+	117	0
+	+	121	34
+	+	118	56
+	+	121	0
+	+	117	8
+	+	95	0
+	+	77	8
+	+	33	8
+	+	44	19
+	+	34	12
+	+	45	10
+	+	35	0
+	+	36	18
+	+	38	14
+	+	40	14
+	+	42	14
+	+	44	15
+	+	48	8
+	+	77	10
+	+	77	21
+	+	77	24
+	+	77	4
+	+	77	6
+	+	77	26
+	+	63	8
+	+	64	0
+	+	66	8
+	+	75	0
+	+	69	12
+	+	72	0
+	+	69	19
+	+	77	0
+	+	50	0
+	+	49	0
+	+	51	33
+	+	53	7
+	+	55	22
+	+	56	8
+	+	57	22
+	+	58	22
+	+	60	0
+	+	57	25
+	+	56	11
+	+	59	10
+	+	60	0
+	+	53	11
+	+	69	56
+	+	70	69
+	+	71	71
+	+	72	0
+	+	71	0
+	+	72	0
+	+	71	0
+	+	72	0
+	+	71	49
+	+	95	0
+	+	79	66
+	+	81	14
+	+	80	12
+	+	92	8
+	+	85	23
+	+	83	34
+	+	87	70
+	+	90	40
+	+	71	105
+	+	95	0
+	+	93	8
+	+	94	8
+
+> ~/sandbox/sutton/3.9.py
+	*	1511163087	0
+	"	10	42
+	^	11	36
+	.	10	0
+	+	3	26
+	+	4	4
+	+	2	10
+	+	7	12
+	+	9	1
+	+	7	11
+	+	9	27
+	+	9	20
+	+	5	7
+	+	9	12
+	+	9	8
+	+	9	17
+	+	9	0
+	+	9	15
+	+	9	0
+	+	7	43
+	+	9	0
+	+	7	0
+	+	9	14
+	+	7	48
+	+	9	0
+	+	5	4
+	+	9	11
+	+	14	14
+	+	9	0
+	+	14	11
+	+	3	11
+	+	14	0
+	+	10	0
+	+	12	16
+	+	11	33
+	+	9	0
+	+	8	11
+	+	9	0
+	+	11	29
+	+	10	11
+	+	11	11
+	+	13	0
+	+	12	17
+	+	13	17
+	+	14	0
+	+	10	21
+	+	11	19
+	+	7	0
+	+	10	44
+	+	11	0
+	+	10	0
+
+> ~/college/s17/itws2/course-admin/src/projects/plagiarism/all.dot
+	*	1511149981	0
+	"	1	0
+
+> ~/college/s17/itws2/course-admin/src/projects/plagiarism/moss.pl
+	*	1511149906	0
+	"	157	132
+
+> ~/college/m17/notes/journal/topics-in-ml/notes/td-learning.md
+	*	1511100233	0
+	"	22	0
+	^	46	61
+	.	46	60
+	+	5	0
+	+	9	0
+	+	5	31
+	+	9	12
+	+	1	2
+	+	3	2
+	+	2	34
+	+	6	69
+	+	7	48
+	+	9	0
+	+	47	0
+	+	47	70
+	+	47	56
+	+	48	7
+	+	54	12
+	+	50	0
+	+	51	82
+	+	51	0
+	+	51	83
+	+	49	0
+	+	56	0
+	+	55	0
+	+	57	52
+	+	61	21
+	+	24	12
+	+	24	11
+	+	24	12
+	+	24	4
+	+	24	29
+	+	24	0
+	+	24	69
+	+	24	70
+	+	24	0
+	+	24	5
+	+	24	67
+	+	24	68
+	+	24	31
+	+	47	11
+	+	62	0
+	+	60	0
+	+	24	0
+	+	11	19
+	+	23	10
+	+	21	8
+	+	22	0
+	+	23	0
+	+	22	63
+	+	21	71
+	+	22	94
+	+	15	37
+	+	18	55
+	+	17	23
+	+	18	16
+	+	17	37
+	+	18	53
+	+	24	0
+	+	47	68
+	+	47	0
+	+	25	66
+	+	27	10
+	+	47	0
+	+	29	22
+	+	33	54
+	+	30	66
+	+	31	11
+	+	36	23
+	+	42	10
+	+	39	70
+	+	40	16
+	+	39	13
+	+	41	48
+	+	42	0
+	+	39	56
+	+	40	17
+	+	39	56
+	+	40	17
+	+	39	20
+	+	47	0
+	+	46	2
+	+	45	0
+	+	46	60
+
+> ~/college/m17/notes/journal/topics-in-ml/notes/basics.md
+	*	1511100232	0
+	"	69	0
+	^	26	48
+	.	26	47
+	+	40	0
+	+	153	0
+	+	31	0
+	+	85	1
+	+	100	1
+	+	87	0
+	+	86	0
+	+	99	0
+	+	88	22
+	+	88	98
+	+	87	32
+	+	88	0
+	+	88	26
+	+	98	11
+	+	87	33
+	+	88	0
+	+	88	101
+	+	88	43
+	+	88	0
+	+	97	0
+	+	95	1
+	+	96	0
+	+	89	0
+	+	94	0
+	+	88	40
+	+	93	10
+	+	97	10
+	+	98	12
+	+	97	67
+	+	98	78
+	+	105	22
+	+	107	72
+	+	108	44
+	+	153	0
+	+	113	61
+	+	153	0
+	+	117	49
+	+	153	0
+	+	117	53
+	+	121	1
+	+	121	6
+	+	121	3
+	+	120	70
+	+	121	16
+	+	124	13
+	+	120	28
+	+	124	16
+	+	123	63
+	+	128	12
+	+	130	57
+	+	132	1
+	+	131	23
+	+	133	25
+	+	153	0
+	+	134	71
+	+	135	33
+	+	137	13
+	+	153	0
+	+	154	0
+	+	149	28
+	+	149	2
+	+	141	40
+	+	149	0
+	+	142	17
+	+	149	14
+	+	149	13
+	+	142	23
+	+	149	0
+	+	149	15
+	+	144	68
+	+	149	33
+	+	149	0
+	+	149	4
+	+	149	0
+	+	149	4
+	+	149	0
+	+	141	0
+	+	148	0
+	+	142	0
+	+	149	0
+	+	153	26
+	+	147	77
+	+	147	78
+	+	143	63
+	+	144	23
+	+	153	0
+	+	152	43
+	+	11	11
+	+	24	0
+	+	23	10
+	+	20	13
+	+	23	0
+	+	16	69
+	+	17	56
+	+	19	4
+	+	18	65
+	+	21	59
+	+	23	0
+	+	22	60
+	+	26	47
+
+> ~/college/m17/notes/journal/topics-in-ml/notes/monte-carlo.md
+	*	1511100213	0
+	"	87	0
+	^	78	53
+	.	84	0
+	+	166	45
+	+	166	0
+	+	168	23
+	+	168	0
+	+	168	69
+	+	168	52
+	+	168	0
+	+	168	1
+	+	168	0
+	+	168	69
+	+	168	0
+	+	168	60
+	+	168	0
+	+	168	25
+	+	168	7
+	+	168	27
+	+	168	13
+	+	168	66
+	+	168	26
+	+	168	24
+	+	168	11
+	+	168	26
+	+	168	27
+	+	168	0
+	+	173	0
+	+	174	61
+	+	176	12
+	+	187	10
+	+	176	1
+	+	175	0
+	+	191	1
+	+	179	9
+	+	177	5
+	+	179	12
+	+	181	0
+	+	182	0
+	+	178	50
+	+	179	19
+	+	178	23
+	+	179	12
+	+	181	0
+	+	184	0
+	+	183	9
+	+	184	47
+	+	176	0
+	+	191	0
+	+	168	0
+	+	180	44
+	+	185	16
+	+	180	16
+	+	181	0
+	+	180	36
+	+	168	17
+	+	173	10
+	+	170	0
+	+	173	0
+	+	170	59
+	+	171	4
+	+	172	43
+	+	191	38
+	+	20	16
+	+	21	16
+	+	33	0
+	+	32	5
+	+	43	0
+	+	44	0
+	+	43	0
+	+	36	0
+	+	31	0
+	+	24	0
+	+	83	0
+	+	110	0
+	+	108	0
+	+	74	16
+	+	75	16
+	+	107	5
+	+	109	16
+	+	188	5
+	+	189	5
+	+	168	0
+	+	167	0
+	+	191	0
+	+	190	0
+	+	166	0
+	+	191	0
+	+	84	25
+	+	101	0
+	+	107	0
+	+	191	0
+	+	132	0
+	+	131	0
+	+	123	12
+	+	191	0
+	+	165	0
+	+	78	52
+	+	84	0
+
+> ~/college/m17/notes/journal/topics-in-ml/notes/dynamic-programming.md
+	*	1511100210	0
+	"	2	12
+	^	104	45
+	.	104	44
+	+	36	0
+	+	17	48
+	+	17	62
+	+	18	39
+	+	21	37
+	+	28	1
+	+	27	10
+	+	23	8
+	+	25	68
+	+	26	13
+	+	24	1
+	+	21	41
+	+	31	59
+	+	32	12
+	+	67	0
+	+	44	39
+	+	44	38
+	+	44	36
+	+	46	57
+	+	67	1
+	+	67	0
+	+	44	37
+	+	45	0
+	+	48	0
+	+	67	0
+	+	48	13
+	+	43	0
+	+	39	11
+	+	41	5
+	+	67	0
+	+	51	14
+	+	8	16
+	+	9	16
+	+	35	0
+	+	34	5
+	+	33	0
+	+	67	0
+	+	64	0
+	+	67	0
+	+	66	5
+	+	52	0
+	+	39	1
+	+	17	0
+	+	16	12
+	+	21	0
+	+	20	25
+	+	64	0
+	+	56	42
+	+	63	35
+	+	56	16
+	+	59	10
+	+	57	8
+	+	58	65
+	+	59	0
+	+	57	44
+	+	58	8
+	+	76	0
+	+	70	13
+	+	71	11
+	+	69	1
+	+	74	1
+	+	72	0
+	+	71	0
+	+	71	68
+	+	72	0
+	+	71	81
+	+	71	0
+	+	73	0
+	+	71	21
+	+	72	19
+	+	71	17
+	+	72	15
+	+	71	109
+	+	72	108
+	+	71	23
+	+	72	27
+	+	71	26
+	+	72	27
+	+	81	67
+	+	82	33
+	+	84	61
+	+	86	0
+	+	88	1
+	+	88	0
+	+	87	63
+	+	87	72
+	+	88	0
+	+	87	13
+	+	108	0
+	+	90	13
+	+	105	0
+	+	93	66
+	+	94	47
+	+	97	30
+	+	100	32
+	+	102	68
+	+	103	69
+	+	104	44
+
+> ~/sandbox/states.py
+	*	1511096257	0
+	"	18	0
+	^	15	0
+	.	15	0
+	+	19	0
+	+	20	6
+	+	20	8
+	+	20	0
+	+	20	4
+	+	20	7
+	+	20	8
+	+	20	26
+	+	20	29
+	+	20	28
+	+	20	10
+	+	1	28
+	+	20	42
+	+	20	15
+	+	20	1
+	+	20	2
+	+	20	16
+	+	20	2
+	+	20	15
+	+	20	0
+	+	20	36
+	+	20	15
+	+	20	0
+	+	19	0
+	+	3	23
+	+	4	11
+	+	7	8
+	+	7	0
+	+	6	41
+	+	18	27
+	+	15	16
+	+	15	8
+	+	15	0
+	+	9	20
+	+	13	8
+	+	13	0
+	+	10	13
+	+	9	19
+	+	10	29
+	+	11	8
+	+	9	19
+	+	11	23
+	+	18	52
+	+	12	21
+	+	11	24
+	+	15	10
+	+	15	8
+	+	15	0
+
+> ~/college/m17/notes/Makefile
+	*	1510980652	0
+	"	13	5
+	^	13	6
+	.	13	5
+	+	13	0
+	+	14	0
+	+	13	1
+	+	13	5
+
+> ~/college/m17/notes/journal/compilers/notes/machine-independent-code-optimizations.md
+	*	1510897826	0
+	"	30	0
+	^	24	0
+	.	23	0
+	+	441	2
+	+	439	13
+	+	440	25
+	+	438	9
+	+	448	1
+	+	448	0
+	+	446	0
+	+	447	14
+	+	448	0
+	+	471	0
+	+	451	17
+	+	471	13
+	+	454	55
+	+	471	0
+	+	458	30
+	+	458	2
+	+	458	29
+	+	462	0
+	+	461	62
+	+	454	0
+	+	471	0
+	+	463	33
+	+	465	26
+	+	468	45
+	+	467	52
+	+	470	62
+	+	373	0
+	+	18	0
+	+	25	0
+	+	21	72
+	+	22	7
+	+	408	20
+	+	416	3
+	+	424	22
+	+	408	20
+	+	406	16
+	+	407	15
+	+	414	0
+	+	415	0
+	+	423	0
+	+	422	0
+	+	430	0
+	+	431	0
+	+	424	21
+	+	426	0
+	+	416	19
+	+	408	0
+	+	409	0
+	+	407	0
+	+	418	0
+	+	426	0
+	+	410	50
+	+	412	2
+	+	410	2
+	+	412	19
+	+	410	0
+	+	423	16
+	+	407	16
+	+	415	16
+	+	410	27
+	+	412	19
+	+	419	0
+	+	418	1
+	+	421	0
+	+	420	18
+	+	419	2
+	+	420	2
+	+	410	2
+	+	411	23
+	+	412	15
+	+	411	24
+	+	426	34
+	+	428	2
+	+	426	2
+	+	428	26
+	+	426	4
+	+	428	25
+	+	426	0
+	+	425	0
+	+	417	0
+	+	427	33
+	+	15	1
+	+	10	0
+	+	14	10
+	+	11	70
+	+	12	15
+	+	14	16
+	+	11	22
+	+	14	0
+	+	11	25
+	+	12	10
+	+	13	27
+	+	12	19
+	+	13	60
+	+	22	7
+	+	23	0
+
+> ~/cvit/das-2018/draft/script.sh
+	*	1510822426	0
+	"	10	12
+	^	10	13
+	.	10	12
+	+	3	7
+	+	5	0
+	+	3	22
+	+	5	44
+	+	3	22
+	+	5	52
+	+	10	7
+	+	1	6
+	+	1	11
+	+	11	3
+	+	1	9
+	+	3	0
+	+	10	12
+	+	1	11
+	+	3	34
+	+	5	57
+	+	3	34
+	+	10	12
+	+	5	0
+	+	4	40
+	+	10	0
+	+	5	0
+	+	8	0
+	+	6	18
+	+	7	0
+	+	9	5
+	+	9	10
+	+	8	59
+	+	9	0
+	+	8	33
+	+	5	60
+	+	10	12
+
+> ~/college/m17/notes/journal/compilers/notes/basic-blocks-and-cfg.md
+	*	1510820510	0
+	"	17	0
+	^	6	6
+	.	6	4
+	+	3	2
+	+	2	36
+	+	3	0
+	+	4	0
+	+	3	0
+	+	2	41
+	+	8	23
+	+	12	4
+	+	12	0
+	+	9	24
+	+	11	8
+	+	11	0
+	+	10	19
+	+	13	0
+	+	14	0
+	+	15	0
+	+	14	14
+	+	16	2
+	+	17	0
+	+	6	4
+
+> ~/college/m17/notes/journal/compilers/index.md
+	*	1510811561	0
+	"	3	2
+	^	2	16
+	.	2	15
+	+	3	2
+	+	2	15
+
+> ~/cvit/das-2018/.git/modules/draft/MERGE_MSG
+	*	1510803154	0
+	"	1	0
+
+> ~/cvit/das-2018/draft/refs.bib
+	*	1510736388	0
+	"	1	0
+	^	1	22
+	.	1	21
+	+	15	1
+	+	24	0
+	+	16	0
+	+	18	0
+	+	33	0
+	+	42	0
+	+	43	0
+	+	51	0
+	+	60	0
+	+	1	9
+	+	2	0
+	+	1	21
+
+> ~/cvit/das-2018/draft/dummy.bbl
+	*	1510736388	0
+	"	1	0
+	^	3	23
+	.	3	19
+	+	1	0
+	+	13	0
+	+	3	19
+
+> ~/cvit/das-2018/draft/Makefile
+	*	1510736355	0
+	"	1	0
+	.	3	0
+	+	14	13
+	+	15	15
+	+	16	16
+	+	15	12
+	+	16	12
+	+	18	11
+	+	17	0
+	+	14	23
+	+	3	23
+	+	11	26
+	+	8	0
+	+	3	0
+
+> ~/.vimrc
+	*	1510736322	0
+	"	19	15
+	^	19	16
+	.	19	15
+	+	19	15
+
+> ~/cvit/das-2018/draft/dummy.tex
+	*	1510722955	0
+	"	5	24
+	^	5	25
+	.	5	24
+	+	6	13
+	+	5	24
+
+> ~/cvit/das-2018/draft/dummy.te
+	*	1510720207	0
+	"	1	0
+
+> ~/college/m17/topics-ml/hw/3-gridworld/expected_sarsa.py
+	*	1510719078	0
+	"	71	0
+	^	38	23
+	.	74	0
+	+	7	11
+	+	41	21
+	+	63	0
+	+	41	0
+	+	19	0
+	+	41	64
+	+	59	45
+	+	59	57
+	+	69	0
+	+	12	18
+	+	69	34
+	+	11	21
+	+	45	0
+	+	44	0
+	+	41	55
+	+	5	19
+	+	6	0
+	+	3	36
+	+	5	0
+	+	41	51
+	+	61	0
+	+	60	25
+	+	42	15
+	+	43	29
+	+	42	19
+	+	60	0
+	+	60	19
+	+	59	0
+	+	60	0
+	+	60	19
+	+	14	17
+	+	41	0
+	+	59	26
+	+	59	0
+	+	41	0
+	+	47	20
+	+	47	14
+	+	47	20
+	+	47	23
+	+	47	0
+	+	58	0
+	+	53	44
+	+	58	0
+	+	58	20
+	+	58	0
+	+	54	32
+	+	55	52
+	+	58	0
+	+	56	31
+	+	48	0
+	+	58	0
+	+	60	0
+	+	12	19
+	+	58	22
+	+	59	19
+	+	59	0
+	+	59	33
+	+	58	33
+	+	59	0
+	+	22	0
+	+	73	0
+	+	62	0
+	+	73	0
+	+	4	28
+	+	57	0
+	+	53	38
+	+	53	0
+	+	53	50
+	+	53	0
+	+	49	0
+	+	51	0
+	+	32	15
+	+	40	0
+	+	33	0
+	+	40	0
+	+	34	0
+	+	40	0
+	+	37	0
+	+	38	13
+	+	35	17
+	+	38	18
+	+	35	8
+	+	38	0
+	+	36	20
+	+	38	31
+	+	40	15
+	+	39	0
+	+	74	0
+
+> ~/college/m17/topics-ml/hw/3-gridworld/exp
+	*	1510719073	0
+	"	1	0
+
+> ~/college/m17/topics-ml/hw/3-gridworld/qlearn.py
+	*	1510719069	0
+	"	63	0
+	^	27	0
+	.	62	0
+	+	1	0
+	+	41	8
+	+	47	60
+	+	42	23
+	+	13	23
+	+	42	15
+	+	40	0
+	+	43	18
+	+	6	9
+	+	47	62
+	+	11	0
+	+	53	0
+	+	3	26
+	+	10	18
+	+	56	34
+	+	52	9
+	+	38	15
+	+	39	29
+	+	38	16
+	+	46	16
+	+	46	0
+	+	51	0
+	+	16	0
+	+	37	0
+	+	46	36
+	+	51	0
+	+	16	0
+	+	50	0
+	+	45	0
+	+	44	0
+	+	47	0
+	+	46	37
+	+	47	0
+	+	37	0
+	+	20	0
+	+	4	28
+	+	20	24
+	+	19	26
+	+	20	31
+	+	22	23
+	+	24	29
+	+	23	36
+	+	24	40
+	+	36	0
+	+	22	0
+	+	21	18
+	+	25	20
+	+	26	16
+	+	61	0
+	+	1	0
+	+	28	0
+	+	27	0
+	+	62	0
+
+> ~/steps.png
+	*	1510718942	0
+	"	1	0
+
+> ~/.config/openbox/autostart
+	*	1510718812	0
+	"	6	19
+	^	6	20
+	.	6	19
+	+	4	19
+	+	1	19
+	+	2	4
+	+	3	0
+	+	1	15
+	+	2	19
+	+	4	0
+	+	5	14
+	+	6	19
 
 > ~/college/m17/topics-ml/hw/3-gridworld/Report.md
 	*	1510680932	0
@@ -908,100 +2357,6 @@ $|
 	+	70	4
 	+	71	14
 
-> ~/college/m17/topics-ml/hw/3-gridworld/expected_sarsa.py
-	*	1510678307	0
-	"	74	11
-	^	38	23
-	.	74	0
-	+	7	11
-	+	41	21
-	+	63	0
-	+	41	0
-	+	19	0
-	+	41	64
-	+	59	45
-	+	59	57
-	+	69	0
-	+	12	18
-	+	69	34
-	+	11	21
-	+	45	0
-	+	44	0
-	+	41	55
-	+	5	19
-	+	6	0
-	+	3	36
-	+	5	0
-	+	41	51
-	+	61	0
-	+	60	25
-	+	42	15
-	+	43	29
-	+	42	19
-	+	60	0
-	+	60	19
-	+	59	0
-	+	60	0
-	+	60	19
-	+	14	17
-	+	41	0
-	+	59	26
-	+	59	0
-	+	41	0
-	+	47	20
-	+	47	14
-	+	47	20
-	+	47	23
-	+	47	0
-	+	58	0
-	+	53	44
-	+	58	0
-	+	58	20
-	+	58	0
-	+	54	32
-	+	55	52
-	+	58	0
-	+	56	31
-	+	48	0
-	+	58	0
-	+	60	0
-	+	12	19
-	+	58	22
-	+	59	19
-	+	59	0
-	+	59	33
-	+	58	33
-	+	59	0
-	+	22	0
-	+	73	0
-	+	62	0
-	+	73	0
-	+	4	28
-	+	57	0
-	+	53	38
-	+	53	0
-	+	53	50
-	+	53	0
-	+	49	0
-	+	51	0
-	+	32	15
-	+	40	0
-	+	33	0
-	+	40	0
-	+	34	0
-	+	40	0
-	+	37	0
-	+	38	13
-	+	35	17
-	+	38	18
-	+	35	8
-	+	38	0
-	+	36	20
-	+	38	31
-	+	40	15
-	+	39	0
-	+	74	0
-
 > ~/college/m17/topics-ml/hw/3-gridworld/sarsa.py
 	*	1510678305	0
 	"	56	5
@@ -1107,69 +2462,6 @@ $|
 	+	27	0
 	+	55	0
 	+	56	0
-
-> ~/college/m17/topics-ml/hw/3-gridworld/qlearn.py
-	*	1510678303	0
-	"	62	4
-	^	27	0
-	.	62	0
-	+	1	0
-	+	41	8
-	+	47	60
-	+	42	23
-	+	13	23
-	+	42	15
-	+	40	0
-	+	43	18
-	+	6	9
-	+	47	62
-	+	11	0
-	+	53	0
-	+	3	26
-	+	10	18
-	+	56	34
-	+	52	9
-	+	38	15
-	+	39	29
-	+	38	16
-	+	46	16
-	+	46	0
-	+	51	0
-	+	16	0
-	+	37	0
-	+	46	36
-	+	51	0
-	+	16	0
-	+	50	0
-	+	45	0
-	+	44	0
-	+	47	0
-	+	46	37
-	+	47	0
-	+	37	0
-	+	20	0
-	+	4	28
-	+	20	24
-	+	19	26
-	+	20	31
-	+	22	23
-	+	24	29
-	+	23	36
-	+	24	40
-	+	36	0
-	+	22	0
-	+	21	18
-	+	25	20
-	+	26	16
-	+	61	0
-	+	1	0
-	+	28	0
-	+	27	0
-	+	62	0
-
-> ~/college/m17/topics-ml/hw/3-gridworld/exp
-	*	1510677221	0
-	"	1	0
 
 > ~/college/m17/compilers/project/benchmark.
 	*	1510676024	0
@@ -1563,10 +2855,6 @@ $|
 	+	1	31
 	+	2	23
 
-> ~/cvit/das-2018/draft/main.tex
-	*	1510625351	0
-	"	19	0
-
 > ~/.shell/aliases.sh
 	*	1510624849	0
 	"	16	65
@@ -1847,1264 +3135,3 @@ $|
 > ~/Downloads/four_nested_loops.b
 	*	1510589878	0
 	"	1	0
-
-> ~/college/m17/compilers/project/src/benchmark.sh
-	*	1510589659	0
-	"	8	18
-	^	5	22
-	.	8	18
-	+	11	26
-	+	11	48
-	+	12	43
-	+	13	27
-	+	11	51
-	+	12	46
-	+	13	30
-	+	14	25
-	+	12	0
-	+	14	8
-	+	8	8
-	+	27	0
-	+	14	45
-	+	8	42
-	+	31	28
-	+	7	15
-	+	8	15
-	+	7	15
-	+	8	15
-	+	11	15
-	+	12	10
-	+	31	40
-	+	34	5
-	+	38	0
-	+	31	6
-	+	32	23
-	+	33	0
-	+	36	3
-	+	34	13
-	+	32	21
-	+	31	50
-	+	35	16
-	+	1	10
-	+	27	0
-	+	17	39
-	+	6	25
-	+	6	0
-	+	17	54
-	+	17	0
-	+	17	8
-	+	19	34
-	+	19	26
-	+	19	0
-	+	19	8
-	+	19	44
-	+	19	0
-	+	19	34
-	+	38	0
-	+	17	0
-	+	19	54
-	+	26	0
-	+	19	0
-	+	19	34
-	+	19	11
-	+	19	27
-	+	11	30
-	+	17	0
-	+	19	12
-	+	38	0
-	+	17	17
-	+	19	0
-	+	18	13
-	+	17	0
-	+	17	8
-	+	18	45
-	+	19	31
-	+	19	24
-	+	17	0
-	+	18	0
-	+	17	21
-	+	16	0
-	+	6	0
-	+	29	0
-	+	18	13
-	+	17	8
-	+	18	69
-	+	18	0
-	+	20	42
-	+	16	5
-	+	20	8
-	+	22	10
-	+	20	0
-	+	19	8
-	+	21	8
-	+	19	0
-	+	23	4
-	+	25	4
-	+	23	4
-	+	25	4
-	+	24	8
-	+	25	40
-	+	7	17
-	+	6	0
-	+	30	0
-	+	6	0
-	+	11	20
-	+	8	30
-	+	11	0
-	+	4	0
-	+	8	18
-
-> ~/college/m17/compilers/project/src/benchmark.
-	*	1510589471	0
-	"	1	0
-
-> ~/college/m17/compilers/project/src/ll-src/99-bottles.s
-	*	1510588953	0
-	"	1	1
-
-> /tmp/bubblesort-df9e22.o
-	*	1510588182	0
-	"	1	0
-
-> ~/college/m17/compilers/project/src/ll-src/benchmark.sh
-	*	1510587814	0
-	"	1	0
-
-> ~/college/m17/compilers/project/src/ll-src/bubblesort.ll
-	*	1510587556	0
-	"	154	0
-
-> ~/college/m17/compilers/project/src/ll-src/bubblesort.o
-	*	1510587551	0
-	"	1	0
-
-> ~/Downloads/four-loops.b
-	*	1510587438	0
-	"	3	0
-
-> ~/college/m17/compilers/project/src/ll-out/99-bottles.b.out
-	*	1510586134	0
-	"	1	0
-
-> ~/college/m17/compilers/project/src/out
-	*	1510585787	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/college/m17/compilers/project/sample-clean.b
-	*	1510581732	0
-	"	1	0
-	^	25	16
-	.	25	15
-	+	16	0
-	+	46	0
-	+	46	10
-	+	46	19
-	+	16	10
-	+	46	0
-	+	1	0
-	+	16	0
-	+	4	9
-	+	18	14
-	+	20	14
-	+	29	14
-	+	44	0
-	+	36	0
-	+	35	0
-	+	39	0
-	+	38	22
-	+	39	0
-	+	19	0
-	+	29	0
-	+	22	0
-	+	25	19
-	+	27	0
-	+	25	15
-	+	20	0
-	+	23	29
-	+	25	15
-
-> ~/college/m17/compilers/project/.gitignore
-	*	1510581522	0
-	"	9	4
-	^	9	5
-	.	9	4
-	+	7	4
-	+	8	4
-	+	9	4
-
-> ~/college/m17/compilers/project/src/Makefile
-	*	1510581349	0
-	"	1	0
-	^	18	10
-	.	1	0
-	+	3	81
-	+	2	90
-	+	3	97
-	+	8	4
-	+	8	66
-	+	9	78
-	+	3	41
-	+	5	2
-	+	6	103
-	+	5	5
-	+	6	20
-	+	13	0
-	+	15	12
-	+	22	0
-	+	23	16
-	+	27	11
-	+	13	15
-	+	15	15
-	+	14	28
-	+	16	28
-	+	12	0
-	+	19	0
-	+	20	45
-	+	18	9
-	+	27	0
-	+	3	0
-	+	1	0
-
-> ~/college/m17/compilers/project/src/interpreter.cpp
-	*	1510581336	0
-	"	1	0
-	^	31	0
-	.	75	0
-	+	32	0
-	+	30	7
-	+	45	0
-	+	63	0
-	+	75	0
-
-> ~/college/m17/compilers/project/src/iparser.y
-	*	1510581101	0
-	"	225	16
-
-> ~/college/m17/compilers/project/src/iparser.py
-	*	1510580828	0
-	"	1	0
-	^	221	6
-	.	221	5
-	+	208	56
-	+	214	56
-	+	221	5
-
-> ~/college/m17/compilers/project/src/parser.y
-	*	1510580705	0
-	"	223	19
-	^	214	59
-	.	214	55
-	+	222	3
-	+	220	5
-	+	221	22
-	+	220	0
-	+	208	56
-	+	214	56
-	+	220	5
-	+	214	55
-
-> ~/college/m17/compilers/project/src/parser.
-	*	1510580673	0
-	"	1	0
-
-> ~/college/m17/compilers/project/src/compiler.cpp
-	*	1510580190	0
-	"	191	13
-	^	188	14
-	.	188	13
-	+	472	0
-	+	472	33
-	+	472	0
-	+	472	12
-	+	472	21
-	+	472	0
-	+	472	10
-	+	472	0
-	+	472	18
-	+	472	17
-	+	472	0
-	+	472	21
-	+	472	0
-	+	472	31
-	+	472	0
-	+	472	21
-	+	472	33
-	+	472	0
-	+	472	20
-	+	472	26
-	+	472	0
-	+	472	35
-	+	472	23
-	+	472	0
-	+	464	0
-	+	245	0
-	+	243	0
-	+	464	0
-	+	463	5
-	+	477	5
-	+	242	0
-	+	227	0
-	+	242	0
-	+	226	6
-	+	245	0
-	+	242	0
-	+	245	4
-	+	245	0
-	+	226	5
-	+	226	4
-	+	226	3
-	+	226	17
-	+	226	0
-	+	242	0
-	+	226	19
-	+	226	0
-	+	226	20
-	+	242	0
-	+	245	0
-	+	245	5
-	+	226	0
-	+	242	0
-	+	251	0
-	+	242	0
-	+	245	0
-	+	239	0
-	+	240	20
-	+	245	0
-	+	240	6
-	+	225	19
-	+	226	0
-	+	237	15
-	+	238	0
-	+	237	0
-	+	239	0
-	+	242	0
-	+	226	0
-	+	224	0
-	+	226	0
-	+	224	0
-	+	226	0
-	+	237	0
-	+	242	0
-	+	245	0
-	+	242	0
-	+	226	0
-	+	237	0
-	+	241	0
-	+	244	0
-	+	224	0
-	+	226	0
-	+	215	0
-	+	224	26
-	+	224	7
-	+	224	0
-	+	221	0
-	+	224	0
-	+	223	0
-	+	224	0
-	+	239	0
-	+	235	0
-	+	237	0
-	+	230	47
-	+	188	13
-	a	247	4
-	k	171	5
-
-> ~/college/m17/compilers/project/test-units/arithmetic.b
-	*	1510579070	0
-	"	1	0
-	^	9	14
-	.	9	13
-	+	1	0
-	+	8	17
-	+	9	13
-
-> ~/college/m17/compilers/project/test-units/assign.b
-	*	1510579031	0
-	"	1	0
-	^	3	10
-	.	3	9
-	+	1	0
-	+	8	9
-	+	9	11
-	+	3	9
-
-> ~/college/m17/compilers/project/test-units/dummy.b
-	*	1510579025	0
-	"	1	0
-
-> ~/college/m17/compilers/project/test-units/for.b
-	*	1510578933	0
-	"	16	0
-	^	14	21
-	.	9	18
-	+	14	14
-	+	4	15
-	+	15	22
-	+	9	18
-	+	15	31
-	+	9	20
-	+	15	0
-	+	17	0
-	+	15	0
-	+	13	18
-	+	15	0
-	+	16	0
-	+	15	16
-	+	14	20
-	+	15	0
-	+	17	0
-	+	9	18
-
-> ~/college/m17/compilers/project/test-units/bubblesort.b
-	*	1510578922	0
-	"	26	8
-	^	24	0
-	.	26	0
-	+	1	11
-	+	4	4
-	+	4	1
-	+	6	11
-	+	28	4
-	+	28	0
-	+	4	0
-	+	2	14
-	+	3	9
-	+	7	18
-	+	10	8
-	+	10	0
-	+	8	22
-	+	28	0
-	+	4	9
-	+	28	0
-	+	9	20
-	+	28	0
-	+	7	9
-	+	10	0
-	+	7	8
-	+	8	21
-	+	9	18
-	+	12	20
-	+	23	8
-	+	23	0
-	+	13	24
-	+	22	12
-	+	22	0
-	+	15	23
-	+	22	0
-	+	23	0
-	+	15	24
-	+	15	46
-	+	15	28
-	+	22	0
-	+	15	40
-	+	7	16
-	+	12	16
-	+	13	20
-	+	15	31
-	+	20	16
-	+	20	0
-	+	4	0
-	+	3	14
-	+	15	19
-	+	20	0
-	+	18	24
-	+	17	18
-	+	18	18
-	+	17	26
-	+	19	21
-	+	15	0
-	+	22	0
-	+	14	17
-	+	19	23
-	+	21	22
-	+	15	26
-	+	25	0
-	+	24	0
-	+	26	0
-
-> ~/college/m17/compilers/project/test-units/sumN-goto.b
-	*	1510578427	0
-	"	15	0
-
-> ~/college/m17/compilers/project/test-units/sumN-dup.b
-	*	1510578394	0
-	"	17	14
-	^	13	15
-	.	13	14
-	+	7	13
-	+	13	13
-	+	7	14
-	+	13	14
-
-> ~/college/m17/compilers/project/test-units/simple-for.b
-	*	1510578281	0
-	"	1	0
-	^	7	20
-	.	7	19
-	+	1	11
-	+	4	4
-	+	4	0
-	+	3	9
-	+	6	11
-	+	10	4
-	+	10	0
-	+	7	16
-	+	9	8
-	+	9	0
-	+	7	15
-	+	9	0
-	+	9	16
-	+	9	0
-	+	8	17
-	+	7	19
-
-> ~/college/m17/compilers/project/src/for.ll
-	*	1510578105	0
-	"	1	0
-	^	19	12
-	.	19	11
-	+	17	16
-	+	18	62
-	+	17	16
-	+	18	0
-	+	18	9
-	+	18	58
-	+	18	0
-	+	17	16
-	+	18	0
-	+	17	16
-	+	19	11
-
-> ~/college/m17/compilers/project/src/ast.h
-	*	1510578081	0
-	"	23	4
-	.	33	0
-	+	296	0
-	+	62	44
-	+	71	36
-	+	83	0
-	+	82	0
-	+	89	0
-	+	99	0
-	+	110	0
-	+	124	0
-	+	135	0
-	+	149	0
-	+	157	0
-	+	167	0
-	+	175	0
-	+	189	0
-	+	197	0
-	+	206	0
-	+	216	0
-	+	228	0
-	+	237	0
-	+	244	0
-	+	253	0
-	+	274	0
-	+	283	0
-	+	295	0
-	+	303	0
-	+	313	0
-	+	322	0
-	+	34	0
-	+	33	0
-
-> ~/college/m17/compilers/project/src/file.ll
-	*	1510576263	0
-	"	47	0
-	^	38	22
-	.	38	21
-	+	39	11
-	+	59	0
-	+	62	0
-	+	61	23
-	+	39	0
-	+	38	21
-
-> ~/college/m17/database-systems/hw/4-joins/join.hpp
-	*	1510574711	0
-	"	47	0
-	^	111	14
-	.	111	13
-	+	104	16
-	+	96	0
-	+	99	32
-	+	105	22
-	+	108	0
-	+	91	43
-	+	114	0
-	+	113	23
-	+	107	34
-	+	108	0
-	+	42	33
-	+	41	0
-	+	42	52
-	+	62	0
-	+	42	0
-	+	62	0
-	+	44	34
-	+	46	0
-	+	45	43
-	+	47	34
-	+	49	0
-	+	44	16
-	+	47	16
-	+	48	0
-	+	51	70
-	+	24	15
-	+	26	0
-	+	25	36
-	+	52	49
-	+	55	0
-	+	52	47
-	+	55	0
-	+	62	0
-	+	57	18
-	+	61	0
-	+	60	0
-	+	58	32
-	+	55	0
-	+	53	40
-	+	37	50
-	+	38	0
-	+	55	0
-	+	54	53
-	+	55	0
-	+	66	65
-	+	80	0
-	+	55	0
-	+	66	62
-	+	80	0
-	+	77	18
-	+	76	0
-	+	67	25
-	+	75	0
-	+	76	0
-	+	75	0
-	+	68	29
-	+	73	0
-	+	69	18
-	+	68	22
-	+	70	51
-	+	71	26
-	+	70	31
-	+	71	53
-	+	74	0
-	+	72	37
-	+	55	35
-	+	29	5
-	+	30	0
-	+	3	16
-	+	24	9
-	+	72	33
-	+	1	0
-	+	24	0
-	+	58	0
-	+	38	0
-	+	15	0
-	+	12	25
-	+	54	46
-	+	66	37
-	+	67	23
-	+	66	54
-	+	67	22
-	+	68	29
-	+	70	0
-	+	67	17
-	+	68	21
-	+	76	10
-	+	77	12
-	+	60	0
-	+	55	0
-	+	78	13
-	+	79	13
-	+	78	0
-	+	60	0
-	+	59	67
-	+	87	0
-	+	111	65
-	+	106	31
-	+	59	17
-	+	111	13
-
-> ~/college/m17/database-systems/hw/4-joins/sort.hpp
-	*	1510569854	0
-	"	121	0
-	.	76	0
-	+	101	0
-	+	99	0
-	+	111	46
-	+	114	0
-	+	99	0
-	+	100	0
-	+	110	17
-	+	114	0
-	+	113	21
-	+	112	50
-	+	113	29
-	+	108	14
-	+	8	0
-	+	7	14
-	+	89	20
-	+	7	0
-	+	98	53
-	+	98	13
-	+	97	36
-	+	98	75
-	+	97	20
-	+	98	83
-	+	104	42
-	+	99	22
-	+	104	0
-	+	103	0
-	+	91	61
-	+	92	0
-	+	92	24
-	+	91	27
-	+	92	0
-	+	45	32
-	+	40	28
-	+	65	12
-	+	37	29
-	+	45	47
-	+	48	0
-	+	46	51
-	+	49	17
-	+	64	0
-	+	50	32
-	+	47	25
-	+	45	50
-	+	47	28
-	+	50	68
-	+	51	33
-	+	54	0
-	+	52	33
-	+	55	26
-	+	65	0
-	+	56	0
-	+	59	26
-	+	62	31
-	+	47	27
-	+	65	0
-	+	45	52
-	+	4	0
-	+	47	20
-	+	50	0
-	+	55	27
-	+	64	0
-	+	63	50
-	+	45	51
-	+	118	0
-	+	103	0
-	+	108	46
-	+	92	39
-	+	108	0
-	+	57	26
-	+	51	63
-	+	26	0
-	+	51	27
-	+	52	32
-	+	41	27
-	+	53	36
-	+	76	48
-	+	41	0
-	+	45	0
-	+	51	0
-	+	60	16
-	+	61	28
-	+	42	29
-	+	44	30
-	+	76	0
-	+	76	26
-	+	76	44
-	+	43	25
-	+	48	30
-	+	76	48
-	+	48	0
-	+	43	0
-	+	76	0
-	+	51	24
-	+	67	26
-	+	68	0
-	+	74	0
-	+	76	0
-	+	51	0
-	+	69	0
-	+	76	0
-
-> ~/college/m17/database-systems/hw/4-joins/buffer.hpp
-	*	1510569788	0
-	"	172	0
-	.	162	0
-	+	93	0
-	+	158	65
-	+	159	0
-	+	160	0
-	+	134	35
-	+	134	0
-	+	69	41
-	+	72	14
-	+	69	40
-	+	72	0
-	+	69	40
-	+	72	43
-	+	69	66
-	+	72	0
-	+	168	19
-	+	78	0
-	+	77	59
-	+	88	18
-	+	69	41
-	+	72	0
-	+	69	40
-	+	72	0
-	+	70	31
-	+	72	0
-	+	70	34
-	+	72	0
-	+	70	34
-	+	93	0
-	+	78	13
-	+	78	0
-	+	92	25
-	+	93	0
-	+	77	0
-	+	13	49
-	+	13	0
-	+	30	0
-	+	29	0
-	+	30	0
-	+	35	46
-	+	35	0
-	+	35	28
-	+	35	34
-	+	35	20
-	+	31	19
-	+	35	0
-	+	31	24
-	+	33	8
-	+	35	0
-	+	34	20
-	+	31	17
-	+	34	0
-	+	31	17
-	+	34	19
-	+	33	0
-	+	32	0
-	+	37	21
-	+	43	0
-	+	39	25
-	+	41	0
-	+	38	21
-	+	41	0
-	+	40	29
-	+	42	19
-	+	43	0
-	+	42	0
-	+	37	11
-	+	172	0
-	+	172	40
-	+	172	0
-	+	172	11
-	+	172	20
-	+	172	0
-	+	172	20
-	+	172	0
-	+	172	41
-	+	172	17
-	+	172	21
-	+	172	34
-	+	172	0
-	+	172	51
-	+	172	0
-	+	13	0
-	+	171	40
-	+	171	0
-	+	45	0
-	+	44	0
-	+	45	18
-	+	50	16
-	+	54	12
-	+	56	8
-	+	66	21
-	+	75	22
-	+	126	17
-	+	66	17
-	+	71	20
-	+	131	19
-	+	66	17
-	+	135	22
-	+	154	0
-	+	162	0
-
-> ~/college/m17/database-systems/hw/4-joins/Makefile
-	*	1510569499	0
-	"	19	53
-	^	19	54
-	.	19	53
-	+	1	5
-	+	2	17
-	+	8	26
-	+	12	0
-	+	8	45
-	+	9	46
-	+	10	38
-	+	11	38
-	+	13	28
-	+	16	0
-	+	14	42
-	+	15	29
-	+	4	12
-	+	23	22
-	+	24	12
-	+	25	14
-	+	4	16
-	+	10	0
-	+	15	0
-	+	6	23
-	+	17	33
-	+	21	0
-	+	20	0
-	+	18	0
-	+	20	0
-	+	18	47
-	+	20	0
-	+	19	53
-
-> ~/.xmonad/xmonad.hs
-	*	1510568171	0
-	"	60	1
-
-> ~/.xmonad/xmonad.h
-	*	1510568142	0
-	"	1	0
-
-> ~/.xmobarrc
-	*	1510568129	0
-	"	1	0
-	^	1	25
-	.	1	24
-	+	1	24
-
-> /usr/share/xsessions/awesome.desktop
-	*	1510567949	0
-	"	1	0
-
-> /usr/share/xsessions/xmonad.desktop
-	*	1510567949	0
-	"	3	10
-	^	5	11
-	.	5	10
-	+	1	0
-	+	2	10
-	+	3	20
-	+	4	13
-	+	5	10
-
-> ~/list
-	*	1510561900	0
-	"	1	0
-	^	121	40
-	.	1	0
-	+	1	5141
-	+	1	5158
-	+	1	5172
-	+	1	5188
-	+	1	5211
-	+	1	5230
-	+	1	5245
-	+	1	5263
-	+	1	5287
-	+	1	5309
-	+	1	5331
-	+	1	5358
-	+	1	5379
-	+	1	5399
-	+	1	5417
-	+	1	5436
-	+	1	5451
-	+	1	5468
-	+	1	5481
-	+	1	5496
-	+	1	5518
-	+	1	5540
-	+	1	5561
-	+	1	5581
-	+	1	5599
-	+	1	5624
-	+	1	5643
-	+	1	5664
-	+	1	5681
-	+	1	5699
-	+	1	5719
-	+	1	5737
-	+	1	5762
-	+	1	5788
-	+	1	5808
-	+	1	5820
-	+	1	5840
-	+	1	5859
-	+	1	5890
-	+	1	5905
-	+	1	5921
-	+	1	5942
-	+	1	5961
-	+	1	5987
-	+	1	6017
-	+	1	6037
-	+	1	6053
-	+	1	6067
-	+	1	6086
-	+	1	6103
-	+	1	6116
-	+	1	6137
-	+	1	6164
-	+	1	6186
-	+	1	6215
-	+	1	6239
-	+	1	6260
-	+	1	6274
-	+	1	6291
-	+	1	6306
-	+	1	6333
-	+	1	6349
-	+	1	6362
-	+	1	6378
-	+	1	6398
-	+	1	6415
-	+	1	6438
-	+	1	6457
-	+	1	6469
-	+	1	6488
-	+	1	6514
-	+	1	6542
-	+	1	6555
-	+	1	6569
-	+	1	6588
-	+	1	6609
-	+	1	6625
-	+	1	6643
-	+	1	6669
-	+	1	6694
-	+	1	6717
-	+	1	6736
-	+	1	6756
-	+	1	6771
-	+	1	6789
-	+	1	6812
-	+	1	6832
-	+	1	6857
-	+	1	6875
-	+	536	0
-	+	5	0
-	+	535	0
-	+	1	0
-	+	125	0
-	+	41	0
-	+	121	4
-	+	122	4
-	+	121	40
-	+	122	39
-	+	1	0
-
-> ~/college/m17/compilers/project/README.md
-	*	1510557660	0
-	"	52	0
-
-> ~/college/m17/compilers/project/sample.b
-	*	1510557657	0
-	"	65	0
-	^	60	34
-	.	66	0
-	+	1	0
-	+	8	18
-	+	2	24
-	+	3	34
-	+	14	29
-	+	19	10
-	+	25	20
-	+	34	13
-	+	52	43
-	+	57	19
-	+	60	33
-	+	66	0
-
-> ~/.cabal/config
-	*	1510555941	0
-	"	50	2
-	^	50	3
-	.	50	2
-	+	35	0
-	+	37	11
-	+	35	21
-	+	38	23
-	+	50	21
-	+	78	16
-	+	50	0
-	+	78	2
-	+	50	2
-
-> ~/college/m17/compilers/project/Report.md
-	*	1510555023	0
-	"	8	0
-	^	8	0
-	.	8	0
-	+	2	2
-	+	1	5
-	+	5	10
-	+	8	0
-
-> ~/.config/openbox/autostart
-	*	1510552094	0
-	"	1	19
-	^	1	20
-	.	1	19
-	+	1	19
-
-> /opt/haskell/global-project/stack.yaml
-	*	1510551099	0
-	"	2	0
-
-> /opt/haskell/global-project/README.txt
-	*	1510551046	0
-	"	1	0
-
-> /opt/haskell/global-project/con
-	*	1510551040	0
-	"	1	0
-
-> /etc/environment
-	*	1510550613	0
-	"	5	0
-
-> ~/.stack/config.yaml
-	*	1510550368	0
-	"	4	0
-
-> /usr/include/llvm/IR/Instructions.h
-	*	1510496185	0
-	"	952	31
-
-> ~/college/m17/compilers/project/src/visitor.h
-	*	1510495982	0
-	"	180	0
-	.	209	0
-	+	18	0
-	+	133	44
-	+	104	16
-	+	131	0
-	+	131	31
-	+	131	15
-	+	133	0
-	+	140	0
-	+	146	18
-	+	173	43
-	+	167	41
-	+	133	23
-	+	133	0
-	+	131	0
-	+	133	0
-	+	131	17
-	+	131	0
-	+	131	16
-	+	131	31
-	+	214	34
-	+	214	0
-	+	214	33
-	+	214	0
-	+	131	0
-	+	105	20
-	+	108	16
-	+	107	24
-	+	214	0
-	+	123	43
-	+	125	0
-	+	123	42
-	+	125	0
-	+	124	44
-	+	124	28
-	+	124	24
-	+	124	50
-	+	124	6
-	+	127	26
-	+	129	0
-	+	130	0
-	+	129	0
-	+	128	28
-	+	128	51
-	+	122	0
-	+	113	0
-	+	115	0
-	+	114	23
-	+	116	4
-	+	115	0
-	+	116	0
-	+	122	25
-	+	122	0
-	+	122	25
-	+	131	0
-	+	110	0
-	+	122	0
-	+	122	39
-	+	122	19
-	+	122	31
-	+	122	46
-	+	115	16
-	+	122	28
-	+	122	12
-	+	122	16
-	+	122	62
-	+	115	38
-	+	116	0
-	+	124	34
-	+	124	49
-	+	125	0
-	+	129	0
-	+	122	19
-	+	122	0
-	+	118	26
-	+	120	0
-	+	119	28
-	+	120	0
-	+	119	29
-	+	120	0
-	+	196	30
-	+	207	0
-	+	206	0
-	+	197	0
-	+	206	0
-	+	205	22
-	+	196	32
-	+	204	40
-	+	202	28
-	+	150	29
-	+	209	26
-	+	209	0
-	+	209	27
-	+	209	0
-
-> ~/college/m17/compilers/project/test-units/simple-read.b
-	*	1510489728	0
-	"	1	0
-	^	7	20
-	.	7	19
-	+	1	11
-	+	3	4
-	+	3	0
-	+	2	9
-	+	5	11
-	+	8	4
-	+	8	0
-	+	7	13
-	+	8	0
-	+	7	19
-
-> ~/college/m17/compilers/project/test-units/99-bottles.b
-	*	1510485342	0
-	"	1	0
-	^	13	14
-	.	13	13
-	+	13	13

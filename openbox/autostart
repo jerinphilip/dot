@@ -1,1 +1,6 @@
-tint2 &> /dev/null &
+function bg-launch {
+   $1 &> /dev/null & 
+}
+
+bg-launch tint2
+bg-launch volumeicon

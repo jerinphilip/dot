@@ -1,10 +1,10 @@
-Config { font = "xft:Hack:style=Regular:size=9:antialias=true"
-       , additionalFonts = []
+Config { 
+         font = "xft:xos4 Terminus:size=9:antialias=true"
        , borderColor = "black"
        , border = TopB
        , bgColor = "black"
        , fgColor = "grey"
-       , alpha = 255
+       , alpha =255 
        , position = Top
        , textOffset = -1
        , iconOffset = -1
@@ -31,6 +31,7 @@ Config { font = "xft:Hack:style=Regular:size=9:antialias=true"
                     , Run Com "uname" ["-s","-r"] "" 36000
                     , Run Date "%a %b %_d %Y %H:%M:%S" "date" 10
                     , Run StdinReader
+                    , Run XPropertyLog "_xworkspaces"
                      -- battery monitor
                     , Run Battery        [ "--template" , "<acstatus>"
                                      , "--Low"      , "10"        -- units: %
@@ -50,6 +51,6 @@ Config { font = "xft:Hack:style=Regular:size=9:antialias=true"
                     ]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = "%StdinReader%}{ %battery% | <fc=#ee9a00>%date%</fc>"
+       , template = "%_xworkspaces%}{ %battery% | <fc=#ee9a00>%date%</fc>"
        }
 

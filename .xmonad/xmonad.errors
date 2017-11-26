@@ -1,0 +1,55 @@
+
+xmonad.hs:31:1: warning: [-Wtabs]
+    Tab character found here, and in 32 further locations.
+    Please use spaces instead.
+   |
+31 |                         ((0 , ExtraKey.xF86XK_AudioMute), spawn "amixer -q set Master toggle"),
+   | ^^^^^^^^
+
+xmonad.hs:57:21: warning: [-Wdeprecations]
+    In the use of ‘defaultTheme’
+    (imported from XMonad.Layout.Tabbed, but defined in XMonad.Layout.Decoration):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad.Layout.Decoration) instead."
+   |
+57 |     let tabConfig = defaultTheme {
+   |                     ^^^^^^^^^^^^
+
+xmonad.hs:68:14: warning: [-Wdeprecations]
+    In the use of ‘defaultConfig’
+    (imported from XMonad, but defined in XMonad.Config):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
+   |
+68 |     xmonad $ defaultConfig {
+   |              ^^^^^^^^^^^^^
+
+xmonad.hs:70:25: warning: [-Wdeprecations]
+    In the use of ‘defaultConfig’
+    (imported from XMonad, but defined in XMonad.Config):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
+   |
+70 |             startupHook defaultConfig
+   |                         ^^^^^^^^^^^^^
+
+xmonad.hs:73:85: warning: [-Wdeprecations]
+    In the use of ‘defaultConfig’
+    (imported from XMonad, but defined in XMonad.Config):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
+   |
+73 |         manageHook = manageDocks <+> (isFullscreen --> doFullFloat)  <+> manageHook defaultConfig,
+   |                                                                                     ^^^^^^^^^^^^^
+
+xmonad.hs:77:77: warning: [-Wdeprecations]
+    In the use of ‘defaultConfig’
+    (imported from XMonad, but defined in XMonad.Config):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
+   |
+77 |                                 (tabbed shrinkText tabConfig ||| layoutHook defaultConfig),
+   |                                                                             ^^^^^^^^^^^^^
+
+xmonad.hs:80:45: warning: [-Wdeprecations]
+    In the use of ‘defaultConfig’
+    (imported from XMonad, but defined in XMonad.Config):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
+   |
+80 |                           , handleEventHook defaultConfig ],
+   |                                             ^^^^^^^^^^^^^

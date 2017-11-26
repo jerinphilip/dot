@@ -12,7 +12,6 @@ existing:
             - .emacs : /home/jerin/.emacs
             - .fonts.conf: /home/jerin/.fonts.conf
             - .gtk-3.0.css: /home/jerin/.config/gtk-3.0/gtk.css
-            - xmonad.hs: /home/jerin/.xmonad/xmonad.hs
             - .stalonetrayrc: /home/jerin/.stalonetrayrc
             - .xmobarrc: /home/jerin/.xmobarrc
             - .dunstrc: /home/jerin/.config/dunst/dunstrc
@@ -22,6 +21,7 @@ existing:
             - .emacs.d: /home/jerin/.emacs.d
             - .shell: /home/jerin/.shell
             - awesome: /home/jerin/.config/awesome
+            - .xmonad: /home/jerin/.xmonad
             - openbox: /home/jerin/.config/openbox
 
     protected:
