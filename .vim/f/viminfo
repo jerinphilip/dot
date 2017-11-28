@@ -11,27 +11,65 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/xmonad
+~MSle0~/g++
 
 # Last Substitute Search Pattern:
-~MSle0&".*
+~MSle0&KL
 
 # Last Substitute String:
-$
+$D\\_{KL}
 
 # Command Line History (newest to oldest):
+:qa
+|2,0,1511847284,,"qa"
 :wq
-|2,0,1511671602,,"wq"
-:w
-|2,0,1511669109,,"w"
+|2,0,1511847281,,"wq"
 :q
-|2,0,1511669016,,"q"
+|2,0,1511846022,,"q"
+:qG
+|2,0,1511846020,,"qG"
+:w
+|2,0,1511845816,,"w"
+:l
+|2,0,1511845804,,"l"
+:%s/
+|2,0,1511845802,,"%s/"
+:r !pwd
+|2,0,1511844998,,"r !pwd"
+:qkjk
+|2,0,1511836530,,"qkjk"
+:!git push
+|2,0,1511765347,,"!git push"
+:!git commit -m "..."
+|2,0,1511760684,,"!git commit -m \"...\""
+:'<,'>Tabularize /|
+|2,0,1511757184,,"'<,'>Tabularize /|"
+:!git add -A
+|2,0,1511756763,,"!git add -A"
+:r !find images/results/ -iname "*.png"
+|2,0,1511755192,,"r !find images/results/ -iname \"*.png\""
+:!ls images/results/trpo_baseline/env-SwimmerAdv-v1_Exp1_Itr1_BS4000_Adv0.25_stp0.01_lam0.97_428691.p
+|2,0,1511754905,,"!ls images/results/trpo_baseline/env-SwimmerAdv-v1_Exp1_Itr1_BS4000_Adv0.25_stp0.01_lam0.97_428691.p"
+:!
+|2,0,1511753041,,"!"
+:/P
+|2,0,1511751294,,"/P"
+:!ls lib/css/
+|2,0,1511750929,,"!ls lib/css/"
+:!kjjkk/T
+|2,0,1511750733,,"!kjjkk/T"
+:'<,'>s/KL/D\\_{KL}/g
+|2,0,1511750701,,"'<,'>s/KL/D\\\\_{KL}/g"
+:%s
+|2,0,1511750689,,"%s"
+:!kjjkk
+|2,0,1511745748,,"!kjjkk"
+:!make
+|2,0,1511745213,,"!make"
 :qk
 |2,0,1511666929,,"qk"
 :52
 |2,0,1511666679,,"52"
-:!
-|2,0,1511665746,,"!"
 :tabnew ~/.xmobarrc
 |2,0,1511665256,,"tabnew ~/.xmobarrc"
 :%s/".*//g
@@ -40,12 +78,8 @@ $
 |2,0,1511665023,,"%s/\".*/g"
 :tabnew ~/.xmonad/autostart
 |2,0,1511664995,,"tabnew ~/.xmonad/autostart"
-:qa
-|2,0,1511601614,,"qa"
 :q!
 |2,0,1511600017,,"q!"
-:!make
-|2,0,1511583572,,"!make"
 :make
 |2,0,1511583557,,"make"
 :!make deploy
@@ -86,142 +120,108 @@ $
 |2,0,1511098509,,"'<,'>%s/$/\\/\\//g"
 :tabnew journal/topics-in-ml/notes/solutions.md
 |2,0,1511093232,,"tabnew journal/topics-in-ml/notes/solutions.md"
-:!make depoy
-|2,0,1511093104,,"!make depoy"
-:.!
-|2,0,1511073591,,".!"
-:tabnew journal/topics-in-ml/notes/monte-carlo.md
-|2,0,1511067808,,"tabnew journal/topics-in-ml/notes/monte-carlo.md"
-:%s/S_t
-|2,0,1511066416,,"%s/S_t"
-:wo
-|2,0,1511066272,,"wo"
-:tabnew journal/topics-in-ml/notes/td-learning.md
-|2,0,1511062914,,"tabnew journal/topics-in-ml/notes/td-learning.md"
-:wqa
-|2,0,1511163088,,"wqa"
-:!python 3.9.py
-|2,0,1511098464,,"!python 3.9.py"
-:!python states.py
-|2,0,1511095672,,"!python states.py"
-:!make serve
-|2,0,1511059666,,"!make serve"
-:ww
-|2,0,1510988633,,"ww"
-:s
-|2,0,1510976678,,"s"
-:W
-|2,0,1510851959,,"W"
-:!make 
-|2,0,1510836479,,"!make "
-:s/IN/OUT/
-|2,0,1510835166,,"s/IN/OUT/"
-:s/OUT/
-|2,0,1510835160,,"s/OUT/"
-:%s/KILL/\\text{KILL}/g
-|2,0,1510834344,,"%s/KILL/\\\\text{KILL}/g"
 
 # Search String History (newest to oldest):
-?/xmonad
-|2,1,1511671585,47,"xmonad"
-? @$
-|2,1,1511669013,,"@$"
-?/font
-|2,1,1511668031,47,"font"
-?/tabbed
-|2,1,1511667922,47,"tabbed"
-?/xwork
-|2,1,1511666806,47,"xwork"
-?/X
-|2,1,1511666785,47,"X"
-?/des
-|2,1,1511665911,47,"des"
-?/st
-|2,1,1511665909,47,"st"
-?/logHoo
-|2,1,1511665767,47,"logHoo"
-?/spawn
-|2,1,1511665067,47,"spawn"
-? ".*
-|2,1,1511665030,,"\".*"
-?/Hook
-|2,1,1511664850,47,"Hook"
-?/startup
-|2,1,1511664848,47,"startup"
-?/mu
-|2,1,1511602165,47,"mu"
-?/Manife
-|2,1,1511601574,47,"Manife"
-?/Experiment
-|2,1,1511583528,47,"Experiment"
-?/Exp
-|2,1,1511582782,47,"Exp"
-?/Thoug
-|2,1,1511582672,47,"Thoug"
-?/image based
-|2,1,1511582657,47,"image based"
-?/As mentioned
-|2,1,1511581636,47,"As mentioned"
-?/assignme
-|2,1,1511433624,47,"assignme"
-?/consiste
-|2,1,1511427503,47,"consiste"
-?/consider
-|2,1,1511427476,47,"consider"
-?/An
-|2,1,1511427416,47,"An"
-?/An errr
-|2,1,1511427414,47,"An errr"
-?/amsmath
-|2,1,1511427155,47,"amsmath"
-?/amssym
-|2,1,1511427153,47,"amssym"
-?/What mot
-|2,1,1511425318,47,"What mot"
-?/Intro
-|2,1,1511425222,47,"Intro"
-?/Gk
-|2,1,1511437079,47,"Gk"
-?/Dynamic
-|2,1,1511436939,47,"Dynamic"
-?/dyn
-|2,1,1511436903,47,"dyn"
-?/xmob
-|2,1,1511436859,47,"xmob"
-?/LogStrin
-|2,1,1511436776,47,"LogStrin"
-?/rename
-|2,1,1511436767,47,"rename"
-?/rname
-|2,1,1511436766,47,"rname"
-?/:34
-|2,1,1511416117,47,":34"
-?/al
-|2,1,1511416114,47,"al"
-?/port
-|2,1,1511416079,47,"port"
-?/em
-|2,1,1511415669,47,"em"
-?/email
-|2,1,1511415446,47,"email"
-?/AssignedQu
-|2,1,1511415260,47,"AssignedQu"
-?/assigned_question
-|2,1,1511415231,47,"assigned_question"
-?/Assig
-|2,1,1511415223,47,"Assig"
-?/old-de
-|2,1,1511415178,47,"old-de"
-?/DATA
-|2,1,1511415136,47,"DATA"
-?/as
-|2,1,1511414376,47,"as"
-? (.*)
-|2,1,1511413201,,"(.*)"
-? ^\s*
-|2,1,1511413184,,"^\\s*"
-? ^\s+
-|2,1,1511413181,,"^\\s+"
+?/g++
+|2,1,1511847273,47,"g++"
+?/gcc
+|2,1,1511847271,47,"gcc"
+?/boost
+|2,1,1511846189,47,"boost"
+?/C++ de
+|2,1,1511845975,47,"C++ de"
+?/deac
+|2,1,1511845771,47,"deac"
+?/LD_LIBR
+|2,1,1511845768,47,"LD_LIBR"
+?/LIB
+|2,1,1511845761,47,"LIB"
+?/this li
+|2,1,1511765534,47,"this li"
+?/a href
+|2,1,1511765531,47,"a href"
+?/this
+|2,1,1511765440,47,"this"
+?/youtu
+|2,1,1511765308,47,"youtu"
+?/Video
+|2,1,1511765149,47,"Video"
+?/since
+|2,1,1511760533,47,"since"
+?/possible since
+|2,1,1511760532,47,"possible since"
+?/state =
+|2,1,1511760194,47,"state ="
+?/Stats
+|2,1,1511760032,47,"Stats"
+?/stats
+|2,1,1511760030,47,"stats"
+?/Sats
+|2,1,1511760027,47,"Sats"
+?/ifr
+|2,1,1511759054,47,"ifr"
+?/Imple
+|2,1,1511758902,47,"Imple"
+?/percent
+|2,1,1511758874,47,"percent"
+?/Percentie
+|2,1,1511758871,47,"Percentie"
+?/nn
+|2,1,1511757955,47,"nn"
+?/environ
+|2,1,1511757952,47,"environ"
+?/Evalu
+|2,1,1511756497,47,"Evalu"
+?/Descri
+|2,1,1511756471,47,"Descri"
+?/Eval
+|2,1,1511754867,47,"Eval"
+?/Results
+|2,1,1511754863,47,"Results"
+?/sim
+|2,1,1511754723,47,"sim"
+?/No ad
+|2,1,1511753503,47,"No ad"
+?/Minim
+|2,1,1511753179,47,"Minim"
+?/Mink
+|2,1,1511753177,47,"Mink"
+? \<Problem\>
+|2,1,1511753054,,"\\<Problem\\>"
+?/Algori
+|2,1,1511752921,47,"Algori"
+?/State
+|2,1,1511752797,47,"State"
+?/Modified
+|2,1,1511752558,47,"Modified"
+?/Policy Optim
+|2,1,1511751301,47,"Policy Optim"
+?/Policy
+|2,1,1511751297,47,"Policy"
+?/Implem
+|2,1,1511751068,47,"Implem"
+?/TRPO
+|2,1,1511750735,47,"TRPO"
+? KL
+|2,1,1511750701,,"KL"
+?/KL
+|2,1,1511750680,47,"KL"
+?/illus
+|2,1,1511750587,47,"illus"
+?/Illust
+|2,1,1511750583,47,"Illust"
+?/Parameters
+|2,1,1511750581,47,"Parameters"
+?/dim(
+|2,1,1511748112,47,"dim("
+? \<Building\>
+|2,1,1511747774,,"\\<Building\\>"
+?/Train
+|2,1,1511747635,47,"Train"
+?/Intu
+|2,1,1511746806,47,"Intu"
+?/uncon
+|2,1,1511746165,47,"uncon"
 
 # Expression History (newest to oldest):
 
@@ -239,55 +239,63 @@ $
 
 # Registers:
 "0	LINE	0
-	        fontname = "
-|3,0,0,1,1,0,1511669013,"        fontname = \""
-""1	LINE	0
-	            - xmonad.hs: /home/jerin/.xmonad/xmonad.hs
-|3,1,1,1,1,0,1511671592,"            - xmonad.hs: /home/jerin/.xmonad/xmonad.hs"
+	export LD_LIBRARY_PATH=$VIRTUAL_ENV/lib/:$LD_LIBRARY_PATH
+|3,0,0,1,1,0,1511845800,"export LD_LIBRARY_PATH=$VIRTUAL_ENV/lib/:$LD_LIBRARY_PATH"
+"1	LINE	0
+	kill-
+|3,0,1,1,1,0,1511841189,"kill-"
 "2	LINE	0
-	            - xmonad.hs: /home/jerin/.xmonad/xmonad.hs
-|3,0,2,1,1,0,1511671588,"            - xmonad.hs: /home/jerin/.xmonad/xmonad.hs"
+	                    <p> Any problem in viewing, look at <a
+	                                                                                                                           href="https://www.youtube.com/channel/UCQKB23T2idyoi23lDw_9uPg/videos">
+	                        this link</a>. </p>
+|3,0,2,1,3,0,1511765448,"                    <p> Any problem in viewing, look at <a","                                                                                                                           href=\"https://www.youtube.com/channel/UCQKB23T2idyoi23lDw_9uPg/videos\">","                        this link</a>. </p>"
 "3	LINE	0
-	killall stalonetray
-|3,0,3,1,1,0,1511669111,"killall stalonetray"
+	                            * Possible since $\mathbb{E}[\nabla\_{\theta}\log P(\tau^i;\theta)R b(\tau)] = 0 $
+|3,0,3,1,1,0,1511760680,"                            * Possible since $\\mathbb{E}[\\nabla\\_{\\theta}\\log P(\\tau^i;\\theta)R b(\\tau)] = 0 $"
 "4	LINE	0
-	killall dunst
-|3,0,4,1,1,0,1511669107,"killall dunst"
-"5	LINE	0
-	killall stalonetray
-|3,0,5,1,1,0,1511669106,"killall stalonetray"
-"6	LINE	0
-	        fontname = "
-|3,0,6,1,1,0,1511667994,"        fontname = \""
-"7	LINE	0
+	                <section style="text-align:left">
+	                    <h4> InvertedPendulum: Parameters Illustrated </h4>
 	
-|3,0,7,1,1,0,1511667966,""
-"8	BLOCK	2
-	-- 
-	-- 
-	-- 
-	-- 
-	-- 
-	-- 
-	-- 
-|3,0,8,2,7,2,1511665742,"-- ","-- ","-- ","-- ","-- ","-- ","-- "
-"9	BLOCK	0
-	"
-	"
-	"
-|3,0,9,2,3,0,1511665019,"\"","\"","\""
-"a@	CHAR	0
+	                    <img src="images/process.png" alt="other examples"></img>
+	
+	                </section>
+	                <section style="text-align:left">
+	                    <h4> Additional Agents </h4>
+	
+	                    <img src="images/other_examples.png" alt="other examples"></img>
+	
+	
+	                    <!-- <p> No adversarial version of ant - therefore
+	                        discarded. </p> -->
+	
+	                </section>
+|3,0,4,1,16,0,1511760345,"                <section style=\"text-align:left\">","                    <h4> InvertedPendulum: Parameters Illustrated </h4>","","                    <img src=\"images/process.png\" alt=\"other examples\"></img>","","                </section>","                <section style=\"text-align:left\">","                    <h4> Additional Agents </h4>","",>90
+|<"                    <img src=\"images/other_examples.png\" alt=\"other examples\"></img>","","","                    <!-- <p> No adversarial version of ant - therefore","                        discarded. </p> -->","","                </section>"
+"5	LINE	0
+	                            ...
+|3,0,5,1,1,0,1511760221,"                            ..."
+"6	LINE	0
+	                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vz9buZMppY4?rel=0" frameborder="0" gesture="media" allowfullscreen></iframe>
+|3,0,6,1,1,0,1511759069,"                    <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/vz9buZMppY4?rel=0\" frameborder=\"0\" gesture=\"media\" allowfullscreen></iframe>"
+"7	LINE	0
+	                <section>
+	                </section>
+|3,0,7,1,2,0,1511758916,"                <section>","                </section>"
+"8	LINE	0
+	
+|3,0,8,1,1,0,1511758147,""
+"9	LINE	0
+	
+|3,0,9,1,1,0,1511758144,""
+"a	CHAR	0
 	Vjjj:s/\t/|/g:€ku€kl€kl€kl€kl€kb€kb^":€ku:€ku€kl€kl€kl€kl€kb$
-|3,2,10,0,1,0,1511583525,"Vjjj:s/\\t/|/g:€ku€kl€kl€kl€kl€kb€kb^\":€ku:€ku€kl€kl€kl€kl€kb$"
+|3,0,10,0,1,0,1511583525,"Vjjj:s/\\t/|/g:€ku€kl€kl€kl€kl€kb€kb^\":€ku:€ku€kl€kl€kl€kl€kb$"
 "b	CHAR	0
 	iCHECK_INCLUDE_FILES()
 |3,0,11,0,1,0,1493455540,"iCHECK_INCLUDE_FILES()"
-"c	BLOCK	3
-	| 1 
-	| 2 
-	| 3 
-	| 4 
-|3,0,12,2,4,3,1510679271,"| 1 ","| 2 ","| 3 ","| 4 "
+"c@	CHAR	3
+	dd"tPjjpi<ig€kbmg src="A"></img>
+|3,2,12,0,1,3,1511755367,"dd\"tPjjpi<ig€kbmg src=\"A\"></img>"
 "e	LINE	0
 	    class expr: public node{
 	    
@@ -306,9 +314,14 @@ $
 "t	LINE	0
 	                <section data-markdown style="text-align:left">
 	                    <script type="text/template">
+	
+	
 	                    </script>
 	                </section>
-|3,0,29,1,4,0,1510120977,"                <section data-markdown style=\"text-align:left\">","                    <script type=\"text/template\">","                    </script>","                </section>"
+|3,0,29,1,6,0,1511747642,"                <section data-markdown style=\"text-align:left\">","                    <script type=\"text/template\">","","","                    </script>","                </section>"
+"u	CHAR	0
+	uuuuuujk
+|3,0,30,0,1,0,1511755348,"uuuuuujk"
 "w	CHAR	0
 	O
 |3,0,32,0,1,0,0,"O"
@@ -318,235 +331,485 @@ $
 "z	CHAR	0
 	i(thunk lhlt a)
 |3,0,35,0,1,0,1485956367,"i(thunk lhlt a)"
-"-	CHAR	0
-	layoutHook defaultConfig
-|3,0,36,0,1,0,1511667940,"layoutHook defaultConfig"
+""-	CHAR	0
+	$(BOOST_PYTHON3_POSTFIX)
+|3,1,36,0,1,0,1511846196,"$(BOOST_PYTHON3_POSTFIX)"
 
 # File marks:
-'0  24  41  ~/repo/dot/config.yml
-|4,48,24,41,1511671602,"~/repo/dot/config.yml"
-'1  2  0  ~/.xmonad/autostart
-|4,49,2,0,1511669112,"~/.xmonad/autostart"
-'2  7  12  ~/.xmonad/autostart
-|4,50,7,12,1511669063,"~/.xmonad/autostart"
-'3  6  12  ~/.xmonad/autostart
-|4,51,6,12,1511669063,"~/.xmonad/autostart"
-'4  7  13  ~/.xmonad/autostart
-|4,52,7,13,1511669044,"~/.xmonad/autostart"
-'5  6  13  ~/.xmonad/autostart
-|4,53,6,13,1511669044,"~/.xmonad/autostart"
-'6  8  0  ~/.config/autostart
-|4,54,8,0,1511669016,"~/.config/autostart"
-'7  64  12  ~/.xmonad/xmonad.hs
-|4,55,64,12,1511668033,"~/.xmonad/xmonad.hs"
-'8  64  59  ~/.xmonad/xmonad.hs
-|4,56,64,59,1511668021,"~/.xmonad/xmonad.hs"
-'9  1  0  ~/.xmonad/autostart
-|4,57,1,0,1511666939,"~/.xmonad/autostart"
+'0  609  35  ~/repo/rl-sandbox/pytorch/setup.py
+|4,48,609,35,1511847284,"~/repo/rl-sandbox/pytorch/setup.py"
+'1  6  45  ~/repo/rl-sandbox/rl-sandbox/sample.py
+|4,49,6,45,1511846703,"~/repo/rl-sandbox/rl-sandbox/sample.py"
+'2  58  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,50,58,0,1511846200,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+'3  147  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,51,147,0,1511846022,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+'4  147  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,52,147,0,1511846022,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+'5  53  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,53,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
+'6  81  32  ~/repo/rl-sandbox/env/bin/activate
+|4,54,81,32,1511845818,"~/repo/rl-sandbox/env/bin/activate"
+'7  1  61  ~/repo/rl-sandbox/install.sh
+|4,55,1,61,1511845341,"~/repo/rl-sandbox/install.sh"
+'8  1  0  ~/repo/rl-sandbox/requirements.txt
+|4,56,1,0,1511845333,"~/repo/rl-sandbox/requirements.txt"
+'9  1  0  ~/repo/rl-sandbox/requirements.txt
+|4,57,1,0,1511845306,"~/repo/rl-sandbox/requirements.txt"
 
 # Jumplist (newest first):
--'  24  41  ~/repo/dot/config.yml
-|4,39,24,41,1511671602,"~/repo/dot/config.yml"
--'  23  12  ~/repo/dot/config.yml
-|4,39,23,12,1511671591,"~/repo/dot/config.yml"
--'  13  0  ~/repo/dot/config.yml
-|4,39,13,0,1511671585,"~/repo/dot/config.yml"
--'  1  0  ~/repo/dot/config.yml
-|4,39,1,0,1511671579,"~/repo/dot/config.yml"
--'  2  0  ~/.xmonad/autostart
-|4,39,2,0,1511669112,"~/.xmonad/autostart"
--'  2  0  ~/.xmonad/autostart
-|4,39,2,0,1511669112,"~/.xmonad/autostart"
--'  1  0  ~/.xmonad/autostart
-|4,39,1,0,1511669104,"~/.xmonad/autostart"
--'  1  0  ~/.xmonad/autostart
-|4,39,1,0,1511669104,"~/.xmonad/autostart"
--'  7  12  ~/.xmonad/autostart
-|4,39,7,12,1511669063,"~/.xmonad/autostart"
--'  6  12  ~/.xmonad/autostart
-|4,39,6,12,1511669063,"~/.xmonad/autostart"
--'  7  12  ~/.xmonad/autostart
-|4,39,7,12,1511669063,"~/.xmonad/autostart"
--'  6  12  ~/.xmonad/autostart
-|4,39,6,12,1511669063,"~/.xmonad/autostart"
--'  1  0  ~/.xmonad/autostart
-|4,39,1,0,1511669059,"~/.xmonad/autostart"
--'  1  0  ~/.xmonad/autostart
-|4,39,1,0,1511669059,"~/.xmonad/autostart"
--'  6  13  ~/.xmonad/autostart
-|4,39,6,13,1511669044,"~/.xmonad/autostart"
--'  6  13  ~/.xmonad/autostart
-|4,39,6,13,1511669044,"~/.xmonad/autostart"
--'  1  0  ~/.xmonad/autostart
-|4,39,1,0,1511669021,"~/.xmonad/autostart"
--'  1  0  ~/.xmonad/autostart
-|4,39,1,0,1511669021,"~/.xmonad/autostart"
--'  8  0  ~/.config/autostart
-|4,39,8,0,1511669016,"~/.config/autostart"
--'  8  0  ~/.config/autostart
-|4,39,8,0,1511669016,"~/.config/autostart"
--'  8  0  ~/.config/autostart
-|4,39,8,0,1511669016,"~/.config/autostart"
--'  8  0  ~/.config/autostart
-|4,39,8,0,1511669016,"~/.config/autostart"
--'  8  0  ~/.config/autostart
-|4,39,8,0,1511669016,"~/.config/autostart"
--'  8  0  ~/.config/autostart
-|4,39,8,0,1511669016,"~/.config/autostart"
--'  8  0  ~/.config/autostart
-|4,39,8,0,1511669016,"~/.config/autostart"
--'  8  0  ~/.config/autostart
-|4,39,8,0,1511669016,"~/.config/autostart"
--'  8  0  ~/.config/autostart
-|4,39,8,0,1511669016,"~/.config/autostart"
--'  8  0  ~/.config/autostart
-|4,39,8,0,1511669016,"~/.config/autostart"
--'  8  0  ~/.config/autostart
-|4,39,8,0,1511669016,"~/.config/autostart"
--'  8  0  ~/.config/autostart
-|4,39,8,0,1511669016,"~/.config/autostart"
--'  8  0  ~/.config/autostart
-|4,39,8,0,1511669016,"~/.config/autostart"
--'  8  0  ~/.config/autostart
-|4,39,8,0,1511669016,"~/.config/autostart"
--'  8  0  ~/.config/autostart
-|4,39,8,0,1511669016,"~/.config/autostart"
--'  8  0  ~/.config/autostart
-|4,39,8,0,1511669016,"~/.config/autostart"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  64  12  ~/.xmonad/xmonad.hs
-|4,39,64,12,1511668033,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  1  0  ~/.xmonad/xmonad.hs
-|4,39,1,0,1511668031,"~/.xmonad/xmonad.hs"
--'  64  59  ~/.xmonad/xmonad.hs
-|4,39,64,59,1511668021,"~/.xmonad/xmonad.hs"
--'  64  59  ~/.xmonad/xmonad.hs
-|4,39,64,59,1511668021,"~/.xmonad/xmonad.hs"
+-'  609  35  ~/repo/rl-sandbox/pytorch/setup.py
+|4,39,609,35,1511847284,"~/repo/rl-sandbox/pytorch/setup.py"
+-'  1  0  ~/repo/rl-sandbox/pytorch/setup.py
+|4,39,1,0,1511847273,"~/repo/rl-sandbox/pytorch/setup.py"
+-'  6  45  ~/repo/rl-sandbox/rl-sandbox/sample.py
+|4,39,6,45,1511846703,"~/repo/rl-sandbox/rl-sandbox/sample.py"
+-'  6  45  ~/repo/rl-sandbox/rl-sandbox/sample.py
+|4,39,6,45,1511846703,"~/repo/rl-sandbox/rl-sandbox/sample.py"
+-'  1  0  ~/repo/rl-sandbox/rl-sandbox/sample.py
+|4,39,1,0,1511846701,"~/repo/rl-sandbox/rl-sandbox/sample.py"
+-'  1  0  ~/repo/rl-sandbox/rl-sandbox/sample.py
+|4,39,1,0,1511846701,"~/repo/rl-sandbox/rl-sandbox/sample.py"
+-'  58  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,58,0,1511846200,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  58  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,58,0,1511846200,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  58  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,58,0,1511846200,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  58  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,58,0,1511846200,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  59  32  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,59,32,1511846195,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  59  32  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,59,32,1511846195,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  59  32  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,59,32,1511846195,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  59  32  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,59,32,1511846195,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  57  21  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,57,21,1511846190,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  22  7  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,22,7,1511846190,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  57  21  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,57,21,1511846190,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  22  7  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,22,7,1511846190,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  57  21  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,57,21,1511846190,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  22  7  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,22,7,1511846190,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  57  21  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,57,21,1511846190,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  22  7  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,22,7,1511846190,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  1  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,1,0,1511846189,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  1  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,1,0,1511846189,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  1  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,1,0,1511846189,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  1  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,1,0,1511846189,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  147  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,147,0,1511846022,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  147  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,147,0,1511846022,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  147  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,147,0,1511846022,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  147  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,147,0,1511846022,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  147  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,147,0,1511846022,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  147  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,147,0,1511846022,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  147  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,147,0,1511846022,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  147  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,147,0,1511846022,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  1  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,1,0,1511846020,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  1  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,1,0,1511846020,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  1  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,1,0,1511846020,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  1  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+|4,39,1,0,1511846020,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
+-'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
+|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
 
 # History of marks within files (newest to oldest):
+
+> ~/repo/rl-sandbox/pytorch/setup.py
+	*	1511847282	0
+	"	609	35
+	^	609	37
+	.	609	0
+	+	609	0
+
+> ~/repo/rl-sandbox/rl-sandbox/sample.py
+	*	1511846702	0
+	"	6	45
+	^	6	46
+	.	6	45
+	+	6	45
+
+> ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
+	*	1511846199	0
+	"	58	0
+	^	59	33
+	.	59	32
+	+	59	32
+
+> ~/repo/rl-sandbox/roboschool/setup.py
+	*	1511845981	0
+	"	53	4
+
+> ~/repo/rl-sandbox/env/bin/activate
+	*	1511845817	0
+	"	81	32
+	^	81	33
+	.	81	32
+	+	80	56
+	+	81	32
+
+> ~/repo/rl-sandbox/install.sh
+	*	1511845340	0
+	"	1	61
+	^	1	62
+	.	1	61
+	+	8	7
+	+	1	23
+	+	2	0
+	+	1	61
+
+> ~/repo/rl-sandbox/requirements.txt
+	*	1511845333	0
+	"	1	0
+	^	1	4
+	.	1	3
+	+	1	3
+
+> ~/.xmonad/autostart
+	*	1511841209	0
+	"	12	0
+	^	5	18
+	.	5	17
+	+	9	4
+	+	11	4
+	+	9	0
+	+	10	0
+	+	9	29
+	+	10	42
+	+	11	48
+	+	9	0
+	+	1	10
+	+	9	0
+	+	4	13
+	+	10	18
+	+	11	12
+	+	4	14
+	+	10	19
+	+	11	13
+	+	4	14
+	+	10	19
+	+	11	13
+	+	10	0
+	+	5	0
+	+	11	0
+	+	5	0
+	+	3	0
+	+	2	19
+	+	6	0
+	+	3	0
+	+	7	0
+	+	9	0
+	+	8	21
+	+	12	0
+	+	9	0
+	+	3	23
+	+	4	18
+	+	5	17
+	o	10	0
+
+> ~/.xmonad/xmonad.hs
+	*	1511836720	0
+	"	23	27
+	^	24	28
+	.	24	27
+	+	82	8
+	+	84	0
+	+	83	8
+	+	82	10
+	+	83	10
+	+	84	0
+	+	91	43
+	+	92	0
+	+	91	34
+	+	97	45
+	+	91	10
+	+	92	0
+	+	82	10
+	+	8	27
+	+	72	48
+	+	71	11
+	+	72	0
+	+	73	28
+	+	72	20
+	+	82	0
+	+	91	8
+	+	92	10
+	+	84	0
+	+	18	2
+	+	71	36
+	+	97	64
+	+	78	0
+	+	79	0
+	+	78	0
+	+	66	15
+	+	66	0
+	+	65	12
+	+	24	102
+	+	24	27
+
+> ~/.xmonad/xmonad.h
+	*	1511836464	0
+	"	1	0
+
+> ~/.stalonetrayrc
+	*	1511783896	0
+	"	15	0
+
+> ~/college/m17/topics-ml/gh-page/final-presentation/index.html
+	*	1511765576	0
+	"	573	24
+	.	596	0
+	+	610	52
+	+	611	52
+	+	612	53
+	+	612	0
+	+	605	0
+	+	602	0
+	+	570	0
+	+	568	0
+	+	567	40
+	+	568	38
+	+	567	0
+	+	570	0
+	+	567	0
+	+	565	25
+	+	566	24
+	+	569	25
+	+	572	0
+	+	578	0
+	+	579	0
+	+	563	0
+	+	574	65
+	+	575	67
+	+	574	67
+	+	564	18
+	+	571	18
+	+	379	46
+	+	379	0
+	+	336	0
+	+	357	0
+	+	340	36
+	+	356	25
+	+	352	58
+	+	346	31
+	+	351	59
+	+	349	39
+	+	346	51
+	+	347	0
+	+	351	42
+	+	348	47
+	+	344	33
+	+	348	71
+	+	352	42
+	+	347	45
+	+	348	47
+	+	347	0
+	+	348	42
+	+	348	0
+	+	348	64
+	+	347	0
+	+	346	51
+	+	348	0
+	+	342	24
+	+	356	24
+	+	382	34
+	+	385	0
+	+	602	0
+	+	596	147
+	+	593	0
+	+	601	0
+	+	599	0
+	+	542	19
+	+	552	18
+	+	396	0
+	+	600	138
+	+	600	52
+	+	600	0
+	+	597	0
+	+	607	90
+	+	352	47
+	+	354	37
+	+	355	0
+	+	382	59
+	+	383	32
+	+	381	41
+	+	384	35
+	+	396	0
+	+	360	0
+	+	117	25
+	+	254	95
+	+	253	72
+	+	254	0
+	+	253	72
+	+	254	0
+	+	599	0
+	+	599	55
+	+	599	0
+	+	599	58
+	+	599	29
+	+	599	0
+	+	599	58
+	+	599	0
+	+	599	91
+	+	599	0
+	+	584	58
+	+	584	130
+	+	585	0
+	+	584	0
+	+	596	0
+	+	595	0
+	+	596	0
+	k	10	46
+
+> ~/college/m17/topics-ml/gh-page/index.html
+	*	1511765123	0
+	"	1	0
 
 > ~/repo/dot/config.yml
 	*	1511671601	0
@@ -557,74 +820,6 @@ $
 	+	32	0
 	+	15	0
 	+	24	41
-
-> ~/.xmonad/autostart
-	*	1511669112	0
-	"	2	0
-	.	2	0
-	+	5	4
-	+	7	4
-	+	5	0
-	+	6	0
-	+	5	29
-	+	6	42
-	+	7	48
-	+	5	0
-	+	1	10
-	+	5	0
-	+	3	13
-	+	6	18
-	+	7	12
-	+	3	14
-	+	6	19
-	+	7	13
-	+	3	14
-	+	6	19
-	+	7	13
-	+	6	0
-	+	4	0
-	+	7	0
-	+	4	0
-	+	2	0
-	o	6	0
-
-> ~/.xmonad/xmonad.hs
-	*	1511668033	0
-	"	64	12
-	^	64	60
-	.	64	12
-	+	81	8
-	+	83	0
-	+	82	8
-	+	81	10
-	+	82	10
-	+	83	0
-	+	90	43
-	+	91	0
-	+	90	34
-	+	96	45
-	+	90	10
-	+	91	0
-	+	81	10
-	+	8	27
-	+	71	48
-	+	70	11
-	+	71	0
-	+	72	28
-	+	71	20
-	+	81	0
-	+	90	8
-	+	91	10
-	+	83	0
-	+	18	2
-	+	70	36
-	+	96	64
-	+	77	0
-	+	78	0
-	+	77	0
-	+	65	15
-	+	65	0
-	+	64	12
 
 > ~/.xmobarrc
 	*	1511666837	0
@@ -2781,357 +2976,3 @@ $
 	+	21	12
 	+	22	29
 	+	21	0
-
-> ~/college/m17/topics-ml/hw/3-gridworld/base/gridworld.py
-	*	1510628431	0
-	"	1	0
-	.	34	0
-	+	29	0
-	+	29	17
-	+	29	0
-	+	29	14
-	+	29	0
-	+	1	15
-	+	27	0
-	+	2	21
-	+	3	44
-	+	28	0
-	+	15	20
-	+	14	19
-	+	15	19
-	+	16	22
-	+	21	26
-	+	21	0
-	+	20	31
-	+	21	28
-	+	22	27
-	+	23	19
-	+	5	21
-	+	6	19
-	+	7	43
-	+	13	0
-	+	8	41
-	+	29	25
-	+	34	0
-	+	25	29
-	+	27	0
-	+	30	22
-	+	31	29
-	+	9	3
-	+	5	18
-	+	21	0
-	+	5	13
-	+	5	0
-	+	9	0
-	+	10	27
-	+	11	19
-	+	12	43
-	+	18	23
-	+	10	26
-	+	11	20
-	+	12	41
-	+	2	21
-	+	25	17
-	+	26	14
-	+	21	21
-	+	34	0
-	+	31	0
-	+	34	0
-	+	31	7
-	+	32	11
-	+	31	0
-	+	32	34
-	+	33	34
-	+	33	15
-	+	34	15
-	+	33	0
-	+	34	0
-
-> ~/college/m17/topics-ml/hw/3-gridworld/base/__init__.py
-	*	1510628431	0
-	"	1	0
-	^	2	24
-	.	2	23
-	+	1	31
-	+	2	23
-
-> ~/.shell/aliases.sh
-	*	1510624849	0
-	"	16	65
-	^	16	66
-	.	16	65
-	+	16	65
-
-> ~/college/m17/compilers/project/compiler-design.md
-	*	1510593999	0
-	"	148	0
-	^	152	2
-	.	161	0
-	+	151	50
-	+	155	3
-	+	151	60
-	+	155	0
-	+	144	11
-	+	151	0
-	+	144	0
-	+	151	0
-	+	144	0
-	+	151	0
-	+	150	30
-	+	144	11
-	+	144	19
-	+	144	20
-	+	144	28
-	+	144	29
-	+	144	10
-	+	144	11
-	+	144	19
-	+	144	20
-	+	144	28
-	+	144	29
-	+	145	10
-	+	151	0
-	+	150	0
-	+	148	0
-	+	144	0
-	+	150	0
-	+	138	263
-	+	99	76
-	+	100	57
-	+	100	0
-	+	101	138
-	+	97	6
-	+	101	140
-	+	101	0
-	+	103	40
-	+	105	108
-	+	106	80
-	+	107	34
-	+	105	0
-	+	104	40
-	+	107	38
-	+	108	30
-	+	103	18
-	+	109	97
-	+	109	107
-	+	151	0
-	+	155	0
-	+	162	0
-	+	155	0
-	+	155	27
-	+	155	39
-	+	156	37
-	+	157	35
-	+	158	38
-	+	159	44
-	+	160	35
-	+	161	44
-	+	155	15
-	+	155	0
-	+	155	38
-	+	156	0
-	+	156	36
-	+	157	0
-	+	157	34
-	+	158	0
-	+	158	37
-	+	158	50
-	+	159	43
-	+	160	0
-	+	160	34
-	+	161	0
-	+	161	43
-	+	162	0
-	+	155	14
-	+	155	0
-	+	155	12
-	+	156	12
-	+	157	10
-	+	158	12
-	+	158	49
-	+	158	0
-	+	160	10
-	+	161	12
-	+	162	0
-	+	155	0
-	+	153	0
-	+	140	13
-	+	152	14
-	+	153	0
-	+	140	1
-	+	152	1
-	+	153	0
-	+	154	0
-	+	161	0
-
-> ~/college/m17/compilers/project/benchmark.sh
-	*	1510593469	0
-	"	25	4
-	^	11	15
-	.	8	0
-	+	31	13
-	+	7	14
-	+	8	14
-	+	12	9
-	+	11	14
-	+	8	0
-
-> ~/college/m17/compilers/project/benchmark.out
-	*	1510593460	0
-	"	1	0
-
-> ~/college/m17/compilers/project/compiler-design.
-	*	1510592045	0
-	"	1	0
-
-> ~/college/m17/compilers/project/src/benchmark.out
-	*	1510591237	0
-	"	1	0
-	^	2	16
-	.	7	0
-	+	7	29
-	+	3	19
-	+	3	20
-	+	3	28
-	+	3	29
-	+	4	0
-	+	4	20
-	+	4	28
-	+	4	29
-	+	5	8
-	+	5	17
-	+	5	18
-	+	5	26
-	+	5	27
-	+	6	0
-	+	5	9
-	+	6	0
-	+	4	11
-	+	5	0
-	+	3	11
-	+	4	0
-	+	6	22
-	+	6	30
-	+	6	31
-	+	6	39
-	+	6	40
-	+	6	48
-	+	6	0
-	+	7	11
-	+	7	19
-	+	7	20
-	+	7	28
-	+	7	29
-	+	8	0
-	+	3	0
-	+	4	0
-	+	3	0
-	+	1	39
-	+	2	15
-	+	7	0
-
-> ~/college/m17/compilers/project/test-units/non-trivial/matmul_huge.b
-	*	1510590136	0
-	"	8	10
-	^	8	11
-	.	8	10
-	+	1	0
-	+	2	34
-	+	8	16
-	+	2	37
-	+	8	9
-	+	2	0
-	+	8	10
-
-> ~/college/m17/compilers/project/test-units/non-trivial/matrix_multiplication.b
-	*	1510589962	0
-	"	1	0
-	^	68	22
-	.	68	21
-	+	1	11
-	+	5	4
-	+	5	0
-	+	7	11
-	+	79	4
-	+	80	0
-	+	2	13
-	+	5	0
-	+	2	23
-	+	3	15
-	+	3	0
-	+	2	37
-	+	35	13
-	+	8	10
-	+	35	16
-	+	44	8
-	+	44	0
-	+	3	0
-	+	2	25
-	+	3	17
-	+	44	0
-	+	36	20
-	+	43	12
-	+	43	0
-	+	37	24
-	+	42	16
-	+	42	0
-	+	42	17
-	+	42	16
-	+	4	15
-	+	40	26
-	+	41	39
-	+	38	26
-	+	39	26
-	+	40	20
-	+	42	0
-	+	47	16
-	+	47	8
-	+	47	0
-	+	47	20
-	+	47	12
-	+	47	0
-	+	47	27
-	+	47	16
-	+	47	0
-	+	47	18
-	+	47	26
-	+	47	24
-	+	47	18
-	+	47	16
-	+	47	0
-	+	47	24
-	+	47	0
-	+	9	0
-	+	34	0
-	+	48	0
-	+	52	0
-	+	51	23
-	+	26	16
-	+	50	0
-	+	51	31
-	+	79	0
-	+	54	0
-	+	52	0
-	+	50	0
-	+	53	18
-	+	59	0
-	+	58	0
-	+	62	18
-	+	70	0
-	+	69	0
-	+	73	18
-	+	40	27
-	+	8	8
-	+	46	16
-	+	56	17
-	+	57	16
-	+	67	0
-	+	66	0
-	+	68	17
-	+	78	0
-	+	77	0
-	+	68	21
-
-> ~/Downloads/four_nested_loops.b
-	*	1510589878	0
-	"	1	0

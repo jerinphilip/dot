@@ -1,7 +1,12 @@
 #!/bin/bash
-killall stalonetray
-killall xmobar
-killall dunst
-xmobar /home/jerin/.xmobarrc &
-stalonetray -c /home/jerin/.stalonetrayrc &
-dunst -config /home/jerin/.config/dunst/dunstrc &
+function kill-apps {
+    killall stalonetray;
+    killall xmobar;
+    killall dunst;
+}
+
+function launch-apps {
+    xmobar /home/jerin/.xmobarrc &
+    stalonetray -c /home/jerin/.stalonetrayrc &
+    dunst -config /home/jerin/.config/dunst/dunstrc &
+}

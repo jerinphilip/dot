@@ -21,6 +21,7 @@ main = do
     let keys = [
             ((mod4Mask, xK_s), spawn "xscreensaver-command -lock"),
             ((mod4Mask, xK_Return), spawn "gnome-terminal"),
+            ((mod4Mask, xK_u), spawn "notify-send \"$(date +\"%B %d, %y\")\" \"$(date +\"%H:%m\")\""),
             ((mod4Mask, xK_b), spawn "firefox"),
             ((mod4Mask, xK_c), spawn "google-chrome-stable --proxy-pac-url=http://proxy.iiit.ac.in/proxy.pac"),
             ((mod4Mask, xK_x), spawn "nautilus -w"),
