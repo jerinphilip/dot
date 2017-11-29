@@ -4,7 +4,7 @@ import XMonad.Hooks.ManageDocks
 import XMonad.Hooks.ManageHelpers
 import XMonad.Layout.ToggleLayouts
 import XMonad.Layout.NoBorders
-import XMonad.Util.Run (spawnPipe)
+import XMonad.Util.Run
 import XMonad.Util.SpawnOnce
 import XMonad.Util.EZConfig (additionalKeys)
 import XMonad.Actions.WorkspaceNames
@@ -16,19 +16,36 @@ import XMonad.Actions.CycleWS
 import XMonad.Util.WorkspaceCompare
 import XMonad.StackSet
 import XMonad.Actions.UpdateFocus
+import XMonad.Actions.GridSelect
+import XMonad.Actions.WindowBringer
+import XMonad.Hooks.UrgencyHook
+import XMonad.Util.NamedWindows
+
+data LibNotifyUrgencyHook = LibNotifyUrgencyHook deriving (Read, Show)
+
+instance UrgencyHook LibNotifyUrgencyHook where
+    urgencyHook LibNotifyUrgencyHook w = do
+        name     <- getName w
+        Just idx <- fmap (findTag w) $ gets windowset
+        safeSpawn "notify-send" [show name, "workspace " ++ idx]
+
+
+
 
 main = do
     let keys = [
+            ((mod4Mask .|. shiftMask, xK_g     ), gotoMenu),
+            ((mod4Mask .|. shiftMask, xK_b     ), bringMenu),
             ((mod4Mask, xK_s), spawn "xscreensaver-command -lock"),
             ((mod4Mask, xK_Return), spawn "gnome-terminal"),
-            ((mod4Mask, xK_u), spawn "notify-send \"$(date +\"%B %d, %y\")\" \"$(date +\"%H:%m\")\""),
+            ((mod4Mask, xK_u), spawn "notify-send \"$(date +\"%B %d, %y\")\" \"$(date +\"%H:%M\")\""),
             ((mod4Mask, xK_b), spawn "firefox"),
             ((mod4Mask, xK_c), spawn "google-chrome-stable --proxy-pac-url=http://proxy.iiit.ac.in/proxy.pac"),
             ((mod4Mask, xK_x), spawn "nautilus -w"),
             ((mod4Mask, xK_n), withFocused minimizeWindow),
             ((mod4Mask, xK_f), sendMessage ToggleLayout),
             ((mod4Mask .|. controlMask, xK_n), sendMessage RestoreNextMinimizedWin),
-
+            ((mod4Mask, xK_g), goToSelected defaultGSConfig),
 			((0 , ExtraKey.xF86XK_AudioMute), spawn "amixer -q set Master toggle"),
 			((0 , ExtraKey.xF86XK_AudioLowerVolume), spawn "amixer -q set Master 5%- unmute"),
 			((0 , ExtraKey.xF86XK_AudioRaiseVolume), spawn "amixer -q set Master 5%+ unmute"),
@@ -66,7 +83,7 @@ main = do
     }
 
 
-    xmonad $ defaultConfig {
+    xmonad $ withUrgencyHook LibNotifyUrgencyHook $ defaultConfig {
         startupHook = do
             startupHook defaultConfig
             spawnOnce "/home/jerin/.xmonad/autostart"

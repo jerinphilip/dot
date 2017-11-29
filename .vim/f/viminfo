@@ -11,25 +11,27 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/g++
+~MSle0~/set_text
 
 # Last Substitute Search Pattern:
-~MSle0&KL
+~MSle0&modm
 
 # Last Substitute String:
-$D\\_{KL}
+$mod4Mask
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1511961651,,"wq"
+:q
+|2,0,1511961502,,"q"
+:w
+|2,0,1511961206,,"w"
+:'<,'>s/modm/mod4Mask/g
+|2,0,1511959436,,"'<,'>s/modm/mod4Mask/g"
 :qa
 |2,0,1511847284,,"qa"
-:wq
-|2,0,1511847281,,"wq"
-:q
-|2,0,1511846022,,"q"
 :qG
 |2,0,1511846020,,"qG"
-:w
-|2,0,1511845816,,"w"
 :l
 |2,0,1511845804,,"l"
 :%s/
@@ -118,10 +120,26 @@ $D\\_{KL}
 |2,0,1511098925,,"'<,'>%s/$/\\/\\//"
 :'<,'>%s/$/\/\//g
 |2,0,1511098509,,"'<,'>%s/$/\\/\\//g"
-:tabnew journal/topics-in-ml/notes/solutions.md
-|2,0,1511093232,,"tabnew journal/topics-in-ml/notes/solutions.md"
 
 # Search String History (newest to oldest):
+?/set_text
+|2,1,1511961474,47,"set_text"
+?/sur
+|2,1,1511961227,47,"sur"
+?/apngo
+|2,1,1511961217,47,"apngo"
+?/pango
+|2,1,1511961141,47,"pango"
+?/visual
+|2,1,1511960238,47,"visual"
+?/urgent
+|2,1,1511960230,47,"urgent"
+?/bell
+|2,1,1511960228,47,"bell"
+?/xmonad
+|2,1,1511960087,47,"xmonad"
+? modm
+|2,1,1511959436,,"modm"
 ?/g++
 |2,1,1511847273,47,"g++"
 ?/gcc
@@ -204,24 +222,6 @@ $D\\_{KL}
 |2,1,1511750735,47,"TRPO"
 ? KL
 |2,1,1511750701,,"KL"
-?/KL
-|2,1,1511750680,47,"KL"
-?/illus
-|2,1,1511750587,47,"illus"
-?/Illust
-|2,1,1511750583,47,"Illust"
-?/Parameters
-|2,1,1511750581,47,"Parameters"
-?/dim(
-|2,1,1511748112,47,"dim("
-? \<Building\>
-|2,1,1511747774,,"\\<Building\\>"
-?/Train
-|2,1,1511747635,47,"Train"
-?/Intu
-|2,1,1511746806,47,"Intu"
-?/uncon
-|2,1,1511746165,47,"uncon"
 
 # Expression History (newest to oldest):
 
@@ -241,52 +241,34 @@ $D\\_{KL}
 "0	LINE	0
 	export LD_LIBRARY_PATH=$VIRTUAL_ENV/lib/:$LD_LIBRARY_PATH
 |3,0,0,1,1,0,1511845800,"export LD_LIBRARY_PATH=$VIRTUAL_ENV/lib/:$LD_LIBRARY_PATH"
-"1	LINE	0
-	kill-
-|3,0,1,1,1,0,1511841189,"kill-"
+""1	LINE	0
+	
+|3,1,1,1,1,0,1511961650,""
 "2	LINE	0
-	                    <p> Any problem in viewing, look at <a
-	                                                                                                                           href="https://www.youtube.com/channel/UCQKB23T2idyoi23lDw_9uPg/videos">
-	                        this link</a>. </p>
-|3,0,2,1,3,0,1511765448,"                    <p> Any problem in viewing, look at <a","                                                                                                                           href=\"https://www.youtube.com/channel/UCQKB23T2idyoi23lDw_9uPg/videos\">","                        this link</a>. </p>"
+	
+|3,0,2,1,1,0,1511961649,""
 "3	LINE	0
-	                            * Possible since $\mathbb{E}[\nabla\_{\theta}\log P(\tau^i;\theta)R b(\tau)] = 0 $
-|3,0,3,1,1,0,1511760680,"                            * Possible since $\\mathbb{E}[\\nabla\\_{\\theta}\\log P(\\tau^i;\\theta)R b(\\tau)] = 0 $"
+	
+|3,0,3,1,1,0,1511961649,""
 "4	LINE	0
-	                <section style="text-align:left">
-	                    <h4> InvertedPendulum: Parameters Illustrated </h4>
-	
-	                    <img src="images/process.png" alt="other examples"></img>
-	
-	                </section>
-	                <section style="text-align:left">
-	                    <h4> Additional Agents </h4>
-	
-	                    <img src="images/other_examples.png" alt="other examples"></img>
-	
-	
-	                    <!-- <p> No adversarial version of ant - therefore
-	                        discarded. </p> -->
-	
-	                </section>
-|3,0,4,1,16,0,1511760345,"                <section style=\"text-align:left\">","                    <h4> InvertedPendulum: Parameters Illustrated </h4>","","                    <img src=\"images/process.png\" alt=\"other examples\"></img>","","                </section>","                <section style=\"text-align:left\">","                    <h4> Additional Agents </h4>","",>90
-|<"                    <img src=\"images/other_examples.png\" alt=\"other examples\"></img>","","","                    <!-- <p> No adversarial version of ant - therefore","                        discarded. </p> -->","","                </section>"
+	exit()
+|3,0,4,1,1,0,1511961360,"exit()"
 "5	LINE	0
-	                            ...
-|3,0,5,1,1,0,1511760221,"                            ..."
+	
+|3,0,5,1,1,0,1511961359,""
 "6	LINE	0
-	                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vz9buZMppY4?rel=0" frameborder="0" gesture="media" allowfullscreen></iframe>
-|3,0,6,1,1,0,1511759069,"                    <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/vz9buZMppY4?rel=0\" frameborder=\"0\" gesture=\"media\" allowfullscreen></iframe>"
+	
+|3,0,6,1,1,0,1511961234,""
 "7	LINE	0
-	                <section>
-	                </section>
-|3,0,7,1,2,0,1511758916,"                <section>","                </section>"
+	pc = pangocairo.CairoContext(context)
+|3,0,7,1,1,0,1511961233,"pc = pangocairo.CairoContext(context)"
 "8	LINE	0
 	
-|3,0,8,1,1,0,1511758147,""
+|3,0,8,1,1,0,1511961232,""
 "9	LINE	0
-	
-|3,0,9,1,1,0,1511758144,""
+	surface = cairo.ImageSurface(cairo.FORMAT_ARGB32, 600, 100)
+	context = cairo.Context(surface)
+|3,0,9,1,2,0,1511961232,"surface = cairo.ImageSurface(cairo.FORMAT_ARGB32, 600, 100)","context = cairo.Context(surface)"
 "a	CHAR	0
 	Vjjj:s/\t/|/g:€ku€kl€kl€kl€kl€kb€kb^":€ku:€ku€kl€kl€kl€kl€kb$
 |3,0,10,0,1,0,1511583525,"Vjjj:s/\\t/|/g:€ku€kl€kl€kl€kl€kb€kb^\":€ku:€ku€kl€kl€kl€kl€kb$"
@@ -331,235 +313,368 @@ $D\\_{KL}
 "z	CHAR	0
 	i(thunk lhlt a)
 |3,0,35,0,1,0,1485956367,"i(thunk lhlt a)"
-""-	CHAR	0
-	$(BOOST_PYTHON3_POSTFIX)
-|3,1,36,0,1,0,1511846196,"$(BOOST_PYTHON3_POSTFIX)"
+"-	CHAR	0
+	c
+|3,0,36,0,1,0,1511961628,"c"
 
 # File marks:
-'0  609  35  ~/repo/rl-sandbox/pytorch/setup.py
-|4,48,609,35,1511847284,"~/repo/rl-sandbox/pytorch/setup.py"
-'1  6  45  ~/repo/rl-sandbox/rl-sandbox/sample.py
-|4,49,6,45,1511846703,"~/repo/rl-sandbox/rl-sandbox/sample.py"
-'2  58  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,50,58,0,1511846200,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
-'3  147  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,51,147,0,1511846022,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
-'4  147  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,52,147,0,1511846022,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
-'5  53  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,53,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
-'6  81  32  ~/repo/rl-sandbox/env/bin/activate
-|4,54,81,32,1511845818,"~/repo/rl-sandbox/env/bin/activate"
-'7  1  61  ~/repo/rl-sandbox/install.sh
-|4,55,1,61,1511845341,"~/repo/rl-sandbox/install.sh"
-'8  1  0  ~/repo/rl-sandbox/requirements.txt
-|4,56,1,0,1511845333,"~/repo/rl-sandbox/requirements.txt"
-'9  1  0  ~/repo/rl-sandbox/requirements.txt
-|4,57,1,0,1511845306,"~/repo/rl-sandbox/requirements.txt"
+'0  10  0  ~/sandbox/text-rendering/temp.py
+|4,48,10,0,1511961651,"~/sandbox/text-rendering/temp.py"
+'1  20  37  ~/sandbox/text-rendering/temp.py
+|4,49,20,37,1511961634,"~/sandbox/text-rendering/temp.py"
+'2  23  37  ~/sandbox/text-rendering/temp.py
+|4,50,23,37,1511961634,"~/sandbox/text-rendering/temp.py"
+'3  20  29  ~/sandbox/text-rendering/temp.py
+|4,51,20,29,1511961603,"~/sandbox/text-rendering/temp.py"
+'4  23  29  ~/sandbox/text-rendering/temp.py
+|4,52,23,29,1511961603,"~/sandbox/text-rendering/temp.py"
+'5  20  26  ~/sandbox/text-rendering/temp.py
+|4,53,20,26,1511961594,"~/sandbox/text-rendering/temp.py"
+'6  20  26  ~/sandbox/text-rendering/temp.py
+|4,54,20,26,1511961594,"~/sandbox/text-rendering/temp.py"
+'7  23  26  ~/sandbox/text-rendering/temp.py
+|4,55,23,26,1511961594,"~/sandbox/text-rendering/temp.py"
+'8  23  26  ~/sandbox/text-rendering/temp.py
+|4,56,23,26,1511961594,"~/sandbox/text-rendering/temp.py"
+'9  20  9  ~/sandbox/text-rendering/temp.py
+|4,57,20,9,1511961583,"~/sandbox/text-rendering/temp.py"
 
 # Jumplist (newest first):
--'  609  35  ~/repo/rl-sandbox/pytorch/setup.py
-|4,39,609,35,1511847284,"~/repo/rl-sandbox/pytorch/setup.py"
--'  1  0  ~/repo/rl-sandbox/pytorch/setup.py
-|4,39,1,0,1511847273,"~/repo/rl-sandbox/pytorch/setup.py"
--'  6  45  ~/repo/rl-sandbox/rl-sandbox/sample.py
-|4,39,6,45,1511846703,"~/repo/rl-sandbox/rl-sandbox/sample.py"
--'  6  45  ~/repo/rl-sandbox/rl-sandbox/sample.py
-|4,39,6,45,1511846703,"~/repo/rl-sandbox/rl-sandbox/sample.py"
--'  1  0  ~/repo/rl-sandbox/rl-sandbox/sample.py
-|4,39,1,0,1511846701,"~/repo/rl-sandbox/rl-sandbox/sample.py"
--'  1  0  ~/repo/rl-sandbox/rl-sandbox/sample.py
-|4,39,1,0,1511846701,"~/repo/rl-sandbox/rl-sandbox/sample.py"
--'  58  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,58,0,1511846200,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  58  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,58,0,1511846200,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  58  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,58,0,1511846200,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  58  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,58,0,1511846200,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  59  32  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,59,32,1511846195,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  59  32  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,59,32,1511846195,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  59  32  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,59,32,1511846195,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  59  32  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,59,32,1511846195,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  57  21  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,57,21,1511846190,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  22  7  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,22,7,1511846190,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  57  21  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,57,21,1511846190,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  22  7  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,22,7,1511846190,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  57  21  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,57,21,1511846190,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  22  7  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,22,7,1511846190,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  57  21  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,57,21,1511846190,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  22  7  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,22,7,1511846190,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  1  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,1,0,1511846189,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  1  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,1,0,1511846189,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  1  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,1,0,1511846189,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  1  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,1,0,1511846189,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  147  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,147,0,1511846022,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  147  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,147,0,1511846022,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  147  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,147,0,1511846022,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  147  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,147,0,1511846022,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  147  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,147,0,1511846022,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  147  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,147,0,1511846022,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  147  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,147,0,1511846022,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  147  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,147,0,1511846022,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  1  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,1,0,1511846020,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  1  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,1,0,1511846020,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  1  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,1,0,1511846020,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  1  0  ~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile
-|4,39,1,0,1511846020,"~/repo/rl-sandbox/roboschool/roboschool/cpp-household/Makefile"
--'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
--'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
--'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
--'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
--'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
--'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
--'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
--'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
--'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
--'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
--'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
--'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
--'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
--'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
--'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
--'  53  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,53,4,1511845981,"~/repo/rl-sandbox/roboschool/setup.py"
--'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
--'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
--'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
--'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
--'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
--'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
--'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
--'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
--'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
--'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
--'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
--'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
--'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
--'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
--'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
--'  5  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,5,0,1511845978,"~/repo/rl-sandbox/roboschool/setup.py"
--'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
--'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
--'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
--'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
--'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
--'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
--'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
--'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
--'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
--'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
--'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
--'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
--'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
--'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
--'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
--'  83  4  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,83,4,1511845975,"~/repo/rl-sandbox/roboschool/setup.py"
--'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
--'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
--'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
--'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
--'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
--'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
--'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
--'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
--'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
--'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
--'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
--'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
--'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
--'  1  0  ~/repo/rl-sandbox/roboschool/setup.py
-|4,39,1,0,1511845971,"~/repo/rl-sandbox/roboschool/setup.py"
+-'  10  0  ~/sandbox/text-rendering/temp.py
+|4,39,10,0,1511961651,"~/sandbox/text-rendering/temp.py"
+-'  1  0  ~/sandbox/text-rendering/temp.py
+|4,39,1,0,1511961645,"~/sandbox/text-rendering/temp.py"
+-'  20  37  ~/sandbox/text-rendering/temp.py
+|4,39,20,37,1511961634,"~/sandbox/text-rendering/temp.py"
+-'  23  37  ~/sandbox/text-rendering/temp.py
+|4,39,23,37,1511961634,"~/sandbox/text-rendering/temp.py"
+-'  1  0  ~/sandbox/text-rendering/temp.py
+|4,39,1,0,1511961609,"~/sandbox/text-rendering/temp.py"
+-'  23  29  ~/sandbox/text-rendering/temp.py
+|4,39,23,29,1511961603,"~/sandbox/text-rendering/temp.py"
+-'  1  0  ~/sandbox/text-rendering/temp.py
+|4,39,1,0,1511961598,"~/sandbox/text-rendering/temp.py"
+-'  23  26  ~/sandbox/text-rendering/temp.py
+|4,39,23,26,1511961594,"~/sandbox/text-rendering/temp.py"
+-'  1  0  ~/sandbox/text-rendering/temp.py
+|4,39,1,0,1511961590,"~/sandbox/text-rendering/temp.py"
+-'  23  9  ~/sandbox/text-rendering/temp.py
+|4,39,23,9,1511961583,"~/sandbox/text-rendering/temp.py"
+-'  1  0  ~/sandbox/text-rendering/temp.py
+|4,39,1,0,1511961576,"~/sandbox/text-rendering/temp.py"
+-'  23  0  ~/sandbox/text-rendering/temp.py
+|4,39,23,0,1511961555,"~/sandbox/text-rendering/temp.py"
+-'  1  0  ~/sandbox/text-rendering/temp.py
+|4,39,1,0,1511961533,"~/sandbox/text-rendering/temp.py"
+-'  15  19  ~/sandbox/text-rendering/temp.py
+|4,39,15,19,1511961526,"~/sandbox/text-rendering/temp.py"
+-'  18  19  ~/sandbox/text-rendering/temp.py
+|4,39,18,19,1511961526,"~/sandbox/text-rendering/temp.py"
+-'  18  19  ~/sandbox/text-rendering/temp.py
+|4,39,18,19,1511961526,"~/sandbox/text-rendering/temp.py"
+-'  18  19  ~/sandbox/text-rendering/temp.py
+|4,39,18,19,1511961526,"~/sandbox/text-rendering/temp.py"
+-'  18  19  ~/sandbox/text-rendering/temp.py
+|4,39,18,19,1511961526,"~/sandbox/text-rendering/temp.py"
+-'  18  19  ~/sandbox/text-rendering/temp.py
+|4,39,18,19,1511961526,"~/sandbox/text-rendering/temp.py"
+-'  18  19  ~/sandbox/text-rendering/temp.py
+|4,39,18,19,1511961526,"~/sandbox/text-rendering/temp.py"
+-'  1  0  ~/sandbox/text-rendering/temp.py
+|4,39,1,0,1511961519,"~/sandbox/text-rendering/temp.py"
+-'  19  0  ~/sandbox/text-rendering/temp.py
+|4,39,19,0,1511961506,"~/sandbox/text-rendering/temp.py"
+-'  22  0  ~/sandbox/text-rendering/temp.py
+|4,39,22,0,1511961506,"~/sandbox/text-rendering/temp.py"
+-'  22  0  ~/sandbox/text-rendering/temp.py
+|4,39,22,0,1511961506,"~/sandbox/text-rendering/temp.py"
+-'  22  0  ~/sandbox/text-rendering/temp.py
+|4,39,22,0,1511961506,"~/sandbox/text-rendering/temp.py"
+-'  22  0  ~/sandbox/text-rendering/temp.py
+|4,39,22,0,1511961506,"~/sandbox/text-rendering/temp.py"
+-'  22  0  ~/sandbox/text-rendering/temp.py
+|4,39,22,0,1511961506,"~/sandbox/text-rendering/temp.py"
+-'  23  0  ~/sandbox/text-rendering/temp.py
+|4,39,23,0,1511961506,"~/sandbox/text-rendering/temp.py"
+-'  22  0  ~/sandbox/text-rendering/temp.py
+|4,39,22,0,1511961506,"~/sandbox/text-rendering/temp.py"
+-'  1  0  ~/sandbox/text-rendering/temp.py
+|4,39,1,0,1511961505,"~/sandbox/text-rendering/temp.py"
+-'  1  0  ~/sandbox/text-rendering/temp.py
+|4,39,1,0,1511961502,"~/sandbox/text-rendering/temp.py"
+-'  12  90  ~/sandbox/text-rendering/temp.py
+|4,39,12,90,1511961488,"~/sandbox/text-rendering/temp.py"
+-'  15  90  ~/sandbox/text-rendering/temp.py
+|4,39,15,90,1511961488,"~/sandbox/text-rendering/temp.py"
+-'  15  90  ~/sandbox/text-rendering/temp.py
+|4,39,15,90,1511961488,"~/sandbox/text-rendering/temp.py"
+-'  15  90  ~/sandbox/text-rendering/temp.py
+|4,39,15,90,1511961488,"~/sandbox/text-rendering/temp.py"
+-'  15  90  ~/sandbox/text-rendering/temp.py
+|4,39,15,90,1511961488,"~/sandbox/text-rendering/temp.py"
+-'  15  90  ~/sandbox/text-rendering/temp.py
+|4,39,15,90,1511961488,"~/sandbox/text-rendering/temp.py"
+-'  15  90  ~/sandbox/text-rendering/temp.py
+|4,39,15,90,1511961488,"~/sandbox/text-rendering/temp.py"
+-'  15  90  ~/sandbox/text-rendering/temp.py
+|4,39,15,90,1511961488,"~/sandbox/text-rendering/temp.py"
+-'  15  90  ~/sandbox/text-rendering/temp.py
+|4,39,15,90,1511961488,"~/sandbox/text-rendering/temp.py"
+-'  15  90  ~/sandbox/text-rendering/temp.py
+|4,39,15,90,1511961488,"~/sandbox/text-rendering/temp.py"
+-'  2  0  ~/sandbox/text-rendering/temp.py
+|4,39,2,0,1511961474,"~/sandbox/text-rendering/temp.py"
+-'  2  0  ~/sandbox/text-rendering/temp.py
+|4,39,2,0,1511961474,"~/sandbox/text-rendering/temp.py"
+-'  2  0  ~/sandbox/text-rendering/temp.py
+|4,39,2,0,1511961474,"~/sandbox/text-rendering/temp.py"
+-'  2  0  ~/sandbox/text-rendering/temp.py
+|4,39,2,0,1511961474,"~/sandbox/text-rendering/temp.py"
+-'  2  0  ~/sandbox/text-rendering/temp.py
+|4,39,2,0,1511961474,"~/sandbox/text-rendering/temp.py"
+-'  2  0  ~/sandbox/text-rendering/temp.py
+|4,39,2,0,1511961474,"~/sandbox/text-rendering/temp.py"
+-'  2  0  ~/sandbox/text-rendering/temp.py
+|4,39,2,0,1511961474,"~/sandbox/text-rendering/temp.py"
+-'  2  0  ~/sandbox/text-rendering/temp.py
+|4,39,2,0,1511961474,"~/sandbox/text-rendering/temp.py"
+-'  2  0  ~/sandbox/text-rendering/temp.py
+|4,39,2,0,1511961474,"~/sandbox/text-rendering/temp.py"
+-'  2  0  ~/sandbox/text-rendering/temp.py
+|4,39,2,0,1511961474,"~/sandbox/text-rendering/temp.py"
+-'  1  0  ~/sandbox/text-rendering/temp.py
+|4,39,1,0,1511961471,"~/sandbox/text-rendering/temp.py"
+-'  11  28  ~/sandbox/text-rendering/temp.py
+|4,39,11,28,1511961469,"~/sandbox/text-rendering/temp.py"
+-'  14  28  ~/sandbox/text-rendering/temp.py
+|4,39,14,28,1511961469,"~/sandbox/text-rendering/temp.py"
+-'  14  28  ~/sandbox/text-rendering/temp.py
+|4,39,14,28,1511961469,"~/sandbox/text-rendering/temp.py"
+-'  14  28  ~/sandbox/text-rendering/temp.py
+|4,39,14,28,1511961469,"~/sandbox/text-rendering/temp.py"
+-'  14  28  ~/sandbox/text-rendering/temp.py
+|4,39,14,28,1511961469,"~/sandbox/text-rendering/temp.py"
+-'  14  28  ~/sandbox/text-rendering/temp.py
+|4,39,14,28,1511961469,"~/sandbox/text-rendering/temp.py"
+-'  14  28  ~/sandbox/text-rendering/temp.py
+|4,39,14,28,1511961469,"~/sandbox/text-rendering/temp.py"
+-'  14  28  ~/sandbox/text-rendering/temp.py
+|4,39,14,28,1511961469,"~/sandbox/text-rendering/temp.py"
+-'  14  28  ~/sandbox/text-rendering/temp.py
+|4,39,14,28,1511961469,"~/sandbox/text-rendering/temp.py"
+-'  14  28  ~/sandbox/text-rendering/temp.py
+|4,39,14,28,1511961469,"~/sandbox/text-rendering/temp.py"
+-'  14  28  ~/sandbox/text-rendering/temp.py
+|4,39,14,28,1511961469,"~/sandbox/text-rendering/temp.py"
+-'  1  0  ~/sandbox/text-rendering/temp.py
+|4,39,1,0,1511961462,"~/sandbox/text-rendering/temp.py"
+-'  9  38  ~/sandbox/text-rendering/temp.py
+|4,39,9,38,1511961443,"~/sandbox/text-rendering/temp.py"
+-'  11  38  ~/sandbox/text-rendering/temp.py
+|4,39,11,38,1511961443,"~/sandbox/text-rendering/temp.py"
+-'  11  38  ~/sandbox/text-rendering/temp.py
+|4,39,11,38,1511961443,"~/sandbox/text-rendering/temp.py"
+-'  11  38  ~/sandbox/text-rendering/temp.py
+|4,39,11,38,1511961443,"~/sandbox/text-rendering/temp.py"
+-'  11  38  ~/sandbox/text-rendering/temp.py
+|4,39,11,38,1511961443,"~/sandbox/text-rendering/temp.py"
+-'  11  38  ~/sandbox/text-rendering/temp.py
+|4,39,11,38,1511961443,"~/sandbox/text-rendering/temp.py"
+-'  11  38  ~/sandbox/text-rendering/temp.py
+|4,39,11,38,1511961443,"~/sandbox/text-rendering/temp.py"
+-'  11  38  ~/sandbox/text-rendering/temp.py
+|4,39,11,38,1511961443,"~/sandbox/text-rendering/temp.py"
+-'  11  38  ~/sandbox/text-rendering/temp.py
+|4,39,11,38,1511961443,"~/sandbox/text-rendering/temp.py"
+-'  11  38  ~/sandbox/text-rendering/temp.py
+|4,39,11,38,1511961443,"~/sandbox/text-rendering/temp.py"
+-'  11  38  ~/sandbox/text-rendering/temp.py
+|4,39,11,38,1511961443,"~/sandbox/text-rendering/temp.py"
+-'  11  38  ~/sandbox/text-rendering/temp.py
+|4,39,11,38,1511961443,"~/sandbox/text-rendering/temp.py"
+-'  1  0  ~/sandbox/text-rendering/temp.py
+|4,39,1,0,1511961429,"~/sandbox/text-rendering/temp.py"
+-'  8  0  ~/sandbox/text-rendering/temp.py
+|4,39,8,0,1511961389,"~/sandbox/text-rendering/temp.py"
+-'  9  0  ~/sandbox/text-rendering/temp.py
+|4,39,9,0,1511961389,"~/sandbox/text-rendering/temp.py"
+-'  9  0  ~/sandbox/text-rendering/temp.py
+|4,39,9,0,1511961389,"~/sandbox/text-rendering/temp.py"
+-'  9  0  ~/sandbox/text-rendering/temp.py
+|4,39,9,0,1511961389,"~/sandbox/text-rendering/temp.py"
+-'  9  0  ~/sandbox/text-rendering/temp.py
+|4,39,9,0,1511961389,"~/sandbox/text-rendering/temp.py"
+-'  9  0  ~/sandbox/text-rendering/temp.py
+|4,39,9,0,1511961389,"~/sandbox/text-rendering/temp.py"
+-'  9  0  ~/sandbox/text-rendering/temp.py
+|4,39,9,0,1511961389,"~/sandbox/text-rendering/temp.py"
+-'  9  0  ~/sandbox/text-rendering/temp.py
+|4,39,9,0,1511961389,"~/sandbox/text-rendering/temp.py"
+-'  9  0  ~/sandbox/text-rendering/temp.py
+|4,39,9,0,1511961389,"~/sandbox/text-rendering/temp.py"
+-'  9  0  ~/sandbox/text-rendering/temp.py
+|4,39,9,0,1511961389,"~/sandbox/text-rendering/temp.py"
+-'  9  0  ~/sandbox/text-rendering/temp.py
+|4,39,9,0,1511961389,"~/sandbox/text-rendering/temp.py"
+-'  9  0  ~/sandbox/text-rendering/temp.py
+|4,39,9,0,1511961389,"~/sandbox/text-rendering/temp.py"
+-'  9  0  ~/sandbox/text-rendering/temp.py
+|4,39,9,0,1511961389,"~/sandbox/text-rendering/temp.py"
+-'  1  0  ~/sandbox/text-rendering/temp.py
+|4,39,1,0,1511961377,"~/sandbox/text-rendering/temp.py"
+-'  13  40  ~/sandbox/text-rendering/temp.py
+|4,39,13,40,1511961375,"~/sandbox/text-rendering/temp.py"
+-'  12  40  ~/sandbox/text-rendering/temp.py
+|4,39,12,40,1511961375,"~/sandbox/text-rendering/temp.py"
+-'  13  40  ~/sandbox/text-rendering/temp.py
+|4,39,13,40,1511961375,"~/sandbox/text-rendering/temp.py"
+-'  12  40  ~/sandbox/text-rendering/temp.py
+|4,39,12,40,1511961375,"~/sandbox/text-rendering/temp.py"
+-'  13  40  ~/sandbox/text-rendering/temp.py
+|4,39,13,40,1511961375,"~/sandbox/text-rendering/temp.py"
+-'  12  40  ~/sandbox/text-rendering/temp.py
+|4,39,12,40,1511961375,"~/sandbox/text-rendering/temp.py"
+-'  13  40  ~/sandbox/text-rendering/temp.py
+|4,39,13,40,1511961375,"~/sandbox/text-rendering/temp.py"
+-'  12  40  ~/sandbox/text-rendering/temp.py
+|4,39,12,40,1511961375,"~/sandbox/text-rendering/temp.py"
+-'  13  40  ~/sandbox/text-rendering/temp.py
+|4,39,13,40,1511961375,"~/sandbox/text-rendering/temp.py"
 
 # History of marks within files (newest to oldest):
+
+> ~/sandbox/text-rendering/temp.py
+	*	1511961651	0
+	"	10	0
+	^	20	38
+	.	10	0
+	+	21	36
+	+	4	60
+	+	10	0
+	+	10	18
+	+	10	0
+	+	8	32
+	+	10	5
+	+	4	36
+	+	5	11
+	+	10	0
+	+	10	40
+	+	9	0
+	+	9	38
+	+	11	28
+	+	12	0
+	+	12	90
+	+	20	0
+	+	15	19
+	+	20	37
+	+	7	0
+	+	9	0
+	+	10	0
+
+> ~/.Xresources
+	*	1511960243	0
+	"	33	42
+	^	33	43
+	.	33	42
+	+	32	41
+	+	33	42
+
+> ~/.xmonad/autostart
+	*	1511960120	0
+	"	12	0
+	^	5	18
+	.	5	17
+	+	9	4
+	+	11	4
+	+	9	0
+	+	10	0
+	+	9	29
+	+	10	42
+	+	11	48
+	+	9	0
+	+	1	10
+	+	9	0
+	+	4	13
+	+	10	18
+	+	11	12
+	+	4	14
+	+	10	19
+	+	11	13
+	+	4	14
+	+	10	19
+	+	11	13
+	+	10	0
+	+	5	0
+	+	11	0
+	+	5	0
+	+	3	0
+	+	2	19
+	+	6	0
+	+	3	0
+	+	7	0
+	+	9	0
+	+	8	21
+	+	12	0
+	+	9	0
+	+	3	23
+	+	4	18
+	+	5	17
+	o	10	0
+
+> ~/.xmonad/xmonad.hs
+	*	1511960098	0
+	"	86	51
+	^	86	52
+	.	86	51
+	+	98	8
+	+	100	0
+	+	99	8
+	+	98	10
+	+	99	10
+	+	100	0
+	+	107	43
+	+	108	0
+	+	107	34
+	+	113	45
+	+	107	10
+	+	108	0
+	+	98	10
+	+	8	27
+	+	88	48
+	+	87	11
+	+	88	0
+	+	89	28
+	+	88	20
+	+	98	0
+	+	107	8
+	+	108	10
+	+	100	0
+	+	18	2
+	+	87	36
+	+	113	64
+	+	94	0
+	+	95	0
+	+	94	0
+	+	82	15
+	+	82	0
+	+	81	12
+	+	40	102
+	+	40	27
+	+	20	35
+	+	34	0
+	+	38	0
+	+	37	12
+	+	38	12
+	+	37	55
+	+	38	56
+	+	39	0
+	+	37	0
+	+	21	31
+	+	22	31
+	+	7	22
+	+	30	0
+	+	29	26
+	+	86	51
 
 > ~/repo/rl-sandbox/pytorch/setup.py
 	*	1511847282	0
@@ -610,88 +725,6 @@ $D\\_{KL}
 	^	1	4
 	.	1	3
 	+	1	3
-
-> ~/.xmonad/autostart
-	*	1511841209	0
-	"	12	0
-	^	5	18
-	.	5	17
-	+	9	4
-	+	11	4
-	+	9	0
-	+	10	0
-	+	9	29
-	+	10	42
-	+	11	48
-	+	9	0
-	+	1	10
-	+	9	0
-	+	4	13
-	+	10	18
-	+	11	12
-	+	4	14
-	+	10	19
-	+	11	13
-	+	4	14
-	+	10	19
-	+	11	13
-	+	10	0
-	+	5	0
-	+	11	0
-	+	5	0
-	+	3	0
-	+	2	19
-	+	6	0
-	+	3	0
-	+	7	0
-	+	9	0
-	+	8	21
-	+	12	0
-	+	9	0
-	+	3	23
-	+	4	18
-	+	5	17
-	o	10	0
-
-> ~/.xmonad/xmonad.hs
-	*	1511836720	0
-	"	23	27
-	^	24	28
-	.	24	27
-	+	82	8
-	+	84	0
-	+	83	8
-	+	82	10
-	+	83	10
-	+	84	0
-	+	91	43
-	+	92	0
-	+	91	34
-	+	97	45
-	+	91	10
-	+	92	0
-	+	82	10
-	+	8	27
-	+	72	48
-	+	71	11
-	+	72	0
-	+	73	28
-	+	72	20
-	+	82	0
-	+	91	8
-	+	92	10
-	+	84	0
-	+	18	2
-	+	71	36
-	+	97	64
-	+	78	0
-	+	79	0
-	+	78	0
-	+	66	15
-	+	66	0
-	+	65	12
-	+	24	102
-	+	24	27
 
 > ~/.xmonad/xmonad.h
 	*	1511836464	0
@@ -2894,85 +2927,3 @@ $D\\_{KL}
 	+	158	0
 	+	7	0
 	+	213	0
-
-> ~/college/m17/topics-ml/hw/3-gridworld/driver.py
-	*	1510636311	0
-	"	4	0
-	^	4	24
-	.	4	5
-	+	2	23
-	+	3	31
-	+	4	23
-	+	2	5
-	+	3	5
-	+	4	5
-
-> ~/college/m17/topics-ml/hw/3-gridworld/base/agent.py
-	*	1510628433	0
-	"	1	0
-	^	22	30
-	.	21	0
-	+	3	11
-	+	16	20
-	+	16	0
-	+	3	17
-	+	16	0
-	+	24	0
-	+	5	16
-	+	8	12
-	+	8	0
-	+	7	11
-	+	6	16
-	+	7	17
-	+	6	16
-	+	7	16
-	+	10	26
-	+	16	0
-	+	17	20
-	+	18	36
-	+	19	37
-	+	20	63
-	+	21	0
-	+	1	17
-	+	21	50
-	+	24	0
-	+	22	20
-	+	5	0
-	+	24	0
-	+	24	34
-	+	26	18
-	+	28	25
-	+	15	0
-	+	24	22
-	+	9	0
-	+	8	18
-	+	7	17
-	+	24	29
-	+	24	19
-	+	24	28
-	+	8	0
-	+	24	0
-	+	8	0
-	+	5	9
-	+	10	0
-	+	24	0
-	+	13	23
-	+	15	0
-	+	24	0
-	+	25	39
-	+	11	21
-	+	14	24
-	+	15	0
-	+	29	0
-	+	31	30
-	+	5	10
-	+	10	10
-	+	20	0
-	+	4	4
-	+	21	22
-	+	21	45
-	+	30	24
-	+	31	0
-	+	21	12
-	+	22	29
-	+	21	0

@@ -1,55 +1,63 @@
 
-xmonad.hs:32:1: warning: [-Wtabs]
+xmonad.hs:48:45: warning: [-Wdeprecations]
+    In the use of ‘defaultGSConfig’
+    (imported from XMonad.Actions.GridSelect):
+    Deprecated: "Use def (from Data.Default, and re-exported from XMonad.Actions.GridSelect) instead."
+   |
+48 |             ((mod4Mask, xK_g), goToSelected defaultGSConfig),
+   |                                             ^^^^^^^^^^^^^^^
+
+xmonad.hs:49:1: warning: [-Wtabs]
     Tab character found here, and in 32 further locations.
     Please use spaces instead.
    |
-32 |                         ((0 , ExtraKey.xF86XK_AudioMute), spawn "amixer -q set Master toggle"),
+49 |                         ((0 , ExtraKey.xF86XK_AudioMute), spawn "amixer -q set Master toggle"),
    | ^^^^^^^^
 
-xmonad.hs:58:21: warning: [-Wdeprecations]
+xmonad.hs:75:21: warning: [-Wdeprecations]
     In the use of ‘defaultTheme’
     (imported from XMonad.Layout.Tabbed, but defined in XMonad.Layout.Decoration):
     Deprecated: "Use def (from Data.Default, and re-exported by XMonad.Layout.Decoration) instead."
    |
-58 |     let tabConfig = defaultTheme {
+75 |     let tabConfig = defaultTheme {
    |                     ^^^^^^^^^^^^
 
-xmonad.hs:69:14: warning: [-Wdeprecations]
+xmonad.hs:86:53: warning: [-Wdeprecations]
     In the use of ‘defaultConfig’
     (imported from XMonad, but defined in XMonad.Config):
     Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
    |
-69 |     xmonad $ defaultConfig {
-   |              ^^^^^^^^^^^^^
+86 |     xmonad $ withUrgencyHook LibNotifyUrgencyHook $ defaultConfig {
+   |                                                     ^^^^^^^^^^^^^
 
-xmonad.hs:71:25: warning: [-Wdeprecations]
+xmonad.hs:88:25: warning: [-Wdeprecations]
     In the use of ‘defaultConfig’
     (imported from XMonad, but defined in XMonad.Config):
     Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
    |
-71 |             startupHook defaultConfig
+88 |             startupHook defaultConfig
    |                         ^^^^^^^^^^^^^
 
-xmonad.hs:74:85: warning: [-Wdeprecations]
+xmonad.hs:91:85: warning: [-Wdeprecations]
     In the use of ‘defaultConfig’
     (imported from XMonad, but defined in XMonad.Config):
     Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
    |
-74 |         manageHook = manageDocks <+> (isFullscreen --> doFullFloat)  <+> manageHook defaultConfig,
+91 |         manageHook = manageDocks <+> (isFullscreen --> doFullFloat)  <+> manageHook defaultConfig,
    |                                                                                     ^^^^^^^^^^^^^
 
-xmonad.hs:78:77: warning: [-Wdeprecations]
+xmonad.hs:95:77: warning: [-Wdeprecations]
     In the use of ‘defaultConfig’
     (imported from XMonad, but defined in XMonad.Config):
     Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
    |
-78 |                                 (tabbed shrinkText tabConfig ||| layoutHook defaultConfig),
+95 |                                 (tabbed shrinkText tabConfig ||| layoutHook defaultConfig),
    |                                                                             ^^^^^^^^^^^^^
 
-xmonad.hs:81:45: warning: [-Wdeprecations]
+xmonad.hs:98:45: warning: [-Wdeprecations]
     In the use of ‘defaultConfig’
     (imported from XMonad, but defined in XMonad.Config):
     Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
    |
-81 |                           , handleEventHook defaultConfig ],
+98 |                           , handleEventHook defaultConfig ],
    |                                             ^^^^^^^^^^^^^
